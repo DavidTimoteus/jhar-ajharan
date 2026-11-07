@@ -10,6 +10,7 @@ data (`#1D5FBF`) khusus ambang batas dan lensa taktik aktif.
 
 ## Fitur
 
+- **Akses langsung**: <https://davidtimoteus.github.io/jhar-ajharan/> (GitHub Pages, auto-deploy tiap push ke `master`).
 - **Mode Latihan** — bebas membuka taktik sebelum menjawab; umpan balik +
   pembahasan muncul seketika.
 - **Mode Simulasi CAT** — hint terkunci, hitung mundur ketat, hasil baru dibuka

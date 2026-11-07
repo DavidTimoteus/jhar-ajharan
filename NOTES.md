@@ -6,7 +6,7 @@
 ## Ringkas Sistem
 - **Stack:** Preact 10 + Vite 6 + TypeScript strict + vite-plugin-pwa (generateSW). Tanpa router eksternal (state-based di `src/lib/store.ts`), tanpa UI framework — CSS variable achromatic ledger.
 - **Skoring:** `binary` 5/0 (TWK, TIU, TKD, BHS) & `weighted` 1-5 (TKP, AKHLAK). Ambang CPNS: TWK 65, TIU 80, TKP 166 (KepmenPANRB 321/2024). Ambang BUMN: TKD 40, AKHLAK 30, BHS 30 (skala proporsional).
-- **Bank soal:** 189 soal — `cpns-skd-2024` (119: TWK 32/TIU 40/TKP 47), `rbb-bumn-2024` (40: TKD 20/AKHLAK 10/BHS 10), `taktis-kilat` (30 HOTS). Semua soal punya 4 lensa hint (kilat/eliminasi/logika/jebakan) yang DILARANG membocorkan huruf kunci sebelum menjawab.
+- **Bank soal:** 241 soal — `cpns-skd-2024` (119: TWK 32/TIU 40/TKP 47), `rbb-bumn-2024` (40: TKD 20/AKHLAK 10/BHS 10), `taktis-kilat` (30 HOTS), plus `contoh-soal-cpns` (12) & `rbb-bumn-2025` (40) yang berisi **soal ASLI dari publikasi bimbel/tryout** (KitaLulus, tryout.id, SkillAcademy, Dealls) dengan atribusi per soal (field `source`, badge "Sumber:" di pembahasan). Semua soal punya 4 lensa hint (kilat/eliminasi/logika/jebakan) yang DILARANG membocorkan huruf kunci sebelum menjawab.
 - **Penyimpanan:** IndexedDB (`jhar-ajharan` DB; stores `attempts`, `packs`, `kv`). Snapshot ekspor/impor `.json` untuk pindah perangkat tanpa akun.
 - **Tema:** default ikut sistem (`prefers-color-scheme`), override manual via localStorage `ja-theme` (system/light/dark).
 
