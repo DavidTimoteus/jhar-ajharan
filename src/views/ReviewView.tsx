@@ -205,6 +205,11 @@ export default function ReviewView({ attemptId, go }: Props) {
                     <div className="feedback correct">
                       <strong>Pembahasan:</strong>
                       <p>{q.explain}</p>
+                      {q.source && (
+                        <p className="muted small" style={{ marginTop: 6 }}>
+                          Sumber: {q.source}
+                        </p>
+                      )}
                     </div>
                     <p className="muted small">
                       Waktu Anda {fmtClock(a?.ms ?? 0)} · target {q.targetSec} dtk

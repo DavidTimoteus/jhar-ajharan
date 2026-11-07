@@ -16,6 +16,7 @@ from bank_twk import bank_twk
 from bank_tiu import bank_tiu
 from bank_tkp import bank_tkp
 from bank_bumn import bank_bumn_tkd, bank_bumn_akhlak, bank_bumn_bhs
+from bank_sumber import bank_cpns_kitalulus, bank_tkd_skillacademy, bank_bhs_dealls
 
 
 def pack(id_str, name, family, version, note, source, duration_min, subtests, questions):
@@ -100,6 +101,40 @@ def build():
     )
 
     packs = [cpns, bumn, kilat]
+
+    # ---- Paket Fresh 2025: soal BERSUMBER eksternal (bukan karangan) ----
+    cpns_2025 = pack(
+        "contoh-soal-cpns",
+        "Contoh Soal SKD CPNS (Sumber Bimbel)",
+        "cpns",
+        1,
+        "12 soal contoh asli dari publikasi latihan soal bimbel/tryout (KitaLulus & tryout.id) dengan kunci jawaban resmi dari sumber. Untuk soal TKP, urutan prioritas sumber diterjemahkan menjadi bobot 1-5.",
+        "Soal diambil dari: KitaLulus (kitalulus.com/blog/info-cpns/contoh-soal-skd-cpns-tiu-twk-tkp) dan tryout.id (tryout.id/berita/latihan-soal-cpns-terbaru-2025-...). Stem & kunci asli dipertahankan; opsi ke-5 ditambahkan sebagai pengecoh agar sesuai skema 5 opsi.",
+        30,
+        [
+            {"id": "twk", "name": "Tes Wawasan Kebangsaan", "scheme": "binary", "perCorrect": 5, "passMin": 65},
+            {"id": "tiu", "name": "Tes Intelegensi Umum", "scheme": "binary", "perCorrect": 5, "passMin": 80},
+            {"id": "tkp", "name": "Tes Karakteristik Pribadi", "scheme": "weighted", "passMin": 166},
+        ],
+        bank_cpns_kitalulus(),
+    )
+
+    bumn_2025 = pack(
+        "rbb-bumn-2025",
+        "RBB BUMN 2025 (Soal Asli TKD & B. Inggris)",
+        "bumn",
+        1,
+        "40 soal asli dari publikasi latihan bimbel: TKD BUMN (30 soal: verbal, penalaran) dari SkillAcademy dan Bahasa Inggris (10 soal structure) dari Dealls.",
+        "Soal diambil dari: SkillAcademy/Ruangguru (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya) dan Dealls (dealls.com/pengembangan-karir/tes-bahasa-inggris-bumn). Stem & kunci asli dipertahankan.",
+        45,
+        [
+            {"id": "tkd", "name": "Tes Kemampuan Dasar", "scheme": "binary", "perCorrect": 5, "passMin": 40},
+            {"id": "bhs", "name": "Bahasa Inggris", "scheme": "binary", "perCorrect": 5, "passMin": 30},
+        ],
+        bank_tkd_skillacademy() + bank_bhs_dealls(),
+    )
+
+    packs += [cpns_2025, bumn_2025]
     for p in packs:
         out = PACKS_DIR / f"{p['id']}.json"
         out.write_text(json.dumps(p, ensure_ascii=False, indent=2), encoding="utf-8")

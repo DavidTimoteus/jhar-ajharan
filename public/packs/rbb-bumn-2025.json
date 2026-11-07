@@ -1,0 +1,1430 @@
+{
+  "id": "rbb-bumn-2025",
+  "name": "RBB BUMN 2025 (Soal Asli TKD & B. Inggris)",
+  "family": "bumn",
+  "version": 1,
+  "updatedAt": "2026-11-07T00:00:00.000Z",
+  "note": "40 soal asli dari publikasi latihan bimbel: TKD BUMN (30 soal: verbal, penalaran) dari SkillAcademy dan Bahasa Inggris (10 soal structure) dari Dealls.",
+  "source": "Soal diambil dari: SkillAcademy/Ruangguru (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya) dan Dealls (dealls.com/pengembangan-karir/tes-bahasa-inggris-bumn). Stem & kunci asli dipertahankan.",
+  "config": {
+    "durationMin": 45,
+    "subtests": [
+      {
+        "id": "tkd",
+        "name": "Tes Kemampuan Dasar",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 40
+      },
+      {
+        "id": "bhs",
+        "name": "Bahasa Inggris",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 30
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "tkd-src-001",
+      "subtest": "tkd",
+      "topic": "sinonim",
+      "stem": "Boga = ....",
+      "options": [
+        "Dekorasi tataruang",
+        "Pakaian kebesaran",
+        "Pakaian pengantin",
+        "Tata rias",
+        "Makanan kenikmatan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Boga merujuk makanan/hidangan → sinonim 'makanan kenikmatan'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang bukan makanan: dekorasi, pakaian, tata rias."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: E. Boga merujuk makanan/hidangan → sinonim 'makanan kenikmatan'.",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 4
+    },
+    {
+      "id": "tkd-src-002",
+      "subtest": "tkd",
+      "topic": "sinonim",
+      "stem": "Praduga = ....",
+      "options": [
+        "Dugaan awal",
+        "Bukti konkret",
+        "Keputusan pasti",
+        "Fakta yang jelas",
+        "Pernyataan resmi"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Praduga = dugaan awal/perkiraan sebelum kepastian."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang berarti pasti/nyata - kebalikan praduga."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: A. Praduga = dugaan awal/perkiraan sebelum kepastian.",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 0
+    },
+    {
+      "id": "tkd-src-003",
+      "subtest": "tkd",
+      "topic": "antonim",
+      "stem": "Dermawan >< ....",
+      "options": [
+        "Pemurah",
+        "Murah hati",
+        "Kikir",
+        "Suka memberi",
+        "Sosial"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Dermawan = suka memberi → lawannya kikir."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang sinonim: pemurah, murah hati, suka memberi."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: C. Dermawan = suka memberi → lawannya kikir.",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 2
+    },
+    {
+      "id": "tkd-src-004",
+      "subtest": "tkd",
+      "topic": "antonim",
+      "stem": "Hipokrit >< ....",
+      "options": [
+        "Jujur",
+        "Pembohong",
+        "Sabar",
+        "Kamuflase",
+        "Terbuka"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hipokrit = munafik/berpura-pura → lawannya jujur."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang sinonim: pembohong, kamuflase."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: A. Hipokrit = munafik/berpura-pura → lawannya jujur.",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 0
+    },
+    {
+      "id": "tkd-src-005",
+      "subtest": "tkd",
+      "topic": "antonim",
+      "stem": "Morfem >< ....",
+      "options": [
+        "Forum",
+        "Lambang",
+        "Morse",
+        "Jantung",
+        "Fonem"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Morfem = satuan bentuk bahasa terkecil bermakna; lawannya fonem = satuan bunyi terkecil."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang bukan istilah linguistik: forum, morse, jantung, lambang."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: E. Morfem = satuan bentuk bahasa terkecil bermakna; lawannya fonem = satuan bunyi terkecil.",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 4
+    },
+    {
+      "id": "tkd-src-006",
+      "subtest": "tkd",
+      "topic": "analogi",
+      "stem": "Otonomi : Mandiri = ....",
+      "options": [
+        "Hardisk : VGA card",
+        "Sabun : Mandi",
+        "Cerdas : Banyak akal",
+        "Bensin : Mesin",
+        "Rakyat : Masyarakat"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Otonomi sama artinya dengan mandiri; cerdas sama artinya dengan banyak akal."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang bukan relasi sinonim."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: C. Otonomi sama artinya dengan mandiri; cerdas sama artinya dengan banyak akal.",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 2
+    },
+    {
+      "id": "tkd-src-007",
+      "subtest": "tkd",
+      "topic": "analogi",
+      "stem": "Pemerintah : Perpu = ....",
+      "options": [
+        "Buruh : Demokrasi",
+        "Makan : Kenyang",
+        "MPR : UU",
+        "Hakim : Jaksa",
+        "Menteri : Kepres"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pemerintah mengesahkan Perpu; MPR mengesahkan UU."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang bukan relasi lembaga-produk hukum."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: C. Pemerintah mengesahkan Perpu; MPR mengesahkan UU.",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 2
+    },
+    {
+      "id": "tkd-src-008",
+      "subtest": "tkd",
+      "topic": "analogi",
+      "stem": "Jatuh : Sakit = Mengantuk : ....",
+      "options": [
+        "Berjalan",
+        "Tidur",
+        "Kalori",
+        "Teriakan",
+        "Tersenyum"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jatuh mengakibatkan sakit; mengantuk mengakibatkan tidur."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang bukan akibat dari mengantuk."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: B. Jatuh mengakibatkan sakit; mengantuk mengakibatkan tidur.",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 1
+    },
+    {
+      "id": "tkd-src-009",
+      "subtest": "tkd",
+      "topic": "analogi",
+      "stem": "Rokok : Asbak = Air : ....",
+      "options": [
+        "Pancur",
+        "Selokan",
+        "Ember",
+        "Selang",
+        "Keran"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Tempat menampung rokok = asbak; tempat menampung air = ember."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang bukan wadah: pancur, selokan, selang, keran."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: C. Tempat menampung rokok = asbak; tempat menampung air = ember.",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 2
+    },
+    {
+      "id": "tkd-src-010",
+      "subtest": "tkd",
+      "topic": "analogi",
+      "stem": "1 Minggu : 7 Hari = 1 Hari : ....",
+      "options": [
+        "3.600 menit",
+        "60 detik",
+        "68.400 detik",
+        "1.440 menit",
+        "365 hari"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "1 minggu terdiri dari 7 hari; 1 hari terdiri dari 1.440 menit."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang salah konversi: 60 detik, 3.600 menit."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: D. 1 minggu terdiri dari 7 hari; 1 hari terdiri dari 1.440 menit.",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 3
+    },
+    {
+      "id": "tkd-src-011",
+      "subtest": "tkd",
+      "topic": "ketidaksamaan",
+      "stem": "Mana yang tidak masuk kelompoknya?",
+      "options": [
+        "Perseteruan",
+        "Pertengkaran",
+        "Pertikaian",
+        "Penyelarasan",
+        "Persaingan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Semua bermakna permusuhan kecuali 'penyelarasan' (positif)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kenali kata bernada negatif vs positif."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: D. Semua bermakna permusuhan kecuali 'penyelarasan' (positif).",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 3
+    },
+    {
+      "id": "tkd-src-012",
+      "subtest": "tkd",
+      "topic": "ketidaksamaan",
+      "stem": "Mana yang tidak masuk kelompoknya?",
+      "options": [
+        "Penyelidikan",
+        "Pengusutan",
+        "Penelitian",
+        "Pemeriksaan",
+        "Penuntutan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Semua setara investigasi kecuali 'penuntutan'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang bukan sinonim investigasi."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: E. Semua setara investigasi kecuali 'penuntutan'.",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 4
+    },
+    {
+      "id": "tkd-src-013",
+      "subtest": "tkd",
+      "topic": "ketidaksamaan",
+      "stem": "Mana yang tidak masuk kelompoknya?",
+      "options": [
+        "Srimpi",
+        "Kecak",
+        "Pendet",
+        "Jaipong",
+        "Angklung"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Semua tarian daerah kecuali angklung (alat musik)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kenali kategori: tari vs alat musik."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: E. Semua tarian daerah kecuali angklung (alat musik).",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 4
+    },
+    {
+      "id": "tkd-src-014",
+      "subtest": "tkd",
+      "topic": "ketidaksamaan",
+      "stem": "Mana yang tidak masuk kelompoknya?",
+      "options": [
+        "Megawati",
+        "Sudharmono",
+        "Soekarno",
+        "Soeharto",
+        "Abdurrahman Wahid"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Semua mantan presiden RI kecuali Sudharmono."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sudharmono adalah wakil presiden, bukan presiden."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: B. Semua mantan presiden RI kecuali Sudharmono.",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 1
+    },
+    {
+      "id": "tkd-src-015",
+      "subtest": "tkd",
+      "topic": "ketidaksamaan",
+      "stem": "Pilihlah yang tidak termasuk kelompoknya!",
+      "options": [
+        "Einstein",
+        "W. Shakespeare",
+        "Graham Bell",
+        "T. Alfa Edison",
+        "James Watt"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Semua ilmuwan/penemu kecuali Shakespeare (penulis)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kenali profesi: penemu vs sastrawan."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: B. Semua ilmuwan/penemu kecuali Shakespeare (penulis).",
+      "targetSec": 35,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 1
+    },
+    {
+      "id": "tkd-src-016",
+      "subtest": "tkd",
+      "topic": "silogisme",
+      "stem": "Semua dosen adalah pegawai negeri. Sebagian dosen adalah seniman. Yang tidak cocok dengan pernyataan tersebut adalah ....",
+      "options": [
+        "Sebagian seniman adalah pegawai negeri",
+        "Sebagian pegawai negeri adalah dosen",
+        "Sebagian seniman adalah dosen",
+        "Semua seniman adalah pegawai negeri",
+        "Sebagian dosen bukan seniman"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Premis tidak menjamin semua seniman adalah pegawai negeri → pernyataan D tidak cocok."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang konsisten dengan premis (A, B, C)."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: D. Premis tidak menjamin semua seniman adalah pegawai negeri → pernyataan D tidak cocok.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 3
+    },
+    {
+      "id": "tkd-src-017",
+      "subtest": "tkd",
+      "topic": "silogisme",
+      "stem": "Semua Y adalah P. Sebagian Y adalah R. Jadi ....",
+      "options": [
+        "Semua Y yang bukan P adalah R",
+        "Semua Y yang bukan R adalah P",
+        "Semua R yang bukan Y adalah P",
+        "Sebagian Y yang bukan R adalah P",
+        "Semua Y adalah R"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Karena semua Y adalah P, maka Y yang bukan R tetap P → B."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang bertentangan: A (Y pasti P), E (tidak semua Y=R)."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: B. Karena semua Y adalah P, maka Y yang bukan R tetap P → B.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 1
+    },
+    {
+      "id": "tkd-src-018",
+      "subtest": "tkd",
+      "topic": "silogisme",
+      "stem": "Semua kertas gambar sangat berguna. Sebagian kertas yang sangat berguna harganya murah, jadi ....",
+      "options": [
+        "Semua kertas gambar harganya murah",
+        "Semua kertas yang harganya murah adalah kertas gambar",
+        "Sebagian kertas harganya murah",
+        "Kertas yang murah sangat berguna",
+        "Semua kertas yang murah adalah kertas gambar"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Dari premis, yang pasti: sebagian kertas (yang sangat berguna) harganya murah → C."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang melampaui: A, B, E, D."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: C. Dari premis, yang pasti: sebagian kertas (yang sangat berguna) harganya murah → C.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 2
+    },
+    {
+      "id": "tkd-src-019",
+      "subtest": "tkd",
+      "topic": "silogisme",
+      "stem": "Sebagian P adalah B. B bukan T. Sebagian P bukan M adalah T. Semua B, M, dan T adalah P. Jadi ....",
+      "options": [
+        "Semua T adalah T bukan M",
+        "Semua P adalah B bukan T",
+        "Semua P bukan B bukan M",
+        "Sebagian P bukan T, bukan M, bukan B",
+        "Semua B adalah M"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Gambarkan Venn: sebagian P berada di luar B, M, dan T → D."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang absolut tanpa dukungan premis."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: D. Gambarkan Venn: sebagian P berada di luar B, M, dan T → D.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 3
+    },
+    {
+      "id": "tkd-src-020",
+      "subtest": "tkd",
+      "topic": "silogisme",
+      "stem": "Semua musim berlangsung selama tiga bulan. Sebagian musim terasa dingin. Jadi, ....",
+      "options": [
+        "Semua musim yang terasa dingin berlangsung selama tiga bulan",
+        "Tidak semua musim berlangsung tiga bulan",
+        "Semua musim terasa dingin dalam tiga bulan",
+        "Sebagian musim tidak berlangsung selama tiga bulan",
+        "Musim dingin bukan musim"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Musim yang dingin adalah bagian dari 'semua musim' yang berlangsung 3 bulan → A."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang kontradiktif: B, D, E."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: A. Musim yang dingin adalah bagian dari 'semua musim' yang berlangsung 3 bulan → A.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 0
+    },
+    {
+      "id": "tkd-src-021",
+      "subtest": "tkd",
+      "topic": "analisis",
+      "stem": "Ikan kakap merah bergizi dan indah penampilannya. Ikan tuna rasanya enak tapi membosankan. Udang walau kecil-kecil, tetapi nilai gizinya lebih tinggi daripada kakap merah. Bandeng memiliki gizi lebih baik dari tuna, tetapi biasanya tidak segar. Hidangan yang menarik dan bergizi adalah ....",
+      "options": [
+        "Ikan kakap merah dan udang",
+        "Bandeng dan kakap merah",
+        "Ikan tuna dan bandeng",
+        "Udang dan bandeng",
+        "Ikan tuna dan udang"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat tabel: gizi tinggi = udang & kakap; menarik = kakap & udang → keduanya memenuhi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang memuat bandeng (tidak segar) atau tuna (membosankan)."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: A. Buat tabel: gizi tinggi = udang & kakap; menarik = kakap & udang → keduanya memenuhi.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 0
+    },
+    {
+      "id": "tkd-src-022",
+      "subtest": "tkd",
+      "topic": "analisis",
+      "stem": "Dalam satu kelas ada sejumlah anak yang menyukai olahraga. Lisa suka bola voli dan tidak suka atletik. Dino suka basket dan voli. Pardi suka semua olahraga kecuali voli. Susi suka olahraga tanpa bola. Gino suka olahraga dengan bola. Mereka yang menyukai olahraga voli adalah ....",
+      "options": [
+        "Dino, Gino, dan Lisa",
+        "Pardi, Gino, dan Lisa",
+        "Susi, Gino, dan Dino",
+        "Dino, Susi, dan Lisa",
+        "Pardi, Susi, dan Lisa"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Coret yang tidak suka bola: Pardi (anti-voli) dan Susi (tanpa bola) → tersisa Lisa, Dino, Gino."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang memuat Pardi/Susi."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: A. Coret yang tidak suka bola: Pardi (anti-voli) dan Susi (tanpa bola) → tersisa Lisa, Dino, Gino.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 0
+    },
+    {
+      "id": "tkd-src-023",
+      "subtest": "tkd",
+      "topic": "silogisme",
+      "stem": "Semua U bukan B. Sebagian U adalah C. Jadi, ....",
+      "options": [
+        "Sebagian U adalah C bukan B",
+        "Semua U bukan B dan C",
+        "Sebagian U bukan C adalah B",
+        "Semua U adalah C",
+        "Semua C adalah U"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "U yang C tetap bukan B (karena semua U bukan B) → A."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang bertentangan: B, C, D, E."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: A. U yang C tetap bukan B (karena semua U bukan B) → A.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 0
+    },
+    {
+      "id": "tkd-src-024",
+      "subtest": "tkd",
+      "topic": "silogisme",
+      "stem": "Jika A = B maka A tidak sama dengan C. Bila P = A maka ....",
+      "options": [
+        "Bila P = C maka P = B",
+        "Bila P = C maka P tidak sama dengan A",
+        "Bila P = C maka P tidak sama dengan B",
+        "Bila P = C maka P = A = B",
+        "Bila P = C maka P = A"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "P = A dan A ≠ C; jika P = C, maka P ≠ B (karena A≠C berarti P≠C? tinjau: P=A, A≠C, dan A=B → P≠C; jika P=C bertentangan, yang valid: P tidak sama dengan B)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Uji tiap opsi terhadap premis A=B dan A≠C."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: C. P = A dan A ≠ C; jika P = C, maka P ≠ B (karena A≠C berarti P≠C? tinjau: P=A, A≠C, dan A=B → P≠C; jika P=C bertentangan, yang valid: P tidak sama dengan B).",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 2
+    },
+    {
+      "id": "tkd-src-025",
+      "subtest": "tkd",
+      "topic": "silogisme",
+      "stem": "Jika tidak benar dikatakan 'bahwa semua orang tentu berbahagia' maka ....",
+      "options": [
+        "Semua orang akan tidak bahagia",
+        "Tidak semua orang mengerti bahagia",
+        "Sebagian orang akan berbahagia",
+        "Tak semua orang tidak mengerti bahagia",
+        "Tidak ada orang yang bahagia"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Negasi 'semua orang bahagia' = 'sebagian orang tidak bahagia' → sebagian orang akan berbahagia."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang absolut: A, E."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: C. Negasi 'semua orang bahagia' = 'sebagian orang tidak bahagia' → sebagian orang akan berbahagia.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 2
+    },
+    {
+      "id": "tkd-src-026",
+      "subtest": "tkd",
+      "topic": "analisis",
+      "stem": "Pada iklan panas tumbuh pohon getah dan karet. Semak dan rumput hanya tumbuh di tempat dingin. Rumput dan karet membutuhkan banyak kelembapan. Semak dan pohon getah hanya tumbuh di daerah cukup kering. Di dekat Sungai Amazon sangat panas dan lembap. Tumbuh-tumbuhan yang tumbuh di dekat Sungai Amazon adalah ....",
+      "options": [
+        "Pohon-pohon getah dan semak",
+        "Pohon karet",
+        "Rumput",
+        "Jawaban A, B, dan C salah",
+        "Pohon getah dan rumput"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Amazon panas + lembap: karet butuh panas + lembap → pohon karet."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang butuh dingin/kering: semak, rumput, getah."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: B. Amazon panas + lembap: karet butuh panas + lembap → pohon karet.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 1
+    },
+    {
+      "id": "tkd-src-027",
+      "subtest": "tkd",
+      "topic": "silogisme",
+      "stem": "Semua ban terbuat dari karet. Semua karet bersifat elastis. Sebagian karet berwarna hitam, jadi ....",
+      "options": [
+        "Semua ban elastis dan terbuat dari karet",
+        "Semua ban berwarna hitam",
+        "Semua ban elastis berwarna hitam",
+        "Sebagian ban berwarna hitam terbuat dari karet",
+        "Ban tidak elastis"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Semua ban = karet = elastis → A."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang hanya sebagian/bertentangan."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: A. Semua ban = karet = elastis → A.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 0
+    },
+    {
+      "id": "tkd-src-028",
+      "subtest": "tkd",
+      "topic": "silogisme",
+      "stem": "Beberapa benda yang memuai adalah logam. Semua logam adalah benda padat, jadi ....",
+      "options": [
+        "Hanya logam yang memuai merupakan benda padat",
+        "Benda yang bukan logam tidak memuai",
+        "Beberapa benda padat dapat memuai",
+        "Benda padat dapat memuai",
+        "Semua benda padat memuai"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Logam (yang memuai) adalah benda padat → sebagian benda padat memuai."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang absolut: A, B, D, E."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: C. Logam (yang memuai) adalah benda padat → sebagian benda padat memuai.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 2
+    },
+    {
+      "id": "tkd-src-029",
+      "subtest": "tkd",
+      "topic": "silogisme",
+      "stem": "Semua guru adalah pegawai negeri. Sebagian guru adalah penulis. Manakah yang tidak cocok dengan pernyataan ini?",
+      "options": [
+        "Sebagian penulis adalah pegawai negeri",
+        "Sebagian pegawai negeri adalah guru",
+        "Sebagian penulis adalah guru",
+        "Semua penulis adalah pegawai negeri",
+        "Sebagian guru bukan penulis"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Premis tidak menjamin semua penulis adalah pegawai negeri → D tidak cocok."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang konsisten: A, B, C, E."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: D. Premis tidak menjamin semua penulis adalah pegawai negeri → D tidak cocok.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 3
+    },
+    {
+      "id": "tkd-src-030",
+      "subtest": "tkd",
+      "topic": "silogisme",
+      "stem": "Misalkan semua X adalah A. Sebagian X adalah B, jadi ....",
+      "options": [
+        "Semua X yang bukan A adalah B",
+        "Semua X yang bukan B adalah A",
+        "Semua B yang bukan X adalah A",
+        "Sebagian A yang bukan X adalah B",
+        "Semua A adalah X"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Karena semua X adalah A, X yang bukan B tetap A → B."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang bertentangan: A, C, D, E."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: B. Karena semua X adalah A, X yang bukan B tetap A → B.",
+      "targetSec": 45,
+      "source": "SkillAcademy (Ruangguru) — Contoh Soal Tes BUMN (TKD) (blog.skillacademy.com/contoh-soal-tes-bumn-tkd-dan-pembahasannya)",
+      "key": 1
+    },
+    {
+      "id": "bhs-src-001",
+      "subtest": "bhs",
+      "topic": "structure",
+      "stem": "He was so tired that he ______ asleep during the movie.",
+      "options": [
+        "Falls",
+        "Falling",
+        "Fell",
+        "Fall",
+        "Fallen"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kalimat lampau + 'so tired that' → past tense 'fell'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang non-past: falls, falling, fall, fallen."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: C. Kalimat lampau + 'so tired that' → past tense 'fell'.",
+      "targetSec": 40,
+      "source": "Dealls — 85+ Contoh Soal Tes Bahasa Inggris BUMN 2025 (dealls.com/pengembangan-karir/tes-bahasa-inggris-bumn)",
+      "key": 2
+    },
+    {
+      "id": "bhs-src-002",
+      "subtest": "bhs",
+      "topic": "structure",
+      "stem": "The teacher asked the students ______ quietly during the exam.",
+      "options": [
+        "To work",
+        "Working",
+        "Work",
+        "Works",
+        "Worked"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "ask + objek + to-infinitif → 'to work'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang bukan infinitif."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: A. ask + objek + to-infinitif → 'to work'.",
+      "targetSec": 40,
+      "source": "Dealls — 85+ Contoh Soal Tes Bahasa Inggris BUMN 2025 (dealls.com/pengembangan-karir/tes-bahasa-inggris-bumn)",
+      "key": 0
+    },
+    {
+      "id": "bhs-src-003",
+      "subtest": "bhs",
+      "topic": "structure",
+      "stem": "They ______ in the library when I last saw them.",
+      "options": [
+        "Were studying",
+        "Studying",
+        "Studied",
+        "Are studying",
+        "Lot"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'when I last saw' (past) → past continuous 'were studying'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang bukan past continuous."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: A. 'when I last saw' (past) → past continuous 'were studying'.",
+      "targetSec": 40,
+      "source": "Dealls — 85+ Contoh Soal Tes Bahasa Inggris BUMN 2025 (dealls.com/pengembangan-karir/tes-bahasa-inggris-bumn)",
+      "key": 0
+    },
+    {
+      "id": "bhs-src-004",
+      "subtest": "bhs",
+      "topic": "structure",
+      "stem": "______ of the students passed the final exam.",
+      "options": [
+        "Many",
+        "Some",
+        "Few",
+        "Much",
+        "Lot"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Countable plural 'students' → 'many'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang 'much' (uncountable) dan 'lot' (kurang tepat)."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: A. Countable plural 'students' → 'many'.",
+      "targetSec": 40,
+      "source": "Dealls — 85+ Contoh Soal Tes Bahasa Inggris BUMN 2025 (dealls.com/pengembangan-karir/tes-bahasa-inggris-bumn)",
+      "key": 0
+    },
+    {
+      "id": "bhs-src-005",
+      "subtest": "bhs",
+      "topic": "structure",
+      "stem": "Could you please hand me ______ book on the table?",
+      "options": [
+        "The",
+        "An",
+        "A",
+        "That",
+        "This"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buku spesifik di meja → definite article 'the'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang indefinite 'a/an'."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: A. Buku spesifik di meja → definite article 'the'.",
+      "targetSec": 40,
+      "source": "Dealls — 85+ Contoh Soal Tes Bahasa Inggris BUMN 2025 (dealls.com/pengembangan-karir/tes-bahasa-inggris-bumn)",
+      "key": 0
+    },
+    {
+      "id": "bhs-src-006",
+      "subtest": "bhs",
+      "topic": "structure",
+      "stem": "She is not ______ to attend the meeting.",
+      "options": [
+        "Can",
+        "Able",
+        "Can't",
+        "Ability",
+        "Capable"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'is not able to' = pola adjective 'able'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang 'can' (perlu to be+can salah), 'can't' (ganda negatif)."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: B. 'is not able to' = pola adjective 'able'.",
+      "targetSec": 40,
+      "source": "Dealls — 85+ Contoh Soal Tes Bahasa Inggris BUMN 2025 (dealls.com/pengembangan-karir/tes-bahasa-inggris-bumn)",
+      "key": 1
+    },
+    {
+      "id": "bhs-src-007",
+      "subtest": "bhs",
+      "topic": "structure",
+      "stem": "The CEO expressed ______ satisfaction with the company's performance.",
+      "options": [
+        "His",
+        "He",
+        "Her",
+        "Their",
+        "Them"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Possessive adjective sebelum noun → 'his'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang pronoun subjek/objek."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: A. Possessive adjective sebelum noun → 'his'.",
+      "targetSec": 40,
+      "source": "Dealls — 85+ Contoh Soal Tes Bahasa Inggris BUMN 2025 (dealls.com/pengembangan-karir/tes-bahasa-inggris-bumn)",
+      "key": 0
+    },
+    {
+      "id": "bhs-src-008",
+      "subtest": "bhs",
+      "topic": "structure",
+      "stem": "He ______ a letter when I called him.",
+      "options": [
+        "Writes",
+        "Writing",
+        "Write",
+        "Was writing",
+        "Wrote"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'when I called' (past) → past continuous 'was writing'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang non-past dan bentuk salah."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: D. 'when I called' (past) → past continuous 'was writing'.",
+      "targetSec": 40,
+      "source": "Dealls — 85+ Contoh Soal Tes Bahasa Inggris BUMN 2025 (dealls.com/pengembangan-karir/tes-bahasa-inggris-bumn)",
+      "key": 3
+    },
+    {
+      "id": "bhs-src-009",
+      "subtest": "bhs",
+      "topic": "structure",
+      "stem": "She is the person ______ helped me yesterday.",
+      "options": [
+        "Who",
+        "Whom",
+        "Which",
+        "That",
+        "Whose"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Subjek relatif untuk orang → 'who'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang 'whom' (objek), 'which' (benda)."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: A. Subjek relatif untuk orang → 'who'.",
+      "targetSec": 40,
+      "source": "Dealls — 85+ Contoh Soal Tes Bahasa Inggris BUMN 2025 (dealls.com/pengembangan-karir/tes-bahasa-inggris-bumn)",
+      "key": 0
+    },
+    {
+      "id": "bhs-src-010",
+      "subtest": "bhs",
+      "topic": "structure",
+      "stem": "The manager asked me if I ______ to the meeting.",
+      "options": [
+        "Come",
+        "Comes",
+        "Coming",
+        "Came",
+        "To come"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Past reported speech → past tense 'came'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang non-past dan infinitif."
+        },
+        {
+          "lens": "logika",
+          "text": "Terapkan prinsip penyelesaian yang sistematis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Jawaban kunci dari sumber: D. Past reported speech → past tense 'came'.",
+      "targetSec": 40,
+      "source": "Dealls — 85+ Contoh Soal Tes Bahasa Inggris BUMN 2025 (dealls.com/pengembangan-karir/tes-bahasa-inggris-bumn)",
+      "key": 3
+    }
+  ]
+}

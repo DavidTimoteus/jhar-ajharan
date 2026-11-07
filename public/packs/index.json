@@ -25,5 +25,23 @@
     "updatedAt": "2026-11-07T00:00:00.000Z",
     "file": "taktis-kilat.json",
     "count": 30
+  },
+  {
+    "id": "contoh-soal-cpns",
+    "name": "Contoh Soal SKD CPNS (Sumber Bimbel)",
+    "family": "cpns",
+    "version": 1,
+    "updatedAt": "2026-11-07T00:00:00.000Z",
+    "file": "contoh-soal-cpns.json",
+    "count": 12
+  },
+  {
+    "id": "rbb-bumn-2025",
+    "name": "RBB BUMN 2025 (Soal Asli TKD & B. Inggris)",
+    "family": "bumn",
+    "version": 1,
+    "updatedAt": "2026-11-07T00:00:00.000Z",
+    "file": "rbb-bumn-2025.json",
+    "count": 40
   }
 ]

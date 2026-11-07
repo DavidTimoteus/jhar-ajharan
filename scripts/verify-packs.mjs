@@ -14,6 +14,7 @@ const index = JSON.parse(fs.readFileSync(INDEX_PATH, 'utf-8'));
 console.log(`📋 Memeriksa ${index.length} paket di katalog...`);
 
 let totalQuestions = 0;
+let sourced = 0;
 let errors = 0;
 
 for (const meta of index) {
@@ -39,6 +40,7 @@ for (const meta of index) {
   const seenIds = new Set();
 
   pack.questions.forEach((q, idx) => {
+    if (q.source) sourced++;
     if (seenIds.has(q.id)) {
       console.error(`   ❌ ID duplikat: ${q.id} (nomor ${idx + 1})`);
       errors++;
@@ -83,5 +85,5 @@ if (errors > 0) {
   console.error(`\n❌ Verifikasi GAGAL dengan ${errors} kesalahan.`);
   process.exit(1);
 } else {
-  console.log(`\n✅ Seluruh ${index.length} paket valid! Total ${totalQuestions} soal terverifikasi.`);
+  console.log(`\n✅ Seluruh ${index.length} paket valid! Total ${totalQuestions} soal terverifikasi (${sourced} soal dengan atribusi sumber eksternal).`);
 }

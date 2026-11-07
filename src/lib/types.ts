@@ -19,6 +19,7 @@ export interface Question {
   hints: Hint[];
   explain: string; // pembahasan lengkap, hanya tampil setelah menjawab
   targetSec: number; // target waktu ideal
+  source?: string; // atribusi sumber soal (untuk soal yang diambil dari publikasi eksternal)
 }
 
 export interface SubtestConfig {

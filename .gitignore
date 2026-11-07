@@ -6,3 +6,5 @@ snapshots/
 .taste-skill/
 *.log
 .DS_Store
+scripts/__pycache__/
+.sentrux/

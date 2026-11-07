@@ -1,0 +1,480 @@
+{
+  "id": "contoh-soal-cpns",
+  "name": "Contoh Soal SKD CPNS (Sumber Bimbel)",
+  "family": "cpns",
+  "version": 1,
+  "updatedAt": "2026-11-07T00:00:00.000Z",
+  "note": "12 soal contoh asli dari publikasi latihan soal bimbel/tryout (KitaLulus & tryout.id) dengan kunci jawaban resmi dari sumber. Untuk soal TKP, urutan prioritas sumber diterjemahkan menjadi bobot 1-5.",
+  "source": "Soal diambil dari: KitaLulus (kitalulus.com/blog/info-cpns/contoh-soal-skd-cpns-tiu-twk-tkp) dan tryout.id (tryout.id/berita/latihan-soal-cpns-terbaru-2025-...). Stem & kunci asli dipertahankan; opsi ke-5 ditambahkan sebagai pengecoh agar sesuai skema 5 opsi.",
+  "config": {
+    "durationMin": 30,
+    "subtests": [
+      {
+        "id": "twk",
+        "name": "Tes Wawasan Kebangsaan",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 65
+      },
+      {
+        "id": "tiu",
+        "name": "Tes Intelegensi Umum",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 80
+      },
+      {
+        "id": "tkp",
+        "name": "Tes Karakteristik Pribadi",
+        "scheme": "weighted",
+        "passMin": 166
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "tiu-src-001",
+      "subtest": "tiu",
+      "topic": "aritmetika",
+      "stem": "Sari dan Ratih memiliki suatu pekerjaan. Waktu yang dibutuhkan oleh Sari dalam menghasilkan uang adalah 21 menit, sedangkan Ratih membutuhkan waktu 42 menit. Jika Sari dan Ratih bekerja bersama-sama untuk menghasilkan uang, waktu yang dibutuhkan adalah ...",
+      "options": [
+        "14 menit",
+        "21 menit",
+        "28 menit",
+        "35 menit",
+        "42 menit"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus kerja bersama t = (a×b)/(a+b) = (21×42)/(21+42) = 882/63 = 14 menit."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Hasil harus kurang dari waktu tercepat (21) → buang B, C, D, E."
+        },
+        {
+          "lens": "logika",
+          "text": "Laju gabungan = 1/21 + 1/42 = 3/42 = 1/14 → total 14 menit."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Rumus kerja bersama: t = (a×b)/(a+b). Dengan a=21, b=42: (21×42)/(21+42) = 882/63 = 14 menit. Jawaban A.",
+      "targetSec": 45,
+      "source": "KitaLulus — Contoh Soal SKD CPNS (kitalulus.com/blog/info-cpns/contoh-soal-skd-cpns-tiu-twk-tkp)",
+      "key": 0
+    },
+    {
+      "id": "tiu-src-002",
+      "subtest": "tiu",
+      "topic": "logika",
+      "stem": "Prestasi Intan lebih tinggi dari Dini dan lebih rendah dari Tina. Prestasi Cantik lebih rendah dari Intan, tetapi lebih tinggi dari Dini. Prestasi Dani lebih tinggi dari Dini dan Cantik. Tiga orang berprestasi terbaik adalah ...",
+      "options": [
+        "Dani, Intan, Tina",
+        "Dani, Dini, Tina",
+        "Intan, Tina, Cantik",
+        "Intan, Dani, Cantik",
+        "Tina, Cantik, Dini"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Urutkan: Tina > Intan > Cantik/Dani > Dini. Tiga terbaik = Dani, Intan, Tina (urutan bisa saja Dani di atas Intan)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang memuat Dini atau Cantik di tiga teratas - keduanya di bawah Intan."
+        },
+        {
+          "lens": "logika",
+          "text": "Gambar garis ranking dari setiap klausa, lalu gabungkan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Dari klausa: Tina > Intan > Dini; Intan > Cantik > Dini; Dani > Dini dan Dani > Cantik. Tiga terbaik adalah Dani, Intan, Tina. Jawaban A.",
+      "targetSec": 50,
+      "source": "KitaLulus — Contoh Soal SKD CPNS (kitalulus.com/blog/info-cpns/contoh-soal-skd-cpns-tiu-twk-tkp)",
+      "key": 0
+    },
+    {
+      "id": "tiu-src-003",
+      "subtest": "tiu",
+      "topic": "analogi",
+      "stem": "Afrika Selatan : Pretoria = ... : ...",
+      "options": [
+        "Kanada : Canberra",
+        "Ekuador : Quito",
+        "Kamerun : Astana",
+        "Maroko : Cetinje",
+        "Nigeria : Wellington"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Relasi negara : ibu kota. Pretoria = ibu kota Afrika Selatan; Quito = ibu kota Ekuador."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Ibu kota Kanada = Ottawa, Kamerun = Yaounde, Maroko = Rabat, Nigeria = Abuja - buang semuanya."
+        },
+        {
+          "lens": "logika",
+          "text": "Hafalkan pasangan ibu kota negara: Ekuador-Quito adalah pasangan benar."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Hubungan analogi: ibu kota suatu negara. Afrika Selatan beribu kota Pretoria; Ekuador beribu kota Quito. Jawaban B.",
+      "targetSec": 45,
+      "source": "KitaLulus — Contoh Soal SKD CPNS (kitalulus.com/blog/info-cpns/contoh-soal-skd-cpns-tiu-twk-tkp)",
+      "key": 1
+    },
+    {
+      "id": "tkp-src-001",
+      "subtest": "tkp",
+      "topic": "jejaring",
+      "stem": "Ketika pemilihan kepala desa sedang berlangsung di tempat tinggal Anda, nenek Anda yang mempunyai hak pilih dalam pemilihan kepala desa tetapi pada saat pencoblosan nenek dirawat di rumah sakit. Apa yang Anda lakukan...",
+      "options": [
+        "Melaporkan keadaan nenek kepada panitia pemungutan suara",
+        "Melaporkan keadaan nenek kepada panitia pemungutan suara untuk menentukan langkah yang harus ditempuh",
+        "Melaporkan dan menginformasikan kondisi nenek kepada panitia pemungutan suara untuk diwakilkan Anda menggunakan hak pilihnya",
+        "Melaporkan keadaan nenek kepada panitia pemungutan suara untuk meminta tolong orang lain menggunakan hak pilihnya",
+        "Membiarkan hak suara nenek hangus"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hak pilih bersifat personal dan tidak bisa diwakilkan. Urutan terbaik: B (lapor + tentukan langkah), lalu A."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang E (hangus) dan opsi yang meminta orang lain mewakili hak pilih."
+        },
+        {
+          "lens": "logika",
+          "text": "Jejaring kerja sama dengan panitia: laporkan kondisi dan cari langkah bersama."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Hak pilih personal dan tidak bisa diwakilkan. E tidak solutif; opsi meminta diwakilkan salah; terbaik B (melapor + menentukan langkah), disusul A. Bobot: B=5, A=4, C=3, D=2, E=1.",
+      "targetSec": 45,
+      "source": "KitaLulus — Contoh Soal SKD CPNS (kitalulus.com/blog/info-cpns/contoh-soal-skd-cpns-tiu-twk-tkp)",
+      "weights": [
+        4,
+        5,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "tkp-src-002",
+      "subtest": "tkp",
+      "topic": "profesional",
+      "stem": "Edi baru saja diterima bekerja di salah satu pabrik pengolahan kayu. Sebagai pegawai baru, Edi belum terlalu mengenal jenis-jenis pekerjaan. Suatu malam, Edi ditugaskan manajernya menyelesaikan tugas rekan yang tiba-tiba berhenti bekerja. Menurut Anda, apa yang harus dilakukan Edi?",
+      "options": [
+        "Meminta orang lain mengerjakan asalkan bisa selesai tepat waktu",
+        "Segera berusaha memulai dan menyelesaikan sebisanya saja yang penting selesai",
+        "Tidak perlu buru-buru menyelesaikannya karena pekerjaan tersebut bukan tugas pokoknya",
+        "Segera berusaha memulai untuk menyelesaikan tugas itu dan berusaha menyelesaikannya sesempurna mungkin",
+        "Mempertanyakan dan menegosiasi manajernya karena merasa takut hasilnya tidak maksimal"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Profesionalisme = melaksanakan tugas sebaik mungkin secara maksimal. Terbaik D, lalu E (negosiasi/komunikasi)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang A (minta orang lain = tidak profesional), B (sebisanya = tidak maksimal), C (meremehkan tugas)."
+        },
+        {
+          "lens": "logika",
+          "text": "Sikap ideal: kerjakan tupoksi sebaik mungkin + komunikasi dengan atasan bila ragu."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "D = mulai & selesaikan sesempurna mungkin (5), E = menegosiasi karena komunikasi (4), B = sebisanya (3), A = minta orang lain (2), C = menunda (1). Jawaban urutan DEBAC.",
+      "targetSec": 45,
+      "source": "KitaLulus — Contoh Soal SKD CPNS (kitalulus.com/blog/info-cpns/contoh-soal-skd-cpns-tiu-twk-tkp)",
+      "weights": [
+        2,
+        3,
+        1,
+        5,
+        4
+      ]
+    },
+    {
+      "id": "tkp-src-003",
+      "subtest": "tkp",
+      "topic": "profesional",
+      "stem": "Anda ditunjuk sebagai ketua kegiatan. Atasan memberikan tugas menyiapkan pentas seni ulang tahun perusahaan yang ke-21 karena tiap kantor cabang harus menampilkan pertunjukan. Tindakan yang Anda lakukan...",
+      "options": [
+        "Bekerja keras membentuk panitia persiapan pentas seni ulang tahun perusahaan",
+        "Menunjuk beberapa anggota untuk tampil pada pentas seni ulang tahun perusahaan",
+        "Mengumpulkan seluruh anggota untuk membahas bersama-sama persiapan pentas seni ulang tahun perusahaan",
+        "Melakukan voting untuk mengambil keputusan persiapan pentas seni ulang tahun perusahaan",
+        "Menunjuk beberapa anggota untuk menampilkan pentas seni yang mengangkat kebudayaan bangsa"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Komunikasi & koordinasi = kata kunci pemimpin. Terbaik C (musyawarah bersama), lalu D (voting bila buntu)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang B/E ('menunjuk' tanpa koordinasi) dan A (membentuk panitia saja belum menyelesaikan)."
+        },
+        {
+          "lens": "logika",
+          "text": "Voting hanya dilakukan saat ada perbedaan pendapat yang tidak terpecahkan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "C = musyawarah bersama anggota (5), D = voting (4), A = membentuk panitia (3), E = menunjuk anggota (2), B = menunjuk tampil (1). Jawaban urutan CDAEB.",
+      "targetSec": 45,
+      "source": "KitaLulus — Contoh Soal SKD CPNS (kitalulus.com/blog/info-cpns/contoh-soal-skd-cpns-tiu-twk-tkp)",
+      "weights": [
+        3,
+        1,
+        5,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "twk-src-001",
+      "subtest": "twk",
+      "topic": "pancasila",
+      "stem": "Dalam pidatonya di sidang BPUPKI (1 Juni 1945), Ir. Soekarno menyampaikan prinsip dasar negara yang terdiri dari ...",
+      "options": [
+        "Kebangsaan Indonesia; Internasionalisme atau perikemanusiaan; Mufakat atau demokrasi; Perdamaian abadi",
+        "Peri Kebangsaan, Peri Kemanusiaan, Peri Ketuhanan, Peri Kerakyatan, dan Mufakat",
+        "Kebangsaan Indonesia; Internasionalisme atau perikemanusiaan; Mufakat atau demokrasi; Kesejahteraan sosial; Ketuhanan yang berkebudayaan",
+        "Peri Kebangsaan, Peri Kemanusiaan, Peri Ketuhanan, Peri Kerakyatan, dan Kesejahteraan Rakyat",
+        "Ketuhanan YME, Peri Kemanusiaan, Kebangsaan, Kerakyatan, Keadilan Sosial"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Usulan Bung Karno: Nasionalisme, Internasionalisme, Mufakat, Kesejahteraan sosial, Ketuhanan yang berkebudayaan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang memuat 'Peri' (rumusan lain) atau tanpa 'Kesejahteraan sosial'."
+        },
+        {
+          "lens": "logika",
+          "text": "Lima asas usulan Soekarno diberi nama 'Pancasila'."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Pada 1 Juni 1945 Soekarno mengusulkan lima asas: Nasionalisme/Kebangsaan, Internasionalisme/Perikemanusiaan, Mufakat/Demokrasi, Kesejahteraan sosial, Ketuhanan yang berkebudayaan. Jawaban C.",
+      "targetSec": 40,
+      "source": "KitaLulus — Contoh Soal SKD CPNS (kitalulus.com/blog/info-cpns/contoh-soal-skd-cpns-tiu-twk-tkp)",
+      "key": 2
+    },
+    {
+      "id": "twk-src-002",
+      "subtest": "twk",
+      "topic": "uud",
+      "stem": "Pembangunan ekonomi kerakyatan untuk kemakmuran rakyat sesuai dengan bunyi UUD NRI 1945 Pasal 33 ayat (1) yang berbunyi ...",
+      "options": [
+        "Cabang-cabang produksi yang penting bagi negara dan yang menguasai hajat hidup orang banyak dikuasai oleh negara",
+        "Perekonomian disusun sebagai usaha bersama berdasar atas asas kekeluargaan",
+        "Perekonomian nasional diselenggarakan berdasarkan atas demokrasi ekonomi dengan prinsip kebersamaan, efisiensi, keadilan, keberlanjutan, wawasan lingkungan, kemandirian, serta menjaga keseimbangan kemajuan dan kesatuan ekonomi nasional",
+        "Cabang-cabang produksi boleh dikuasai oleh perseorangan atau negara",
+        "Bumi dan air dan kekayaan alam yang terkandung di dalamnya dikuasai oleh negara dan dipergunakan untuk sebesar-besarnya kemakmuran rakyat"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pasal 33 ayat (1): 'Perekonomian disusun sebagai usaha bersama berdasar atas asas kekeluargaan'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang ayat 2 (cabang produksi), ayat 3 (bumi/air), ayat 4 (demokrasi ekonomi) - itu ayat lain."
+        },
+        {
+          "lens": "logika",
+          "text": "Hafalkan urutan ayat Pasal 33: (1) asas kekeluargaan, (2) cabang produksi, (3) bumi-air, (4) demokrasi ekonomi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Pasal 33 ayat (1) UUD 1945: 'Perekonomian disusun sebagai usaha bersama berdasar atas asas kekeluargaan'. Jawaban B.",
+      "targetSec": 40,
+      "source": "KitaLulus — Contoh Soal SKD CPNS (kitalulus.com/blog/info-cpns/contoh-soal-skd-cpns-tiu-twk-tkp)",
+      "key": 1
+    },
+    {
+      "id": "twk-src-003",
+      "subtest": "twk",
+      "topic": "sejarah",
+      "stem": "Perundingan antara Indonesia dan Belanda pada 10 November 1946 di Linggarjati; Indonesia diwakili Perdana Menteri Sutan Syahrir, Belanda diwakili Prof. Schermerhorn. Perundingan ini adalah ...",
+      "options": [
+        "Renville",
+        "Linggarjati",
+        "Roem Royen",
+        "Giyanti",
+        "Bongaya"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Tanggal 10 November 1946 + Sutan Syahrir + Schermerhorn = Perundingan Linggarjati."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Renville (1948, di kapal USS Renville), Roem Royen (1949), Giyanti (1755), Bongaya (1667) - bukan."
+        },
+        {
+          "lens": "logika",
+          "text": "Hafalkan tokoh & tanggal: Linggarjati 1946 (Syahrir-Schermerhorn), Renville 1948, Roem-Royen 1949."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Perundingan Linggarjati dilakukan 10 November 1946; delegasi Indonesia Sutan Syahrir, Belanda Schermerhorn. Jawaban B.",
+      "targetSec": 35,
+      "source": "KitaLulus — Contoh Soal SKD CPNS (kitalulus.com/blog/info-cpns/contoh-soal-skd-cpns-tiu-twk-tkp)",
+      "key": 1
+    },
+    {
+      "id": "twk-src-004",
+      "subtest": "twk",
+      "topic": "pancasila",
+      "stem": "Pancasila merupakan...",
+      "options": [
+        "Ideologi negara",
+        "Dasar negara",
+        "Sumber dari segala sumber hukum",
+        "Semua jawaban benar",
+        "Hanya pedoman pembangunan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pancasila = ideologi + dasar negara + sumber dari segala sumber hukum → 'semua jawaban benar'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi tunggal karena Pancasila mencakup ketiganya sekaligus."
+        },
+        {
+          "lens": "logika",
+          "text": "Kedudukan Pancasila: dasar negara, ideologi, sumber segala sumber hukum."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Pancasila sebagai ideologi negara sekaligus dasar negara dan sumber dari segala sumber hukum. Jawaban D.",
+      "targetSec": 30,
+      "source": "tryout.id — Latihan Soal CPNS Terbaru 2025 (tryout.id/berita)",
+      "key": 3
+    },
+    {
+      "id": "tiu-src-004",
+      "subtest": "tiu",
+      "topic": "aljabar",
+      "stem": "Jika dua buah angka dijumlahkan menghasilkan 50, dan jika salah satu angkanya dikurangi 10 hasilnya adalah 20. Maka angka tersebut adalah...",
+      "options": [
+        "30",
+        "20",
+        "25",
+        "10",
+        "15"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "x + y = 50 dan x - 10 = 20 → x = 30."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Substitusi x=30 ke x+y=50 → y=20; angka yang dicari 30."
+        },
+        {
+          "lens": "logika",
+          "text": "Buat dua persamaan, selesaikan untuk x."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "x + y = 50; x - 10 = 20 → x = 30. Substitusi: 30 + y = 50 → y = 20. Angka yang dicari adalah 30. Jawaban A.",
+      "targetSec": 40,
+      "source": "tryout.id — Latihan Soal CPNS Terbaru 2025 (tryout.id/berita)",
+      "key": 0
+    },
+    {
+      "id": "tkp-src-004",
+      "subtest": "tkp",
+      "topic": "kolaboratif",
+      "stem": "Ketika Anda diberi tugas penting oleh atasan, namun dalam waktu bersamaan terdapat kesalahan yang dilakukan rekan Anda, apa yang Anda lakukan?",
+      "options": [
+        "Mengabaikan kesalahan dan fokus pada tugas",
+        "Membantu rekan Anda memperbaiki kesalahan",
+        "Melaporkan kesalahan kepada atasan",
+        "Menyalahkan rekan Anda",
+        "Menunda tugas agar membantu rekan dulu"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Sebagai anggota tim, perbaiki kesalahan bersama = nilai kerjasama & integritas (B=5)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menyalahkan (D=1) dan melapor langsung (C=2) kurang kolaboratif; mengabaikan (A=4) kalah dari membantu; menunda tugas (E=3) mengorbankan prioritas."
+        },
+        {
+          "lens": "logika",
+          "text": "Prioritas: selesaikan tugas + bantu rekan tanpa saling menyalahkan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca semua opsi sebelum memutuskan."
+        }
+      ],
+      "explain": "Membantu rekan memperbaiki kesalahan mencerminkan nilai kerjasama dan integritas (B=5); mengabaikan (A=4); menunda tugas (E=3); melapor (C=2); menyalahkan (D=1).",
+      "targetSec": 40,
+      "source": "tryout.id — Latihan Soal CPNS Terbaru 2025 (tryout.id/berita)",
+      "weights": [
+        4,
+        5,
+        2,
+        1,
+        3
+      ]
+    }
+  ]
+}
