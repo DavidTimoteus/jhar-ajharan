@@ -1,0 +1,82 @@
+@import './fonts.css';
+@import './components/app.css';
+
+:root {
+  --bg-ground: #f2f4f7;
+  --bg-surface: #ffffff;
+  --bg-raised: #eaeef3;
+  --border-color: #e2e6ec;
+  --text-main: #141414;
+  --text-muted: #525860;
+  --accent: #1d5fbf;
+  --accent-hover: #154c9e;
+  --positive-bg: #dcfae5;
+  --positive-text: #247b50;
+  --negative-bg: #ffedea;
+  --negative-text: #c4242a;
+  --warning-bg: #fffbeb;
+  --warning-text: #92400e;
+  --font-sans: 'Geist', system-ui, sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+  --radius-card: 8px;
+  --radius-control: 6px;
+  --radius-pill: 999px;
+}
+
+[data-theme='dark'] {
+  --bg-ground: #0f1115;
+  --bg-surface: #181b22;
+  --bg-raised: #212630;
+  --border-color: #2e3642;
+  --text-main: #f0f2f5;
+  --text-muted: #9aa0a6;
+  --accent: #3b82f6;
+  --accent-hover: #60a5fa;
+  --positive-bg: #062314;
+  --positive-text: #34d399;
+  --negative-bg: #2d1214;
+  --negative-text: #f87171;
+  --warning-bg: #291b0c;
+  --warning-text: #fbbf24;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-ground);
+  color: var(--text-main);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+code, pre, .tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+button, input, select {
+  font-family: inherit;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: var(--radius-pill);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

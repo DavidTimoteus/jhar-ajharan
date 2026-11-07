@@ -1,0 +1,1456 @@
+{
+  "id": "rbb-bumn-2024",
+  "name": "RBB BUMN 2024 (TKD · AKHLAK · Bahasa Inggris)",
+  "family": "bumn",
+  "version": 1,
+  "updatedAt": "2026-11-07T00:00:00.000Z",
+  "note": "Paket simulasi Rekrutmen Bersama BUMN: TKD, Core Values AKHLAK, dan Bahasa Inggris.",
+  "source": "Soal disusun mengikuti materi tes Rekrutmen Bersama BUMN (TKD, AKHLAK, Bahasa Inggris) dan Core Values AKHLAK (Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif).",
+  "config": {
+    "durationMin": 45,
+    "subtests": [
+      {
+        "id": "tkd",
+        "name": "Tes Kemampuan Dasar",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 40
+      },
+      {
+        "id": "akhlak",
+        "name": "Core Values AKHLAK",
+        "scheme": "weighted",
+        "passMin": 30
+      },
+      {
+        "id": "bhs",
+        "name": "Bahasa Inggris",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 30
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "tkd-001",
+      "subtest": "tkd",
+      "topic": "sinonim",
+      "stem": "Sinonim kata 'fiktif' adalah...",
+      "options": [
+        "Nyata",
+        "Rekayasa",
+        "Bermanfaat",
+        "Terpercaya",
+        "Berkelanjutan"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Fiktif' = tidak nyata / karangan → sinonim 'rekayasa'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang 'nyata' (antonim) dan yang positif (bermanfaat, terpercaya)."
+        },
+        {
+          "lens": "logika",
+          "text": "Fiktif identik dengan khayalan, imajinasi, karangan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'nyata' - itu kebalikannya."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-002",
+      "subtest": "tkd",
+      "topic": "antonim",
+      "stem": "Lawan kata 'legal' adalah...",
+      "options": [
+        "Sah",
+        "Ilegal",
+        "Resmi",
+        "Baku",
+        "Aktif"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Legal' = sah → lawannya 'ilegal'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "'Sah' dan 'resmi' adalah sinonim, bukan antonim."
+        },
+        {
+          "lens": "logika",
+          "text": "Legal ↔ ilegal, sah ↔ tidak sah."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'sah' - itu sinonim."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-003",
+      "subtest": "tkd",
+      "topic": "deret",
+      "stem": "Lanjutan deret: 2, 6, 12, 20, 30, ...",
+      "options": [
+        "40",
+        "42",
+        "44",
+        "46",
+        "48"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola: beda bertambah 2: +4, +6, +8, +10 → berikutnya +12 = 42."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek beda antarsuku: 4, 6, 8, 10 (genap naik) → 30+12=42."
+        },
+        {
+          "lens": "logika",
+          "text": "Deret persegi panjang: n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6 → 6×7=42."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 40 - itu hasil menambah 10 (pola beda salah)."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-004",
+      "subtest": "tkd",
+      "topic": "aritmetika",
+      "stem": "Jika sebuah barang dijual dengan harga Rp120.000 dan untung 20%, modal barang tersebut adalah...",
+      "options": [
+        "Rp100.000",
+        "Rp96.000",
+        "Rp110.000",
+        "Rp90.000",
+        "Rp105.000"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Harga jual = modal × 1,2 → modal = 120.000 ÷ 1,2 = 100.000."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Jangan hitung 20% dari harga jual (24.000) - untung dihitung dari modal."
+        },
+        {
+          "lens": "logika",
+          "text": "Modal = harga jual / (1 + persen untung)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 96.000 - itu hasil salah mengurangi 20% dari harga jual."
+        }
+      ],
+      "explain": 50,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-005",
+      "subtest": "tkd",
+      "topic": "sinonim",
+      "stem": "Sinonim kata 'distorsi' adalah...",
+      "options": [
+        "Penyimpangan",
+        "Perbaikan",
+        "Penyaluran",
+        "Pembenaran",
+        "Percepatan"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Distorsi' = penyimpangan/perubahan dari keadaan seharusnya."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang positif (perbaikan, pembenaran) - distorsi bernada negatif."
+        },
+        {
+          "lens": "logika",
+          "text": "Distorsi = pengubahan, pemutarbalikan, penyimpangan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'penyaluran' - mirip bunyi tapi makna berbeda."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-006",
+      "subtest": "tkd",
+      "topic": "antonim",
+      "stem": "Lawan kata 'transparan' adalah...",
+      "options": [
+        "Jelas",
+        "Tertutup",
+        "Terbuka",
+        "Tampak",
+        "Rapi"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Transparan' = terbuka/jelas → lawannya 'tertutup'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "'Terbuka' dan 'jelas' adalah sinonim."
+        },
+        {
+          "lens": "logika",
+          "text": "Transparan ↔ tertutup, jelas ↔ samar."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'jelas' - sinonim, bukan antonim."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-007",
+      "subtest": "tkd",
+      "topic": "deret",
+      "stem": "Lanjutan deret: 1, 8, 27, 64, ...",
+      "options": [
+        "100",
+        "121",
+        "125",
+        "216",
+        "343"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Deret kubik: 1³, 2³, 3³, 4³ → 5³ = 125."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek pola: 1, 8, 27, 64 semuanya pangkat tiga."
+        },
+        {
+          "lens": "logika",
+          "text": "Deret kubik: n³. 5³ = 125."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 121 - itu 11² (kuadrat, bukan kubik)."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-008",
+      "subtest": "tkd",
+      "topic": "aritmetika",
+      "stem": "Sebuah kelas memiliki 40 siswa. Jika 25% siswa menyukai matematika, berapa siswa yang tidak menyukai matematika?",
+      "options": [
+        "30",
+        "25",
+        "20",
+        "15",
+        "10"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Suka matematika = 25% × 40 = 10 → tidak suka = 40 - 10 = 30."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Hitung dulu yang suka, lalu kurangi dari total."
+        },
+        {
+          "lens": "logika",
+          "text": "Cara cepat: tidak suka = 75% × 40 = 30."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 10 - itu jumlah yang SUKA, bukan yang tidak suka."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-009",
+      "subtest": "tkd",
+      "topic": "sinonim",
+      "stem": "Sinonim kata 'apresiasi' adalah...",
+      "options": [
+        "Penghargaan",
+        "Hukuman",
+        "Keraguan",
+        "Penolakan",
+        "Pengabaian"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Apresiasi' = penghargaan/pengakuan atas nilai sesuatu."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang negatif (hukuman, penolakan, pengabaian)."
+        },
+        {
+          "lens": "logika",
+          "text": "Apresiasi = respek, penghormatan, penghargaan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'penghargaan' - benar, ini jawaban yang tepat."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-010",
+      "subtest": "tkd",
+      "topic": "antonim",
+      "stem": "Lawan kata 'statis' adalah...",
+      "options": [
+        "Diam",
+        "Dinamis",
+        "Tetap",
+        "Kaku",
+        "Lambat"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Statis' = tetap/diam → lawannya 'dinamis' = bergerak/berubah."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "'Diam', 'tetap', 'kaku' adalah sinonim statis."
+        },
+        {
+          "lens": "logika",
+          "text": "Statis ↔ dinamis, tetap ↔ berubah."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'diam' - sinonim, bukan antonim."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-011",
+      "subtest": "tkd",
+      "topic": "deret",
+      "stem": "Lanjutan deret: 3, 5, 9, 17, 33, ...",
+      "options": [
+        "49",
+        "55",
+        "63",
+        "65",
+        "67"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola: ×2 - 1 setiap suku: 3→5(×2-1), 5→9(×2-1), 9→17, 17→33 → 33×2-1 = 65."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek: beda 2, 4, 8, 16 (berlipat dua) → beda berikutnya 32 → 33+32=65."
+        },
+        {
+          "lens": "logika",
+          "text": "Pola majemuk: kalikan dua lalu kurangi satu."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 63 - itu hasil 33+30 (pola beda salah)."
+        }
+      ],
+      "explain": 50,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-012",
+      "subtest": "tkd",
+      "topic": "aritmetika",
+      "stem": "Jika x + y = 15 dan x - y = 5, maka nilai x adalah...",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jumlahkan: 2x = 20 → x = 10."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi y dengan menjumlahkan dua persamaan."
+        },
+        {
+          "lens": "logika",
+          "text": "Sistem linear: tambahkan persamaan untuk menghilangkan y."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 11 - itu hasil asumsi tanpa eliminasi."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-013",
+      "subtest": "tkd",
+      "topic": "sinonim",
+      "stem": "Sinonim kata 'kontribusi' adalah...",
+      "options": [
+        "Sumbangan",
+        "Hambatan",
+        "Kerugian",
+        "Keuntungan",
+        "Perintah"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Kontribusi' = sumbangan/peran serta dalam suatu usaha."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang negatif (hambatan, kerugian)."
+        },
+        {
+          "lens": "logika",
+          "text": "Kontribusi = andil, peran, sumbangan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'keuntungan' - itu hasil, bukan sumbangan."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-014",
+      "subtest": "tkd",
+      "topic": "antonim",
+      "stem": "Lawan kata 'mayoritas' adalah...",
+      "options": [
+        "Minoritas",
+        "Seluruhnya",
+        "Kebanyakan",
+        "Umumnya",
+        "Sebagian besar"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Mayoritas' = jumlah terbanyak → lawannya 'minoritas'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Semua opsi lain adalah sinonim atau varian mayoritas."
+        },
+        {
+          "lens": "logika",
+          "text": "Mayoritas ↔ minoritas."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'kebanyakan' - sinonim."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-015",
+      "subtest": "tkd",
+      "topic": "deret",
+      "stem": "Lanjutan deret: 5, 15, 45, 135, ...",
+      "options": [
+        "270",
+        "405",
+        "450",
+        "540",
+        "675"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola: kali 3 setiap suku. 135 × 3 = 405."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek rasio: 15/5 = 3, 45/15 = 3 → 135×3 = 405."
+        },
+        {
+          "lens": "logika",
+          "text": "Deret geometri rasio 3."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 270 - itu hasil menambah 135 (pola salah)."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-016",
+      "subtest": "tkd",
+      "topic": "aritmetika",
+      "stem": "Rata-rata nilai 3 siswa adalah 80. Jika dua siswa mendapat 75 dan 85, nilai siswa ketiga adalah...",
+      "options": [
+        "70",
+        "75",
+        "80",
+        "85",
+        "90"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Total = 3 × 80 = 240. Dua siswa = 160. Ketiga = 240 - 160 = 80."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Jumlah = rata-rata × banyak data, kurangi yang diketahui."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai hilang = (rata × n) - jumlah yang ada."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 85 - itu hasil rata-rata dua siswa."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-017",
+      "subtest": "tkd",
+      "topic": "sinonim",
+      "stem": "Sinonim kata 'efisien' adalah...",
+      "options": [
+        "Boros",
+        "Tepat guna",
+        "Lambat",
+        "Mahal",
+        "Rumit"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Efisien' = tepat guna / tidak membuang sumber daya."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang 'boros' (antonim) dan yang bernada negatif."
+        },
+        {
+          "lens": "logika",
+          "text": "Efisien = hemat, cermat, berdaya guna."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'hemat' - bukan pilihan, 'tepat guna' adalah sinonim baku."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-018",
+      "subtest": "tkd",
+      "topic": "antonim",
+      "stem": "Lawan kata 'eksplisit' adalah...",
+      "options": [
+        "Implisit",
+        "Jelas",
+        "Tegas",
+        "Terbuka",
+        "Langsung"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Eksplisit' = dinyatakan jelas/terang-terangan → lawannya 'implisit' = tersirat."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Semua opsi lain adalah sinonim eksplisit."
+        },
+        {
+          "lens": "logika",
+          "text": "Eksplisit ↔ implisit, terang-terangan ↔ tersirat."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'jelas' - sinonim."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-019",
+      "subtest": "tkd",
+      "topic": "deret",
+      "stem": "Lanjutan deret: 7, 11, 18, 29, 47, ...",
+      "options": [
+        "76",
+        "78",
+        "80",
+        "82",
+        "84"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola: beda 4, 7, 11, 18 (Fibonacci) → beda berikutnya 29 → 47+29 = 76."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek beda antarsuku: 4, 7, 11, 18 - masing-masing jumlah dua beda sebelumnya → 29 → 47+29=76."
+        },
+        {
+          "lens": "logika",
+          "text": "Deret beda Fibonacci: beda mengikuti pola 4,7,11,18,29."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 78 - itu hasil 47+31 (pola salah)."
+        }
+      ],
+      "explain": 55,
+      "targetSec": 45
+    },
+    {
+      "id": "tkd-020",
+      "subtest": "tkd",
+      "topic": "aritmetika",
+      "stem": "Sebuah investasi Rp10.000.000 tumbuh 5% per tahun. Nilai setelah 2 tahun (bunga majemuk) adalah...",
+      "options": [
+        "Rp11.025.000",
+        "Rp11.000.000",
+        "Rp11.100.000",
+        "Rp10.500.000",
+        "Rp12.000.000"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Tahun 1: 10.000.000 × 1,05 = 10.500.000. Tahun 2: × 1,05 = 11.025.000."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Bunga majemuk: kalikan faktor pertumbuhan tiap tahun, jangan tambah bunga tetap."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai = modal × (1+r)^n = 10jt × 1,05² = 11.025.000."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 11.000.000 - itu bunga sederhana 5% × 2 tahun."
+        }
+      ],
+      "explain": 55,
+      "targetSec": 45
+    },
+    {
+      "id": "akhlak-001",
+      "subtest": "akhlak",
+      "topic": "amanah",
+      "stem": "Kamu memegang data penting perusahaan yang belum boleh dipublikasikan. Rekan meminta untuk melihatnya. Sikapmu...",
+      "options": [
+        "Menunjukkan karena rekan",
+        "Menolak dengan sopan karena data itu belum boleh dibuka sesuai ketentuan",
+        "Membagikan sebagian",
+        "Menunjukkan jika diminta atasan langsung",
+        "Mengirim lewat aplikasi chat"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        4,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Amanah = menjaga kerahasiaan sesuai ketentuan. Menolak sopan = 5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menunjukkan jika atasan minta (4) = patuh hierarki, tapi menolak sopan lebih amanah karena ketentuan belum membolehkan siapa pun."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai Amanah: memegang teguh kepercayaan, menjaga data, tidak menyalahgunakan informasi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menunjukkan karena rekan' - kerahasiaan tidak tergantung kedekatan."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 40
+    },
+    {
+      "id": "akhlak-002",
+      "subtest": "akhlak",
+      "topic": "kompeten",
+      "stem": "Ada sistem baru di perusahaan dan kamu belum familier. Sikapmu...",
+      "options": [
+        "Menunggu pelatihan wajib",
+        "Belajar mandiri dan bertanya pada yang lebih paham agar cepat menguasai",
+        "Menghindari penggunaan sistem",
+        "Menggunakan sistem lama terus",
+        "Meminta orang lain mengerjakan bagianmu"
+      ],
+      "weights": [
+        2,
+        5,
+        1,
+        1,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kompeten = terus belajar dan meningkatkan kapabilitas. Proaktif belajar = 5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang menghindar/menyuruh orang (1-2)."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai Kompeten: meningkatkan kemampuan diri, adaptif terhadap teknologi baru."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menunggu pelatihan wajib' - pasif, kompetensi dibangun proaktif."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 40
+    },
+    {
+      "id": "akhlak-003",
+      "subtest": "akhlak",
+      "topic": "harmonis",
+      "stem": "Di tim ada perbedaan pendapat yang memanas. Sikapmu...",
+      "options": [
+        "Memihak teman dekat",
+        "Menjadi penengah dengan mendengarkan kedua sisi dan mencari solusi bersama",
+        "Meninggalkan diskusi",
+        "Memperbesar perbedaan",
+        "Memutuskan sendiri tanpa diskusi"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        1,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Harmonis = peduli sesama, membangun lingkungan kerja positif. Menengahi = 5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang memihak, memperbesar, atau kabur (1-2)."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai Harmonis: menghargai perbedaan, menjadi penengah yang sehat."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'memutuskan sendiri' - otoriter, bukan harmonis."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 40
+    },
+    {
+      "id": "akhlak-004",
+      "subtest": "akhlak",
+      "topic": "loyal",
+      "stem": "Perusahaan sedang menghadapi isu negatif di publik. Sikapmu...",
+      "options": [
+        "Ikut menyebarkan kekhawatiran",
+        "Menjaga citra perusahaan dengan tidak ikut menyebar isu dan tetap bekerja profesional",
+        "Mengomentari negatif di media sosial",
+        "Menuntut penjelasan ke semua orang",
+        "Menolak bekerja sampai isu selesai"
+      ],
+      "weights": [
+        1,
+        5,
+        1,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Loyal = membela kepentingan perusahaan. Jaga citra + tetap kerja = 5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang menyebar isu atau mogok (1)."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai Loyal: berdedikasi, menjaga nama baik perusahaan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menuntut penjelasan ke semua orang' - itu memperluas isu."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 40
+    },
+    {
+      "id": "akhlak-005",
+      "subtest": "akhlak",
+      "topic": "adaptif",
+      "stem": "Struktur organisasi berubah dan posisimu bergeser. Sikapmu...",
+      "options": [
+        "Menolak perubahan",
+        "Menerima perubahan dan menyesuaikan diri dengan peran baru",
+        "Mengeluh ke semua orang",
+        "Menunggu kepastian penuh dulu",
+        "Mengundurkan diri"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        3,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Adaptif = inovatif dan proaktif menghadapi perubahan. Terima + sesuaikan = 5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menunggu kepastian penuh (3) = pasif; mengeluh (2) = tidak produktif."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai Adaptif: cepat menyesuaikan diri, terus berinovasi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menolak perubahan' - anti-adaptasi."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 40
+    },
+    {
+      "id": "akhlak-006",
+      "subtest": "akhlak",
+      "topic": "kolaboratif",
+      "stem": "Proyek lintas divisi macet karena salah satu divisi belum mengirim data. Sikapmu...",
+      "options": [
+        "Menyalahkan divisi itu di depan semua",
+        "Menghubungi divisi terkait, menawarkan bantuan, dan mencari solusi bersama",
+        "Mengerjakan sendiri tanpa data",
+        "Menunggu data datang",
+        "Melaporkan ke atasan tanpa komunikasi"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        2,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kolaboratif = terbuka bekerja sama, membangun sinergi. Hubungi + bantu = 5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang menyalahkan (1) dan pasif (2)."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai Kolaboratif: membangun kerja sama, saling membantu."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'melaporkan tanpa komunikasi' - eskalasi prematur."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 40
+    },
+    {
+      "id": "akhlak-007",
+      "subtest": "akhlak",
+      "topic": "amanah",
+      "stem": "Kamu menemukan kelebihan dana di rekening perusahaan. Sikapmu...",
+      "options": [
+        "Menyimpan sampai ada yang menanyakan",
+        "Melaporkan ke atasan dan mengembalikan sesuai prosedur",
+        "Menggunakan untuk kebutuhan lain",
+        "Menunggu instruksi bank",
+        "Membagikan ke tim"
+      ],
+      "weights": [
+        2,
+        5,
+        1,
+        3,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Amanah = dapat dipercaya dalam pengelolaan sumber daya. Laporkan + kembalikan = 5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menunggu instruksi bank (3) = pasif; memakai (1) = penyalahgunaan."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai Amanah: tanggung jawab penuh atas sumber daya perusahaan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'membagikan ke tim' - itu tindakan koruptif."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 40
+    },
+    {
+      "id": "akhlak-008",
+      "subtest": "akhlak",
+      "topic": "kompeten",
+      "stem": "Atasan memintamu memimpin proyek dengan teknologi yang belum kamu kuasai. Sikapmu...",
+      "options": [
+        "Menolak karena belum bisa",
+        "Menerima, mempelajari teknologi itu, dan mencari mentor yang berpengalaman",
+        "Menerima tapi mengerjakan ala kadarnya",
+        "Meminta atasan mengganti orang",
+        "Mengaku sudah bisa padahal tidak"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kompeten = berani menerima tantangan sambil meningkatkan kemampuan. Terima + belajar = 5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menerima ala kadarnya (2) dan mengaku bisa (1) = tidak profesional."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai Kompeten: terus belajar, berani tantangan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'mengaku sudah bisa' - itu bohong profesional."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 40
+    },
+    {
+      "id": "akhlak-009",
+      "subtest": "akhlak",
+      "topic": "harmonis",
+      "stem": "Ada rekan kerja yang sedang kesusahan pribadi dan kinerjanya menurun. Sikapmu...",
+      "options": [
+        "Mengabaikan karena bukan urusanmu",
+        "Menawarkan bantuan dan memberi ruang tanpa menghakimi",
+        "Mengadukan ke atasan",
+        "Membicarakan ke rekan lain",
+        "Menuntut kinerja tanpa empati"
+      ],
+      "weights": [
+        2,
+        5,
+        2,
+        1,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Harmonis = peduli dan saling membantu. Tawarkan bantuan = 5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Mengadukan (2) dan membicarakan (1) = tidak empatik."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai Harmonis: kepedulian pada rekan, lingkungan kerja suportif."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'membicarakan ke rekan lain' - itu gosip."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 40
+    },
+    {
+      "id": "akhlak-010",
+      "subtest": "akhlak",
+      "topic": "loyal",
+      "stem": "Kamu punya tawaran kerja dari perusahaan lain dengan gaji lebih tinggi. Sikapmu...",
+      "options": [
+        "Langsung pindah tanpa komunikasi",
+        "Mempertimbangkan dengan matang dan mendiskusikan rencana karier dengan atasan",
+        "Menolak semua tawaran selamanya",
+        "Menyebarkan tawaran itu ke rekan",
+        "Mengancam pindah untuk menaikkan gaji"
+      ],
+      "weights": [
+        1,
+        5,
+        3,
+        1,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Loyal = berdedikasi tapi juga profesional dalam karier. Diskusikan = 5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menolak semua tawaran (3) = dogmatis, bukan loyalitas sehat."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai Loyal: dedikasi jangka panjang, komunikasi terbuka soal karier."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'mengancam pindah untuk menaikkan gaji' - itu pemerasan."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 40
+    },
+    {
+      "id": "bhs-001",
+      "subtest": "bhs",
+      "topic": "grammar",
+      "stem": "Complete the sentence: 'She ___ to the office every day.'",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "gone",
+        "went"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Subjek tunggal (She) + kebiasaan (every day) → Simple Present 'goes'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang 'go' (untuk I/you/we/they), 'going' (butuh to be), 'gone' (past participle), 'went' (past)."
+        },
+        {
+          "lens": "logika",
+          "text": "Rumus Simple Present: S + V1(s/es) untuk he/she/it."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'go' - subjek she butuh akhiran -es."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 45
+    },
+    {
+      "id": "bhs-002",
+      "subtest": "bhs",
+      "topic": "vocabulary",
+      "stem": "The opposite of 'increase' is...",
+      "options": [
+        "grow",
+        "decrease",
+        "expand",
+        "boost",
+        "rise"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Increase' = naik/bertambah → lawannya 'decrease' = turun/berkurang."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Semua opsi lain adalah sinonim increase."
+        },
+        {
+          "lens": "logika",
+          "text": "Increase ↔ decrease, naik ↔ turun."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'rise' - sinonim."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 45
+    },
+    {
+      "id": "bhs-003",
+      "subtest": "bhs",
+      "topic": "grammar",
+      "stem": "Choose the correct sentence:",
+      "options": [
+        "He don't like coffee",
+        "He doesn't likes coffee",
+        "He doesn't like coffee",
+        "He do not likes coffee",
+        "He not like coffee"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Simple Present negatif untuk he/she/it: does + not + V1 → 'He doesn't like coffee'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang memakai do/don't untuk he (1,4) dan yang V1+s setelah does (2)."
+        },
+        {
+          "lens": "logika",
+          "text": "Rumus negatif: S + does not + V1."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'He doesn't likes' - verb setelah does harus V1 tanpa s."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 45
+    },
+    {
+      "id": "bhs-004",
+      "subtest": "bhs",
+      "topic": "reading",
+      "stem": "Read: 'The company offers flexible working hours, which allows employees to balance work and personal life.' What is the benefit mentioned?",
+      "options": [
+        "Higher salary",
+        "Flexible working hours",
+        "Free meals",
+        "Company car",
+        "Health insurance"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kalimat menyebut 'flexible working hours' sebagai fasilitas yang membantu keseimbangan kerja-hidup."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Opsi lain tidak disebut dalam teks."
+        },
+        {
+          "lens": "logika",
+          "text": "Scan kalimat untuk kata kunci 'allows employees to balance'."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'higher salary' - tidak ada dalam teks."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "bhs-005",
+      "subtest": "bhs",
+      "topic": "vocabulary",
+      "stem": "Synonym of 'commence' is...",
+      "options": [
+        "finish",
+        "start",
+        "stop",
+        "delay",
+        "cancel"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Commence' = memulai → sinonim 'start'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "'Finish', 'stop' = antonim; 'delay', 'cancel' tidak berhubungan."
+        },
+        {
+          "lens": "logika",
+          "text": "Commence = begin, start, initiate."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'finish' - antonim."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 45
+    },
+    {
+      "id": "bhs-006",
+      "subtest": "bhs",
+      "topic": "grammar",
+      "stem": "Complete: 'If it rains tomorrow, we ___ the event indoors.'",
+      "options": [
+        "will hold",
+        "held",
+        "would held",
+        "holds",
+        "holding"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Conditional type 1: If + Simple Present, will + V1 → 'will hold'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang 'held' (past), 'would held' (grammar salah), 'holds' (salah pola)."
+        },
+        {
+          "lens": "logika",
+          "text": "Rumus: If + V1, will + V1."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'holds' - subjek we butuh will + V1."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 45
+    },
+    {
+      "id": "bhs-007",
+      "subtest": "bhs",
+      "topic": "reading",
+      "stem": "Read: 'Despite the heavy rain, the marathon continued as scheduled.' The word 'despite' shows...",
+      "options": [
+        "Cause and effect",
+        "Contrast",
+        "Addition",
+        "Sequence",
+        "Example"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Despite' = meskipun → menunjukkan hubungan kontras (contrast)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cause-effect memakai because/so; addition memakai moreover; sequence first/then."
+        },
+        {
+          "lens": "logika",
+          "text": "Kata kontras: despite, although, however, but."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'cause and effect' - 'despite' bukan penanda sebab-akibat."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 45
+    },
+    {
+      "id": "bhs-008",
+      "subtest": "bhs",
+      "topic": "vocabulary",
+      "stem": "The word 'feasible' means...",
+      "options": [
+        "Impossible",
+        "Possible and practical",
+        "Expensive",
+        "Dangerous",
+        "Temporary"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Feasible' = dapat dilaksanakan/mungkin secara praktis."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "'Impossible' = antonim; lainnya tidak berhubungan."
+        },
+        {
+          "lens": "logika",
+          "text": "Feasible = workable, achievable, viable."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'impossible' - kebalikannya."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 45
+    },
+    {
+      "id": "bhs-009",
+      "subtest": "bhs",
+      "topic": "grammar",
+      "stem": "Choose the passive form: 'The manager approved the budget.'",
+      "options": [
+        "The budget was approved by the manager",
+        "The budget is approve by manager",
+        "The manager was approved by the budget",
+        "The budget approved the manager",
+        "The budget has approve"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Passive past: was/were + V3 → 'The budget was approved by the manager'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang aktif, salah bentuk (is approve), atau membalik pelaku."
+        },
+        {
+          "lens": "logika",
+          "text": "Rumus passive: be + V3 (+ by pelaku)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'The manager was approved by the budget' - subjek objek tertukar."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "bhs-010",
+      "subtest": "bhs",
+      "topic": "reading",
+      "stem": "Read: 'Employees are encouraged to submit their suggestions before Friday.' What should employees do?",
+      "options": [
+        "Submit suggestions before Friday",
+        "Submit suggestions after Friday",
+        "Ignore the deadline",
+        "Wait for another announcement",
+        "Submit only on Monday"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kalimat meminta saran dikumpulkan sebelum Jumat."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Opsi lain bertentangan atau menambah informasi yang tidak ada."
+        },
+        {
+          "lens": "logika",
+          "text": "Scan untuk kata kerja 'submit' dan waktu 'before Friday'."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'after Friday' - kebalikan instruksi."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 45
+    }
+  ]
+}

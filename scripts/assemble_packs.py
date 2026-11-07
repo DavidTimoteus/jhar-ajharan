@@ -1,0 +1,131 @@
+#!/usr/bin/env python3
+"""
+Assembler Paket Soal Jhâr-Ajhârân
+Menggabungkan bank TWK/TIU/TKP + BUMN (TKD/AKHLAK/BHS), menulis JSON pack,
+membangun index.json, lalu memverifikasi struktur.
+"""
+import json
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+PACKS_DIR = ROOT / "public" / "packs"
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from bank_twk import bank_twk
+from bank_tiu import bank_tiu
+from bank_tkp import bank_tkp
+from bank_bumn import bank_bumn_tkd, bank_bumn_akhlak, bank_bumn_bhs
+
+
+def pack(id_str, name, family, version, note, source, duration_min, subtests, questions):
+    return {
+        "id": id_str,
+        "name": name,
+        "family": family,
+        "version": version,
+        "updatedAt": "2026-11-07T00:00:00.000Z",
+        "note": note,
+        "source": source,
+        "config": {"durationMin": duration_min, "subtests": subtests},
+        "questions": questions,
+    }
+
+
+def build():
+    twk = bank_twk()
+    tiu = bank_tiu()
+    tkp = bank_tkp()
+    tkd = bank_bumn_tkd()
+    akhlak = bank_bumn_akhlak()
+    bhs = bank_bumn_bhs()
+
+    cpns = pack(
+        "cpns-skd-2024",
+        "SKD CPNS 2024 (TWK · TIU · TKP)",
+        "cpns",
+        1,
+        "Paket simulasi SKD CPNS sesuai kisi resmi BKN/KemenPAN-RB: 30 TWK, 35 TIU, 45 TKP.",
+        "Soal disusun mengikuti pola kisi resmi Seleksi Kompetensi Dasar CPNS (TWK, TIU, TKP) dan ambang batas KepmenPANRB No. 321 Tahun 2024 (TWK 65, TIU 80, TKP 166).",
+        100,
+        [
+            {"id": "twk", "name": "Tes Wawasan Kebangsaan", "scheme": "binary", "perCorrect": 5, "passMin": 65},
+            {"id": "tiu", "name": "Tes Intelegensi Umum", "scheme": "binary", "perCorrect": 5, "passMin": 80},
+            {"id": "tkp", "name": "Tes Karakteristik Pribadi", "scheme": "weighted", "passMin": 166},
+        ],
+        twk + tiu + tkp,
+    )
+
+    bumn = pack(
+        "rbb-bumn-2024",
+        "RBB BUMN 2024 (TKD · AKHLAK · Bahasa Inggris)",
+        "bumn",
+        1,
+        "Paket simulasi Rekrutmen Bersama BUMN: TKD, Core Values AKHLAK, dan Bahasa Inggris.",
+        "Soal disusun mengikuti materi tes Rekrutmen Bersama BUMN (TKD, AKHLAK, Bahasa Inggris) dan Core Values AKHLAK (Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif).",
+        45,
+        [
+            {"id": "tkd", "name": "Tes Kemampuan Dasar", "scheme": "binary", "perCorrect": 5, "passMin": 40},
+            {"id": "akhlak", "name": "Core Values AKHLAK", "scheme": "weighted", "passMin": 30},
+            {"id": "bhs", "name": "Bahasa Inggris", "scheme": "binary", "perCorrect": 5, "passMin": 30},
+        ],
+        tkd + akhlak + bhs,
+    )
+
+    # Paket Kilat: campuran HOTS dari TWK, TIU, TKP untuk latihan cepat 30 menit.
+    kilat_q = []
+    for take, bank, prefix in (
+        (10, twk, "twk"),
+        (10, tiu, "tiu"),
+        (10, tkp, "tkp"),
+    ):
+        for idx, q in enumerate(bank[:take], 1):
+            qq = dict(q)
+            qq["id"] = f"kilat-{prefix}-{idx:02d}"
+            kilat_q.append(qq)
+    kilat = pack(
+        "taktis-kilat",
+        "Paket Kilat Taktis (HOTS Campuran)",
+        "cpns",
+        1,
+        "30 soal HOTS campuran untuk melatih kecepatan di bawah tekanan detik.",
+        "Soal pilihan dari bank TWK, TIU, dan TKP dengan target waktu ketat untuk membangun refleks penyelesaian cepat.",
+        30,
+        [
+            {"id": "twk", "name": "Tes Wawasan Kebangsaan", "scheme": "binary", "perCorrect": 5, "passMin": 65},
+            {"id": "tiu", "name": "Tes Intelegensi Umum", "scheme": "binary", "perCorrect": 5, "passMin": 80},
+            {"id": "tkp", "name": "Tes Karakteristik Pribadi", "scheme": "weighted", "passMin": 166},
+        ],
+        kilat_q,
+    )
+
+    packs = [cpns, bumn, kilat]
+    for p in packs:
+        out = PACKS_DIR / f"{p['id']}.json"
+        out.write_text(json.dumps(p, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    index = [
+        {
+            "id": p["id"],
+            "name": p["name"],
+            "family": p["family"],
+            "version": p["version"],
+            "updatedAt": p["updatedAt"],
+            "file": f"{p['id']}.json",
+            "count": len(p["questions"]),
+        }
+        for p in packs
+    ]
+    (PACKS_DIR / "index.json").write_text(
+        json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    for p in packs:
+        sub = {}
+        for q in p["questions"]:
+            sub[q["subtest"]] = sub.get(q["subtest"], 0) + 1
+        print(f"{p['id']}: {len(p['questions'])} soal | {sub}")
+
+
+if __name__ == "__main__":
+    build()

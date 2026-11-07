@@ -1,0 +1,29 @@
+[
+  {
+    "id": "cpns-skd-2024",
+    "name": "SKD CPNS 2024 (TWK · TIU · TKP)",
+    "family": "cpns",
+    "version": 1,
+    "updatedAt": "2026-11-07T00:00:00.000Z",
+    "file": "cpns-skd-2024.json",
+    "count": 119
+  },
+  {
+    "id": "rbb-bumn-2024",
+    "name": "RBB BUMN 2024 (TKD · AKHLAK · Bahasa Inggris)",
+    "family": "bumn",
+    "version": 1,
+    "updatedAt": "2026-11-07T00:00:00.000Z",
+    "file": "rbb-bumn-2024.json",
+    "count": 40
+  },
+  {
+    "id": "taktis-kilat",
+    "name": "Paket Kilat Taktis (HOTS Campuran)",
+    "family": "cpns",
+    "version": 1,
+    "updatedAt": "2026-11-07T00:00:00.000Z",
+    "file": "taktis-kilat.json",
+    "count": 30
+  }
+]

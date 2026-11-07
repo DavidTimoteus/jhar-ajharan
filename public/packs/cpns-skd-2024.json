@@ -1,0 +1,4364 @@
+{
+  "id": "cpns-skd-2024",
+  "name": "SKD CPNS 2024 (TWK · TIU · TKP)",
+  "family": "cpns",
+  "version": 1,
+  "updatedAt": "2026-11-07T00:00:00.000Z",
+  "note": "Paket simulasi SKD CPNS sesuai kisi resmi BKN/KemenPAN-RB: 30 TWK, 35 TIU, 45 TKP.",
+  "source": "Soal disusun mengikuti pola kisi resmi Seleksi Kompetensi Dasar CPNS (TWK, TIU, TKP) dan ambang batas KepmenPANRB No. 321 Tahun 2024 (TWK 65, TIU 80, TKP 166).",
+  "config": {
+    "durationMin": 100,
+    "subtests": [
+      {
+        "id": "twk",
+        "name": "Tes Wawasan Kebangsaan",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 65
+      },
+      {
+        "id": "tiu",
+        "name": "Tes Intelegensi Umum",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 80
+      },
+      {
+        "id": "tkp",
+        "name": "Tes Karakteristik Pribadi",
+        "scheme": "weighted",
+        "passMin": 166
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "twk-001",
+      "subtest": "twk",
+      "topic": "pancasila",
+      "stem": "Nilai yang terkandung dalam sila ke-5 'Keadilan Sosial bagi Seluruh Rakyat Indonesia' paling tercermin dalam perilaku...",
+      "options": [
+        "Menghargai pendapat orang lain dalam musyawarah",
+        "Menjalankan ibadah sesuai agama dan kepercayaan masing-masing",
+        "Membagi hasil kerja secara adil tanpa memandang status",
+        "Mencintai tanah air dan rela berkorban demi bangsa",
+        "Mengakui persamaan derajat antar sesama manusia"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari kata kunci 'keadilan' dan 'seluruh rakyat'. Sila kelima berbicara soal pembagian yang merata dan adil secara ekonomi-sosial, bukan soal agama, musyawarah, atau cinta tanah air."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Opsi yang menyebut hal ibadah (B) dan musyawarah (A) milik sila lain. Fokus pada kata 'adil' dan 'bagi seluruh rakyat'."
+        },
+        {
+          "lens": "logika",
+          "text": "Rumus sila: 1 Ketuhanan, 2 Kemanusiaan, 3 Persatuan, 4 Kerakyatan, 5 Keadilan. Cari frasa keadilan sosial."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertipu opsi 'mencintai tanah air' yang terdengar nasionalis - itu sila 3."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 2
+    },
+    {
+      "id": "twk-002",
+      "subtest": "twk",
+      "topic": "pancasila",
+      "stem": "Dalam musyawarah desa, terjadi perbedaan pendapat antara dua kelompok warga. Sikap yang paling sesuai dengan sila ke-4 Pancasila adalah...",
+      "options": [
+        "Memihak kelompok yang paling banyak anggotanya",
+        "Menunda musyawarah sampai semua sepakat bulat tanpa kompromi",
+        "Membiarkan kedua kelompok berdebat sampai lelah",
+        "Memberi kesempatan setiap warga menyampaikan usul lalu mengambil keputusan bersama",
+        "Mengikuti pendapat ketua RT saja agar cepat selesai"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kata kunci sila ke-4: 'musyawarah' dan 'keputusan bersama'. Pilih opsi yang memuat dua-duanya."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang tidak demokratis (memihak, hanya ketua, menunda tanpa batas)."
+        },
+        {
+          "lens": "logika",
+          "text": "Musyawarah = rakyat bermusyawarah melalui wakil-wakil, demi mufakat. Cari 'keputusan bersama'."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi 'menunda sampai sepakat bulat' terdengar musyawarah tapi memaksakan konsensus absolut - bukan prinsip musyawarah mufakat yang sehat."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 3
+    },
+    {
+      "id": "twk-003",
+      "subtest": "twk",
+      "topic": "uud",
+      "stem": "Amandemen UUD NRI Tahun 1945 telah dilakukan sebanyak empat kali. Perubahan yang paling signifikan pada amandemen pertama (1999) adalah...",
+      "options": [
+        "Pembentukan Mahkamah Konstitusi",
+        "Pembatasan masa jabatan presiden dan wakil presiden",
+        "Penghapusan Dewan Pertimbangan Agung",
+        "Perubahan pasal-pasal tentang kekuasaan pemerintah, DPR, dan MPR",
+        "Pemisahan TNI dan Polri"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Amandemen pertama fokus pada 'pembatasan kekuasaan' presiden dan DPR. Mahkamah Konstitusi baru lahir pada amandemen ketiga (2001)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang muncul di amandemen 3 (MK, DPA dihapus, TNI-Polri pisah)."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan amandemen: 1 (1999) kekuasaan pemerintah & DPR; 2 (2000) pemerintahan daerah, HAM, bendera; 3 (2001) MK, DPA, pilpres; 4 (2002) DPD, pendidikan, hapus DPA."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'pembatasan masa jabatan presiden' - itu hasil amandemen ketiga bersama MK."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 40,
+      "key": 3
+    },
+    {
+      "id": "twk-004",
+      "subtest": "twk",
+      "topic": "uud",
+      "stem": "Kekuasaan kehakiman menurut UUD NRI Tahun 1945 dijalankan oleh...",
+      "options": [
+        "Presiden dan DPR",
+        "Mahkamah Agung dan badan peradilan di bawahnya",
+        "MPR dan DPD",
+        "Mahkamah Agung, Mahkamah Konstitusi, dan Komisi Yudisial",
+        "Kementerian Hukum dan HAM"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pasal 24 UUD 1945: kekuasaan kehakiman dilakukan oleh Mahkamah Agung dan badan peradilan di bawahnya serta Mahkamah Konstitusi. KY mengawasi hakim."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang menyebut lembaga politik (Presiden, DPR, MPR, DPD)."
+        },
+        {
+          "lens": "logika",
+          "text": "Kehakiman = MA + MK + peradilan di bawahnya. KY hanya pengawas, bukan pelaksana kekuasaan kehakiman."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi 'MA dan badan peradilan di bawahnya' kurang lengkap karena menghilangkan MK - pilih yang menyebut dua-duanya."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 40,
+      "key": 3
+    },
+    {
+      "id": "twk-005",
+      "subtest": "twk",
+      "topic": "bhinneka",
+      "stem": "Semboyan 'Bhinneka Tunggal Ika' diambil dari kitab...",
+      "options": [
+        "Negarakertagama",
+        "Sutasoma",
+        "Pararaton",
+        "Babad Tanah Jawi",
+        "Kidung Sunda"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ingat pujangga Mpu Tantular dan kitab Sutasoma. Semboyan ini ditetapkan sebagai semboyan negara melalui PP No. 66 Tahun 1951."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Negarakertagama (A) tentang Majapahit, Pararaton (C) tentang raja Singhasari - keduanya bukan sumber semboyan."
+        },
+        {
+          "lens": "logika",
+          "text": "Mpu Tantular menulis Sutasoma berisi kalimat 'Bhinneka Tunggal Ika tan hana dharma mangrwa'."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar dengan Negarakertagama yang sering muncul di materi sejarah - bedakan penulisnya."
+        }
+      ],
+      "explain": 25,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "twk-006",
+      "subtest": "twk",
+      "topic": "bhinneka",
+      "stem": "Toleransi beragama di Indonesia dijamin dalam UUD NRI Tahun 1945 Pasal...",
+      "options": [
+        "28E ayat (1) dan 29 ayat (2)",
+        "27 ayat (1) dan 28",
+        "28A dan 30 ayat (1)",
+        "31 ayat (1) dan 32",
+        "33 ayat (1) dan 34"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pasal 28E (1): setiap orang bebas memeluk agama; Pasal 29 (2): negara menjamin kemerdekaan tiap penduduk memeluk agamanya."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Pasal 27 soal persamaan kedudukan, 28A soal hak hidup, 30 soal pertahanan, 31 pendidikan, 33 ekonomi - semua bukan soal agama."
+        },
+        {
+          "lens": "logika",
+          "text": "Toleransi agama = 28E (kebebasan beragama) + 29 (jaminan negara). Hafalkan kedua nomor ini bersama."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 29 ayat (2) saja - soal meminta dua pasal sekaligus (28E dan 29)."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 0
+    },
+    {
+      "id": "twk-007",
+      "subtest": "twk",
+      "topic": "nkri",
+      "stem": "Kedudukan Pancasila sebagai dasar negara tercantum dalam Pembukaan UUD NRI Tahun 1945 pada alinea...",
+      "options": [
+        "Pertama",
+        "Kedua",
+        "Ketiga",
+        "Keempat",
+        "Semua alinea"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Alinea keempat memuat rumusan Pancasila secara eksplisit sebagai dasar negara."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Alinea 1-3 berisi pernyataan kemerdekaan, cita-cita, dan tujuan - bukan rumusan sila."
+        },
+        {
+          "lens": "logika",
+          "text": "Pembukaan 4 alinea: alinea 4 = dasar negara + tujuan negara + kedaulatan rakyat."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'semua alinea' - hanya alinea keempat yang memuat rumusan resmi Pancasila."
+        }
+      ],
+      "explain": 25,
+      "targetSec": 40,
+      "key": 3
+    },
+    {
+      "id": "twk-008",
+      "subtest": "twk",
+      "topic": "nkri",
+      "stem": "Wilayah Indonesia di sebelah utara berbatasan langsung dengan...",
+      "options": [
+        "Malaysia, Singapura, Filipina, dan Samudra Pasifik",
+        "Australia dan Samudra Hindia",
+        "Papua Nugini dan Timor Leste",
+        "Samudra Hindia dan Laut Arafura",
+        "Malaysia dan Samudra Hindia"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Batas utara RI: Malaysia, Singapura, Filipina, Samudra Pasifik. Ini data geografi dasar yang sering keluar."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Australia & Timor Leste = batas selatan; Papua Nugini = timur. Buang yang menyebut Australia di utara."
+        },
+        {
+          "lens": "logika",
+          "text": "Gunakan arah mata angin: Utara = Malaysia+Singapura+Filipina+Pasifik; Selatan = Australia+Hindia; Timur = PNG; Barat = Hindia."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar batas selatan (Australia) dengan utara - ujian sering membalik posisinya."
+        }
+      ],
+      "explain": 25,
+      "targetSec": 40,
+      "key": 0
+    },
+    {
+      "id": "twk-009",
+      "subtest": "twk",
+      "topic": "bahasa",
+      "stem": "Kalimat efektif terdapat pada...",
+      "options": [
+        "Para siswa-siswa sedang mengikuti upacara bendera",
+        "Waktu dan tempat kami persilakan",
+        "Kepada Bapak Ibu guru yang saya hormati",
+        "Surat ini kami sampaikan kepada yang terhormat Bapak Direktur",
+        "Hadirin sekalian yang saya muliakan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kalimat efektif tidak ambigu dan subjek-predikat jelas. Opsi D berstruktur lengkap dan jelas penerimanya."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang kalimat yang redundan ('siswa-siswa') atau rancu ('Waktu dan tempat kami persilakan' - subjek salah)."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kalimat: siapa melakukan apa? Jika 'kepada' di awal membuat tidak ada subjek jelas, bukan kalimat efektif."
+        },
+        {
+          "lens": "jebakan",
+          "text": "'Waktu dan tempat kami persilakan' adalah kalimat tidak efektif klasik - jangan pilih karena sering terdengar sopan."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 3
+    },
+    {
+      "id": "twk-010",
+      "subtest": "twk",
+      "topic": "bahasa",
+      "stem": "Penulisan kata baku yang benar adalah...",
+      "options": [
+        "Aktifitas",
+        "Analisa",
+        "Nasehat",
+        "Faktor",
+        "Jaman"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Faktor' adalah bentuk baku. 'Aktifitas' tidak baku (baku: aktivitas), 'analisa' tidak baku (analisis), 'nasehat' tidak baku (nasihat), 'jaman' tidak baku (zaman)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang kata yang sering salah tulis: aktifitas, analisa, nasehat, jaman."
+        },
+        {
+          "lens": "logika",
+          "text": "Cek KBBI: aktivitas, analisis, nasihat, zaman. Hanya 'faktor' yang memang bentuk bakunya."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tergoda 'aktifitas' yang diucapkan sama dengan 'aktivitas' - ejaannya berbeda."
+        }
+      ],
+      "explain": 25,
+      "targetSec": 40,
+      "key": 3
+    },
+    {
+      "id": "twk-011",
+      "subtest": "twk",
+      "topic": "pancasila",
+      "stem": "Pengamalan sila pertama Pancasila dalam kehidupan bernegara diwujudkan dengan...",
+      "options": [
+        "Membangun rumah ibadah bagi semua agama di setiap desa",
+        "Menghormati pemeluk agama lain dan tidak memaksakan agama kepada orang lain",
+        "Mewajibkan seluruh warga negara beragama tertentu",
+        "Mengikuti upacara keagamaan semua agama",
+        "Mendirikan negara berdasarkan agama mayoritas"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Sila pertama menekankan kebebasan beragama tanpa paksaan. Inti: hormat & tidak memaksa."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang memaksa (mewajibkan agama, mendirikan negara berdasarkan satu agama, mengikuti semua agama)."
+        },
+        {
+          "lens": "logika",
+          "text": "Ketuhanan Yang Maha Esa = setiap warga bebas beribadah, negara tidak memihak satu agama."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi A (membangun rumah ibadah di setiap desa) terdengar toleran tapi tidak realistis dan bukan inti sila pertama."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "twk-012",
+      "subtest": "twk",
+      "topic": "pancasila",
+      "stem": "Contoh pengamalan sila kedua Pancasila di lingkungan sekolah adalah...",
+      "options": [
+        "Menghormati guru dan membantu teman yang kesulitan tanpa membeda-bedakan",
+        "Mengikuti upacara bendera setiap hari Senin",
+        "Menjaga kebersihan kelas secara bergiliran",
+        "Membayar iuran kelas tepat waktu",
+        "Belajar kelompok menjelang ujian"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Sila kedua = kemanusiaan yang adil dan beradab: perlakuan manusiawi tanpa diskriminasi. Menghormati guru & membantu teman = itu."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Opsi B-E adalah pengamalan sila lain (persatuan, gotong royong, kedisiplinan)."
+        },
+        {
+          "lens": "logika",
+          "text": "Sila 2 berpusat pada hubungan antarmanusia: empati, tenggang rasa, anti-diskriminasi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "'Belajar kelompok' dan 'iuran kelas' adalah disiplin umum, bukan inti kemanusiaan - jangan dipaksakan."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 0
+    },
+    {
+      "id": "twk-013",
+      "subtest": "twk",
+      "topic": "uud",
+      "stem": "Lembaga negara yang berwenang memberhentikan presiden dalam masa jabatannya menurut UUD NRI Tahun 1945 adalah...",
+      "options": [
+        "Mahkamah Agung",
+        "DPR melalui mekanisme impeachment",
+        "Mahkamah Konstitusi",
+        "TNI dan Polri",
+        "KPU"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Presiden dapat diberhentikan melalui proses impeachment oleh DPR dengan putusan final MK (Pasal 7B UUD 1945)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "MK memutus dugaan pelanggaran, tapi yang mengusulkan pemberhentian adalah DPR."
+        },
+        {
+          "lens": "logika",
+          "text": "Alur: DPR mengusulkan → MK memutus → MPR memberhentikan. Kata kunci soal 'berwenang memberhentikan' = DPR/MPR."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih MK - MK hanya memutus pendapat DPR, tidak memberhentikan langsung."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "twk-014",
+      "subtest": "twk",
+      "topic": "uud",
+      "stem": "Berdasarkan UUD NRI Tahun 1945 Pasal 1 ayat (2) setelah amandemen, kedaulatan berada di tangan...",
+      "options": [
+        "MPR",
+        "Presiden",
+        "Rakyat dan dilaksanakan menurut UUD",
+        "Partai politik",
+        "Pemerintah"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pasal 1 ayat (2): 'Kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sebelum amandemen kedaulatan di tangan MPR, setelah amandemen langsung di tangan rakyat."
+        },
+        {
+          "lens": "logika",
+          "text": "Ingat perubahan kunci amandemen: 'oleh MPR' → 'menurut UUD'."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih MPR - itu rumus lama sebelum amandemen, inilah jebakan klasik."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 2
+    },
+    {
+      "id": "twk-015",
+      "subtest": "twk",
+      "topic": "bhinneka",
+      "stem": "Sikap yang paling tepat dalam menyikapi keberagaman suku dan budaya di Indonesia adalah...",
+      "options": [
+        "Menganggap budaya sendiri paling tinggi",
+        "Mempelajari budaya daerah lain sebagai kekayaan bangsa",
+        "Menghindari pergaulan dengan suku lain",
+        "Menyeragamkan seluruh budaya daerah",
+        "Membatasi pertukaran budaya antar daerah"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Keberagaman = kekayaan; sikap tepat = mempelajari & menghargai, bukan menyeragamkan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi negatif: menganggap tinggi, menghindari, menyeragamkan, membatasi."
+        },
+        {
+          "lens": "logika",
+          "text": "Bhinneka Tunggal Ika = berbeda-beda tetap satu. Wujud nyata: saling mengenal budaya."
+        },
+        {
+          "lens": "jebakan",
+          "text": "'Menyeragamkan budaya' terdengar nasionalis tapi justru melanggar semangat Bhinneka Tunggal Ika."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "twk-016",
+      "subtest": "twk",
+      "topic": "nkri",
+      "stem": "Pulau terluar Indonesia yang berbatasan dengan Australia adalah...",
+      "options": [
+        "Pulau Sebatik",
+        "Pulau Rote",
+        "Pulau Miangas",
+        "Pulau Weh",
+        "Pulau Nunukan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pulau Rote (NTT) berbatasan langsung dengan Australia di selatan. Ini pulau terluar dengan status berpenduduk."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sebatik & Nunukan = batas Malaysia (Kalimantan), Miangas = Filipina, Weh = Malaysia/India di utara Sumatera."
+        },
+        {
+          "lens": "logika",
+          "text": "Ingat posisi: selatan = Rote (Australia), utara = Miangas/Weh (Filipina/Malaysia), timur = PNG."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih Pulau Miangas yang sering disebut sebagai titik utara - soal menanyakan batas dengan Australia."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "twk-017",
+      "subtest": "twk",
+      "topic": "bahasa",
+      "stem": "Makna kata 'insinuasi' dalam kalimat 'Tudingan itu hanyalah insinuasi belaka' adalah...",
+      "options": [
+        "Pujian yang berlebihan",
+        "Sindiran yang tidak langsung",
+        "Perintah yang tegas",
+        "Pengakuan yang jujur",
+        "Ramalan masa depan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Insinuasi' = sindiran halus/tidak langsung yang menusuk. Konteks 'tudingan' menguatkan makna ini."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang netral-positif (pujian, pengakuan, ramalan) - konteks tudingan tidak cocok."
+        },
+        {
+          "lens": "logika",
+          "text": "Tes konteks: kata diikuti 'tudingan' → pasti bernada negatif terselubung."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'pujian berlebihan' karena kata 'belaka' menandakan sesuatu yang tidak berdasar, bukan pujian."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "twk-018",
+      "subtest": "twk",
+      "topic": "pancasila",
+      "stem": "Penerapan nilai gotong royong paling tepat digambarkan oleh kegiatan...",
+      "options": [
+        "Kerja bakti membersihkan lingkungan secara bersama-sama",
+        "Lomba kebersihan antar RT",
+        "Donasi tunai untuk korban bencana",
+        "Membayar pajak tepat waktu",
+        "Mengikuti rapat RW"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Gotong royong = bekerja bersama untuk kepentingan bersama secara sukarela. Kerja bakti adalah contoh paling literal."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Donasi (C) dan pajak (D) adalah kontribusi materi, bukan kerja bersama fisik; lomba (B) kompetitif."
+        },
+        {
+          "lens": "logika",
+          "text": "Kata kunci: 'bersama-sama' + 'secara sukarela' + 'kepentingan bersama'."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih donasi - itu sedekah, bukan gotong royong yang menekankan aksi bersama."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 0
+    },
+    {
+      "id": "twk-019",
+      "subtest": "twk",
+      "topic": "uud",
+      "stem": "Hak asasi manusia yang dijamin Pasal 28H ayat (1) UUD NRI Tahun 1945 adalah hak...",
+      "options": [
+        "Memperoleh pendidikan",
+        "Hidup sejahtera lahir batin, bertempat tinggal, dan mendapat lingkungan hidup yang baik",
+        "Menyampaikan pendapat",
+        "Memilih dan dipilih dalam pemilu",
+        "Mendirikan partai politik"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pasal 28H (1): hak hidup sejahtera lahir batin, tempat tinggal, lingkungan hidup baik, serta pelayanan kesehatan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Pendidikan = 31; pendapat & berserikat = 28E/28; pemilu = 27/28D. Buang yang bukan 28H."
+        },
+        {
+          "lens": "logika",
+          "text": "Hafalkan pasal HAM inti: 28A (hidup), 28B (keluarga), 28C (mengembangkan diri), 28D (pekerjaan), 28E (agama/pendapat), 28F (komunikasi), 28G (perlindungan), 28H (sejahtera), 28I (non-diskriminasi)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'memperoleh pendidikan' - itu Pasal 31, bukan 28H."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "twk-020",
+      "subtest": "twk",
+      "topic": "nkri",
+      "stem": "Kewajiban warga negara yang paling fundamental menurut Pasal 27 ayat (3) UUD NRI Tahun 1945 adalah...",
+      "options": [
+        "Membayar pajak",
+        "Ikut serta dalam upaya pembelaan negara",
+        "Menghormati hak asasi orang lain",
+        "Menjaga kelestarian lingkungan",
+        "Melestarikan budaya daerah"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pasal 27 (3): 'Setiap warga negara berhak dan wajib ikut serta dalam upaya pembelaan negara'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Pajak diatur pasal 23A, HAM orang lain 28J, lingkungan 28H - bukan 'paling fundamental' soal bela negara."
+        },
+        {
+          "lens": "logika",
+          "text": "Pembelaan negara = hak sekaligus kewajiban (wajib militer sesuai undang-undang)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'membayar pajak' - meski kewajiban, yang diminta pasal 27 ayat (3) khusus bela negara."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "twk-021",
+      "subtest": "twk",
+      "topic": "bhinneka",
+      "stem": "Makna filosofis 'Bhinneka Tunggal Ika' dalam kehidupan berbangsa adalah...",
+      "options": [
+        "Semua daerah harus mengikuti budaya pusat",
+        "Keberagaman tetap dalam persatuan",
+        "Setiap suku memiliki pemerintahan sendiri",
+        "Persatuan menghapus keberagaman",
+        "Kebudayaan daerah harus diutamakan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Bhinneka Tunggal Ika = berbeda-beda tetapi tetap satu. Kunci: keberagaman TIDAK menghilang, ia menyatu."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang menyeragamkan (mengikuti pusat, menghapus keberagaman) atau memisahkan (pemerintahan sendiri)."
+        },
+        {
+          "lens": "logika",
+          "text": "Filosofi: harmoni dalam perbedaan, bukan peleburan menjadi satu budaya."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'persatuan menghapus keberagaman' - itu justru kebalikan dari semboyan ini."
+        }
+      ],
+      "explain": 25,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "twk-022",
+      "subtest": "twk",
+      "topic": "uud",
+      "stem": "Berdasarkan Pasal 22E UUD NRI Tahun 1945, pemilihan umum di Indonesia diselenggarakan untuk memilih...",
+      "options": [
+        "Presiden, DPR, DPD, dan kepala daerah",
+        "Presiden dan wakil presiden saja",
+        "DPR, DPD, dan DPRD",
+        "Presiden, DPR, DPD, DPRD, dan kepala daerah",
+        "Anggota MPR saja"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pasal 22E: Pemilu memilih anggota DPR, DPD, Presiden/Wakil Presiden, dan anggota DPRD serta kepala daerah (sejak Pilkada diakui)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Opsi yang tidak menyebut DPRD atau kepala daerah tidak lengkap untuk era sekarang."
+        },
+        {
+          "lens": "logika",
+          "text": "Pemilu = memilih wakil rakyat (legislatif) + presiden + kepala daerah. Ini satu paket."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih opsi tanpa 'kepala daerah' - Pilkada resmi bagian dari rezim pemilu."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 40,
+      "key": 3
+    },
+    {
+      "id": "twk-023",
+      "subtest": "twk",
+      "topic": "bahasa",
+      "stem": "Sinonim kata 'predileksi' adalah...",
+      "options": [
+        "Kecenderungan",
+        "Kebencian",
+        "Keraguan",
+        "Keterpaksaan",
+        "Kelemahan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Predileksi' = kecenderungan/kesukaan khusus terhadap sesuatu."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kata 'pre-' bisa menyesatkan ke 'prasangka' - tapi predileksi bermakna positif: preferensi."
+        },
+        {
+          "lens": "logika",
+          "text": "Tes akar kata Latin 'prae-diligere' = memilih lebih dulu → kecenderungan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'kebencian' karena awalan 'predi' mirip 'prejudice' - itu kata berbeda."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 0
+    },
+    {
+      "id": "twk-024",
+      "subtest": "twk",
+      "topic": "pancasila",
+      "stem": "Sikap yang mencerminkan sila ke-3 Pancasila (Persatuan Indonesia) di era digital adalah...",
+      "options": [
+        "Menyebarkan berita yang memperkuat SARA",
+        "Menggunakan media sosial untuk menyebar hoaks",
+        "Menghindari interaksi dengan kelompok yang berbeda pandangan politik",
+        "Memproduksi konten positif yang mempersatukan antardaerah dan antaragama",
+        "Membatasi akses internet bagi kelompok tertentu"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Sila ke-3 = persatuan. Di era digital, wujudnya = konten yang mempersatukan, bukan memecah belah."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang semua opsi yang memecah: SARA, hoaks, menghindari perbedaan, membatasi akses."
+        },
+        {
+          "lens": "logika",
+          "text": "Persatuan ≠ seragam; persatuan = saling terhubung meski berbeda. Konten positif = media pemersatu."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menghindari interaksi berbeda pandangan' - menghindar bukan persatuan, itu segregasi."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 3
+    },
+    {
+      "id": "twk-025",
+      "subtest": "twk",
+      "topic": "nkri",
+      "stem": "Konsep wawasan nusantara menempatkan Indonesia sebagai...",
+      "options": [
+        "Negara kepulauan yang terpisah-pisah",
+        "Satu kesatuan politik, ekonomi, sosial budaya, dan pertahanan keamanan",
+        "Negara maritim yang bebas dari ancaman",
+        "Kesatuan budaya Jawa sentris",
+        "Negara agraris yang mengandalkan daratan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Wawasan Nusantara = cara pandang bahwa Indonesia adalah satu kesatuan utuh (politik, ekonomi, sosial budaya, hankam)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang memecah (terpisah-pisah, Jawa sentris) atau menyempitkan (maritim saja, agraris saja)."
+        },
+        {
+          "lens": "logika",
+          "text": "Ingat kata 'satu kesatuan' + 'seluruh aspek' - itulah inti wawasan nusantara."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'negara maritim' - itu salah satu dimensi, bukan konsep wawasan nusantara secara utuh."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "twk-026",
+      "subtest": "twk",
+      "topic": "uud",
+      "stem": "Perubahan UUD NRI Tahun 1945 tidak boleh mengubah...",
+      "options": [
+        "Bentuk negara Kesatuan Republik Indonesia",
+        "Sistem pemerintahan presidensial",
+        "Susunan MPR",
+        "Kedudukan Mahkamah Agung",
+        "Sistem pemilihan umum"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pasal 37 ayat (5): bentuk negara NKRI tidak dapat diubah. Ini satu-satunya materi yang 'dikunci' dari amandemen."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sistem presidensial, MPR, MA, pemilu semuanya PERNAH diubah dalam amandemen - bukan materi terlarang."
+        },
+        {
+          "lens": "logika",
+          "text": "Hafalkan: 'Negara Indonesia adalah negara kesatuan' tidak boleh diubah → jaminan keutuhan NKRI."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'sistem presidensial' - meski dipertahankan, secara hukum yang dikunci tegas hanya bentuk negara."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 40,
+      "key": 0
+    },
+    {
+      "id": "twk-027",
+      "subtest": "twk",
+      "topic": "bhinneka",
+      "stem": "Dalam menghadapi konflik antarkelompok, langkah pertama yang paling bijak adalah...",
+      "options": [
+        "Memihak kelompok yang benar",
+        "Mengumpulkan kedua belah pihak untuk klarifikasi dan mediasi",
+        "Menghindari konflik dengan tidak peduli",
+        "Melaporkan ke pihak berwajib tanpa mediasi",
+        "Membubarkan kelompok yang berselisih"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Prinsip penyelesaian konflik: mediasi dan klarifikasi dulu sebelum eskalasi atau pelaporan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Memihak = memperbesar konflik; menghindar = membiarkan; lapor tanpa mediasi = prematur; membubarkan = represif."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan ideal: klarifikasi → mediasi → kesepakatan → (jika gagal) jalur hukum."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'melaporkan tanpa mediasi' - pelaporan adalah langkah akhir, bukan pertama."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "twk-028",
+      "subtest": "twk",
+      "topic": "bahasa",
+      "stem": "Kalimat berikut yang menggunakan ejaan yang tepat adalah...",
+      "options": [
+        "Ia bekerja di kantor Bapak Gubernur",
+        "Ani membeli 2 buah buku tulis",
+        "Mereka datang pada pukul 09.00 WIB",
+        "Kami belajar sejarah pada hari senin",
+        "Dia pergi ke Jakarta naik kereta api"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Kereta api' ditulis terpisah sesuai KBBI; 'hari Senin' harus kapital; 'pukul 09.00' memakai titik, bukan dua titik; angka di awal kalimat ditulis huruf."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang: 'Bapak Gubernur' (kapitalisasi tidak tepat untuk jabatan umum), '2 buah' (angka harus huruf di awal), '09.00' (titik), 'senin' (harus Senin)."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji KBBI: kereta api, rumah sakit, mata air = kata majemuk ditulis terpisah."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'pukul 09.00' - jebakan umum memakai titik dua alih-alih titik."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 4
+    },
+    {
+      "id": "twk-029",
+      "subtest": "twk",
+      "topic": "pancasila",
+      "stem": "Nilai instrumental Pancasila diwujudkan dalam bentuk...",
+      "options": [
+        "Sila-sila Pancasila itu sendiri",
+        "Pasal-pasal UUD NRI Tahun 1945 dan peraturan perundang-undangan",
+        "Perilaku sehari-hari masyarakat",
+        "Ajaran agama dan kepercayaan",
+        "Tradisi dan adat istiadat"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Nilai instrumental = penjabaran nilai dasar ke dalam norma hukum (UUD & peraturan)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Nilai dasar = sila Pancasila; nilai praksis = perilaku sehari-hari. Yang 'instrumental' ada di tengah: peraturan perundang-undangan."
+        },
+        {
+          "lens": "logika",
+          "text": "Alur nilai: dasar (Pancasila) → instrumental (UUD+UU) → praksis (perilaku)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'perilaku sehari-hari' - itu nilai praksis, bukan instrumental."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "twk-030",
+      "subtest": "twk",
+      "topic": "uud",
+      "stem": "Sistem pemerintahan Indonesia menurut UUD NRI Tahun 1945 adalah presidensial karena...",
+      "options": [
+        "Presiden dipilih langsung oleh rakyat",
+        "Presiden adalah kepala negara sekaligus kepala pemerintahan",
+        "Presiden tidak bertanggung jawab kepada parlemen",
+        "Kekuasaan presiden tidak terbatas",
+        "Presiden dibantu wakil presiden"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ciri inti presidensial: presiden merangkap kepala negara & kepala pemerintahan, dipilih rakyat, dan tidak bertanggung jawab kepada DPR."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Dipilih langsung (A) juga benar tapi bukan ciri pembeda; yang membedakan dari parlementer adalah rangkap jabatan."
+        },
+        {
+          "lens": "logika",
+          "text": "Ingat pembeda presidensial vs parlementer: presiden = eksekutif tunggal, bukan boneka parlemen."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'tidak bertanggung jawab kepada parlemen' - benar tapi belum menjelaskan 'kepala negara sekaligus pemerintahan' yang ditanyakan."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "twk-031",
+      "subtest": "twk",
+      "topic": "nkri",
+      "stem": "Konsep otonomi daerah diatur dalam UUD NRI Tahun 1945 Pasal...",
+      "options": [
+        "18 dan 18A-18B",
+        "22E",
+        "24C",
+        "28H",
+        "33"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pasal 18, 18A, 18B mengatur pemerintahan daerah dan otonomi seluas-luasnya."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "22E = pemilu; 24C = MK; 28H = HAM; 33 = perekonomian. Buang semua."
+        },
+        {
+          "lens": "logika",
+          "text": "Otonomi daerah = Pasal 18 family. Ingat '18 = daerah'."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 33 - sering tertukar karena sama-sama soal kesejahteraan, padahal 33 ekonomi nasional."
+        }
+      ],
+      "explain": 30,
+      "targetSec": 40,
+      "key": 0
+    },
+    {
+      "id": "twk-032",
+      "subtest": "twk",
+      "topic": "bhinneka",
+      "stem": "Keberadaan Taman Mini Indonesia Indah paling tepat dimaknai sebagai upaya...",
+      "options": [
+        "Menampilkan kebudayaan Jawa sebagai pusat",
+        "Memperkenalkan keberagaman budaya daerah sebagai satu kesatuan bangsa",
+        "Menyaingi tempat wisata internasional",
+        "Menghimpun seluruh budaya agar seragam",
+        "Melestarikan budaya asing di Indonesia"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "TMII = anjungan budaya daerah yang menampilkan keberagaman dalam bingkai satu Indonesia."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang Jawa-sentris, seragam, atau budaya asing - semua bertentangan dengan semangat Bhinneka."
+        },
+        {
+          "lens": "logika",
+          "text": "Keberagaman yang ditampilkan berdampingan = persatuan dalam kebhinekaan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menyaingi tempat wisata' - motif ekonomi bukan makna utama TMII."
+        }
+      ],
+      "explain": 25,
+      "targetSec": 40,
+      "key": 1
+    },
+    {
+      "id": "tiu-001",
+      "subtest": "tiu",
+      "topic": "sinonim",
+      "stem": "Sinonim kata 'elaborasi' adalah...",
+      "options": [
+        "Perincian",
+        "Perombakan",
+        "Peramalan",
+        "Perpaduan",
+        "Perkiraan"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Elaborasi' = pengembangan secara terperinci. Cari kata yang berarti merinci, bukan mengubah total."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang 'perombakan' (negatif total) dan 'peramalan/perkiraan' (masa depan) - tidak berhubungan dengan detail."
+        },
+        {
+          "lens": "logika",
+          "text": "Elaborasi < elaborare (Latin) = mengerjakan dengan teliti → perincian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'perpaduan' - mirip bunyi 'elaborasi' tapi maknanya beda."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-002",
+      "subtest": "tiu",
+      "topic": "antonim",
+      "stem": "Lawan kata 'fluktuatif' adalah...",
+      "options": [
+        "Stabil",
+        "Melambung",
+        "Menurun",
+        "Bergelombang",
+        "Cepat"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Fluktuatif' = naik turun / tidak menentu. Lawannya = tetap / stabil."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang 'bergelombang' (sinonim, bukan antonim) dan 'melambung/menurun' (arah tunggal)."
+        },
+        {
+          "lens": "logika",
+          "text": "Antonim cari kebalikan makna utuh: tidak menentu ↔ tetap."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'bergelombang' - itu justru sinonim dari fluktuatif."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-003",
+      "subtest": "tiu",
+      "topic": "analogi",
+      "stem": "KAPAL : LAUT = ...",
+      "options": [
+        "Pesawat : udara",
+        "Mobil : garasi",
+        "Kereta : rel",
+        "Perahu : danau",
+        "Bus : terminal"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "KAPAL beroperasi di LAUT → PESAWAT beroperasi di UDARA. Relasi: kendaraan-medium geraknya."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kereta:rel benar relasinya, tapi 'rel' adalah lintasan, bukan medium tempat kereta bergerak bebas."
+        },
+        {
+          "lens": "logika",
+          "text": "Pola: subjek : medium operasi. Cari pasangan yang sama persis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'kereta : rel' - rel adalah sarana khusus, sedangkan laut/udara adalah medium umum."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-004",
+      "subtest": "tiu",
+      "topic": "sinonim",
+      "stem": "Sinonim kata 'intrik' adalah...",
+      "options": [
+        "Perselisihan",
+        "Konspirasi",
+        "Penyelesaian",
+        "Persetujuan",
+        "Perundingan"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Intrik' = komplotan rahasia / permainan terselubung untuk kepentingan sendiri → konspirasi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang netral-positif (penyelesaian, persetujuan, perundingan)."
+        },
+        {
+          "lens": "logika",
+          "text": "Intrik identik dengan siasat rahasia, makar kecil, komplotan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'perselisihan' - intrik bisa memicu perselisihan tapi makna intinya konspirasi."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-005",
+      "subtest": "tiu",
+      "topic": "antonim",
+      "stem": "Lawan kata 'progresif' adalah...",
+      "options": [
+        "Regresif",
+        "Agresif",
+        "Ekspresif",
+        "Pasif",
+        "Aktif"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Progresif' = maju/berkembang → lawannya 'regresif' = mundur/kemunduran."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "'Pasif' (D) bukan antonim tepat - pasif soal sikap, bukan arah perkembangan."
+        },
+        {
+          "lens": "logika",
+          "text": "Pasangan berawalan pro-/re- sering berlawanan: progresif vs regresif."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'pasif' - itu jebakan umum; lawan kata yang tepat adalah regresif."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-006",
+      "subtest": "tiu",
+      "topic": "silogisme",
+      "stem": "Semua dokter adalah sarjana. Sebagian sarjana adalah dosen. Kesimpulan yang benar adalah...",
+      "options": [
+        "Semua dokter adalah dosen",
+        "Sebagian dosen adalah dokter",
+        "Semua sarjana adalah dokter",
+        "Sebagian dokter adalah sarjana",
+        "Tidak ada dokter yang dosen"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Dari premis 'semua dokter sarjana', pasti 'sebagian dokter (yang sarjana itu) adalah sarjana' - opsi D benar dan pasti."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "A, C, E melampaui premis (semua/negasi). B belum tentu: dosen bisa di luar kelompok sarjana yang dokter."
+        },
+        {
+          "lens": "logika",
+          "text": "Silogisme aman: hanya simpulkan yang PASTI dari premis. 'Semua A adalah B' → 'sebagian A adalah B'."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih B - 'sebagian dosen adalah dokter' tidak bisa ditarik; dokter mungkin bukan dosen sama sekali."
+        }
+      ],
+      "explain": 55,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-007",
+      "subtest": "tiu",
+      "topic": "silogisme",
+      "stem": "Jika hujan turun, jalanan basah. Jalanan basah. Maka...",
+      "options": [
+        "Pasti hujan turun",
+        "Mungkin hujan turun atau sebab lain",
+        "Hujan tidak turun",
+        "Jalanan licin",
+        "Semua kendaraan berhenti"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Jika P maka Q' + Q → TIDAK bisa menyimpulkan P (fallacy affirming consequent). Hanya 'mungkin'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang 'pasti hujan' (terlalu kuat) dan 'hujan tidak turun' (kontradiksi premis)."
+        },
+        {
+          "lens": "logika",
+          "text": "Ingat: P→Q, Q benar hanya membuka kemungkinan P, sebab bisa lain (siraman air, bocor)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'pasti hujan turun' - ini kesimpulan kaku yang mengabaikan sebab alternatif."
+        }
+      ],
+      "explain": 50,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-008",
+      "subtest": "tiu",
+      "topic": "deret",
+      "stem": "Lanjutan deret: 3, 6, 12, 24, 48, ...",
+      "options": [
+        "60",
+        "72",
+        "84",
+        "96",
+        "108"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola: kali 2 setiap suku. 48 × 2 = 96."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek beda antarsuku: 6-3=3, 12-6=6, 24-12=12 → beda berlipat dua → suku berikut 48+48=96."
+        },
+        {
+          "lens": "logika",
+          "text": "Deret geometri rasio 2: Un = 3 × 2^(n-1). Suku ke-6 = 3 × 32 = 96."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 72 - itu hasil menambah 24 (pola salah)."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-009",
+      "subtest": "tiu",
+      "topic": "deret",
+      "stem": "Lanjutan deret: 2, 3, 5, 8, 13, 21, ...",
+      "options": [
+        "29",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ini deret Fibonacci: setiap suku = jumlah dua suku sebelumnya. 13+21 = 34."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek: 2+3=5, 3+5=8, 5+8=13, 8+13=21 → 13+21=34."
+        },
+        {
+          "lens": "logika",
+          "text": "Deret Fibonacci: Un = U(n-1) + U(n-2)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 32 - itu hasil 21+11 yang mengikuti pola beda salah."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-010",
+      "subtest": "tiu",
+      "topic": "aritmetika",
+      "stem": "Harga sebuah buku Rp45.000. Setelah diskon 20%, berapa harga yang harus dibayar?",
+      "options": [
+        "Rp36.000",
+        "Rp38.000",
+        "Rp40.000",
+        "Rp42.000",
+        "Rp34.000"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Diskon 20% = 45.000 × 0,2 = 9.000. Bayar = 45.000 - 9.000 = 36.000."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Trik: diskon 20% artinya bayar 80%. 45.000 × 80% = 36.000 langsung."
+        },
+        {
+          "lens": "logika",
+          "text": "Bayar = harga × (100% - diskon). Hitung sekali, jangan dua langkah."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 38.000 - itu hasil salah hitung 20% sebagai 7.000."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-011",
+      "subtest": "tiu",
+      "topic": "perbandingan",
+      "stem": "Perbandingan umur Andi dan Budi 3:5. Jika jumlah umur mereka 40 tahun, umur Budi adalah...",
+      "options": [
+        "20 tahun",
+        "22 tahun",
+        "24 tahun",
+        "25 tahun",
+        "28 tahun"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jumlah bagian = 3+5 = 8. Umur Budi = 5/8 × 40 = 25 tahun."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Bagian Budi lebih besar dari Andi → jawaban harus > 20 (setengah jumlah). Buang A."
+        },
+        {
+          "lens": "logika",
+          "text": "Rumus: nilai = (bagian yang dicari / total bagian) × jumlah total."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 24 - itu 3/5 dari 40 (terbalik mengambil bagian Andi)."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-012",
+      "subtest": "tiu",
+      "topic": "aljabar",
+      "stem": "Jika 3x + 7 = 22, maka x = ...",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "3x = 22 - 7 = 15 → x = 15/3 = 5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kurangkan konstanta dulu, baru bagi koefisien: (22-7)÷3 = 5."
+        },
+        {
+          "lens": "logika",
+          "text": "Isolasi variabel: pindah suku dengan tanda berubah."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 4 - itu hasil 22÷(3+... ) kesalahan urutan operasi."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-013",
+      "subtest": "tiu",
+      "topic": "persen",
+      "stem": "Sebuah toko menaikkan harga barang 25%, lalu memberlakukan diskon 20%. Harga akhir dibanding harga awal...",
+      "options": [
+        "Naik 5%",
+        "Naik 10%",
+        "Tetap sama",
+        "Turun 5%",
+        "Turun 10%"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Misal awal 100 → naik 25% = 125 → diskon 20% dari 125 = 100. Harga akhir = awal (tetap)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Jangan langsung 25%-20%=5%; persen dihitung dari basis berbeda."
+        },
+        {
+          "lens": "logika",
+          "text": "Kali faktor: 100 × 1,25 × 0,8 = 100. Perkalian faktor 1,25×0,8 = 1,0."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'naik 5%' - itu jebakan pengurangan persen naif tanpa basis."
+        }
+      ],
+      "explain": 55,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-014",
+      "subtest": "tiu",
+      "topic": "deret",
+      "stem": "Lanjutan deret: 1, 4, 9, 16, 25, ...",
+      "options": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "40"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Deret bilangan kuadrat: 1², 2², 3², 4², 5² → berikutnya 6² = 36."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek beda: 3, 5, 7, 9 (bilangan ganjil berurutan) → +11 = 36."
+        },
+        {
+          "lens": "logika",
+          "text": "Kenali pola kuadrat: 1,4,9,16,25,36,49..."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 32 - itu hasil menambah 7 (pola salah dari beda ganjil)."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-015",
+      "subtest": "tiu",
+      "topic": "aritmetika",
+      "stem": "Rata-rata dari 5 bilangan adalah 8. Jika empat bilangan pertama adalah 6, 9, 7, dan 10, bilangan kelima adalah...",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Total 5 bilangan = 5 × 8 = 40. Empat pertama total = 6+9+7+10 = 32. Kelima = 40-32 = 8."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Jumlah = rata-rata × banyak data. Kurangi total yang diketahui."
+        },
+        {
+          "lens": "logika",
+          "text": "Rumus: nilai hilang = (rata × n) - jumlah yang ada."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 9 - itu hasil rata-rata empat bilangan pertama."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-016",
+      "subtest": "tiu",
+      "topic": "perbandingan",
+      "stem": "Dalam 5 hari, 3 pekerja menyelesaikan 1/2 pekerjaan. Berapa pekerja tambahan agar pekerjaan selesai dalam total 7 hari?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Sisa 1/2 pekerjaan harus selesai dalam 2 hari (7-5). Kapasitas: 3 pekerja × 5 hari = 15 org-hari untuk 1/2 → 30 org-hari total. Sisa butuh 15 org-hari dalam 2 hari = 7,5 → 8 pekerja → tambah 5? Cek ulang."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Hati-hati: total butuh 30 org-hari; sudah dipakai 15; sisa 15 dalam 2 hari → 7,5 pekerja → butuh 8, tambah 5."
+        },
+        {
+          "lens": "logika",
+          "text": "Gunakan org-hari sebagai satuan kerja konsisten."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 3 - itu asumsi sederhana tanpa konversi org-hari."
+        }
+      ],
+      "explain": 60,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-017",
+      "subtest": "tiu",
+      "topic": "aljabar",
+      "stem": "Jika a + b = 12 dan a - b = 4, maka a × b = ...",
+      "options": [
+        "28",
+        "30",
+        "32",
+        "36",
+        "40"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jumlahkan: 2a = 16 → a = 8; b = 12-8 = 4. a×b = 32."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi: tambah dua persamaan menghilangkan b."
+        },
+        {
+          "lens": "logika",
+          "text": "Sistem persamaan linear: tambah/ kurang untuk isolasi variabel."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 36 - itu hasil 9×4 dengan asumsi a=9 salah."
+        }
+      ],
+      "explain": 50,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-018",
+      "subtest": "tiu",
+      "topic": "persen",
+      "stem": "25% dari 40% dari 200 adalah...",
+      "options": [
+        "10",
+        "20",
+        "25",
+        "30",
+        "40"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "40% dari 200 = 80. 25% dari 80 = 20."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Selesaikan berurutan dari dalam: 200 × 0,4 = 80 → × 0,25 = 20."
+        },
+        {
+          "lens": "logika",
+          "text": "Persen berantai: kalikan pecahan desimal berturut-turut."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 10 - itu 25% dari 40 (mengambil angka mentah tanpa 40% dari 200)."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-019",
+      "subtest": "tiu",
+      "topic": "figural",
+      "stem": "Jika bangun A diputar 90 derajat searah jarum jam, hasilnya paling mirip dengan...",
+      "options": [
+        "Bentuk yang menghadap ke kanan dari posisi semula menghadap atas",
+        "Bentuk yang sama persis tanpa perubahan",
+        "Bentuk yang dicerminkan (terbalik kiri-kanan)",
+        "Bentuk yang mengecil ukurannya",
+        "Bentuk yang menghadap kiri"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rotasi 90° searah jarum jam mengubah arah hadap: atas → kanan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Pencerminan (C) membalik orientasi, bukan memutar. Rotasi mengubah arah, bukan ukuran."
+        },
+        {
+          "lens": "logika",
+          "text": "Putar searah jarum jam = ke kanan. 90° = seperempat putaran."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'dicerminkan' - refleksi dan rotasi sering dikacaukan."
+        }
+      ],
+      "explain": 50,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-020",
+      "subtest": "tiu",
+      "topic": "figural",
+      "stem": "Deret gambar berikut: lingkaran, segitiga, persegi, lingkaran, segitiga, ...",
+      "options": [
+        "Segitiga",
+        "Persegi",
+        "Lingkaran",
+        "Segi lima",
+        "Trapesium"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola berulang 3 bentuk: lingkaran → segitiga → persegi. Setelah segitiga = persegi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Hitung posisi: urutan ke-6 = 6 mod 3 = 0 → elemen ke-3 = persegi."
+        },
+        {
+          "lens": "logika",
+          "text": "Serial figural = cari siklus berulang, lalu tentukan posisi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih lingkaran - itu elemen awal siklus, bukan posisi ke-6."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-021",
+      "subtest": "tiu",
+      "topic": "figural",
+      "stem": "Ketidaksamaan figural: di antara lima gambar berikut, satu berbeda. Jika empat gambar adalah persegi dengan satu diagonal, yang berbeda adalah...",
+      "options": [
+        "Persegi dengan dua diagonal",
+        "Persegi dengan satu diagonal kiri-kanan",
+        "Persegi dengan satu diagonal kanan-kiri",
+        "Persegi dengan satu diagonal dan satu sisi tebal",
+        "Persegi dengan satu diagonal putus-putus"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Empat gambar memuat SATU diagonal; yang punya DUA diagonal berbeda."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang masih satu diagonal (variasi arah/gaya bukan pembeda kategori)."
+        },
+        {
+          "lens": "logika",
+          "text": "Bedakan sifat kuantitatif: jumlah elemen adalah pembeda paling kuat."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'sisi tebal' - gaya visual sekunder, bukan perbedaan kategori utama."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-022",
+      "subtest": "tiu",
+      "topic": "figural",
+      "stem": "Analogi gambar: segitiga adalah untuk piramida, seperti lingkaran adalah untuk...",
+      "options": [
+        "Bola",
+        "Tabung",
+        "Kubus",
+        "Kerucut",
+        "Balok"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Segitiga (2D) diputar menjadi piramida (3D). Lingkaran diputar menjadi bola (3D)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kerucut berasal dari segitiga, bukan lingkaran; tabung dari persegi panjang."
+        },
+        {
+          "lens": "logika",
+          "text": "Relasi: bangun datar → bangun ruang hasil rotasi terhadap sumbu."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih kerucut - itu hasil rotasi segitiga, bukan lingkaran."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-023",
+      "subtest": "tiu",
+      "topic": "deret",
+      "stem": "Lanjutan deret: 100, 92, 84, 76, ...",
+      "options": [
+        "68",
+        "70",
+        "72",
+        "74",
+        "66"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola: kurangi 8 setiap suku. 76 - 8 = 68."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek beda tetap -8 → jawaban 68."
+        },
+        {
+          "lens": "logika",
+          "text": "Deret aritmetika beda negatif: terus kurangi beda tetap."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 70 - itu hasil kurangi 6 (pola salah)."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-024",
+      "subtest": "tiu",
+      "topic": "aljabar",
+      "stem": "Jika 2^x = 32, maka nilai x adalah...",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "32 = 2⁵ → x = 5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Ubah 32 ke pangkat 2: 2×2×2×2×2 = 32."
+        },
+        {
+          "lens": "logika",
+          "text": "Eksponen: cari pangkat yang menghasilkan 32 dari basis 2."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 6 - itu hasil salah hitung 2⁶=64."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-025",
+      "subtest": "tiu",
+      "topic": "perbandingan",
+      "stem": "Skala peta 1:250.000. Jika jarak di peta 8 cm, jarak sebenarnya adalah...",
+      "options": [
+        "20 km",
+        "25 km",
+        "30 km",
+        "35 km",
+        "40 km"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "8 cm × 250.000 = 2.000.000 cm = 20 km."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Konversi: 100.000 cm = 1 km. 2.000.000 ÷ 100.000 = 20 km."
+        },
+        {
+          "lens": "logika",
+          "text": "Jarak sebenarnya = jarak peta × skala, lalu ubah cm→km."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 25 km - itu hasil 250.000÷10.000 (salah konversi)."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-026",
+      "subtest": "tiu",
+      "topic": "sinonim",
+      "stem": "Sinonim kata 'ambivalen' adalah...",
+      "options": [
+        "Ragu-ragu",
+        "Yakin",
+        "Marah",
+        "Senang",
+        "Cepat"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Ambivalen' = mempunyai dua perasaan yang bertentangan → ragu-ragu."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang tegas (yakin) atau emosi tunggal (marah, senang)."
+        },
+        {
+          "lens": "logika",
+          "text": "Ambi (dua) + valen (nilai) = dua nilai yang bentrok → bimbang."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'yakin' - kebalikan dari ambivalen."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-027",
+      "subtest": "tiu",
+      "topic": "antonim",
+      "stem": "Lawan kata 'vulgar' adalah...",
+      "options": [
+        "Halus",
+        "Kasar",
+        "Biasa",
+        "Sopan",
+        "Terbuka"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Vulgar' = kasar/tidak beradab → lawannya 'halus'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "'Sopan' (D) dekat tapi 'halus' lebih tepat sebagai lawan 'kasar'."
+        },
+        {
+          "lens": "logika",
+          "text": "Vulgar ↔ halus (dalam konteks tutur/perilaku)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'sopan' - sopan adalah konteks sosial, halus adalah lawan langsung kasar."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-028",
+      "subtest": "tiu",
+      "topic": "analogi",
+      "stem": "PANAS : API = ...",
+      "options": [
+        "Dingin : es",
+        "Basah : air",
+        "Terang : matahari",
+        "Gelap : malam",
+        "Hangat : selimut"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "API menghasilkan PANAS → ES menghasilkan DINGIN. Relasi sumber-efek."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Matahari menghasilkan terang juga benar, tapi 'panas:api' lebih spesifik suhu→suhu."
+        },
+        {
+          "lens": "logika",
+          "text": "Pola: benda : karakteristik yang ditimbulkannya."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'terang : matahari' - relasi benar tapi bukan pasangan suhu yang paling setara."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-029",
+      "subtest": "tiu",
+      "topic": "silogisme",
+      "stem": "Semua kucing suka ikan. Sebagian hewan yang suka ikan adalah kucing. Maka...",
+      "options": [
+        "Semua hewan adalah kucing",
+        "Sebagian kucing bukan hewan",
+        "Sebagian hewan yang suka ikan adalah kucing (sudah dinyatakan)",
+        "Tidak ada kucing yang suka ikan",
+        "Semua hewan suka ikan"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kesimpulan yang valid hanya mengulang atau menyederhanakan premis. Opsi C = premis kedua."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "A, D, E melampaui atau menentang premis; B tidak logis."
+        },
+        {
+          "lens": "logika",
+          "text": "Silogisme: kesimpulan harus subset dari premis, bukan informasi baru."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih A - 'semua hewan kucing' jelas melampaui premis."
+        }
+      ],
+      "explain": 50,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-030",
+      "subtest": "tiu",
+      "topic": "deret",
+      "stem": "Lanjutan deret: 5, 10, 20, 15, 30, 60, 45, ...",
+      "options": [
+        "90, 180",
+        "90, 135",
+        "60, 45",
+        "45, 90",
+        "120, 240"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola: ×2, ×2, lalu -5, ulang: 5→10(×2), 10→20(×2), 20→15(-5), 15→30(×2), 30→60(×2), 60→45(-5), 45→90(×2), 90→180(×2)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kelompokkan triple: dua kali lipat dua kali, lalu kurangi 5."
+        },
+        {
+          "lens": "logika",
+          "text": "Pola majemuk: kenali siklus operasi (×2, ×2, -5)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih '45, 90' - itu hanya melanjutkan satu langkah tanpa pola ganda."
+        }
+      ],
+      "explain": 60,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-031",
+      "subtest": "tiu",
+      "topic": "aritmetika",
+      "stem": "Hasil dari 15 × 3/5 adalah...",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "14",
+        "15"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "15 × 3/5 = (15/5) × 3 = 3 × 3 = 9."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sederhanakan dulu: bagi 15 dengan 5 = 3, lalu × 3 = 9."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecahan: coret penyebut dengan kelipatannya sebelum mengalikan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 12 - itu hasil 15 × 0,8 (salah konversi pecahan)."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-032",
+      "subtest": "tiu",
+      "topic": "perbandingan",
+      "stem": "Sebuah motor menempuh 120 km dalam 2 jam. Kecepatan rata-ratanya adalah...",
+      "options": [
+        "50 km/jam",
+        "55 km/jam",
+        "60 km/jam",
+        "65 km/jam",
+        "70 km/jam"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kecepatan = jarak ÷ waktu = 120 ÷ 2 = 60 km/jam."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Rumus V = S/t. Bagikan langsung."
+        },
+        {
+          "lens": "logika",
+          "text": "Ingat satuan: km/jam = km dibagi jam."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 70 - itu hasil menambahkan 10 (asumsi tanpa dasar)."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-033",
+      "subtest": "tiu",
+      "topic": "aljabar",
+      "stem": "Jika x - 3 = 7, maka 2x + 1 = ...",
+      "options": [
+        "19",
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "x = 10. 2(10) + 1 = 21."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Selesaikan x dulu, lalu substitusi ke ekspresi."
+        },
+        {
+          "lens": "logika",
+          "text": "Isolasi variabel, lalu hitung ekspresi baru."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 20 - itu hasil 2×10 tanpa +1."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-034",
+      "subtest": "tiu",
+      "topic": "figural",
+      "stem": "Bayangan cermin dari huruf 'b' adalah...",
+      "options": [
+        "b",
+        "d",
+        "p",
+        "q",
+        "g"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Huruf 'b' dicerminkan vertikal menjadi 'd' (b dan d saling mencerminkan)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Pasangan cermin: b↔d, p↔q. 'b' → 'd'."
+        },
+        {
+          "lens": "logika",
+          "text": "Cermin vertikal membalik kiri-kanan: b (kiri tegak, kanan bulat) → d."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'p' - p adalah rotasi b, bukan pencerminan."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-035",
+      "subtest": "tiu",
+      "topic": "sinonim",
+      "stem": "Sinonim kata 'krusial' adalah...",
+      "options": [
+        "Penting",
+        "Sulit",
+        "Mudah",
+        "Lambat",
+        "Ringan"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Krusial' = menentukan/penting sekali → sinonim 'penting'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang menilai tingkat kesulitan (sulit, mudah) - bukan makna krusial."
+        },
+        {
+          "lens": "logika",
+          "text": "Krusial = kritis, genting, menentukan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'sulit' - sesuatu yang krusial memang sering sulit, tapi makna intinya penting."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-036",
+      "subtest": "tiu",
+      "topic": "antonim",
+      "stem": "Lawan kata 'akurat' adalah...",
+      "options": [
+        "Tepat",
+        "Cepat",
+        "Keliru",
+        "Lengkap",
+        "Jelas"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "'Akurat' = tepat/sahih → lawannya 'keliru'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "'Tepat' (A) adalah sinonim, bukan antonim."
+        },
+        {
+          "lens": "logika",
+          "text": "Akurat ↔ keliru (benar vs salah)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'tepat' - itu sinonim, jebakan klasik."
+        }
+      ],
+      "explain": 35,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-037",
+      "subtest": "tiu",
+      "topic": "deret",
+      "stem": "Lanjutan deret: 81, 27, 9, 3, ...",
+      "options": [
+        "2",
+        "1",
+        "0",
+        "1/3",
+        "3"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola: bagi 3 setiap suku. 3 ÷ 3 = 1."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek rasio: 81/27 = 3, 27/9 = 3 → berikutnya 3/3 = 1."
+        },
+        {
+          "lens": "logika",
+          "text": "Deret geometri rasio 1/3."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 1/3 - itu rasio, bukan suku berikutnya."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-038",
+      "subtest": "tiu",
+      "topic": "silogisme",
+      "stem": "Jika semua mahasiswa pandai matematika dan Budi adalah mahasiswa, maka...",
+      "options": [
+        "Budi pandai matematika",
+        "Budi bukan mahasiswa",
+        "Semua yang pandai matematika adalah mahasiswa",
+        "Budi pandai semua pelajaran",
+        "Tidak ada kesimpulan"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Premis: semua M → P. Budi ∈ M → Budi P. Modus ponens valid."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "C (kebalikan premis) dan D (melampaui) tidak valid."
+        },
+        {
+          "lens": "logika",
+          "text": "Silogisme kategoris: semua A adalah B, x adalah A → x adalah B."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih C - 'semua yang pandai matematika mahasiswa' adalah konversi tidak sah."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-039",
+      "subtest": "tiu",
+      "topic": "perbandingan",
+      "stem": "Perbandingan panjang dan lebar persegi panjang 4:3. Jika panjang 24 cm, luasnya adalah...",
+      "options": [
+        "288 cm²",
+        "324 cm²",
+        "432 cm²",
+        "512 cm²",
+        "576 cm²"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Lebar = 24 × 3/4 = 18 cm. Luas = 24 × 18 = 432 cm²."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cari lebar dari perbandingan dulu, lalu kalikan panjang × lebar."
+        },
+        {
+          "lens": "logika",
+          "text": "Bagian 4 = 24 → 1 bagian = 6 → lebar 3 bagian = 18 → luas 432."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 324 - itu hasil 18² (menghitung persegi, bukan persegi panjang)."
+        }
+      ],
+      "explain": 50,
+      "targetSec": 50
+    },
+    {
+      "id": "tiu-040",
+      "subtest": "tiu",
+      "topic": "aljabar",
+      "stem": "Jika 5x - 10 = 20, nilai x adalah...",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "5x = 30 → x = 6."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Pindah -10 menjadi +10: 20+10 = 30, lalu bagi 5."
+        },
+        {
+          "lens": "logika",
+          "text": "Isolasi variabel dengan operasi balik."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 5 - itu hasil 20÷(5-... ) kesalahan urutan."
+        }
+      ],
+      "explain": 40,
+      "targetSec": 50
+    },
+    {
+      "id": "tkp-001",
+      "subtest": "tkp",
+      "topic": "pelayanan",
+      "stem": "Seorang warga datang ke kantormu dengan wajah cemas karena berkasnya hilang dan akan mengikuti seleksi besok. Sikapmu...",
+      "options": [
+        "Menyuruhnya pulang dan kembali besok pagi",
+        "Menjelaskan prosedur penggantian berkas sambil tetap tenang dan membantu memprioritaskan",
+        "Menolak karena bukan urusan bagianmu",
+        "Menegurnya karena ceroboh menyimpan berkas",
+        "Menyuruhnya mencari sendiri di kantor lain"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        3,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pilih opsi yang membantu + menenangkan + solutif. Prioritas layanan publik: bantu tuntas, bukan menyalahkan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi menolak/teguran/menyuruh (nilai rendah). Yang menyalahkan = 3, yang membantu = 5."
+        },
+        {
+          "lens": "logika",
+          "text": "Pelayanan prima = empati + tindakan solutif + tidak menghakimi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menegurnya karena ceroboh' - menyalahkan pemohon menurunkan kualitas layanan."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-002",
+      "subtest": "tkp",
+      "topic": "jejaring",
+      "stem": "Rekan kerjamu mengajak makan siang bersama tim, tapi kamu sedang mengejar tenggat laporan penting. Sikapmu...",
+      "options": [
+        "Menolak mentah-mentah karena sibuk",
+        "Ikut sebentar lalu kembali bekerja, sambil menjelaskan tenggat yang kamu kejar",
+        "Ikut sampai selesai dan mengabaikan tenggat",
+        "Menolak dan mengeluh soal beban kerja",
+        "Diam saja tanpa menjelaskan apa pun"
+      ],
+      "weights": [
+        2,
+        5,
+        2,
+        2,
+        3
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jejaring kerja = seimbang antara kebersamaan dan tanggung jawab. Ikut sebentar + jelaskan tenggat = terbaik."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang mengabaikan tanggung jawab (2) atau yang menolak tanpa komunikasi (2)."
+        },
+        {
+          "lens": "logika",
+          "text": "Manajemen waktu: hadir sosial tanpa mengorbankan tugas, komunikasikan prioritas."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menolak dan mengeluh' - mengeluh merusak hubungan tim."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-003",
+      "subtest": "tkp",
+      "topic": "sosial",
+      "stem": "Di grup WhatsApp kantor ada rekan yang menyebarkan berita belum jelas kebenarannya. Sikapmu...",
+      "options": [
+        "Langsung membagikan agar cepat menyebar",
+        "Mengonfirmasi kebenaran berita ke sumber resmi lalu mengingatkan rekan secara baik-baik",
+        "Membiarkan karena bukan urusanmu",
+        "Menghapus rekan itu dari grup",
+        "Ikut mengomentari dengan nada menghakimi"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        2,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Literasi digital: verifikasi dulu, ingatkan tanpa menghakimi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang menyebar (1), menghapus orang (2), atau menghakimi (2)."
+        },
+        {
+          "lens": "logika",
+          "text": "Anti-hoaks = tabayyun (cek kebenaran) + edukasi santun."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menghapus rekan dari grup' - itu tindakan represif, bukan edukatif."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-004",
+      "subtest": "tkp",
+      "topic": "profesional",
+      "stem": "Atasanmu memberikan tugas di luar job description dengan tenggat ketat. Sikapmu...",
+      "options": [
+        "Menolak karena bukan tugasmu",
+        "Menerima dengan profesional sambil menyampaikan beban kerja yang ada agar diatur prioritasnya",
+        "Menerima diam-diam lalu mengeluh di belakang",
+        "Mengabaikan sampai ada teguran",
+        "Menyerahkan ke rekan tanpa komunikasi"
+      ],
+      "weights": [
+        2,
+        5,
+        2,
+        1,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Profesionalisme = menerima tugas + komunikasi prioritas yang jujur."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang menolak, mengabaikan, atau lempar ke rekan (1-2)."
+        },
+        {
+          "lens": "logika",
+          "text": "Fleksibilitas peran: terima tantangan baru, kelola ekspektasi secara terbuka."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menerima diam-diam lalu mengeluh' - pasif-agresif merusak kepercayaan atasan."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-005",
+      "subtest": "tkp",
+      "topic": "teknologi",
+      "stem": "Kantormu akan menerapkan sistem baru yang belum kamu kuasai. Sikapmu...",
+      "options": [
+        "Menunggu orang lain menguasai dulu",
+        "Mempelajari secara mandiri dari panduan dan mengikuti pelatihan dengan sungguh-sungguh",
+        "Menolak karena sistem lama sudah cukup",
+        "Meminta rekan mengerjakan bagianmu",
+        "Menggunakan sistem lama sembunyi-sembunyi"
+      ],
+      "weights": [
+        2,
+        5,
+        1,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Adaptasi teknologi = proaktif belajar, bukan menghindar."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang menolak/menyabotase (1) dan pasif menunggu (2)."
+        },
+        {
+          "lens": "logika",
+          "text": "Growth mindset: teknologi baru = peluang naik kompetensi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menggunakan sistem lama sembunyi-sembunyi' - itu sabotase diam-diam."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-006",
+      "subtest": "tkp",
+      "topic": "antiradikal",
+      "stem": "Ada rekan yang mulai menyebarkan paham intoleran dan anti-Pancasila di lingkungan kerja. Sikapmu...",
+      "options": [
+        "Mengikuti agar tidak dianggap berbeda",
+        "Menolak dengan tegas dan melaporkan ke pihak berwenang di instansi",
+        "Membiarkan selama tidak mengganggumu",
+        "Berdebat di media sosial",
+        "Menjauh diam-diam tanpa laporan"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        2,
+        3
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Anti-radikalisme = tolak tegas + laporkan lewat jalur resmi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang mengikuti (1) atau membiarkan (2). 'Menjauh diam-diam' = 3 karena tidak melapor."
+        },
+        {
+          "lens": "logika",
+          "text": "Bela negara di lingkungan kerja: deteksi dini, laporkan, jangan terlibat."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'berdebat di media sosial' - itu eskalasi, bukan penyelesaian institusional."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-007",
+      "subtest": "tkp",
+      "topic": "pelayanan",
+      "stem": "Saat jam pulang, masih ada antrean warga yang belum dilayani. Sikapmu...",
+      "options": [
+        "Langsung pulang karena jam kerja habis",
+        "Melayani sampai antrean selesai meski melebihi jam kerja",
+        "Menyuruh mereka datang besok",
+        "Melayani setengahnya lalu pulang",
+        "Menyuruh petugas lain yang sudah siap pulang"
+      ],
+      "weights": [
+        2,
+        5,
+        1,
+        3,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pelayanan publik = selesaikan antrean yang ada, jangan tinggalkan warga."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang menyuruh pulang (1) dan setengah-setengah (3)."
+        },
+        {
+          "lens": "logika",
+          "text": "Orientasi layanan: kebutuhan warga > kepentingan pribadi, dengan batas wajar."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'melayani setengahnya' - setengah hati merusak kepercayaan publik."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-008",
+      "subtest": "tkp",
+      "topic": "integritas",
+      "stem": "Kamu menemukan rekan kerja menerima gratifikasi dari vendor proyek. Sikapmu...",
+      "options": [
+        "Ikut menerima agar tidak dicurigai",
+        "Menegur rekan secara pribadi dan melaporkan sesuai prosedur instansi",
+        "Diam karena takut konflik",
+        "Menyebarkan ke semua rekan",
+        "Mengancam rekan agar membagikan"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Integritas: tegur + lapor lewat jalur resmi, tanpa menyebar aib."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang ikut, mengancam (1) dan diam (2). Menyebar ke semua = 2 karena merusak proses."
+        },
+        {
+          "lens": "logika",
+          "text": "Gratifikasi adalah pelanggaran etik; lapor ke atasan/unit pengaduan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menyebarkan ke semua rekan' - itu gosip, bukan penegakan integritas."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-009",
+      "subtest": "tkp",
+      "topic": "jejaring",
+      "stem": "Tim lintas bagian membutuhkan data yang kamu pegang untuk menyelesaikan proyek. Sikapmu...",
+      "options": [
+        "Menolak karena data itu rahasia bagianmu",
+        "Memberikan data yang relevan sesuai prosedur berbagi data antar bagian",
+        "Memberikan semua data termasuk yang tidak diminta",
+        "Meminta imbalan jasa",
+        "Menunda pemberian tanpa alasan"
+      ],
+      "weights": [
+        2,
+        5,
+        3,
+        1,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kolaborasi lintas fungsi = berbagi data sesuai prosedur dan kebutuhan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Memberikan semua (3) melanggar privasi; meminta imbalan (1) korup."
+        },
+        {
+          "lens": "logika",
+          "text": "Data sharing yang sehat: relevan, prosedural, tepat waktu."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'memberikan semua data' - over-sharing justru tidak profesional."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-010",
+      "subtest": "tkp",
+      "topic": "sosial",
+      "stem": "Di lingkungan rumah ada kegiatan kerja bakti rutin. Sikapmu...",
+      "options": [
+        "Tidak pernah ikut karena sibuk",
+        "Ikut serta semampunya secara konsisten",
+        "Ikut hanya saat ada acara besar",
+        "Menyumbang uang saja tanpa hadir",
+        "Ikut sekali lalu berhenti"
+      ],
+      "weights": [
+        2,
+        5,
+        3,
+        3,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Partisipasi sosial = konsisten hadir dan berkontribusi nyata."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Hanya uang (3) atau acara besar (3) = parsial; terbaik ikut rutin."
+        },
+        {
+          "lens": "logika",
+          "text": "Gotong royong: kehadiran fisik dan keterlibatan > kontribusi materi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menyumbang uang saja' - baik tapi bukan partisipasi penuh."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-011",
+      "subtest": "tkp",
+      "topic": "profesional",
+      "stem": "Kamu melakukan kesalahan dalam laporan dan baru menyadarinya setelah laporan terkirim. Sikapmu...",
+      "options": [
+        "Menutupinya agar tidak ketahuan",
+        "Melaporkan kesalahan itu ke atasan dan menawarkan perbaikan segera",
+        "Menunggu orang lain menemukan kesalahan",
+        "Menyalahkan sistem yang tidak validasi",
+        "Mengubah laporan tanpa memberi tahu siapa pun"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        2,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Akuntabilitas: akui kesalahan, tawarkan solusi perbaikan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang menutupi (1) dan menyalahkan orang lain (2)."
+        },
+        {
+          "lens": "logika",
+          "text": "Profesional = berani jujur atas kesalahan, fokus pada perbaikan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'mengubah laporan tanpa memberi tahu' - itu manipulasi dokumen."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-012",
+      "subtest": "tkp",
+      "topic": "teknologi",
+      "stem": "Ada aplikasi baru yang bisa mempermudah pekerjaan timmu, tapi butuh izin penggunaan. Sikapmu...",
+      "options": [
+        "Langsung memasang tanpa izin agar cepat",
+        "Mengajukan usulan ke atasan lengkap dengan manfaat dan risiko",
+        "Mengabaikan karena proses izin ribet",
+        "Menggunakan akun pribadi untuk kerja tim",
+        "Menunggu atasan menawarkan lebih dulu"
+      ],
+      "weights": [
+        2,
+        5,
+        2,
+        2,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Adopsi teknologi = usul resmi dengan analisis manfaat-risiko."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Memasang tanpa izin (2) dan pakai akun pribadi (2) berisiko keamanan."
+        },
+        {
+          "lens": "logika",
+          "text": "Governance TI: perubahan alat kerja perlu persetujuan dan dokumentasi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'langsung memasang' - inisiatif tanpa izin bisa melanggar kebijakan TI."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-013",
+      "subtest": "tkp",
+      "topic": "antiradikal",
+      "stem": "Di media sosial, kamu melihat konten yang merendahkan simbol negara. Sikapmu...",
+      "options": [
+        "Membagikan agar orang tahu",
+        "Melaporkan konten tersebut ke platform dan mengingatkan teman agar tidak menyebarkan",
+        "Mengomentari dengan kasar",
+        "Mengabaikan karena bukan urusanmu",
+        "Meniru membuat konten serupa"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Sikap bela negara digital: laporkan + edukasi, jangan sebarkan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang yang membagikan (1), meniru (1), dan mengomentari kasar (2)."
+        },
+        {
+          "lens": "logika",
+          "text": "Lapor konten SARA/penghinaan simbol negara = kontribusi menjaga persatuan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'mengomentari dengan kasar' - itu memperkeruh, bukan menyelesaikan."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-014",
+      "subtest": "tkp",
+      "topic": "pelayanan",
+      "stem": "Warga lanjut usia kesulitan mengisi formulir digital di kantormu. Sikapmu...",
+      "options": [
+        "Menyerahkan formulir dan menyuruhnya mengisi sendiri",
+        "Membantu mengisi sambil menjelaskan setiap kolom dengan sabar",
+        "Menolak karena bukan tugasmu",
+        "Menyerahkan ke anaknya yang ikut",
+        "Menyuruh datang saat ada petugas khusus"
+      ],
+      "weights": [
+        2,
+        5,
+        1,
+        3,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Inklusi layanan: bantu dengan sabar, jangan biarkan warga bingung."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menyerahkan ke anaknya (3) mengurangi hak layanan langsung warga."
+        },
+        {
+          "lens": "logika",
+          "text": "Pelayanan ramah lansia = kesabaran ekstra + pendampingan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menyuruh datang saat petugas khusus' - menunda layanan yang bisa dibantu sekarang."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-015",
+      "subtest": "tkp",
+      "topic": "integritas",
+      "stem": "Kamu diberi kepercayaan mengelola dana kas kecil. Rekan meminjam untuk keperluan pribadi dan berjanji mengembalikan. Sikapmu...",
+      "options": [
+        "Meminjamkan karena teman dekat",
+        "Menolak dengan sopan karena dana itu untuk keperluan kantor",
+        "Meminjamkan sebagian",
+        "Mencatat sebagai pinjaman kantor",
+        "Memberi dari uang pribadi agar rekan tak kecewa"
+      ],
+      "weights": [
+        1,
+        5,
+        1,
+        2,
+        3
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Integritas keuangan: dana kas tidak boleh dipakai di luar kepentingan kantor."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Mencatat sebagai pinjaman kantor (2) tetap melanggar aturan kas."
+        },
+        {
+          "lens": "logika",
+          "text": "Pengelolaan kas: patuh aturan, tegas menolak penyalahgunaan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'memberi dari uang pribadi' - baik hati tapi menutupi perilaku tidak disiplin rekan."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-016",
+      "subtest": "tkp",
+      "topic": "jejaring",
+      "stem": "Kamu diminta mewakili instansi dalam forum koordinasi antar daerah. Sikapmu...",
+      "options": [
+        "Menolak karena tidak percaya diri",
+        "Mempersiapkan materi dan berpartisipasi aktif untuk kepentingan bersama",
+        "Datang tapi pasif",
+        "Mengirim rekan lain tanpa sepengetahuan atasan",
+        "Menghindari forum karena membosankan"
+      ],
+      "weights": [
+        2,
+        5,
+        3,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jejaring antarinstansi = siapkan materi, aktif berkontribusi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Datang pasif (3) = setengah hati; menghindar (1) = tidak profesional."
+        },
+        {
+          "lens": "logika",
+          "text": "Representasi instansi: persiapan + partisipasi + komitmen."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'datang tapi pasif' - hadir tanpa kontribusi sama dengan tidak hadir."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-017",
+      "subtest": "tkp",
+      "topic": "sosial",
+      "stem": "Ada tetangga yang sedang sakit dan kesulitan ekonomi. Sikapmu...",
+      "options": [
+        "Tidak peduli karena bukan keluarga",
+        "Menjenguk dan membantu semampunya tanpa menggurui",
+        "Menyumbang hanya saat diminta",
+        "Menghindari karena takut merepotkan",
+        "Membicarakan kondisinya ke orang lain"
+      ],
+      "weights": [
+        2,
+        5,
+        3,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kepedulian sosial = aksi nyata tanpa pamrih, tanpa menggurui."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menyumbang saat diminta (3) = reaktif; membicarakan ke orang (1) = tidak sopan."
+        },
+        {
+          "lens": "logika",
+          "text": "Empati aktif: jenguk, bantu sesuai kemampuan, jaga privasi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'membicarakan kondisinya' - itu menyebar aib, bukan menolong."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-018",
+      "subtest": "tkp",
+      "topic": "profesional",
+      "stem": "Menjelang tenggat, kamu menemukan data penting yang tidak lengkap dari bagian lain. Sikapmu...",
+      "options": [
+        "Menyalahkan bagian lain di depan tim",
+        "Menghubungi pemilik data, menjelaskan kebutuhan, dan meminta kelengkapan dengan tenggat jelas",
+        "Mengerjakan dengan data yang ada apa adanya",
+        "Menghentikan pekerjaan tanpa komunikasi",
+        "Mengganti data dengan perkiraan"
+      ],
+      "weights": [
+        2,
+        5,
+        3,
+        1,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Koordinasi data = komunikasi langsung dan jelas, bukan menyalahkan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Mengerjakan apa adanya (3) berisiko output salah; mengganti dengan perkiraan (1) = bohong."
+        },
+        {
+          "lens": "logika",
+          "text": "Kerja profesional: komunikasi proaktif sebelum menyimpulkan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'mengganti data dengan perkiraan' - data fiktif merusak kredibilitas."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-019",
+      "subtest": "tkp",
+      "topic": "teknologi",
+      "stem": "Laptop kantor yang kamu pegang menunjukkan tanda virus saat membuka email. Sikapmu...",
+      "options": [
+        "Terus membuka email lain",
+        "Melaporkan ke bagian TI dan menghentikan pemakaian sementara",
+        "Menghapus email dan diam saja",
+        "Membagikan ke USB agar diperiksa",
+        "Mengabaikan karena masih bisa dipakai"
+      ],
+      "weights": [
+        1,
+        5,
+        3,
+        1,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Keamanan informasi: laporkan insiden segera, isolasi perangkat."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menghapus email (3) menghilangkan jejak forensik; berbagi USB (1) menyebar virus."
+        },
+        {
+          "lens": "logika",
+          "text": "Insiden siber: stop → laporkan → ikuti instruksi TI."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'membagikan ke USB' - itu memperluas infeksi ke perangkat lain."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-020",
+      "subtest": "tkp",
+      "topic": "antiradikal",
+      "stem": "Ada diskusi tentang keberagaman dan tiba-tiba ada yang mengejek agama tertentu. Sikapmu...",
+      "options": [
+        "Ikut tertawa agar tidak canggung",
+        "Menghentikan ejekan dengan tegas dan mengingatkan nilai toleransi",
+        "Diam saja",
+        "Pindah topik tanpa menyinggung",
+        "Meninggalkan diskusi"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        3,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pembela toleransi: hentikan ejekan, ingatkan nilai, jaga suasana tetap sehat."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Pindah topik (3) menghindari konfrontasi tapi tidak menyelesaikan; diam (2) = pembiaran."
+        },
+        {
+          "lens": "logika",
+          "text": "Keberanian sipil: tegur ujaran kebencian secara tegas dan beradab."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'pindah topik' - itu menghindari masalah, bukan menyelesaikan."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-021",
+      "subtest": "tkp",
+      "topic": "pelayanan",
+      "stem": "Seorang pemohon marah-marah karena proses izinnya lambat. Sikapmu...",
+      "options": [
+        "Membalas dengan nada tinggi",
+        "Mendengarkan keluhannya, menjelaskan status proses, dan menawarkan solusi percepatan yang sah",
+        "Menyuruhnya mengadu ke atas",
+        "Mengabaikan sampai tenang",
+        "Meminta maaf berlebihan tanpa penjelasan"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        3,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Manajemen keluhan: dengarkan → jelaskan → solusi. Tetap tenang dan profesional."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Mengabaikan (3) dan menyuruh mengadu (2) tidak menyelesaikan masalah."
+        },
+        {
+          "lens": "logika",
+          "text": "Layanan prima: keluhan adalah umpan balik, hadapi dengan empati dan fakta."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'meminta maaf berlebihan' - tanpa penjelasan status, itu basa-basi."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-022",
+      "subtest": "tkp",
+      "topic": "integritas",
+      "stem": "Kamu menemukan kelebihan transfer di rekening kantor. Sikapmu...",
+      "options": [
+        "Menyimpan dulu sampai ada yang menanyakan",
+        "Segera melaporkan ke atasan dan mengembalikan sesuai prosedur",
+        "Menggunakan untuk kebutuhan kantor lain",
+        "Menunggu instruksi bank",
+        "Membagikan ke tim sebagai bonus"
+      ],
+      "weights": [
+        2,
+        5,
+        2,
+        3,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Integritas finansial: kelebihan dana bukan milik instansi secara bebas; laporkan dan kembalikan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menunggu instruksi bank (3) = pasif; membagikan (1) = penyalahgunaan."
+        },
+        {
+          "lens": "logika",
+          "text": "Penanganan kelebihan dana: transparan, segera, sesuai prosedur."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'membagikan ke tim' - itu tindakan koruptif walau niatnya berbagi."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-023",
+      "subtest": "tkp",
+      "topic": "jejaring",
+      "stem": "Rekan dari bagian lain meminta tolong menyelesaikan pekerjaan yang bukan job description-mu. Sikapmu...",
+      "options": [
+        "Menolak karena bukan bagianmu",
+        "Membantu jika memang tidak mengganggu tugas utamamu, lalu koordinasi dengan atasanmu",
+        "Membantu diam-diam tanpa koordinasi",
+        "Menyuruhnya cari orang lain",
+        "Menerima tapi mengerjakan asal-asalan"
+      ],
+      "weights": [
+        2,
+        5,
+        3,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Bantuan lintas bagian = tolong + tetap koordinasi dengan atasan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Membantu diam-diam (3) tanpa koordinasi bisa membebani tugas utama."
+        },
+        {
+          "lens": "logika",
+          "text": "Kolaborasi sehat: bantu sesuai kapasitas, komunikasikan ke atasan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'mengerjakan asal-asalan' - tolong setengah hati merusak kepercayaan."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-024",
+      "subtest": "tkp",
+      "topic": "sosial",
+      "stem": "Di kompleks rumah ada pemuda yang terlibat tawuran. Sikapmu...",
+      "options": [
+        "Menjauhi agar tidak terlibat",
+        "Ikut serta dalam pembinaan pemuda dan mengarahkan ke kegiatan positif",
+        "Menghukum mereka sendiri",
+        "Membicarakan kejelekan mereka ke warga",
+        "Menunggu polisi menangani"
+      ],
+      "weights": [
+        3,
+        5,
+        1,
+        1,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Peran sosial: libatkan diri dalam pembinaan, bukan menghakimi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menghukum sendiri (1) dan membicarakan aib (1) kontraproduktif."
+        },
+        {
+          "lens": "logika",
+          "text": "Pencegahan sosial: pendekatan komunitas, bukan represif."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menunggu polisi' - itu pasif; masyarakat punya peran pembinaan."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-025",
+      "subtest": "tkp",
+      "topic": "profesional",
+      "stem": "Atasan memberikan penilaian kinerja yang menurutmu tidak adil. Sikapmu...",
+      "options": [
+        "Menerima diam-diam tapi kecewa",
+        "Meminta waktu untuk diskusi, menyampaikan capaianmu dengan data, dan menerima hasil final dengan profesional",
+        "Protes keras di depan tim",
+        "Mengirim surat pengaduan ke semua pihak",
+        "Mengundurkan diri"
+      ],
+      "weights": [
+        3,
+        5,
+        1,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pengelolaan umpan balik: minta diskusi dengan data, terima keputusan final."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menerima diam-diam (3) = pasif; protes keras (1) = tidak profesional."
+        },
+        {
+          "lens": "logika",
+          "text": "Karier profesional: sanggahan berbasis bukti, diterima lewat jalur resmi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menerima diam-diam' - kecewa yang dipendam tidak produktif."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-026",
+      "subtest": "tkp",
+      "topic": "teknologi",
+      "stem": "Kantor menerapkan paperless. Kamu terbiasa dengan dokumen fisik. Sikapmu...",
+      "options": [
+        "Terus mencetak karena lebih nyaman",
+        "Mempelajari alur digital dan menyesuaikan kebiasaan kerja",
+        "Mencetak hanya dokumen penting",
+        "Mengeluh ke rekan setiap hari",
+        "Menolak menggunakan sistem baru"
+      ],
+      "weights": [
+        1,
+        5,
+        3,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Adaptasi kebijakan: pelajari dan sesuaikan, bukan lawan atau mengeluh."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Mencetak dokumen penting (3) = kompromi parsial, bukan adaptasi penuh."
+        },
+        {
+          "lens": "logika",
+          "text": "Perubahan budaya kerja: fleksibel, proaktif belajar, dukung kebijakan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'mengeluh ke rekan' - itu menular negatif tanpa solusi."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-027",
+      "subtest": "tkp",
+      "topic": "antiradikal",
+      "stem": "Ada kelompok yang memprovokasi warga dengan isu SARA menjelang pemilu. Sikapmu...",
+      "options": [
+        "Ikut membagikan provokasi",
+        "Mengajak warga berpikir kritis, meluruskan hoaks, dan melaporkan provokasi",
+        "Menghindari pembicaraan politik",
+        "Membantah dengan emosi",
+        "Menyerahkan sepenuhnya ke polisi"
+      ],
+      "weights": [
+        1,
+        5,
+        3,
+        2,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Bela negara elektoral: luruskan hoaks, ajak kritis, laporkan provokasi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menghindari pembicaraan (3) = pasif; membantah emosi (2) = tidak efektif."
+        },
+        {
+          "lens": "logika",
+          "text": "Literasi politik: lawan provokasi dengan fakta dan ketenangan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menyerahkan ke polisi sepenuhnya' - masyarakat tetap punya peran meluruskan."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-028",
+      "subtest": "tkp",
+      "topic": "pelayanan",
+      "stem": "Ada dua warga mengantre dan keduanya sama-sama mendesak dilayani lebih dulu. Sikapmu...",
+      "options": [
+        "Melayani yang berteriak paling keras",
+        "Menjelaskan aturan antrean dan melayani sesuai urutan dengan adil",
+        "Melayani yang kamu kenal dulu",
+        "Menyuruh keduanya berdamai sendiri",
+        "Menutup loket untuk sementara"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Keadilan layanan: patuh urutan antrean, tegas dan adil."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Melayani yang dikenal (2) = pilih kasih; menutup loket (1) = menghindar."
+        },
+        {
+          "lens": "logika",
+          "text": "Pelayanan adil: prosedur sama untuk semua, tanpa pandang bulu."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'melayani yang berteriak paling keras' - itu memberi hadiah perilaku agresif."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-029",
+      "subtest": "tkp",
+      "topic": "integritas",
+      "stem": "Rekan menawarkan hadiah agar kamu membantu mempercepat proses berkasnya. Sikapmu...",
+      "options": [
+        "Menerima karena hanya sekali",
+        "Menolak dengan sopan dan tetap melayani sesuai prosedur yang benar",
+        "Menerima sebagian",
+        "Menerima tapi tidak membantu",
+        "Menolak dan melaporkan ke atasan"
+      ],
+      "weights": [
+        1,
+        5,
+        1,
+        2,
+        4
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Integritas: tolak gratifikasi; jika serius, laporkan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menolak dan melaporkan (4) lebih tinggi dari menolak saja (5? — bobot: menolak sopan = 5, plus lapor = 4 karena bisa membangun budaya curiga; standar TKP: menolak tegas = 5, lapor = 4)."
+        },
+        {
+          "lens": "logika",
+          "text": "Gratifikasi: tolak dengan sopan; pelaporan dilakukan bila ada indikasi pelanggaran serius."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menerima karena hanya sekali' - sekali pun gratifikasi tetap pelanggaran."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-030",
+      "subtest": "tkp",
+      "topic": "jejaring",
+      "stem": "Instansimu mengadakan acara lintas sektoral. Peranmu...",
+      "options": [
+        "Tidak hadir karena bukan bagianmu",
+        "Hadir, mengenal peserta, dan menjalin komunikasi untuk kerja sama ke depan",
+        "Hadir tapi hanya menonton",
+        "Hadir sebentar lalu pulang",
+        "Mengirim perwakilan tanpa info"
+      ],
+      "weights": [
+        2,
+        5,
+        3,
+        2,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jejaring = hadir + aktif membangun hubungan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Hadir menonton (3) = setengah hati; pulang cepat (2) = buang kesempatan."
+        },
+        {
+          "lens": "logika",
+          "text": "Networking: setiap pertemuan lintas sektoral adalah modal kerja sama."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'hadir tapi hanya menonton' - hadir tanpa interaksi tidak membangun jejaring."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-031",
+      "subtest": "tkp",
+      "topic": "sosial",
+      "stem": "Ada bencana alam di daerah lain dan kantormu menggalang bantuan. Sikapmu...",
+      "options": [
+        "Tidak ikut karena jauh",
+        "Berpartisipasi dalam penggalangan dan ikut menyalurkan bantuan",
+        "Menyumbang hanya jika diminta atasan",
+        "Menyumbang barang bekas tak layak",
+        "Mengabaikan karena bukan daerahmu"
+      ],
+      "weights": [
+        2,
+        5,
+        3,
+        1,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Solidaritas kebangsaan: partisipasi nyata tanpa batas teritorial."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menyumbang barang tak layak (1) = tidak menghargai korban."
+        },
+        {
+          "lens": "logika",
+          "text": "Kepedulian lintas daerah = wujud persatuan Indonesia."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menyumbang barang bekas tak layak' - itu lebih buruk dari tidak ikut."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-032",
+      "subtest": "tkp",
+      "topic": "profesional",
+      "stem": "Kamu diminta memimpin rapat yang dihadiri atasan. Sikapmu...",
+      "options": [
+        "Menghindar agar tidak salah",
+        "Menyiapkan agenda, memimpin dengan terstruktur, dan terbuka menerima masukan",
+        "Memimpin tapi mendominasi",
+        "Menyerahkan ke peserta lain",
+        "Datang tanpa persiapan"
+      ],
+      "weights": [
+        2,
+        5,
+        2,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kepemimpinan rapat: siapkan agenda, fasilitasi, terima masukan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Mendominasi (2) dan tanpa persiapan (1) = tidak profesional."
+        },
+        {
+          "lens": "logika",
+          "text": "Facilitation skill: struktur + partisipasi + keputusan jelas."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'memimpin tapi mendominasi' - rapat bukan panggung pribadi."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-033",
+      "subtest": "tkp",
+      "topic": "teknologi",
+      "stem": "Data pribadi warga tersimpan di komputermu. Kamu menemukan kerentanan keamanan. Sikapmu...",
+      "options": [
+        "Mengabaikan karena bukan tanggung jawabmu",
+        "Melaporkan ke bagian TI dan menyarankan penguatan keamanan data",
+        "Membagikan temuan ke semua rekan",
+        "Menyalin data ke perangkat pribadi agar aman",
+        "Menunggu terjadi kebocoran dulu"
+      ],
+      "weights": [
+        2,
+        5,
+        2,
+        1,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Proteksi data: laporkan kerentanan, jangan pindahkan data ke perangkat pribadi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menyalin ke perangkat pribadi (1) justru melanggar keamanan data."
+        },
+        {
+          "lens": "logika",
+          "text": "Data protection: deteksi dini + pelaporan + tidak menyebar."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menyalin data ke perangkat pribadi' - itu tindakan berisiko tinggi."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-034",
+      "subtest": "tkp",
+      "topic": "antiradikal",
+      "stem": "Anak-anak di lingkunganmu mulai terpapar konten radikal di internet. Sikapmu...",
+      "options": [
+        "Melarang total penggunaan internet",
+        "Mengedukasi anak dan orang tua tentang literasi digital yang sehat",
+        "Mengabaikan karena bukan anakmu",
+        "Memblokir semua situs sendiri",
+        "Menakut-nakuti anak dengan hukuman"
+      ],
+      "weights": [
+        2,
+        5,
+        2,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pencegahan radikalisasi: edukasi, bukan larangan atau ketakutan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Melarang total (2) dan memblokir sendiri (2) = represif; hukuman (1) kontraproduktif."
+        },
+        {
+          "lens": "logika",
+          "text": "Perlindungan anak digital: pendampingan + literasi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menakut-nakuti dengan hukuman' - itu menciptakan trauma, bukan kesadaran."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-035",
+      "subtest": "tkp",
+      "topic": "pelayanan",
+      "stem": "Instansi menerima keluhan anonim yang tidak jelas kebenarannya. Sikapmu...",
+      "options": [
+        "Mengabaikan karena anonim",
+        "Menindaklanjuti dengan verifikasi faktual dan menjaga kerahasiaan pelapor",
+        "Menyebarkan ke semua unit",
+        "Membalas dengan curiga",
+        "Menutup kasus tanpa investigasi"
+      ],
+      "weights": [
+        2,
+        5,
+        2,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Penanganan pengaduan: verifikasi, rahasiakan pelapor, tindak lanjut."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menyebarkan (2) membahayakan pelapor anonim."
+        },
+        {
+          "lens": "logika",
+          "text": "Whistleblowing: proses verifikasi yang adil untuk semua pengaduan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'mengabaikan karena anonim' - anonim tetap bisa berisi informasi valid."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-036",
+      "subtest": "tkp",
+      "topic": "integritas",
+      "stem": "Kamu menemukan laporan keuangan rekan yang janggal saat mengaudit. Sikapmu...",
+      "options": [
+        "Menutup mata karena rekan baik",
+        "Mengklarifikasi langsung dan menindaklanjuti sesuai prosedur audit",
+        "Menyebarkan temuan ke semua orang",
+        "Menunggu atasan menemukan",
+        "Mengubah angka agar sesuai"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Audit: klarifikasi + tindak lanjut prosedural, tanpa menyebar atau mengubah."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Mengubah angka (1) = manipulasi; menunggu atasan (2) = pasif."
+        },
+        {
+          "lens": "logika",
+          "text": "Integritas audit: akurasi data di atas loyalitas pribadi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menyebarkan temuan' - itu melanggar kerahasiaan audit."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-037",
+      "subtest": "tkp",
+      "topic": "jejaring",
+      "stem": "Ada rekan baru yang masih bingung dengan sistem kerja. Sikapmu...",
+      "options": [
+        "Membiarkan belajar sendiri",
+        "Menawarkan bantuan dan berbagi pengalaman tanpa menggurui",
+        "Menyuruhnya bertanya ke orang lain",
+        "Menilai kemampuannya dari awal",
+        "Menghindari karena sibuk"
+      ],
+      "weights": [
+        2,
+        5,
+        2,
+        1,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Mentoring: bantu rekan baru, berbagi pengalaman dengan rendah hati."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menilai dari awal (1) = prasangka; menyuruh orang lain (2) = lepas tangan."
+        },
+        {
+          "lens": "logika",
+          "text": "Knowledge sharing: mempercepat adaptasi tim, membangun kepercayaan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menilai kemampuannya dari awal' - penilaian prematur tidak adil."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-038",
+      "subtest": "tkp",
+      "topic": "sosial",
+      "stem": "Kegiatan keagamaan di lingkunganmu dihadiri lintas agama. Sikapmu...",
+      "options": [
+        "Tidak hadir karena beda agama",
+        "Hadir dan ikut menjaga keamanan serta kerukunan acara",
+        "Hadir tapi hanya melihat",
+        "Mempersoalkan kehadiran orang beda agama",
+        "Menolak karena keyakinan"
+      ],
+      "weights": [
+        2,
+        5,
+        3,
+        1,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kerukunan umat: hadir dan berkontribusi menjaga suasana damai."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Hadir melihat (3) = pasif; mempersoalkan (1) = intoleran."
+        },
+        {
+          "lens": "logika",
+          "text": "Moderasi beragama: hormati keyakinan lain, jaga harmoni sosial."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'mempersoalkan kehadiran beda agama' - itu intoleransi aktif."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-039",
+      "subtest": "tkp",
+      "topic": "profesional",
+      "stem": "Kamu punya ide perbaikan proses kerja, tapi atasan sibuk. Sikapmu...",
+      "options": [
+        "Menyimpan ide sampai atasan senggang",
+        "Menulis proposal singkat dan mengajukan waktu diskusi singkat",
+        "Langsung menerapkan tanpa izin",
+        "Membicarakan ke rekan saja",
+        "Mengabaikan ide karena takut ditolak"
+      ],
+      "weights": [
+        3,
+        5,
+        2,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Inisiatif profesional: ajukan ide secara terstruktur, hormati waktu atasan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menyimpan ide (3) = pasif; langsung menerapkan (2) = melanggar hierarki."
+        },
+        {
+          "lens": "logika",
+          "text": "Innovation: ide baik perlu kanal resmi dan penyampaian yang efektif."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'langsung menerapkan tanpa izin' - inisiatif tanpa izin bisa kacau."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-040",
+      "subtest": "tkp",
+      "topic": "teknologi",
+      "stem": "Ada informasi bahwa data instansi bocor. Sikapmu...",
+      "options": [
+        "Penasaran dan membuka tautan bocor",
+        "Mengikuti arahan TI, tidak mengakses data bocor, dan melaporkan bila menemukan indikasi",
+        "Menyimpan salinan untuk investigasi sendiri",
+        "Membagikan info ke grup pribadi",
+        "Mengabaikan karena bukan bagianmu"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        1,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Insiden kebocoran: patuhi arahan resmi, jangan mengakses atau menyebar."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menyimpan salinan (2) melanggar; membuka tautan (1) memperparah."
+        },
+        {
+          "lens": "logika",
+          "text": "Incident response: disiplin mengikuti protokol, bukan inisiatif pribadi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'membagikan info ke grup pribadi' - itu memperluas kebocoran."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-041",
+      "subtest": "tkp",
+      "topic": "antiradikal",
+      "stem": "Kamu menemukan buku/modul berisi ajaran yang bertentangan dengan Pancasila di perpustakaan kantor. Sikapmu...",
+      "options": [
+        "Membiarkan karena bukan tugasmu",
+        "Melaporkan ke pengelola dan merekomendasikan peninjauan koleksi",
+        "Membuang semua buku tersebut",
+        "Membaca dan menyebarkan isinya",
+        "Menulis kritik di media sosial"
+      ],
+      "weights": [
+        2,
+        5,
+        2,
+        1,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Penjagaan ideologi: lapor dan rekomendasikan peninjauan, bukan tindakan sendiri."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Membuang semua (2) = represif tanpa proses; menyebarkan (1) = berbahaya."
+        },
+        {
+          "lens": "logika",
+          "text": "Wawasan kebangsaan: tangani lewat jalur pengelolaan yang sah."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'membuang semua buku' - itu sensor liar tanpa prosedur."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-042",
+      "subtest": "tkp",
+      "topic": "pelayanan",
+      "stem": "Warga menyampaikan kritik tajam tentang pelayanan kantormu di media sosial. Sikapmu...",
+      "options": [
+        "Membalas dengan nada defensif",
+        "Menindaklanjuti kritik, memperbaiki layanan, dan merespons secara profesional",
+        "Mengabaikan karena di media sosial",
+        "Melaporkan balik warga",
+        "Menghapus komentar"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        1,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Manajemen reputasi publik: kritik = bahan perbaikan, respons profesional."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menghapus komentar (1) dan melapor balik (1) = menghindar dari akuntabilitas."
+        },
+        {
+          "lens": "logika",
+          "text": "Media sosial pemerintahan: responsif, transparan, perbaiki nyata."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'membalas dengan nada defensif' - itu memperburuk citra instansi."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-043",
+      "subtest": "tkp",
+      "topic": "integritas",
+      "stem": "Kamu melihat rekan memalsukan tanda tangan pada dokumen dinas. Sikapmu...",
+      "options": [
+        "Diam karena takut konflik",
+        "Menegur secara pribadi dan melaporkan ke atasan sesuai prosedur",
+        "Ikut menandatangani agar cepat",
+        "Menyebarkan ke semua unit",
+        "Mengancam rekan"
+      ],
+      "weights": [
+        2,
+        5,
+        1,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Integritas dokumen: tegur + lapor prosedural, jangan ikut serta."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Ikut menandatangani (1) = turut serta pemalsuan; mengancam (1) = salah cara."
+        },
+        {
+          "lens": "logika",
+          "text": "Pemalsuan dokumen = pelanggaran serius; tangani lewat jalur resmi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'diam karena takut konflik' - pembiaran sama dengan pembenaran."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-044",
+      "subtest": "tkp",
+      "topic": "jejaring",
+      "stem": "Ada potensi kerja sama dengan pihak swasta yang menguntungkan instansi. Sikapmu...",
+      "options": [
+        "Menolak semua kerja sama swasta",
+        "Mengkaji proposal dengan prinsip transparansi dan kepentingan publik",
+        "Menerima langsung tanpa kajian",
+        "Menyetujui karena ada imbalan",
+        "Menunda tanpa keputusan"
+      ],
+      "weights": [
+        2,
+        5,
+        2,
+        1,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kemitraan: kaji dengan transparan, utamakan kepentingan publik."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menerima karena imbalan (1) = konflik kepentingan."
+        },
+        {
+          "lens": "logika",
+          "text": "Public-private partnership: kajian matang, anti-gratifikasi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menyetujui karena ada imbalan' - itu pintu korupsi."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-045",
+      "subtest": "tkp",
+      "topic": "sosial",
+      "stem": "Saat upacara bendera, ada rekan yang bercanda dan tidak khidmat. Sikapmu...",
+      "options": [
+        "Ikut bercanda agar seru",
+        "Mengingatkan dengan cara halus dan tetap menghormati jalannya upacara",
+        "Membiarkan karena bukan urusanmu",
+        "Menegur keras di tengah upacara",
+        "Melaporkan ke semua atasan"
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        2,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Penghormatan simbol negara: tegur halus, jaga kekhidmatan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menegur keras di tengah upacara (2) mengganggu jalannya upacara."
+        },
+        {
+          "lens": "logika",
+          "text": "Sikap bela negara: hormati simbol negara, tegur dengan cara tepat."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'melaporkan ke semua atasan' - proporsionalitas hilang untuk hal sepele."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-046",
+      "subtest": "tkp",
+      "topic": "profesional",
+      "stem": "Tugas yang kamu pegang ternyata membutuhkan keahlian yang belum kamu miliki. Sikapmu...",
+      "options": [
+        "Menyerah dan mengembalikan tugas",
+        "Mempelajari keahlian itu dan meminta pendampingan jika diperlukan",
+        "Mengerjakan asal-asalan",
+        "Menyerahkan ke rekan tanpa komunikasi",
+        "Mengaku bisa padahal tidak"
+      ],
+      "weights": [
+        2,
+        5,
+        1,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pengembangan kompetensi: belajar + minta pendampingan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Mengaku bisa (1) dan mengerjakan asal (1) = tidak jujur dan berisiko."
+        },
+        {
+          "lens": "logika",
+          "text": "Continuous learning: tugas baru = kesempatan belajar, bukan alasan menyerah."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'mengaku bisa padahal tidak' - itu bom waktu profesional."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    },
+    {
+      "id": "tkp-047",
+      "subtest": "tkp",
+      "topic": "teknologi",
+      "stem": "Kantor menyediakan pelatihan digital gratis. Kamu sibuk dengan pekerjaan rutin. Sikapmu...",
+      "options": [
+        "Tidak ikut karena sibuk",
+        "Mengatur waktu agar bisa mengikuti pelatihan yang relevan",
+        "Ikut semua pelatihan tanpa seleksi",
+        "Menyuruh rekan mencatatkan materi",
+        "Menunggu pelatihan wajib"
+      ],
+      "weights": [
+        2,
+        5,
+        3,
+        2,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pengembangan diri: prioritaskan pelatihan relevan, kelola waktu."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Ikut semua (3) tanpa seleksi = buang waktu; menunggu wajib (2) = pasif."
+        },
+        {
+          "lens": "logika",
+          "text": "Upskilling: pilih pelatihan sesuai kebutuhan kerja, komitmen hadir."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan pilih 'menyuruh rekan mencatatkan materi' - belajar tidak bisa diwakilkan."
+        }
+      ],
+      "explain": 45,
+      "targetSec": 45
+    }
+  ]
+}

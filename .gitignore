@@ -1,0 +1,8 @@
+node_modules/
+dist/
+dev-dist/
+logs/
+snapshots/
+.taste-skill/
+*.log
+.DS_Store
