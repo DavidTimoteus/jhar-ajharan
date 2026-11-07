@@ -3,8 +3,8 @@ import { listStoredPacks, savePack } from './db';
 import type { Pack, PackMeta } from './types';
 
 // Sumber pembaruan: repo publik. Kalau offline, gagal diam-diam dan paket lokal tetap dipakai.
-export const REMOTE_INDEX = 'https://raw.githubusercontent.com/DavidTimoteus/jhar-ajharan/main/public/packs/index.json';
-const REMOTE_BASE = 'https://raw.githubusercontent.com/DavidTimoteus/jhar-ajharan/main/public/packs/';
+export const REMOTE_INDEX = 'https://raw.githubusercontent.com/DavidTimoteus/jhar-ajharan/master/public/packs/index.json';
+const REMOTE_BASE = 'https://raw.githubusercontent.com/DavidTimoteus/jhar-ajharan/master/public/packs/';
 
 const localUrl = (f: string) => new URL(`packs/${f}`, document.baseURI).toString();
 
