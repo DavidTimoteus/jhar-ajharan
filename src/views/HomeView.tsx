@@ -102,7 +102,10 @@ export default function HomeView({ go }: Props) {
   return (
     <div className="view view-home">
       <div className="hero-learning">
-        <h1>Kuasi soal CAT, taktik demi taktik.</h1>
+        <h1>
+          Kuasi soal CAT, <span className="hl">taktik</span> demi{' '}
+          <span className="hl">taktik</span>.
+        </h1>
         <p className="hero-sub">
           Latihan CPNS &amp; BUMN berjalan penuh offline. Pilih jalur belajar,
           kerjakan soal, lalu bongkar pola lewat tiga lensa taktik — progresmu
@@ -125,14 +128,30 @@ export default function HomeView({ go }: Props) {
 
       <div className="kpi-strip">
         <div className="kpi-cell">
+          <svg className="kpi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M4 20 L4 10" />
+            <path d="M4 20 L20 20" />
+            <path d="M4 10 L8 7 L8 4 L12 4 L12 7 L20 13 L20 16 L4 16" />
+            <path d="M14 20 L14 13" />
+          </svg>
           <CountUp value={metas.length} />
           <span className="kpi-label">Jalur belajar</span>
         </div>
         <div className="kpi-cell">
+          <svg className="kpi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M7 3 L17 3 L17 21 L7 21 Z" />
+            <path d="M10 3 L10 5 L14 5 L14 3" />
+            <path d="M10 9 L14 9" />
+            <path d="M10 13 L14 13" />
+          </svg>
           <CountUp value={attempts.length} />
           <span className="kpi-label">Ujian dikerjakan</span>
         </div>
         <div className="kpi-cell">
+          <svg className="kpi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" />
+            <path d="M8 12.5 L11 15.5 L16 9" />
+          </svg>
           <CountUp value={totalAnswered} />
           <span className="kpi-label">Soal terjawab</span>
         </div>

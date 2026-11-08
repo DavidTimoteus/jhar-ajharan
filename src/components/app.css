@@ -96,7 +96,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  animation: viewIn var(--dur) var(--ease-out) both;
+  animation: viewIn var(--dur) var(--ease-out) backwards;
 }
 
 .loading {
@@ -137,6 +137,7 @@
   border: 1px solid var(--border);
   border-radius: var(--radius-card);
   overflow: hidden;
+  animation: riseIn var(--dur-slow) var(--ease-out) 0.22s backwards;
 }
 
 .kpi-cell {
@@ -148,6 +149,13 @@
 
 .kpi-cell + .kpi-cell {
   border-left: 1px solid var(--rule);
+}
+
+.kpi-icon {
+  width: 20px;
+  height: 20px;
+  color: var(--accent);
+  margin-bottom: 6px;
 }
 
 .kpi-value {
@@ -179,6 +187,7 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  animation: riseIn var(--dur-slow) var(--ease-out) 0.28s backwards;
 }
 
 .section-head {
@@ -233,7 +242,8 @@
   color: var(--surface);
 }
 .btn-primary:hover {
-  opacity: 0.92;
+  opacity: 0.94;
+  box-shadow: 0 6px 14px -4px color-mix(in srgb, var(--primary) 40%, transparent);
 }
 
 .btn-secondary {
@@ -503,6 +513,7 @@
 
 .timer.danger {
   color: var(--negative);
+  animation: softPulse 1s ease-in-out infinite;
 }
 
 .workbench-grid {
@@ -525,7 +536,7 @@
   display: flex;
   flex-direction: column;
   gap: 14px;
-  animation: slideIn var(--dur) var(--ease-out) both;
+  animation: slideIn var(--dur) var(--ease-out) backwards;
 }
 
 .question-meta {
@@ -583,7 +594,8 @@
 }
 .option-row.chosen {
   border-color: var(--accent);
-  animation: popIn var(--dur-fast) var(--ease-spring) both;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent);
+  animation: popIn var(--dur-fast) var(--ease-spring) backwards;
 }
 .option-row.right {
   background: var(--pill-positive-bg);
@@ -629,7 +641,7 @@
   padding: 12px 14px;
   font-size: 14px;
   line-height: 1.5;
-  animation: slideIn var(--dur) var(--ease-out) both;
+  animation: slideIn var(--dur) var(--ease-out) backwards;
 }
 .feedback.correct {
   background: var(--pill-positive-bg);
@@ -719,7 +731,7 @@
   line-height: 1.5;
   border-top: 1px solid var(--border);
   background: var(--surface);
-  animation: slideIn var(--dur-fast) var(--ease-out) both;
+  animation: slideIn var(--dur-fast) var(--ease-out) backwards;
 }
 
 .hint-locked {
@@ -845,7 +857,7 @@
   padding: 12px 16px;
   font-weight: 600;
   font-size: 14px;
-  animation: riseIn var(--dur) var(--ease-out) both;
+  animation: riseIn var(--dur) var(--ease-out) backwards;
 }
 .verdict.pass {
   background: var(--pill-positive-bg);
@@ -919,7 +931,7 @@
   background: var(--accent);
   border-radius: var(--radius-pill);
   transform-origin: left center;
-  animation: growX var(--dur-slow) var(--ease-out) both;
+  animation: growX var(--dur-slow) var(--ease-out) backwards;
 }
 
 .subtest-meta {
@@ -1030,22 +1042,38 @@
   flex-direction: column;
   gap: 18px;
   padding: 8px 0 4px;
-  animation: riseIn var(--dur-slow) var(--ease-out) both;
+}
+
+.hero-learning > * {
+  animation: riseIn var(--dur-slow) var(--ease-out) backwards;
+}
+.hero-learning h1 {
+  animation-delay: 0s;
+}
+.hero-learning .hero-sub {
+  animation-delay: 0.07s;
+}
+.hero-learning .home-actions {
+  animation-delay: 0.14s;
 }
 
 .hero-learning h1 {
-  font-size: 30px;
-  font-weight: 650;
-  letter-spacing: -0.02em;
-  line-height: 1.15;
-  max-width: 640px;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.12;
+  max-width: 680px;
+}
+
+.hero-learning h1 .hl {
+  color: var(--accent-cpns);
 }
 
 .hero-learning .hero-sub {
   color: var(--muted);
-  font-size: 15px;
-  line-height: 1.5;
-  max-width: 560px;
+  font-size: 15.5px;
+  line-height: 1.55;
+  max-width: 580px;
 }
 
 .hero-learning .home-actions {
@@ -1067,7 +1095,7 @@
   color: var(--text);
   font-size: 13px;
   font-weight: 500;
-  animation: popIn var(--dur) var(--ease-spring) both;
+  animation: popIn var(--dur) var(--ease-spring) backwards;
 }
 
 .streak-chip .flame {
@@ -1104,7 +1132,7 @@
   flex-direction: column;
   gap: 10px;
   overflow: hidden;
-  animation: riseIn var(--dur-slow) var(--ease-out) both;
+  animation: riseIn var(--dur-slow) var(--ease-out) backwards;
   transition:
     transform var(--dur) var(--ease-out),
     box-shadow var(--dur) ease,
@@ -1112,10 +1140,36 @@
   will-change: transform;
 }
 
+/* tint wash per family: warna masuk ke permukaan kartu sangat halus (flat) */
+.path-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  background: color-mix(in srgb, var(--path-accent, var(--accent)) 4%, transparent);
+}
+
+.path-card.family-cpns {
+  --path-accent: var(--accent-cpns);
+}
+.path-card.family-bumn {
+  --path-accent: var(--accent-bumn);
+}
+.path-card.family-kilat {
+  --path-accent: var(--accent-kilat);
+}
+
 .path-card:hover {
-  transform: translateY(-3px);
-  border-color: var(--control);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px) rotateX(1.4deg);
+  border-color: color-mix(in srgb, var(--path-accent, var(--accent)) 45%, var(--border));
+  box-shadow:
+    0 14px 30px -8px color-mix(in srgb, var(--path-accent, var(--accent)) 26%, transparent),
+    0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.path-grid {
+  perspective: 900px;
 }
 
 /* Stagger: kartu masuk berurutan dari atas. */
@@ -1146,6 +1200,7 @@
   left: 0;
   right: 0;
   height: 4px;
+  background: var(--path-accent, var(--accent));
   transition: height var(--dur) var(--ease-out);
 }
 
@@ -1153,14 +1208,10 @@
   height: 6px;
 }
 
-.path-card.family-cpns::before {
-  background: var(--accent-cpns);
-}
-.path-card.family-bumn::before {
-  background: var(--accent-bumn);
-}
-.path-card.family-kilat::before {
-  background: var(--accent-kilat);
+/* Badge keluarga: solid accent, bukan pill netral */
+.path-card .pack-badge {
+  background: var(--path-accent, var(--accent));
+  color: #ffffff;
 }
 
 .path-card-head {
@@ -1208,7 +1259,7 @@
 /* Kartu jalur: bar tumbuh sekali saat mount (basis lebar inline tetap). */
 .path-card .progress-fill {
   transform-origin: left center;
-  animation: growX var(--dur-slow) var(--ease-out) both;
+  animation: growX var(--dur-slow) var(--ease-out) backwards;
 }
 
 .progress-note {
