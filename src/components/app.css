@@ -994,3 +994,192 @@
 .small {
   font-size: 12px;
 }
+
+/* ============================================================
+   Redesign pembelajaran menarik (referensi global: Duolingo,
+   Khan Academy, Quizlet) — warna aksen per domain, kartu jalur
+   belajar, progres, streak. Tanpa gradient/emoji/glass.
+   ============================================================ */
+
+/* ---------- Home hero edukasi ---------- */
+.hero-learning {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 8px 0 4px;
+}
+
+.hero-learning h1 {
+  font-size: 30px;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  max-width: 640px;
+}
+
+.hero-learning .hero-sub {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 560px;
+}
+
+.hero-learning .home-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+/* Streak & target harian — data riil dari riwayat, bukan angka karangan */
+.streak-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--raised);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.streak-chip .flame {
+  font-size: 14px;
+  color: var(--accent-kilat);
+  line-height: 1;
+}
+
+/* ---------- Kartu jalur belajar (path card) ---------- */
+.path-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--gap);
+}
+@media (min-width: 720px) {
+  .path-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1000px) {
+  .path-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.path-card {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: var(--card-pad) var(--card-pad) 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+
+/* aksen keluarga: strip tipis di tepi atas, warna hanya sebagai sinyal */
+.path-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+}
+
+.path-card.family-cpns::before {
+  background: var(--accent-cpns);
+}
+.path-card.family-bumn::before {
+  background: var(--accent-bumn);
+}
+.path-card.family-kilat::before {
+  background: var(--accent-kilat);
+}
+
+.path-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.path-title {
+  font-size: 15px;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.path-meta {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.path-count {
+  font-size: 13px;
+  color: var(--faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.path-progress {
+  margin-top: 2px;
+}
+
+.progress-track {
+  height: 8px;
+  background: var(--raised);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: var(--radius-pill);
+  background: var(--accent);
+  transition: width 300ms ease;
+}
+
+.progress-note {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 5px;
+}
+
+.path-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+/* ---------- Progress di workbench ---------- */
+.wb-progress {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 10px 14px;
+}
+
+.wb-progress .progress-track {
+  height: 10px;
+}
+
+.wb-progress .progress-fill {
+  background: var(--accent);
+}
+
+.wb-progress .wb-progress-label {
+  font-size: 12px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}

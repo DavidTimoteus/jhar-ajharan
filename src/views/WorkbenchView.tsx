@@ -185,6 +185,20 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
 
   return (
     <div className="view view-workbench">
+      <div className="wb-progress">
+        <div className="progress-track">
+          <div
+            className="progress-fill"
+            style={{
+              width: `${attempt.order.length > 0 ? Math.round((Object.keys(attempt.answers).length / attempt.order.length) * 100) : 0}%`,
+            }}
+          />
+        </div>
+        <span className="wb-progress-label num">
+          {Object.keys(attempt.answers).length}/{attempt.order.length} dijawab
+        </span>
+      </div>
+
       <div className="workbench-top">
         <div className="wb-info">
           <span className="pack-badge">{mode === 'simulasi' ? 'Simulasi' : 'Latihan'}</span>

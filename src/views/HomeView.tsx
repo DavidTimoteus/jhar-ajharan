@@ -15,6 +15,39 @@ const FAMILY_LABEL: Record<string, string> = {
   bumn: 'BUMN',
 };
 
+function localDay(ts: number): string {
+  const d = new Date(ts);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(
+    d.getDate(),
+  ).padStart(2, '0')}`;
+}
+
+function dayOffset(day: string): number {
+  const today = localDay(Date.now());
+  const a = new Date(`${day}T00:00:00`);
+  const b = new Date(`${today}T00:00:00`);
+  return Math.round((b.getTime() - a.getTime()) / 86_400_000);
+}
+
+/** Streak harian: hari-hari berurutan dengan aktivitas ujian, dihitung dari
+ *  hari ini (atau kemarin bila hari ini belum berlatih) ke belakang. */
+function calcStreak(attempts: Attempt[]): number {
+  if (attempts.length === 0) return 0;
+  const days = new Set(attempts.map((a) => localDay(a.startedAt)));
+  const sorted = [...days].sort().reverse();
+  const first = sorted[0];
+  const off = dayOffset(first);
+  if (off > 1) return 0; // jeda lebih dari sehari sejak aktivitas terakhir
+  let streak = 1;
+  const cursor = new Date(`${first}T00:00:00`);
+  for (let i = 1; i < sorted.length; i++) {
+    cursor.setDate(cursor.getDate() - 1);
+    if (sorted[i] === localDay(cursor.getTime())) streak++;
+    else break;
+  }
+  return streak;
+}
+
 export default function HomeView({ go }: Props) {
   const [metas, setMetas] = useState<PackMeta[]>([]);
   const [attempts, setAttempts] = useState<Attempt[]>([]);
@@ -45,30 +78,40 @@ export default function HomeView({ go }: Props) {
     (acc, a) => acc + Object.keys(a.answers).length,
     0,
   );
+  const streak = calcStreak(attempts);
 
   return (
     <div className="view view-home">
-      <div className="title-row">
-        <div>
-          <h1>Beranda</h1>
-          <p className="title-sub">
-            Latihan CAT tanpa sinyal. Pilih paket soal, bongkar taktik, dan lacak
-            progresmu — semua tersimpan di perangkat.
-          </p>
+      <div className="hero-learning">
+        <h1>Kuasi soal CAT, taktik demi taktik.</h1>
+        <p className="hero-sub">
+          Latihan CPNS &amp; BUMN berjalan penuh offline. Pilih jalur belajar,
+          kerjakan soal, lalu bongkar pola lewat tiga lensa taktik — progresmu
+          tersimpan di perangkat.
+        </p>
+        <div className="home-actions">
+          {streak > 0 && (
+            <span className="streak-chip">
+              <span className="flame" aria-hidden="true">
+                ▸
+              </span>
+              Rutin {streak} hari berturut-turut
+            </span>
+          )}
+          <button className="btn btn-secondary" onClick={onCheckUpdates} disabled={checking}>
+            {checking ? 'Memeriksa…' : 'Cek pembaruan soal'}
+          </button>
         </div>
-        <button className="btn btn-secondary" onClick={onCheckUpdates} disabled={checking}>
-          {checking ? 'Memeriksa…' : 'Cek pembaruan soal'}
-        </button>
       </div>
 
       <div className="kpi-strip">
         <div className="kpi-cell">
           <span className="kpi-value num">{metas.length}</span>
-          <span className="kpi-label">Paket soal</span>
+          <span className="kpi-label">Jalur belajar</span>
         </div>
         <div className="kpi-cell">
           <span className="kpi-value num">{attempts.length}</span>
-          <span className="kpi-label">Riwayat ujian</span>
+          <span className="kpi-label">Ujian dikerjakan</span>
         </div>
         <div className="kpi-cell">
           <span className="kpi-value num">{totalAnswered}</span>
@@ -88,7 +131,8 @@ export default function HomeView({ go }: Props) {
 
       <section className="section">
         <div className="section-head">
-          <h2>Paket Soal</h2>
+          <h2>Jalur Belajar</h2>
+          <p className="section-sub">Pilih paket, kerjakan, lacak progres.</p>
         </div>
 
         {metas.length === 0 ? (
@@ -96,9 +140,14 @@ export default function HomeView({ go }: Props) {
             <p>Belum ada paket soal. Cek pembaruan atau pastikan berkas paket tersedia.</p>
           </div>
         ) : (
-          <div className="pack-grid">
+          <div className="path-grid">
             {metas.map((m) => (
-              <PackCard key={m.id} meta={m} go={go} />
+              <PackCard
+                key={m.id}
+                meta={m}
+                attempts={attempts.filter((a) => a.packId === m.id)}
+                go={go}
+              />
             ))}
           </div>
         )}
