@@ -96,6 +96,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  animation: viewIn var(--dur) var(--ease-out) both;
 }
 
 .loading {
@@ -210,7 +211,21 @@
   font-size: 14px;
   cursor: pointer;
   border: 1px solid transparent;
-  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+  transition:
+    background-color var(--dur-fast) ease,
+    border-color var(--dur-fast) ease,
+    color var(--dur-fast) ease,
+    transform var(--dur-fast) var(--ease-out),
+    box-shadow var(--dur-fast) ease;
+  will-change: transform;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0) scale(0.97);
 }
 
 .btn-primary {
@@ -218,7 +233,7 @@
   color: var(--surface);
 }
 .btn-primary:hover {
-  opacity: 0.9;
+  opacity: 0.92;
 }
 
 .btn-secondary {
@@ -228,6 +243,7 @@
 }
 .btn-secondary:hover {
   border-color: var(--muted);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .btn-ghost {
@@ -509,6 +525,7 @@
   display: flex;
   flex-direction: column;
   gap: 14px;
+  animation: slideIn var(--dur) var(--ease-out) both;
 }
 
 .question-meta {
@@ -566,6 +583,7 @@
 }
 .option-row.chosen {
   border-color: var(--accent);
+  animation: popIn var(--dur-fast) var(--ease-spring) both;
 }
 .option-row.right {
   background: var(--pill-positive-bg);
@@ -611,6 +629,7 @@
   padding: 12px 14px;
   font-size: 14px;
   line-height: 1.5;
+  animation: slideIn var(--dur) var(--ease-out) both;
 }
 .feedback.correct {
   background: var(--pill-positive-bg);
@@ -700,6 +719,7 @@
   line-height: 1.5;
   border-top: 1px solid var(--border);
   background: var(--surface);
+  animation: slideIn var(--dur-fast) var(--ease-out) both;
 }
 
 .hint-locked {
@@ -825,6 +845,7 @@
   padding: 12px 16px;
   font-weight: 600;
   font-size: 14px;
+  animation: riseIn var(--dur) var(--ease-out) both;
 }
 .verdict.pass {
   background: var(--pill-positive-bg);
@@ -897,6 +918,8 @@
   height: 100%;
   background: var(--accent);
   border-radius: var(--radius-pill);
+  transform-origin: left center;
+  animation: growX var(--dur-slow) var(--ease-out) both;
 }
 
 .subtest-meta {
@@ -1007,6 +1030,7 @@
   flex-direction: column;
   gap: 18px;
   padding: 8px 0 4px;
+  animation: riseIn var(--dur-slow) var(--ease-out) both;
 }
 
 .hero-learning h1 {
@@ -1043,12 +1067,14 @@
   color: var(--text);
   font-size: 13px;
   font-weight: 500;
+  animation: popIn var(--dur) var(--ease-spring) both;
 }
 
 .streak-chip .flame {
   font-size: 14px;
   color: var(--accent-kilat);
   line-height: 1;
+  animation: softPulse 2.4s ease-in-out infinite;
 }
 
 /* ---------- Kartu jalur belajar (path card) ---------- */
@@ -1078,6 +1104,38 @@
   flex-direction: column;
   gap: 10px;
   overflow: hidden;
+  animation: riseIn var(--dur-slow) var(--ease-out) both;
+  transition:
+    transform var(--dur) var(--ease-out),
+    box-shadow var(--dur) ease,
+    border-color var(--dur) ease;
+  will-change: transform;
+}
+
+.path-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--control);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Stagger: kartu masuk berurutan dari atas. */
+.path-grid > .path-card:nth-child(1) {
+  animation-delay: 0.03s;
+}
+.path-grid > .path-card:nth-child(2) {
+  animation-delay: 0.09s;
+}
+.path-grid > .path-card:nth-child(3) {
+  animation-delay: 0.15s;
+}
+.path-grid > .path-card:nth-child(4) {
+  animation-delay: 0.21s;
+}
+.path-grid > .path-card:nth-child(5) {
+  animation-delay: 0.27s;
+}
+.path-grid > .path-card:nth-child(6) {
+  animation-delay: 0.33s;
 }
 
 /* aksen keluarga: strip tipis di tepi atas, warna hanya sebagai sinyal */
@@ -1088,6 +1146,11 @@
   left: 0;
   right: 0;
   height: 4px;
+  transition: height var(--dur) var(--ease-out);
+}
+
+.path-card:hover::before {
+  height: 6px;
 }
 
 .path-card.family-cpns::before {
@@ -1139,7 +1202,13 @@
   height: 100%;
   border-radius: var(--radius-pill);
   background: var(--accent);
-  transition: width 300ms ease;
+  transition: width var(--dur) var(--ease-out);
+}
+
+/* Kartu jalur: bar tumbuh sekali saat mount (basis lebar inline tetap). */
+.path-card .progress-fill {
+  transform-origin: left center;
+  animation: growX var(--dur-slow) var(--ease-out) both;
 }
 
 .progress-note {

@@ -6,6 +6,25 @@ import { fmtDate } from '../lib/format';
 import type { Screen } from '../lib/store';
 import PackCard from '../components/PackCard';
 
+/** Angka yang berhitung naik saat mount (600ms, ease-out). */
+function CountUp({ value }: { value: number }) {
+  const [n, setN] = useState(0);
+  useEffect(() => {
+    let raf = 0;
+    const t0 = performance.now();
+    const dur = 600;
+    const tick = (t: number) => {
+      const p = Math.min(1, (t - t0) / dur);
+      const eased = 1 - Math.pow(1 - p, 3);
+      setN(Math.round(value * eased));
+      if (p < 1) raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [value]);
+  return <span className="kpi-value num">{n}</span>;
+}
+
 interface Props {
   go: (s: Screen) => void;
 }
@@ -106,15 +125,15 @@ export default function HomeView({ go }: Props) {
 
       <div className="kpi-strip">
         <div className="kpi-cell">
-          <span className="kpi-value num">{metas.length}</span>
+          <CountUp value={metas.length} />
           <span className="kpi-label">Jalur belajar</span>
         </div>
         <div className="kpi-cell">
-          <span className="kpi-value num">{attempts.length}</span>
+          <CountUp value={attempts.length} />
           <span className="kpi-label">Ujian dikerjakan</span>
         </div>
         <div className="kpi-cell">
-          <span className="kpi-value num">{totalAnswered}</span>
+          <CountUp value={totalAnswered} />
           <span className="kpi-label">Soal terjawab</span>
         </div>
       </div>

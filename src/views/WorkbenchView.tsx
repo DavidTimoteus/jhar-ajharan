@@ -225,7 +225,7 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
       </div>
 
       <div className="workbench-grid">
-        <section className="question-sheet">
+        <section key={qIndex} className="question-sheet">
           <div className="question-meta">
             <span className="q-subtest">{question.subtest.toUpperCase()}</span>
             <span className="q-topic">{question.topic}</span>
