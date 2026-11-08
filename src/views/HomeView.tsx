@@ -48,51 +48,48 @@ export default function HomeView({ go }: Props) {
 
   return (
     <div className="view view-home">
-      <section className="hero">
-        <div className="hero-copy">
-          <h1>Latihan CAT tanpa sinyal, taktik tanpa basa-basi.</h1>
-          <p>
-            Jhâr-Ajhârân membongkar soal CPNS & BUMN lewat tiga lensa taktik plus
-            radar jebakan. Semua berjalan offline, progres tersimpan di perangkat.
+      <div className="title-row">
+        <div>
+          <h1>Beranda</h1>
+          <p className="title-sub">
+            Latihan CAT tanpa sinyal. Pilih paket soal, bongkar taktik, dan lacak
+            progresmu — semua tersimpan di perangkat.
           </p>
         </div>
-        <div className="hero-stats">
-          <div className="stat-card">
-            <span className="stat-value">{metas.length}</span>
-            <span className="stat-label">Paket soal</span>
-          </div>
-          <div className="stat-card">
-            <span className="stat-value">{attempts.length}</span>
-            <span className="stat-label">Riwayat ujian</span>
-          </div>
-          <div className="stat-card">
-            <span className="stat-value">{totalAnswered}</span>
-            <span className="stat-label">Soal terjawab</span>
-          </div>
+        <button className="btn btn-secondary" onClick={onCheckUpdates} disabled={checking}>
+          {checking ? 'Memeriksa…' : 'Cek pembaruan soal'}
+        </button>
+      </div>
+
+      <div className="kpi-strip">
+        <div className="kpi-cell">
+          <span className="kpi-value num">{metas.length}</span>
+          <span className="kpi-label">Paket soal</span>
         </div>
-      </section>
+        <div className="kpi-cell">
+          <span className="kpi-value num">{attempts.length}</span>
+          <span className="kpi-label">Riwayat ujian</span>
+        </div>
+        <div className="kpi-cell">
+          <span className="kpi-value num">{totalAnswered}</span>
+          <span className="kpi-label">Soal terjawab</span>
+        </div>
+      </div>
+
+      {update && (
+        <div className={`update-note ${update.updated.length ? 'ok' : 'muted'}`}>
+          {update.error
+            ? `Pembaruan gagal: ${update.error} (paket lokal tetap dipakai)`
+            : update.updated.length
+              ? `Paket diperbarui: ${update.updated.join(', ')}`
+              : 'Semua paket sudah versi terbaru.'}
+        </div>
+      )}
 
       <section className="section">
         <div className="section-head">
           <h2>Paket Soal</h2>
-          <button
-            className="btn btn-secondary"
-            onClick={onCheckUpdates}
-            disabled={checking}
-          >
-            {checking ? 'Memeriksa…' : 'Cek pembaruan soal'}
-          </button>
         </div>
-
-        {update && (
-          <div className={`update-note ${update.updated.length ? 'ok' : 'muted'}`}>
-            {update.error
-              ? `Pembaruan gagal: ${update.error} (paket lokal tetap dipakai)`
-              : update.updated.length
-                ? `Paket diperbarui: ${update.updated.join(', ')}`
-                : 'Semua paket sudah versi terbaru.'}
-          </div>
-        )}
 
         {metas.length === 0 ? (
           <div className="empty-state">
@@ -131,7 +128,7 @@ export default function HomeView({ go }: Props) {
                     {fmtDate(a.startedAt)}
                   </span>
                 </div>
-                <span className="attempt-score">
+                <span className="attempt-score num">
                   {Object.keys(a.answers).length}/{a.order.length} dijawab
                 </span>
               </button>

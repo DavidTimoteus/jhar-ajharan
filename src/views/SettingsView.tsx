@@ -108,7 +108,7 @@ export default function SettingsView({ go }: Props) {
       </section>
 
       <button className="btn btn-secondary" onClick={() => go({ name: 'home' })}>
-        ← Ke Beranda
+        Ke Beranda
       </button>
     </div>
   );

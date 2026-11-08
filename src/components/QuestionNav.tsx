@@ -42,7 +42,7 @@ export default function QuestionNav({ order, answers, cursor, onJump }: Props) {
           <i className="dot dot-current" /> Sedang
         </span>
       </div>
-      <p className="muted small">Pintasan: 1-5 / A-E pilih, H hint, R ragu, ← → pindah.</p>
+      <p className="qnav-hint">Pintasan: 1-5 / A-E pilih, H hint, R ragu, panah kiri-kanan pindah.</p>
     </div>
   );
 }

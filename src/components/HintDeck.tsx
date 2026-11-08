@@ -36,7 +36,7 @@ export default function HintDeck({ question, openHints, onToggle }: Props) {
           <div key={h.lens} className={`hint-item ${open ? 'open' : ''}`}>
             <button className="hint-tab" onClick={() => onToggle(h.lens)}>
               <span>{meta.label}</span>
-              <span className="hint-short">{open ? '▲' : meta.short}</span>
+              <span className="hint-short">{open ? 'Tutup' : meta.short}</span>
             </button>
             {open && <p className="hint-body">{h.text}</p>}
           </div>

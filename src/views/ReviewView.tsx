@@ -101,22 +101,22 @@ export default function ReviewView({ attemptId, go }: Props) {
 
       <div className={`verdict ${result.passedAll ? 'pass' : 'fail'}`}>
         {result.passedAll
-          ? '✓ Semua subtes melewati ambang batas.'
-          : '✗ Ada subtes di bawah ambang batas. Perkuat di antrean remidi.'}
+          ? 'Semua subtes melewati ambang batas.'
+          : 'Ada subtes di bawah ambang batas. Perkuat di antrean remidi.'}
       </div>
 
       <section className="section">
         <h2>Rincian per Subtes</h2>
-        <div className="subtest-cards">
+        <div className="subtest-strip">
           {result.perSubtest.map((s) => (
-            <div key={s.id} className={`subtest-card ${s.passed ? 'pass' : 'fail'}`}>
-              <div className="subtest-card-head">
+            <div key={s.id} className="subtest-cell">
+              <div className="subtest-cell-head">
                 <span className="subtest-name">{s.name}</span>
                 <span className={`badge ${s.passed ? 'badge-pass' : 'badge-fail'}`}>
                   {s.passed ? 'Lulus' : 'Di bawah'}
                 </span>
               </div>
-              <div className="subtest-score tabular-nums">
+              <div className="subtest-score num">
                 {s.score} <span className="muted">/ {s.max}</span>
               </div>
               <div className="subtest-bar">
@@ -125,13 +125,13 @@ export default function ReviewView({ attemptId, go }: Props) {
                   style={{ width: `${Math.min(100, (s.score / Math.max(1, s.passMin)) * 100)}%` }}
                 />
               </div>
-              <p className="muted small">
+              <p className="subtest-meta">
                 Ambang {s.passMin} · benar {s.correct}/{s.total}
               </p>
             </div>
           ))}
         </div>
-        <p className="muted small">Total skor: <strong className="tabular-nums">{result.total}</strong></p>
+        <p className="muted small">Total skor: <strong className="num">{result.total}</strong></p>
       </section>
 
       {remedial.length > 0 && (
@@ -167,12 +167,12 @@ export default function ReviewView({ attemptId, go }: Props) {
             return (
               <div key={q.id} className={`q-review ${open ? 'open' : ''}`}>
                 <button className="q-review-toggle" onClick={() => openQuestion(q.id)}>
-                  <span className="q-review-num tabular-nums">{i + 1}</span>
+                  <span className="q-review-num num">{i + 1}</span>
                   <span className={`badge ${isRight ? 'badge-pass' : 'badge-fail'}`}>
                     {a?.choice == null ? 'Kosong' : isRight ? 'Benar' : 'Salah'}
                   </span>
                   <span className="q-review-topic">{q.topic}</span>
-                  {open ? <span>▲</span> : <span>▼</span>}
+                  <span className="chev">{open ? 'Tutup' : 'Buka'}</span>
                 </button>
                 {open && (
                   <div className="q-review-body">
@@ -225,7 +225,7 @@ export default function ReviewView({ attemptId, go }: Props) {
 
       <div className="review-actions">
         <button className="btn btn-secondary" onClick={() => go({ name: 'home' })}>
-          ← Ke Beranda
+          Ke Beranda
         </button>
         <button
           className="btn btn-primary"

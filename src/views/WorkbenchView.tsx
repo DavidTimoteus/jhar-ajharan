@@ -195,11 +195,17 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
         </div>
         <div className="wb-timer">
           {mode === 'simulasi' ? (
-            <span className={`timer tabular-nums ${remaining < 60_000 ? 'danger' : ''}`}>
-              ⏱ {fmtClock(remaining)}
-            </span>
+            <>
+              <span className="timer-label">Waktu tersisa</span>
+              <span className={`timer num ${remaining < 60_000 ? 'danger' : ''}`}>
+                {fmtClock(remaining)}
+              </span>
+            </>
           ) : (
-            <span className="timer tabular-nums">⏱ {fmtClock(elapsed)}</span>
+            <>
+              <span className="timer-label">Waktu berjalan</span>
+              <span className="timer num">{fmtClock(elapsed)}</span>
+            </>
           )}
         </div>
       </div>
@@ -262,19 +268,19 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
 
           <div className="workbench-actions">
             <button className="btn btn-secondary" onClick={() => goTo(qIndex - 1)} disabled={qIndex === 0}>
-              ← Sebelumnya
+              Sebelumnya
             </button>
             {mode === 'latihan' && (
               <button
                 className={`btn ${answer.doubt ? 'btn-warning' : 'btn-secondary'}`}
                 onClick={toggleDoubt}
               >
-                {answer.doubt ? '✓ Ragu (tandai)' : 'Ragu-Ragu'}
+                {answer.doubt ? 'Tandai ragu (aktif)' : 'Tandai ragu'}
               </button>
             )}
             {qIndex < attempt.order.length - 1 ? (
               <button className="btn btn-primary" onClick={() => goTo(qIndex + 1)}>
-                Berikutnya →
+                Berikutnya
               </button>
             ) : (
               <button className="btn btn-primary" onClick={finish} disabled={submitting}>
@@ -293,7 +299,7 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
             />
           ) : (
             <div className="hint-locked">
-              <p>🔒 Hint terkunci dalam mode simulasi.</p>
+              <p>Hint terkunci dalam mode simulasi.</p>
               <p className="muted">Selesaikan ujian untuk membuka taktik & pembahasan.</p>
             </div>
           )}

@@ -26,9 +26,6 @@ export default function Header({ screen, theme, onTheme, go }: Props) {
           onClick={() => go({ name: 'home' })}
           aria-label="Kembali ke beranda"
         >
-          <span className="brand-mark" aria-hidden="true">
-            ◇
-          </span>
           <span className="brand-name">Jhâr-Ajhârân</span>
         </button>
 
@@ -53,9 +50,9 @@ export default function Header({ screen, theme, onTheme, go }: Props) {
             onChange={(e) => onTheme((e.target as HTMLSelectElement).value as ThemePref)}
             aria-label="Mode tampilan"
           >
-            <option value="system">🌓 {THEME_LABEL.system}</option>
-            <option value="light">☀️ {THEME_LABEL.light}</option>
-            <option value="dark">🌙 {THEME_LABEL.dark}</option>
+            <option value="system">Sistem</option>
+            <option value="light">Terang</option>
+            <option value="dark">Gelap</option>
           </select>
         </div>
       </div>
