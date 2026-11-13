@@ -3426,3 +3426,123 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* =====================================================================
+ *  HIERARKI TENANG, MODE FOKUS & JALUR EKSPANSI MULTI-DOMAIN
+ * ===================================================================== */
+.exam-shell.is-focus .exam-layout {
+  grid-template-columns: minmax(0, 780px);
+  justify-content: center;
+}
+
+.track-banner.is-compact {
+  padding: 20px 24px;
+}
+
+.track-banner.is-compact h1 {
+  margin-top: 6px;
+}
+
+.pack-row.is-calm {
+  gap: 6px;
+  padding: 14px 16px;
+}
+
+.pack-row.is-calm .pack-row-title {
+  font-size: 0.96rem;
+}
+
+.kisi-stepper-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  padding: 5px;
+  border-radius: 16px;
+  background: var(--bg);
+  box-shadow: var(--neu-inset-sm);
+}
+
+.kisi-step-tab {
+  border: none;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--text-soft);
+  background: transparent;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.kisi-step-tab.is-active {
+  background: var(--bg);
+  color: var(--text);
+  box-shadow: var(--neu-raised-sm);
+}
+
+.kisi-focus-pane {
+  display: grid;
+  gap: 12px;
+}
+
+.upcoming-tracks-wrap {
+  margin-top: 14px;
+  display: grid;
+  gap: 10px;
+}
+
+.upcoming-toggle-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 11px 15px;
+  border-radius: 14px;
+  border: 1px dashed var(--border-strong);
+  background: var(--bg);
+  color: var(--text-soft);
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.upcoming-tracks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 10px;
+}
+
+.upcoming-track-card {
+  text-align: left;
+  padding: 13px 15px;
+  border-radius: 15px;
+  border: 1px solid var(--neu-edge);
+  background: var(--bg);
+  box-shadow: var(--neu-raised-sm);
+  cursor: pointer;
+  display: grid;
+  gap: 5px;
+  color: var(--text);
+}
+
+.upcoming-track-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.chip-soon {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--text-soft);
+}
+
+@media (max-width: 640px) {
+  .kisi-stepper-tabs {
+    grid-template-columns: 1fr;
+  }
+}

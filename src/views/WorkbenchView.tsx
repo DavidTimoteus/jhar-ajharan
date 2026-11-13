@@ -51,6 +51,7 @@ export default function WorkbenchView({
   const [showFeedback, setShowFeedback] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [tipsOpen, setTipsOpen] = useState(false);
+  const [focusMode, setFocusMode] = useState(mode === 'simulasi');
 
   const startMsRef = useRef(0);
   const qStartRef = useRef(0);
@@ -230,7 +231,7 @@ export default function WorkbenchView({
   };
 
   return (
-    <div className={`exam-shell track-${pack.family}`}>
+    <div className={`exam-shell track-${pack.family === 'bumn' ? 'bumn' : 'cpns'} ${focusMode ? 'is-focus' : ''}`}>
       {/* IELTS / TOEFL-inspired distraction-free top bar */}
       <header className="exam-topbar">
         <div className="exam-topbar-inner">
@@ -238,14 +239,14 @@ export default function WorkbenchView({
             <button
               type="button"
               className="btn-exit-exam"
-              onClick={() => go({ name: pack.family })}
+              onClick={() => go({ name: 'track', family: pack.family })}
             >
               ← Keluar
             </button>
             <div className="exam-session-info">
               <div className="exam-badges">
-                <span className={`pill pill-${pack.family}`}>
-                  {mode === 'simulasi' ? 'Simulasi CAT' : 'Mode Latihan'}
+                <span className={`pill pill-${pack.family === 'bumn' ? 'bumn' : 'cpns'}`}>
+                  {mode === 'simulasi' ? 'Simulasi Ujian' : 'Mode Latihan'}
                 </span>
                 {questionIds && <span className="pill pill-warn">Remidi</span>}
                 <span className="exam-q-counter num">
@@ -257,6 +258,14 @@ export default function WorkbenchView({
           </div>
 
           <div className="exam-top-right">
+            <button
+              type="button"
+              className={`btn btn-sm ${focusMode ? 'btn-primary' : 'btn-secondary'}`}
+              onClick={() => setFocusMode((v) => !v)}
+              title="Sembunyikan panel samping agar 100% fokus membaca soal"
+            >
+              {focusMode ? 'Mode Fokus ✓' : 'Mode Fokus'}
+            </button>
             {mode === 'latihan' && (
               <button
                 type="button"
@@ -420,28 +429,30 @@ export default function WorkbenchView({
           </div>
         </section>
 
-        <aside className="exam-companion">
-          {mode === 'latihan' && (
-            <HintDeck
-              question={question}
-              subtestLabel={subLabel}
-              onOpenGuide={() => setTipsOpen(true)}
-              onPeekTip={() => updateRec({ hints: answer.hints + 1 })}
-            />
-          )}
+        {!focusMode && (
+          <aside className="exam-companion">
+            {mode === 'latihan' && (
+              <HintDeck
+                question={question}
+                subtestLabel={subLabel}
+                onOpenGuide={() => setTipsOpen(true)}
+                onPeekTip={() => updateRec({ hints: answer.hints + 1 })}
+              />
+            )}
 
-          <QuestionNav
-            order={attempt.order}
-            answers={attempt.answers}
-            cursor={qIndex}
-            onJump={goTo}
-          />
-        </aside>
+            <QuestionNav
+              order={attempt.order}
+              answers={attempt.answers}
+              cursor={qIndex}
+              onJump={goTo}
+            />
+          </aside>
+        )}
       </div>
 
       <TipsDrawer
         open={tipsOpen}
-        family={pack.family}
+        family={pack.family === 'bumn' ? 'bumn' : 'cpns'}
         initialSubtest={subLabel}
         onClose={() => setTipsOpen(false)}
       />
