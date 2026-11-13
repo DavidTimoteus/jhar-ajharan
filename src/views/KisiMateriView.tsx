@@ -18,13 +18,9 @@ interface Props {
 
 type FocusTab = 'konsep' | 'visual' | 'uji';
 
-const DIAGRAM_LABELS: { id: DiagramId; label: string }[] = [
+const CERITA_DIAGRAMS: { id: DiagramId; label: string }[] = [
   { id: 'berbalik-nilai', label: 'Pekerja & Libur' },
   { id: 'gerak-temu', label: 'Susul & Papasan' },
-  { id: 'silogisme-venn', label: 'Venn Silogisme' },
-  { id: 'persen-tangki', label: 'Diskon 100 Petak' },
-  { id: 'deret-scanner', label: 'Scanner Deret' },
-  { id: 'tkp-akhlak-radar', label: 'Filter Poin 5' },
 ];
 
 export default function KisiMateriView({
@@ -90,7 +86,7 @@ export default function KisiMateriView({
   useEffect(() => {
     setPickedOption(null);
     setFocusTab('konsep');
-    if (activeItem?.diagramId) {
+    if (activeItem) {
       setActiveDiagram(activeItem.diagramId);
     }
   }, [activeItem?.id]);
@@ -274,12 +270,9 @@ export default function KisiMateriView({
 
             {focusTab === 'visual' && (
               <div className="kisi-focus-pane">
-                {(activeItem.id === 'cpns-tiu-cerita' || !activeItem.diagramId) && (
+                {activeItem.id === 'cpns-tiu-cerita' && (
                   <div className="visual-switcher-row">
-                    {(activeItem.id === 'cpns-tiu-cerita'
-                      ? DIAGRAM_LABELS.slice(0, 2)
-                      : DIAGRAM_LABELS
-                    ).map((dl) => (
+                    {CERITA_DIAGRAMS.map((dl) => (
                       <button
                         key={dl.id}
                         type="button"
@@ -293,10 +286,9 @@ export default function KisiMateriView({
                 )}
                 <InteractiveDiagram
                   diagramId={
-                    activeItem.diagramId && activeItem.id !== 'cpns-tiu-cerita'
-                      ? activeItem.diagramId
-                      : activeDiagram
+                    activeItem.id === 'cpns-tiu-cerita' ? activeDiagram : activeItem.diagramId
                   }
+                  submateriId={activeItem.id}
                 />
               </div>
             )}

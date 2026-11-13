@@ -7,7 +7,17 @@ export type DiagramId =
   | 'silogisme-venn'
   | 'persen-tangki'
   | 'deret-scanner'
-  | 'tkp-akhlak-radar';
+  | 'tkp-akhlak-radar'
+  | 'integritas-detektor'
+  | 'pilar-lembaga'
+  | 'kebangsaan-timeline'
+  | 'kalimat-efektif-xray'
+  | 'analogi-jembatan'
+  | 'analitis-slot'
+  | 'kuantitatif-uji3'
+  | 'figural-transform'
+  | 'tkd-verbal-filter'
+  | 'bumn-english-xray';
 
 export interface MicroCheck {
   prompt: string;
@@ -29,7 +39,7 @@ export interface SubmateriMeta {
   coreRule: string;
   fastSteps: string[];
   commonTrap: string;
-  diagramId?: DiagramId;
+  diagramId: DiagramId;
   microCheck: MicroCheck;
 }
 
@@ -74,7 +84,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       'Memilih jawaban yang terlihat **patriotik tapi ~~eksklusif / chauvinistis~~** (merendahkan budaya daerah lain atau menolak kerja sama internasional).',
-    diagramId: 'tkp-akhlak-radar',
+    diagramId: 'kebangsaan-timeline',
     microCheck: {
       prompt: 'Rekan dari daerah berbeda mengusulkan istilah lokal untuk program layanan nasional. Sikap nasionalisme paling tepat adalah…',
       options: [
@@ -106,6 +116,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Memilih prestasi akademik/jabatan tinggi tokoh~~ padahal yang ditanya adalah **nilai integritas/kesederhanaan**nya.',
+    diagramId: 'integritas-detektor',
     microCheck: {
       prompt: 'Seorang pemohon izin mengirim parcel lebaran ke rumah Anda tanpa perjanjian apa pun sebelumnya. Kategori & sikap paling tepat?',
       options: [
@@ -137,6 +148,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Mengira Bela Negara hanya wajib angkat senjata / perang fisik~~ — padahal mayoritas soal menguji aksi sipil sehari-hari.',
+    diagramId: 'kebangsaan-timeline',
     microCheck: {
       prompt: 'Dokter yang secara sukarela mengabdi menanggulangi wabah di wilayah perbatasan mewujudkan Bela Negara sebagai…',
       options: [
@@ -168,6 +180,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Tertukar antara Sila 2 (kemanusiaan/martabat individu) dan Sila 5 (pemerataan kesejahteraan/hak-kewajiban sosial)~~ serta tertukar wewenang ~~MK vs MA~~.',
+    diagramId: 'pilar-lembaga',
     microCheck: {
       prompt: 'Peraturan Daerah (Perda) dianggap bertentangan dengan Undang-Undang di atasnya. Lembaga yang berwenang menguji adalah…',
       options: ['Mahkamah Konstitusi (MK)', 'Mahkamah Agung (MA)', 'Komisi Yudisial (KY)'],
@@ -195,6 +208,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Menganggap kata populer sehari-hari (analisa, resiko, ijin, kwalitas, praktek) sebagai kata baku KBBI~~.',
+    diagramId: 'kalimat-efektif-xray',
     microCheck: {
       prompt: 'Manakah penulisan kata baku & kalimat paling efektif?',
       options: [
@@ -228,6 +242,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Memilih pasangan kata yang topiknya sama tapi hubungannya terbalik arah~~ (misal: `Dokter : Pasien` disamakan dengan `Murid : Guru`).',
+    diagramId: 'analogi-jembatan',
     microCheck: {
       prompt: 'Kompas : Arah = Termometer : …',
       options: ['Panas', 'Suhu', 'Demam'],
@@ -287,6 +302,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Membaca kalimat dari atas ke bawah lalu mencoba menyimpannya di kepala~~ sehingga waktu habis membaca ulang teks 4 kali.',
+    diagramId: 'analitis-slot',
     microCheck: {
       prompt: 'Dalam antrean 4 orang (A, B, C, D): A tepat di depan B. D di urutan terakhir. C tidak di urutan 1. Siapa di urutan 1?',
       options: ['A', 'B', 'C'],
@@ -370,6 +386,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Menganggap akar persamaan `x² = 16` pasti hanya `x = 4`~~ — padahal `x` bisa juga `−4`!',
+    diagramId: 'kuantitatif-uji3',
     microCheck: {
       prompt: 'Diketahui x adalah bilangan bulat dengan x² = 25. P = 2x dan Q = 8. Manakah hubungan P dan Q?',
       options: ['P > Q', 'P < Q', 'Hubungan P dan Q tidak dapat ditentukan'],
@@ -425,6 +442,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Menggabungkan semua detail di kepala~~ sehingga tertukar antara pencerminan vertikal dengan rotasi 180°.',
+    diagramId: 'figural-transform',
     microCheck: {
       prompt: 'Gambar A (segitiga putih luar + kotak hitam di dalam) menjadi B (kotak putih di luar + segitiga hitam di dalam). Aturan yang terjadi?',
       options: [
@@ -456,6 +474,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Melihat gambar 4 dan 5 tanpa memeriksa lompatan di kotak 1 → 2 → 3~~.',
+    diagramId: 'figural-transform',
     microCheck: {
       prompt: 'Titik hitam berada di sudut kiri-atas (1), kanan-atas (2), kanan-bawah (3). Di manakah posisi di kotak ke-4?',
       options: ['Kiri-bawah', 'Tengah kotak', 'Kiri-atas'],
@@ -483,6 +502,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Memilih gambar yang posisinya tampak miring saja~~ padahal kalau diputar 90° masih identik dengan 3 gambar lainnya.',
+    diagramId: 'figural-transform',
     microCheck: {
       prompt: 'Empat gambar menunjukkan huruf F yang diputar 0°, 90°, 180°, dan 270°. Satu gambar menunjukkan huruf F terbalik seperti di cermin. Manakah yang ganjil?',
       options: ['Yang diputar 180°', 'Yang diputar 270°', 'Yang hasil pencerminan (terbalik)'],
@@ -544,6 +564,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Memilih opsi "mengerjakan semua tugas tim sendirian agar cepat beres"~~ — padahal poin Jejaring Kerja justru melarang sikap individualistis!',
+    diagramId: 'tkp-akhlak-radar',
     microCheck: {
       prompt: 'Dua anggota tim Anda berselisih soal pembagian tugas hingga menghambat rapat. Langkah paling konstruktif?',
       options: [
@@ -575,6 +596,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Bersikap "netral tapi pasif/menjauh"~~ dari masyarakat sekitar saat ditanya soal penyesuaian lingkungan sosial.',
+    diagramId: 'tkp-akhlak-radar',
     microCheck: {
       prompt: 'Anda ditugaskan ke daerah dengan tradisi musyawarah adat yang belum Anda kenal. Pilihan skor 5?',
       options: [
@@ -606,6 +628,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Memilih opsi "minta dibuatkan sistem manual saja sementara"~~ atau ~~memberikan akun pribadi ke rekan agar cepat dibantu~~.',
+    diagramId: 'tkp-akhlak-radar',
     microCheck: {
       prompt: 'Instansi meluncurkan aplikasi layanan baru yang belum dikuasai rekan senior di meja sebelah. Sikap terbaik?',
       options: [
@@ -637,6 +660,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Memilih opsi pasrah ("mengerjakan sebisanya saja nanti dijelaskan jika telat")~~ yang membuat poin jatuh ke 2–3.',
+    diagramId: 'tkp-akhlak-radar',
     microCheck: {
       prompt: 'Dua jam sebelum batas waktu laporan bulanan, Anda menemukan data yang keliru di halaman awal. Sikap poin 5?',
       options: [
@@ -667,7 +691,8 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
       'Utamakan **persatuan NKRI & moderasi** dalam tiap skenario.',
     ],
     commonTrap:
-      '~~Memilih diam saja ("asal tidak ikut campur")~~ atau sebaliknya ~~main hakim sendiri dengan membentak/mengucilkan tanpa klarifikasi==.',
+      '~~Memilih diam saja ("asal tidak ikut campur")~~ atau sebaliknya ~~main hakim sendiri dengan membentak/mengucilkan tanpa klarifikasi~~.',
+    diagramId: 'tkp-akhlak-radar',
     microCheck: {
       prompt: 'Di grup kantor ada rekan membagikan berita bohong bernada kebencian terhadap kelompok minoritas. Langkah skor 5?',
       options: [
@@ -701,6 +726,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Menganggap pernyataan benar menurut wawasan umum sehari-hari~~ padahal tidak tertulis di premis TKD.',
+    diagramId: 'tkd-verbal-filter',
     microCheck: {
       prompt: 'Manakah yang ganjil (Word Classification): Paus · Lumba-lumba · Hiu · Pesut · Dugong?',
       options: ['Paus', 'Hiu', 'Dugong'],
@@ -756,6 +782,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Melompati urutan operator dari kanan ke kiri~~ atau lupa membalik warna setelah melakukan rotasi.',
+    diagramId: 'figural-transform',
     microCheck: {
       prompt: 'Jika operator X memutar 90° searah jarum jam dan Y membalik warna hitam ↔ putih, gambar panah putih ke atas setelah melewati [X → Y] menjadi…',
       options: ['Panah hitam ke kanan', 'Panah putih ke bawah', 'Panah hitam ke kiri'],
@@ -815,6 +842,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Menganggap BUMN hanya mengejar profit maksimal semata~~ tanpa mempertimbangkan tanggung jawab sosial & pelayanan publik.',
+    diagramId: 'kebangsaan-timeline',
     microCheck: {
       prompt: 'Landasan konstitusional utama pengelolaan cabang produksi penting oleh BUMN untuk kemakmuran rakyat termuat dalam…',
       options: ['Pasal 28 UUD 1945', 'Pasal 33 UUD 1945', 'Pasal 31 UUD 1945'],
@@ -842,6 +870,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Tertipu kata benda jamak di tengah frase ("The quality of the **reports** [is/are]...")~~ — subjek aslinya `The quality` (tunggal → ==is==!).',
+    diagramId: 'bumn-english-xray',
     microCheck: {
       prompt: 'The manager, along with two analysts, _____ the audit report before noon tomorrow.',
       options: ['submit', 'is going to submit', 'are submitting'],
@@ -869,6 +898,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Terjebak memilih kalimat yang persis tertulis di paragraf ke-3 saat ditanya Main Idea keseluruhan teks~~.',
+    diagramId: 'bumn-english-xray',
     microCheck: {
       prompt: 'Saat menemukan soal "Which statement is NOT mentioned in the passage?", strategi paling hemat waktu adalah…',
       options: [
@@ -900,6 +930,7 @@ export const SUBMATERI_LIST: SubmateriMeta[] = [
     ],
     commonTrap:
       '~~Menganggap sikap "berani mencoba tanpa evaluasi sama sekali" lebih baik daripada "eksperimen cepat + ukur hasil"~~.',
+    diagramId: 'tkp-akhlak-radar',
     microCheck: {
       prompt: 'Proyek inovasi digital yang Anda pimpin ditolak pasar pada uji coba awal. Sikap mencerminkan Learning Agility tertinggi?',
       options: [

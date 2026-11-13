@@ -19,7 +19,15 @@ const DRAWER_DIAGRAMS: { id: DiagramId; label: string }[] = [
   { id: 'silogisme-venn', label: 'Venn Silogisme' },
   { id: 'persen-tangki', label: 'Diskon 100 Petak' },
   { id: 'deret-scanner', label: 'Scanner Deret' },
+  { id: 'kuantitatif-uji3', label: 'Uji P vs Q' },
+  { id: 'analogi-jembatan', label: 'Jembatan Analogi' },
+  { id: 'analitis-slot', label: 'Slot Kursi' },
+  { id: 'figural-transform', label: 'Rotasi Figural' },
+  { id: 'integritas-detektor', label: 'TWK Integritas' },
+  { id: 'pilar-lembaga', label: 'Sila & Lembaga' },
   { id: 'tkp-akhlak-radar', label: 'Filter Poin 5' },
+  { id: 'tkd-verbal-filter', label: 'TKD Verbal BUMN' },
+  { id: 'bumn-english-xray', label: 'English X-Ray' },
 ];
 
 export default function TipsDrawer({ open, family, initialSubtest, onClose }: Props) {

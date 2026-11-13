@@ -83,9 +83,43 @@ export default function Header({ screen, theme, onTheme, go }: Props) {
           aria-label="Kembali ke beranda Jhâr-Ajhârân"
         >
           <span className="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.3" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M4 19L12 5l8 14H4z" />
-              <path d="M9 14.5h6" />
+            <svg viewBox="0 0 64 64" fill="none">
+              <defs>
+                <linearGradient id="ja-ui-bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stopColor="#2b3f57" />
+                  <stop offset="100%" stopColor="#172331" />
+                </linearGradient>
+                <linearGradient id="ja-ui-accent" x1="28" y1="18" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stopColor="#38e0b0" />
+                  <stop offset="100%" stopColor="#149674" />
+                </linearGradient>
+              </defs>
+              <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#ja-ui-bg)" />
+              <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="15.25" stroke="rgba(255,255,255,0.16)" strokeWidth="1.5" />
+              <path
+                d="M27 20V38.5C27 43.2 23.4 46.5 18.8 46.5C15.8 46.5 13.7 45.1 12.6 42.8"
+                stroke="#c7ddf3"
+                strokeWidth="4.4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              <path
+                d="M31.5 46L39.5 20.5L49 46"
+                stroke="url(#ja-ui-accent)"
+                strokeWidth="4.4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              <path
+                d="M34.8 38.5H45.8"
+                stroke="url(#ja-ui-accent)"
+                strokeWidth="4"
+                strokeLinecap="round"
+              />
+              <path
+                d="M32 10.5L33.7 14.5L37.7 16.2L33.7 17.9L32 21.9L30.3 17.9L26.3 16.2L30.3 14.5Z"
+                fill="#f59e0b"
+              />
             </svg>
           </span>
           <span className="brand-text">

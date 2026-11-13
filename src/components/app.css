@@ -35,24 +35,21 @@
 }
 
 .brand-mark {
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   border-radius: 13px;
-  background: var(--rail-pill);
+  background: transparent;
   box-shadow: var(--neu-rail-raised);
   display: grid;
   place-items: center;
-  color: var(--navy);
   flex-shrink: 0;
-}
-
-[data-theme='dark'] .brand-mark {
-  color: #eef2f8;
+  overflow: hidden;
 }
 
 .brand-mark svg {
-  width: 19px;
-  height: 19px;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .brand-text {
@@ -3541,8 +3538,102 @@
   color: var(--text-soft);
 }
 
+.lab-rich-line {
+  line-height: 1.55;
+}
+
+.lab-xray-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 14px;
+  border-radius: 14px;
+  background: var(--bg);
+  box-shadow: var(--neu-inset-sm);
+  align-items: center;
+}
+
+.lab-xray-token {
+  padding: 5px 10px;
+  border-radius: 9px;
+  background: var(--bg);
+  box-shadow: var(--neu-raised-sm);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 160ms ease;
+}
+
+.lab-xray-token.is-cut {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  color: var(--fail);
+  background: var(--fail-soft);
+  opacity: 0.78;
+}
+
+.lab-slot-row {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.lab-slot-seat {
+  padding: 10px 6px;
+  border-radius: 13px;
+  text-align: center;
+  display: grid;
+  gap: 4px;
+  background: var(--bg);
+  box-shadow: var(--neu-inset-sm);
+}
+
+.lab-slot-seat small {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.lab-slot-seat.is-filled {
+  box-shadow: var(--neu-raised-sm);
+  background: var(--sky-card);
+  color: var(--navy-deep);
+}
+
+.lab-figural-stage {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.lab-figural-box {
+  display: grid;
+  gap: 6px;
+  justify-items: center;
+  padding: 12px;
+  border-radius: 16px;
+  background: var(--bg);
+  box-shadow: var(--neu-raised-sm);
+}
+
+.lab-figural-svg {
+  width: 96px;
+  height: 96px;
+  color: var(--text);
+}
+
+.lab-figural-arrow {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text-muted);
+}
+
 @media (max-width: 640px) {
   .kisi-stepper-tabs {
     grid-template-columns: 1fr;
+  }
+
+  .lab-slot-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
