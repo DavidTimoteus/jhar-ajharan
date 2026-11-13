@@ -139,7 +139,7 @@ export default function TipsDrawer({ open, family, initialSubtest, onClose }: Pr
             className={`drawer-mode-btn ${mode === 'rumus' ? 'is-active' : ''}`}
             onClick={() => setMode('rumus')}
           >
-            ✦ Baku vs Mudah ({tips.length})
+            ✦ Rumus ({tips.length})
           </button>
           <button
             type="button"

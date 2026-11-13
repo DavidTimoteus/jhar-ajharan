@@ -2028,15 +2028,16 @@
 }
 
 .tips-drawer {
-  width: min(560px, 100%);
+  width: min(600px, 100%);
   height: 100%;
   background: var(--bg);
+  border: 1px solid var(--neu-edge);
   border-radius: var(--radius-xl);
   box-shadow: var(--neu-raised-lg);
-  padding: 26px;
+  padding: 24px 24px 18px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 14px;
   overflow: hidden;
 }
 
@@ -2049,14 +2050,14 @@
 
 .tips-drawer-head h2 {
   margin-top: 8px;
-  font-size: 1.3rem;
+  font-size: 1.26rem;
   font-weight: 800;
 }
 
 .drawer-mode-tabs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 6px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 5px;
   padding: 5px;
   border-radius: 15px;
   background: var(--bg);
@@ -2066,12 +2067,16 @@
 .drawer-mode-btn {
   border: none;
   background: transparent;
-  padding: 8px 8px;
+  padding: 8px 6px;
   border-radius: 10px;
-  font-size: 0.81rem;
+  font-size: 0.78rem;
   font-weight: 700;
   color: var(--text-muted);
   cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 150ms ease;
 }
 
 .drawer-mode-btn.is-active {
@@ -2098,16 +2103,38 @@
 
 .tips-drawer-list {
   flex: 1;
+  min-height: 0;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: 14px;
-  padding: 16px;
-  margin: -10px -14px;
+  padding: 12px 14px 22px;
+  margin: 0 -10px;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(100, 116, 139, 0.38) transparent;
+}
+
+.tips-drawer-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.tips-drawer-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.tips-drawer-list::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.35);
+  border-radius: 999px;
+}
+
+.tips-drawer-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.55);
 }
 
 .tip-guide-card {
   background: var(--bg);
+  border: 1px solid var(--neu-edge);
   box-shadow: var(--neu-raised-sm);
   border-radius: 18px;
   padding: 18px;
@@ -2184,6 +2211,7 @@
 
 .glosarium-item {
   background: var(--bg);
+  border: 1px solid var(--neu-edge);
   box-shadow: var(--neu-raised-sm);
   border-radius: 16px;
   padding: 14px 16px;
@@ -2817,8 +2845,8 @@
 .rt-highlight {
   background: linear-gradient(120deg, rgba(251, 191, 36, 0.34), rgba(245, 158, 11, 0.22));
   color: var(--text);
-  padding: 1px 6px;
-  border-radius: 6px;
+  padding: 1px 4px;
+  border-radius: 5px;
   font-weight: 650;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
@@ -3894,6 +3922,10 @@
 }
 
 @media (max-width: 640px) {
+  .drawer-mode-tabs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .kisi-stepper-tabs {
     grid-template-columns: 1fr;
   }
