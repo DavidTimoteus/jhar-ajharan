@@ -2826,6 +2826,10 @@
   color: var(--text);
 }
 
+.rt-italic {
+  font-style: italic;
+}
+
 .rt-underline {
   text-decoration: underline;
   text-decoration-thickness: 2px;

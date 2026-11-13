@@ -2,7 +2,7 @@
 // Mendukung: **bold**, __underline__, ~~strikethrough~~, ==highlight==, dan `rumus`.
 // Menjaga isian rumpang seperti "_____" maupun snake_case agar tidak rusak.
 
-export type RichKind = 'text' | 'bold' | 'underline' | 'strike' | 'highlight' | 'code';
+export type RichKind = 'text' | 'bold' | 'italic' | 'underline' | 'strike' | 'highlight' | 'code';
 
 export interface RichToken {
   kind: RichKind;
@@ -11,7 +11,7 @@ export interface RichToken {
 }
 
 const TOKEN_RE =
-  /==([^=\n](?:[^\n]*?[^=\n])?)==|\*\*([^\*\n](?:[^\n]*?[^\*\n])?)\*\*|__(?!_)([^_\n](?:[^\n]*?[^_\n])?)__|~~([^~\n](?:[^\n]*?[^~\n])?)~~|`([^`\n]+)`/g;
+  /==([^=\n](?:[^\n]*?[^=\n])?)==|\*\*([^\*\n](?:[^\n]*?[^\*\n])?)\*\*|__(?!_)([^_\n](?:[^\n]*?[^_\n])?)__|~~([^~\n](?:[^\n]*?[^~\n])?)~~|`([^`\n]+)`|\*([^\s*\n](?:[^\n*]*?[^\s*\n])?)\*/g;
 
 export function parseInlineRichText(input: string, depth = 0): RichToken[] {
   if (!input) return [];
@@ -53,6 +53,12 @@ export function parseInlineRichText(input: string, depth = 0): RichToken[] {
       });
     } else if (match[5] !== undefined) {
       tokens.push({ kind: 'code', value: match[5] });
+    } else if (match[6] !== undefined) {
+      tokens.push({
+        kind: 'italic',
+        value: match[6],
+        children: parseInlineRichText(match[6], depth + 1),
+      });
     }
 
     lastIndex = re.lastIndex;
