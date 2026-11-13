@@ -1,0 +1,1011 @@
+{
+  "bakuMudah": {
+    "twk": [
+      {
+        "title": "Sila Pancasila: hafalan atau kata kunci?",
+        "standard": "Hafal bunyi 5 sila, butir, dan lambangnya satu per satu.",
+        "shortcut": "Cari kata kunci soal: ibadah/toleransi = sila 1; manusia/adil/beradab = sila 2; persatuan = sila 3; musyawarah/rakyat = sila 4; keadilan merata = sila 5.",
+        "example": "Menghormati teman yang beribadah berbeda: sila 1."
+      },
+      {
+        "title": "Pasal UUD 1945 (27 sampai 34)",
+        "standard": "Hafal bunyi pasal dan ayatnya.",
+        "shortcut": "Hafal urutan temanya saja: 27 hak dan kewajiban warga (ayat 3 bela negara), 28 HAM, 29 agama, 30 hankam, 31 pendidikan, 32 kebudayaan, 33 ekonomi, 34 kesejahteraan sosial.",
+        "example": "Soal 'pasal tentang pendidikan' langsung jawab 31."
+      },
+      {
+        "title": "Lembaga negara dan wewenangnya",
+        "standard": "Hafal seluruh tugas dan wewenang tiap lembaga.",
+        "shortcut": "Tanya 'siapa yang ...': membuat UU = DPR bersama Presiden; menguji UU terhadap UUD = MK; menguji aturan di bawah UU = MA; memeriksa keuangan negara = BPK; mengubah UUD = MPR; menjaga kehormatan hakim = KY; wakil daerah = DPD.",
+        "example": "'Lembaga yang berwenang membubarkan partai politik': MK."
+      },
+      {
+        "title": "Sejarah dan urutan peristiwa",
+        "standard": "Hafal tanggal dan nama tokoh satu per satu.",
+        "shortcut": "Pegang kerangka 1908, 1928, 1945 (Budi Utomo, Sumpah Pemuda, Merdeka). Lalu: BPUPKI merumuskan (29 Mei sampai 1 Juni), Piagam Jakarta 22 Juni, Proklamasi 17 Agustus, PPKI mengesahkan UUD 18 Agustus.",
+        "example": "'BPUPKI membuat, PPKI mengesahkan'."
+      },
+      {
+        "title": "Hierarki peraturan",
+        "standard": "Hafal Pasal 7 UU 12/2011 beserta penjelasannya.",
+        "shortcut": "Urutan: UUD 1945, TAP MPR, UU/Perppu, PP, Perpres, Perda Provinsi, Perda Kab/Kota. Aturan emas: yang di bawah tidak boleh bertentangan dengan yang di atas.",
+        "example": "Peraturan Pemerintah berada di bawah UU."
+      },
+      {
+        "title": "Soal kasus integritas: tokoh teladan",
+        "standard": "Memilih opsi yang benar tentang tokoh tetapi bukan nilai integritas.",
+        "shortcut": "Cari kata meski atau justru, tentukan godaan yang dilawan, lalu pilih sikap yang dirangkum. Kompetensi dan prestasi bukan integritas.",
+        "example": "Agus Salim berjas sederhana: jawabannya kesederhanaan, bukan menguasai banyak bahasa asing."
+      },
+      {
+        "title": "Soal kasus integritas: menjaga informasi jabatan",
+        "standard": "Menganggap membocorkan informasi untuk keluarga sebagai hal wajar.",
+        "shortcut": "Informasi jabatan yang belum diumumkan tidak boleh dipakai untuk kepentingan pribadi atau keluarga, walau merugikan keluarga.",
+        "example": "Hatta tidak memberi tahu keluarganya tentang rencana pemotongan nilai uang."
+      },
+      {
+        "title": "Soal kasus integritas, nasionalisme, bela negara",
+        "standard": "Analisis nilai tiap opsi satu per satu.",
+        "shortcut": "Pilih opsi yang aktif, sesuai hukum, dan bermanfaat bagi orang banyak. Buang opsi yang membiarkan, melanggar aturan, atau menguntungkan diri sendiri.",
+        "example": "Ditawari hadiah oleh pemohon layanan: tolak dan laporkan sesuai aturan gratifikasi."
+      },
+      {
+        "title": "Kalimat efektif dan kata baku",
+        "standard": "Terapkan kaidah kehematan, kesejajaran, dan kejelasan.",
+        "shortcut": "Coret dulu kata mubazir (naik ke atas, para hadirin sekalian, agar supaya), lalu cek kata baku.",
+        "example": "Analisis bukan analisa, risiko bukan resiko, izin bukan ijin."
+      },
+      {
+        "title": "Tokoh dan organisasi pergerakan",
+        "standard": "Hafal tahun berdiri, pendiri, dan tujuan tiap organisasi.",
+        "shortcut": "Pegang empat jangkar: 1908 Budi Utomo (pendidikan, dr. Wahidin dan dr. Soetomo), 1912 Indische Partij (politik, Tiga Serangkai), 1927 PNI (Soekarno), 1928 Sumpah Pemuda.",
+        "example": "Partai pertama yang menuntut Indonesia merdeka: Indische Partij."
+      },
+      {
+        "title": "Hari nasional dan tanggalnya",
+        "standard": "Hafal seluruh hari besar nasional.",
+        "shortcut": "Urut kalender: 20 Mei Kebangkitan Nasional, 1 Juni Lahir Pancasila, 17 Agustus Proklamasi, 1 Oktober Kesaktian Pancasila, 28 Oktober Sumpah Pemuda, 10 November Pahlawan, 19 Desember Bela Negara.",
+        "example": "Hari Lahir Pancasila merujuk pidato Soekarno: 1 Juni."
+      },
+      {
+        "title": "Prinsip antikorupsi KPK",
+        "standard": "Telaah lima prinsip dan sembilan nilai antikorupsi.",
+        "shortcut": "Prinsip ada di tingkat sistem (akuntabilitas, transparansi, kewajaran, kebijakan, kontrol kebijakan). Nilai ada di tingkat pribadi (jujur, peduli, mandiri, disiplin, tanggung jawab, kerja keras, sederhana, berani, adil).",
+        "example": "Anggaran dibuka ke publik: transparansi. Jujur saat melapor: nilai jujur."
+      },
+      {
+        "title": "Membedakan suap, gratifikasi, pemerasan",
+        "standard": "Telaah unsur tiap pasal pada UU Tipikor.",
+        "shortcut": "Suap: ada kesepakatan dua arah. Gratifikasi: pemberian terkait jabatan tanpa kesepakatan, wajib dilapor. Pemerasan: pejabat yang memaksa.",
+        "example": "Pejabat meminta uang agar izin terbit: pemerasan."
+      },
+      {
+        "title": "Benturan kepentingan",
+        "standard": "Kaji aturan benturan kepentingan pada pengadaan.",
+        "shortcut": "Tanya diri: apakah keputusan ini menguntungkan saya, keluarga, atau kelompok saya? Bila ya, mundur dari proses dan lapor atasan.",
+        "example": "Keponakan ikut tender di unit saya: saya tidak ikut menilai dan melapor."
+      },
+      {
+        "title": "Komponen pertahanan negara",
+        "standard": "Pelajari pembagian komponen menurut UU 23/2019.",
+        "shortcut": "Utama = TNI. Cadangan = warga dan sumber daya yang disiapkan. Pendukung = warga dan sumber daya yang menambah kekuatan keduanya.",
+        "example": "Warga yang mengikuti pelatihan komponen cadangan: komponen cadangan."
+      },
+      {
+        "title": "Hari Bela Negara dan PDRI",
+        "standard": "Hafal kronologi Agresi Militer Belanda II.",
+        "shortcut": "19 Desember 1948 = Agresi Militer II. PDRI dipimpin Syafruddin Prawiranegara di Sumatera Barat. Keppres 28/2006 menetapkan 19 Desember sebagai Hari Bela Negara.",
+        "example": "Ketua PDRI: Syafruddin Prawiranegara."
+      },
+      {
+        "title": "Ideologi terbuka dan tertutup",
+        "standard": "Bandingkan sifat ideologi.",
+        "shortcut": "Terbuka: nilai dasar tetap, penjabaran berkembang. Tertutup: kaku dan dipaksakan. Pancasila adalah ideologi terbuka.",
+        "example": "UU baru menjabarkan sila 5 sesuai zaman: nilai instrumental."
+      },
+      {
+        "title": "Panitia Sembilan dan Piagam Jakarta",
+        "standard": "Hafal nama sembilan tokoh dan kronologinya.",
+        "shortcut": "Ingat angka: 9 orang, 22 Juni 1945, ketua Soekarno, tujuh kata dihapus 18 Agustus 1945 demi persatuan.",
+        "example": "Ketua Panitia Sembilan: Soekarno."
+      },
+      {
+        "title": "Pembukaan UUD 1945: empat alinea",
+        "standard": "Hafal bunyi tiap alinea.",
+        "shortcut": "Alinea 1 kemerdekaan hak segala bangsa, 2 perjuangan, 3 rahmat Allah, 4 tujuan dan dasar negara (Pancasila).",
+        "example": "Tujuan negara ada di alinea keempat."
+      },
+      {
+        "title": "Hak yang tidak dapat dikurangi",
+        "standard": "Hafal tujuh hak pada Pasal 28I ayat 1.",
+        "shortcut": "Kunci: dalam keadaan apa pun. Hidup, tidak disiksa, pikiran dan hati nurani, beragama, tidak diperbudak, diakui sebagai pribadi, tidak dituntut atas hukum berlaku surut.",
+        "example": "Dituntut dengan hukum yang berlaku surut: dilarang."
+      },
+      {
+        "title": "Pembatasan HAM",
+        "standard": "Telaah Pasal 28J.",
+        "shortcut": "Hak dibatasi UU untuk menjamin hak orang lain, moral, nilai agama, keamanan, dan ketertiban umum (28J ayat 2).",
+        "example": "Kebebasan berpendapat tidak boleh dipakai menyebar kebencian."
+      },
+      {
+        "title": "Enam urusan pemerintahan absolut",
+        "standard": "Hafal Pasal 10 UU 23/2014.",
+        "shortcut": "Ingat: luar negeri, pertahanan, keamanan, yustisi, moneter dan fiskal nasional, agama. Selain itu konkuren.",
+        "example": "Pendidikan bukan absolut, itu konkuren."
+      },
+      {
+        "title": "Kesatuan dan federal",
+        "standard": "Bandingkan bentuk negara.",
+        "shortcut": "Kesatuan: kedaulatan di pusat, satu konstitusi. Federal: kedaulatan terbagi, negara bagian punya konstitusi sendiri.",
+        "example": "RIS 1949 federal, 17 Agustus 1950 kembali ke NKRI."
+      },
+      {
+        "title": "Lambang pada perisai Garuda",
+        "standard": "Hafal pasangan sila dan lambang.",
+        "shortcut": "Urut: bintang, rantai, beringin, banteng, padi dan kapas. Beringin = bernaung bersama (sila 3), banteng = berkumpul bermusyawarah (sila 4).",
+        "example": "Padi dan kapas melambangkan sila kelima."
+      },
+      {
+        "title": "Sutasoma dan Negarakertagama",
+        "standard": "Hafal pengarang kitab Majapahit.",
+        "shortcut": "Sutasoma = Mpu Tantular. Negarakertagama = Mpu Prapanca. Keduanya masa Majapahit.",
+        "example": "Kitab asal semboyan negara: Sutasoma."
+      },
+      {
+        "title": "Kata baku yang sering keluar",
+        "standard": "Hafal daftar kata baku.",
+        "shortcut": "Hilangkan h: imbau, utang, asas. Akhiran -is bukan -isa: analisis, hipotesis. Ingat izin, napas, saksama, sekadar.",
+        "example": "Ekstrem bukan ekstrim. Utang bukan hutang."
+      },
+      {
+        "title": "Ide pokok, kalimat utama, dan kalimat penjelas",
+        "standard": "Membaca seluruh paragraf lalu menebak intinya.",
+        "shortcut": "Ide pokok = gagasan singkat. Kalimat utama = kalimat umum yang bisa berdiri sendiri (jawab nomor). Kalimat penjelas = rincian, sering diawali selain itu, misalnya, kondisi tersebut.",
+        "example": "Kalimat berawalan misalnya pasti penjelas, bukan utama."
+      },
+      {
+        "title": "Jenis paragraf menurut letak kalimat utama",
+        "standard": "Menghafal definisi tiap jenis paragraf.",
+        "shortcut": "Lihat kalimat pertama dan terakhir. Umum di awal: deduktif. Berawalan jadi atau dengan demikian di akhir: induktif. Awal dan akhir kembar: campuran. Di tengah setelah ilustrasi: ineratif.",
+        "example": "Kalimat akhir diawali oleh karena itu: induktif."
+      },
+      {
+        "title": "Simpulan paragraf: luas, sejalan, tanpa kata mutlak",
+        "standard": "Memilih simpulan yang paling panjang.",
+        "shortcut": "Pilih yang merangkum semua informasi penting dan memakai kata merupakan, menunjukkan, dipicu. Coret yang berisi satu-satunya, seluruh, hanya, pasti, saran, atau bertentangan.",
+        "example": "Pilihan seluruh warga pasti puas: mutlak, salah."
+      },
+      {
+        "title": "Ejaan: di dan ke, pun, kapital jabatan, koma, titik dua",
+        "standard": "Menghafal seluruh kaidah EBI.",
+        "shortcut": "Uji di mana?: tempat berarti dipisah, kata kerja berarti serangkai. Pun dipisah kecuali walaupun, meskipun, adapun, ataupun, bagaimanapun. Jabatan kapital bila diikuti nama atau tempat. Koma bila anak kalimat di depan.",
+        "example": "Gubernur Sulawesi Selatan, tetapi gubernur itu."
+      },
+      {
+        "title": "Kalimat efektif: enam penyebab tidak efektif",
+        "standard": "Menilai kalimat berdasarkan perasaan.",
+        "shortcut": "Periksa enam hal: pleonasme, makna ganda berulang, subjek kabur, bentuk tidak sejajar, tidak logis, keterangan berlebihan. Perbaiki dengan membuang kata atau memilih satu.",
+        "example": "Bagi semua peserta harap hadir menjadi Semua peserta harap hadir."
+      },
+      {
+        "title": "Nilai cerpen: moral, sosial, agama, budaya, pendidikan",
+        "standard": "Menafsirkan makna seluruh cerita.",
+        "shortcut": "Satu tokoh bergulat dengan hati: moral. Banyak orang saling bantu: sosial. Doa dan syukur: agama. Adat dan tradisi: budaya. Belajar dan pantang menyerah: pendidikan.",
+        "example": "Warga bergotong royong memadamkan api: nilai sosial."
+      }
+    ],
+    "tiu": [
+      {
+        "title": "Verbal · Analogi kata",
+        "standard": "Identifikasi jenis relasi (sinonim, antonim, bagian-keseluruhan, alat-fungsi, sebab-akibat).",
+        "shortcut": "Buat kalimat penghubung 'A itu ___ dari B', lalu uji ke tiap opsi.",
+        "example": "Dokter : stetoskop = petani : cangkul (profesi dan alat)."
+      },
+      {
+        "title": "Verbal · Silogisme",
+        "standard": "Diagram Venn dan aturan logika formal.",
+        "shortcut": "Gambar lingkaran: 'semua' = lingkaran di dalam lingkaran, 'tidak' = terpisah, 'sebagian' = beririsan. Atau pakai kontraposisi: jika P maka Q sama dengan jika bukan Q maka bukan P.",
+        "example": "Semua kucing hewan, semua hewan makan, maka semua kucing makan."
+      },
+      {
+        "title": "Numerik · Deret angka",
+        "standard": "Menebak pola satu per satu tanpa urutan.",
+        "shortcut": "Cek berurutan: selisih, selisih dari selisih, kali atau bagi, pangkat, Fibonacci, selang-seling. Berhenti di yang pertama cocok.",
+        "example": "2, 6, 18, 54 dikali 3. 1, 4, 9, 16 adalah kuadrat, berikutnya 25."
+      },
+      {
+        "title": "Numerik · Soal cerita: persen",
+        "standard": "Susun persamaan dengan variabel.",
+        "shortcut": "Misalkan nilai awalnya 100.",
+        "example": "Naik 20% lalu turun 20%: 100, 120, 96. Jadi turun 4%."
+      },
+      {
+        "title": "Numerik · Soal cerita: umur dan perbandingan",
+        "standard": "Persamaan dua variabel, eliminasi atau substitusi.",
+        "shortcut": "Pakai 'bagian': selisih setara jumlah bagian selisihnya. Atau uji opsi jawaban langsung.",
+        "example": "Ayah 3 kali umur anak, selisih 24. Selisih = 2 bagian, jadi 1 bagian 12 dan ayah 36."
+      },
+      {
+        "title": "Numerik · Soal cerita: kerja bersama",
+        "standard": "1/t1 + 1/t2 = 1/t.",
+        "shortcut": "t = (t1 × t2) ÷ (t1 + t2).",
+        "example": "A 6 hari dan B 3 hari: 18 ÷ 9 = 2 hari."
+      },
+      {
+        "title": "Numerik · Soal cerita: jarak, kecepatan, waktu",
+        "standard": "Sistem persamaan s = v × t.",
+        "shortcut": "Rata-rata pergi-pulang = 2·v1·v2 ÷ (v1+v2). Berpapasan: jumlahkan kecepatan. Mengejar: kurangkan.",
+        "example": "60 dan 40 km/jam: 4800 ÷ 100 = 48 km/jam."
+      },
+      {
+        "title": "Numerik · Berhitung: hitung cepat",
+        "standard": "Perkalian bersusun.",
+        "shortcut": "Kali 5 = bagi 2 lalu kali 10. Kali 25 = bagi 4 lalu kali 100. Kali 9 = kali 10 lalu kurangi sekali.",
+        "example": "48 × 25 = 48 ÷ 4 × 100 = 1200."
+      },
+      {
+        "title": "Verbal · Analitis: posisi dan jadwal",
+        "standard": "Deduksi logika langkah demi langkah.",
+        "shortcut": "Gambar kotak posisi dan isi yang pasti dulu, baru yang bersyarat.",
+        "example": "Lima orang duduk berjajar: tempatkan yang 'paling ujung' lebih dulu."
+      },
+      {
+        "title": "Figural · Serial: pola perubahan",
+        "standard": "Analisis seluruh elemen gambar.",
+        "shortcut": "Cari satu elemen yang berubah (jumlah, arah, warna), lalu eliminasi opsi yang tidak cocok.",
+        "example": "Segitiga berputar 90 derajat tiap langkah: cek hanya arah ujungnya."
+      },
+      {
+        "title": "Numerik · Soal cerita: senilai atau berbalik nilai",
+        "standard": "Menyusun proporsi lalu menebak apakah dikali silang atau dikali lurus.",
+        "shortcut": "Kenali jenisnya dulu dengan kalimat: 'makin banyak A, makin ... B?' Ikut bertambah = SENILAI (kali silang). Justru berkurang = BERBALIK NILAI (kali lurus, hasil kali tetap). Salah jenis, seluruh hitungan salah.",
+        "example": "Tinta 24 kg untuk 6.000 buku, berapa untuk 15.000 buku? Makin banyak buku, makin banyak tinta: senilai. B × 6.000 = 24 × 15.000, jadi B = 60 kg."
+      },
+      {
+        "title": "Numerik · Soal cerita: hasil kali tetap (roda gigi, pekerja, kecepatan)",
+        "standard": "Membuat rumus berbalik nilai dari 1/x.",
+        "shortcut": "Pada berbalik nilai, hasil kali pasangan besaran selalu tetap: pekerja × hari, kecepatan × waktu, mata gigi × putaran, daya tampung × rit. Kali pasangan awal, bagi dengan angka baru.",
+        "example": "Roda A 48 gigi berputar 25 kali. Roda B 16 gigi: 16 × B = 48 × 25, jadi B = 3 × 25 = 75 putaran."
+      },
+      {
+        "title": "Numerik · Soal cerita: dua langkah, lanjutkan sampai yang ditanya",
+        "standard": "Berhenti di hasil antara karena sudah merasa selesai.",
+        "shortcut": "Garis bawahi satuan yang ditanya. Bila hasil antara berupa kg, jam, atau orang sedangkan yang ditanya rupiah atau selisih, hitung satu langkah lagi.",
+        "example": "Tinta 60 kg dan harga Rp85.000 per kg: biayanya 85.000 × 60 = Rp5.100.000. Jawaban 60 kg itu jebakan."
+      },
+      {
+        "title": "Numerik · Soal cerita: yang ditanya tambahannya",
+        "standard": "Menjawab dengan jumlah seluruhnya.",
+        "shortcut": "Hitung jumlah baru dulu, lalu kurangi jumlah semula. Baca kata 'tambahan', 'sisa', atau 'selisih' sebelum memilih jawaban.",
+        "example": "12 pekerja selesai 15 hari. Agar selesai 10 hari: 12 × 15 = P × 10, P = 18. Tambahannya 18 − 12 = 6 pekerja."
+      },
+      {
+        "title": "Verbal · Argumen: cukup baca dua kalimat (bukti dan kesimpulan)",
+        "standard": "Membaca seluruh paragraf dan menimbang semua kalimat sama penting.",
+        "shortcut": "Lewati peristiwa (kalimat 1) dan dugaan pelaku (kalimat 3). Baca BUKTI (kalimat 2) dan KESIMPULAN (kalimat 4). Jawaban selalu menyentuh jarak di antara keduanya.",
+        "example": "Sekolah membagikan susu. Bukti: siswa sakit turun. Kesimpulan: susu penyebabnya. Fokus ke dua kalimat itu saja."
+      },
+      {
+        "title": "Verbal · Argumen: baca perintah dulu",
+        "standard": "Mencari opsi yang terasa benar lalu baru melihat perintahnya.",
+        "shortcut": "Garis bawahi MEMPERKUAT atau MEMPERLEMAH sebelum membaca pilihan. Opsi yang tepat sasaran tetapi arahnya terbalik adalah jebakan nomor satu.",
+        "example": "Diminta memperlemah, opsi pembeli naik dua kali lipat justru memperkuat: coret."
+      },
+      {
+        "title": "Verbal · Argumen: tutup atau buka celah",
+        "standard": "Menimbang apakah opsi itu masuk akal secara umum.",
+        "shortcut": "Memperkuat: tutup penjelasan lain, hadirkan pembanding, benarkan sebab-akibat. Memperlemah: tawarkan penyebab lain, tunjukkan bukti tidak sebanding, persoalkan cara bukti diambil.",
+        "example": "Desa sebelah tanpa jaring tidak turun: pembanding, memperkuat jaring."
+      },
+      {
+        "title": "Verbal · Argumen: buang opsi pengecoh (rasa, jam, biaya, warna)",
+        "standard": "Menghitung kebenaran tiap opsi.",
+        "shortcut": "Opsi tentang rasa, jam pembagian, warna, biaya, atau siapa pelaksananya tidak menyentuh bukti dan kesimpulan, jadi salah walau benar.",
+        "example": "Susu disukai siswa, dibagi pukul tujuh, ditanggung komite: semuanya pengecoh."
+      },
+      {
+        "title": "Verbal · Argumen: kasus sebab-akibat dan sampel",
+        "standard": "Menilai tiap kasus dari nol.",
+        "shortcut": "Sebab-akibat: cari penyebab lain atau kelompok pembanding. Sampel atau survei: periksa apakah sampel mewakili dan cara pengambilannya.",
+        "example": "Survei hanya pada pembaca majalah kebugaran: sampel bias, memperlemah kesimpulan tentang seluruh penduduk."
+      },
+      {
+        "title": "Numerik · Cerita tabel: saring dulu, hitung belakangan",
+        "standard": "Menghitung harga kelima opsi lalu baru mengecek ketentuan.",
+        "shortcut": "Coret opsi yang melanggar ketentuan (jumlah, jenis, total ukuran). Hitung harga hanya untuk opsi yang lolos.",
+        "example": "Pipa: dari 5 opsi, 3 gugur di ketentuan. Hanya A (Rp138.000) dan C (Rp147.000) yang dihitung."
+      },
+      {
+        "title": "Numerik · Cerita tabel: sedikitnya dan berlebih maksimal",
+        "standard": "Hanya mengecek batas bawah dan lupa batas atas.",
+        "shortcut": "Sedikitnya sekian berarti total ≥ kebutuhan. Berlebih maksimal sekian berarti total ≤ kebutuhan + kelebihan. Total harus di antara keduanya.",
+        "example": "Kebutuhan 10 m, berlebih maksimal 2 m: total harus 10 sampai 12 m. Total 13 m gugur."
+      },
+      {
+        "title": "Numerik · Cerita tabel: trik selisih",
+        "standard": "Menjumlah ulang seluruh harga dua opsi yang lolos.",
+        "shortcut": "Bandingkan hanya barang yang berbeda di dua opsi. Selisih harga barang itu adalah selisih biaya.",
+        "example": "A punya 1 Alfa (30.000), C punya 1 Beta (39.000): A lebih murah Rp9.000."
+      },
+      {
+        "title": "Verbal · Argumen: tes tiga detik per opsi",
+        "standard": "Menimbang tiap opsi panjang-panjang sampai waktu habis.",
+        "shortcut": "Tanya tiga hal: searah perintah? menyentuh jarak bukti dan kesimpulan? menambah informasi baru? Gagal satu, coret.",
+        "example": "Diminta memperlemah, opsi pembeli naik dua kali lipat gagal tes arah. Opsi biaya gagal tes sasaran."
+      },
+      {
+        "title": "Verbal · Argumen: sebab terbalik",
+        "standard": "Menerima begitu saja bahwa yang berhubungan pasti sebab-akibat.",
+        "shortcut": "Dua hal yang berjalan bersama belum tentu yang satu menyebabkan yang lain. Periksa apakah arahnya bisa terbalik atau ada faktor ketiga.",
+        "example": "Warga rajin ke pusat kebugaran stresnya rendah. Bisa jadi orang yang stresnya rendah lebih mudah rutin berolahraga."
+      },
+      {
+        "title": "Numerik · Pola tabel: pengali dan penyesuai",
+        "standard": "Mencari suku demi suku sampai urutan yang ditanya.",
+        "shortcut": "Pengali a = selisih nilai ÷ selisih urutan. Penyesuai b = nilai − a × urutan. Lalu Uₙ = a·n + b.",
+        "example": "Urutan 5 dan 8 bernilai 27 dan 39: a = 12 ÷ 3 = 4, b = 27 − 20 = 7. Suku ke-20 = 80 + 7 = 87."
+      },
+      {
+        "title": "Numerik · Pola tabel: loncat langsung",
+        "standard": "Menyusun rumus lengkap Uₙ = a·n + b.",
+        "shortcut": "Uₘ = Uₖ + a × (m − k). Tidak perlu mencari b, cukup satu baris dan pengali.",
+        "example": "U₅ = 27, a = 4: U₂₀ = 27 + 4 × 15 = 87."
+      },
+      {
+        "title": "Numerik · Pola tabel: urutan loncat dan pengali negatif",
+        "standard": "Menganggap selisih urutan selalu 1.",
+        "shortcut": "Bagi tiap selisih nilai dengan selisih urutan pasangannya. Hasilnya harus sama di semua baris. Pengali boleh negatif.",
+        "example": "Urutan 4, 7, 11, 15 bernilai 19, 37, 61, 85: 18÷3 = 24÷4 = 6, b = −5, U₉ = 49."
+      },
+      {
+        "title": "Numerik · Pola tabel: mencari urutan dari nilai",
+        "standard": "Menuliskan suku satu per satu sampai ketemu nilainya.",
+        "shortcut": "Selesaikan a·n + b = nilai, jadi n = (nilai − b) ÷ a. Bila n tidak bulat atau negatif, nilai itu bukan bagian pola.",
+        "example": "4n + 7 = 127 → n = 30."
+      },
+      {
+        "title": "Numerik · Pola tabel: pola kuadrat",
+        "standard": "Mencoba pengali linear padahal selisihnya tidak tetap.",
+        "shortcut": "Bila selisih nilai berubah tetap, hitung selisih tingkat dua = 2a. Kurangi a·n², sisanya linear atau konstan.",
+        "example": "3, 9, 19, 33: selisih 6, 10, 14, tingkat dua 4, a = 2. Kurangi 2n² sisa 1, jadi Uₙ = 2n² + 1."
+      },
+      {
+        "title": "Numerik · Kecukupan data: empat tahap",
+        "standard": "Menghitung kedua pernyataan sampai ketemu angka akhir.",
+        "shortcut": "Tulis yang ditanya. Uji pernyataan (1) sendirian, lalu (2) sendirian, dan hanya bila keduanya gagal, gabungkan. Cukup berarti menghasilkan satu jawaban pasti, tidak perlu dihitung sampai akhir.",
+        "example": "Kotak B ditanya jumlah biru. (1) rasio 3 : 2 saja: tidak cukup. (2) merah 30 dan total 50: biru 20, cukup. Jawaban B."
+      },
+      {
+        "title": "Numerik · Kecukupan data: jumlah variabel dan persamaan",
+        "standard": "Mencoba semua kemungkinan angka satu per satu.",
+        "shortcut": "Satu yang dicari butuh satu persamaan, dua yang dicari butuh dua persamaan yang berbeda. Dua pernyataan yang isinya sama (x + y = 10 dan 2x + 2y = 20) tidak menambah informasi.",
+        "example": "Umur Rina? (1) selisih 4 tahun dengan adik, (2) jumlah 30. Masing-masing satu persamaan dua variabel, tidak cukup. Digabung: 2R − 4 = 30, R = 17. Jawaban C."
+      },
+      {
+        "title": "Numerik · Kecukupan data: pilih C atau D",
+        "standard": "Memilih D karena kedua pernyataan terasa membantu.",
+        "shortcut": "D hanya bila (1) sendiri sudah cukup DAN (2) sendiri sudah cukup. C bila masing-masing sendirian gagal, tetapi digabung berhasil. Cek satu-satu, jangan campur informasi saat menguji sendirian.",
+        "example": "3 buku Rp45.000 dan 5 buku Rp75.000: masing-masing sudah memberi harga satu buku Rp15.000. Jawaban D."
+      },
+      {
+        "title": "Numerik · Kecukupan data: soal ya atau tidak",
+        "standard": "Mencari nilai pastinya dulu.",
+        "shortcut": "Untuk pertanyaan ya atau tidak, pernyataan cukup bila hasilnya SELALU ya atau SELALU tidak. Cukup bukan berarti jawabannya ya. Bila bisa ya dan bisa tidak, itu tidak cukup.",
+        "example": "n habis dibagi 4? (1) n genap: 6 tidak, 8 ya, tidak cukup. (2) n kelipatan 8: pasti ya, cukup. Jawaban B."
+      }
+    ],
+    "tkp": [
+      {
+        "title": "Memilih jawaban 5",
+        "standard": "Analisis tiap opsi terhadap 6 aspek ASN.",
+        "shortcut": "Cari opsi dengan pola: segera, koordinasi, solusi, sesuai aturan, kepentingan umum. Opsi bernilai 1 biasanya mengabaikan, marah, melanggar, atau melempar tanggung jawab.",
+        "example": "Warga komplain: tenangkan, cari solusi, tindak lanjuti = 5."
+      },
+      {
+        "title": "Perintah atasan yang melanggar aturan",
+        "standard": "Kaji peraturan dan lapor ke pihak berwenang.",
+        "shortcut": "Tolak dengan sopan, jelaskan aturannya, dan tawarkan alternatif yang sesuai prosedur.",
+        "example": "Bukan menurut membabi buta, bukan juga melawan terbuka."
+      },
+      {
+        "title": "Konflik dengan rekan kerja",
+        "standard": "Mediasi formal lewat atasan atau unit terkait.",
+        "shortcut": "Bicara langsung dengan baik-baik dulu, libatkan atasan bila belum selesai. Gosip dan menghindar bernilai rendah.",
+        "example": "Rekan menunda tugas tim: ajak bicara dan tawarkan bantuan sebelum eskalasi."
+      },
+      {
+        "title": "Hoaks, radikalisme, dan TIK",
+        "standard": "Telaah sumber dan lapor ke kanal resmi.",
+        "shortcut": "Verifikasi dulu, jangan sebarkan, edukasi sekitar, lapor lewat jalur resmi. Menyebarkan atau ikut debat panas bernilai rendah.",
+        "example": "Menerima pesan provokatif berantai: cek kebenaran, tidak diteruskan, lapor bila perlu."
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "Amandemen",
+      "def": "Perubahan resmi UUD 1945 oleh MPR. Dilakukan empat kali, 1999 sampai 2002.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "ASN",
+      "def": "Aparatur Sipil Negara: terdiri dari PNS dan PPPK (UU 20/2023).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "BPUPKI",
+      "def": "Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan Indonesia, dilantik 28 Mei 1945. Merumuskan dasar negara.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Bela negara",
+      "def": "Sikap dan perilaku warga negara mempertahankan negara. Dasarnya Pasal 27 ayat (3) dan Pasal 30 UUD 1945.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Benturan kepentingan",
+      "def": "Kondisi ketika kepentingan pribadi, keluarga, atau kelompok memengaruhi keputusan jabatan.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Bhinneka Tunggal Ika",
+      "def": "Berbeda-beda tetapi tetap satu. Dari Kakawin Sutasoma karya Mpu Tantular, dimuat di Pasal 36A UUD 1945.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Chauvinisme",
+      "def": "Sikap merasa bangsa sendiri paling unggul sambil merendahkan bangsa lain.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Deklarasi Djuanda",
+      "def": "Pernyataan 13 Desember 1957 bahwa laut di antara pulau Indonesia adalah bagian dari wilayah negara.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Dekrit Presiden 5 Juli 1959",
+      "def": "Keputusan Presiden Soekarno yang menyatakan kembali ke UUD 1945.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Desentralisasi",
+      "def": "Penyerahan kewenangan pemerintahan dari pusat kepada daerah.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Ejaan",
+      "def": "Aturan penulisan huruf, kata, dan tanda baca dalam bahasa Indonesia.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Executive heavy",
+      "def": "Kondisi kekuasaan eksekutif (presiden) terlalu dominan dibanding lembaga lain.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Gotong royong",
+      "def": "Kerja sama bahu-membahu untuk kepentingan bersama. Inti Pancasila menurut Ekasila Soekarno.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Gratifikasi",
+      "def": "Pemberian dalam arti luas yang berhubungan dengan jabatan dan bertentangan dengan kewajiban. Lapor KPK paling lambat 30 hari kerja.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Hierarki peraturan",
+      "def": "Tingkatan peraturan perundang-undangan. Aturan di bawah tidak boleh bertentangan dengan aturan di atasnya (UU 12/2011).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Ide pokok",
+      "def": "Gagasan utama yang dibahas dalam sebuah paragraf.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Integritas",
+      "def": "Keselarasan antara pikiran, ucapan, dan tindakan yang jujur dan konsisten.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Judicial review",
+      "def": "Pengujian peraturan. MK menguji UU terhadap UUD 1945, MA menguji peraturan di bawah UU terhadap UU.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Kalimat efektif",
+      "def": "Kalimat yang jelas, hemat kata, dan mudah dipahami.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Kebangkitan Nasional",
+      "def": "Masa sadar berbangsa, ditandai berdirinya Budi Utomo pada 20 Mei 1908.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Kedaulatan",
+      "def": "Kekuasaan tertinggi. Menurut Pasal 1 ayat (2), berada di tangan rakyat dan dilaksanakan menurut UUD.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Musyawarah mufakat",
+      "def": "Pengambilan keputusan bersama lewat perundingan untuk mencapai kesepakatan (sila ke-4).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Nasionalisme",
+      "def": "Paham yang menumbuhkan kesadaran bersatu sebagai satu bangsa.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "NKRI",
+      "def": "Negara Kesatuan Republik Indonesia. Pasal 1 ayat (1), bentuknya final menurut Pasal 37 ayat (5).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Otonomi daerah",
+      "def": "Hak daerah mengatur dan mengurus urusan pemerintahan sendiri (Pasal 18 UUD 1945).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Patriotisme",
+      "def": "Semangat cinta tanah air yang menguat menjadi kerelaan berkorban untuk bangsa.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Pemerasan",
+      "def": "Pejabat menyalahgunakan kekuasaan untuk memaksa pihak lain memberi sesuatu.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Perppu",
+      "def": "Peraturan pemerintah pengganti undang-undang, dibuat Presiden dalam kegentingan yang memaksa.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Piagam Jakarta",
+      "def": "Naskah awal Pembukaan UUD hasil Panitia Sembilan, 22 Juni 1945.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "PPKI",
+      "def": "Panitia Persiapan Kemerdekaan Indonesia. Mengesahkan UUD 1945 dan Pancasila pada 18 Agustus 1945.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Radikalisme",
+      "def": "Paham yang menginginkan perubahan drastis dengan cara ekstrem atau kekerasan.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Sumpah Pemuda",
+      "def": "Ikrar satu tanah air, satu bangsa, satu bahasa pada Kongres Pemuda II, 28 Oktober 1928.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Suap",
+      "def": "Pemberian dengan kesepakatan timbal balik agar penerima berbuat atau tidak berbuat sesuatu dalam jabatannya.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Toleransi",
+      "def": "Sikap menghargai perbedaan suku, agama, ras, dan golongan.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Wawasan Nusantara",
+      "def": "Cara pandang bangsa Indonesia tentang diri dan lingkungannya sebagai satu kesatuan.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "ZEE",
+      "def": "Zona Ekonomi Eksklusif: 200 mil laut dari garis pangkal.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Analogi",
+      "def": "Hubungan antara dua kata atau gambar, lalu diterapkan pada pasangan lain.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Deret",
+      "def": "Barisan bilangan atau gambar yang disusun menurut pola tertentu.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Figural",
+      "def": "Soal bergambar: analogi gambar, gambar berbeda, dan serial gambar.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Kecukupan data",
+      "def": "Menilai apakah pernyataan cukup untuk menjawab pertanyaan, tanpa harus menghitung sampai habis.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Memperkuat dan memperlemah",
+      "def": "Informasi yang menutup atau membuka celah antara bukti dan kesimpulan dalam argumen.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Perbandingan berbalik nilai",
+      "def": "Satu besaran naik, besaran lain turun dengan hasil kali tetap.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Perbandingan senilai",
+      "def": "Dua besaran naik atau turun bersama dengan rasio tetap.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Premis",
+      "def": "Pernyataan dasar yang dipakai menarik kesimpulan.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Silogisme",
+      "def": "Penarikan kesimpulan dari dua premis.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Hoaks",
+      "def": "Informasi palsu yang disebarkan seolah-olah benar.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Jejaring kerja",
+      "def": "Membangun hubungan dan kerja sama dengan rekan dan lintas unit.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Netralitas ASN",
+      "def": "Tidak berpihak pada kepentingan politik tertentu dalam menjalankan tugas.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Phishing",
+      "def": "Penipuan daring yang memancing data pribadi lewat tautan atau pesan palsu.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Pelayanan publik",
+      "def": "Kegiatan memenuhi kebutuhan layanan warga sesuai ketentuan.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Profesionalisme",
+      "def": "Melaksanakan tugas dan fungsi sesuai tuntutan jabatan.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Skala TKP 1 sampai 5",
+      "def": "Tiap pilihan bernilai 1 sampai 5, tidak ada jawaban kosong. Targetnya memilih sikap bernilai 5.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Pancasila",
+      "def": "Dasar negara dan pandangan hidup bangsa. Rumusan resminya ada di alinea keempat Pembukaan UUD 1945.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Pembukaan UUD 1945",
+      "def": "Terdiri dari empat alinea. Alinea keempat memuat tujuan negara, bentuk negara, dan dasar negara.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Proklamasi",
+      "def": "Pernyataan kemerdekaan 17 Agustus 1945, dibacakan Soekarno bersama Hatta atas nama bangsa Indonesia.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Rengasdengklok",
+      "def": "Peristiwa 16 Agustus 1945 ketika golongan muda membawa Soekarno dan Hatta agar segera memproklamasikan kemerdekaan.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Budi Utomo",
+      "def": "Organisasi modern pertama di Indonesia, berdiri 20 Mei 1908 dan digagas dr. Soetomo bersama pelajar STOVIA.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Politik Etis",
+      "def": "Kebijakan Belanda sejak 1901 dengan tiga program: irigasi, edukasi, dan emigrasi.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Sarekat Islam",
+      "def": "Organisasi yang berkembang dari Sarekat Dagang Islam, dipimpin H.O.S. Tjokroaminoto.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Indische Partij",
+      "def": "Partai politik pertama (1912) yang menuntut kemerdekaan Hindia. Pendirinya Tiga Serangkai: Douwes Dekker, Cipto Mangunkusumo, Ki Hajar Dewantara.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Supersemar",
+      "def": "Surat Perintah 11 Maret 1966 dari Soekarno kepada Soeharto untuk memulihkan keamanan dan ketertiban.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Konferensi Asia Afrika",
+      "def": "Digelar di Bandung pada 1955 dan menghasilkan Dasasila Bandung.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Gerakan Non-Blok",
+      "def": "Gerakan negara yang tidak memihak blok Barat maupun Timur, dibentuk 1961 di Beograd. Soekarno ikut mempelopori.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Reformasi 1998",
+      "def": "Gerakan menuntut perubahan setelah krisis, ditandai mundurnya Soeharto pada 21 Mei 1998.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Trias politika",
+      "def": "Pemisahan kekuasaan menjadi legislatif, eksekutif, dan yudikatif agar tidak ada kekuasaan yang absolut.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "MPR",
+      "def": "Terdiri dari anggota DPR dan DPD. Berwenang mengubah dan menetapkan UUD serta melantik Presiden dan Wakil Presiden.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "DPR",
+      "def": "Memegang kekuasaan membentuk undang-undang. Fungsinya legislasi, anggaran, dan pengawasan (Pasal 20 dan 20A).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "DPD",
+      "def": "Mewakili daerah. Dapat mengajukan RUU yang berkaitan dengan otonomi daerah dan memberi pertimbangan (Pasal 22D).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Mahkamah Konstitusi",
+      "def": "Menguji UU terhadap UUD, memutus sengketa kewenangan lembaga negara, pembubaran partai, dan perselisihan hasil pemilu (Pasal 24C).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Mahkamah Agung",
+      "def": "Pengadilan tertinggi. Menguji peraturan di bawah UU terhadap UU (Pasal 24A).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Komisi Yudisial",
+      "def": "Mengusulkan pengangkatan hakim agung dan menjaga kehormatan serta perilaku hakim (Pasal 24B).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "BPK",
+      "def": "Badan Pemeriksa Keuangan: memeriksa pengelolaan dan tanggung jawab keuangan negara (Pasal 23E).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Pemilu",
+      "def": "Dilaksanakan langsung, umum, bebas, rahasia, jujur, dan adil setiap lima tahun sekali (Pasal 22E).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Hak asasi manusia",
+      "def": "Hak dasar yang melekat sejak lahir dan wajib dilindungi negara. Diatur dalam Pasal 28A sampai 28J UUD 1945.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Demokrasi Pancasila",
+      "def": "Demokrasi yang bersumber dari sila ke-4: kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan perwakilan.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Ideologi terbuka",
+      "def": "Nilai dasar Pancasila tetap, sedangkan nilai instrumental dan praksisnya dapat menyesuaikan perkembangan zaman.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Pasal 33 UUD 1945",
+      "def": "Dasar perekonomian: usaha bersama berasas kekeluargaan. Bumi, air, dan kekayaan alam dikuasai negara untuk kemakmuran rakyat.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Astagatra",
+      "def": "Delapan gatra ketahanan nasional: tiga gatra alamiah (geografi, kekayaan alam, kependudukan) dan lima gatra sosial (ideologi, politik, ekonomi, sosial budaya, hankam).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Sishankamrata",
+      "def": "Sistem pertahanan dan keamanan rakyat semesta yang melibatkan seluruh warga, wilayah, dan sumber daya nasional.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Multikulturalisme",
+      "def": "Paham yang mengakui dan menghargai keberagaman budaya dalam satu masyarakat.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Disintegrasi",
+      "def": "Perpecahan bangsa, kebalikan dari integrasi nasional.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Globalisasi",
+      "def": "Menyatunya dunia lewat teknologi, ekonomi, dan budaya. Peluang sekaligus tantangan bagi identitas nasional.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Korupsi",
+      "def": "Penyalahgunaan jabatan untuk keuntungan pribadi yang merugikan keuangan negara (UU 31/1999 jo. UU 20/2001).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Kolusi dan nepotisme",
+      "def": "Kolusi: persekongkolan melawan hukum. Nepotisme: mengutamakan keluarga atau kerabat dalam jabatan atau fasilitas.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Whistleblower",
+      "def": "Pelapor yang mengungkap dugaan pelanggaran atau korupsi di lingkungan kerjanya.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Akuntabilitas",
+      "def": "Kewajiban mempertanggungjawabkan tindakan dan hasil kerja kepada pihak berwenang dan publik.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Pleonasme",
+      "def": "Pemakaian kata berlebihan yang maknanya sudah terkandung, misalnya maju ke depan.",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Kata baku",
+      "def": "Kata yang sesuai kaidah bahasa, misalnya apotek (bukan apotik) dan analisis (bukan analisa).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Homonim",
+      "def": "Kata yang sama tulisan atau bunyinya tetapi beda makna, misalnya bisa (racun) dan bisa (mampu).",
+      "subtest": "TWK"
+    },
+    {
+      "term": "Bilangan prima",
+      "def": "Bilangan asli lebih dari 1 yang hanya habis dibagi 1 dan dirinya sendiri. Angka 2 satu-satunya prima genap.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "KPK dan FPB",
+      "def": "KPK (kelipatan persekutuan terkecil) untuk kejadian berulang bersama. FPB (faktor persekutuan terbesar) untuk membagi sama banyak.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Deret aritmetika",
+      "def": "Selisih antarsuku tetap. Un = a + (n − 1)b.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Deret geometri",
+      "def": "Rasio antarsuku tetap. Un = a × r^(n − 1).",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Fibonacci",
+      "def": "Deret yang tiap sukunya jumlah dua suku sebelumnya: 1, 1, 2, 3, 5, 8, ...",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Persentase",
+      "def": "Pecahan berpenyebut 100. Naik p% berarti dikali (100 + p) / 100.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Diskon bertingkat",
+      "def": "Dihitung berurutan, bukan dijumlahkan. Diskon 20% lalu 10% setara 28%, bukan 30%.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Rata-rata, median, modus",
+      "def": "Rata-rata: jumlah data dibagi banyak data. Median: nilai tengah setelah diurutkan. Modus: nilai yang paling sering muncul.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Skala",
+      "def": "Perbandingan jarak pada peta dengan jarak sebenarnya.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Kecepatan",
+      "def": "Jarak dibagi waktu. Jarak = kecepatan × waktu.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Soal pekerjaan bersama",
+      "def": "Bila dua pekerja selesai sendiri-sendiri dalam a dan b waktu, waktu bersama = (a × b) ÷ (a + b).",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Peluang",
+      "def": "Banyak kejadian yang diinginkan dibagi seluruh kemungkinan.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Permutasi dan kombinasi",
+      "def": "Permutasi memperhatikan urutan, kombinasi tidak.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Modus ponens",
+      "def": "Jika p maka q, p benar, maka q benar.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Modus tollens",
+      "def": "Jika p maka q, q salah, maka p salah.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Kontraposisi",
+      "def": "Jika p maka q ekuivalen dengan jika bukan q maka bukan p. Konvers dan invers belum tentu benar.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Negasi",
+      "def": "Negasi dari semua adalah ada yang tidak. Negasi dari ada adalah tidak ada satu pun.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "Asumsi",
+      "def": "Anggapan tersirat yang diperlukan agar bukti mengarah ke kesimpulan.",
+      "subtest": "TIU"
+    },
+    {
+      "term": "BerAKHLAK",
+      "def": "Nilai dasar ASN: Berorientasi pelayanan, Akuntabel, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Bangga Melayani, Bangga Berbangsa",
+      "def": "Slogan employer branding ASN.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Asertif",
+      "def": "Menyampaikan pendapat dengan tegas tetapi tetap sopan dan menghargai orang lain.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Empati",
+      "def": "Kemampuan memahami perasaan dan sudut pandang orang lain.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Inisiatif",
+      "def": "Bertindak tanpa menunggu disuruh, dalam batas wewenang dan aturan.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Kolaborasi",
+      "def": "Bekerja sama lintas orang dan unit demi tujuan organisasi.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Adaptif",
+      "def": "Mampu menyesuaikan diri terhadap perubahan tugas, teknologi, dan lingkungan kerja.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "LAPOR!",
+      "def": "Layanan Aspirasi dan Pengaduan Online Rakyat, kanal nasional pengaduan pelayanan publik.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Literasi digital",
+      "def": "Kemampuan menggunakan, menilai, dan berperilaku bijak di ruang digital.",
+      "subtest": "TKP"
+    },
+    {
+      "term": "Orientasi pelayanan",
+      "def": "Mengutamakan kebutuhan penerima layanan sesuai prosedur.",
+      "subtest": "TKP"
+    }
+  ]
+}

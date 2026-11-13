@@ -50,6 +50,10 @@ export interface PackMeta {
   updatedAt: string;
   file: string;
   count: number;
+  durationMin?: number;
+  subtests?: string[];
+  note?: string;
+  custom?: boolean;
 }
 
 export interface AnswerRec {
@@ -63,6 +67,7 @@ export type Mode = 'simulasi' | 'latihan';
 
 export interface Attempt {
   id: string;
+  sessionId?: string; // isolasi riwayat per pengguna/sesi di browser
   packId: string;
   packVersion: number;
   mode: Mode;

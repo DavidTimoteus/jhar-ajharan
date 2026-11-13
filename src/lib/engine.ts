@@ -1,7 +1,12 @@
 // Mesin ujian: skoring, timer absolut, antrean remidi. Murni fungsi, mudah diuji.
 import type { Attempt, Mode, Pack, Question, ScoreResult, SubtestScore } from './types';
 
-export const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+export const uid = () => {
+  if (typeof globalThis.crypto !== 'undefined' && typeof globalThis.crypto.randomUUID === 'function') {
+    return globalThis.crypto.randomUUID();
+  }
+  return Date.now().toString(36) + Math.random().toString(36).slice(2, 9);
+};
 
 export function shuffle<T>(arr: T[]): T[] {
   const a = arr.slice();
@@ -13,22 +18,32 @@ export function shuffle<T>(arr: T[]): T[] {
 }
 
 /** Urutan soal simulasi: per subtes sesuai urutan config (seperti CAT asli), acak di dalam subtes. */
-export function buildOrder(pack: Pack, subtest?: string, limit?: number): string[] {
+export function buildOrder(
+  pack: Pack,
+  subtest?: string,
+  limit?: number,
+  onlyIds?: string[],
+): string[] {
+  const allow = onlyIds ? new Set(onlyIds) : null;
   const out: string[] = [];
   for (const st of pack.config.subtests) {
     if (subtest && st.id !== subtest) continue;
-    out.push(...shuffle(pack.questions.filter((q) => q.subtest === st.id)).map((q) => q.id));
+    const pool = pack.questions.filter(
+      (q) => q.subtest === st.id && (!allow || allow.has(q.id)),
+    );
+    out.push(...shuffle(pool).map((q) => q.id));
   }
   return limit ? out.slice(0, limit) : out;
 }
 
-export function newAttempt(pack: Pack, mode: Mode, order: string[]): Attempt {
+export function newAttempt(pack: Pack, mode: Mode, order: string[], sessionId?: string): Attempt {
   const now = Date.now();
   const durMs = pack.config.durationMin * 60_000;
   // Durasi proporsional bila hanya sebagian soal dikerjakan.
   const frac = order.length / Math.max(1, pack.questions.length);
   return {
     id: uid(),
+    ...(sessionId ? { sessionId } : {}),
     packId: pack.id,
     packVersion: pack.version,
     mode,

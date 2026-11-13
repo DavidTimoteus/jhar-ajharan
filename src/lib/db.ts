@@ -1,5 +1,8 @@
-// Penyimpanan lokal: IndexedDB tanpa dependensi. Semua data pengguna tinggal di perangkat.
+// Penyimpanan lokal: IndexedDB + isolasi multi-sesi berbasis cache browser.
+// Semua data tinggal di cache browser perangkat; jika cache/site data dihapus, riwayat ikut bersih.
 import type { Attempt, Pack } from './types';
+import { DEFAULT_SESSION_ID, getActiveSessionId, resetSessionsToDefault } from './session';
+import { safeJsonParse } from './sanitize';
 
 const DB_NAME = 'jhar-ajharan';
 const DB_VER = 1;
@@ -38,9 +41,53 @@ export const get = <T>(store: Store, key: string) => tx<T | undefined>(store, 'r
 export const del = (store: Store, key: string) => tx(store, 'readwrite', (s) => s.delete(key));
 export const all = <T>(store: Store) => tx<T[]>(store, 'readonly', (s) => s.getAll() as IDBRequest<T[]>);
 
-export const saveAttempt = (a: Attempt) => put('attempts', a.id, a);
-export const listAttempts = async () => (await all<Attempt>('attempts')).sort((x, y) => y.startedAt - x.startedAt);
+export const saveAttempt = (a: Attempt) => {
+  const scoped: Attempt = a.sessionId ? a : { ...a, sessionId: getActiveSessionId() };
+  return put('attempts', scoped.id, scoped);
+};
+
+export const listAttempts = async (sessionId = getActiveSessionId()) => {
+  const rows = await all<Attempt>('attempts');
+  return rows
+    .filter((a) =>
+      sessionId === DEFAULT_SESSION_ID
+        ? !a.sessionId || a.sessionId === DEFAULT_SESSION_ID
+        : a.sessionId === sessionId,
+    )
+    .sort((x, y) => y.startedAt - x.startedAt);
+};
+
+export async function clearSessionAttempts(sessionId = getActiveSessionId()): Promise<number> {
+  const matches = await listAttempts(sessionId);
+  for (const a of matches) {
+    await del('attempts', a.id);
+  }
+  return matches.length;
+}
+
+export async function clearAllBrowserCache(): Promise<void> {
+  const db = await open();
+  for (const s of STORES) {
+    await new Promise<void>((resolve, reject) => {
+      const t = db.transaction(s, 'readwrite');
+      t.objectStore(s).clear();
+      t.oncomplete = () => resolve();
+      t.onerror = () => reject(t.error);
+    });
+  }
+  resetSessionsToDefault();
+  try {
+    if (typeof caches !== 'undefined') {
+      const names = await caches.keys();
+      await Promise.all(names.map((n) => caches.delete(n)));
+    }
+  } catch {
+    /* abaikan jika browser membatasi Cache API */
+  }
+}
+
 export const savePack = (p: Pack) => put('packs', p.id, p);
+export const deletePack = (id: string) => del('packs', id);
 export const listStoredPacks = () => all<Pack>('packs');
 
 // Minta penyimpanan permanen supaya iOS/Android tidak menghapus data saat ruang menipis.
@@ -53,23 +100,30 @@ export async function requestPersist(): Promise<boolean> {
   return false;
 }
 
-// Snapshot progres untuk pindah perangkat (tanpa akun/server).
-export async function exportSnapshot(): Promise<string> {
-  const attempts = await all<Attempt>('attempts');
+// Snapshot progres untuk sesi aktif (atau semua jika diminta).
+export async function exportSnapshot(sessionId = getActiveSessionId()): Promise<string> {
+  const attempts = await listAttempts(sessionId);
   const kv = await all<unknown>('kv');
   const keys = await tx<IDBValidKey[]>('kv', 'readonly', (s) => s.getAllKeys());
   const kvObj: Record<string, unknown> = {};
   keys.forEach((k, i) => (kvObj[String(k)] = kv[i]));
-  return JSON.stringify({ app: 'jhar-ajharan', v: 1, exportedAt: new Date().toISOString(), attempts, kv: kvObj }, null, 1);
+  return JSON.stringify({ app: 'jhar-ajharan', v: 2, sessionId, exportedAt: new Date().toISOString(), attempts, kv: kvObj }, null, 1);
 }
 
 export async function importSnapshot(text: string): Promise<number> {
-  const data = JSON.parse(text);
-  if (data?.app !== 'jhar-ajharan' || !Array.isArray(data.attempts)) throw new Error('Berkas bukan snapshot Jhâr-Ajhârân.');
+  const data = safeJsonParse(text) as {
+    app?: unknown;
+    attempts?: unknown;
+    kv?: Record<string, unknown>;
+  } | null;
+  if (!data || data.app !== 'jhar-ajharan' || !Array.isArray(data.attempts)) {
+    throw new Error('Berkas bukan snapshot Jhâr-Ajhârân.');
+  }
+  const targetSid = getActiveSessionId();
   let n = 0;
   for (const a of data.attempts as Attempt[]) {
     if (a?.id && a.packId && a.answers) {
-      await saveAttempt(a);
+      await saveAttempt({ ...a, sessionId: targetSid });
       n++;
     }
   }

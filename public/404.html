@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>404 — Halaman Tidak Ditemukan · Jhâr-Ajhârân</title>
+    <link rel="icon" type="image/svg+xml" href="./icons/mark.svg" />
+    <style>
+      :root {
+        --ground: #f5f2eb;
+        --surface: #ffffff;
+        --text: #161411;
+        --muted: #5a544b;
+        --border: rgba(24, 22, 18, 0.14);
+        --cpns: #15803d;
+        --bumn: #1d4ed8;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --ground: #0b0a09;
+          --surface: #141210;
+          --text: #f4efe6;
+          --muted: #a9a094;
+          --border: rgba(245, 240, 230, 0.14);
+          --cpns: #4ade80;
+          --bumn: #60a5fa;
+        }
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        background: var(--ground);
+        color: var(--text);
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+      .card {
+        max-width: 560px;
+        width: 100%;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 32px;
+      }
+      .code {
+        font-family: ui-monospace, monospace;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        color: var(--muted);
+      }
+      h1 {
+        font-size: clamp(2rem, 6vw, 3.2rem);
+        letter-spacing: -0.04em;
+        margin: 10px 0 8px;
+        line-height: 1.05;
+      }
+      p {
+        color: var(--muted);
+        line-height: 1.55;
+        margin-bottom: 22px;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      a {
+        text-decoration: none;
+        padding: 10px 16px;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 14px;
+        border: 1px solid var(--border);
+        color: var(--text);
+      }
+      a.primary {
+        background: var(--text);
+        color: var(--surface);
+        border-color: transparent;
+      }
+      a.cpns { color: var(--cpns); }
+      a.bumn { color: var(--bumn); }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <div class="code">ERROR 404 · RUTE TIDAK TERSEDIA</div>
+      <h1>Halaman keluar jalur CAT.</h1>
+      <p>
+        Tautan yang Anda buka tidak ditemukan di Jhâr-Ajhârân. Pilih salah satu menu di bawah untuk
+        kembali ke ruang latihan CPNS atau BUMN.
+      </p>
+      <div class="actions">
+        <a class="primary" href="./">Ke Beranda</a>
+        <a class="cpns" href="./#/cpns">Menu Tes CPNS</a>
+        <a class="bumn" href="./#/bumn">Menu Tes BUMN</a>
+      </div>
+    </main>
+  </body>
+</html>
+
