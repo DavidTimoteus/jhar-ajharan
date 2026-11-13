@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parseInlineRichText } from '../src/lib/richText.ts';
 import { hasHtmlOrFormulaLeak, safeJsonParse } from '../src/lib/sanitize.ts';
+import { SUBMATERI_LIST } from '../src/lib/submateri.ts';
 import { getTrackConfig, partitionTracks } from '../src/lib/tracks.ts';
 
 describe('Keamanan JSON, Format Teks Kaya & Indeks Kisi Submateri', () => {
@@ -64,6 +65,37 @@ describe('Keamanan JSON, Format Teks Kaya & Indeks Kisi Submateri', () => {
     assert.ok(upcoming.some((t) => t.config.id === 'programming'));
     assert.ok(upcoming.some((t) => t.config.id === 'data'));
     assert.equal(getTrackConfig('custom_ai').shortLabel, 'CUSTOM_AI');
+  });
+
+  it('Setiap dari 29 submateri memiliki diagramId sesuai domain (TWK/TKP/English bebas diagram hitung)', () => {
+    assert.equal(SUBMATERI_LIST.length, 29);
+
+    const mathDiagrams = new Set([
+      'berbalik-nilai',
+      'gerak-temu',
+      'persen-tangki',
+      'kuantitatif-uji3',
+      'deret-scanner',
+    ]);
+    const nonMathSubtests = new Set(['twk', 'twk_bumn', 'tkp', 'akhlak', 'agility', 'bhs_inggris']);
+
+    for (const item of SUBMATERI_LIST) {
+      assert.ok(item.diagramId, `Submateri ${item.id} belum punya diagramId`);
+      if (nonMathSubtests.has(item.subtestId)) {
+        assert.equal(
+          mathDiagrams.has(item.diagramId),
+          false,
+          `Submateri ${item.id} (${item.subtestId}) tidak boleh memakai diagram hitung ${item.diagramId}`,
+        );
+      }
+    }
+
+    const byId = Object.fromEntries(SUBMATERI_LIST.map((s) => [s.id, s]));
+    assert.equal(byId['cpns-twk-integritas'].diagramId, 'integritas-detektor');
+    assert.equal(byId['cpns-twk-nasionalisme'].diagramId, 'kebangsaan-timeline');
+    assert.equal(byId['cpns-twk-pilar-negara'].diagramId, 'pilar-lembaga');
+    assert.equal(byId['cpns-twk-bahasa'].diagramId, 'kalimat-efektif-xray');
+    assert.equal(byId['bumn-bhs-grammar'].diagramId, 'bumn-english-xray');
   });
 });
 
