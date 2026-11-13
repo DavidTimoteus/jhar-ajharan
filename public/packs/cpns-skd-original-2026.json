@@ -1,0 +1,1321 @@
+{
+  "id": "cpns-skd-original-2026",
+  "name": "SKD CPNS 2026 · Bank Original Standar KepmenPANRB",
+  "family": "cpns",
+  "version": 1,
+  "updatedAt": "2026-11-13T00:00:00.000Z",
+  "note": "35 soal 100% original terstruktur mengikuti KepmenPANRB No. 321/2024 & 21 submateri terbaru (TWK kasus, TIU Kecukupan Data/Argumen/Pola Tabel/Hitung Teruji, dan 6 Aspek TKP) lengkap dengan cara cepat bahasa awam.",
+  "source": "Bank Soal Original Jhâr-Ajhârân 2026 (disusun mengacu standar resmi KepmenPANRB No. 321 Tahun 2024).",
+  "config": {
+    "durationMin": 40,
+    "subtests": [
+      {
+        "id": "twk",
+        "name": "Tes Wawasan Kebangsaan",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 30
+      },
+      {
+        "id": "tiu",
+        "name": "Tes Intelegensi Umum",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 45
+      },
+      {
+        "id": "tkp",
+        "name": "Tes Karakteristik Pribadi",
+        "scheme": "weighted",
+        "passMin": 38
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "orig26-twk-01",
+      "subtest": "twk",
+      "topic": "integritas asn",
+      "stem": "Seorang pejabat pembuat komitmen (PPK) di sebuah dinas menerima parsel berisi perlengkapan elektronik senilai Rp3.500.000 dari vendor pemenang tender yang dikirim ke rumah pribadinya menjelang hari raya. Vendor menyatakan pengiriman itu murni tradisi silaturahmi. Langkah paling tepat sesuai prinsip integritas ASN dan regulasi gratifikasi adalah…",
+      "options": [
+        "Menerimanya agar tidak menyinggung mitra kerja, asalkan tender sudah selesai secara sah.",
+        "Membagikan seluruh barang tersebut kepada staf honorer kantor supaya tidak menikmati sendiri.",
+        "Menolak secara tegas atau melaporkannya kepada KPK/Unit Pengendalian Gratifikasi (UPG) paling lambat 30 hari kerja.",
+        "Menyimpannya sementara di gudang kantor dan baru mengembalikannya jika ada audit inspektorat.",
+        "Menjual barang tersebut lalu menyumbangkan hasil penjualannya ke kas panti asuhan."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Setiap pemberian dari pihak terkait jabatan (vendor/rekanan) wajib ditolak; jika sudah terlanjur diterima/dikirim ke rumah, laporkan ke UPG/KPK maksimal 30 hari kerja."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang berujung menyimpan, membagikan ke staf, atau menjual barang pemberian karena hak kepemilikannya tidak sah."
+        },
+        {
+          "lens": "logika",
+          "text": "Integritas menuntut ketaatan aturan tanpa kompromi pada benturan kepentingan, sekalipun proses tender telah usai."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Alasan 'sudah selesai tender' atau 'untuk amal' tidak menghapus unsur pelanggaran gratifikasi."
+        }
+      ],
+      "explain": "Menurut UU Tipikor dan peraturan KPK tentang pengendalian gratifikasi, pemberian yang berhubungan dengan jabatan (seperti dari vendor rekanan) wajib ditolak, atau dilaporkan ke Unit Pengendalian Gratifikasi (UPG)/KPK maksimal 30 hari kerja sejak diterima untuk ditetapkan status kepemilikannya.",
+      "targetSec": 42,
+      "source": "Original Bank Soal 2026 · TWK Integritas"
+    },
+    {
+      "id": "orig26-twk-02",
+      "subtest": "twk",
+      "topic": "nasionalisme",
+      "stem": "Dalam sebuah forum rapat desa untuk menentukan lokasi pembangunan embung air bersih, dua kelompok dusun bersikeras agar proyek diletakkan dekat wilayah mereka masing-masing. Kepala desa memfasilitasi kajian teknis debit air dan memandu musyawarah hingga dicapai kesepakatan bersama berdasarkan manfaat paling luas bagi seluruh desa. Tindakan ini mencerminkan pengamalan Pancasila khususnya sila…",
+      "options": [
+        "Ketuhanan Yang Maha Esa karena menjaga kedamaian antarkelompok.",
+        "Kemanusiaan yang Adil dan Beradab karena memenuhi kebutuhan minum.",
+        "Persatuan Indonesia karena mencegah perpecahan antardusun.",
+        "Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan dalam Permusyawaratan/Perwakilan karena keputusan diambil secara mufakat berbasis kajian bijak.",
+        "Keadilan Sosial bagi Seluruh Rakyat Indonesia karena langsung membagi anggaran merata dua dusun."
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kata kunci utama soal adalah 'forum rapat', 'kajian teknis', dan 'musyawarah hingga kesepakatan bersama'. Cocokkan dengan Sila ke-4."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Jangan terkecoh oleh kata 'manfaat luas'—fokus pada cara pengambilan keputusannya yang musyawarah mufakat berbasis kebijaksanaan."
+        },
+        {
+          "lens": "logika",
+          "text": "Sila ke-4 menekankan musyawarah, hikmat kebijaksanaan (data objektif), dan menghargai suara perwakilan warga."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sila ke-5 berfokus pada hasil pemerataan ekonomi/hak sosial, bukan proses musyawarah mufakat."
+        }
+      ],
+      "explain": "Inti skenario menonjolkan penyelesaian beda pendapat melalui musyawarah yang dipandu pertimbangan bijak (kajian teknis debit air) hingga mufakat. Itu merupakan praktik langsung Sila ke-4 Pancasila.",
+      "targetSec": 40,
+      "source": "Original Bank Soal 2026 · TWK Pilar Negara"
+    },
+    {
+      "id": "orig26-twk-03",
+      "subtest": "twk",
+      "topic": "bela negara",
+      "stem": "Seorang analis data instansi pemerintah menemukan beredarnya infografis palsu (hoaks) di media sosial yang mengklaim kebocoran data bantuan sosial dan memicu kepanikan masyarakat. Ia segera memverifikasi log sistem bersama tim CSIRT, lalu memublikasikan klarifikasi resmi berbasis bukti yang mudah dipahami warga. Perilaku ASN tersebut mencerminkan nilai dasar Bela Negara berupa…",
+      "options": [
+        "Kerelaan berkorban di medan tempur bersenjata.",
+        "Kemampuan awal bela negara nonfisik dengan literasi digital serta kesadaran menjaga ketertiban informasi nasional.",
+        "Cinta produk industri dalam negeri semata.",
+        "Penguasaan penuh seluruh media sosial di wilayah kerjanya.",
+        "Pembelaan kepentingan pribadi pimpinan instansi."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Bela negara era modern tidak hanya angkat senjata; menangkal disinformasi digital demi stabilitas publik adalah bela negara nonfisik."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang menyebut angkat senjata, kepentingan pimpinan, atau memblokir seluruh media sosial."
+        },
+        {
+          "lens": "logika",
+          "text": "Kemampuan awal bela negara mencakup kesiapsiagaan psikis, fisik, dan kecakapan profesi menghadapi ancaman nonmiliter seperti hoaks siber."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan sempit mengartikan bela negara hanya sebagai kegiatan fisik/kemiliteran."
+        }
+      ],
+      "explain": "Hoaks siber yang mengganggu stabilitas masyarakat termasuk ancaman nonmiliter. Verifikasi sistem dan klarifikasi berbasis fakta merupakan wujud nyata Bela Negara nonfisik sesuai profesi ASN.",
+      "targetSec": 42,
+      "source": "Original Bank Soal 2026 · TWK Bela Negara"
+    },
+    {
+      "id": "orig26-twk-04",
+      "subtest": "twk",
+      "topic": "pilar uud 1945",
+      "stem": "Apabila terdapat sengketa kewenangan antara dua lembaga negara yang kewenangannya diberikan langsung oleh UUD NRI Tahun 1945, maka lembaga yudikatif yang berwenang memutus pada tingkat pertama dan terakhir dengan putusan final adalah…",
+      "options": [
+        "Mahkamah Agung (MA)",
+        "Majelis Permusyawaratan Rakyat (MPR)",
+        "Mahkamah Konstitusi (MK)",
+        "Komisi Yudisial (KY)",
+        "Dewan Perwakilan Daerah (DPD)"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pasal 24C ayat (1) UUD 1945: MK menangani 4 kewenangan utama—uji UU terhadap UUD, sengketa kewenangan lembaga negara yang diberikan UUD, pembubaran parpol, dan sengketa hasil pemilu."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret KY (mengawasi perilaku hakim), DPD (legislasi daerah), dan MPR (bukan lembaga peradilan)."
+        },
+        {
+          "lens": "logika",
+          "text": "Bedakan MK (menguji UU terhadap UUD & sengketa konstitusional) vs MA (kasasi & uji peraturan di bawah UU)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jebakan umum: tertukar antara wewenang MA dan MK."
+        }
+      ],
+      "explain": "Berdasarkan Pasal 24C ayat (1) UUD 1945, Mahkamah Konstitusi berwenang mengadili pada tingkat pertama dan terakhir yang putusannya final untuk memutus sengketa kewenangan lembaga negara yang kewenangannya diberikan oleh UUD.",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · TWK UUD 1945"
+    },
+    {
+      "id": "orig26-twk-05",
+      "subtest": "twk",
+      "topic": "pilar uud 1945",
+      "stem": "Berdasarkan Pasal 33 ayat (3) UUD NRI Tahun 1945 beserta semangat pengelolaan kekayaan alam nasional, bumi dan air dan kekayaan alam yang terkandung di dalamnya dikuasai oleh negara dan dipergunakan untuk sebesar-besar kemakmuran rakyat. Makna 'dikuasai oleh negara' dalam putusan konstitusi modern adalah…",
+      "options": [
+        "Negara harus memiliki sendiri secara mutlak tanpa boleh bekerja sama dengan koperasi atau swasta.",
+        "Negara menyerahkan seluruh pengelolaan sumber daya alam sepenuhnya kepada mekanisme pasar bebas.",
+        "Negara berwenang membuat kebijakan, mengurus, mengatur, mengelola, dan mengawasi pemanfaatannya agar bermuara pada kesejahteraan rakyat.",
+        "Pemerintah daerah berhak mengekspor bahan mentah secara otonom tanpa pengawasan pusat.",
+        "Sumber daya alam hanya boleh dimanfaatkan oleh BUMN sektor pertambangan saja."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kata kunci tafsir resmi MK atas 'dikuasai oleh negara': 5 fungsi negara (kebijakan, pengurusan, pengaturan, pengelolaan, dan pengawasan) demi kemakmuran rakyat."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pilihan ekstrem: pasar bebas penuh maupun larangan mutlak kerja sama."
+        },
+        {
+          "lens": "logika",
+          "text": "Pasal 33 menempatkan negara sebagai pengatur dan pengawas berdaulat, bukan sekadar pemilik pasif."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi 'hanya BUMN' atau 'pasar bebas' mengabaikan peran regulasi & pengawasan konstitusional."
+        }
+      ],
+      "explain": "Putusan Mahkamah Konstitusi menegaskan hak menguasai oleh negara dalam Pasal 33 ayat (3) UUD 1945 meliputi kewenangan merumuskan kebijakan (beleid), melakukan tindakan pengurusan (bestuursdaad), pengaturan (regelendaad), pengelolaan (beheersdaad), dan pengawasan (toezichthoudensdaad).",
+      "targetSec": 45,
+      "source": "Original Bank Soal 2026 · TWK Konstitusi Ekonomi"
+    },
+    {
+      "id": "orig26-twk-06",
+      "subtest": "twk",
+      "topic": "bhinneka tunggal ika",
+      "stem": "Sebuah kantor layanan publik di wilayah perbatasan melayani pemohon dari beragam latar belakang bahasa daerah dan usia. Petugas loket menyediakan alur informasi visual bilingual (Indonesia dan bahasa lokal populer) serta antrean prioritas bagi lansia tanpa mengurangi ketepatan berkas. Kebijakan ini paling tepat mencerminkan prinsip…",
+      "options": [
+        "Asimilasi paksa agar semua budaya daerah diseragamkan secepatnya.",
+        "Bhinneka Tunggal Ika yang inklusif dengan menghormati keragaman lokal dalam kerangka pelayanan nasional.",
+        "Sentralisme birokrasi yang kaku.",
+        "Diskriminasi layanan berbasis daerah asal petugas.",
+        "Eksklusivisme golongan tertentu di ruang publik."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Menjembatani keragaman bahasa dan kebutuhan warga tetap dalam standar pelayanan nasional adalah praktik nyata Bhinneka Tunggal Ika."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Opsi bernuansa asimilasi paksa, kaku, atau eksklusif bertentangan dengan nilai persatuan dalam perbedaan."
+        },
+        {
+          "lens": "logika",
+          "text": "Bhinneka Tunggal Ika menyeimbangkan pengakuan atas keragaman dengan persatuan pelayanan publik."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Bahasa Indonesia tetap bahasa resmi negara; penerjemahan bantu adalah wujud inklusi layanan."
+        }
+      ],
+      "explain": "Menghormati keberagaman lokal lewat informasi mudah dipahami dan antrean ramah lansia merupakan penerapan prinsip inklusif Bhinneka Tunggal Ika dalam tata kelola publik.",
+      "targetSec": 38,
+      "source": "Original Bank Soal 2026 · TWK Bhinneka Tunggal Ika"
+    },
+    {
+      "id": "orig26-twk-07",
+      "subtest": "twk",
+      "topic": "bahasa negara",
+      "stem": "Perhatikan kalimat berikut:\n\"Agar supaya pengurusan izin usaha berjalan cepat, maka kepada para pemohon diharap membawa berkas asli.\"\nPerbaikan kalimat tersebut agar menjadi kalimat efektif sesuai kaidah Bahasa Indonesia baku adalah…",
+      "options": [
+        "Agar pengurusan izin usaha berjalan cepat, kepada para pemohon diharap membawa berkas asli.",
+        "Agar pengurusan izin usaha berjalan cepat, pemohon diharapkan membawa berkas asli.",
+        "Supaya pengurusan izin usaha berjalan cepat, maka pemohon diharap bawa berkas asli.",
+        "Untuk agar pengurusan izin usaha berjalan cepat, para pemohon harap membawa berkas asli.",
+        "Pengurusan izin usaha agar berjalan cepat maka pemohon diharapkan membawa berkas asli."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek 3 pemborosan kalimat: 'Agar supaya' (pilih satu: Agar), ', maka' setelah kata hubung syarat (hapus maka), dan 'kepada ... diharap' (bikin subjek menggantung -> langsung 'pemohon diharapkan')."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang masih mempertahankan 'kepada pemohon', 'maka', atau 'bawa' (tidak baku)."
+        },
+        {
+          "lens": "logika",
+          "text": "Kalimat efektif wajib memiliki Subjek + Predikat jelas dan hemat kata tanpa pleonasme."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Gabungan konjungsi 'Agar ..., maka ...' adalah kesalahan umum kalimat majemuk bertingkat."
+        }
+      ],
+      "explain": "Kalimat awal melanggar kehematan dan kejelasan subjek: 'Agar supaya' (pleonasme), konjungsi ganda 'Agar ... maka', dan preposisi 'kepada' di awal induk kalimat. Perbaikan paling efektif: 'Agar pengurusan izin usaha berjalan cepat, pemohon diharapkan membawa berkas asli.'",
+      "targetSec": 45,
+      "source": "Original Bank Soal 2026 · TWK Bahasa Negara"
+    },
+    {
+      "id": "orig26-twk-08",
+      "subtest": "twk",
+      "topic": "bahasa negara",
+      "stem": "Manakah deretan kata berikut yang SELURUHNYA ditulis baku sesuai EYD V dan KBBI V?",
+      "options": [
+        "apotek, analisis, izin, risiko, kualitas",
+        "apotik, analisa, ijin, resiko, kwalitas",
+        "apotek, analisa, izin, resiko, kualitas",
+        "apotek, analisis, ijin, risiko, kualitas",
+        "apotik, analisis, izin, risiko, kualitas"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Uji satu per satu dengan patokan baku: apotek (bukan apotik), analisis (bukan analisa), izin (bukan ijin), risiko (bukan resiko), kualitas (bukan kwalitas)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Begitu melihat 'apotik', 'analisa', 'ijin', 'resiko', atau 'kwalitas', langsung coret seluruh opsi."
+        },
+        {
+          "lens": "logika",
+          "text": "Bahasa Indonesia mengadopsi bentuk baku serapan dari unsur teknis/asing secara konsisten (ku-, -sis, i-, e/o)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Banyak peserta terkecoh kata 'analisa' dan 'resiko' karena sering dipakai di percakapan lisan."
+        }
+      ],
+      "explain": "Kelima bentuk kata baku menurut KBBI adalah apotek, analisis, izin, risiko, dan kualitas.",
+      "targetSec": 30,
+      "source": "Original Bank Soal 2026 · TWK Kata Baku"
+    },
+    {
+      "id": "orig26-twk-09",
+      "subtest": "twk",
+      "topic": "nkri & otonomi",
+      "stem": "Dalam pembagian urusan pemerintahan antara pemerintah pusat dan daerah di Indonesia, terdapat urusan pemerintahan absolut yang SEPENUHNYA menjadi kewenangan pemerintah pusat. Manakah yang termasuk urusan pemerintahan absolut tersebut?",
+      "options": [
+        "Pendidikan dasar, kesehatan masyarakat, dan pariwisata daerah.",
+        "Politik luar negeri, pertahanan, keamanan, yustisi, moneter dan fiskal nasional, serta agama.",
+        "Pengelolaan pasar tradisional, tata ruang kabupaten, dan kebersihan kota.",
+        "Pemberdayaan UMKM lokal, pertanian pangan daerah, dan koperasi.",
+        "Perizinan trayek angkutan antarkecamatan dan perpustakaan daerah."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal 6 urusan absolut pusat lewat jembatan ingatan 'Pol-Han-Kam-Yus-Mon-Ag': Politik luar negeri, Pertahanan, Keamanan, Yustisi, Moneter/fiskal, Agama."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Pendidikan, kesehatan, pasar, UMKM, dan tata ruang merupakan urusan konkuren yang dibagi dengan pemda."
+        },
+        {
+          "lens": "logika",
+          "text": "Urusan absolut menyangkut kedaulatan dan kesatuan nasional sehingga tidak didesentralisasikan kepada pemda."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar antara urusan absolut pusat dengan urusan konkuren wajib pelayanan dasar."
+        }
+      ],
+      "explain": "Sesuai UU Pemerintahan Daerah, enam urusan pemerintahan absolut yang sepenuhnya dikelola pemerintah pusat adalah: politik luar negeri, pertahanan, keamanan, yustisi, moneter dan fiskal nasional, serta agama.",
+      "targetSec": 40,
+      "source": "Original Bank Soal 2026 · TWK NKRI"
+    },
+    {
+      "id": "orig26-twk-10",
+      "subtest": "twk",
+      "topic": "pancasila sejarah",
+      "stem": "Perubahan rumusan sila pertama Piagam Jakarta pada sidang PPKI tanggal 18 Agustus 1945 dari tujuh kata menjadi 'Ketuhanan Yang Maha Esa' menunjukkan keteladanan para pendiri bangsa berupa…",
+      "options": [
+        "Mengutamakan kepentingan golongan sendiri di atas suara wilayah lain.",
+        "Sikap kenegarawanan, toleransi, dan mengutamakan persatuan keutuhan NKRI di atas ego kelompok.",
+        "Penolakan penuh terhadap seluruh nilai religius dalam bernegara.",
+        "Pengambilan keputusan sepihak tanpa musyawarah tokoh masyarakat.",
+        "Penundaan pengesahan UUD 1945 hingga tahun berikutnya."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Mengalah demi menjaga keutuhan Indonesia Timur pada 18 Agustus 1945 adalah teladan kenegarawanan & persatuan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang menyebut penolakan nilai religius atau penundaan pengesahan UUD."
+        },
+        {
+          "lens": "logika",
+          "text": "Peristiwa ini memadukan Sila 1 (ketuhanan inklusif) dan Sila 3 (persatuan nasional)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Perubahan dilakukan secara cepat melalui musyawarah tokoh-tokoh PPKI sebelum sidang dimulai."
+        }
+      ],
+      "explain": "Para tokoh Islam dan kebangsaan dalam PPKI sepakat mengubah tujuh kata pada Piagam Jakarta menjadi 'Ketuhanan Yang Maha Esa' demi menjaga persatuan bangsa Indonesia yang majemuk. Itu adalah wujud kenegarawanan sejati.",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · TWK Sejarah Pancasila"
+    },
+    {
+      "id": "orig26-tiu-01",
+      "subtest": "tiu",
+      "topic": "verbal analogi",
+      "stem": "KOMPAS : ARAH MATA ANGIN = … : …",
+      "options": [
+        "BAROMETER : TEKANAN UDARA",
+        "KALENDER : MASA LALU",
+        "TERMOMETER : API",
+        "PENGGARIS : BUKU TULIS",
+        "TIMBANGAN : HARGA BARANG"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kalimat penghubung: 'KOMPAS adalah alat ukur/penunjuk ARAH MATA ANGIN'. Uji ke lima opsi dengan pola persis sama."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Penggaris mengukur panjang (bukan buku), Timbangan mengukur massa (bukan harga), Termometer mengukur suhu (bukan api)."
+        },
+        {
+          "lens": "logika",
+          "text": "Analogi alat dan besaran yang diukur harus cocok secara langsung tanpa lompatan makna."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terjebak benda sejenis bidang sains jika besaran ukurnya meleset."
+        }
+      ],
+      "explain": "Kompas digunakan untuk menentukan arah mata angin, sepadan dengan barometer yang digunakan untuk mengukur tekanan udara.",
+      "targetSec": 30,
+      "source": "Original Bank Soal 2026 · TIU Verbal Analogi"
+    },
+    {
+      "id": "orig26-tiu-02",
+      "subtest": "tiu",
+      "topic": "verbal silogisme",
+      "stem": "Semua peserta yang lolos seleksi administrasi wajib mengikuti tes CAT.\nSebagian peserta yang mengikuti tes CAT datang dari luar kota.\nKesimpulan yang PALING SAH dari dua premis tersebut adalah…",
+      "options": [
+        "Semua peserta dari luar kota lolos seleksi administrasi.",
+        "Sebagian peserta dari luar kota mengikuti tes CAT.",
+        "Semua peserta yang mengikuti tes CAT datang dari luar kota.",
+        "Tidak ada peserta dalam kota yang lolos seleksi administrasi.",
+        "Semua peserta yang tidak datang dari luar kota pasti gugur administrasi."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Aturan emas silogisme: jika premis memakai 'Sebagian', kesimpulannya TIDAK BOLEH memakai 'Semua' atau 'Tidak ada' secara mutlak!"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi dengan kata 'Semua', 'Tidak ada', atau 'pasti gugur' karena melampaui premis."
+        },
+        {
+          "lens": "logika",
+          "text": "'Sebagian A adalah B' secara logika selalu setara dengan 'Sebagian B adalah A'."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Premis 'Semua X adalah Y' tidak bisa dibalik menjadi 'Semua Y adalah X'."
+        }
+      ],
+      "explain": "Dari premis kedua ('Sebagian peserta yang mengikuti tes CAT datang dari luar kota'), pernyataan baliknya yang pasti benar adalah 'Sebagian peserta dari luar kota mengikuti tes CAT'. Premis tidak membatasi asal kota pendaftar lain.",
+      "targetSec": 45,
+      "source": "Original Bank Soal 2026 · TIU Silogisme"
+    },
+    {
+      "id": "orig26-tiu-03",
+      "subtest": "tiu",
+      "topic": "verbal analitis",
+      "stem": "Lima narasumber (P, Q, R, S, T) dijadwalkan presentasi satu per satu dari urutan 1 sampai 5:\n(1) P tampil tepat di urutan ke-3.\n(2) Q tampil tepat sebelum S.\n(3) T tampil lebih akhir daripada P dan tampil tepat sebelum R.\nSiapakah yang tampil di urutan pertama?",
+      "options": [
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Mulai dari slot pasti ke-3 = P. Karena T lebih akhir dari P (hanya sisa slot 4 & 5) dan T tepat sebelum R, maka slot 4 dan 5 terkunci oleh pasangan T–R."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Karena P di 3 serta T–R di 4–5, tinggal tersisa slot 1 dan 2 untuk pasangan Q–S!"
+        },
+        {
+          "lens": "logika",
+          "text": "Pada soal urutan duduk/jadwal, kunci terlebih dulu blok yang harus bersebelahan (T–R dan Q–S)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan menukar urutan T–R menjadi R–T karena teks menyebut T tampil 'tepat sebelum' R."
+        }
+      ],
+      "explain": "Langkah 1: P = 3. Langkah 2: T lebih akhir dari P dan tepat sebelum R → hanya muat di posisi T = 4 dan R = 5. Langkah 3: tersisa posisi 1 dan 2 yang harus diisi Q tepat sebelum S → Q = 1, S = 2. Urutan lengkap: Q, S, P, T, R. Jadi urutan pertama adalah Q.",
+      "targetSec": 50,
+      "source": "Original Bank Soal 2026 · TIU Analitis"
+    },
+    {
+      "id": "orig26-tiu-04",
+      "subtest": "tiu",
+      "topic": "penguatan & pelemahan argumen",
+      "stem": "Pemerintah kota menanam ribuan pohon peneduh di koridor utama sejak dua tahun lalu. Data dinas lingkungan menunjukkan suhu udara siang hari di koridor tersebut turun 1,4°C dibanding tiga tahun lalu. Kepala dinas menyimpulkan bahwa penanaman pohon merupakan penyebab utama penurunan suhu tersebut.\nManakah pernyataan berikut yang PALING MEMPERLEMAH kesimpulan kepala dinas?",
+      "options": [
+        "Warga merasa koridor jalan menjadi lebih rindang dan nyaman untuk berjalan kaki.",
+        "Dalam dua tahun terakhir, terjadi fenomena La Niña disertai pembatasan kendaraan bermotor di koridor tersebut yang juga menurunkan suhu kawasan secara drastis.",
+        "Biaya perawatan pohon peneduh diambil dari anggaran rutin pertamanan kota.",
+        "Jenis pohon yang ditanam memiliki akar tunggang sehingga tidak merusak trotoar.",
+        "Sebagian kota tetangga belum menjalankan program penanaman pohon serupa."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Baca inti argumen: Bukti = suhu turun 1,4°C; Kesimpulan = pohon penyebab utamanya. Untuk MEMPERLEMAH, cari penyebab lain yang ikut membuat suhu turun di lokasi & waktu yang sama!"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi tentang rasa nyaman warga, anggaran, atau struktur akar—semuanya tidak menyentuh hubungan pohon vs suhu."
+        },
+        {
+          "lens": "logika",
+          "text": "Suatu kesimpulan sebab-akibat melemah jika muncul faktor alternatif (penyebab lain) yang menjelaskan terjadinya bukti."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi tentang kota tetangga tanpa pohon justru tidak melemahkan klaim, malah kurang relevan tanpa data suhunya."
+        }
+      ],
+      "explain": "Kesimpulan mengklaim pohon sebagai penyebab utama turunnya suhu 1,4°C. Kehadiran fenomena La Niña dan pembatasan kendaraan di lokasi & rentang waktu yang sama memberi penyebab alternatif kuat sehingga melemahkan klaim penyebab tunggal.",
+      "targetSec": 55,
+      "source": "Original Bank Soal 2026 · TIU Argumen HOTS"
+    },
+    {
+      "id": "orig26-tiu-05",
+      "subtest": "tiu",
+      "topic": "numerik berhitung cepat",
+      "stem": "Hasil dari 675² − 325² adalah…",
+      "options": [
+        "320.000",
+        "350.000",
+        "375.000",
+        "425.000",
+        "450.000"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jangan dikuadratkan satu per satu! Pakai rumus cepat: (angka pertama + kedua) × (angka pertama − kedua). Hitung (675 + 325) × (675 − 325)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Perhatikan: 675 + 325 persis = 1.000! Jadi hasilnya pasti kelipatan 1.000 yang sangat mudah dihitung."
+        },
+        {
+          "lens": "logika",
+          "text": "Rumus selisih kuadrat a² − b² = (a + b) × (a − b) selalu berlaku untuk bilangan berapa pun."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan mengurangi dulu baru mengkuadratkan (675 − 325)², itu rumus yang salah total."
+        }
+      ],
+      "explain": "Cara mudah untuk orang awam: gunakan aturan selisih kuadrat a² − b² = (a + b) × (a − b). Maka 675² − 325² = (675 + 325) × (675 − 325) = 1.000 × 350 = 350.000.",
+      "targetSec": 25,
+      "source": "Original Bank Soal 2026 · TIU Berhitung"
+    },
+    {
+      "id": "orig26-tiu-06",
+      "subtest": "tiu",
+      "topic": "numerik berhitung cepat",
+      "stem": "Jika x = √(56 + √(56 + √(56 + …))) secara terus-menerus tak terhingga, maka nilai x adalah…",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "14"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari dua angka berurutan yang kalau dikalikan hasilnya 56! Karena tandanya TAMBAH (+), ambil angka yang LEBIH BESAR."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek angka kecil: 5×6=30, 6×7=42, 7×8=56! Coret opsi selain 7 dan 8."
+        },
+        {
+          "lens": "logika",
+          "text": "Cara baku: x = √(56 + x) → x² − x − 56 = 0 → (x − 8)(x + 7) = 0 → karena x positif, x = 8."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan ambil angka kecilnya (7) karena angka kecil dipakai hanya bila tandanya KURANG (−)."
+        }
+      ],
+      "explain": "Cara mudah: pecah 56 menjadi perkalian dua bilangan berurutan yaitu 7 × 8. Karena seluruh operasi di dalam akar memakai tanda tambah (+), nilai akarnya adalah bilangan yang lebih besar yaitu 8.",
+      "targetSec": 25,
+      "source": "Original Bank Soal 2026 · TIU Akar Berulang"
+    },
+    {
+      "id": "orig26-tiu-07",
+      "subtest": "tiu",
+      "topic": "soal cerita perbandingan berbalik nilai",
+      "stem": "Suatu pekerjaan renovasi gedung ditargetkan selesai dalam 24 hari oleh 18 pekerja. Setelah bekerja selama 6 hari, pekerjaan dihentikan selama 6 hari karena pasokan bahan tertahan. Agar gedung tetap selesai sesuai jadwal awal, berapa TAMBAHAN pekerja yang diperlukan?",
+      "options": [
+        "6 pekerja",
+        "8 pekerja",
+        "9 pekerja",
+        "12 pekerja",
+        "27 pekerja"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cara gampang: kalikan Orang awal × Sisa hari rencana = Total pekerja baru × Sisa hari sebenarnya. Sisa hari rencana = 24 − 6 = 18 hari; sisa hari sebenarnya = 24 − 6 − 6 = 12 hari."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Hati-hati dengan angka total pekerja baru (27)! Yang ditanya soal adalah TAMBAHAN pekerjanya, bukan total seluruh pekerja."
+        },
+        {
+          "lens": "logika",
+          "text": "Makin sedikit sisa hari, makin banyak pekerja yang dibutuhkan (perbandingan berbalik nilai)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jebakan klasik: lupa mengurangi 6 hari yang sudah selesai bekerja sebelum menghitung sisa hari."
+        }
+      ],
+      "explain": "Total sisa beban setelah 6 hari bekerja: 18 orang × (24 − 6) hari = 18 × 18 = 324 orang-hari. Waktu tersisa yang boleh dipakai tinggal 24 − 6 − 6 = 12 hari. Maka total pekerja dibutuhkan = 324 ÷ 12 = 27 orang. Karena sudah ada 18 orang, tambahannya = 27 − 18 = 9 pekerja.",
+      "targetSec": 50,
+      "source": "Original Bank Soal 2026 · TIU Pekerja-Hari"
+    },
+    {
+      "id": "orig26-tiu-08",
+      "subtest": "tiu",
+      "topic": "soal cerita jarak kecepatan",
+      "stem": "Rina berangkat mengendarai sepeda motor dari kota A pukul 07.15 dengan kecepatan tetap 48 km/jam. Melalui jalan yang sama, Dito menyusul dari kota A pukul 07.45 dengan kecepatan tetap 60 km/jam. Pada pukul berapakah Dito berhasil menyusul Rina?",
+      "options": [
+        "09.15",
+        "09.30",
+        "09.45",
+        "10.00",
+        "10.15"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hitung dulu seberapa jauh Rina sudah jalan duluan: selisih waktu 30 menit (0,5 jam) × 48 km/jam = 24 km. Lalu Waktu susul = 24 km ÷ (60 − 48) km/jam."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Setelah ketemu lama menyusul (2 jam), tambahkan ke jam berangkat ORANG KEDUA (07.45), bukan jam berangkat Rina!"
+        },
+        {
+          "lens": "logika",
+          "text": "Selisih kecepatan (60 − 48 = 12 km/jam) menunjukkan berapa km Dito mendekati Rina setiap jam."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jebakan nomor satu: menambahkan 2 jam ke pukul 07.15 sehingga keliru memilih 09.15."
+        }
+      ],
+      "explain": "Selisih waktu berangkat Rina dan Dito = 07.45 − 07.15 = 30 menit = 0,5 jam. Jadi saat Dito mulai jalan, Rina sudah unggul jarak 48 × 0,5 = 24 km. Kecepatan menyusul Dito = 60 − 48 = 12 km/jam. Waktu menyusul = 24 ÷ 12 = 2 jam dihitung sejak Dito berangkat (07.45 + 2 jam) = pukul 09.45.",
+      "targetSec": 50,
+      "source": "Original Bank Soal 2026 · TIU Susul-Menyusul"
+    },
+    {
+      "id": "orig26-tiu-09",
+      "subtest": "tiu",
+      "topic": "soal cerita jarak kecepatan",
+      "stem": "Seorang kurir menempuh perjalanan pergi dari gudang ke pelabuhan dengan kecepatan rata-rata 60 km/jam. Saat pulang melewati rute yang SAMA PERSIS dalam kondisi macet, kecepatan rata-ratanya hanya 40 km/jam. Berapakah kecepatan rata-rata seluruh perjalanan pergi dan pulang?",
+      "options": [
+        "46 km/jam",
+        "48 km/jam",
+        "50 km/jam",
+        "52 km/jam",
+        "54 km/jam"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Karena jarak pergi = jarak pulang, JANGAN dirata-rata biasa (60+40)÷2=50! Pakai rumus cepat jarak sama: (2 × V₁ × V₂) ÷ (V₁ + V₂)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Rata-rata perjalanan jarak sama SELALU sedikit lebih kecil daripada rata-rata aritmetika biasa (50) karena kurir menghabiskan waktu lebih lama di arah yang lambat."
+        },
+        {
+          "lens": "logika",
+          "text": "Cara paling awam untuk mengecek: misalkan saja jarak gudang–pelabuhan 120 km → pergi 2 jam, pulang 3 jam → total 240 km ÷ 5 jam = 48 km/jam!"
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jebakan paling populer adalah memilih 50 km/jam."
+        }
+      ],
+      "explain": "Khusus jarak pergi dan pulang yang sama, gunakan (2 × 60 × 40) ÷ (60 + 40) = 4.800 ÷ 100 = 48 km/jam. Bukti mudah: anggap jaraknya 120 km. Pergi butuh 120÷60 = 2 jam, pulang 120÷40 = 3 jam. Total jarak 240 km dibagi total waktu 5 jam = 48 km/jam.",
+      "targetSec": 45,
+      "source": "Original Bank Soal 2026 · TIU Kecepatan Rata-rata"
+    },
+    {
+      "id": "orig26-tiu-10",
+      "subtest": "tiu",
+      "topic": "numerik persen bertingkat",
+      "stem": "Sebuah perangkat komputer seharga Rp500.000 per unit aksesori mendapat diskon ganda toko 30% lalu diskon tambahan 20% khusus pemegang kartu anggota dari harga setelah diskon pertama. Berapa rupiah harga akhir yang harus dibayar?",
+      "options": [
+        "Rp250.000",
+        "Rp275.000",
+        "Rp280.000",
+        "Rp300.000",
+        "Rp350.000"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jangan jumlahkan diskon menjadi 50%! Hitung bagian yang DIBAYAR secara bertingkat: diskon 30% berarti bayar 70%; diskon lagi 20% berarti bayar 80% dari sisa. Kalikan 500.000 × 70% × 80%."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Karena diskon ganda 30% + 20% lebih kecil daripada diskon tunggal 50%, harganya pasti LEBIH TINGGI dari Rp250.000."
+        },
+        {
+          "lens": "logika",
+          "text": "Diskon kedua selalu memotong harga yang SUDAH terdiskon, bukan harga awal penuh."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jebakan utama: langsung memotong 50% (Rp250.000)."
+        }
+      ],
+      "explain": "Setelah diskon pertama 30%, sisa harga = 70% × Rp500.000 = Rp350.000. Setelah diskon kedua 20% dari sisa tersebut, bayar 80% × Rp350.000 = Rp280.000 (setara total diskon efektif 44%, bukan 50%).",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · TIU Diskon Bertingkat"
+    },
+    {
+      "id": "orig26-tiu-11",
+      "subtest": "tiu",
+      "topic": "deret angka",
+      "stem": "Lanjutkan pola deret angka berikut:\n4, 7, 13, 22, 34, …",
+      "options": [
+        "46",
+        "48",
+        "49",
+        "51",
+        "52"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Tulis selisih antar angka yang bersebelahan: dari 4 ke 7 (+3), 7 ke 13 (+6), 13 ke 22 (+9), 22 ke 34 (+12). Terlihat jelas tiap langkah tambahannya naik +3!"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Selisihnya kelipatan 3 (+3, +6, +9, +12), jadi lompatan berikutnya pasti +15."
+        },
+        {
+          "lens": "logika",
+          "text": "Metode paling cepat untuk orang awam: selalu tulis '+...' di antara dua angka agar polanya terlihat dalam 5 detik."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan mengira +12 akan terulang lagi menjadi +12 (34+12=46)."
+        }
+      ],
+      "explain": "Selisih berurutan adalah +3, +6, +9, +12 (selalu bertambah +3 pada tingkat kedua). Maka lompatan berikutnya adalah +15 → 34 + 15 = 49.",
+      "targetSec": 30,
+      "source": "Original Bank Soal 2026 · TIU Deret"
+    },
+    {
+      "id": "orig26-tiu-12",
+      "subtest": "tiu",
+      "topic": "pola bilangan dalam tabel",
+      "stem": "Sebuah mesin cetak menghasilkan label dengan pola tetap sesuai tabel berikut:\nUrutan ke-3 → Nilai 17\nUrutan ke-6 → Nilai 32\nUrutan ke-10 → Nilai …\nBerapakah nilai pada urutan ke-10?",
+      "options": [
+        "47",
+        "50",
+        "52",
+        "55",
+        "57"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Trik lompat langsung tanpa rumus rumit: dari urutan 3 ke urutan 6 (naik 3 langkah), nilainya naik 32 − 17 = 15. Artinya setiap 1 langkah naik +5! Dari urutan 6 ke 10 tinggal lompat 4 langkah: 32 + (4 × 5)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Angkanya naik teratur +5 per urutan, sehingga nilai di urutan 10 pasti berakhiran digit 2."
+        },
+        {
+          "lens": "logika",
+          "text": "Rumus umum pola tabel linear: Lompatan per urutan = (selisih nilai) ÷ (selisih urutan)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan menghitung 10 × 5 = 50 tanpa memperhitungkan angka awal (penyesuai +2)."
+        }
+      ],
+      "explain": "Dari urutan 3 ke urutan 6 (selisih 3 langkah), nilainya naik dari 17 ke 32 (+15). Berarti kenaikan per 1 urutan = 15 ÷ 3 = +5. Untuk menuju urutan ke-10 dari urutan ke-6 (maju 4 langkah): 32 + (4 × 5) = 52.",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · TIU Pola Tabel"
+    },
+    {
+      "id": "orig26-tiu-13",
+      "subtest": "tiu",
+      "topic": "soal cerita tabel",
+      "stem": "Kantor membutuhkan sedikitnya 25 rim kertas A4 dengan kelebihan stok maksimal 2 rim agar muat di lemari (total beli wajib 25–27 rim). Berikut penawaran paket toko:\nPaket A: isi 24 rim per bundel | Rp576.000\nPaket B: 13 pak (isi 2 rim/pak) | Rp47.000/pak\nPaket C: 25 rim satuan | Rp24.800/rim\nPaket D: 9 pak (isi 3 rim/pak) | Rp68.000/pak\nPaket E: 14 pak (isi 2 rim/pak) | Rp46.000/pak\nPaket manakah yang memenuhi syarat penyimpanan sekaligus paling hemat?",
+      "options": [
+        "Paket A",
+        "Paket B",
+        "Paket C",
+        "Paket D",
+        "Paket E"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jangan hitung harga dulu! Saring jumlah rimnya wajib 25 s.d. 27 rim: Paket A (24 rim, kurang!) dan Paket E (14×2=28 rim, kelebihan!) langsung gugur! Tinggal hitung biaya B, C, dan D."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret segera A dan E sebelum menyentuh perkalian harga."
+        },
+        {
+          "lens": "logika",
+          "text": "Pada soal cerita tabel pengadaan, saring syarat teknis terlebih dulu agar menghemat 60% waktu berhitung."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Paket E harga per rimnya tampak murah (Rp23.000), tapi total 28 rim melanggar batas maksimal 27 rim."
+        }
+      ],
+      "explain": "Syarat jumlah: minimal 25 rim dan maksimal 25 + 2 = 27 rim. Paket A (24 rim) kurang dan Paket E (28 rim) berlebih, sehingga gugur. Hitung opsi lolos: Paket B (26 rim) = 13 × Rp47.000 = Rp611.000; Paket C (25 rim) = 25 × Rp24.800 = Rp620.000; Paket D (27 rim) = 9 × Rp68.000 = Rp612.000. Paling hemat dan sah adalah Paket B.",
+      "targetSec": 60,
+      "source": "Original Bank Soal 2026 · TIU Cerita Tabel"
+    },
+    {
+      "id": "orig26-tiu-14",
+      "subtest": "tiu",
+      "topic": "perbandingan kuantitatif",
+      "stem": "Diketahui P = (3/8) dari 160 dan Q = 45% dari 120.\nHubungan yang tepat antara P dan Q adalah…",
+      "options": [
+        "P > Q",
+        "P < Q",
+        "P = Q",
+        "P + Q = 100",
+        "Hubungan P dan Q tidak dapat ditentukan"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hitung cepat tanpa kalkulator: 160 ÷ 8 = 20, jadi P = 3 × 20 = 60. Sementara 45% dari 120 = (45 × 12) ÷ 10 = 54."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Langsung bandingkan 60 dan 54: jelas P lebih besar daripada Q."
+        },
+        {
+          "lens": "logika",
+          "text": "Sederhanakan pecahan dengan penyebut sebelum mengali agar tidak bekerja dengan angka besar."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pastikan persen dihitung dari 120, bukan dari 100."
+        }
+      ],
+      "explain": "P = (3/8) × 160 = 3 × 20 = 60. Q = (45/100) × 120 = 0,45 × 120 = 54. Karena 60 > 54, maka P > Q.",
+      "targetSec": 30,
+      "source": "Original Bank Soal 2026 · TIU Kuantitatif P vs Q"
+    },
+    {
+      "id": "orig26-tiu-15",
+      "subtest": "tiu",
+      "topic": "kecukupan data (p & q)",
+      "stem": "Berapakah harga 1 buah buku tulis?\nPutuskan apakah pernyataan (1) dan (2) berikut cukup untuk menjawab pertanyaan tersebut:\n(1) Harga 3 buku tulis dan 2 pulpen adalah Rp31.000.\n(2) Harga 1 buku tulis lebih mahal Rp2.000 daripada harga 1 pulpen.",
+      "options": [
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan, sedangkan pernyataan (2) SAJA tidak cukup.",
+        "Pernyataan (2) SAJA cukup untuk menjawab pertanyaan, sedangkan pernyataan (1) SAJA tidak cukup.",
+        "DUA pernyataan BERSAMA-SAMA cukup untuk menjawab pertanyaan, tetapi SATU pernyataan SAJA tidak cukup.",
+        "Pernyataan (1) SAJA cukup untuk menjawab pertanyaan dan pernyataan (2) SAJA cukup.",
+        "Pernyataan (1) dan pernyataan (2) tidak cukup untuk menjawab pertanyaan."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Aturan awam Kecukupan Data: ada 2 barang belum diketahui (buku & pulpen), maka butuh 2 keterangan yang berbeda untuk bisa menemukan harga pastinya! Masing-masing (1) atau (2) sendirian baru 1 keterangan → belum cukup. Saat digabung → cukup!"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Uji satu per satu secara terpisah dulu: dari (1) saja nilai buku bisa macam-macam; dari (2) saja tidak ada nominal harga beli. Jadi A, B, dan D gugur."
+        },
+        {
+          "lens": "logika",
+          "text": "Dua persamaan linear independen untuk dua variabel (3B + 2P = 31.000 dan B − P = 2.000) menghasilkan solusi unik B = Rp7.000."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Saat menguji pernyataan (2) sendirian, jangan terbawa ingatan angka Rp31.000 dari pernyataan (1)!"
+        }
+      ],
+      "explain": "Terdapat dua harga yang belum diketahui: harga buku (B) dan pulpen (P). Pernyataan (1) saja memberi 3B + 2P = 31.000 (banyak kemungkinan nilai B). Pernyataan (2) saja hanya memberi selisih B = P + 2.000 (tak ada harga total). Jika keduanya digabung: 3B + 2(B − 2.000) = 31.000 → 5B = 35.000 → B = Rp7.000. Jadi kedua pernyataan bersama-sama cukup.",
+      "targetSec": 55,
+      "source": "Original Bank Soal 2026 · TIU Kecukupan Data"
+    },
+    {
+      "id": "orig26-tkp-01",
+      "subtest": "tkp",
+      "topic": "pelayanan publik",
+      "stem": "Menjelang jam tutup loket, datang seorang lansia dari desa terpencil yang belum memahami sistem antrean digital di layar sentuh dan salah mengira berkasnya tidak berlaku lagi. Antrean lain sudah kosong, sementara Anda sedang merapikan laporan harian. Sikap terbaik Anda adalah…",
+      "options": [
+        "Memintanya pulang dulu dan kembali besok pagi sambil membawa cucunya agar dibantu mendaftar online.",
+        "Menjelaskan secara singkat letak mesin antrean lalu melanjutkan membereskan laporan meja Anda.",
+        "Menghampiri dengan ramah, membantu mendaftarkan antrean digitalnya sambil menjelaskan alurnya pelan-pelan, dan memproses berkasnya sesuai SOP sebelum loket ditutup.",
+        "Mengarahkannya kepada petugas keamanan pintu depan untuk mengurus antreannya sendiri.",
+        "Menegur secara halus mengapa tidak membaca pengumuman alur digital yang sudah ditempel di dinding."
+      ],
+      "weights": [
+        2,
+        3,
+        5,
+        4,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Aspek Pelayanan Publik: prioritaskan solusi ramah, membantu warga rentan (lansia) secara tuntas, dan tetap taat SOP layanan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang respons menyalahkan warga atau menolak melayani saat loket sebenarnya masih buka."
+        },
+        {
+          "lens": "logika",
+          "text": "Poin 5 memberi aksi nyata proaktif tanpa melemparkan tugas ke petugas lain."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Menyerahkan ke satpam bukan buruk (bisa 3–4), tetapi melayani langsung lebih unggul bernilai 5."
+        }
+      ],
+      "explain": "Nilai 5 berada pada tindakan menghampiri dengan ramah, membimbing lansia memakai antrean digital, dan menuntaskan layanannya sesuai SOP.",
+      "targetSec": 40,
+      "source": "Original Bank Soal 2026 · TKP Pelayanan Publik"
+    },
+    {
+      "id": "orig26-tkp-02",
+      "subtest": "tkp",
+      "topic": "jejaring kerja",
+      "stem": "Instansi Anda ditugaskan merampungkan proyek integrasi data lintas tiga dinas dalam dua minggu, namun komunikasi antarperwakilan unit masih berjalan sendiri-sendiri dan format file mereka belum seragam. Sebagai penghubung teknis tim, langkah Anda adalah…",
+      "options": [
+        "Menyusun standar format data usulan, mengundang rapat koordinasi singkat lintas dinas untuk menyepakati jadwal serah terima, dan membuka kanal komunikasi bersama.",
+        "Fokus menyelesaikan bagian dinas sendiri dulu dengan sangat baik baru melihat hasil dinas lain di hari terakhir.",
+        "Melaporkan kepada atasan bahwa perwakilan dinas lain sulit diajak bekerja sama.",
+        "Menyesuaikan data seadanya di menit-menit terakhir agar tetap terlihat selesai.",
+        "Menunggu perwakilan dinas lain yang menghubungi Anda lebih dulu jika butuh format."
+      ],
+      "weights": [
+        5,
+        3,
+        2,
+        1,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Aspek Jejaring Kerja: cari kata kunci 'rapat koordinasi lintas unit', 'menyepakati standar bersama', dan 'komunikasi aktif'."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Hindari bekerja dalam silo sendiri-sendiri atau menumpuk masalah sampai hari terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Penghubung tim harus menjadi jembatan koordinasi yang konstruktif."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Mengadu ke atasan tanpa upaya koordinasi awal hanya bernilai rendah."
+        }
+      ],
+      "explain": "Menetapkan standar usulan bersama, menginisiasi koordinasi lintas dinas, dan membuka kanal komunikasi tim mencerminkan Jejaring Kerja tertinggi (5).",
+      "targetSec": 40,
+      "source": "Original Bank Soal 2026 · TKP Jejaring Kerja"
+    },
+    {
+      "id": "orig26-tkp-03",
+      "subtest": "tkp",
+      "topic": "sosial budaya",
+      "stem": "Anda baru ditempatkan di daerah dengan bahasa keseharian dan tradisi rapat warga yang sangat berbeda dari kampung halaman Anda. Pada rapat kerja perdana dengan tokoh lokal, sebagian peserta berbicara agak lama dengan ungkapan daerah sebelum masuk ke pokok bahasan. Sikap Anda adalah…",
+      "options": [
+        "Menyimak penuh hormat, mempelajari makna ungkapan kunci setempat bersama rekan lokal, dan menyampaikan gagasan secara santun menyesuaikan budaya komunikasi warga.",
+        "Langsung memotong pembicaraan agar rapat selesai tepat waktu sesuai gaya kerja kota asal Anda.",
+        "Hanya berbicara kepada pegawai yang berasal dari daerah sama dengan Anda.",
+        "Tetap diam di seluruh rapat karena merasa tidak nyaman dengan budaya baru.",
+        "Mengajukan mutasi secepatnya ke daerah yang bahasanya sama."
+      ],
+      "weights": [
+        5,
+        2,
+        1,
+        3,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Aspek Sosial Budaya: tunjukkan rasa hormat, kemauan belajar kearifan lokal, dan komunikasi santun tanpa bersikap etnosentris."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Memotong pembicaraan sesepuh atau menutup diri merusak penerimaan sosial."
+        },
+        {
+          "lens": "logika",
+          "text": "Poin 5 memadukan adaptasi budaya lokal dengan tujuan kerja yang tetap produktif."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Berdiam diri saja lebih aman dari memotong (3 vs 2), namun aktif belajar & menyesuaikan tetap poin 5."
+        }
+      ],
+      "explain": "Poin 5 (Opsi pertama) menggambarkan kecerdasan sosial budaya: menghormati tradisi setempat, mau belajar, dan berkomunikasi adaptif.",
+      "targetSec": 40,
+      "source": "Original Bank Soal 2026 · TKP Sosial Budaya"
+    },
+    {
+      "id": "orig26-tkp-04",
+      "subtest": "tkp",
+      "topic": "tik & keamanan siber",
+      "stem": "Unit Anda beralih dari arsip berkas fisik ke aplikasi persuratan elektronik baru, tetapi beberapa rekan senior enggan memakainya dan berencana menyimpan salinan dokumen rahasia kantor di akun cloud pribadi gratis agar mudah dibuka dari rumah. Tindakan Anda sebagai rekan kerja yang memahami TIK adalah…",
+      "options": [
+        "Membantu membuatkan panduan ringkas langkah pakai aplikasi resmi, mendampingi rekan senior berlatih, serta mengingatkan risiko kebocoran data bila memakai cloud pribadi.",
+        "Membiarkan mereka memakai cloud pribadi asalkan pekerjaan cepat terkumpul.",
+        "Mengambil alih seluruh akun dan pekerjaan rekan senior tanpa mengajari mereka.",
+        "Menegur di grup besar kantor bahwa mereka gagap teknologi dan melanggar keamanan.",
+        "Ikut menggunakan cloud pribadi karena jauh lebih praktis daripada aplikasi kantor."
+      ],
+      "weights": [
+        5,
+        2,
+        3,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Aspek TIK: nilai tertinggi menggabungkan dua hal—mengajak adopsi teknologi resmi lewat pendampingan DAN menjaga keamanan data/privasi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Jangan pernah memilih opsi menyimpan data dinas di akun pribadi atau mempermalukan rekan senior."
+        },
+        {
+          "lens": "logika",
+          "text": "Mengambil alih kerja orang lain tidak membangun kemandirian tim."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Teguran keras di grup publik melanggar etika harmonis rekan kerja."
+        }
+      ],
+      "explain": "Membimbing rekan memakai aplikasi resmi sembari mengedukasi keamanan informasi memenuhi seluruh indikator aspek TIK (adaptif + aman data = 5).",
+      "targetSec": 42,
+      "source": "Original Bank Soal 2026 · TKP TIK"
+    },
+    {
+      "id": "orig26-tkp-05",
+      "subtest": "tkp",
+      "topic": "profesionalisme",
+      "stem": "Dua jam sebelum batas pengumpulan laporan evaluasi tahunan, Anda menemukan kesalahan rumus di tabel lampiran yang dapat memengaruhi angka rekomendasi anggaran, sementara rekan satu tim sudah bersiap pulang. Langkah profesional Anda adalah…",
+      "options": [
+        "Segera memperbaiki rumus yang keliru, memverifikasi ulang seluruh angka lampiran secara cermat, dan mengomunikasikan revisinya sebelum laporan dikirim.",
+        "Tetap mengirim laporan apa adanya karena waktunya sudah mepet dan kesalahannya kecil.",
+        "Menyalahkan rekan tim di nota pengantar agar tanggung jawab tidak dibebankan ke Anda.",
+        "Menunda pengiriman hingga minggu depan tanpa memberi tahu pimpinan terlebih dulu.",
+        "Menghapus halaman lampiran itu supaya laporan terlihat rapi."
+      ],
+      "weights": [
+        5,
+        2,
+        1,
+        2,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Aspek Profesionalisme: utamakan akurasi, tanggung jawab tuntas, dan komunikasi transparan meski mendekati tenggat."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menghapus data atau membiarkan angka anggaran salah adalah pelanggaran profesional berat."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi tertinggi langsung mengambil inisiatif perbaikan dan verifikasi ulang sebelum diserahkan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Menyalahkan rekan kerja merusak etos tim."
+        }
+      ],
+      "explain": "Profesionalisme menuntut tanggung jawab kualitas hasil kerja sampai tuntas: koreksi segera, verifikasi ulang data, dan koordinasi pengiriman revisi (bobot 5).",
+      "targetSec": 38,
+      "source": "Original Bank Soal 2026 · TKP Profesionalisme"
+    },
+    {
+      "id": "orig26-tkp-06",
+      "subtest": "tkp",
+      "topic": "anti-radikalisme",
+      "stem": "Seorang anggota baru di komunitas pegawai membagikan tautan artikel di grup internal yang berisi ajakan memusuhi kelompok warga tertentu dan meremehkan dasar negara Pancasila. Sebagai rekan sejawat, respons paling konstruktif yang mencerminkan aspek Anti-Radikalisme adalah…",
+      "options": [
+        "Menyebarkan tangkapan layar profilnya ke media sosial agar mendapat sanksi sosial luas.",
+        "Diam saja karena khawatir grup menjadi ramai perdebatan.",
+        "Mengingatkan dengan tenang dan berbasis aturan etika komunikasi, menjelaskan fakta kebangsaan, serta melaporkan kepada moderator grup/pembina kepegawaian jika terus berulang.",
+        "Membalas dengan komentar marah dan mengeluarkan yang bersangkutan secara sepihak tanpa konfirmasi.",
+        "Menyetujui sebagian isinya agar dianggap ramah kepada pegawai baru."
+      ],
+      "weights": [
+        1,
+        2,
+        5,
+        3,
+        1
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Aspek Anti-Radikalisme: sikap ideal adalah tegas menolak narasi ekstrem/intoleran, tetap tenang dialogis, berpedoman pada etika, serta melibatkan jalur pembina resmi bila perlu."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Membiarkan (diam) maupun memviralkan/doxing sama-sama tidak tepat."
+        },
+        {
+          "lens": "logika",
+          "text": "Pendekatan persuasif berbasis aturan + eskalasi ke jalur berwenang merupakan standar ASN."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terjebak emosi dalam membalas provokasi."
+        }
+      ],
+      "explain": "Anti-Radikalisme ASN mengedepankan ketenangan, pelurusan fakta kebangsaan berdasar etika/aturan, dan pelaporan berjenjang ke pembina resmi (nilai 5).",
+      "targetSec": 45,
+      "source": "Original Bank Soal 2026 · TKP Anti-Radikalisme"
+    },
+    {
+      "id": "orig26-tkp-07",
+      "subtest": "tkp",
+      "topic": "pelayanan publik",
+      "stem": "Sistem verifikasi online kantor mengalami gangguan selama 30 menit saat antrean pemohon memanjang di ruang tunggu. Agar situasi tetap kondusif dan hak pemohon terpenuhi, tindakan pertama Anda adalah…",
+      "options": [
+        "Menutup loket dan menyuruh semua pemohon pulang tanpa kepastian jadwal.",
+        "Menginformasikan gangguan secara terbuka beserta estimasi waktu pemulihan, menyediakan pencatatan antrean manual sementara sesuai SOP darurat, dan berkoordinasi dengan tim IT.",
+        "Terus menatap monitor sambil menunggu IT selesai tanpa berkata apa pun kepada antrean.",
+        "Mendahulukan pemohon yang merupakan kenalan Anda terlebih dahulu.",
+        "Menyalahkan penyedia internet di depan pemohon agar kemarahan tidak tertuju ke kantor."
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        1,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Saat layanan terganggu: komunikasikan transparan ke pengguna, jalankan solusi cadangan (SOP darurat), dan eskalasi ke tim teknis."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Mendahulukan kenalan atau menyalahkan vendor di depan publik melanggar etika pelayanan."
+        },
+        {
+          "lens": "logika",
+          "text": "Transparansi menurunkan keluhan warga secara drastis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi terbaik memberi solusi cepat sekaligus kepastian proses."
+        }
+      ],
+      "explain": "Keterbukaan informasi, aktivasi pencatatan cadangan sesuai SOP, serta koordinasi cepat dengan tim IT merupakan respons Pelayanan Publik paling solutif (poin 5).",
+      "targetSec": 40,
+      "source": "Original Bank Soal 2026 · TKP Pelayanan Publik"
+    },
+    {
+      "id": "orig26-tkp-08",
+      "subtest": "tkp",
+      "topic": "profesionalisme",
+      "stem": "Pimpinan unit meminta Anda mempercepat pencairan klaim administrasi seorang relasi dekat meskipun dua dokumen syarat mutlak belum dilengkapi. Sikap Anda adalah…",
+      "options": [
+        "Langsung menyetujui permintaan tersebut karena perintah langsung atasan wajib dipatuhi mutlak.",
+        "Menolak secara santun dengan menunjukkan rincian syarat prosedur yang kurang, lalu menawarkan bantuan percepatan pemeriksaan segera setelah berkas dilengkapi.",
+        "Memprosesnya diam-diam sambil meminta surat pernyataan bebas tanggung jawab pribadi.",
+        "Membawa masalah itu langsung ke media sosial untuk transparansi.",
+        "Membiarkan berkasnya menumpuk tanpa memberikan penjelasan kepada siapa pun."
+      ],
+      "weights": [
+        1,
+        5,
+        2,
+        1,
+        3
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Aturan baku TKP saat perintah atasan menabrak SOP: tolak dengan sopan + jelaskan aturannya + tawarkan solusi percepatan yang TETAP sah secara prosedur."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Mematuhi perintah pelanggaran aturan secara membabi buta maupun memviralkan internal kantor bernilai terendah."
+        },
+        {
+          "lens": "logika",
+          "text": "Solusi terbaik menjaga hubungan baik dengan pimpinan sekaligus melindungi integritas prosedur."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Diam menumpuk berkas tidak membantu penyelesaian pelayanan."
+        }
+      ],
+      "explain": "Profesionalisme ASN mensyaratkan keberanian etis menolak prosedur tidak sah secara santun sembari memberi jalan keluar sah ketika syarat lengkap (poin 5).",
+      "targetSec": 40,
+      "source": "Original Bank Soal 2026 · TKP Profesionalisme"
+    },
+    {
+      "id": "orig26-tkp-09",
+      "subtest": "tkp",
+      "topic": "tik & adaptasi kerja",
+      "stem": "Anda diminta mengikuti lokakarya daring singkat mengenai alat analisis data publik terbaru agar tim bisa mempercepat penyusunan laporan triwulanan, namun jadwalnya bersamaan dengan pekerjaan rutin ringan. Sikap Anda adalah…",
+      "options": [
+        "Mengatur jadwal pekerjaan rutin lebih awal agar dapat mengikuti lokakarya secara fokus dan langsung membagikan ringkasan praktiknya ke tim.",
+        "Menolak ikut lokakarya karena merasa metode lama sudah cukup nyaman.",
+        "Menghidupkan Zoom saja untuk absen sambil mengerjakan hal pribadi lain.",
+        "Meminta rekan magang saja yang ikut lalu menyalin sertifikatnya.",
+        "Ikut sebentar di 10 menit awal lalu keluar tanpa izin."
+      ],
+      "weights": [
+        5,
+        2,
+        1,
+        1,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Aspek TIK & Pengembangan Diri: antusias belajar alat baru dan langsung menularkan manfaatnya ke tim adalah ciri skor 5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Hadir sekadar formalitas atau menolak belajar hal baru mendapat skor rendah."
+        },
+        {
+          "lens": "logika",
+          "text": "Manajemen waktu agar tugas rutin beres sekaligus ilmu baru terserap menunjukkan kematangan kerja."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Fokus pada kata kunci 'fokus belajar' dan 'bagikan praktik ke tim'."
+        }
+      ],
+      "explain": "Mengelola prioritas sehingga tetap tuntas bekerja sambil menyerap teknologi baru dan membagikannya ke tim meraih skor tertinggi (5).",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · TKP TIK"
+    },
+    {
+      "id": "orig26-tkp-10",
+      "subtest": "tkp",
+      "topic": "jejaring kerja & kolaborasi",
+      "stem": "Dalam tim gabungan penyelenggaraan pameran pelayanan publik daerah, salah satu anggota yang berasal dari instansi lain kesulitan menyelesaikan materi desain karena keterbatasan perangkat lunak. Yang Anda lakukan adalah…",
+      "options": [
+        "Membiarkannya mengurus sendiri karena bukan tanggung jawab unit kerja Anda.",
+        "Membantu meminjamkan akses alat kerja resmi kantor sesuai izin atau berbagi template siap pakai agar target tim gabungan tetap tercapai tepat waktu.",
+        "Mengkritiknya di forum evaluasi bahwa SDM instansinya tidak siap bekerja sama.",
+        "Mengambil alih seluruh kredit pameran sebagai keberhasilan unit Anda sendiri.",
+        "Menyarankan ketua tim untuk mengeluarkannya dari kepanitiaan."
+      ],
+      "weights": [
+        2,
+        5,
+        1,
+        1,
+        2
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Aspek Jejaring Kerja: ketika rekan lintas instansi terkendala teknis, bantu dengan berbagi sumber daya/template yang sah demi tujuan bersama."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sikap ego sektoral atau mengkritik keras tidak menyelesaikan hambatan acara."
+        },
+        {
+          "lens": "logika",
+          "text": "Kolaborasi lintas unit diukur dari kesediaan saling melengkapi kekurangan teknis tim."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Keberhasilan tim gabungan adalah kesuksesan bersama."
+        }
+      ],
+      "explain": "Berbagi solusi praktis (template/alat sah) agar anggota lintas unit tidak tertinggal demi sukses pameran bersama menunjukkan Jejaring Kerja terbaik (5).",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · TKP Jejaring Kerja"
+    }
+  ]
+}

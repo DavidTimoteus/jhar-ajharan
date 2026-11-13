@@ -1,0 +1,681 @@
+{
+  "id": "rbb-bumn-original-2026",
+  "name": "RBB BUMN 2026 · Bank Original TKD, AKHLAK, B. Inggris & Agility",
+  "family": "bumn",
+  "version": 1,
+  "updatedAt": "2026-11-13T00:00:00.000Z",
+  "note": "18 soal 100% original berstandar FHCI RBB BUMN Terbaru (Tahap 1: TKD Verbal/Deret/Klasifikasi/Diagram, AKHLAK, TWK BUMN; Tahap 2: Grammar/Error ID/Reading & Learning Agility) dengan pembahasan bahasa awam terverifikasi.",
+  "source": "Bank Soal Original Jhâr-Ajhârân 2026 (disusun mengacu standar materi resmi FHCI RBB BUMN).",
+  "config": {
+    "durationMin": 30,
+    "subtests": [
+      {
+        "id": "tkd",
+        "name": "TKD (Verbal · Deret · Klasifikasi · Diagram)",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 15
+      },
+      {
+        "id": "akhlak",
+        "name": "Core Values AKHLAK",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 15
+      },
+      {
+        "id": "twk_bumn",
+        "name": "TWK BUMN",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 5
+      },
+      {
+        "id": "bhs",
+        "name": "Bahasa Inggris",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 15
+      },
+      {
+        "id": "agility",
+        "name": "Learning Agility",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 10
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "orig-bumn26-tkd-01",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Semua karyawan BUMN yang lulus pelatihan cloud diwajibkan mengikuti sertifikasi keamanan siber.\nBeberapa staf divisi keuangan belum lulus pelatihan cloud.\nManakah kesimpulan yang PASTI BENAR?",
+      "options": [
+        "Semua staf divisi keuangan wajib mengikuti sertifikasi keamanan siber.",
+        "Tidak ada staf divisi keuangan yang mengikuti sertifikasi keamanan siber.",
+        "Sebagian staf divisi keuangan mungkin sudah atau belum mengikuti sertifikasi keamanan siber atas inisiatif lain, tetapi mereka belum terkena kewajiban dari syarat kelulusan cloud ini.",
+        "Semua karyawan selain staf divisi keuangan pasti sudah lulus pelatihan cloud.",
+        "Sertifikasi keamanan siber hanya berlaku untuk divisi teknologi informasi."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hati-hati pada premis 'Beberapa belum lulus'! Itu TIDAK otomatis melarang mereka ikut sertifikasi lewat jalur lain, dan tidak berarti seluruh divisi gagal."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang menggeneralisasi 'Semua' atau 'Tidak ada' secara mutlak untuk seluruh divisi keuangan."
+        },
+        {
+          "lens": "logika",
+          "text": "Aturan logika RBB: 'Jika P → Q', tidak terpenuhinya P (~P) tidak membuktikan ~Q."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan menyimpulkan 'tidak lulus cloud = pasti tidak ikut sertifikasi'."
+        }
+      ],
+      "explain": "Aturan 'Jika lulus cloud → wajib sertifikasi' tidak melarang orang yang belum lulus cloud untuk mengikuti sertifikasi lewat jalur sukarela, dan premis menyebut 'beberapa' bukan semua staf keuangan. Jadi satu-satunya kesimpulan logis sah adalah mereka belum terkena kewajiban dari jalur pelatihan cloud tersebut.",
+      "targetSec": 45,
+      "source": "Original Bank Soal 2026 · RBB TKD Verbal"
+    },
+    {
+      "id": "orig-bumn26-tkd-02",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "Tentukan angka berikutnya pada deret:\n5, 12, 8, 24, 11, 48, 14, …",
+      "options": [
+        "17",
+        "64",
+        "72",
+        "84",
+        "96"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Angkanya naik-turun berselang-seling! Pisahkan menjadi 2 deret terpisah: posisi ganjil (5, 8, 11, 14 = selalu +3) dan posisi genap (12, 24, 48 = selalu dikali 2). Karena posisi yang ditanya adalah urutan genap ke-8, lanjutkan 48 × 2."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Opsi 17 adalah jebakan untuk posisi ganjil ke-9, bukan posisi ke-8 yang sedang ditanya!"
+        },
+        {
+          "lens": "logika",
+          "text": "Deret selang-seling dua jalur sangat sering muncul di Subtes 2 TKD RBB BUMN."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan hitung selisih langsung 12 ke 8 ke 24 karena berasal dari dua pola berbeda."
+        }
+      ],
+      "explain": "Sub-deret posisi ganjil: 5, 8, 11, 14 (+3). Sub-deret posisi genap: 12, 24, 48 (×2). Angka berikutnya berada di posisi ke-8 (genap) = 48 × 2 = 96.",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · RBB Number Sequence"
+    },
+    {
+      "id": "orig-bumn26-tkd-03",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "Lanjutkan barisan bilangan berikut:\n2, 5, 11, 23, 47, …",
+      "options": [
+        "71",
+        "85",
+        "91",
+        "94",
+        "95"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Lihat selisihnya: +3, +6, +12, +24 (selalu berlipat 2)! Atau lebih cepat lagi: tiap angka dikali 2 lalu ditambah 1 → 47 × 2 + 1."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Karena seluruh suku selain 2 berupa bilangan ganjil, hasil (×2 + 1) pasti ganjil (buang 94)."
+        },
+        {
+          "lens": "logika",
+          "text": "Dua cara menguji menghasilkan angka sama persis: tambah +48 ke 47 atau 47×2 + 1."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan lupa menambahkan '+1' setelah mengalikan dua."
+        }
+      ],
+      "explain": "Pola suku berikutnya adalah (suku sebelumnya × 2) + 1: 2×2+1=5, 5×2+1=11, 11×2+1=23, 23×2+1=47, maka 47×2+1 = 95.",
+      "targetSec": 30,
+      "source": "Original Bank Soal 2026 · RBB Number Sequence"
+    },
+    {
+      "id": "orig-bumn26-tkd-04",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Pilih satu kata yang TIDAK termasuk dalam kelompok yang sama dengan keempat kata lainnya:",
+      "options": [
+        "Rupiah",
+        "Yen",
+        "Euro",
+        "Real",
+        "Saham"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kelompokkan keempat kata yang sejenis: empat kata adalah nama MATA UANG resmi negara/kawasan; cari satu yang bukan mata uang."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Perhatikan: Real adalah mata uang Brasil/Oman/Saudi (ejaan Riyal/Real), sedangkan Saham adalah instrumen kepemilikan modal."
+        },
+        {
+          "lens": "logika",
+          "text": "Cari kategori fungsional paling spesifik yang menyatukan 4 kata sekaligus."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh hanya karena semuanya berhubungan dengan topik keuangan."
+        }
+      ],
+      "explain": "Rupiah, Yen, Euro, dan Real adalah nama mata uang, sedangkan Saham adalah surat berharga bukti kepemilikan perusahaan (efek ekuitas).",
+      "targetSec": 20,
+      "source": "Original Bank Soal 2026 · RBB Word Classification"
+    },
+    {
+      "id": "orig-bumn26-tkd-05",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan aturan operator diagram berikut:\nOperator [R] = putar panah 90° searah jarum jam.\nOperator [F] = balik warna isi (hitam ↔ putih).\n\nInput awal: Panah menunjuk ke ATAS (↑) berwarna PUTIH (○).\nJika Input melewati operator [R] → [F] → [R], bagaimanakah hasil akhirnya?",
+      "options": [
+        "Panah ke KANAN (→) berwarna HITAM (●)",
+        "Panah ke BAWAH (↓) berwarna HITAM (●)",
+        "Panah ke BAWAH (↓) berwarna PUTIH (○)",
+        "Panah ke KIRI (←) berwarna HITAM (●)",
+        "Panah ke ATAS (↑) berwarna PUTIH (○)"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Lacak arah & warna secara TERPISAH agar tidak bingung! Ada 2 kali [R] (90° + 90° = putar 180° dari ATAS jadi BAWAH) dan 1 kali [F] (PUTIH dibalik jadi HITAM)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Karena ada dua operator [R], panah dari ATAS berputar 180° menjadi menunjuk ke BAWAH—coret opsi arah lain."
+        },
+        {
+          "lens": "logika",
+          "text": "Memisahkan hitungan per atribut (arah saja, lalu warna saja) membuat Diagram Reasoning RBB selesai di bawah 15 detik."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan membalik arahnya berlawanan jarum jam."
+        }
+      ],
+      "explain": "Atribut arah: ATAS → [R] menjadi KANAN → [R] lagi menjadi BAWAH (↓). Atribut warna: PUTIH → [F] sekali menjadi HITAM (●). Jadi output akhir: panah BAWAH berwarna HITAM.",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · RBB Diagram Reasoning"
+    },
+    {
+      "id": "orig-bumn26-akhlak-01",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (amanah)",
+      "stem": "Anda menyadari telah keliru mengirim angka proyeksi pendapatan pada presentasi awal kepada rekan lintas divisi sebelum rapat manajemen dimulai. Belum ada yang menyadari kekeliruan itu. Perwujudan nilai AMANAH yang paling tepat adalah…",
+      "options": [
+        "Menunggu rapat berjalan dulu; bila tidak ada yang bertanya berarti aman.",
+        "Segera mengirim ralat tertulis secara terbuka kepada seluruh penerima dengan data yang sudah diverifikasi dan menyampaikan permohonan maaf profesional.",
+        "Mengganti file di drive diam-diam tanpa memberi tahu siapa pun agar citra pribadi terjaga.",
+        "Menyalahkan sistem penyedia data internal di depan tim keuangan.",
+        "Membatalkan rapat tanpa alasan jelas untuk menunda presentasi."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Nilai AMANAH berarti memegang teguh kepercayaan dengan jujur, terbuka, dan bertanggung jawab atas kekeliruan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Diam-diam mengganti file atau berharap tidak ketahuan merusak integritas kepercayaan."
+        },
+        {
+          "lens": "logika",
+          "text": "Ralat cepat sebelum rapat menjaga kualitas keputusan bisnis perusahaan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Menyalahkan sistem lain tidak memperbaiki keakuratan informasi bagi peserta rapat."
+        }
+      ],
+      "explain": "AMANAH menuntut tanggung jawab penuh atas amanah tugas: segera merilis ralat akurat secara transparan sebelum berdampak ke keputusan manajemen.",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · AKHLAK Amanah"
+    },
+    {
+      "id": "orig-bumn26-akhlak-02",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (adaptif & kompeten)",
+      "stem": "Perusahaan BUMN tempat Anda bekerja mengadopsi dashboard pelaporan operasional baru berbasis analitik real-time untuk menggantikan laporan spreadsheet mingguan. Sebagian anggota tim kebingungan membacanya. Tindakan yang mencerminkan nilai KOMPETEN dan ADAPTIF sekaligus adalah…",
+      "options": [
+        "Mempelajari logika metrik dashboard baru hingga mahir lalu menyelenggarakan sesi berbagi singkat agar seluruh tim cepat menguasainya.",
+        "Tetap mengirim laporan spreadsheet lama karena lebih terbiasa sejak dulu.",
+        "Menunggu pelatihan resmi bersertifikat tiga bulan lagi baru mulai membukanya.",
+        "Meminta tim IT saja yang mengerjakan laporan mingguan tim Anda.",
+        "Hanya menguasai bagian metrik pribadi tanpa peduli kebingungan anggota lain."
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "KOMPETEN = terus meningkatkan kapabilitas diri & membantu orang lain belajar; ADAPTIF = antusias menggerakkan perubahan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menolak sistem baru atau pasif menunggu berbulan-bulan bertentangan langsung dengan Adaptif."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik selalu mencakup dua sisi: kuasai sendiri + bantu rekan tim ikut mahir."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan melemparkan tanggung jawab pelaporan ke divisi IT."
+        }
+      ],
+      "explain": "Menguasai perubahan teknologi secara mandiri sekaligus memfasilitasi pembelajaran rekan kerja memadukan nilai Kompeten dan Adaptif secara utuh.",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · AKHLAK Kompeten-Adaptif"
+    },
+    {
+      "id": "orig-bumn26-akhlak-03",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (harmonis & kolaboratif)",
+      "stem": "Dua anggota tim berdebat tajam karena perbedaan gaya kerja antara anggota senior yang mengutamakan kehati-hatian dokumen dan anggota muda yang ingin serba cepat dengan otomasi. Sebagai pemimpin proyek kecil tersebut, sikap Anda adalah…",
+      "options": [
+        "Memihak anggota muda sepenuhnya agar proyek cepat selesai tanpa birokrasi.",
+        "Meminta keduanya berdialog tenang, menyatukan ketelitian kontrol kualitas senior dengan kecepatan otomasi anggota muda dalam alur kerja bersama.",
+        "Memindahkan salah satu anggota keluar tim agar tidak berdebat lagi.",
+        "Menegur keduanya secara emosional di hadapan klien eksternal.",
+        "Membiarkan mereka terus berbeda cara kerja tanpa menyusun kesepakatan proses."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "HARMONIS = menghargai perbedaan latar/gaya; KOLABORATIF = menyatukan kekuatan berbeda menjadi sinergi produktif."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Hindari memihak satu kubu, memarahi di depan klien, atau langsung memecah tim."
+        },
+        {
+          "lens": "logika",
+          "text": "Sinergi lintas generasi mengubah potensi konflik menjadi keunggulan tim."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Perbedaan gaya kerja tidak selesai jika dibiarkan tanpa kesepakatan standar."
+        }
+      ],
+      "explain": "Menghargai kekuatan masing-masing (ketelitian + kecepatan digital) lewat dialog dan menyatukannya dalam alur tim mempraktikkan Harmonis sekaligus Kolaboratif.",
+      "targetSec": 38,
+      "source": "Original Bank Soal 2026 · AKHLAK Harmonis-Kolaboratif"
+    },
+    {
+      "id": "orig-bumn26-akhlak-04",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (loyal)",
+      "stem": "Di media sosial ramai komentar negatif tidak berdasar mengenai proses layanan salah satu cabang perusahaan BUMN Anda. Sebagai karyawan yang memegang nilai LOYAL, sikap Anda yang paling tepat adalah…",
+      "options": [
+        "Ikut membalas dengan komentar emosional dan menyerang akun warganet tersebut.",
+        "Membagikan informasi rahasia operasional internal perusahaan demi membela cabang Anda.",
+        "Tidak menyebarkan spekulasi, melaporkan isu tersebut ke tim komunikasi korporat/humas resmi agar ditangani lewat klarifikasi faktual, dan tetap menjaga kualitas layanan.",
+        "Menghapus identitas kantor dari profil kerja sementara lalu ikut mengkritik di kolom komentar.",
+        "Mengabaikan sepenuhnya kendati ada keluhan pelanggan valid yang butuh ditindaklanjuti."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "LOYAL = menjaga nama baik karyawan, BUMN, dan Negara melalui jalur profesional tanpa membocorkan rahasia perusahaan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Jangan membalas komentar dengan emosi apalagi mengunggah dokumen internal rahasia ke ruang publik."
+        },
+        {
+          "lens": "logika",
+          "text": "Eskalasi ke fungsi Humas resmi + perbaikan mutu layanan internal menjaga reputasi perusahaan secara bermartabat."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Ikut menjelekkan perusahaan di ruang publik jelas bertentangan dengan Loyal."
+        }
+      ],
+      "explain": "Loyalitas diwujudkan dengan menjaga nama baik sekaligus etika informasi perusahaan: meneruskan isu ke unit Humas resmi agar diklarifikasi berbasis data, bukan debat emosional atau membocorkan rahasia.",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · AKHLAK Loyal"
+    },
+    {
+      "id": "orig-bumn26-twk-01",
+      "subtest": "twk_bumn",
+      "topic": "wawasan kebangsaan bumn",
+      "stem": "Selain mengejar keuntungan komersial, Badan Usaha Milik Negara (BUMN) mengemban fungsi Public Service Obligation (PSO) seperti subsidi distribusi energi serta konektivitas wilayah tertinggal, terdepan, dan terluar (3T). Landasan konstitusional utama mandat pelayanan publik ini merujuk pada…",
+      "options": [
+        "Pasal 28E UUD 1945 tentang kebebasan berserikat.",
+        "Pasal 33 UUD 1945 tentang perekonomian nasional yang menguasai cabang produksi penting bagi hajat hidup orang banyak.",
+        "Pasal 18 ayat (1) UUD 1945 tentang pembagian provinsi.",
+        "Pasal 27 ayat (3) UUD 1945 tentang kewajiban membela negara bersenjata.",
+        "Pasal 31 UUD 1945 tentang anggaran pendidikan nasional."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kaitan langsung BUMN + hajat hidup orang banyak selalu bermuara pada Pasal 33 UUD 1945."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Pasal 31 soal pendidikan, Pasal 18 soal pemda, Pasal 28E soal HAM kebebasan berserikat."
+        },
+        {
+          "lens": "logika",
+          "text": "BUMN menjadi perpanjangan negara menjaga keadilan distribusi barang strategis di seluruh Nusantara."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar dengan pasal kewajiban warga negara (27)."
+        }
+      ],
+      "explain": "Pasal 33 ayat (2) & (3) UUD 1945 mengamanatkan cabang-cabang produksi penting dan menguasai hajat hidup orang banyak dikuasai oleh negara untuk kemakmuran rakyat, yang dijalankan antara lain oleh BUMN lewat penugasan PSO.",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · TWK BUMN"
+    },
+    {
+      "id": "orig-bumn26-twk-02",
+      "subtest": "twk_bumn",
+      "topic": "wawasan kebangsaan bumn",
+      "stem": "Dalam ekosistem tata kelola BUMN modern, penerapan prinsip Good Corporate Governance (GCG) terdiri dari lima pilar TARIF. Huruf 'F' pada prinsip TARIF merupakan singkatan dari…",
+      "options": [
+        "Flexibility (Keluwesan aturan sesuai kondisi).",
+        "Fairness (Kewajaran dan kesetaraan dalam memenuhi hak pemangku kepentingan).",
+        "Financialization (Fokus laba jangka pendek).",
+        "Formality (Kepatuhan kertas laporan belaka).",
+        "Fast-track (Percepatan tanpa audit)."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal 5 pilar GCG (TARIF): Transparency, Accountability, Responsibility, Independency, Fairness."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Pilar GCG berfokus pada tata kelola bersih dan adil, bukan pemangkasan audit atau laba jangka pendek."
+        },
+        {
+          "lens": "logika",
+          "text": "Fairness menjamin perlakuan wajar dan adil kepada pemegang saham minoritas, pelanggan, mitra, dan karyawan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan keliru menebak 'Flexibility' sebagai pilar resmi TARIF."
+        }
+      ],
+      "explain": "Lima prinsip GCG BUMN dikenal dengan akronim TARIF: Transparency (Keterbukaan), Accountability (Akuntabilitas), Responsibility (Pertanggungjawaban), Independency (Kemandirian), dan Fairness (Kewajaran).",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · TWK GCG BUMN"
+    },
+    {
+      "id": "orig-bumn26-bhs-01",
+      "subtest": "bhs",
+      "topic": "grammar & structure",
+      "stem": "The number of clean energy projects funded by state-owned enterprises _____ significantly over the past five years.",
+      "options": [
+        "have increased",
+        "has increased",
+        "are increasing",
+        "were increased",
+        "increasing"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal aturan paling klasik RBB BUMN: 'The number of + kata jamak' SELALU memakai Verb TUNGGAL (has/is)! Sebaliknya, 'A number of' barulah jamak."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Jangan terkecoh kata 'projects' atau 'enterprises' yang jamak; kata kerja utama harus mengikuti frasa inti 'The number'. Plus penanda waktu 'over the past five years' menuntut Present Perfect."
+        },
+        {
+          "lens": "logika",
+          "text": "S + has + V3 cocok untuk aksi berlangsung dari lampau hingga kini."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Coret 'increasing' karena tidak ada auxiliary verb sebelum V-ing."
+        }
+      ],
+      "explain": "Subjek kalimat diawali 'The number of ...' yang bermakna tunggal ('jumlahnya'), sehingga wajib berpasangan dengan auxiliary tunggal 'has' + V3 ('increased') sesuai penanda 'over the past five years'.",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · RBB B. Inggris Structure"
+    },
+    {
+      "id": "orig-bumn26-bhs-02",
+      "subtest": "bhs",
+      "topic": "error identification",
+      "stem": "Identify the bracketed part that must be corrected:\nEvery regional branch manager must ensure [A: that] customer complaints are [B: handled] promptly, accurately, and [C: in a polite manner] before [D: submit] the weekly report to [E: headquarters].",
+      "options": [
+        "[A] that",
+        "[B] handled",
+        "[C] in a polite manner",
+        "[D] submit",
+        "[E] headquarters"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Aturan emas kata depan (Preposition): setelah kata seperti 'before / after / without / by / in', kata kerja wajib berbentuk V-ing (Gerund), bukan V1 polos!"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek satu per satu: 'that' benar (klausa benda), 'are handled' benar (pasif), 'before' adalah preposisi/konjungsi tanpa subjek → cek kata kerja tepat sesudahnya."
+        },
+        {
+          "lens": "logika",
+          "text": "Bentuk benar seharusnya: 'before submitting the weekly report'."
+        },
+        {
+          "lens": "jebakan",
+          "text": "'Headquarters' memang selalu berakhiran -s sekalipun bermakna satu kantor pusat."
+        }
+      ],
+      "explain": "Setelah preposisi 'before' (ketika tidak diikuti subjek baru), kata kerja wajib memakai bentuk gerund (V-ing). Jadi [D] 'submit' salah dan harus diperbaiki menjadi 'submitting'.",
+      "targetSec": 40,
+      "source": "Original Bank Soal 2026 · RBB Error ID"
+    },
+    {
+      "id": "orig-bumn26-bhs-03",
+      "subtest": "bhs",
+      "topic": "grammar & parallelism",
+      "stem": "The new logistics platform aims to reduce delivery bottlenecks, cut operational overhead, and _____ real-time shipment visibility across islands.",
+      "options": [
+        "enhancing",
+        "enhanced",
+        "to enhancing",
+        "enhance",
+        "it enhances"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek pola paralel sebelum kata 'and': '... aims to [reduce] ..., [cut] ..., and [___] ...'. Ketiganya bergantung pada 'to' + kata kerja dasar (V1 polos)!"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret '-ing', '-ed', atau klausa baru 'it enhances' karena memutus kesetaraan bentuk kata kerja."
+        },
+        {
+          "lens": "logika",
+          "text": "Parallelism: item A, item B, and item C harus punya kelas tata bahasa persis sama."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertipu untuk mengulang 'to enhancing'."
+        }
+      ],
+      "explain": "Struktur paralel kalimat memakai 'to + V1': (to) reduce ..., (to) cut ..., and (to) enhance .... Oleh karena itu bentuk yang setara adalah 'enhance'.",
+      "targetSec": 30,
+      "source": "Original Bank Soal 2026 · RBB Parallelism"
+    },
+    {
+      "id": "orig-bumn26-bhs-04",
+      "subtest": "bhs",
+      "topic": "reading comprehension",
+      "stem": "Bacaan:\n\"While digital payment adoption in Indonesian tier-1 cities has exceeded initial projections, rural micro-merchants still cite unstable mobile connectivity and complex onboarding forms as major barriers. In response, state banking consortiums are testing lightweight offline-capable QR settlement apps paired with assisted local agent onboarding.\"\n\nBased on the passage, why are banking consortiums piloting lightweight offline-capable apps?",
+      "options": [
+        "Because digital payment adoption in major tier-1 cities has dropped sharply.",
+        "To completely replace all human bank branches in large metropolitan areas.",
+        "To address connectivity constraints and simplify adoption for rural micro-merchants.",
+        "Because QR technology can no longer work online in urban corridors.",
+        "To collect longer onboarding forms from small merchants."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Baca kata tanya 'why piloting lightweight offline apps', lalu cari kalimat tepat sesudah frasa 'In response'—jawaban benarnya adalah parafrase dari masalah kalimat sebelumnya!"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kalimat pertama menyebut adopsi kota besar justru 'exceeded projections' (naik melampaui target)—langsung coret opsi yang menyebut turun."
+        },
+        {
+          "lens": "logika",
+          "text": "Solusi aplikasi ringan + agen lokal menjawab dua kendala persis: sinyal tidak stabil + formulir rumit."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai opsi yang menyebut 'collect longer forms', padahal tujuannya justru mengatasi kerumitan formulir."
+        }
+      ],
+      "explain": "Teks menjelaskan dua kendala pedagang mikro pedesaan yaitu sinyal seluler tidak stabil dan formulir pendaftaran rumit. Untuk mengatasinya ('In response'), konsorsium bank menguji aplikasi QR ringan ramah offline dan pendampingan agen lokal.",
+      "targetSec": 55,
+      "source": "Original Bank Soal 2026 · RBB Reading"
+    },
+    {
+      "id": "orig-bumn26-agility-01",
+      "subtest": "agility",
+      "topic": "learning agility (change & mental)",
+      "stem": "Tim Anda mendapat penugasan mendadak merancang layanan pelanggan berbasis asisten AI dalam 3 minggu, padahal belum ada satu pun anggota yang pernah meluncurkan produk serupa. Bagaimana pendekatan terbaik yang menunjukkan Learning Agility tinggi?",
+      "options": [
+        "Menolak tugas sampai perusahaan mengontrak vendor luar untuk mengerjakan seluruhnya.",
+        "Memetakan kompetensi yang belum dimiliki tim, mempelajari studi kasus resmi yang ada, dan segera menguji prototipe kecil bersama mentor internal sambil mencatat pelajaran dari tiap uji coba.",
+        "Langsung meluncurkan bot ke seluruh pelanggan tanpa uji coba terbatas agar cepat selesai.",
+        "Meminta penundaan target hingga enam bulan ke depan tanpa rencana kerja awal.",
+        "Menyerahkan seluruh risiko desain kepada anggota tim paling junior."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Learning Agility tinggi selalu memadukan 3 kunci: memetakan celah belajar, berani uji coba bertahap (iterasi cepat), dan refleksi dari umpan balik."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Menolak tugas karena belum bisa menunjukkan Change Agility rendah; meluncurkan langsung ke seluruh nasabah tanpa uji coba berisiko ceroboh."
+        },
+        {
+          "lens": "logika",
+          "text": "Hasil terbaik lahir dari eksekusi terukur: belajar cepat lewat prototipe kecil."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hindari opsi ekstrem pasif maupun nekat tanpa manajemen risiko."
+        }
+      ],
+      "explain": "Dimensi Mental & Change Agility tercermin dari kemauan memetakan kekurangan ilmu, aktif mencari referensi/mentor, menguji prototipe kecil secara terukur, dan belajar cepat dari setiap iterasi.",
+      "targetSec": 40,
+      "source": "Original Bank Soal 2026 · RBB Learning Agility"
+    },
+    {
+      "id": "orig-bumn26-agility-02",
+      "subtest": "agility",
+      "topic": "learning agility (self-awareness)",
+      "stem": "Setelah presentasi inovasi Anda mendapat beberapa kritik tajam dari komite penilai karena asumsi biaya implementasi yang terlalu optimistis, respons yang mencerminkan Self-Awareness dan Learning Agility adalah…",
+      "options": [
+        "Berdebat panjang membela diri bahwa komite kurang memahami visi besar proyek Anda.",
+        "Merasa tidak berbakat dan menarik diri dari seluruh proyek inovasi berikutnya.",
+        "Mencatat seluruh masukan objektif komite, mengevaluasi kelemahan perhitungan asumsi biaya bersama ahli keuangan, lalu merevisi proposal menjadi lebih realistis.",
+        "Menganggap kritik itu semata karena faktor ketidaksukaan pribadi terhadap tim Anda.",
+        "Mengubah judul proposal saja tanpa membetulkan tabel rincian biayanya."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Self-Awareness = terbuka terhadap umpan balik jujur + menerjemahkan kritik menjadi perbaikan konkret tanpa defensif atau patah semangat."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret sikap defensif, menganggap personal, maupun menyerah mundur."
+        },
+        {
+          "lens": "logika",
+          "text": "Kombinasi refleksi + perbaikan angka bersama ahli keuangan menunjukkan Results & People Agility sekaligus."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sekadar mengganti judul tanpa memperbaiki substansi adalah kegagalan belajar."
+        }
+      ],
+      "explain": "Individu dengan Learning Agility tinggi menerima kritik sebagai bahan bakar perbaikan: mendengarkan objektif, berkolaborasi memperbaiki titik lemah biaya, dan menyajikan revisi unggul.",
+      "targetSec": 35,
+      "source": "Original Bank Soal 2026 · RBB Self-Awareness"
+    },
+    {
+      "id": "orig-bumn26-agility-03",
+      "subtest": "agility",
+      "topic": "learning agility (results agility)",
+      "stem": "Di tengah pengerjaan proyek infrastruktur distribusi baru, regulator menerbitkan ketentuan standar keselamatan tambahan yang mengubah 30% desain awal Anda padahal tenggat peluncuran tinggal dua pekan. Tindakan Anda adalah…",
+      "options": [
+        "Mengabaikan ketentuan regulator baru demi mengejar tanggal peluncuran lama.",
+        "Segera memetakan dampak aturan baru terhadap komponen yang berubah, menyusun ulang prioritas kerja tim lintas fungsi, dan mengomunikasikan penyesuaian jadwal/solusi terukur kepada pimpinan.",
+        "Menghentikan seluruh aktivitas tim sambil menunggu rapat pleno bulan depan.",
+        "Mengeluh di grup kerja bahwa aturan baru membuat pekerjaan selama ini sia-sia.",
+        "Membiarkan bagian keselamatan dikerjakan belakangan setelah sistem beroperasi penuh."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Results Agility = tetap tenang mencapai hasil terbaik di tengah perubahan mendadak tanpa melanggar standar keselamatan/regulasi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Jangan pernah mengorbankan standar keselamatan atau mengabaikan regulator demi kecepatan semu."
+        },
+        {
+          "lens": "logika",
+          "text": "Pemetaan dampak + penyesuaian prioritas cepat adalah kunci respons adaptif."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Berhenti bekerja atau sekadar mengeluh menunda pemecahan masalah."
+        }
+      ],
+      "explain": "Results & Change Agility menuntut ketangkasan memetakan dampak perubahan regulasi secara cepat, mengoordinasikan prioritas tim, dan mengusulkan eksekusi aman yang terukur kepada pimpinan.",
+      "targetSec": 40,
+      "source": "Original Bank Soal 2026 · RBB Results Agility"
+    }
+  ]
+}

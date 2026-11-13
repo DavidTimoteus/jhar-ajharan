@@ -1,0 +1,1528 @@
+{
+  "id": "cpns-tiu-hots-drill",
+  "name": "Fokus HOTS TIU · Analogi, Silogisme & Analitik",
+  "family": "cpns",
+  "version": 1,
+  "updatedAt": "2026-11-13T00:00:00.000Z",
+  "note": "Latihan intensif 43 soal HOTS TIU pilihan (Analogi Verbal, Silogisme Logis, dan Penalaran Analitik) disertai pembahasan langkah demi langkah.",
+  "source": "Kurasi latihan HOTS TIU (Analogi, Silogisme & Penalaran Analitik).",
+  "config": {
+    "durationMin": 45,
+    "subtests": [
+      {
+        "id": "tiu",
+        "name": "Tes Intelegensi Umum (HOTS)",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 150
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "tiu-hots-01",
+      "subtest": "tiu",
+      "topic": "analogi verbal",
+      "stem": "Guru : sekolah = … : …",
+      "options": [
+        "Penebang pohon : pabrik",
+        "Musisi : piano",
+        "Pengacara : panggung",
+        "Penyanyi : suara",
+        "Petani : ladang"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Guru bekerja di sekolah.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Guru bekerja di sekolah. Petani bekerja di ladang.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-02",
+      "subtest": "tiu",
+      "topic": "analogi verbal",
+      "stem": "Laut : samudra = … : …",
+      "options": [
+        "Sungai : laut",
+        "Danau : air",
+        "Bukit : lembah",
+        "Pulau : benua",
+        "Delta : laut Mata Pelajaran = Kemampuan Verbal, Kemampuan Kuantitatif, Kemampuan Logika Tanggal Ujian = Jumlah Soal = 55 Waktu = 60 menit Paket Soal"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Samudra merupakan perairan yang tingkatannya berada di atas laut.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Samudra merupakan perairan yang tingkatannya berada di atas laut. Benua merupakan daratan yang tingkatannya di atas pulau.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-03",
+      "subtest": "tiu",
+      "topic": "analogi verbal",
+      "stem": "Cacing : ular = … : …",
+      "options": [
+        "Singa : harimau",
+        "Kambing : sapi",
+        "Biawak : komodo",
+        "Hiu : paus",
+        "Merpati : elang"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Cacing binatang melata jinak, dan ular binatang melata buas.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Cacing binatang melata jinak, dan ular binatang melata buas. Merpati jenis burung jinak, elang jenis burung buas.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-04",
+      "subtest": "tiu",
+      "topic": "analogi verbal",
+      "stem": "Gigi taring : karnivora = … : …",
+      "options": [
+        "Cakar : binatang buas",
+        "Tajam : mata",
+        "Sayap : terbang",
+        "Ekor : binatang",
+        "Paruh : makan"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Karnivora mempunyai gigi taring (untuk mencabik makanannya, yaitu daging) Binatang buas mempunyai cakar."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Karnivora mempunyai gigi taring (untuk mencabik makanannya, yaitu daging) Binatang buas mempunyai cakar.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-05",
+      "subtest": "tiu",
+      "topic": "analogi verbal",
+      "stem": "Orang bodoh : ilmu = … : …",
+      "options": [
+        "Orang miskin : derma",
+        "Orang mengemis : lapar",
+        "Orang menganggur : kerja Untuk soal nomor 6 sampai dengan nomor 7, pilihlah kata pada alternatif jawaban (A, B, C, D, E) yang paling tepat untuk melengkapi pasangan kata pada ruas sebelah kanan! Contoh: KAPAL : NAHKODA = PESAWAT : ... A. Terbang D. Navigator B. Pilot E. Udara C. Pramugari Jawaban yang paling tepat adalah B.",
+        "Orang bekerja : gaji",
+        "Orang kaya : harta"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Orang bodoh tidak mempunyai ilmu.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Orang bodoh tidak mempunyai ilmu. Orang menganggur tidak kerja.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-06",
+      "subtest": "tiu",
+      "topic": "analogi verbal",
+      "stem": "Bulu hidung : udara = alis : ….",
+      "options": [
+        "Hitam",
+        "Keringat",
+        "Mata",
+        "Kotor",
+        "Debu"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Bulu hidung berfungsi untuk menyaring udara.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Bulu hidung berfungsi untuk menyaring udara. Alis berfungsi untuk menyaring keringat.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-07",
+      "subtest": "tiu",
+      "topic": "analogi verbal",
+      "stem": "Baju : pakaian = beras : ….",
+      "options": [
+        "Padi",
+        "Pangan",
+        "Sawah Untuk soal nomor 8 sampai dengan nomor 10, pilihlah pasangan kata yang paling tepat untuk mengisi titik-titik (...) pada bagian kalimat agar antarbagian kalimat tersebut memiliki hubungan yang analogis! Contoh: ... berhubungan dengan NASI, sebagaimana AIR berhubungan dengan .... A. Sendok - botol D. Makan - nasi B. Piring - gelas E. Minum - makan C. Beras - kopi Jawab: Yang berhubungan dengan nasi adalah piring dan air berhubungan dengan gelas. Jawaban: B.",
+        "Petani",
+        "Desa"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Baju salah satu jenis pakaian.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Baju salah satu jenis pakaian. Beras salah satu jenis pangan.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-08",
+      "subtest": "tiu",
+      "topic": "analogi verbal",
+      "stem": "… berhubungan dengan TULANG, sebagaimana GEDUNG berhubungan dengan …",
+      "options": [
+        "Belulang – ber-AC",
+        "Tinggal – bertingkat",
+        "Tua – kota",
+        "Tubuh – rangka",
+        "Kurus – kokoh"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: TUBUH berhubungan dengan TULANG, sebagaimana GEDUNG berhubungan dengan RANGKA."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "TUBUH berhubungan dengan TULANG, sebagaimana GEDUNG berhubungan dengan RANGKA.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-09",
+      "subtest": "tiu",
+      "topic": "analogi verbal",
+      "stem": "… berhubungan dengan SISWA, sebagaimana DOSEN berhubungan dengan ….",
+      "options": [
+        "Guru – perguruan tinggi",
+        "Guru – kuliah",
+        "Mahasiswa – guru",
+        "Belajar – pengajar",
+        "SMA – mahasiswa"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: MAHASISWA berhubungan dengan SISWA, sebagaimana DOSEN berhubungan dengan GURU."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "MAHASISWA berhubungan dengan SISWA, sebagaimana DOSEN berhubungan dengan GURU.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-10",
+      "subtest": "tiu",
+      "topic": "analogi verbal",
+      "stem": "… berhubungan dengan KAPAL, sebagaimana PESAWAT UDARA berhubungan dengan ….",
+      "options": [
+        "Angkatan laut – angkatan darat",
+        "Pelaut – penerbang",
+        "Prajurit – pilot",
+        "Ikan – polusi",
+        "Sungai – oksigen Untuk soal nomor 11 sampai dengan nomor 25, tentukan simpulan yang tepat berdasarkan pernyataan-pernyataan yang tersedia pada setiap soal! Contoh: Semua pengemudi mengenakan sabuk pengaman. Sebagian pengemudi menggunakan sarung tangan. Simpulan yang tepat adalah ... A. Semua pengemudi memakai sarung tangan dan tidak mengenakan sabuk pengaman B. Semua pengemudi memakai sarung tangan dan mengenakan sabuk pengaman C. Sebagian pengemudi mengenakan sabuk pengaman dan tidak memakai sarung tangan D. Sebagian pengemudi tidak mengenakan sabuk pengaman dan memakai sarung tangan E. Sebagian pengemudi tidak mengenakan sabuk pengaman dan tidak memakai sarung tangan Jawab: Sebagian pengemudi mengenakan sabuk pengaman dan tidak memakai sarung tangan. Jawaban: C"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: PELAUT berhubungan dengan KAPAL, sebagaimana PESAWAT UDARA berhubungan dengan PENERBANG."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "PELAUT berhubungan dengan KAPAL, sebagaimana PESAWAT UDARA berhubungan dengan PENERBANG.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-11",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Semua mesin mempunyai katup. Sebagian mesin berukuran kecil. Simpulan yang tepat adalah ….",
+      "options": [
+        "Semua mesin berukuran kecil dan memiliki katup",
+        "Semua mesin berukuran tidak kecil dan memiliki katup",
+        "Semua mesin berukuran kecil dan tidak memiliki katup",
+        "Sebagian mesin berukuran tidak kecil dan memiliki katup",
+        "Sebagian mesin berukuran kecil dan tidak memiliki katup"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Semua mesin mempunyai katup.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Semua mesin mempunyai katup. Sebagian mesin berukuran kecil. → Sebagian mesin berukuran tidak kecil Jadi, kesimpulannya Sebagian mesin berukuran tidak kecil dan memiliki katup",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-12",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Semua guru dan dosen menggunakan buku sebagai bahan ajar untuk mengajar. Sebagian guru dan dosen menggunakan internet sebagai sumber untuk mengajar. Simpulan yang tepat dari pernyataan di atas adalah ….",
+      "options": [
+        "Semua guru dan dosen menggunakan buku tentang internet untuk mengajar",
+        "Semua guru dan dosen menggunakan bukan buku dan bukan internet untuk mengajar",
+        "Sebagian guru dan dosen mengguna-kan buku dan internet untuk mengajar",
+        "Sebagian guru dan dosen mengguna-kan buku tentang internet untuk mengajar",
+        "Semua guru dan dosen menggunakan buku dan internet untuk mengajar"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Semua guru dan dosen menggunakan buku sebagai bahan ajar untuk mengajar.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Semua guru dan dosen menggunakan buku sebagai bahan ajar untuk mengajar. → Sebagian guru dan dosen menggunakan buku sebagai bahan ajar untuk mengajar. Sebagian guru dan dosen menggunakan internet sebagai sumber untuk mengajar. Jadi, kesimpulannya Sebagian guru dan dosen menggunakan buku dan internet untuk mengajar.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-13",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Hewan yang termasuk mamalia berkembang biak dengan cara beranak. Buaya berkembang biak dengan cara bertelur. Simpulan yang tepat tentang buaya adalah ….",
+      "options": [
+        "Termasuk hewan mamalia",
+        "Termasuk hewan yang beranak dan bertelur",
+        "Berkembang biak dengan cara mamalia",
+        "Termasuk hewan bukan mamalia",
+        "Termasuk hewan mamalia yang bertelur"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Hewan yang termasuk mamalia berkembang biak dengan cara beranak.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Hewan yang termasuk mamalia berkembang biak dengan cara beranak. Buaya berkembang biak dengan cara bertelur. → Buaya berkembang biak tidak dengan cara beranak. Jadi, kesimpulannya buaya adalah Termasuk hewan bukan mamalia.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-14",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Semua kerabat dekat menghadiri pesta keluarga. Asep menghadiri pesta keluarga, sedangkan Dadang tidak hadir. Simpulan yang tepat adalah ….",
+      "options": [
+        "Asep bukan kerabat dekat keluarga",
+        "Dadang bukan kerabat dekat keluarga",
+        "Dadang dan Asep kerabat dekat keluarga",
+        "Dadang dan Asep bukan kerabat dekat keluarga",
+        "Dadang dan Asep dua orang kerabat dekat"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: Semua kerabat dekat menghadiri pesta keluarga.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Semua kerabat dekat menghadiri pesta keluarga. Asep menghadiri pesta keluarga, sedangkan Dadang tidak hadir. → Asep kerabat dekat, sedangkan Dadang bukan. Jadi, kesimpulannya Dadang bukan kerabat dekat keluarga.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-15",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Jika laut pasang, dermaga tenggelam. Jika dermaga tenggelam, sebagian kapal tidak dapat merapat. Simpulan yang tepat adalah ….",
+      "options": [
+        "Jika laut pasang, semua kapal tidak dapat merapat",
+        "Jika laut pasang, sebagian kapal dapat merapat",
+        "Jika laut tidak pasang, semua kapal dapat merapat",
+        "Jika laut tidak pasang, sebagian kapal dapat merapat",
+        "Jika laut tidak pasang, semua kapal tidak dapat merapat"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Jika laut pasang, dermaga tenggelam.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Jika laut pasang, dermaga tenggelam. Jika dermaga tenggelam, sebagian kapal tidak dapat merapat. Menggunakan prinsip silogisme diperoleh: Jika laut pasang, sebagian kapal dapat merapat.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-16",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Pada hari libur nasional, tidak ada kegiatan belajar-mengajar, kecuali kegiatan ekstrakurikuler. Hari Kamis adalah salah satu hari libur nasional. Simpulan yang tepat adalah ….",
+      "options": [
+        "Kegiatan belajar mengajar dilaksanakan meskipun di hari Kamis",
+        "Kegiatan belajar mengajar dilaksanakan, kecuali pada hari Kamis",
+        "Kegiatan belajar mengajar tidak dilaksanakan, kecuali pada hari Kamis",
+        "Kegiatan belajar mengajar dan ekstrakulikuler dilaksanakan pada hari Kamis",
+        "Kegiatan belajar mengajar dan ekstrakulikuler tidak dilaksanakan pada hari Kamis"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Pada hari libur nasional, tidak ada kegiatan belajar-mengajar, kecuali kegiatan ekstrakurikuler.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Pada hari libur nasional, tidak ada kegiatan belajar-mengajar, kecuali kegiatan ekstrakurikuler. Hari Kamis adalah salah satu hari libur nasional. → Pada hari Kamis, tidak ada kegiatan belajar-mengajar, kecuali kegiatan ekstrakurikuler. Jadi, kesimpulannya adalah Kegiatan belajar mengajar dilaksanakan, kecuali pada hari Kamis.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-17",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Semua calon mahasiswa melaksanakan tes psikologi. Sebagian calon mahasiswa memiliki skor TOEFL di atas 450. Simpulan yang tepat adalah ….",
+      "options": [
+        "Sebagian calon mahasiswa yang tidak memiliki skor TOEFL di atas 450 menempuh tes psikologi",
+        "Semua calon mahasiswa yang memiliki skor TOEFL di atas 450 tidak menempuh tes psikologi",
+        "Semua calon mahasiswa yang tidak memiliki skor TOEFL di atas 450 tidak menempuh tes psikologi",
+        "Sebagian calon mahasiswa yang memiliki skor TOEFL di atas 450 tidak menempuh tes psikologi",
+        "Semua calon mahasiswa yang menempuh tes psikologi tidak memiliki skor TOEFL di atas 450"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Semua calon mahasiswa melaksanakan tes psikologi.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Semua calon mahasiswa melaksanakan tes psikologi. Sebagian calon mahasiswa memiliki skor TOEFL di atas 450. → Sebagian calon mahasiswa memiliki skor TOEFL di atas 450 dan menempuh tes psikologi. 16 Atau → Sebagian calon mahasiswa tidak memiliki skor TOEFL di atas 450 dan menempuh tes psikologi. Jadi, kesimpulannya adalah Sebagian calon mahasiswa yang tidak memiliki skor TOEFL menempuh tes psikologi.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-18",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Buku-buku yang diletakkan dalam rak berkode S diterbitkan oleh penerbit A. Buku-buku yang diletakkan di rak S harganya murah. Tidak ada satu pun buku matematika di rak itu. Simpulan yang tepat tentang penerbit A adalah ….",
+      "options": [
+        "Tidak menerbitkan buku yang murah",
+        "Tidak menerbitkan buku yang tidak murah",
+        "Menerbitkan buku yang tidak murah",
+        "Menerbitkan buku matematika yang murah",
+        "Menerbitkan buku matematika yang tidak murah"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Buku-buku yang diletakkan dalam rak berkode S diterbitkan oleh penerbit A.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Buku-buku yang diletakkan dalam rak berkode S diterbitkan oleh penerbit A. Buku-buku yang diletakkan di rak S harganya murah. → Buku-buku yang diterbitkan oleh penerbit A harganya murah. Jadi, kesimpulannya tentang penerbit A adalah Tidak menerbitkan buku yang tidak murah.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-19",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Tidak ada bunga mawar, kecuali berwarna putih dan merah. Samuel menerima bunga bukan putih, bukan merah. Simpulan yang tepat tentang bunga yang diterima oleh Samuel adalah ….",
+      "options": [
+        "Bunga mawar putih",
+        "Bunga bukan mawar",
+        "Bunga bukan merah putih",
+        "Bunga bukan mawar putih",
+        "Bunga mawar bukan merah dan bukan putih"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Tidak ada bunga mawar, kecuali berwarna putih dan merah.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Tidak ada bunga mawar, kecuali berwarna putih dan merah. Samuel menerima bunga bukan putih, bukan merah. → Samuel menerima bunga bukan mawar. Jadi, kesimpulan yang tepat tentang bunga yang diterima oleh Samuel adalah bunga bukan mawar.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-20",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Peserta SNMPTN 2009 mengikuti Tes Potensi Akademik (TPA). Made tidak lulus SNMPTN 2009. Simpulan yang tepat tentang Made adalah ….",
+      "options": [
+        "Tidak mengikuti TPA dalam SNMPTN 2009",
+        "Tidak mengikuti TPA dan SNMPTN 2009",
+        "Bukan peserta SNMPTN 2009 yang mengikuti TPA",
+        "Peserta SNMPTN 2009 yang mengikuti tes bukan TPA",
+        "Telah mengikuti TPA dalam SNMPTN 2009"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Peserta SNMPTN 2009 mengikuti Tes Potensi Akademik (TPA) Made tidak lulus SNMPTN 2009.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Peserta SNMPTN 2009 mengikuti Tes Potensi Akademik (TPA) Made tidak lulus SNMPTN 2009. → Made mengikuti SNMPTN 2009 dan mengikuti TPA. Jadi, kesimpulan yang tepat tentang Made adalah Telah mengikuti TPA dalam SNMPTN 2009.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-21",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Semua pelaut adalah perenang. Sebagian perenang bukan penyelam. Simpulan yang tepat adalah ….",
+      "options": [
+        "Semua penyelam adalah pelaut",
+        "Semua penyelam bukan pelaut",
+        "Sebagian penyelam bukan pelaut",
+        "Semua pelaut adalah penyelam",
+        "Sebagian pelaut bukan penyelam"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Semua pelaut adalah perenang.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Semua pelaut adalah perenang. Sebagian perenang bukan penyelam. → Sebagian pelaut bukan penyelam. → Sebagian perenang penyelam. → Sebagian pelaut penyelam. Jadi, kesimpulan yang tepat sesuai dengan pilihan ganda adalah Sebagian pelaut bukan penyelam.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-22",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Para pedagang di Kampung Melayu memiliki pinjaman uang di Bank Rakyat. Bank Rakyat mensyaratkan jaminan dari orang yang meminjam uang. Simpulan yang tepat adalah …",
+      "options": [
+        "Para pedagang berhutang di Bank Rakyat yang berasal dari Kampung Melayu",
+        "Para pedagang di Kampung Melayu tidak memiliki jaminan di Bank Rakyat",
+        "Para pedagang di Kampung Melayu memiliki jaminan di Bank Rakyat",
+        "Para pedagang yang memiliki jaminan berhutang di Bank Rakyat",
+        "Para pedagang di Kampung Melayu berhutang di bukan Bank Rakyat"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Para pedagang di Kampung Melayu memiliki pinjaman uang di Bank Rakyat.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Para pedagang di Kampung Melayu memiliki pinjaman uang di Bank Rakyat. Bank Rakyat mensyaratkan jaminan dari orang yang meminjam uang. Jadi, kesimpulannya adalah Para pedagang di Kampung Melayu memiliki jaminan di Bank Rakyat.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-23",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Metode penanganan kanker semakin modern. Sejak pertama diketahui mengidap kanker, pada tahun 1960-an, 60% penderita kanker hidup selama 5 tahun, sedangkan tahun 1980-an, 65% penderita kanker hidup selama 8 tahun. Simpulan yang tepat adalah ….",
+      "options": [
+        "Tahun 1960-an, hanya 60% penderita kanker yang ditangani, sedangkan tahun 1980-an persentase penderita kanker yang ditangani lebih tinggi.",
+        "Tahun 1980-an, 35% penderita kanker tidak ditangani seperti penderita pada tahun 1960-an.",
+        "Tahun 1960-an tidak pernah dilakukan pendeteksian terhadap pengidap kanker secara lebih awal seperti pada tahun 1980-an.",
+        "Tahun 1980-an lebih banyak penderita kanker yang ditangani lebih baik daripada penderita kanker pada tahun 1960-an.",
+        "Tahun 1980-an jumlah penderita kanker lebih banyak daripada jumlah penderita kanker tahun 1960-an."
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: Metode penanganan kanker semakin modern.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Metode penanganan kanker semakin modern. Sejak pertama diketahui mengidap kanker, • pada tahun 1960-an, 60% penderita kanker hidup selama 5 tahun, • pada tahun 1980-an, 65% penderita kanker hidup selama 8 tahun. 17 Jadi, kesimpulannya adalah Tahun 1980-an lebih banyak penderita kanker yang ditangani lebih baik daripada penderita kanker pada tahun 1960-an.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-24",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Semua siswa kelas F dapat berbahasa Inggris. Semua siswa kelas F yang menduduki ranking 10 besar juga harus dapat berbahasa Belanda. Simpulan yang tepat tentang siswa kelas F adalah ….",
+      "options": [
+        "Yang dapat berbahasa Belanda, menduduki ranking 10 besar dan tidak dapat berbahasa Inggris",
+        "Yang dapat berbahasa Belanda, tidak menduduki ranking 10 besar dan tidak dapat berbahasa Inggris",
+        "Yang tidak dapat berbahasa Belanda, tidak menduduki ranking 10 besar dan dapat berbahasa Inggris",
+        "Yang tidak dapat berbahasa Belanda, menduduki ranking 10 besar dan tidak dapat berbahasa Inggris",
+        "Yang tidak dapat berbahasa Belanda, tidak menduduki ranking 10 besar dan tidak dapat berbahasa Inggris"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Semua siswa kelas F dapat berbahasa Inggris.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Semua siswa kelas F dapat berbahasa Inggris. Semua siswa kelas F yang menduduki ranking 10 besar juga harus dapat berbahasa Belanda. Jadi, kesimpulan yang tepat tentang siswa kelas F adalah Yang tidak dapat berbahasa Belanda, tidak menduduki ranking 10 besar dan dapat berbahasa Inggris.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-25",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Lampu neon 20 watt lebih terang daripada bola lampu 20 watt. Lampu yang lebih terang pasti lebih tahan lama dan lebih mahal harganya. Simpulan yang tepat tentang bola lampu 20 watt adalah ….",
+      "options": [
+        "Lebih tahan lama dan lebih mahal daripada lampu neon 20 watt",
+        "Tidak lebih tahan lama dan lebih mahal daripada lampu neon 20 watt",
+        "Sama tahan lama dan sama mahalnya dengan lampu neon 20 watt",
+        "Lebih tahan lama dan tidak lebih mahal daripada lampu neon 20 watt",
+        "Tidak lebih tahan lama dan tidak lebih mahal daripada lampu neon 20 watt Soal 26 sampai dengan 35 merupakan soal yang berkaitan dengan kemampuan kuantitatif. Untuk mengerjakan soal nomor 26 sampai dengan nomor 35, tentukan pilihan jawaban yang paling tepat!"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Jadi, kesimpulan yang tepat tentang bola lampu 20 watt adalah Tidak lebih tahan lama dan tidak lebih mahal daripada lampu neon 20"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Jadi, kesimpulan yang tepat tentang bola lampu 20 watt adalah Tidak lebih tahan lama dan tidak lebih mahal daripada lampu neon 20 watt.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-26",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "2, 4, 8, 14, 22, ….",
+      "options": [
+        "55",
+        "44",
+        "33",
+        "32",
+        "26"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal penalaran logis sebelum membandingkan kelima opsi. Petunjuk inti: 2 4 8 14 22 32 +2 +4 +6 +8 +10."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "2 4 8 14 22 32 +2 +4 +6 +8 +10",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-27",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "3, 4, 7, 11, 18, 29, 47, ….",
+      "options": [
+        "96",
+        "94",
+        "76",
+        "58",
+        "55"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal penalaran logis sebelum membandingkan kelima opsi. Petunjuk inti: 3, 4, 7, 11, 18, 29, 47, … X = 29 + 47 = 76."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "3, 4, 7, 11, 18, 29, 47, … X = 29 + 47 = 76.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-28",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Jika P bilangan yang menyatakan 0,573% dari 6,54; dan Q bilangan yang menyatakan 6,54% dari 0,573, maka ....",
+      "options": [
+        "P = Q",
+        "P < Q",
+        "P > Q",
+        "P ≠ Q",
+        "P = Q + 0,5"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "P Q = × = × = × = × = 0 573 6 54 0 573 100 6 54 0 573 6 54 100 6 54 0 573 6 5 , % , , , , , , % , , 4 100 0 573 6 54 0 573 100 0 573 6 54 100 × = × = × , , , , , Jadi diperoleh: P = Q",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-29",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Jika A bilangan yang menyatakan 331 % dari 18 dan B bilangan yang menyatakan 1 dari 19, maka ....",
+      "options": [
+        "A = B",
+        "A = 3B",
+        "A > B",
+        "A ≠B",
+        "A < B"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: A B = × = × = × = × = × 331 3 18 100 3 18 100 300 18 1 3 18 1 3 19 % % 18 Karena 18 < 19 maka 1 3 18 1 3 19 × < × Akibatnya, A < "
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "A B = × = × = × = × = × 331 3 18 100 3 18 100 300 18 1 3 18 1 3 19 % % 18 Karena 18 < 19 maka 1 3 18 1 3 19 × < × Akibatnya, A < B",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-30",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "6 M 5 4 4 4 5 Nilai M pada perkalian di atas adalah ….",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal penalaran logis sebelum membandingkan kelima opsi. Petunjuk inti: 6M5 × 7 = 4445 4445 : 7 = 635 Jadi, M = 3."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "6M5 × 7 = 4445 4445 : 7 = 635 Jadi, M = 3",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-31",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "6 2 N N 3 1 2 5 Nilai N pada perkalian di atas adalah ….",
+      "options": [
+        "4",
+        "5",
+        "7",
+        "8",
+        "9"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal penalaran logis sebelum membandingkan kelima opsi. Petunjuk inti: 62N × N = 3.125 Untuk nilai N × N yang hasil perkalian mempunyai nilai satuan 5, hanya dipenuhi jika N = 5.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "62N × N = 3.125 Untuk nilai N × N yang hasil perkalian mempunyai nilai satuan 5, hanya dipenuhi jika N = 5. Jadi, N = 5. Bukti: 625 × 5 = 3125",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-32",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "8 p = p 12,5 Nilai p pada persamaan di atas adalah ….",
+      "options": [
+        "100",
+        "64",
+        "16",
+        "10",
+        "8"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal penalaran logis sebelum membandingkan kelima opsi. Petunjuk inti: 8 12 5 8 12 5 100 100 10 2 2 p p p p p = = × = = =."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "8 12 5 8 12 5 100 100 10 2 2 p p p p p = = × = = = , ,",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-33",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "q 12,5% = 32 q Nilai q pada persamaan di atas adalah ….",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Untung/Rugi selalu dihitung dari Harga Beli (Modal), bukan Harga Jual. Diskon bertingkat d1% + d2% ≠ jumlah langsung, hitung bertahap. Petunjuk inti: q q q q 12 5 32 12 5 32 12 5 100 32 1 8 32 4 4 2 2 , % , % , = = × = × = × = = =."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Gunakan pembulatan kasar (estimasi puluhan terdekat) untuk membuang opsi yang terlalu jauh secara magnitudo."
+        },
+        {
+          "lens": "logika",
+          "text": "Ubah persen umum ke pecahan istimewa: 12,5% = 1/8, 25% = 1/4, 33,3% = 1/3, 37,5% = 3/8, 66,7% = 2/3 agar hitung kilat."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Diskon 50% + 20% bukan 70%, melainkan 100% → 50% → sisa 40% (total potongan 60%)."
+        }
+      ],
+      "explain": "q q q q 12 5 32 12 5 32 12 5 100 32 1 8 32 4 4 2 2 , % , % , = = × = × = × = = =",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-34",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Data: Tanggal hari ini : 17 – 06 – 2009 Tanggal lahir : 25 – 11 – 1967 Berdasarkan data di atas, usia orang itu adalah ….",
+      "options": [
+        "41 tahun, 6 bulan, 22 hari",
+        "42 tahun, 8 bulan, 22 hari",
+        "41 tahun, 9 bulan, 2 hari",
+        "41 tahun, 7 bulan, 23 hari",
+        "42 tahun, 5 bulan, 22 hari"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Ingat: 1 tahun = 12 bulan 1 bulan = 30 hari Tanggal hari ini : 17 – 06 – 2009 Tanggal lahir : 25 – 11 – 1967 Ekuivalen dengan: Tanggal hari ini : 17 hari – 18 bulan – 2008 tahun Tanggal lahir : 25 hari – 11 bulan – 1967 tahun Ekuivalen dengan: Tanggal hari ini : 47 hari – 17 bulan – 2008 tahun Tanggal lahir : 25 hari – 11 bulan – 1967 tahun 19 Dikurangkan diperoleh: 22 hari – 6 bulan – 41 tahun Jadi, usia orang itu adalah 41 tahun, 6 bulan, 22 hari.",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-35",
+      "subtest": "tiu",
+      "topic": "penalaran logis",
+      "stem": "Data: 3 jam, 35 menit, 25 detik. 4 jam, 45 menit, 35 detik. Jumlah waktu pada data di atas adalah ….",
+      "options": [
+        "8 jam, 21 menit, 0 detik",
+        "8 jam, 11 menit, 0 detik",
+        "8 jam, 1 menit, 0 detik",
+        "8 jam, 20 menit, 0 detik",
+        "8 jam, 20 menit, 0 detik Untuk soal nomor 36 sampai dengan nomor 45, pilihlah satu jawaban yang merupakan kelanjutan logis dari suatu pola tertentu yang ada di jawaban bawahnya. Contoh: A. B. C. D. E. Jawaban yang paling tepat adalah D."
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Ingat: 1 jam = 60 menit 1 menit = 60 detik Data: 3 jam, 35 menit, 25 detik.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Ingat: 1 jam = 60 menit 1 menit = 60 detik Data: 3 jam, 35 menit, 25 detik. 4 jam, 45 menit, 35 detik. + 7 jam, 80 menit, 60 detik ⇔7 jam, 81 menit, 0 detik ⇔8 jam, 21 menit, 0 detik",
+      "targetSec": 55,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-47",
+      "subtest": "tiu",
+      "topic": "penalaran analitik",
+      "stem": "Teks: Tina adalah karyawan yang wajib memakai baju seragam dengan warna biru, putih, merah, kuning, dan hijau; selama lima hari kerja, yaitu Senin sampai Jumat. 1. Baju merah dipakai setelah baju kuning 2. Baju hijau boleh dipakai sebelum baju biru yang dipakai pada hari Jumat 3. Baju kuning harus dipakai pada hari Selasa\n\nUrutan warna baju dipakai Tina di hari Senin, Rabu, dan Jumat adalah ….",
+      "options": [
+        "Putih, merah, biru",
+        "Biru, kuning, hijau",
+        "Kuning, biru, putih",
+        "Kuning, merah, putih",
+        "Putih, kuning, hijau"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Dari pembahasan nomor 46, diperoleh: Senin: putih Rabu: merah Jumat: biru."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Dari pembahasan nomor 46, diperoleh: Senin: putih Rabu: merah Jumat: biru",
+      "targetSec": 75,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-48",
+      "subtest": "tiu",
+      "topic": "penalaran analitik",
+      "stem": "Teks: Tina adalah karyawan yang wajib memakai baju seragam dengan warna biru, putih, merah, kuning, dan hijau; selama lima hari kerja, yaitu Senin sampai Jumat. 1. Baju merah dipakai setelah baju kuning 2. Baju hijau boleh dipakai sebelum baju biru yang dipakai pada hari Jumat 3. Baju kuning harus dipakai pada hari Selasa\n\nUrutan warna baju dipakai oleh Tina mulai hari Rabu, Kamis, dan Jumat adalah ….",
+      "options": [
+        "Biru, kuning, hijau",
+        "Kuning, biru, putih",
+        "Putih, kuning, hijau",
+        "Kuning, merah, putih",
+        "Merah, hijau, biru"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Dari pembahasan nomor 46, diperoleh: Rabu: merah Kamis: hijau Jumat: Biru."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Dari pembahasan nomor 46, diperoleh: Rabu: merah Kamis: hijau Jumat: Biru",
+      "targetSec": 75,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-49",
+      "subtest": "tiu",
+      "topic": "penalaran analitik",
+      "stem": "Teks: Pada suatu jamuan makan malam, 8 orang eksekutif muda (Aga, Didi, Lala, Laura, Gael, Michael, Rani, dan Togi) duduk mengelilingi satu meja bundar. 1) Gael duduk berseberangan dengan Aga. 2) Michael duduk di antara Togi dan Lala. 3) Laura dan Lala duduk tepat berhadapan. 4) Togi duduk 2 kursi terpisah dari Aga. 5) Didi duduk tepat di sebelah Aga.\n\nPernyataan di bawah ini yang benar adalah ….",
+      "options": [
+        "Didi duduk di antara Gael dan Togi.",
+        "Rani duduk dipisahkan 2 kursi dengan Togi.",
+        "Rani dan Didi duduk tepat berseberangan.",
+        "Togi duduk di seberang Rani.",
+        "Michael duduk berhadapan dengan Didi."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Terlihat jelas bahwa: Rani duduk dipisahkan oleh dua kursi dengan Togi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Terlihat jelas bahwa: Rani duduk dipisahkan oleh dua kursi dengan Togi.",
+      "targetSec": 75,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-50",
+      "subtest": "tiu",
+      "topic": "penalaran analitik",
+      "stem": "Teks: Pada suatu jamuan makan malam, 8 orang eksekutif muda (Aga, Didi, Lala, Laura, Gael, Michael, Rani, dan Togi) duduk mengelilingi satu meja bundar. 1) Gael duduk berseberangan dengan Aga. 2) Michael duduk di antara Togi dan Lala. 3) Laura dan Lala duduk tepat berhadapan. 4) Togi duduk 2 kursi terpisah dari Aga. 5) Didi duduk tepat di sebelah Aga.\n\nBila Michael dipisahkan oleh 2 kursi dengan Didi, pernyataan di bawah ini yang benar adalah ….",
+      "options": [
+        "Michael dan Rani dipisahkan oleh 2 kursi.",
+        "Michael dan Aga duduk berseberangan.",
+        "Didi dan Togi duduk berhadapan.",
+        "Lala duduk di sebelah Gael.",
+        "Rani duduk di dekat Togi."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Terlihat jelas bahwa: Didi dan Togi duduk berhadapan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Terlihat jelas bahwa: Didi dan Togi duduk berhadapan.",
+      "targetSec": 75,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-51",
+      "subtest": "tiu",
+      "topic": "penalaran analitik",
+      "stem": "Teks: Pada suatu jamuan makan malam, 8 orang eksekutif muda (Aga, Didi, Lala, Laura, Gael, Michael, Rani, dan Togi) duduk mengelilingi satu meja bundar. 1) Gael duduk berseberangan dengan Aga. 2) Michael duduk di antara Togi dan Lala. 3) Laura dan Lala duduk tepat berhadapan. 4) Togi duduk 2 kursi terpisah dari Aga. 5) Didi duduk tepat di sebelah Aga.\n\nBila Michael dan Rani duduk berseberangan, pernyataan di bawah ini yang benar adalah ….",
+      "options": [
+        "Gael duduk berhadapan dengan Didi.",
+        "Gael duduk di sebelah Michael.",
+        "Lala duduk di sebelah Didi.",
+        "Rani duduk di antara Laura dan Didi.",
+        "Didi duduk di antara Aga dan Lala."
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Terlihat jelas bahwa: Rani duduk di antara Laura dan Didi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Terlihat jelas bahwa: Rani duduk di antara Laura dan Didi.",
+      "targetSec": 75,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-52",
+      "subtest": "tiu",
+      "topic": "penalaran analitik",
+      "stem": "Teks: Pada suatu jamuan makan malam, 8 orang eksekutif muda (Aga, Didi, Lala, Laura, Gael, Michael, Rani, dan Togi) duduk mengelilingi satu meja bundar. 1) Gael duduk berseberangan dengan Aga. 2) Michael duduk di antara Togi dan Lala. 3) Laura dan Lala duduk tepat berhadapan. 4) Togi duduk 2 kursi terpisah dari Aga. 5) Didi duduk tepat di sebelah Aga.\n\nBeberapa kemungkinan di bawah ini yang tidak benar adalah",
+      "options": [
+        "Laura duduk di antara Rani dan Gael.",
+        "Lala dan Didi dipisahkan oleh Aga.",
+        "Michael duduk di antara Togi dan Lala.",
+        "Laura dipisahkan 2 kursi dengan Aga.",
+        "Didi duduk di antara Gael dan Togi."
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Pernyataan yang tidak benar adalah: Didi duduk di antara Gael dan Togi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Pernyataan yang tidak benar adalah: Didi duduk di antara Gael dan Togi.",
+      "targetSec": 75,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-53",
+      "subtest": "tiu",
+      "topic": "penalaran analitik",
+      "stem": "Teks: Popy, Qiqi, Ria, Sinta, dan Toton mengikuti sebuah tes hasil belajar dengan hasil sebagai berikut. 1. Nilai Ria lebih tinggi daripada nilai Popy, dua kali nilai Qiqi 2. Jika nilai Popy dan Qiqi ditambahkan, hasilnya sama dengan nilai Sinta 3. Nilai Popy lebih besar daripada nilai Toton, namun hanya sepertiga nilai Sinta\n\nHubungan antara nilai Popy, Ria, dan Toton yang benar adalah ….",
+      "options": [
+        "Nilai Toton lebih rendah daripada nilai Ria, sedangkan nilai Ria lebih rendah daripada nilai Popy",
+        "Nilai Ria lebih rendah daripada nilai Popy, sedangkan nilai Popy lebih rendah daripada nilai Toton",
+        "Nilai Popy lebih rendah daripada nilai Ria, sedangkan nilai Ria lebih rendah daripada nilai Toton",
+        "Nilai Ria lebih rendah daripada nilai Toton, sedangkan nilai Toton lebih rendah daripada nilai Popy",
+        "Nilai Toton lebih rendah daripada nilai Popy, sedangkan nilai Popy lebih rendah daripada nilai Ria"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Cukup menggunakan syarat 1 dan 2, maka hubungan antara nilai Popy, Ria, dan Toton yang benar adalah: Ria > Popy > Toton Jadi, Nilai Toton lebih rendah daripada nilai Popy, sedangkan nilai Popy lebih rendah daripada nilai Ria",
+      "targetSec": 75,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    },
+    {
+      "id": "tiu-hots-54",
+      "subtest": "tiu",
+      "topic": "penalaran analitik",
+      "stem": "Teks: Popy, Qiqi, Ria, Sinta, dan Toton mengikuti sebuah tes hasil belajar dengan hasil sebagai berikut. 1. Nilai Ria lebih tinggi daripada nilai Popy, dua kali nilai Qiqi 2. Jika nilai Popy dan Qiqi ditambahkan, hasilnya sama dengan nilai Sinta 3. Nilai Popy lebih besar daripada nilai Toton, namun hanya sepertiga nilai Sinta\n\nJika semua nilai berupa bilangan bulat, siswa yang pasti bernilai genap adalah ….",
+      "options": [
+        "Popy",
+        "Qiqi",
+        "Ria",
+        "Sinta",
+        "Toton"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Semua nilai berupa bilangan bulat, siswa yang pasti bernilai genap adalah nilai Ria.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Semua nilai berupa bilangan bulat, siswa yang pasti bernilai genap adalah nilai Ria. Hal ini dikarenakan nilai Ria adalah 2 kali nilai Qiqi. Ingat: bilangan bulat apabila dikalikan dengan 2 maka hasilnya genap.",
+      "targetSec": 75,
+      "source": "Drill HOTS TIU · Penalaran & Analogi"
+    }
+  ]
+}

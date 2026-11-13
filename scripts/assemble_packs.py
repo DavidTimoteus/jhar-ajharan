@@ -17,6 +17,8 @@ from bank_tiu import bank_tiu
 from bank_tkp import bank_tkp
 from bank_bumn import bank_bumn_tkd, bank_bumn_akhlak, bank_bumn_bhs
 from bank_sumber import bank_cpns_kitalulus, bank_tkd_skillacademy, bank_bhs_dealls
+from bank_original_2026 import bank_cpns_original_2026, bank_bumn_original_2026
+from build_submateri_index import build_submateri_index
 
 
 def pack(id_str, name, family, version, note, source, duration_min, subtests, questions):
@@ -134,7 +136,13 @@ def build():
         bank_tkd_skillacademy() + bank_bhs_dealls(),
     )
 
-    packs += [cpns_2025, bumn_2025]
+    packs += [cpns_2025, bumn_2025, bank_cpns_original_2026(), bank_bumn_original_2026()]
+
+    ext_path = Path(__file__).resolve().parent / "external_packs.json"
+    if ext_path.exists():
+        ext_packs = json.loads(ext_path.read_text(encoding="utf-8"))
+        packs.extend(ext_packs)
+
     for p in packs:
         out = PACKS_DIR / f"{p['id']}.json"
         out.write_text(json.dumps(p, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -148,6 +156,9 @@ def build():
             "updatedAt": p["updatedAt"],
             "file": f"{p['id']}.json",
             "count": len(p["questions"]),
+            "durationMin": p["config"]["durationMin"],
+            "subtests": [s["id"] for s in p["config"]["subtests"]],
+            "note": p.get("note", ""),
         }
         for p in packs
     ]
@@ -160,6 +171,8 @@ def build():
         for q in p["questions"]:
             sub[q["subtest"]] = sub.get(q["subtest"], 0) + 1
         print(f"{p['id']}: {len(p['questions'])} soal | {sub}")
+
+    build_submateri_index()
 
 
 if __name__ == "__main__":

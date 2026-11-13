@@ -1,0 +1,4937 @@
+{
+  "id": "rbb-bumn-2026-tahap1",
+  "name": "RBB BUMN 2026 · Tahap 1 (TKD · AKHLAK · TWK BUMN)",
+  "family": "bumn",
+  "version": 2,
+  "updatedAt": "2026-11-13T00:00:00.000Z",
+  "note": "Simulasi lengkap Tes Online Tahap 1 Rekrutmen Bersama BUMN: 100 TKD (Verbal, Deret, Klasifikasi, Diagram), 30 AKHLAK SJT, dan 10 TWK BUMN.",
+  "source": "Kisi-kisi terbaru Rekrutmen Bersama BUMN Tahap 1 lengkap dengan pembahasan dan trik cepat.",
+  "config": {
+    "durationMin": 90,
+    "subtests": [
+      {
+        "id": "tkd",
+        "name": "TKD (Verbal · Deret · Klasifikasi · Diagram)",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 300
+      },
+      {
+        "id": "akhlak",
+        "name": "Core Values AKHLAK",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 95
+      },
+      {
+        "id": "twk_bumn",
+        "name": "Tes Wawasan Kebangsaan BUMN",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 30
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "bumn26-t1-s1-001",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Semua dokter adalah sarjana. Sebagian sarjana adalah pengusaha. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua dokter adalah pengusaha",
+        "Sebagian dokter mungkin adalah pengusaha",
+        "Tidak ada dokter yang menjadi pengusaha",
+        "Semua pengusaha adalah dokter",
+        "Semua sarjana adalah dokter"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Dalam silogisme 'Semua A=B' + 'Sebagian B=C', kesimpulannya selalu MUNGKIN (tidak pasti). Hindari pilihan 'semua' atau 'tidak ada'"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Dari premis 'semua dokter = sarjana' dan 'sebagian sarjana = pengusaha', tidak bisa dipastikan apakah dokter termasuk bagian sarjana yang pengusaha. Maka kemungkinan (mungkin) adalah kesimpulan paling aman.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-002",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Tidak ada karyawan yang malas. Budi adalah karyawan. Kesimpulan yang tepat adalah...",
+      "options": [
+        "Budi mungkin malas",
+        "Budi pasti rajin",
+        "Budi bukan karyawan",
+        "Sebagian karyawan malas",
+        "Budi tidak malas"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola 'Tidak ada A = B' + 'X adalah A' → 'X bukan B'. Langsung subtitusi subjek ke premis universal"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Tidak ada karyawan yang malas + Budi adalah karyawan → Budi tidak malas. Ini silogisme valid kategorikal.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-003",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Jika hari hujan, maka jalanan macet. Jalanan tidak macet. Kesimpulan yang tepat adalah...",
+      "options": [
+        "Hari hujan",
+        "Hari tidak hujan",
+        "Jalanan basah",
+        "Hari mungkin tidak hujan",
+        "Tidak dapat disimpulkan"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafalkan 2 pola logika: Modus Ponens (P→Q, P, maka Q) dan Modus Tollens (P→Q, ~Q, maka ~P). Ini selalu muncul"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Ini pola Modus Tollens: Jika P→Q dan ~Q, maka ~P. Jalanan tidak macet (~Q), maka hari tidak hujan (~P).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-004",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Semua manajer memiliki laptop. Rina memiliki laptop. Kesimpulan yang tepat adalah...",
+      "options": [
+        "Rina pasti manajer",
+        "Rina bukan manajer",
+        "Rina mungkin manajer",
+        "Semua yang punya laptop adalah manajer",
+        "Tidak ada hubungan antara Rina dan manajer"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hati-hati dengan 'affirming the consequent' — salah kaprah. Jika A→B, maka B terjadi tidak berarti A terjadi. Jawaban selalu 'mungkin'"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Semua A=B tidak berarti semua B=A. Rina punya laptop belum tentu dia manajer, karena banyak orang lain juga punya laptop.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-005",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Beberapa pegawai negeri adalah sarjana hukum. Semua sarjana hukum bisa menjadi notaris. Kesimpulan yang tepat adalah...",
+      "options": [
+        "Semua pegawai negeri bisa menjadi notaris",
+        "Beberapa pegawai negeri bisa menjadi notaris",
+        "Tidak ada pegawai negeri yang bisa menjadi notaris",
+        "Semua notaris adalah pegawai negeri",
+        "Beberapa sarjana hukum adalah pegawai negeri"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola 'Beberapa A=B' + 'Semua B=C' → 'Beberapa A=C'. Kata kunci: BEBERAPA menular!"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Beberapa PNS = sarjana hukum, semua sarjana hukum bisa jadi notaris → beberapa PNS (yang sarjana hukum) bisa jadi notaris.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-006",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Jika seseorang jujur, maka ia dipercaya. Jika ia dipercaya, maka ia sukses. Anton adalah orang yang jujur. Kesimpulan yang tepat adalah...",
+      "options": [
+        "Anton mungkin sukses",
+        "Anton pasti sukses",
+        "Anton dipercaya tapi belum tentu sukses",
+        "Anton tidak sukses",
+        "Kejujuran tidak menjamin kesuksesan"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Silogisme berantai: P→Q, Q→R, P terjadi → R terjadi. Ikuti alurnya satu per satu"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Rantai silogisme: Jujur→Dipercaya→Sukses. Anton jujur, maka Anton sukses. Ini Modus Ponens berantai.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-007",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Semua peserta lolos seleksi administrasi. Tidak ada peserta yang gagal tes psikologi. Manakah kesimpulan yang TIDAK MUNGKIN benar?",
+      "options": [
+        "Ada peserta yang lolos seleksi administrasi dan lulus tes psikologi",
+        "Semua peserta lulus tes psikologi",
+        "Tidak ada peserta yang lolos seleksi administrasi",
+        "Semua peserta lolos administrasi dan lulus psikologi",
+        "Beberapa peserta lolos administrasi dan lulus psikologi"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Soal 'TIDAK MUNGKIN' = cari pilihan yang BERTENTANGAN langsung dengan salah satu premis"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Premis pertama menyatakan semua peserta lolos administrasi, sehingga pernyataan 'tidak ada peserta yang lolos administrasi' bertentangan langsung.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-008",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Setiap karyawan yang berprestasi mendapat bonus. Doni tidak mendapat bonus. Kesimpulan yang tepat adalah...",
+      "options": [
+        "Doni adalah karyawan",
+        "Doni tidak berprestasi",
+        "Doni mungkin berprestasi",
+        "Semua karyawan berprestasi",
+        "Doni bukan karyawan"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Selalu gunakan Modus Tollens saat melihat pola 'X tidak mendapat Y' dan ada syarat 'untuk mendapat Y harus Z'"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Modus Tollens: Berprestasi→Bonus. Doni tidak dapat bonus (~Q), maka Doni tidak berprestasi (~P).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-009",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Pernyataan: 'Beberapa pemimpin tidak arogan'. Pernyataan yang paling bertentangan adalah...",
+      "options": [
+        "Semua pemimpin arogan",
+        "Tidak ada pemimpin yang arogan",
+        "Beberapa pemimpin arogan",
+        "Semua pemimpin tidak arogan",
+        "Sebagian besar pemimpin arogan"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kontradiktoris dari 'Beberapa A tidak B' adalah 'Semua A adalah B'. Gunakan persegi oposisi logika"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "'Beberapa pemimpin TIDAK arogan' bertentangan langsung dengan 'Semua pemimpin arogan'. Jika ada yang tidak arogan, maka tidak mungkin semua arogan.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-010",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Semua pelamar yang lulus psikotes akan mengikuti wawancara. Reza mengikuti wawancara. Yang pasti benar adalah...",
+      "options": [
+        "Reza lulus psikotes",
+        "Reza tidak lulus psikotes",
+        "Tidak semua yang wawancara lulus psikotes",
+        "Reza mungkin lulus psikotes",
+        "Semua yang wawancara pasti lulus psikotes"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jangan terbalik arah logika! A→B tidak berarti B→A. Pastikan arah implikasi sebelum menyimpulkan"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Lulus psikotes → wawancara. Reza wawancara belum tentu lulus psikotes (bisa ada jalur lain). Jawaban paling tepat: mungkin.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-011",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Jika tidak ada korupsi, maka pembangunan akan merata. Pembangunan tidak merata. Kesimpulan yang tepat adalah...",
+      "options": [
+        "Ada korupsi",
+        "Tidak ada korupsi",
+        "Korupsi tidak mempengaruhi pembangunan",
+        "Pembangunan bisa merata meski ada korupsi",
+        "Tidak dapat disimpulkan"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ketika premisnya pakai negasi (tidak ada), balikkan: 'tidak ada korupsi'=P, 'merata'=Q. Lalu terapkan Tollens normal"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Modus Tollens: ~Korupsi → Merata. Tidak merata (~Q), maka ada korupsi (~(~P) = P).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-012",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Semua teknisi menguasai coding. Sebagian teknisi adalah lulusan SMK. Kesimpulan yang PASTI benar adalah...",
+      "options": [
+        "Semua lulusan SMK menguasai coding",
+        "Sebagian lulusan SMK menguasai coding",
+        "Tidak ada lulusan SMK yang menguasai coding",
+        "Semua yang menguasai coding adalah teknisi",
+        "Sebagian teknisi yang SMK pasti menguasai coding"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Identifikasi kelompok irisan terlebih dahulu: (Teknisi ∩ SMK) → subset dari teknisi → semua dalam irisan ini pasti kuasai coding"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Semua teknisi menguasai coding. Sebagian teknisi adalah SMK. Maka sebagian teknisi yang SMK tersebut pasti menguasai coding.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-013",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Pernyataan: 'Tidak ada peserta yang curang'. Ingkaran (negasi) pernyataan ini adalah...",
+      "options": [
+        "Semua peserta curang",
+        "Ada peserta yang curang",
+        "Tidak ada peserta yang tidak curang",
+        "Beberapa peserta tidak curang",
+        "Semua peserta tidak curang"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Negasi 'Tidak ada A=B' → 'Ada A=B'. Negasi 'Semua A=B' → 'Ada A≠B'. Ingat ini saja!"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Negasi dari 'Tidak ada A yang B' adalah 'Ada A yang B'. Negasi kuantor universal negatif = kuantor eksistensial positif.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-014",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Andi lebih tinggi dari Budi. Citra lebih pendek dari Budi. Erik lebih tinggi dari Andi. Urutan dari yang tertinggi ke terpendek adalah...",
+      "options": [
+        "Andi, Erik, Budi, Citra",
+        "Erik, Andi, Budi, Citra",
+        "Erik, Budi, Andi, Citra",
+        "Andi, Budi, Erik, Citra",
+        "Erik, Andi, Citra, Budi"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat garis bilangan mental. Tulis relasi dari terkecil: C < B < A < E. Lalu balik untuk 'tertinggi ke terpendek'"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Gunakan syarat paling ketat (posisi ujung / berhadapan / bersebelahan) untuk langsung menggugurkan 2–3 opsi."
+        },
+        {
+          "lens": "logika",
+          "text": "Kunci dahulu pasangan yang wajib berdekatan (blok), baru selipkan syarat relatif sisanya."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Kata 'di antara A dan B' tidak selalu berarti bersebelahan persis kecuali ditulis 'tepat di sebelah'."
+        }
+      ],
+      "explain": "Erik > Andi > Budi > Citra. Urutan tertinggi ke terpendek: Erik, Andi, Budi, Citra.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-015",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Lima orang duduk berjajar: A, B, C, D, E. A duduk paling kiri. D duduk di antara B dan E. C duduk di sebelah kanan E. B berada di posisi kedua dari kanan. Urutan dari kiri ke kanan adalah...",
+      "options": [
+        "A, C, E, D, B",
+        "A, E, D, B, C",
+        "A, D, E, B, C",
+        "A, E, C, D, B",
+        "A, B, D, E, C"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Soal pengurutan posisi: mulai dari yang pasti dulu (A=1, B=4). Lalu isi sisanya berdasarkan relasi"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "A di posisi 1. B posisi 4 (kedua dari kanan=posisi 4 dari 5). D di antara B dan E → posisi 3 atau antara lain. E sebelum D sebelum B: posisi 2, 3, 4. C di kanan E (posisi 5). Susunan: A, E, D, B, C. Revisi: C di kanan E, E di pos 2 → C pos 3+. Dengan B pos 4 dan D di antara B & E: E-D-B → E pos 2, D pos 3, B pos 4, C pos 5. Susunan: A, E, D, B, C. Opsi B.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-016",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Kode etik profesi dokter mewajibkan kerahasiaan data pasien. Seorang dokter membeberkan data pasien ke media. Kesimpulan logis yang tepat adalah...",
+      "options": [
+        "Dokter tersebut melanggar kode etik",
+        "Kode etik tidak berlaku dalam kasus ini",
+        "Beberapa dokter boleh membeberkan data",
+        "Media berhak mengetahui data pasien",
+        "Paien tersebut berbahaya bagi masyarakat"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Soal kontekstual tetap gunakan logika dasar: cek apakah tindakan sesuai atau melanggar premis universal yang ada"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Premis universal: semua dokter wajib rahasiakan data. Dokter ini membeberkan data → melanggar premis universal → ia melanggar kode etik.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-017",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Pernyataan P: 'Jika ekonomi membaik, maka pengangguran berkurang'. Kontraposisi dari pernyataan P adalah...",
+      "options": [
+        "Jika ekonomi tidak membaik, maka pengangguran tidak berkurang",
+        "Jika pengangguran berkurang, maka ekonomi membaik",
+        "Jika pengangguran tidak berkurang, maka ekonomi tidak membaik",
+        "Jika ekonomi membaik, maka pengangguran tidak berkurang",
+        "Ekonomi membaik dan pengangguran berkurang"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kontraposisi = balik + negasi keduanya. Beda dengan 'invers' (negasi langsung) dan 'konvers' (balik saja)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Kontraposisi dari P→Q adalah ~Q→~P. Maka: 'Pengangguran tidak berkurang → Ekonomi tidak membaik'.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-018",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Semua staf administrasi harus memahami Microsoft Office. Hana adalah staf administrasi. Hana tidak memahami Excel. Kesimpulan yang tepat adalah...",
+      "options": [
+        "Hana bukan staf administrasi yang baik",
+        "Hana melanggar syarat sebagai staf administrasi",
+        "Excel tidak termasuk Microsoft Office",
+        "Hana memahami Word dan PowerPoint",
+        "Hana harus dipecat"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Soal yang memberi konteks tambahan — gunakan pengetahuan umum yang wajar sebagai premis implisit, lalu tarik kesimpulan logis"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Jika Microsoft Office mencakup Excel (asumsi umum), maka Hana sebagai staf adm seharusnya memahami Excel. Karena tidak, ia melanggar syarat.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-019",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Perhatikan pola berikut: 'Kucing adalah hewan. Hewan bisa berlari. Mawar adalah tumbuhan. Tumbuhan tidak bisa berlari.' Kesimpulan yang TEPAT adalah...",
+      "options": [
+        "Mawar bisa berlari seperti kucing",
+        "Kucing bisa berlari, Mawar tidak bisa berlari",
+        "Semua hewan adalah kucing",
+        "Tumbuhan dan hewan sama-sama bisa berlari",
+        "Mawar adalah hewan"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Soal dua kelompok: ikuti alur masing-masing secara paralel, lalu gabungkan di kesimpulan"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Kucing=hewan→bisa berlari. Mawar=tumbuhan→tidak bisa berlari. Kombinasi dua silogisme sederhana.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-020",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Dalam suatu rapat, hanya karyawan tetap yang boleh memberikan suara. Gani memberikan suara dalam rapat. Yang pasti benar adalah...",
+      "options": [
+        "Gani adalah karyawan tetap",
+        "Gani mungkin bukan karyawan tetap",
+        "Semua karyawan tetap memberikan suara",
+        "Gani adalah pimpinan rapat",
+        "Gani tidak sah memberikan suara"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kata 'HANYA' = eksklusif = membalikkan arah implikasi. 'Hanya A=B' berarti B→A (beda dari A→B)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Hanya A yang boleh B. Gani melakukan B. Karena HANYA A yang boleh, maka Gani pastilah A. Ini berbeda dari 'Semua A boleh B' — kata 'hanya' memberikan arah balik.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-021",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "P: Semua warga negara wajib membayar pajak. Q: Tuan X tidak membayar pajak. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Tuan X bukan warga negara",
+        "Tuan X melanggar kewajiban warga negara",
+        "Beberapa warga negara tidak membayar pajak",
+        "Tuan X mungkin warga negara asing",
+        "Pajak tidak berlaku untuk Tuan X"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jika tidak ada informasi pengecualian statusnya, asumsikan subjek TERMASUK dalam kelompok premis. Maka terapkan kewajiban"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Jika Tuan X adalah warga negara, ia melanggar kewajiban. Informasi tidak menyebutkan Tuan X bukan WN, sehingga kesimpulan paling tepat adalah ia melanggar kewajiban.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-022",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Ani lebih pandai dari Beni. Cici lebih pandai dari Ani. Dodi sama pintarnya dengan Cici. Siapa yang paling pandai?",
+      "options": [
+        "Ani",
+        "Beni",
+        "Cici",
+        "Dodi",
+        "Cici dan Dodi sama-sama paling pandai"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat urutan linear. Relasi '=' berarti keduanya setara di posisi tertinggi/terendah"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Urutan: Beni < Ani < Cici = Dodi. Cici dan Dodi sama-sama paling pandai.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-023",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Premis 1: Semua bank memberikan bunga kepada nasabah. Premis 2: BRI adalah bank. Kesimpulan yang tepat adalah...",
+      "options": [
+        "BRI mungkin memberikan bunga",
+        "Nasabah BRI mendapat bunga",
+        "Semua nasabah mendapat bunga dari BRI",
+        "BRI bukan satu-satunya bank",
+        "BRI memberikan bunga kepada nasabahnya"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Soal silogisme dasar: Semua A=B, X adalah A → X adalah B. Substitusi langsung, tidak perlu analisis lebih"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Semua bank (termasuk BRI) memberikan bunga → BRI memberikan bunga kepada nasabahnya. Silogisme kategoris sempurna.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-024",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Pernyataan: 'Sebagian pegawai baru tidak memiliki pengalaman'. Pernyataan yang TIDAK BISA DITARIK dari pernyataan ini adalah...",
+      "options": [
+        "Ada pegawai baru yang tidak berpengalaman",
+        "Tidak semua pegawai baru berpengalaman",
+        "Beberapa pegawai baru mungkin berpengalaman",
+        "Semua pegawai baru tidak memiliki pengalaman",
+        "Tidak semua pegawai baru tidak berpengalaman"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Dari 'beberapa' tidak bisa tarik 'semua'. Dari 'semua' bisa tarik 'beberapa'. Arah generalisasi hanya dari besar ke kecil"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "'Sebagian tidak berpengalaman' tidak memperbolehkan kita menyimpulkan 'SEMUA tidak berpengalaman'. Itu melangkah terlalu jauh.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s1-025",
+      "subtest": "tkd",
+      "topic": "verbal logical reasoning",
+      "stem": "Dua pernyataan: (1) 'Jika inflasi tinggi, daya beli turun.' (2) 'Daya beli tidak turun.' Kesimpulan yang tepat berdasarkan kedua pernyataan itu adalah...",
+      "options": [
+        "Inflasi tinggi",
+        "Inflasi mungkin tinggi",
+        "Inflasi tidak tinggi",
+        "Daya beli mungkin turun",
+        "Tidak ada hubungan inflasi dan daya beli"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Lihat kata kunci 'tidak' di premis kedua — ini sinyal Modus Tollens. Langsung negasi anteseden"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Modus Tollens klasik: P→Q, ~Q → ~P. Inflasi tinggi→Daya beli turun. Daya beli tidak turun → Inflasi tidak tinggi.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 1"
+    },
+    {
+      "id": "bumn26-t1-s2-001",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "2, 5, 11, 23, 47, ...",
+      "options": [
+        "89",
+        "92",
+        "95",
+        "94",
+        "96"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Saat selisih antar suku membesar, coba ×2 atau ×2+/−n. Cek konsistensinya"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola: ×2+1. 2×2+1=5, 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-002",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "3, 6, 12, 24, 48, ...",
+      "options": [
+        "72",
+        "96",
+        "84",
+        "100",
+        "88"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Selisih ganda (selalu 2x lipat) → pola geometri ×2"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola ×2: 3×2=6, 6×2=12, 12×2=24, 24×2=48, 48×2=96.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-003",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "1, 4, 9, 16, 25, ...",
+      "options": [
+        "30",
+        "36",
+        "32",
+        "35",
+        "40"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Selisih: +3, +5, +7, +9 → selisih dari selisih = +2 → pola kuadrat"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Ini adalah barisan bilangan kuadrat: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-004",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "2, 3, 5, 8, 13, 21, ...",
+      "options": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jika selisih antarsuku = suku sebelumnya, itu Fibonacci. Selalu cek penjumlahan dua suku sebelumnya"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Fibonacci: setiap suku = jumlah dua suku sebelumnya. 13+21=34.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-005",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "100, 91, 83, 76, 70, ...",
+      "options": [
+        "63",
+        "64",
+        "65",
+        "66",
+        "67"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Selisih yang berubah teratur = deret aritmetika bertingkat. Hitung selisih dari selisih"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Selisih: -9, -8, -7, -6, -5. Pola selisih berkurang 1 tiap suku. 70−5=65.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-006",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "1, 2, 6, 24, 120, ...",
+      "options": [
+        "600",
+        "620",
+        "700",
+        "720",
+        "740"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jika setiap suku = suku sebelumnya × bilangan yang terus membesar (×2, ×3, ×4, ...) → pola faktorial"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola faktorial: 1!=1, 2!=2, 3!=6, 4!=24, 5!=120, 6!=720.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-007",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "7, 14, 28, 56, 112, ...",
+      "options": [
+        "168",
+        "196",
+        "224",
+        "200",
+        "210"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rasio antar suku konstan → deret geometri. Hitung rasio: 14/7=2, 28/14=2, dst"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola ×2: setiap suku dikali 2. 112×2=224.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-008",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "5, 10, 20, 35, 55, ...",
+      "options": [
+        "75",
+        "80",
+        "85",
+        "90",
+        "95"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Selisih antar suku = 5, 10, 15, 20... → deret aritmetika di level selisih (selisih kedua = 5)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Selisih: +5, +10, +15, +20, +25. Selisih bertambah 5 tiap suku. 55+25=80.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-009",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "3, 9, 27, 81, 243, ...",
+      "options": [
+        "486",
+        "567",
+        "729",
+        "810",
+        "648"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Semua suku adalah pangkat dari basis yang sama → deret geometri. Hitung rasio"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola ×3 (pangkat 3): 3¹=3, 3²=9, 3³=27, 3⁴=81, 3⁵=243, 3⁶=729.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-010",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "2, 5, 10, 17, 26, ...",
+      "options": [
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Selisih: +3,+5,+7,+9,+11 → selisih ke-2 konstan (+2) → pola kuadrat+konstanta"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola: n²+1. 1²+1=2, 2²+1=5, 3²+1=10, 4²+1=17, 5²+1=26, 6²+1=37.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-011",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "1, 1, 2, 3, 5, 8, 13, ...",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Urutan Fibonacci klasik. Hafalkan: 1,1,2,3,5,8,13,21,34,55"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Fibonacci: 8+13=21.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-012",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "64, 32, 16, 8, 4, ...",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "0.5"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Deret geometri menurun: rasio = 1/2. Suku ke-n = 64×(1/2)^(n-1)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola ÷2: setiap suku dibagi 2. 4÷2=2.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-013",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "1, 3, 7, 13, 21, 31, ...",
+      "options": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Selisih antar suku membentuk deret 2,4,6,8... → selisih dari selisih = 2 (konstan)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Selisih: +2,+4,+6,+8,+10,+12. Selisih bertambah 2. 31+12=43.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-014",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "0, 1, 3, 6, 10, 15, ...",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola selisih +1,+2,+3,... adalah barisan bilangan segitiga. T(n)=n(n+1)/2"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Bilangan segitiga (triangular numbers): +1,+2,+3,+4,+5,+6. 15+6=21.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-015",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "2, 6, 12, 20, 30, ...",
+      "options": [
+        "40",
+        "42",
+        "44",
+        "46",
+        "48"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Selisih: +4,+6,+8,+10,+12 → selisih ke-2 = +2 → coba pola n(n+1)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola: n(n+1). 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-016",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "4, 7, 12, 19, 28, ...",
+      "options": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Selisih ganjil berurutan (+3,+5,+7) → pola kuadrat. n²+3: 1+3=4, 4+3=7, 9+3=12"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Selisih: +3,+5,+7,+9,+11. Bertambah 2. 28+11=39.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-017",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "1, 8, 27, 64, 125, ...",
+      "options": [
+        "196",
+        "210",
+        "216",
+        "225",
+        "230"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rasio antar suku tidak konstan tapi membesar → coba pola kubik. Cek: 8/1≠27/8"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Barisan bilangan kubik: 1³=1, 2³=8, 3³=27, 4³=64, 5³=125, 6³=216.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-018",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "5, 5, 10, 30, 120, ...",
+      "options": [
+        "360",
+        "480",
+        "600",
+        "720",
+        "840"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rasio berubah: ×1,×2,×3,×4 → ini pola 'faktorial tambahan'. Hitung rasio antar suku secara berurutan"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola: ×1, ×2, ×3, ×4, ×5. 120×5=600.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-019",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "2, 4, 12, 48, 240, ...",
+      "options": [
+        "960",
+        "1200",
+        "1320",
+        "1440",
+        "1560"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rasio tiap suku bertambah 1 → pola multiplikatif berurutan"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Rasio: ×2, ×3, ×4, ×5, ×6. 240×6=1440.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-020",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "729, 243, 81, 27, 9, ...",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Deret geometri turun: rasio=1/3. Suku ke-n = 729×(1/3)^(n-1)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola ÷3: setiap suku dibagi 3. 9÷3=3.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-021",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "2, 3, 5, 7, 11, 13, ...",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jika tidak ada pola selisih/rasio yang jelas, coba bilangan prima! Ini sering muncul"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Ini adalah barisan bilangan prima: 2, 3, 5, 7, 11, 13, 17.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-022",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "10, 20, 30, 50, 80, 130, ...",
+      "options": [
+        "180",
+        "200",
+        "210",
+        "215",
+        "220"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jika selisih antar suku = suku 2 tingkat sebelumnya → varian Fibonacci. Cek penjumlahan"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Fibonacci-like: 10+20=30, 20+30=50, 30+50=80, 50+80=130, 80+130=210.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-023",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "1, 2, 4, 7, 11, 16, ...",
+      "options": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Selisih naik 1 setiap langkah → pola segitiga. Suku ke-n = n(n-1)/2 + 1"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Selisih: +1,+2,+3,+4,+5,+6. 16+6=22.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-024",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "3, 4, 6, 9, 13, 18, ...",
+      "options": [
+        "22",
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Mirip soal di atas. Selisih bertambah 1 secara konsisten adalah trick paling sering"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Selisih: +1,+2,+3,+4,+5,+6. 18+6=24.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s2-025",
+      "subtest": "tkd",
+      "topic": "number sequence",
+      "stem": "256, 128, 64, 32, ...",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "18",
+        "20"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Semua suku adalah pangkat 2: 2^8, 2^7, 2^6, 2^5, 2^4=16"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola ÷2: 256÷2=128, 128÷2=64, 64÷2=32, 32÷2=16.",
+      "targetSec": 55,
+      "source": "RBB BUMN 2026 · Subtes 2"
+    },
+    {
+      "id": "bumn26-t1-s3-001",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah kata yang TIDAK SEKELOMPOK dengan kata lainnya?\nA) Mawar  B) Melati  C) Dahlia  D) Flamboyan  E) Kamboja",
+      "options": [
+        "Mawar",
+        "Melati",
+        "Dahlia",
+        "Flamboyan",
+        "Kamboja"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari unsur yang berbeda KATEGORI, bukan sekadar berbeda nama. Identifikasi kategori mayoritas terlebih dahulu"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Flamboyan adalah pohon besar (Delonix regia), bukan bunga hias seperti mawar, melati, dahlia, dan kamboja.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-002",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah kata yang TIDAK SEKELOMPOK?\nA) Harimau  B) Singa  C) Cheetah  D) Macan Tutul  E) Beruang",
+      "options": [
+        "Harimau",
+        "Singa",
+        "Cheetah",
+        "Macan Tutul",
+        "Beruang"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafalkan famili hewan umum: Felidae (kucing), Canidae (anjing), Ursidae (beruang)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek akal sehat: tambahan pekerja wajib membuat hari LEBIH SINGKAT; waktu berpapasan wajib berada di antara jam berangkat & jam tiba."
+        },
+        {
+          "lens": "logika",
+          "text": "Samakan seluruh satuan terlebih dulu (menit ke jam, km ke meter) dan kurangkan hari yang sudah selesai sebelum menghitung sisa proyek."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pada proyek yang sempat libur/terhenti, kurangi dulu hari yang sudah dikerjakan; pada susul-menyusul, hitung dari jam berangkat orang KEDUA."
+        }
+      ],
+      "explain": "Beruang (Ursidae) bukan kucing besar. Harimau, singa, cheetah, dan macan tutul semuanya famili Felidae.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-003",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah kata yang TIDAK SEKELOMPOK?\nA) Jupiter  B) Mars  C) Venus  D) Pluto  E) Saturnus",
+      "options": [
+        "Jupiter",
+        "Mars",
+        "Venus",
+        "Pluto",
+        "Saturnus"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pluto adalah jawaban klasik! Fakta sains populer sering muncul di soal klasifikasi"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Pluto bukan lagi planet resmi tata surya sejak 2006 (diturunkan menjadi 'planet kerdil').",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-004",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Padi : Beras — Tebu : ...",
+      "options": [
+        "Gula",
+        "Manis",
+        "Ladang",
+        "Panen",
+        "Tetes"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Soal analogi relasi: tentukan relasi kata pertama lalu terapkan ke kata ketiga. P→B, maka T→?"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Padi diproses menjadi beras. Tebu diproses menjadi gula. Relasi: bahan baku → produk olahan.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-005",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah kata yang TIDAK SEKELOMPOK?\nA) Rupiah  B) Yen  C) Euro  D) Peso  E) Franc",
+      "options": [
+        "Rupiah",
+        "Yen",
+        "Euro",
+        "Peso",
+        "Franc"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Bedakan mata uang nasional vs supranasional. Euro tidak dimiliki satu negara saja"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Euro adalah mata uang gabungan (Uni Eropa/institusi supranasional), sedangkan yang lain adalah mata uang negara spesifik.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-006",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang TIDAK termasuk alat musik gesek?\nA) Biola  B) Cello  C) Mandolin  D) Contra Bass  E) Viola",
+      "options": [
+        "Biola",
+        "Cello",
+        "Mandolin",
+        "Contra Bass",
+        "Viola"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Klasifikasikan cara bermain: gesek, petik, tiup, pukul. Mandolin = petik"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Mandolin adalah alat musik petik, bukan gesek. Biola, cello, viola, dan contra bass semua dimainkan dengan busur (digesek).",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-007",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang TIDAK termasuk provinsi di Pulau Jawa?\nA) Banten  B) DKI Jakarta  C) DIY  D) Bali  E) Jawa Tengah",
+      "options": [
+        "Banten",
+        "DKI Jakarta",
+        "DIY",
+        "Bali",
+        "Jawa Tengah"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ketahui posisi geografis provinsi. Bali sering dikira bagian Jawa tapi merupakan pulau terpisah"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Bali adalah pulau dan provinsi tersendiri di luar Pulau Jawa. Banten, DKI, DIY, Jawa Tengah semuanya ada di Pulau Jawa.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-008",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang TIDAK termasuk jenis laporan keuangan?\nA) Neraca  B) Laba Rugi  C) Arus Kas  D) Faktur  E) Catatan atas Laporan Keuangan",
+      "options": [
+        "Neraca",
+        "Laba Rugi",
+        "Arus Kas",
+        "Faktur",
+        "Catatan atas Laporan Keuangan"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "4 laporan keuangan utama: Neraca, Laba/Rugi, Arus Kas, Perubahan Ekuitas + Catatan (CALK)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Gunakan pembulatan kasar (estimasi puluhan terdekat) untuk membuang opsi yang terlalu jauh secara magnitudo."
+        },
+        {
+          "lens": "logika",
+          "text": "Ubah persen umum ke pecahan istimewa: 12,5% = 1/8, 25% = 1/4, 33,3% = 1/3, 37,5% = 3/8, 66,7% = 2/3 agar hitung kilat."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Diskon 50% + 20% bukan 70%, melainkan 100% → 50% → sisa 40% (total potongan 60%)."
+        }
+      ],
+      "explain": "Faktur adalah dokumen transaksi (invoice), bukan laporan keuangan formal. Empat lainnya adalah komponen laporan keuangan PSAK.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-009",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang BERBEDA dari kelompoknya?\nA) CPU  B) RAM  C) Motherboard  D) Monitor  E) Hard Disk",
+      "options": [
+        "CPU",
+        "RAM",
+        "Motherboard",
+        "Monitor",
+        "Hard Disk"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kelompokkan: internal hardware vs peripheral. Monitor jelas peripheral/output device"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Monitor adalah perangkat output (output device), sedangkan CPU, RAM, Motherboard, Hard Disk adalah komponen internal (hardware internal).",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-010",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang TIDAK termasuk makronutrien tanaman?\nA) Nitrogen  B) Fosfor  C) Kalium  D) Besi  E) Kalsium",
+      "options": [
+        "Nitrogen",
+        "Fosfor",
+        "Kalium",
+        "Besi",
+        "Kalsium"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafalkan NPK = trio makronutrien utama. Besi, Mangan, Seng = mikronutrien"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Besi (Fe) adalah MIKRONUTRIEN tanaman. Nitrogen, Fosfor, Kalium (NPK) adalah makronutrien utama; Kalsium juga makronutrien sekunder.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-011",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Dokter : Stethoscope — Arsitek : ...",
+      "options": [
+        "Sketsa",
+        "Penggaris",
+        "AutoCAD",
+        "Jangkar",
+        "Bangunan"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari alat yang paling IDENTIK dan SPESIFIK untuk profesi. Bukan alat umum atau output kerja"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Dokter menggunakan stethoscope sebagai alat kerja utama yang identik. Arsitek identik dengan penggaris/mistar sebagai alat gambar manual.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-012",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang TIDAK termasuk indra manusia?\nA) Penglihatan  B) Pendengaran  C) Penciuman  D) Keseimbangan  E) Peraba",
+      "options": [
+        "Penglihatan",
+        "Pendengaran",
+        "Penciuman",
+        "Keseimbangan",
+        "Peraba"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Indra = 5 pancaindra klasik. Keseimbangan (dan propiosepsi) adalah indera tambahan di luar 5 utama"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "5 indra klasik: penglihatan, pendengaran, penciuman, perasa, peraba. Keseimbangan (vestibular) adalah sistem sensorik tapi bukan salah satu dari 5 indra dasar.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-013",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang TIDAK termasuk gas rumah kaca?\nA) CO₂  B) Metana  C) Nitrogen  D) Uap Air  E) Ozon",
+      "options": [
+        "CO₂",
+        "Metana",
+        "Nitrogen",
+        "Uap Air",
+        "Ozon"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "N₂ dan O₂ menyusun 99% atmosfer tapi keduanya bukan GRK. Gas GRK = yang menyerap inframerah"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Nitrogen (N₂) murni bukan gas rumah kaca. CO₂, CH₄, H₂O, dan O₃ semuanya menyerap radiasi inframerah.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-014",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah pasangan yang TIDAK tepat?\nA) Bandung – Jawa Barat  B) Surabaya – Jawa Timur  C) Medan – Sumatera Utara  D) Makassar – Sulawesi Selatan  E) Pekanbaru – Sumatera Barat",
+      "options": [
+        "Bandung – Jawa Barat",
+        "Surabaya – Jawa Timur",
+        "Medan – Sumatera Utara",
+        "Makassar – Sulawesi Selatan",
+        "Pekanbaru – Sumatera Barat"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafalkan ibu kota provinsi yang sering tertukar: Pekanbaru=Riau, Padang=Sumbar, Jambi=Provinsi Jambi"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Pekanbaru adalah ibu kota Provinsi Riau, bukan Sumatera Barat. Ibu kota Sumatera Barat adalah Padang.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-015",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang BUKAN merupakan organ ekskresi manusia?\nA) Ginjal  B) Paru-paru  C) Hati  D) Kulit  E) Jantung",
+      "options": [
+        "Ginjal",
+        "Paru-paru",
+        "Hati",
+        "Kulit",
+        "Jantung"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ekskresi = pembuangan zat sisa metabolisme. 4 organ ekskresi: Ginjal, Paru, Hati, Kulit (GPKH)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Jantung adalah organ sirkulasi, bukan ekskresi. Ginjal (urin), Paru (CO₂), Hati (empedu/bilirubin), Kulit (keringat) semuanya mengekskresikan zat sisa.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-016",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang BUKAN termasuk jenis pasar modal?\nA) Pasar Perdana  B) Pasar Sekunder  C) Pasar Valas  D) Pasar Paralel  E) Bursa Efek",
+      "options": [
+        "Pasar Perdana",
+        "Pasar Sekunder",
+        "Pasar Valas",
+        "Pasar Paralel",
+        "Bursa Efek"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pasar modal ≠ pasar valas. Pasar modal = efek (saham, obligasi, reksa dana)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Pasar Valas (valuta asing/forex) adalah pasar mata uang asing, bukan pasar modal (saham/obligasi). Pasar modal meliputi perdana, sekunder, paralel, dan bursa efek.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-017",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang BERBEDA dari kelompoknya?\nA) Pantun  B) Syair  C: Gurindam  D) Soneta  E) Talibun",
+      "options": [
+        "Pantun",
+        "Syair",
+        "Gurindam",
+        "Soneta",
+        "Talibun"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Bedakan puisi lokal vs asing. Soneta = asing (Italia), lainnya = puisi Melayu tradisional"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Soneta adalah puisi berbentuk 14 baris yang berasal dari Italia/Eropa. Pantun, Syair, Gurindam, dan Talibun adalah puisi Melayu/Indonesia asli.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-018",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang BUKAN termasuk data primer dalam penelitian?\nA) Wawancara  B) Kuesioner  C) Observasi  D) Jurnal Ilmiah  E) Eksperimen",
+      "options": [
+        "Wawancara",
+        "Kuesioner",
+        "Observasi",
+        "Jurnal Ilmiah",
+        "Eksperimen"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Data primer = dikumpulkan sendiri langsung dari sumber. Data sekunder = sudah tersedia dari sumber lain"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Jurnal ilmiah adalah data sekunder (sudah dipublikasikan orang lain). Wawancara, kuesioner, observasi, dan eksperimen menghasilkan data primer (dikumpulkan langsung).",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-019",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang BUKAN amandemen UUD 1945?\nA) Amandemen I (1999)  B) Amandemen II (2000)  C) Amandemen III (2001)  D) Amandemen IV (2002)  E) Amandemen V (2005)",
+      "options": [
+        "Amandemen I (1999)",
+        "Amandemen II (2000)",
+        "Amandemen III (2001)",
+        "Amandemen IV (2002)",
+        "Amandemen V (2005)"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "UUD 1945 diamandemen sebanyak 4 kali. Tanggal: 1999, 2000, 2001, 2002. Hafalkan!"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "UUD 1945 hanya mengalami 4 kali amandemen (1999, 2000, 2001, 2002). Tidak ada Amandemen V.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-020",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang BUKAN termasuk unsur-unsur negara?\nA) Rakyat  B) Wilayah  C) Pemerintah berdaulat  D) Pengakuan negara lain  E) Ideologi negara",
+      "options": [
+        "Rakyat",
+        "Wilayah",
+        "Pemerintah berdaulat",
+        "Pengakuan negara lain",
+        "Ideologi negara"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "3 unsur konstitutif + 1 deklaratif. Ideologi tidak termasuk dalam definisi formal negara"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Unsur negara: Rakyat, Wilayah, Pemerintah berdaulat (konstitutif) + Pengakuan negara lain (deklaratif). Ideologi bukan unsur formal negara menurut hukum internasional.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-021",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang BERBEDA dari kelompoknya?\nA) Tsunami  B) Gempa Bumi  C) Gunung Meletus  D) Tornado  E) Tanah Longsor",
+      "options": [
+        "Tsunami",
+        "Gempa Bumi",
+        "Gunung Meletus",
+        "Tornado",
+        "Tanah Longsor"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kelompokkan bencana alam: Geologis (seismic, volcanic) vs Meteorologis (angin, hujan). Tornado = meteorologis"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Tornado adalah bencana meteorologis (angin), sedangkan tsunami, gempa bumi, gunung meletus, dan tanah longsor adalah bencana geologis/geofisika.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-022",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang BUKAN hak asasi manusia generasi pertama?\nA) Hak hidup  B) Hak kebebasan berpendapat  C) Hak atas lingkungan bersih  D) Hak memilih  E) Hak atas keadilan",
+      "options": [
+        "Hak hidup",
+        "Hak kebebasan berpendapat",
+        "Hak atas lingkungan bersih",
+        "Hak memilih",
+        "Hak atas keadilan"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "3 generasi HAM: Gen 1=Sipil-Politik, Gen 2=Ekonomi-Sosial-Budaya, Gen 3=Solidaritas (lingkungan, perdamaian)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Hak atas lingkungan bersih adalah HAM generasi ketiga (hak kolektif/solidaritas). Generasi pertama = hak sipil dan politik (hidup, pidapat, memilih, keadilan).",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-023",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Burung Cendrawasih : Papua — Komodo : ...",
+      "options": [
+        "Sulawesi",
+        "Kalimantan",
+        "Nusa Tenggara Timur",
+        "Sumatera",
+        "Bali"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Soal hubungan: hewan endemik → habitat asalnya. Komodo = Pulau Komodo (NTT). Ini sering muncul"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Komodo (Varanus komodoensis) hidup di Pulau Komodo, Rinca, Flores, yang berada di wilayah NTT dan NTB.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-024",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah yang BUKAN termasuk cabang ilmu ekonomi?\nA) Ekonomi Mikro  B) Ekonomi Makro  C) Ekonometrika  D) Kriminologi  E) Ekonomi Pembangunan",
+      "options": [
+        "Ekonomi Mikro",
+        "Ekonomi Makro",
+        "Ekonometrika",
+        "Kriminologi",
+        "Ekonomi Pembangunan"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Identifikasi akar kata: 'krimin' = kejahatan, bukan ekonomi. Semua pilihan lain jelas berbasis ekonomi"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Kriminologi adalah ilmu yang mempelajari kejahatan (cabang sosiologi/kriminologi), bukan ekonomi.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s3-025",
+      "subtest": "tkd",
+      "topic": "word classification",
+      "stem": "Manakah kelompok yang BENAR untuk jenis segitiga berdasarkan sudut?\nA) Lancip, Tumpul, Siku-siku  B) Sama kaki, Sama sisi, Sembarang  C) Lancip, Sama sisi, Siku-siku  D) Tumpul, Sama kaki, Lancip  E) Isosceles, Scalene, Equilateral",
+      "options": [
+        "Lancip, Tumpul, Siku-siku",
+        "Sama kaki, Sama sisi, Sembarang",
+        "Lancip, Sama sisi, Siku-siku",
+        "Tumpul, Sama kaki, Lancip",
+        "Isosceles, Scalene, Equilateral"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "2 cara mengklasifikasi segitiga: berdasarkan SUDUT atau berdasarkan SISI. Jangan campur keduanya dalam satu kelompok"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Berdasarkan sudut: Lancip (<90°), Siku-siku (=90°), Tumpul (>90°). Pilihan B dan E adalah klasifikasi berdasarkan sisi.",
+      "targetSec": 25,
+      "source": "RBB BUMN 2026 · Subtes 3"
+    },
+    {
+      "id": "bumn26-t1-s4-001",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan pola matriks 3×3 berikut:\n┌───┬───┬───┐\n│ ● │ ○ │ ● │\n├───┼───┼───┤\n│ ○ │ ● │ ○ │\n├───┼───┼───┤\n│ ● │ ○ │ ? │\n└───┴───┴───┘\nTanda ? yang tepat adalah...",
+      "options": [
+        "●",
+        "○",
+        "▲",
+        "■",
+        "Tidak ada pola"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Baca pola: diagonal utama, baris, kolom. Cek apakah pola berulang setiap 2 atau 3 elemen"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Pola diagonal dan selang-seling: posisi (1,1), (2,2), (3,3) selalu ●. Posisi baris ganjil kolom ganjil = ●. Maka ? = ●.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-002",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan tabel angka 3×3 berikut:\n┌────┬────┬────┐\n│  2 │  4 │  6 │\n├────┼────┼────┤\n│  3 │  9 │ 27 │\n├────┼────┼────┤\n│  4 │ 16 │  ? │\n└────┴────┴────┘\nNilai ? yang tepat adalah...",
+      "options": [
+        "32",
+        "48",
+        "64",
+        "72",
+        "80"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek pola per baris DAN per kolom. Di sini baris 3: 4×4=16, 16×4=64"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Baris 1: 2, 4, 6 (×2, ×3 dari awal, atau +2). Baris 2: 3, 9, 27 (×3). Baris 3: 4, 16, 64 (×4). Pola kolom pertama: 2,3,4. Setiap baris adalah deret geometri dengan rasio = angka di kolom pertama.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-003",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan pola berikut:\n[Kotak] → [Lingkaran] → [Segitiga]\n[Besar] → [Sedang] → [Kecil]\n[Hitam] → [Abu-abu] → [Putih]\n\nGambar ke-7 dalam urutan ini adalah...",
+      "options": [
+        "Kotak Besar Hitam",
+        "Lingkaran Sedang Abu-abu",
+        "Segitiga Kecil Putih",
+        "Kotak Sedang Abu-abu",
+        "Lingkaran Besar Hitam"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola siklus: gunakan modulo. Posisi ke-n, sisa = n mod 3 (atau panjang siklus). Sisa 1 = elemen pertama"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Pola siklus 3: posisi 1,4,7 = Kotak Besar Hitam. Posisi 7 = 7÷3 = sisa 1, artinya kembali ke posisi pertama dalam siklus.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-004",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan pola angka:\nBaris 1: 1\nBaris 2: 2  3\nBaris 3: 4  5  6\nBaris 4: 7  8  9  10\n\nBaris 5 diawali dengan angka...",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hitung total elemen sebelumnya: 1+2+3+4=10. Baris berikutnya mulai dari 10+1=11"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Baris 1 ada 1 angka (1), baris 2 ada 2 angka (2-3), baris 3 ada 3 angka (4-6), baris 4 ada 4 angka (7-10). Total setelah baris 4 = 10. Baris 5 dimulai dari 11.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-005",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Terdapat 4 gambar bentuk yang berputar:\nGambar 1: Panah menunjuk ke ATAS (↑)\nGambar 2: Panah menunjuk ke KANAN (→)\nGambar 3: Panah menunjuk ke BAWAH (↓)\nGambar 4: Panah menunjuk ke KIRI (←)\nGambar 5: ?",
+      "options": [
+        "↑ (Atas)",
+        "→ (Kanan)",
+        "↓ (Bawah)",
+        "← (Kiri)",
+        "↗ (Kanan atas)"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola rotasi 4 posisi: modulo 4. Posisi 5 mod 4 = 1 → posisi pertama = ↑"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Siklus rotasi 90° searah jarum jam: ↑→↓←↑→... Gambar 5 = kembali ke ↑.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-006",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan tabel:\n┌─────┬─────┬─────┐\n│  A  │  C  │  E  │\n├─────┼─────┼─────┤\n│  B  │  D  │  F  │\n├─────┼─────┼─────┤\n│  G  │  ?  │  K  │\n└─────┴─────┴─────┘\nHurup ? yang tepat adalah...",
+      "options": [
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Baca pola per baris. Kenaikan +2 menghasilkan huruf berselang satu. G→I→K"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Baris 1: A,C,E (huruf urut +2). Baris 2: B,D,F (huruf urut +2). Baris 3: G, ?, K. G=7, +2=I=9, +2=K=11. Maka ?=I.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-007",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Sebuah dadu standar:\n- Sisi berhadapan selalu berjumlah 7 (1-6, 2-5, 3-4).\n- Dadu diletakkan dengan sisi '1' menghadap atas dan sisi '2' menghadap depan.\nSisi manakah yang menghadap ke KANAN?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "2"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafalkan aturan dadu: pasangan (1-6),(2-5),(3-4). Dengan posisi 1 atas dan 2 depan, gunakan aturan tangan kanan untuk kanan=3"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Pada dadu standar orientasi: 1 atas, lawan=6 bawah. 2 depan, lawan=5 belakang. 3 kanan, lawan=4 kiri. Maka kanan=3.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-008",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan pola:\n□ □ □ → 3 kotak\n□ □ □ □ → 4 kotak\nPola segitiga dari kotak:\nBaris 1: □\nBaris 2: □ □\nBaris 3: □ □ □\nTotal kotak untuk 6 baris adalah...",
+      "options": [
+        "18",
+        "20",
+        "21",
+        "24",
+        "28"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Soal pola segitiga Pascal: gunakan rumus T(n) = n(n+1)/2. Untuk n=6: 6×7/2 = 21"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Total = 1+2+3+4+5+6 = 21. Rumus bilangan segitiga: n(n+1)/2 = 6×7/2 = 21.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-009",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan pola warna:\nKotak 1: Merah\nKotak 2: Biru\nKotak 3: Hijau\nKotak 4: Merah\nKotak 5: Biru\nKotak 6: Hijau\nKotak 13: ?",
+      "options": [
+        "Merah",
+        "Biru",
+        "Hijau",
+        "Kuning",
+        "Ungu"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Siklus N: posisi k → k mod N. Jika sisa=0 → elemen terakhir. 13 mod 3 = 1 → elemen ke-1 = Merah"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Siklus 3 warna. 13 mod 3 = 1. Posisi 1 = Merah. Maka kotak ke-13 = Merah.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-010",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Sebuah pola cermin (refleksi horizontal):\n[Asli]: ▷▷▷ (tiga segitiga menunjuk kanan)\n[Cermin Horizontal]: ?",
+      "options": [
+        "▶▶▶",
+        "◁◁◁",
+        "▽▽▽",
+        "△△△",
+        "◀◀◀"
+      ],
+      "key": 4,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Refleksi horizontal membalik kiri-kanan. Refleksi vertikal membalik atas bawah. Tentukan jenis cermin dulu"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Refleksi horizontal = cermin di sumbu vertikal. Segitiga kanan (▷) menjadi segitiga kiri (◀).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-011",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan pola matriks angka:\n┌────┬────┬────┐\n│  1 │  2 │  3 │\n├────┼────┼────┤\n│  4 │  5 │  6 │\n├────┼────┼────┤\n│  7 │  8 │  ? │\n└────┴────┴────┘\nOperasi: Setiap baris dijumlahkan. Baris 1=6, Baris 2=15, Baris 3=?",
+      "options": [
+        "22",
+        "23",
+        "24",
+        "25",
+        "26"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hitung total baris: jumlah aritmetika berurutan. Baris 3 = 7+8+9 = 24"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "? = 9. Baris 3: 7+8+9=24. Atau polanya: baris 1=6, baris 2=15, selisih=9. Baris 3=15+9=24.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-012",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Bujur sangkar dengan angka di tepi:\n   8\n5 [?] 3\n   6\nAngka tengah = rata-rata dari empat sisi. Nilai ? adalah...",
+      "options": [
+        "4",
+        "5",
+        "5.5",
+        "6",
+        "7"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Soal matriks tengah: biasanya rata-rata, jumlah, atau selisih dari sisi/pojok. Coba operasi dasar dulu"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Rata-rata: (8+3+6+5)/4 = 22/4 = 5.5.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-013",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Pola lipatan kertas:\nKertas persegi dilipat 1 kali → 2 bagian\nDilipat 2 kali → 4 bagian\nDilipat 3 kali → 8 bagian\nDilipat 6 kali → ? bagian",
+      "options": [
+        "32",
+        "48",
+        "64",
+        "72",
+        "96"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola pangkat 2 klasik. n lipatan = 2^n bagian. Hafalkan: 2^6=64, 2^7=128, 2^8=256"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Setiap lipatan menggandakan bagian: 2^n. Lipat 6 kali = 2^6 = 64.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-014",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan pola:\n▲▲▲\n▲▲▲▲▲\n▲▲▲▲▲▲▲\n\nBaris 1 = 3 segitiga, Baris 2 = 5, Baris 3 = 7.\nBaris ke-10 memiliki berapa segitiga?",
+      "options": [
+        "19",
+        "21",
+        "23",
+        "25",
+        "27"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Temukan rumus pola: selisih antar baris = +2 (konstan). Bentuk: a+(n-1)×d = 3+(n-1)×2 = 2n+1"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola: 2n+1. Baris 1: 2(1)+1=3, Baris 2: 2(2)+1=5, Baris 10: 2(10)+1=21.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-015",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Sebuah bentuk dengan sisi:\nSegitiga = 3 sisi, Persegi = 4 sisi, Pentagon = 5 sisi, Heksagon = 6 sisi.\nJumlah sisi dari Decagon (10 sisi) + Oktagon (8 sisi) = ?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafalkan nama bentuk geometri: Tri=3, Quad=4, Penta=5, Hexa=6, Hepta=7, Octa=8, Nona=9, Deca=10"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Decagon = 10 sisi, Oktagon = 8 sisi. 10+8=18.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-016",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Diagram Venn: \n- Kelompok A (gemar baca) = 20 orang\n- Kelompok B (gemar olahraga) = 15 orang\n- Keduanya (A∩B) = 8 orang\nBerapa total orang yang gemar setidaknya satu aktivitas?",
+      "options": [
+        "27",
+        "28",
+        "35",
+        "43",
+        "30"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus Venn 2 kelompok: A∪B = A+B-A∩B. Selalu kurangi irisan agar tidak dihitung dua kali"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "|A∪B| = |A|+|B|-|A∩B| = 20+15-8 = 27.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-017",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Jalur transportasi: A→B→C→D→A membentuk lingkaran.\nJika berangkat dari A ke arah kanan, setelah melewati 7 halte, berada di mana?\n(Urutan: A=1, B=2, C=3, D=4, lalu kembali ke A=5, B=6, ...)",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "Tidak dapat ditentukan"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Soal siklus melingkar: gunakan modulo. k mod N memberikan posisi dalam siklus"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Siklus 4 halte. Halte ke-7: 7 mod 4 = 3. Posisi 3 = C.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-018",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan pola gambar:\n● ○ ● ○ ●\n○ ● ○ ● ○\n● ○ ● ○ ●\n\nIni adalah papan catur 5×3. Pojok kiri atas = ●.\nPosisi baris ke-2, kolom ke-4 adalah...",
+      "options": [
+        "●",
+        "○",
+        "Bisa keduanya",
+        "Kosong",
+        "Tidak dapat ditentukan"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Baca langsung dari pola. Baris 2: ○●○●○. Kolom 4 dari baris 2 = ●"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Posisi (baris, kolom): genap+genap=●, ganjil+ganjil=●, campuran=○. Baris 2 kolom 4: 2+4=6 (genap)=○. Tapi dari pola di atas: baris 2, kolom 4 = ●. Cek langsung dari tabel.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-019",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Analogi gambar:\nBujur sangkar dengan 4 sudut → memiliki diagonal 2\nPentagon dengan 5 sudut → memiliki diagonal 5\nHeksagon dengan 6 sudut → memiliki diagonal ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Diagonal poligon = n(n-3)/2. Square(4)=2, Pentagon(5)=5, Hexagon(6)=9, Heptagon(7)=14"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Rumus diagonal: n(n-3)/2. Untuk n=6: 6(6-3)/2 = 6×3/2 = 9.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-020",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan pola busur/jam:\nJam 12:00 → jarum panjang di atas (↑)\nJam 12:15 → jarum panjang di kanan (→)\nJam 12:30 → jarum panjang di bawah (↓)\nJam 12:45 → jarum panjang di kiri (←)\nJam 13:00 → jarum panjang di...?",
+      "options": [
+        "↑ (atas)",
+        "→ (kanan)",
+        "↓ (bawah)",
+        "← (kiri)",
+        "Diagonal kanan atas"
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jarum menit berputar penuh tiap 60 menit. 13:00 = 12:00 + 60 menit = posisi yang sama"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Siklus 60 menit. Jam 13:00 = 60 menit setelah 12:00 → kembali ke atas (↑).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-021",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Pola angka dalam bentuk X:\n   2\n 4   6\n   8\n 10  12\n   14\nAngka ke-9 dalam urutan baca kiri ke kanan, atas ke bawah adalah...",
+      "options": [
+        "14",
+        "16",
+        "18",
+        "20",
+        "22"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pola deret genap: 2,4,6,8,... Angka ke-n = 2n. Angka ke-9 = 2×9 = 18"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Urutan baca: 2,4,6,8,10,12,14,16,18. Angka ke-9 = 18.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-022",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Bayangan cermin vertikal (sumbu y):\nTitik asli: (3, 4)\nBayangannya adalah...",
+      "options": [
+        "(3, -4)",
+        "(-3, 4)",
+        "(-3, -4)",
+        "(4, 3)",
+        "(-4, -3)"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cermin vertikal (sumbu-y): balik tanda x. Cermin horizontal (sumbu-x): balik tanda y"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Refleksi terhadap sumbu y (cermin vertikal): (x, y) → (-x, y). Maka (3,4) → (-3, 4).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-023",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan tabel:\n┌────┬────┐\n│  3 │  5 │\n│  7 │  ? │\n└────┴────┘\nPola: angka kanan = angka kiri × 2 - 1. Nilai ? adalah...",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Temukan pola dengan uji operasi sederhana: ×2, ÷2, +n, -n, ×n+/-k. Verifikasi dengan baris yang diketahui"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola ×2-1: 3×2-1=5 (benar untuk baris 1). 7×2-1=13.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-024",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan urutan bentuk:\n▲ ■ ● ▲ ■ ● ▲ ■ ●\nBentuk ke-17 adalah...",
+      "options": [
+        "▲",
+        "■",
+        "●",
+        "▷",
+        "◆"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Modulo adalah kunci. 17÷3 = 5 sisa 2 → elemen ke-2 dalam siklus = ■"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Siklus 3: ▲=1,■=2,●=3. 17 mod 3 = 2. Posisi 2 = ■.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s4-025",
+      "subtest": "tkd",
+      "topic": "diagram reasoning",
+      "stem": "Perhatikan pola matriks:\n┌────┬────┬────┐\n│  1 │  3 │  5 │\n├────┼────┼────┤\n│  7 │  9 │ 11 │\n├────┼────┼────┤\n│ 13 │ 15 │  ? │\n└────┴────┴────┘\nNilai ? adalah...",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Baca matriks baris demi baris dari kiri ke kanan, atas ke bawah. Cari polanya secara linear"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Pola: bilangan ganjil berurutan 1,3,5,7,9,11,13,15,17. Nilai ? = 17.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 4"
+    },
+    {
+      "id": "bumn26-t1-s5-001",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Anda adalah ketua tim proyek yang sedang menghadapi tenggat waktu (deadline) yang sangat ketat. Salah satu anggota tim Anda, yang biasanya berkinerja baik, tampak kelelahan dan kinerjanya menurun drastis minggu ini. Apa yang akan Anda lakukan?",
+      "options": [
+        "Menegurnya di depan tim agar dia segera memperbaiki kinerjanya demi mencapai target.",
+        "Melaporkan penurunan kinerjanya kepada manajer HRD agar diberikan sanksi yang sesuai.",
+        "Mengambil alih semua tugasnya agar proyek selesai tepat waktu, tanpa banyak bertanya.",
+        "Mengajaknya bicara empat mata, menanyakan kendalanya, dan mencari solusi bersama.",
+        "Membiarkannya saja karena ini sudah jadi tanggung jawab profesionalnya, harus siap capek."
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pilih opsi yang menunjukkan EMPATI, KOMUNIKASI yang baik, dan SOLUTIF. Hindari konfrontasi publik atau sikap lepas tangan"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Kolaboratif dan Amanah. Mengajak bicara secara personal menunjukkan empati dan kemauan untuk menyelesaikan masalah bersama (Kolaboratif) sekaligus peduli pada anggota tim (Amanah dalam memimpin).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-002",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Perusahaan Anda sedang menerapkan sistem teknologi baru yang sama sekali belum Anda pahami. Anda diwajibkan menggunakan sistem ini mulai minggu depan. Sikap Anda adalah...",
+      "options": [
+        "Protes kepada atasan karena pergantian sistem terlalu mendadak dan merepotkan.",
+        "Diam saja dan coba gunakan sistem lama selama masih bisa, menunda memakai yang baru.",
+        "Mempelajari sistem tersebut secara mandiri dan meminta bantuan rekan yang sudah mengerti.",
+        "Meminta atasan menunda implementasi agar semua orang siap terlebih dahulu.",
+        "Menyuruh rekan kerja yang lebih muda/paham IT untuk mengerjakan bagian Anda."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pilih opsi yang menunjukkan ADAPTASI, INISIATIF BELAJAR, dan PROAKTIF menghadapi perubahan"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Kompeten dan Adaptif. Sikap mau belajar hal baru dan menyesuaikan diri dengan perubahan teknologi menunjukkan nilai Adaptif dan kemauan meningkatkan Kompetensi diri.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-003",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Anda menemukan bahwa rekan kerja Anda sering menggunakan kendaraan dinas perusahaan untuk keperluan pribadi pada akhir pekan, yang jelas melanggar peraturan perusahaan. Apa yang akan Anda lakukan?",
+      "options": [
+        "Mengingatkannya secara baik-baik bahwa hal tersebut melanggar aturan dan memintanya berhenti.",
+        "Membiarkannya saja karena bukan kendaraan Anda sendiri dan Anda tidak ingin ikut campur.",
+        "Ikut menggunakan fasilitas yang ada karena toh tidak ada yang tahu.",
+        "Langsung melaporkannya ke komite etik atau HRD tanpa bicara kepadanya terlebih dahulu.",
+        "Menyindirnya di grup WhatsApp kantor agar dia merasa malu."
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pilih opsi INTEGRITAS (menjaga aturan) yang dilakukan melalui KOMUNIKASI ASERTIF namun tetap menjaga hubungan baik"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Loyal dan Amanah. Menegur rekan secara asertif menunjukkan integritas (Amanah) dan menjaga nama baik perusahaan (Loyal), tanpa langsung meloncat ke eskalasi yang mungkin destruktif jika belum ditegur.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-004",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Saat presentasi proyek di depan direksi, Anda menyadari ada kesalahan data yang cukup signifikan pada slide yang sedang Anda tampilkan. Kesalahan tersebut sebelumnya tidak disadari oleh tim Anda. Tindakan terbaik adalah...",
+      "options": [
+        "Terus lanjut presentasi seolah data itu benar agar terlihat percaya diri di depan direksi.",
+        "Lempar kesalahan ke anggota tim yang menyiapkan slide tersebut di depan direksi.",
+        "Panik dan menghentikan presentasi untuk mencari data yang benar.",
+        "Mengakui kesalahan data secara profesional, menyampaikan poin esensinya, dan janji mengirim revisi data secepatnya.",
+        "Membatalkan presentasi dengan alasan slide kurang siap."
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pilih tindakan yang JUJUR, BERTANGGUNG JAWAB (tidak menyalahkan orang lain), dan SOLUTIF"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Amanah dan Kompeten. Mengakui kesalahan secara profesional menunjukkan integritas (Amanah) dan memberikan solusi tindak lanjut menunjukkan profesionalisme (Kompeten).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-005",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Anda ditempatkan di sebuah tim lintas departemen yang anggotanya memiliki latar belakang suku, agama, dan budaya yang sangat beragam. Terkadang, terjadi miskomunikasi karena gaya bicara yang berbeda. Sikap yang harus Anda tunjukkan adalah...",
+      "options": [
+        "Hanya bergaul dengan orang yang satu daerah dengan Anda karena lebih nyaman.",
+        "Menyamakan persepsi, menghargai perbedaan gaya komunikasi, dan fokus pada tujuan tim.",
+        "Memaksa anggota tim lain untuk mengikuti gaya komunikasi yang Anda anggap paling benar.",
+        "Menghindari komunikasi jika tidak terlalu penting untuk mencegah salah paham.",
+        "Sering menjadikan perbedaan budaya sebagai bahan bercandaan agar tidak kaku."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pilih opsi TOLERANSI, MENGHARGAI KEBERAGAMAN, dan MENGUTAMAKAN TUJUAN BERSAMA"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Harmonis dan Kolaboratif. Menghargai perbedaan dan fokus pada tujuan bersama mencerminkan nilai Harmonis di tempat kerja.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-006",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Seorang pelanggan mengajukan komplain dengan nada marah karena pelayanan yang diberikan kurang memuaskan, padahal kesalahan sebenarnya bukan dari divisi Anda, melainkan divisi teknis. Anda akan...",
+      "options": [
+        "Menolak disalahkan dan menyuruh pelanggan komplain ke divisi teknis.",
+        "Mendengarkan dengan empati, meminta maaf atas ketidaknyamanan, dan membantu mengoordinasikan masalahnya dengan divisi terkait.",
+        "Membiarkan pelanggan tersebut marah-marah sampai selesai lalu meninggalkannya.",
+        "Memarahi balik pelanggan karena dia bersikap tidak sopan di area kerja Anda.",
+        "Abaikan saja karena itu bukan tupoksi kerja Anda."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pilih opsi MENDENGARKAN, BEREMPATI, dan BERI SOLUSI (meski butuh koordinasi antar divisi)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Kolaboratif dan Amanah (Orientasi Pelayanan). Membantu dan berkoordinasi meskipun bukan kesalahan Anda menunjukkan Collaborative problem solving dan pelayanan prima (Customer focus).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-007",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Perusahaan Anda memberikan target penjualan yang sangat tinggi bulan ini dan sepertinya mustahil tercapai. Atasan mengisyaratkan bahwa 'cara apa pun' boleh dilakukan asal target tembus. Anda tahu beberapa kompetitor melakukan cara-cara abu-abu. Sikap Anda?",
+      "options": [
+        "Memanipulasi sedikit laporan penjualan agar terlihat lebih baik di mata atasan.",
+        "Melakukan praktik abu-abu seperti kompetitor karena atasan sudah memberi lampu hijau.",
+        "Tetap bekerja dengan cara yang etis dan sah, serta memberikan evaluasi objektif tentang pencapaian riil.",
+        "Berhenti bekerja dan langsung mencari pekerjaan baru karena tidak tahan tekanan.",
+        "Meminta atasan menurunkan target karena jelas mustahil dicapai."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pilih INTEGRITAS TINGGI. Jangan pernah memilih opsi manipulasi, suap, atau abu-abu meski situasinya 'memaksa'"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Amanah dan Loyal. Menjaga integritas moral tanpa tawar-menawar (Amanah) serta tetap bekerja memberikan evaluasi riil (Loyal kepada kebenaran perusahaan).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-008",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Anda dipromosikan menjadi manajer, namun ada rekan sejawat Anda yang lebih senior dan merasa dia yang lebih layak. Dia mulai bersikap dingin dan kurang suportif. Cara Anda menghadapinya?",
+      "options": [
+        "Menggunakan jabatan baru Anda untuk memberinya tugas-tugas berat sebagai balasan.",
+        "Langsung me-mutasi dia ke departemen lain agar tidak menjadi toxic di tim.",
+        "Tetap bersikap profesional, merangkulnya secara personal, dan menunjukkan komitmen Anda membangun tim.",
+        "Mengabaikan sikapnya selama dia masih menyelesaikan pekerjaannya.",
+        "Menegurnya di depan umum agar dia menghormati posisi Anda yang baru."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pilih sikap MERANGKUL, TIDAK PENDENDAM, dan MEMBANGUN LINGKUNGAN KERJA KONDUSIF"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Harmonis dan Kolaboratif. Menjaga lingkungan kerja tetap kondusif (Harmonis) dengan cara profesional dan merangkul rekan (Kolaboratif) adalah ciri leader yang baik.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-009",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Anda ditugaskan di kantor cabang terpencil yang fasilitasnya sangat minim dibandingkan kantor pusat tempat Anda sebelumnya. Tindakan yang Anda lakukan?",
+      "options": [
+        "Mengeluh di media sosial tentang minimnya fasilitas di cabang terpencil tersebut.",
+        "Bekerja seadanya karena fasilitasnya juga seadanya.",
+        "Meminta segera dipindahkan kembali ke pusat dengan alasan kesehatan kurang cocok.",
+        "Bekerja maksimal dengan fasilitas yang ada serta memberikan inovasi untuk perbaikan secara bertahap.",
+        "Sering bolos kerja karena merasa tidak termotivasi."
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pilih TAHAN BANTING (Resilience), MENYESUAIKAN DIRI CEPAT, dan MEMBERI INOVASI"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Adaptif dan Kompeten. Mampu bekerja di lingkungan sulit dengan inisiatif perbaikan (Adaptif & Kompeten) mencerminkan ketangguhan (resilience).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-010",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Sebuah vendor menawarkan hadiah pribadi (gratifikasi) berupa paket liburan keluarga jika Anda membantu memenangkan tender mereka. Vendor tersebut memang kompeten. Respon Anda?",
+      "options": [
+        "Menerima hadiah tersebut toh vendornya memang berkualitas dan pasti menang.",
+        "Menolak hadiah secara halus namun tetap memprioritaskan vendor tersebut di tender.",
+        "Menolak dengan tegas hadiah tersebut dan tetap memproses seleksi tender secara transparan dan objektif.",
+        "Melaporkan vendor ke KPK tanpa memberitahu atasan Anda.",
+        "Menerima, namun uang senilai liburan itu disumbangkan ke panti asuhan."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pilih NOL TOLERANSI PADA KORUPSI DAN GRATIFIKASI. Jangan ragu, pilih tolak mentah-mentah secara profesional!"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Amanah. Menolak segala bentuk gratifikasi secara tegas dan tetap objektif dalam menjalankan prosedur perusahaan adalah inti dari Amanah (Integritas dan GCG).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-011",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Tim Anda sedang dipersiapkan untuk merger dengan perusahaan lain yang memiliki budaya kerja bertolak belakang. Anda merasa cemas karena khawatir posisi Anda terancam. Sikap terbaik Anda adalah...",
+      "options": [
+        "Mulai mencari lowongan di perusahaan lain sebagai langkah antisipasi gagal merger.",
+        "Membangun kubu dengan rekan-rekan pro-karyawan lama untuk mencegah budaya baru masuk.",
+        "Secara proaktif mempelajari proses dan budaya perusahaan baru guna mengoptimalkan nilai tambah Anda dalam tim gabungan.",
+        "Melakukan pekerjaan minimal sambil memantau situasi ke depan.",
+        "Meyakinkan atasan bahwa budaya perusahaan Anda lebih unggul dibanding perusahaan lain."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Situasi MERGER/RESTRUKTURISASI = ADAPTASI PROAKTIF (bukan defensif/menolak perubahan)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Adaptif dan Kompeten. Merger menuntut adaptasi. Mempelajari dan menyesuaikan diri dengan budaya baru menunjukkan resiliensi dan inisiatif.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-012",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Anda mengetahui bahwa rekan kerja satu kubikel Anda sedang mengalami masalah keluarga yang berat sehingga akhir-akhir ini sering melakukan kesalahan fatal dalam dokumen. Tindakan Anda?",
+      "options": [
+        "Melaporkan kesalahan-kesalahannya ke atasan karena berakibat fatal.",
+        "Berempati kepadanya namun tetap mendiskusikan dampaknya ke pekerjaan, serta menawarkan bantuan *back-up* sementara jika diperlukan.",
+        "Memperbaiki seluruh kesalahannya secara diam-diam agar ia tidak dipecat.",
+        "Menghindarinya karena tidak ingin tertular energi negatif dari masalah pribadinya.",
+        "Menyuruhnya untuk mengambil cuti tanpa dibayar sampai masalahnya selesai."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ada masalah pribadi rekan = EMPATI + BANTU BACK-UP SEMENTARA + TETAP JAGA STANDAR"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Harmonis dan Kolaboratif. Kombinasi antara empati (Harmonis) namun tetap menjaga profesionalitas target kerja dengan kolaborasi *back-up*.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-013",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Atasan menugaskan Anda sebuah pekerjaan yang sebenarnya adalah di luar *job description* Anda dan Anda kurang menguasai bidang tersebut. Tanggapan Anda sebaiknya...",
+      "options": [
+        "Menerima tugas tersebut sebagai kesempatan belajar dan meminta bimbingan jika menemui kesulitan.",
+        "Menerima tugas tersebut tapi beralasan teknis jika hasilnya nanti tidak memuaskan.",
+        "Menolak secara halus dengan menunjukkan *job description* resmi yang ditandatangani.",
+        "Mendelegasikannya kepada rekan yang kebetulan ahli di bidang tersebut.",
+        "Mengerjakannya sembarangan agar ke depan tidak diberi tugas di luar *jobdesc* lagi."
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Tugas luar jobdesc = KESEMPATAN BELAJAR + GROWTH MINDSET. Jangan langsung ditolak pakai tameng SOP"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Kompeten (Growth mindset) dan Loyal. Menerima tugas di luar *jobdesc* sebagai kesempatan belajar adalah representasi dari inisiatif untuk tumbuh.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-014",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Kantor Anda sedang mewajibkan program efisiensi anggaran ketat. Anda terbiasa melakukan perjalanan dinas dengan penerbangan *Business Class*. Peraturan baru mengharuskan level manajer turun kelas ke *Economy Class*. Reaksi Anda?",
+      "options": [
+        "Membayar selisihnya menggunakan uang pribadi agar tetap terbang di kelas bisnis.",
+        "Tunduk pada peraturan baru dengan ikhlas demi mendukung program efisiensi perusahaan.",
+        "Protes ke direksi karena level Anda sudah sepantasnya di kelas bisnis.",
+        "Mengurangi jadwal dinas luar kota karena standar fasilitas yang menurun.",
+        "Mengakali laporan keuangan agar *business class* dimasukkan ke dalam pos anggaran lain."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Efisiensi perusahaan = PATUH TANPA SYARAT UNTUK KEPENTINGAN BERSAMA"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Loyal dan Amanah. Patuh pada kebijakan efisiensi perusahaan di waktu krisis menunjukkan *ownership* (rasa memiliki) dan keselarasan dengan kepentingan organisasi.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-015",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Dalam proyek kelompok perusahaan, Anda merasa memiliki ide yang jauh lebih cemerlang dibandingkan ide yang disetujui mayoritas. Apa yang harus Anda lakukan saat implementasi?",
+      "options": [
+        "Menerapkan ide Anda secara diam-diam meskipun kelompok menyepakati ide lain.",
+        "Mengerjakan tugas dengan setengah hati karena tidak sepakat dengan ide kelompok.",
+        "Tetap berkomitmen mengeksekusi ide kelompok yang disepakati dengan upaya maksimal.",
+        "Terus-menerus mengkritik ide tersebut sepanjang tahap implementasi.",
+        "Keluar dari tim proyek agar tidak terseret kegagalan."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Jika keputusan telah bulat = DUKUNG SEPENUHNYA MESKI BEDA PENDAPAT (Disagree but commit)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Kolaboratif dan Harmonis. Sinergi mengharuskan kita *commit* kepada keputusan tim meskipun keputusan itu bukanlah pilihan pribadi kita (disagree and commit).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-016",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Anda menemukan celah keamanan dalam sistem operasional perusahaan yang jika dimanfaatkan bisa memberi keuntungan finansial bagi Anda tanpa terdeteksi. Sikap Anda:",
+      "options": [
+        "Menguji celah tersebut sedikit demi sedikit untuk memastikan tidak ada yang sadar.",
+        "Membiarkan celah tersebut karena memperbaiki sistem bukan wewenang Anda.",
+        "Segera melaporkan celah tersebut ke departemen IT dan manajemen agar segera diperbaiki.",
+        "Bercerita ke teman-teman agar mereka berhati-hati namun tidak mau melapor resmi.",
+        "Meminta imbalan kepada perusahaan sebelum membocorkan letak celah tersebut."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Celah keamanan/Error sistem = SEGERA LAPORKAN (Eskalasi)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Amanah dan Loyal. Menempatkan kepentingan dan perlindungan aset perusahaan di atas kepentingan (atau apatisme) pribadi.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-017",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Setelah menyelesaikan sebuah proyek besar dengan sukses, atasan Anda memberikan seluruh kredit/pujian secara publik kepada Anda, tanpa menyebut anggota tim Anda yang lain. Padahal mereka sangat berjasa. Anda akan...",
+      "options": [
+        "Berdiam diri saja menikmati pujian dari atasan untuk mendongkrak karir.",
+        "Mengucapkan terima kasih sambil secara publik memuji dan mendedikasikan keberhasilan itu pada kontribusi luar biasa dari para anggota tim Anda.",
+        "Menegur atasan Anda secara tertutup karena melupakan anggota tim Anda.",
+        "Mengirimi tim Anda pesan singkat berisi ucapan terima kasih secara privat sesudahnya.",
+        "Merasa bahwa wajar *leader* mendapatkan seluruh kredit karena risikonya juga di *leader*."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Keberhasilan proyek = BERIKAN KREDIT PADA TIM (Hargai kerja keras kolektif)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Kolaboratif dan Harmonis. Penghargaan terbuka pada kontribusi tim akan menjaga moral *teamwork* dan menunjukkan sosok pemimpin yang adil.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-018",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Anda ditunjuk memimpin proyek digitalisasi, sementara setengah dari staf yang harus melakukan transisi adalah pegawai senior yang gagap teknologi dan enggan berubah. Apa strategi Anda?",
+      "options": [
+        "Merekomendasikan manajemen untuk memberhentikan pegawai yang tidak mau berubah.",
+        "Melakukan persuasi personal, menunjukkan manfaat praktis sistem baru, serta memberikan pendampingan *hands-on* secara bertahap.",
+        "Bekerja sama hanya dengan pegawai-pegawai muda yang lebih mudah diarahkan.",
+        "Memaksakan sanksi berupa potongan gaji bagi siapa saja yang terlambat adopt.",
+        "Mengerjakan tugas pegawai senior tersebut secara diam-diam agar proyek tetap jalan."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pegawai senior menolak perubahan = PERSUASI PERSONAL + PENDAMPINGAN (Mentoring)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Adaptif, Kolaboratif, Kompeten. Mendorong perubahan (*change agent*) secara asertif melalui bukti riil dan empati untuk membangun ekosistem digital.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-019",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Dalam evaluasi kinerja tahunan, atasan memberi nilai Anda 'Cukup' dan menyampaikan area yang perlu diperbaiki. Anda terbiasa mendapat nilai 'Sangat Baik' bertahun-tahun. Bagaimana reaksi Anda?",
+      "options": [
+        "Segera mencari tahu siapa rekan yang menjelek-jelekkan Anda di belakang.",
+        "Marah dan mengancam akan mencari pekerjaan lain jika penilaiannya tidak direvisi.",
+        "Merasa terpukul dan demotivasi selama berbulan-bulan.",
+        "Meminta penjelasan rinci untuk perbaikan diri lalu membuat *action plan* secara objektif.",
+        "Menolak menandatangani dokumen evaluasi tersebut sebagai bentuk protes keras."
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kritik & Nilai Jelek = MINTA FEEDBACK RINCI + BUAT ACTION PLAN (Jangan reaktif)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Kompeten. Menjadikan kritik sebagai motivasi dan umpan balik (*Growth mindset*).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-020",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Anda diminta oleh kerabat dekat untuk membocorkan kriteria spesifik tes rekrutmen perusahaan agar anaknya bisa lolos. Padahal data tersebut diklasifikasikan *Rahasia Perusahaan*. Sikap Anda:",
+      "options": [
+        "Menolak tegas karena melanggar pakta integritas dan memberikan nasehat agar anaknya belajar wajar.",
+        "Memberi kisi-kisi umum saja yang sebenarnya sudah ada di internet agar ia tidak tersinggung.",
+        "Memberikan seluruh informasinya, lagipula kalau anaknya pintar tidak akan merugikan perusahaan.",
+        "Berpura-pura tidak tahu lalu tidak membalas pesannya sama sekali.",
+        "Melaporkan sang kerabat ke pihak berwajib atas tuduhan percobaan suap."
+      ],
+      "key": 0,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Konflik kepentingan (Keluarga vs Aturan) = TETAP IKUT ATURAN DENGAN PENOLAKAN ETIS"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Amanah dan Harmonis. Menjaga rahasia jabatan merupakan core dari integritas (Amanah). Memberi nasehat secara etis menjaga silaturahmi (Harmonis).",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-021",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Di tengah presentasi besar antar divisi, salah satu data yang dibaca tim divisi lain secara tajam mendiskreditkan kinerja Divisi Anda. Anda tahu data tersebut pengambilannya keliru. Apa yang Anda lakukan?",
+      "options": [
+        "Langsung menyela dengan keras bahwa data tersebut sampah dan tidak valid.",
+        "Tersenyum dan mencatat hal itu dalam hati untuk membalas dendam di rapat berikutnya.",
+        "Meminta waktu dengan sopan untuk meluruskan asumsi data tersebut secara objektif dengan bukti perbandingan yang sesuai.",
+        "Langsung keluar ruangan sebagai bentuk protes dari tindakan 'menikam' di rapat terbuka.",
+        "Mengakui kelemahan divisi Anda demi tidak memperpanjang perdebatan di depan manajemen."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Dikritik salah kaprah = KLARIFIKASI DENGAN DATA SECARA PROFESIONAL (Asertif tapi tetap sopan)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Harmonis dan Kompeten. Menyampaikan koreksi/klarifikasi berdasarkan data yang solid dengan tetap menjaga etika forum.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-022",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Anda merupakan karyawan Gen Z yang dinamis. Namun atasan Anda (Boomers) sering meminta *print out* fisik tebal dan revisi berulang secara manual, sangat berbeda dari kebiasaan Anda yang serba *paperless*. Reaksi Anda:",
+      "options": [
+        "Memposting *ranting* tentang kebijakan kuno atasan Anda ke media sosial 'Close Friends'.",
+        "Memenuhi permintaannya sambil perlahan mengedukasi dan menawarkan opsi efisiensi digital sistematis kepadanya.",
+        "Menolak keras mencetak laporan karena berdalih Go-Green dan tidak efisien.",
+        "Melakukan pencetakan setengah hati sambil menunda-nunda pengerjaannya.",
+        "Meminta mutasi ke atasan yang usianya lebih sebaya."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Beda gaya generasi = HORMATI CARANYA + EDUKASI BERTAHAP"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Kolaboratif, Adaptif, dan Harmonis. Menjembatani kesenjangan generasi dengan cara memenuhi ekspektasinya sambil mengedukasi digitalisasi.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-023",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Perusahaan menjanjikan bonus tahunan besar, namun karena krisis moneter global, Direktur Utama menyampaikan bahwa bonus ditiadakan tahun ini demi mencegah PHK besar-besaran. Tanggapan Anda:",
+      "options": [
+        "Mogok kerja karena itu hak yang telah dijanjikan sebelumnya.",
+        "Memahami keputusan krusial tersebut sebagai bentuk keberpihakan pada kelangsungan hidup para pegawai, dan tetap bekerja produktif.",
+        "Pura-pura kerja sambil mendirikan *side hustle* (bisnis sampingan) menggunakan fasilitas kantor.",
+        "Menyebarkan gosip bahwa perusahaan akan bangkrut di grup-grup tak resmi.",
+        "Mencari kambing hitam terhadap kinerja salah satu divisi yang menyebabkan krisis."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Kebijakan pahit perusahaan untuk cegah PHK = PAHAMI DAN TETAP PRODUKTIF (Rasa memiliki perusahaan)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Loyal dan Amanah. Memahami gambaran besar (*helicopter view*) dari keputusan manajemen (Loyal) untuk menyelamatkan kelangsungan perusahaan.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-024",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Anda dipercaya merangkap jabatan selama posisi fungsional sedang kosong, namun tidak ada tambahan kompensasi (hanya tambahan beban kerja). Tanggapan pertama Anda adalah...",
+      "options": [
+        "Menolak karena tidak ada uang insentif tambahan (No pay, no gain).",
+        "Menerima jabatan rangkap itu secara sementara dan melihatnya sebagai ajang pamer unjuk kemampuan (*show-case*) agar dilirik direktur.",
+        "Mengambil tanggung jawab tersebut karena komitmen kepada tim, dan berfokus pada target organisasi agar tetap berjalan baik.",
+        "Mengerjakan tugas rangkap tersebut namun dengan performa asal-asalan.",
+        "Melakukan protes resmi melalui Serikat Pekerja."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rangkap jabatan sementara = AMBIL SEBAGAI KOMITMEN DAN BENTUK LOYALITAS KEPADA TIM"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Loyal dan Amanah. Bersedia mengambil beban ekstra saat perusahaan membutuhkan tanpa syarat finansial demi kesinambungan operasional.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-025",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Rekan kerja di divisimu berbeda pandangan politik secara ekstrem saat momen pemilu. Ruangan selalu panas karena ia sering menyindir pandangan politik Anda. Apa yang Anda lakukan?",
+      "options": [
+        "Membawa pendukung lain untuk mendebatnya setiap hari.",
+        "Melaporkannya ke atasan agar ia pindah dari ruangan Anda.",
+        "Menyampaikan batasan tegas agar lingkungan kantor, terutama ruangan kalian, diutamakan murni untuk urusan profesional, bukan debat politik.",
+        "Berdiam diri saja walaupun merasa sangat muak setiap masuk kantor.",
+        "Mengikuti pandangan politiknya demi menghindari keributan."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Perbedaan SARA atau Politik = SEPAKATI BATASAN (Pisahkan ranah personal dengan profesional)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Harmonis. Berani menetapkan batasan (*boundary*) secara profesional demi menjaga lingkungan kerja bebas toksik.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-026",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Dalam implementasi kebijakan *Work From Anywhere* (WFA), produktivitas tim Anda malah menurun drastis karena banyak yang terlena. Sebagai supervisor, tindakan Anda adalah...",
+      "options": [
+        "Langsung mencabut kebijakan WFA sepihak hari itu juga dan mewajibkan masuk kantor.",
+        "Membiarkan karena Anda juga menikmati kelonggaran dari WFA.",
+        "Menegur keras di grup besar dan memberikan SP (Surat Peringatan) kepada semua staf.",
+        "Mengevaluasi sistem monitoring, mengomunikasikan target harian yang terukur dan menetapkan pakta integritas baru WFA bersama tim.",
+        "Mengerjakan semua pekerjaan yang belum beres dengan mengorbankan waktu tidur Anda."
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Sistem baru (WFA) gagal = EVALUASI + RESET SISTEM KONTROL GABUNGAN"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Kompeten dan Kolaboratif. Menindaklanjuti kegagalan regulasi tim dengan pendekatan perbaikan sistem monitoring dan komitmen bersama, bukan sekadar penalti.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-027",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Saat bertugas di *front desk*, Anda menghadapi komplain pelanggan luar negeri yang sama sekali tidak bisa bahasa Inggris atau bahasa Indonesia (misal: berbahasa Jepang). Sementara Anda hanya bisa Inggris. Sikap Anda:",
+      "options": [
+        "Mengabaikannya dan beralih ke pelanggan lain yang lebih mudah dilayani.",
+        "Menunjukkan gestur bingung, menolak membantunya dan menyuruh *Security* menangani.",
+        "Tetap tenang, mencoba menggunakan aplikasi penerjemah (*translator*) di ponsel untuk berkomunikasi dan memberikan layanan.",
+        "Mencari-cari staf lain yang bisa bahasa Jepang sampai klien menunggu puluhan menit.",
+        "Berbahasa Indonesia dengan suara keras agar dia perlahan paham."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hambatan bahasa/komunikasi pelayanan = GUNAKAN TEKNOLOGI/ALAT BANTU (Solutif)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Adaptif dan Kompeten (Customer Service Excellent). Sigap menggunakan instrumen *tech* demi *problem solving* yang *agile*.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-028",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Terdapat proyek CSR (Corporate Social Responsibility) untuk memperbaiki sanitasi desa pelosok di akhir pekan (di luar waktu kerja resmi). Partisipasi bersifat opsional. Apakah Anda akan ikut?",
+      "options": [
+        "Tidak ikut karena akhir pekan wajarnya menjadi waktu pribadi saya tanpa kompromi.",
+        "Ikut, tapi memastikan nama dan wajah saya difoto masuk di Instagram perusahaan agar terlihat atasan.",
+        "Mendaftarkan diri untuk turut berkontribusi sosial sebagai representasi BUMN untuk rakyat kecil.",
+        "Menyumbang sedikit uang saja tanpa perlu datang secara fisik.",
+        "Hanya ikut apabila ada uang lemburnya."
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "CSR/Program Sosial Perusahaan Opsi = TAMPILKAN KESEDIAAN MENGABDI (AKHLAK BUMN yang Paripurna)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Amanah (Tanggung jawab sosial BUMN/BUMN untuk Indonesia). Rasa terpanggil secara ikhlas mendukung program kontributif negara.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-029",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Sebuah program *software* yang divisimu beli dengan anggaran mahal terbukti tidak berguna sama sekali dan *user-unfriendly*. Anda ditunjuk melaporkan *progress* adopsinya ke *Board of Directors*. Posisi Anda adalah...",
+      "options": [
+        "Melaporkan kemajuan fiktif agar tidak ada divisi yang dimarahi karena buang-buang *budget*.",
+        "Melaporkan kondisi asli, menjelaskan analisa *barrier* ketidakbergunaannya secara objektif, dan mengajukan evaluasi opsi penghentian sistem tersebut.",
+        "Menyalahkan vendor seutuhnya di depan direktur agar divisi Anda lepas tangan.",
+        "Protes kenapa bukan atasan Anda saja yang presentasi fakta pahit tersebut.",
+        "Meminta tim untuk memaksakan pemakaian biarpun proyek sering gagal hanya demi membuat presentasi terlihat hijau (Sukses)."
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Proyek/software gagal dilaporkan = KATAKAN KEBENARAN + DATA ANALISIS OBJEKTIF (No sugarcoating)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Amanah dan Kompeten. Menyampaikan kebenaran pahit (*brutal facts*) secara profesional dan berani (*Crucial conversation*) tanpa memanipulasi laporan.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s5-030",
+      "subtest": "akhlak",
+      "topic": "core values akhlak (sjt)",
+      "stem": "Anda merupakan karyawan unggulan dengan ritme cepat. Diberikan mitra tandem *fresh-graduate* yang ritme belajarnya sangat lamban karena gugup. Anda akan...",
+      "options": [
+        "Membiarkan dia mengerjakan tugas administratif saja, sementara core *project* Anda tuntaskan sendiri.",
+        "Terus memarahinya agar terbangun *sense of urgency* khas *corporate*.",
+        "Melakukan komplain ke HRD menuntut pergantian mitra, karena beban divisi terlampau berat.",
+        "Menurunkan kecepatan Anda sesaat untuk membedah instruksi yang rumit dan melatihnya percaya diri sampai ia bisa lari bersama Anda.",
+        "Menghindarinya selama jam kerja."
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rekan/Junior lamban belajar = LAKUKAN COACHING / MENTORING (Bantu bangun skill set)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Eliminasi tindakan menyalahkan rekan, menolak perubahan sistem, atau mendahulukan kepentingan pribadi di atas target BUMN."
+        },
+        {
+          "lens": "logika",
+          "text": "Opsi terbaik menunjukkan akuntabilitas pribadi sekaligus keterbukaan bekerja sama lintas fungsi."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pilihan yang tampak tegas menegur secara keras di depan umum melanggar nilai Harmonis."
+        }
+      ],
+      "explain": "Nilai AKHLAK: Kolaboratif dan Harmonis. Membimbing (mentoring/coaching) junior yang sedang *struggling* adalah tanda kepemimpinan kolaboratif sejati.",
+      "targetSec": 45,
+      "source": "RBB BUMN 2026 · Subtes 5"
+    },
+    {
+      "id": "bumn26-t1-s6-001",
+      "subtest": "twk_bumn",
+      "topic": "wawasan kebangsaan bumn",
+      "stem": "Pancasila sebagai dasar negara Republik Indonesia disahkan oleh Panitia Persiapan Kemerdekaan Indonesia (PPKI) pada tanggal...",
+      "options": [
+        "17 Agustus 1945",
+        "18 Agustus 1945",
+        "1 Juni 1945",
+        "22 Juni 1945",
+        "19 Agustus 1945"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Perhatikan kata 'disahkan sebagai dasar negara'. Lahir: 1 Juni, Piagam Jakarta: 22 Juni, Disahkan: 18 Agustus"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan sikap yang hanya menolong secara individual (Sila 2) jika konteksnya keadilan hak publik/gotong royong (Sila 5)."
+        },
+        {
+          "lens": "logika",
+          "text": "Bedakan pengamalan Sila 2 (martabat manusia universal) vs Sila 3 (nasionalisme/NKRI) vs Sila 5 (keadilan ekonomi & hak bersama)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jebakan klasik: membedakan tanggal pidato Yamin (29 Mei), Soepomo (31 Mei), Sukarno (1 Juni), Piagam Jakarta (22 Juni), & pengesahan PPKI (18 Ags)."
+        }
+      ],
+      "explain": "Pancasila disahkan sebagai dasar negara dan UUD 1945 disahkan sebagai konstitusi dalam sidang pertama PPKI pada 18 Agustus 1945.",
+      "targetSec": 40,
+      "source": "RBB BUMN 2026 · Subtes 6"
+    },
+    {
+      "id": "bumn26-t1-s6-002",
+      "subtest": "twk_bumn",
+      "topic": "wawasan kebangsaan bumn",
+      "stem": "Sikap rela berkorban demi kepentingan negara dan bangsa menunjukkan implementasi dari Pancasila sila ke...",
+      "options": [
+        "Pertama",
+        "Kedua",
+        "Ketiga",
+        "Keempat",
+        "Kelima"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Nasionalisme, rela berkorban, cinta tanah air, persatuan = Sila ke-3"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan sikap yang hanya menolong secara individual (Sila 2) jika konteksnya keadilan hak publik/gotong royong (Sila 5)."
+        },
+        {
+          "lens": "logika",
+          "text": "Bedakan pengamalan Sila 2 (martabat manusia universal) vs Sila 3 (nasionalisme/NKRI) vs Sila 5 (keadilan ekonomi & hak bersama)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jebakan klasik: membedakan tanggal pidato Yamin (29 Mei), Soepomo (31 Mei), Sukarno (1 Juni), Piagam Jakarta (22 Juni), & pengesahan PPKI (18 Ags)."
+        }
+      ],
+      "explain": "Rela berkorban untuk kepentingan negara merupakan butir dari sila ke-3 (Persatuan Indonesia), yang mengutamakan kepentingan nasional di atas kepentingan pribadi/golongan.",
+      "targetSec": 40,
+      "source": "RBB BUMN 2026 · Subtes 6"
+    },
+    {
+      "id": "bumn26-t1-s6-003",
+      "subtest": "twk_bumn",
+      "topic": "wawasan kebangsaan bumn",
+      "stem": "Dalam sejarah ketatanegaraan Indonesia, konstitusi yang pernah berlaku pada periode 27 Desember 1949 sampai 17 Agustus 1950 adalah...",
+      "options": [
+        "UUD 1945 periode pertama",
+        "UUDS 1950",
+        "Konstitusi RIS",
+        "Amandemen UUD 1945",
+        "Dekrit Presiden 1959"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafalkan periode konstitusi: 45 awal -> RIS (49-50) -> UUDS (50-59) -> 45 kembali (59-skrg)"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang mengaitkan fungsi Yudikatif (MA/MK/KY) dengan lembaga Eksekutif/Legislatif."
+        },
+        {
+          "lens": "logika",
+          "text": "Petakan Bab UUD 1945: Kekuasaan Presiden (Bab III), DPR (Bab VII), Pemda (Bab VI), HAM (Bab XA), Kekuasaan Kehakiman (Bab IX)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar wewenang MK (uji UU terhadap UUD, sengketa pemilu) dengan MA (uji peraturan di bawah UU, kasasi)."
+        }
+      ],
+      "explain": "Konstitusi Republik Indonesia Serikat (RIS) berlaku sejak 27 Desember 1949 (pasca KMB) hingga pembubarannya pada 17 Agustus 1950.",
+      "targetSec": 40,
+      "source": "RBB BUMN 2026 · Subtes 6"
+    },
+    {
+      "id": "bumn26-t1-s6-004",
+      "subtest": "twk_bumn",
+      "topic": "wawasan kebangsaan bumn",
+      "stem": "Tokoh kemerdekaan yang merumuskan Piagam Jakarta (Jakarta Charter) yang menjadi cikal bakal Pembukaan UUD 1945 berjumlah...",
+      "options": [
+        "7 orang (Panitia Tujuh)",
+        "9 orang (Panitia Sembilan)",
+        "11 orang",
+        "17 orang",
+        "21 orang"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Piagam Jakarta selalu identik dengan Panitia Sembilan. Diingat!"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang mengaitkan fungsi Yudikatif (MA/MK/KY) dengan lembaga Eksekutif/Legislatif."
+        },
+        {
+          "lens": "logika",
+          "text": "Petakan Bab UUD 1945: Kekuasaan Presiden (Bab III), DPR (Bab VII), Pemda (Bab VI), HAM (Bab XA), Kekuasaan Kehakiman (Bab IX)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar wewenang MK (uji UU terhadap UUD, sengketa pemilu) dengan MA (uji peraturan di bawah UU, kasasi)."
+        }
+      ],
+      "explain": "Panitia Sembilan yang dibentuk oleh BPUPKI merumuskan Piagam Jakarta pada 22 Juni 1945.",
+      "targetSec": 40,
+      "source": "RBB BUMN 2026 · Subtes 6"
+    },
+    {
+      "id": "bumn26-t1-s6-005",
+      "subtest": "twk_bumn",
+      "topic": "wawasan kebangsaan bumn",
+      "stem": "Sistem pemerintahan dimana menteri-menteri bertanggung jawab kepada parlemen (DPR), bukan kepada Presiden, disebut sistem pemerintahan...",
+      "options": [
+        "Presidensial",
+        "Monarki Konstitusional",
+        "Parlementer",
+        "Serikat/Federal",
+        "Oligarki"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Tanggung jawab ke parlemen = Parlementer. Tanggung jawab ke Presiden = Presidensial"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang mengaitkan fungsi Yudikatif (MA/MK/KY) dengan lembaga Eksekutif/Legislatif."
+        },
+        {
+          "lens": "logika",
+          "text": "Petakan Bab UUD 1945: Kekuasaan Presiden (Bab III), DPR (Bab VII), Pemda (Bab VI), HAM (Bab XA), Kekuasaan Kehakiman (Bab IX)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar wewenang MK (uji UU terhadap UUD, sengketa pemilu) dengan MA (uji peraturan di bawah UU, kasasi)."
+        }
+      ],
+      "explain": "Dalam sistem parlementer, kekuasaan eksekutif (kabinet/menteri) bertanggung jawab kepada legislatif (parlemen).",
+      "targetSec": 40,
+      "source": "RBB BUMN 2026 · Subtes 6"
+    },
+    {
+      "id": "bumn26-t1-s6-006",
+      "subtest": "twk_bumn",
+      "topic": "wawasan kebangsaan bumn",
+      "stem": "Hubungan antara Pemerintah Pusat dan Daerah di Indonesia dalam bingkai otonomi daerah diatur dalam UUD 1945 Pasal...",
+      "options": [
+        "Pasal 1",
+        "Pasal 18",
+        "Pasal 27",
+        "Pasal 29",
+        "Pasal 33"
+      ],
+      "key": 1,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafalan pasal vital: 18=Pemda, 27=HAM Warga, 29=Agama, 33=Ekonomi"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang mengaitkan fungsi Yudikatif (MA/MK/KY) dengan lembaga Eksekutif/Legislatif."
+        },
+        {
+          "lens": "logika",
+          "text": "Petakan Bab UUD 1945: Kekuasaan Presiden (Bab III), DPR (Bab VII), Pemda (Bab VI), HAM (Bab XA), Kekuasaan Kehakiman (Bab IX)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar wewenang MK (uji UU terhadap UUD, sengketa pemilu) dengan MA (uji peraturan di bawah UU, kasasi)."
+        }
+      ],
+      "explain": "Pasal 18 UUD 1945 mengatur tentang pemerintahan daerah, termasuk provinsi, kabupaten, dan kota, serta asas otonomi.",
+      "targetSec": 40,
+      "source": "RBB BUMN 2026 · Subtes 6"
+    },
+    {
+      "id": "bumn26-t1-s6-007",
+      "subtest": "twk_bumn",
+      "topic": "wawasan kebangsaan bumn",
+      "stem": "Tujuan nasional bangsa Indonesia secara eksplisit tercantum dalam Pembukaan UUD 1945 alinea ke...",
+      "options": [
+        "Satu",
+        "Dua",
+        "Tiga",
+        "Empat",
+        "Bukan di Pembukaan, tapi di Batang Tubuh"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Alinea 4 memuat: Tujuan (melindungi segenap, dll), Pancasila, dan bentuk negara Republik"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang mengaitkan fungsi Yudikatif (MA/MK/KY) dengan lembaga Eksekutif/Legislatif."
+        },
+        {
+          "lens": "logika",
+          "text": "Petakan Bab UUD 1945: Kekuasaan Presiden (Bab III), DPR (Bab VII), Pemda (Bab VI), HAM (Bab XA), Kekuasaan Kehakiman (Bab IX)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar wewenang MK (uji UU terhadap UUD, sengketa pemilu) dengan MA (uji peraturan di bawah UU, kasasi)."
+        }
+      ],
+      "explain": "Alinea keempat mumpunyai muatan: Tujuan nasional, dasar falsafah Pancasila, dan konstitusi dasar (UUD).",
+      "targetSec": 40,
+      "source": "RBB BUMN 2026 · Subtes 6"
+    },
+    {
+      "id": "bumn26-t1-s6-008",
+      "subtest": "twk_bumn",
+      "topic": "wawasan kebangsaan bumn",
+      "stem": "Paham kebangsaan yang menganggap bangsa sendiri unggul secara berlebihan sambil merendahkan bangsa lain disebut...",
+      "options": [
+        "Patriotisme",
+        "Bela Negara",
+        "Chauvinisme",
+        "Pluralisme",
+        "Etnosentrisme"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cinta berlebihan/merendahkan bangsa lain = Chauvinisme"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Chauvinisme adalah bentuk nasionalisme ekstrem yang mengagungkan bangsa sendiri dan merendahkan bangsa lain (nasionalisme sempit).",
+      "targetSec": 40,
+      "source": "RBB BUMN 2026 · Subtes 6"
+    },
+    {
+      "id": "bumn26-t1-s6-009",
+      "subtest": "twk_bumn",
+      "topic": "wawasan kebangsaan bumn",
+      "stem": "Bhinneka Tunggal Ika diambil dari kitab Sutasoma karangan...",
+      "options": [
+        "Mpu Prapanca",
+        "Mpu Sedah",
+        "Mpu Panuluh",
+        "Mpu Tantular",
+        "Mpu Kanwa"
+      ],
+      "key": 3,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Sutasoma = Tantular. Negarakertagama = Prapanca"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Bhinneka Tunggal Ika tertulis dalam Kitab Sutasoma karya Mpu Tantular pada masa Kerajaan Majapahit.",
+      "targetSec": 40,
+      "source": "RBB BUMN 2026 · Subtes 6"
+    },
+    {
+      "id": "bumn26-t1-s6-010",
+      "subtest": "twk_bumn",
+      "topic": "wawasan kebangsaan bumn",
+      "stem": "Lembaga negara yang berwenang menguji undang-undang (UU) terhadap Undang-Undang Dasar (UUD) adalah...",
+      "options": [
+        "Mahkamah Agung (MA)",
+        "Komisi Yudisial (KY)",
+        "Mahkamah Konstitusi (MK)",
+        "DPR",
+        "MPR"
+      ],
+      "key": 2,
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Review UU vs UUD = MK. Review Peraturan di Bawah UU vs UU = MA"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang mengaitkan fungsi Yudikatif (MA/MK/KY) dengan lembaga Eksekutif/Legislatif."
+        },
+        {
+          "lens": "logika",
+          "text": "Petakan Bab UUD 1945: Kekuasaan Presiden (Bab III), DPR (Bab VII), Pemda (Bab VI), HAM (Bab XA), Kekuasaan Kehakiman (Bab IX)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar wewenang MK (uji UU terhadap UUD, sengketa pemilu) dengan MA (uji peraturan di bawah UU, kasasi)."
+        }
+      ],
+      "explain": "MK berwenang menguji UU terhadap UUD (Judicial Review). MA menguji peraturan di bawah UU terhadap UU.",
+      "targetSec": 40,
+      "source": "RBB BUMN 2026 · Subtes 6"
+    }
+  ]
+}

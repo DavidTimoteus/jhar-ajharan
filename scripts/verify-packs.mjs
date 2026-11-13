@@ -52,27 +52,27 @@ for (const meta of index) {
       errors++;
     }
 
-    if (!Array.isArray(q.options) || q.options.length !== 5) {
-      console.error(`   ❌ Opsi harus 5 butir (A-E): ${q.id}`);
+    if (!Array.isArray(q.options) || q.options.length < 4 || q.options.length > 5) {
+      console.error(`   ❌ Opsi harus 4-5 butir (A-E): ${q.id}`);
       errors++;
     }
 
     const stConfig = pack.config.subtests.find((s) => s.id === q.subtest);
     if (stConfig.scheme === 'binary') {
-      if (typeof q.key !== 'number' || q.key < 0 || q.key > 4) {
-        console.error(`   ❌ Kunci jawaban binary tidak valid (0-4): ${q.id}`);
+      if (typeof q.key !== 'number' || q.key < 0 || q.key >= q.options.length) {
+        console.error(`   ❌ Kunci jawaban binary tidak valid (0-${q.options.length - 1}): ${q.id}`);
         errors++;
       }
     } else if (stConfig.scheme === 'weighted') {
-      if (!Array.isArray(q.weights) || q.weights.length !== 5) {
-        console.error(`   ❌ Bobot weighted harus 5 nilai: ${q.id}`);
+      if (!Array.isArray(q.weights) || q.weights.length !== q.options.length) {
+        console.error(`   ❌ Bobot weighted harus ${q.options.length} nilai: ${q.id}`);
         errors++;
       }
     }
 
     // Periksa bahwa teks hint tidak membocorkan huruf jawaban (A-E) secara eksplisit
     for (const h of q.hints || []) {
-      if (/kunci\s*:\s*[A-E]/i.test(h.text) || /jawaban\s*(adalah|nya)\s*[A-E]\b/i.test(h.text)) {
+      if (/kunci\s*:\s*[A-E]\b/i.test(h.text) || /jawaban\s*(adalah|nya)\s*[A-E]\b/i.test(h.text)) {
         console.warn(`   ⚠️ Warning: Hint pada ${q.id} (${h.lens}) mungkin membocorkan huruf jawaban: "${h.text}"`);
       }
     }

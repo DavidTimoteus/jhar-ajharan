@@ -1,0 +1,3835 @@
+{
+  "id": "cpns-gdrive-to8",
+  "name": "Try Out SKD CPNS · Paket TO 8",
+  "family": "cpns",
+  "version": 2,
+  "updatedAt": "2026-11-13T00:00:00.000Z",
+  "note": "Simulasi Try Out SKD lengkap (101 soal TWK/TIU/TKP) beserta kunci & pembahasan terstruktur.",
+  "source": "Koleksi Try Out SKD CPNS · Paket TO 8 TWK/TIU/TKP.",
+  "config": {
+    "durationMin": 95,
+    "subtests": [
+      {
+        "id": "twk",
+        "name": "Tes Wawasan Kebangsaan",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 65
+      },
+      {
+        "id": "tiu",
+        "name": "Tes Intelegensi Umum",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 80
+      },
+      {
+        "id": "tkp",
+        "name": "Tes Karakteristik Pribadi",
+        "scheme": "weighted",
+        "passMin": 166
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "gd-to8-twk-01",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Integritas berasal dari kata “integer” yang artinya utuh dan lengkap. Integritas memerlukan perasaan batin yang menunjukkan keutuhan dan konsistensi karakter. Ketika kita memiliki integritas diri yang tinggi, maka orang-orang di sekitar dapat melihatnya melalui tindakan, kata-kata, keputusan serta hasil yang kita dapatkan. Integritas akan dimiliki seseorang jika menerapkan kebiasaan berikut, kecuali ...",
+      "options": [
+        "Selalu datang tepat waktu",
+        "Selalu memenuhi tanggung jawab yang diamanahkan",
+        "Jujur terhadap kelemahan",
+        "Membanggakan kelebihan dan menganggap semua pekerjaan mudah",
+        "Membuat klarifikasi tentang semua catatan yang ditulis di setiap akhir pertemuan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: sikap membanggakan kelebihan dan menganggap remeh sesuatu merupakan salah satu ciri-ciri kesombongan.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "sikap membanggakan kelebihan dan menganggap remeh sesuatu merupakan salah satu ciri-ciri kesombongan. Seseorang yang berintegritas tidak akan berperilaku sombong.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 3
+    },
+    {
+      "id": "gd-to8-twk-02",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Dalam melaksanakan tugas-tugasnya, seorang ASN harus selalu berbasis pada nilai dasar dan perilaku yang sesuai dengan kode etik berikut ini, kecuali ....",
+      "options": [
+        "Memberikan informasi akurat",
+        "Melaksanakan tugas sesuai dengan perintah atasan atau pejabat yang berwenang selama tidak bertentangan dengan kode etik",
+        "Menjaga nama baik dan integritas ASN di mana pun dan kapan pun",
+        "Menggunakan kekayaan dan barang milik negara secara fleksibel untuk kepentingan pribadi",
+        "Melayani dengan sopan, santun dan tanpa tekanan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal wawasan kebangsaan sebelum membandingkan kelima opsi. Petunjuk inti: sebagai seorang ASN kita tidak diperbolehkan menggunakan barang milik negara untuk kepentingan pribadi.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "sebagai seorang ASN kita tidak diperbolehkan menggunakan barang milik negara untuk kepentingan pribadi. Tindakan tersebut sangat bertentangan dengan kode etik profesi dan akan menjadi pemicu untuk tindak pidana korupsi sehingga dapat merugikan negara.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 3
+    },
+    {
+      "id": "gd-to8-twk-03",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Bung Tomo merupakan salah satu tokoh yang berperan penting dalam pencapaian kemerdekaan Indonesia. Perilaku integritas yang dapat kita pelajari dari Bung Tomo adalah ....",
+      "options": [
+        "Mendirikan sekolah taman siswa",
+        "Membangkitkan semangat perjuangan rakyat Indonesia dalam melawan tentara sekutu pada pertempuran 10 November 1945 di Surabaya",
+        "Mendirikan organisasi Perhimpunan Indonesia",
+        "Ahli dalam ekonomi sehingga beliau dikenal sebagai bapak koperasi",
+        "Memperjuangkan kemerdekaan Indonesia dan dikenal sebagai bapak proklamator"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "bentuk keteladanan dari Bung Tomo atau Supomo adalah sebagai salah satu tokoh pahlawan nasional yang berjuang dalam pertempuran 10 November 1945 di Surabaya melawan sekutu Inggris-Belanda. Beliau sering dikenal juga dengan pidatonya yang berapi-api yang dapat membakar semangat rakyat Indonesia dalam melawan berbagai bentuk penjajahan.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-twk-04",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Perhatikan unsur berikut! 1) Aktif dalam diskusi kelompok 2) Melaksanakan piket kelas 3) Masuk sekolah tepat waktu 4) Mematuhi peraturan sekolah 5) Menghormati orang tua 6) Menjaga keamanan rumah 7) Mengembalikan barang pada tempatnya Yang termasuk wujud integritas di lingkungan sekolah adalah ....",
+      "options": [
+        "1, 2 dan 3",
+        "1, 4 dan 5",
+        "2, 3 dan 6",
+        "2, 3 dan 7",
+        "4, 5 dan 7"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal wawasan kebangsaan sebelum membandingkan kelima opsi. Petunjuk inti: poin 1, 2, 3 dan 4 merupakan wujud integritas di lingkungan sekolah.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "poin 1, 2, 3 dan 4 merupakan wujud integritas di lingkungan sekolah. Sedangkan poin 5, 6 dan 7 merupakan bentuk integritas dilingkungan keluarga/rumah.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 0
+    },
+    {
+      "id": "gd-to8-twk-05",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Nilai-nilai integritas wajib diterapkan oleh setiap individu tanpa terkecuali. Seseorang yang tidak berintegritas akan kehilangan kredibilitas yang menyebabkan orang lain tidak lagi mempercayai setiap ucapan dan tindakan yang mereka lakukan. Seseorang yang menjaga integritas juga akan mencegahnya untuk berbuat hal-hal yang merugikan orang banyak seperti korupsi. Berikut ini yang bukan termasuk perilaku yang menunjukkan integritas seseorang yang dapat mencegahnya untuk melakukan korupsi adalah ....",
+      "options": [
+        "Jujur dan bertanggung jawab atas ucapan dan tindakan yang dilakukan",
+        "Mematuhi segala aturan dan kebijakan yang ditetapkan oleh atasan",
+        "Memperlakukan orang dengan adil dan memiliki kepedulian yang tinggi",
+        "Menggunakan harta sesuai dengan kebutuhan yang ada",
+        "Bekerja keras dan berani dalam mengambil sebuah keputusan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: integritas merupakan kesesuaian antara apa yang diucapkan dengan tindakan yang dilakukan.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "integritas merupakan kesesuaian antara apa yang diucapkan dengan tindakan yang dilakukan. integritas merupakan salah satu nilai-nilai dasar pribadi yang harus dimiliki oleh setiap orang tanpa terkecuali. KPK merilis sembilan nilai-nilai integritas yang dapat mencegah terjadinya tindak pidana korupsi yaitu jujur, tanggung jawab, disiplin, berani, mandiri, kerja keras, adil, peduli dan sederhana. Berdasarkan sembilan nilai tersebut, maka jawaban yang tepat untuk menjawab soal di atas adalah opsi B.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-twk-06",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Integritas merupakan konsistensi antara ucapan dan perbuatan dalam kehidupan sehari- hari. Orang yang memiliki integritas biasanya berpikir terlebih dahulu sebelum berbicara sehingga perilaku dan tindakannya sesuai dengan apa yang diucapkan. Berikut ini yang bukan termasuk nilai-nilai inti dari integritas adalah ....",
+      "options": [
+        "Jujur",
+        "Mandiri",
+        "Sederhana",
+        "Kompeten",
+        "Adil"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: integritas merupakan salah satu nilai-nilai dasar pribadi yang harus dimiliki masyarakat.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "integritas merupakan salah satu nilai-nilai dasar pribadi yang harus dimiliki masyarakat. Nilai-nilai integritas inti yaitu: jujur, bertanggung jawab, peduli, mandiri, disiplin, kerja keras, sederhana, berani dan adil.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 3
+    },
+    {
+      "id": "gd-to8-twk-07",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Untuk memperkuat integrasi nasional, seluruh warga negara Indonesia harus menyadari bahwa negara Indonesia hanya memiliki satu falsafah yang melandasi, membimbing dan mengarahkan bangsa menuju tujuan bersama, yaitu ....",
+      "options": [
+        "UUD 1945",
+        "Pancasila",
+        "NKRI",
+        "Bhineka Tunggal Ika",
+        "Sistem Pemerintahan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal wawasan kebangsaan sebelum membandingkan kelima opsi. Petunjuk inti: Pancasila merupakan pandangan hidup bangsa, memiliki fungsi utama yaitu sebagai dasar negara.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Pancasila merupakan pandangan hidup bangsa, memiliki fungsi utama yaitu sebagai dasar negara. Dalam kedudukannya Pancasila menempati kedudukan yang paling tinggi sebagai sumber dari segala sumber hukum atau sebagai sumber hukum dasar nasional dalam tata hukum di Indonesia.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-twk-08",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Nasionalisme merupakan sikap atau perasaan cinta yang tinggi atau bangga terhadap tanah air dan tidak memandang rendah bangsa lain. Rasa nasionalisme juga mampu menonjolkan dirinya sebagai paham negara atau paham suatu gerakan popular yang berdasarkan pendapat warga negara, budaya, keagamaan dan ideologis. Berikut ini yang termasuk wujud nasionalisme di lingkungan kerja adalah....",
+      "options": [
+        "Menjaga kelestarian benda-benda bersejarah",
+        "Bangga menggunakan produk lokal",
+        "Membayar pajak tepat waktu",
+        "Ikut melaksanakan kegiatan ronda malam",
+        "Ikut berpartisipasi dalam kegiatan kemanusiaan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: konsep inti, B, D dan E lebih tepatnya merupakan wujud sikap nasionalisme di lingkungan masyarakat."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "opsi A, B, D dan E lebih tepatnya merupakan wujud sikap nasionalisme di lingkungan masyarakat.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-twk-09",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Sukuisme, sauvinisme, primordialisme dan ekstremisme merupakan sikap yang bisa mengancam sebuah bangsa. Sikap-sikap tersebut perlu dihindari dalam rangka menjaga persatuan bangsa. Yang dimaksud dengan primordialisme adalah ....",
+      "options": [
+        "Sikap yang mementingkan suku sendiri, rasa cinta berlebihan terhadap suku bangsa sendiri",
+        "Rasa cinta tanah air yang berlebihan dengan mengagungkan bangsa sendiri dan merendahkan bangsa lain",
+        "Sebuah pandangan yang memegang teguh hal-hal yang dibawa sejak kecil, baik mengenai tradisi, adat-istiadat, kepercayaan dan segala sesuatu yang ada didalam lingkungan pertamanya",
+        "Bentuk penyalahgunaan kegiatan berpolitik yang memanfaatkan kelompok atau organisasi minoritas",
+        "Paham yang bersifat kedaerahan, mementingkan segala sesuatu terkait daerah dan merendahkan daerah lainnya sehingga menimbulkan perpecahan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal wawasan kebangsaan sebelum membandingkan kelima opsi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "opsi A merupakan pengertian dari sukuisme, opsi B merupakan pengertian dari sauvinisme, opsi D merupakan pengertian dari ekstrimisme dan opsi E merupakan pengertian dari provinsialisme.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-twk-10",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Selain nasionalisme sikap patriotisme juga sangat penting dimiliki oleh seluruh warga negara Indonesia karena siapa lagi yang membela dan melindungi negara kita kalau bukan kita sendiri. Berikut ini yang bukan termasuk sikap patriotisme dalam kehidupan sehari- hari adalah ....",
+      "options": [
+        "Ziarah ke makam pahlawan",
+        "Menjunjung tinggi asas praduga tidak bersalah",
+        "Menggunakan nama pahlawan sebagai nama jalan dan gedung",
+        "Mengikuti kegiatan ronda malam untuk menjaga keamanan lingkungan",
+        "Melestarikan budaya setempat"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: patriotisme adalah sikap yang berani, pantang menyerah dan rela berkorban demi bangsa dan negara.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "patriotisme adalah sikap yang berani, pantang menyerah dan rela berkorban demi bangsa dan negara. Melestarikan budaya setempat lebih tepatnya merupakan wujud dari sikap nasionalisme.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 4
+    },
+    {
+      "id": "gd-to8-twk-11",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Kesadaran bela negara pada hakikatnya merupakan kesediaan berbakti pada negara dan kesediaan berkorban membela negara. Tiap-tiap warga negara berhak dan wajib ikut serta dalam upaya bela negara. Upaya bela negara dapat dilakukan dalam segala aspek kehidupan, berikut ini yang termasuk upaya bela negara pada aspek ekonomi adalah ....",
+      "options": [
+        "Menjaga kelestarian budaya-budaya Indonesia yang beragam",
+        "Menyaring budaya luar dan tidak menyebarkan berita hoax yang dapat merusak persatuan dan kesatuan bangsa",
+        "Membeli produk import yang berkualitas",
+        "Mendukung Usaha Mikro, Kecil dan Menengah (UMKM)",
+        "Mematuhi aturan dan kebijakan yang telah disepakati bersama"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: jawaban yang paling tepat untuk menjawab soal di atas adalah konsep inti yaitu mendukung UMKM.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "jawaban yang paling tepat untuk menjawab soal di atas adalah opsi D yaitu mendukung UMKM. Opsi A dan B lebih tepatnya merupakan upaya bela negara dibidang sosial budaya, opsi C bukan termasuk ke dalam upaya bela negara karena seharusnya yang dilakukan adalah menggunakan produk-produk dalam negeri. Sedangkan opsi E merupakan upaya bela negara dalam bidang hukum dan politik.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 3
+    },
+    {
+      "id": "gd-to8-twk-12",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Dito seorang pelajar luar negeri. Sebagai orang yang tinggal di luar, Dito selalu meluangkan waktunya untuk mempelajari sejarah bangsa agar ia bisa menghargai jasa dan perjuangan para pahlawan. Sikap yang ditunjukkan Dito sesuai dengan pengamalan Pancasila terutama sila ke ....",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "mempelajari sejarah bangsa agar kita semakin menghargai jasa dan perjuangan para pahlawan merupakan bentuk pengamalan dari Pancasila terutama sila ke-3 yaitu persatuan Indonesia.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-twk-13",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Nilai-nilai yang terkandung dalam Pancasila merupakan dasar kehidupan bermasyarakat, berbangsa dan bernegara. Sebagai dasar negara Pancasila bersifat imperatif yang artinya mengatur penyelenggaraan negara. Berikut ini wujud sikap yang dapat dilakukan sesuai dengan nilai ketuhanan pada Pancasila adalah ....",
+      "options": [
+        "Saling menghormati dan menghargai agama orang lain",
+        "Melaksanakan kegiatan kemanusiaan di pesantren",
+        "Tenggang rasa dan tidak semena-mena",
+        "Mengakui keberagaman suku, budaya, ras dan agama",
+        "Membagikan takjil kepada para pemulung saat bulan ramadhan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Petakan kasus ke nilai inti Sila: 1 (toleransi/iman), 2 (empati/kemanusiaan adil), 3 (persatuan/cinta produk RI), 4 (musyawarah), 5 (adil sosial). Petunjuk inti: Nilai ketuhanan terdapat pada sila ke-1 yaitu ketuhanan yang maha esa.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan sikap yang hanya menolong secara individual (Sila 2) jika konteksnya keadilan hak publik/gotong royong (Sila 5)."
+        },
+        {
+          "lens": "logika",
+          "text": "Bedakan pengamalan Sila 2 (martabat manusia universal) vs Sila 3 (nasionalisme/NKRI) vs Sila 5 (keadilan ekonomi & hak bersama)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jebakan klasik: membedakan tanggal pidato Yamin (29 Mei), Soepomo (31 Mei), Sukarno (1 Juni), Piagam Jakarta (22 Juni), & pengesahan PPKI (18 Ags)."
+        }
+      ],
+      "explain": "Nilai ketuhanan terdapat pada sila ke-1 yaitu ketuhanan yang maha esa. Salah satu wujud sikap dari pengamalan sila ke-1 adalah menghargai dan menghormati kepercayaan atau agama yang dianut oleh orang lain. Opsi B dan E merupakan contoh sikap dari nilai kemanusiaan, opsi C merupakan contoh sikap dari nilai keadilan dan opsi D merupakan contoh sikap dari nilai persatuan.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 0
+    },
+    {
+      "id": "gd-to8-twk-14",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Mengembangkan perilaku hormat kepada anggota keluarga yang lebih tua dan menghargai anggota keluarga yang lebih muda merupakan bentuk pengamalan dari Pancasila, terutama sila ke ....",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Petakan kasus ke nilai inti Sila: 1 (toleransi/iman), 2 (empati/kemanusiaan adil), 3 (persatuan/cinta produk RI), 4 (musyawarah), 5 (adil sosial)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan sikap yang hanya menolong secara individual (Sila 2) jika konteksnya keadilan hak publik/gotong royong (Sila 5)."
+        },
+        {
+          "lens": "logika",
+          "text": "Bedakan pengamalan Sila 2 (martabat manusia universal) vs Sila 3 (nasionalisme/NKRI) vs Sila 5 (keadilan ekonomi & hak bersama)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jebakan klasik: membedakan tanggal pidato Yamin (29 Mei), Soepomo (31 Mei), Sukarno (1 Juni), Piagam Jakarta (22 Juni), & pengesahan PPKI (18 Ags)."
+        }
+      ],
+      "explain": "mengembangkan perilaku hormat kepada anggota keluarga yang lebih tua dan menghargai anggota keluarga yang lebih muda merupakan bentuk pengamalan dari sila ke-3 yaitu persatuan Indonesia dilingkungan keluarga.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-twk-15",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Sikap positif terhadap nilai-nilai Pancasila adalah sikap yang baik dalam menanggapi dan mengamalkan nilai-nilai yang ada dalam Pancasila. Sehingga seseorang selalu berpedoman pada nilai-nilai Pancasila yang menjunjung tinggi harkat dan martabat manusia dalam perilaku sehari-hari. Sikap positif terhadap Pancasila dapat dilakukan sebagai berikut, kecuali ....",
+      "options": [
+        "Tidak memaksakan kehendak dalam bermusyawarah",
+        "Menghormati lembaga-lembaga negara seperti MPR, DPR, DPD, Presiden dan jajarannya",
+        "Menerima mentah-mentah budaya asing yang masuk ke Indonesia",
+        "Ikut dalam pemilihan umum secara rasional dan bertanggung jawab",
+        "Hemat, tidak konsumtif dan mempunyai skala prioritas dalam menjalani kehidupan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Petakan kasus ke nilai inti Sila: 1 (toleransi/iman), 2 (empati/kemanusiaan adil), 3 (persatuan/cinta produk RI), 4 (musyawarah), 5 (adil sosial)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan sikap yang hanya menolong secara individual (Sila 2) jika konteksnya keadilan hak publik/gotong royong (Sila 5)."
+        },
+        {
+          "lens": "logika",
+          "text": "Bedakan pengamalan Sila 2 (martabat manusia universal) vs Sila 3 (nasionalisme/NKRI) vs Sila 5 (keadilan ekonomi & hak bersama)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jebakan klasik: membedakan tanggal pidato Yamin (29 Mei), Soepomo (31 Mei), Sukarno (1 Juni), Piagam Jakarta (22 Juni), & pengesahan PPKI (18 Ags)."
+        }
+      ],
+      "explain": "seseorang yang selalu berpedoman pada nilai-nilai Pancasila yang menjunjung tinggi harkat dan martabat manusia akan menyaring budaya asing yang masuk ke Indonesia, karena tidak semua budaya asing dapat diterima dan sesuai dengan nilai-nilai Pancasila.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-twk-16",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Tembakan gas air mata dari aparat kepolisian telah menyebabkan ratusan suporter bola kehilangan nyawa di stadion Kanjuruhan Malang akhir tahun 2022 lalu. Terhitung jumlah korban yang meninggal sebanyak 135 orang dan ratusan orang dirawat secara intensif di rumah sakit. Kapolda Jawa Timur mengungkapkan bahwa penyebab terjadinya tragedi Kanjuruhan ini adalah penumpukan masa yang menyebabkan suporter sesak nafas karena minimnya asupan oksigen, selain itu akibat dari penumpukan tersebut banyak dari supporter yang terinjak-injak saat menyelamatkan diri mereka. Tragedi kanjuruhan ini tentu merupakan suatu musibah yang dapat menyebabkan perpecahan masyarakat Indonesia. Adanya tragedi ini merupakan salah satu bentuk penyimpangan dari sila ke ....",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal wawasan kebangsaan sebelum membandingkan kelima opsi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "adanya tragedi Kanjuruhan ini merupakan salah satu tindakan yang bertentangan dengan nilai-nilai Pancasila terutama pada sila ke-2 yang berbunyi “Kemanusiaan yang adil dan beradab”. Sila ke-2 Pancasila mengandung nilai suatu kesadaran sikap moral dan tingkah laku manusia yang didasarkan kepada potensi hati nurani manusia dan hubungannya dengan norma dan etika serta kebudayaan yang ada di Indonesia.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-twk-17",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Konstitusi merupakan segala aturan berbangsa dan bernegara. Tidak ada negara yang tidak memiliki konstitusi karena konstitusi biasanya dibentuk sebelum merdekanya suatu negara. Berikut ini yang bukan merupakan tujuan adanya konstitusi adalah ....",
+      "options": [
+        "Memberikan kebebasan kepada manusia untuk melakukan apa pun",
+        "Menjaga hak asasi manusia di dalam kehidupan sehari-hari",
+        "Agar negara berada dalam kehidupan yang aman, damai dan tenteram",
+        "Memberikan batasan kepada warga negara agar tidak melanggar batasan tersebut",
+        "Memberikan keadilan dan hak yang sama bagi setiap warga negara dimata hukum"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cocokkan kata kunci kewenangan lembaga negara pasca-Amandemen UUD 1945 (MPR tak lagi lembaga tertinggi; DPD mengurus otonomi daerah)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang mengaitkan fungsi Yudikatif (MA/MK/KY) dengan lembaga Eksekutif/Legislatif."
+        },
+        {
+          "lens": "logika",
+          "text": "Petakan Bab UUD 1945: Kekuasaan Presiden (Bab III), DPR (Bab VII), Pemda (Bab VI), HAM (Bab XA), Kekuasaan Kehakiman (Bab IX)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar wewenang MK (uji UU terhadap UUD, sengketa pemilu) dengan MA (uji peraturan di bawah UU, kasasi)."
+        }
+      ],
+      "explain": "opsi A bukan termasuk tujuan dibuatnya konstitusi karena konstitusi tidak memberikan kebebasan bagi manusia, ada batasan-batasan yang tidak boleh dilanggar.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 0
+    },
+    {
+      "id": "gd-to8-twk-18",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Sebagai umat beragama, terdapat tri kerukunan umat beragama di antaranya adalah sesama umat beragama, umat beragama dengan pemerintah dan antar umat beragama. Tujuan dari dibuatnya tri kerukunan umat beragama ini adalah agar seluruh warga negara Indonesia dapat menjalin hubungan yang harmonis, damai dan tenteram. Kerukunan antar umat beragama ini merupakan bentuk pengamalan dari Pancasila, khususnya sila ke ....",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal wawasan kebangsaan sebelum membandingkan kelima opsi. Petunjuk inti: sila ke-1 Pancasila yaitu ketuhanan yang maha esa mengajarkan kita untuk memiliki keyakinan dan memiliki toleransi terhadap semua keyakinan."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "sila ke-1 Pancasila yaitu ketuhanan yang maha esa mengajarkan kita untuk memiliki keyakinan dan memiliki toleransi terhadap semua keyakinan.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 0
+    },
+    {
+      "id": "gd-to8-twk-19",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Gerakan Aceh Merdeka (GAM) merupakan sebuah upaya Provinsi Aceh untuk memisahkan diri dari NKRI dan ingin membentuk negara Islam. Gerakan ini juga dapat disebut sebagai gerakan separatisme dan pelanggaran dari nilai-nilai Pancasila, terutama pada sila ke ....",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: upaya memisahkan diri dari NKRI merupakan gerakan separatisme yang dapat menimbulkan perpecahan negara.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "upaya memisahkan diri dari NKRI merupakan gerakan separatisme yang dapat menimbulkan perpecahan negara. Gerakan ini merupakan bentuk pelanggaran dari sila persatuan, yaitu pada sila ke-3.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-twk-20",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Disintegrasi merupakan suatu perpecahan hidup yang terjadi di lingkungan masyarakat yang disebabkan oleh faktor pengaruh yang berasal dari dalam maupun dari luar. Disintegrasi dapat memicu berbagai konflik yang lebih besar bahkan tidak menutup kemungkinan melahirkan bangsa yang baru. Salah satu bentuk ancaman disintegrasi dilingkungan sekolah adalah ....",
+      "options": [
+        "Aksi demonstrasi para pelajar untuk menuntut hak-hak mereka sebagai pelajar",
+        "Tawuran antar sekolah",
+        "Pelecehan seksual yang dilakukan oleh oknum guru",
+        "Tindak pidana korupsi yang dilakukan oleh kepala sekolah",
+        "Balap liar yang dilakukan para pelajar sepulang dari sekolah"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal wawasan kebangsaan sebelum membandingkan kelima opsi. Petunjuk inti: disintegrasi merupakan perpecahan hidup di dalam masyarakat yang disebabkan oleh pengaruh luar maupun dari dalam.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "disintegrasi merupakan perpecahan hidup di dalam masyarakat yang disebabkan oleh pengaruh luar maupun dari dalam. Bentuk nyata disintegrasi dilingkungan sekolah adalah adanya tawuran yang menyebabkan perpecahan antar sekolah.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-twk-21",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Pembakaran hutan merupakan tindakan yang merugikan rakyat. Selain kerugian negara, pembakaran hutan secara sengaja dapat mengakibatkan asap tebal sehingga mengganggu hewan yang hidup di sekitar hutan dan aktivitas masyarakat. Tindakan pembakaran hutan merupakan bentuk penyimpangan dari Pancasila, khususnya sila ke ....",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal wawasan kebangsaan sebelum membandingkan kelima opsi. Petunjuk inti: pembakaran hutan secara sengaja merupakan tindakan yang dilakukan oleh seseorang yang mengakibatkan banyak orang.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "pembakaran hutan secara sengaja merupakan tindakan yang dilakukan oleh seseorang yang mengakibatkan banyak orang. Tindakan ini sangat bertentangan dengan Pancasila, khususnya sila ke-5 yaitu keadilan sosial bagi seluruh rakyat Indonesia.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 4
+    },
+    {
+      "id": "gd-to8-twk-22",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Ancaman merupakan usaha atau kegiatan yang dilakukan dari dalam atau luar negeri yang dinilai dapat membahayakan kedaulatan negara, keutuhan wilayah negara dan keselamatan bangsa. Terdapat dua bentuk ancaman yaitu ancaman militer dan ancaman non militer. Salah satu contoh dari ancaman militer adalah....",
+      "options": [
+        "Gerakan separatis GAM (Gerakan Aceh Merdeka)",
+        "Provokasi terhadap beberapa kelompok",
+        "Blokade politik",
+        "Ancaman berdimensi sosial budaya",
+        "Ancaman berdimensi politik"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal wawasan kebangsaan sebelum membandingkan kelima opsi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "- ancaman non militer adalah ancaman yang menggunakan faktor-faktor non militer yang dinilai mempunyai kemampuan membahayakan kedaulatan negara, keutuhan wilayah dan keselamatan segenap bangsa. Contohnya adalah ancaman berdimensi ideologi, ancaman berdimensi politik, ancaman berdimensi ekonomi, ancaman berdimensi sosial budaya, ancaman berdimensi teknologi informasi dan lain sebagainya. - ancaman militer adalah ancaman yang menggunakan kekuatan senjata dan dilakukan secara terorganisasi. Contohnya adalah sabotase, spionase, pemberontakan bersenjata, gerakan separatis, teror bersenjata, konflik komunal, dan ancaman nirmiliter. Bacalah teks di bawah ini dengan cermat! Kenakalan remaja merupakan perilaku yang menyimpang dari norma-norma hukum pidana yang dilakukan oleh remaja. Perilaku tersebut akan merugikan dirinya sendiri dan orang-orang di sekitarnya. Para ahli pendidikan sependapat bahwa remaja adalah seseorang yang berusia 13-18 tahun. Pada usia tersebut, seseorang sudah melampaui masa kanak-kanak, tetapi masih belum cukup matang untuk dapat dikatakan dewasa. Ia berada pada masa transisi. Masalah kenakalan remaja mulai mendapat perhatian masyarakat secara khusus sejak terbentuknya peradilan untuk anak-anak nakal pada tahun 1899 di Iiinois, Amerika Serikat.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 0
+    },
+    {
+      "id": "gd-to8-twk-23",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Gagasan utama pada paragraf di atas adalah ....",
+      "options": [
+        "Kenakalan remaja merupakan bentuk perilaku menyimpang",
+        "Kenakalan remaja menjadi perhatian masyarakat",
+        "Pendapat ahli mengenai kenakalan remaja",
+        "Kenakalan remaja dapat merugikan diri sendiri",
+        "Remaja adalah anak usia 13-18 tahun"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ide pokok selalu merangkum kalimat utama (umumnya di awal/deduktif atau akhir/induktif), bukan kalimat penjelas berisi contoh. Petunjuk inti: gagasan utama merupakan kalimat yang menjadi dasar dari sebuah penjelas atau pengembang dalam sebuah paragraf.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kalimat efektif wajib punya S + P jelas, tidak boros kata ('agar supaya', 'para hadirin sekalian'), dan ejaan baku KBBI."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji keterkaitan: opsi ide pokok harus bisa menaungi seluruh kalimat lain di dalam paragraf."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terlalu sempit (hanya mengutip fakta satu kalimat penjelas) atau terlalu luas melenceng dari teks bukan ide pokok."
+        }
+      ],
+      "explain": "gagasan utama merupakan kalimat yang menjadi dasar dari sebuah penjelas atau pengembang dalam sebuah paragraf. Gagasan utama pada teks di atas adalah kenakalan remaja merupakan perilaku yang menyimpang.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 0
+    },
+    {
+      "id": "gd-to8-twk-24",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Unsur when pada paragraf di atas terdapat pada kalimat ....",
+      "options": [
+        "Masalah kenakalan remaja mulai mendapat perhatian masyarakat secara khusus sejak terbentuknya peradilan untuk anak-anak nakal pada tahun 1899 di Iiinois, Amerika Serikat",
+        "Para ahli pendidikan sependapat bahwa remaja adalah seseorang yang berusia 13-18 tahun",
+        "Kenakalan remaja merupakan perilaku yang menyimpang dari norma-norma hukum pidana yang dilakukan oleh remaja",
+        "Perilaku tersebut akan merugikan dirinya sendiri dan orang-orang disekitarnya",
+        "Pada usia tersebut, seseorang sudah melampaui masa kanak-kanak, tetapi masih belum cukup matang untuk dapat dikatakan dewasa"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ide pokok selalu merangkum kalimat utama (umumnya di awal/deduktif atau akhir/induktif), bukan kalimat penjelas berisi contoh. Petunjuk inti: dalam mengetahui perbedaan atau persamaan penyajian teks berita dapat dilihat melalui unsur-unsur berita (5W=1H) yang "
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kalimat efektif wajib punya S + P jelas, tidak boros kata ('agar supaya', 'para hadirin sekalian'), dan ejaan baku KBBI."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji keterkaitan: opsi ide pokok harus bisa menaungi seluruh kalimat lain di dalam paragraf."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terlalu sempit (hanya mengutip fakta satu kalimat penjelas) atau terlalu luas melenceng dari teks bukan ide pokok."
+        }
+      ],
+      "explain": "dalam mengetahui perbedaan atau persamaan penyajian teks berita dapat dilihat melalui unsur-unsur berita (5W=1H) yang digunakan. Pernyataan yang dikategorikan oleh unsur when (kapan) adalah kapan waktu yang terdapat dalam teks tersebut. Dengan demikian, berdasarkan opsi jawaban, opsi A adalah jawaban yang tepat untuk menjawab unsur when pada paragraf tersebut.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 0
+    },
+    {
+      "id": "gd-to8-twk-25",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "“Saat ini, Indonesia diperkirakan telah memiliki kurang lebih 90 juta orang yang tergolong ke dalam kelompok consuming class” Teks di atas merupakan teks eksposisi yang termasuk ked alam stuktur ...",
+      "options": [
+        "Fakta",
+        "Pernyataan pendapat",
+        "Argumentasi",
+        "Penegasan ulang",
+        "Contoh"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal wawasan kebangsaan sebelum membandingkan kelima opsi. Petunjuk inti: kutipan di atas merupakan bentuk kutipan argumentasi.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "kutipan di atas merupakan bentuk kutipan argumentasi. Argumentasi adalah suatu bentuk retorika yang berusaha untuk mempengaruhi sikap dan pendapat orang lain agar mereka percaya dan akhirnya bertindak sesuai dengan apa yang dituliskan penulis.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-twk-26",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Cermatilah paragraf di bawah ini Saya terdiam lagi. Menghela nafas sejenak dan menyedot minuman dingin. Mencoba mencari jawaban yang menghibur. Terlanjur ........ ditawari menjadi direktur. Tak mudah untuk menutupi rasa girang saya. Ungkapan yang tepat untuk melengkapi paragraf di atas adalah ....",
+      "options": [
+        "Hatiku terbelah dua",
+        "Bagai buah simalakama",
+        "Hatiku berbunga-bunga",
+        "Patah hati ini",
+        "Ke jalan yang benar"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ide pokok selalu merangkum kalimat utama (umumnya di awal/deduktif atau akhir/induktif), bukan kalimat penjelas berisi contoh."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kalimat efektif wajib punya S + P jelas, tidak boros kata ('agar supaya', 'para hadirin sekalian'), dan ejaan baku KBBI."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji keterkaitan: opsi ide pokok harus bisa menaungi seluruh kalimat lain di dalam paragraf."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terlalu sempit (hanya mengutip fakta satu kalimat penjelas) atau terlalu luas melenceng dari teks bukan ide pokok."
+        }
+      ],
+      "explain": "paragraf di atas menjelaskan kebahagiaan dan kegirangan seseorang yang ditawari menjadi direktur, sehingga jawaban yang tepat untuk mengisi titik-titik adalah hatiku berbunga-bunga.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-twk-27",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Kota Padang berada di dekat pantai. Kota Padang berhawa panas. Jika dua kalimat di atas digabungkan akan menimbulkan makna akibat. Kata penghubung yang tepat adalah sebagai berikut, kecuali ....",
+      "options": [
+        "Oleh karena itu",
+        "Akibatnya",
+        "Sehingga",
+        "Tetapi",
+        "Karena"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ide pokok selalu merangkum kalimat utama (umumnya di awal/deduktif atau akhir/induktif), bukan kalimat penjelas berisi contoh. Petunjuk inti: kata penghubung tetapi bukan menimbulkan makna akibat, akan tetapi menyatakan hal yang bertentangan atau tidak selaras"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kalimat efektif wajib punya S + P jelas, tidak boros kata ('agar supaya', 'para hadirin sekalian'), dan ejaan baku KBBI."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji keterkaitan: opsi ide pokok harus bisa menaungi seluruh kalimat lain di dalam paragraf."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terlalu sempit (hanya mengutip fakta satu kalimat penjelas) atau terlalu luas melenceng dari teks bukan ide pokok."
+        }
+      ],
+      "explain": "kata penghubung tetapi bukan menimbulkan makna akibat, akan tetapi menyatakan hal yang bertentangan atau tidak selaras.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 3
+    },
+    {
+      "id": "gd-to8-twk-28",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Pelan-pelan dibukanya pintu kamar, dengan berjingkat dia berjalan menuju gudang. Suara gemerisik itu semakin jelas. Dina memberanikan diri untuk mendekati gudang. Dia mengambil sapu bergagang kayu yang terletak di dekat gudang. Dia berencana memukul pencuri itu biar kepergok. Berdasarkan kutipan di atas, watak tokoh Dina adalah ....",
+      "options": [
+        "Mandiri",
+        "Pemberani",
+        "Pemarah",
+        "Penakut",
+        "Pemaaf"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal wawasan kebangsaan sebelum membandingkan kelima opsi. Petunjuk inti: pada teks di atas dapat dilihat bahwa watak dari Dina adalah pemberani."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "pada teks di atas dapat dilihat bahwa watak dari Dina adalah pemberani.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-twk-29",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Berikut ini yang tidak termasuk unsur-unsur dalam surat lamaran pekerjaan adalah....",
+      "options": [
+        "Tanggal surat",
+        "Alamat surat",
+        "Isi surat",
+        "Tanda tangan",
+        "Ucapan terima kasih"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal wawasan kebangsaan sebelum membandingkan kelima opsi."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "unsur-unsur dalam surat lamaran kerja terdiri dari tempat dan tanggal pembuatan surat, alamat perusahaan yang dituju, salam dan pembuka surat, isi surat, lampiran/syarat lamaran, penutup surat, tanda tangan dan nama pelamar.",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 4
+    },
+    {
+      "id": "gd-to8-twk-30",
+      "subtest": "twk",
+      "topic": "wawasan kebangsaan",
+      "stem": "Perhatikan data buku berikut : Judul buku: Dzikir Pagi Petang Menurut Al-Qur’an dan Sunnah Penulis: Yazid bin Abdul Qadir Penerbit: Imam Asy-Syafii Tahun terbit: 2020 Kota terbit: Bogor Penulisan daftar pustaka yang benar berdasarkan data buku di atas adalah ....",
+      "options": [
+        "Yazid bin Abdul Qadir. 2020. Dzikir Pagi Petang Menurut Al-Qur’an dan Sunnah. Imam Asy-Syafii: Bogor",
+        "Qadir, Yazid bin Abdul, 2020. Dzikir Pagi Petang Menurut Al-Qur’an dan Sunnah. Imam Asy-Syafii. Bogor",
+        "Qadir, Yazid bin Abdul. 2020. Dzikir Pagi Petang Menurut Al-Qur’an dan Sunnah. Imam Asy-Syafii: Bogor",
+        "Qadir, Yazid bin Abdul. 2020. Dzikir Pagi Petang Menurut Al-Qur’an dan Sunnah. Bogor: Imam Asy-Syafii.",
+        "Qadir, Yazid bin Abdul, 2020, Dzikir Pagi Petang Menurut Al-Qur’an dan Sunnah. Imam Asy-Syafii: Bogor"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal wawasan kebangsaan sebelum membandingkan kelima opsi. Petunjuk inti: Penulisan daftar pustaka yang benar adalah : - Nama penulis (ditulis lebih awal.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Penulisan daftar pustaka yang benar adalah : - Nama penulis (ditulis lebih awal. Jika nama terdiri dari dua kata maka penulisannya terbalik, kemudian diikuti dengan tanda koma(,). Jika nama penulis terdiri dari dua orang atau lebih, maka yang ditulis terbalik hanya nama orang pertama saja. Jika nama penulis lebih dari tiga orang, maka nama pertama ditulis terbalik dan yang lainnya tidak perlu dicantumkan dan diberi keterangan dkk. - Tahun terbit, ditulis setelah nama penulis - Judul buku, ditulis secara lengkap dengan menggunakan tulisan miring - Tempat buku terbit dan nama penerbit, diawali dengan tempat terbit, kemudian nama penerbit yang dipisahkan oleh tanda titik dua (:) Contoh : (nama belakang, nama depan).(tahun terbit). (judul buku). (kota) : (penerbit)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TWK)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-tiu-01",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Jam : Waktu = ... : ...",
+      "options": [
+        "Masak : Kompor",
+        "Telephon : Komunikasi",
+        "Kalender : Tanggal",
+        "Buku : Tulisan",
+        "Benang : Mesin"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Carilah hubungan diantara kata-kata yang diketahui.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Carilah hubungan diantara kata-kata yang diketahui. Kemudian pilihlah kata pada opsi jawaban yang memiliki makna yang sejalan. Jam digunakan untuk melihat waktu. Kalender digunakan untuk melihat tanggal.",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-tiu-02",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Belalang : ... = ... : Paru-paru",
+      "options": [
+        "Serangga = Organ Tubuh",
+        "Trakea = Jerapah",
+        "Herbivora = Arteri",
+        "Hewan = Manusia",
+        "Makhluk Hidup = Pernafasan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Apabila menemukan kesulitan dalam menentukan hubungan, maka buatlah kata penghubung yang memiliki makna seja"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Apabila menemukan kesulitan dalam menentukan hubungan, maka buatlah kata penghubung yang memiliki makna sejalan. Belalang bernafas menggunakan trakea Jerapah bernafas menggunakan paru-paru",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-tiu-03",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Pandemi = ...",
+      "options": [
+        "Covid-19",
+        "Wabah",
+        "Kesehatan",
+        "Isolasi",
+        "Jaga jarak"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal intelegensi umum sebelum membandingkan kelima opsi. Petunjuk inti: Menurut KBBI pandemi adalah wabah yang terjangkit serempak dimana-mana yang meliputi daerah geografi yang luas.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Menurut KBBI pandemi adalah wabah yang terjangkit serempak dimana-mana yang meliputi daerah geografi yang luas. Sinonim dari pandemi ini adalah wabah.",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-tiu-04",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Semua mahasiswa baru wajib mengikuti OSPEK. Rendi adalah seorang yang pintar. Rendi adalah mahasiswa baru. Kesimpulan yang tepat adalah....",
+      "options": [
+        "Rendi wajib mengikuti OSPEK",
+        "Rendi adalah seorang yang pintar",
+        "Semua mahasiswa baru pintar",
+        "Sebagian mahasiswa baru wajib mengikuti OSPEK",
+        "Semua mahasiswa baru wajib mengikuti OSPEK"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Premis kedua tidak diikutkan hanya sebagai pengecoh jadi gunakan premis pertama dan ketiga saja.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Premis kedua tidak diikutkan hanya sebagai pengecoh jadi gunakan premis pertama dan ketiga saja. Semua mahasiswa baru wajib mengikuti OSPEK Rendi adalah mahasiswa baru 𝑀𝑖𝑑𝑑𝑙𝑒 (𝑀) = mahasiswa baru 𝑃𝑟𝑒𝑑𝑖𝑐𝑎𝑡𝑒 (𝑃) = wajib mengikuti OSPEK 𝑆𝑢𝑏𝑗𝑒𝑐𝑡 (𝑆) = Rendi Gunakan penarikan kesimpulan silogisme kategoris dengan susunan berikut: 𝑀 𝑃 𝑆 𝑀 ∴ 𝑆 𝑃 karena salah satu premis partikular/sebagian maka kesimpulan juga harus partikular/sebagian. Kesimpulan : Rendi wajib mengikuti OSPEK",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 0
+    },
+    {
+      "id": "gd-to8-tiu-05",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Jika saya lulus SMA, saya melanjutkan ke perguruan tinggi di luar kota. Jika saya melanjutkan ke perguruan tinggi di luar kota, maka saya jauh dari orang tua. Saya tidak jauh dari orang tua. Kesimpulan yang tepat adalah....",
+      "options": [
+        "Saya mungkin melanjutkan ke perguruan tinggi di luar kota",
+        "Saya belum lulus SMA",
+        "Saya tidak jauh dari orang tua",
+        "Saya tidak melanjutkan ke perguruan tinggi di luar kota",
+        "Saya melanjutkan ke perguruan tinggi di luar kota"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Jika saya lulus SMA, saya melanjutkan ke perguruan tinggi di luar kota.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Jika saya lulus SMA, saya melanjutkan ke perguruan tinggi di luar kota. Jika saya melanjutkan ke perguruan tinggi di luar kota, maka saya jauh dari orang tua Saya tidak jauh dari orang tua. Misalkan 𝑃= saya lulus SMA 𝑄= saya melanjutkan ke perguruan tinggi negeri 𝑅= saya jauh dari orang tua Dengan menggunakan silogisme dan modus Tollens didapatkan kesimpulan 𝑃→𝑄 𝑄→𝑅 ∴ 𝑃→𝑅 ~𝑅 ∴ ~𝑃 Kesimpulan : Saya belum lulus SMA. Soal untuk nomor 6-8 Bu Tuti ingin membagi 4 kelompok belajar, yaitu Xio, Eni, Budi, Tiko, Kia, Lulu, Pika, Manto, Dika, Abi, Hardi dan Yarni. Masing-masing kelompok terdiri atas 3 orang siswa. Adapun ketentuaan pembagian kelompok adalah sebagai berikut: a) Dika berada pada kelompok 1 dan tidak akan berada satu kelompok dengan Hardi dan Kia b) Eni dan Tiko satu kelompok, mereka berada pada kelompok terakhir c) Yarni ingin satu kelompok dengan Abi tetapi tidak dengan Lulu d) Lulu satu kelompok dengan Pika. Urutan kelompok mereka setelah kelompok Dika e) Budi, Manto dan Hardi berada pada kelompok 3",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-tiu-06",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Jika Kia satu kelompok dengan Pika, maka siapa yang kemungkinan satu kelompok dengan Xio?",
+      "options": [
+        "Eni",
+        "Budi",
+        "Lulu",
+        "Dika",
+        "Abi"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Kelompok 1 Kelompok 2 Kelompok 3 Kelompok 4 Dika Lulu Budi Eni Yarni Pika Manto Tiko Abi Kia Hardi Xio."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Kelompok 1 Kelompok 2 Kelompok 3 Kelompok 4 Dika Lulu Budi Eni Yarni Pika Manto Tiko Abi Kia Hardi Xio",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 0
+    },
+    {
+      "id": "gd-to8-tiu-07",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Apabila Lulu ditukar dengan Budi, maka siapa saja yang satu kelompok dengan Lulu?",
+      "options": [
+        "Pika dan Kia",
+        "Manto dan Eni",
+        "Dika dan Hardi",
+        "Hardi dan Manto",
+        "Xio dan Tiko"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Kelompok 1 Kelompok 2 Kelompok 3 Kelompok 4 Dika Lulu Budi Eni Yarni Pika Manto Tiko Abi Kia Hardi Xio."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Kelompok 1 Kelompok 2 Kelompok 3 Kelompok 4 Dika Lulu Budi Eni Yarni Pika Manto Tiko Abi Kia Hardi Xio",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 3
+    },
+    {
+      "id": "gd-to8-tiu-08",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Manakah dari pernyataan berikut yang salah?",
+      "options": [
+        "Lulu dan Kia berada pada kelompok 2",
+        "Yarni dan Abi berada pada kelompok 1",
+        "Xio berada pada kelompok 4",
+        "Manto berada pada kelompok 3",
+        "Tiko dan Pika berada pada kelompok 4"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal intelegensi umum sebelum membandingkan kelima opsi. Petunjuk inti: Kelompok 1 Kelompok 2 Kelompok 3 Kelompok 4 Dika Lulu Budi Eni Yarni Pika Manto Tiko Abi Kia Hardi Xio."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Kelompok 1 Kelompok 2 Kelompok 3 Kelompok 4 Dika Lulu Budi Eni Yarni Pika Manto Tiko Abi Kia Hardi Xio",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 4
+    },
+    {
+      "id": "gd-to8-tiu-09",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Pilihlah salah satu dari lima angka yang ada di dalam kurung yang tidak sesuai dengan pola bilangan. 8, 11 | 16, 19, 20, 27, 32 | 35, 40",
+      "options": [
+        "16",
+        "19",
+        "20",
+        "27",
+        "32"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: 8 11 16 19 24 27 32 35 40 +3 +5 +3 +5 +3 +5 +3 +5."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "8 11 16 19 24 27 32 35 40 +3 +5 +3 +5 +3 +5 +3 +5",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-tiu-10",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Pilihlah salah satu dari lima angka yang ada di dalam kurung yang tidak sesuai dengan pola bilangan. 3, 6, | 12, 18, 27, 38, 51 | 66, 83",
+      "options": [
+        "12",
+        "18",
+        "27",
+        "38",
+        "51"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: 3 6 11 18 27 38 51 66 83 +3 +5 +7 +9 +11 +13 +15 +17 +2 +2 +2 +2 +2 +2 +2."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "3 6 11 18 27 38 51 66 83 +3 +5 +7 +9 +11 +13 +15 +17 +2 +2 +2 +2 +2 +2 +2",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 0
+    },
+    {
+      "id": "gd-to8-tiu-11",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Pilihlah salah satu dari huruf yang ada di dalam kurung yang tidak sesuai dengan pola bilangan B, E | F, I, L, M, N | Q, R",
+      "options": [
+        "F",
+        "I",
+        "L",
+        "M",
+        "N"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: B E F I J M N Q R 2 5 6 9 10 13 14 17 18 +3 +1 +3 +1 +3 +1 +3 +1."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "B E F I J M N Q R 2 5 6 9 10 13 14 17 18 +3 +1 +3 +1 +3 +1 +3 +1",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-tiu-12",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Pilihlah salah satu huruf yang adal di dalam kurung yang tidak sesuai dengan pola bilangan. B | C, E, H, J, Q | W",
+      "options": [
+        "C",
+        "E",
+        "H",
+        "J",
+        "Q"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: B C E H L Q W 2 3 5 8 12 17 23 +1 +2 +3 +4 +5 +6 +1 +1 +1 +1 +1."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "B C E H L Q W 2 3 5 8 12 17 23 +1 +2 +3 +4 +5 +6 +1 +1 +1 +1 +1",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 3
+    },
+    {
+      "id": "gd-to8-tiu-13",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "40 + 23 : 2,3 - 1,75 = ...",
+      "options": [
+        "49,75",
+        "48,25",
+        "25,65",
+        "114,5",
+        "59,25"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: 40 + 23 : 2,3 - 1,75 = 40 + (23 : 2,3) – 1,75 = 40 + 10 – 1,75 = 48,25."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "40 + 23 : 2,3 - 1,75 = 40 + (23 : 2,3) – 1,75 = 40 + 10 – 1,75 = 48,25",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-tiu-14",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "( 8 21 + 3 3 7 − 2 3 ) × 0,5 = ...",
+      "options": [
+        "1,75",
+        "1 8 14",
+        "1 9 21",
+        "1 6 7",
+        "1"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal intelegensi umum sebelum membandingkan kelima opsi. Petunjuk inti: ( 8 21 + 24 7 − 2 3) × 0,5 = 8 21 + 24 7 − 2 3) = 8+72−14 21 = 66 21 = 22 7 22 7 × 1 2 = 22 14 = 1 8 14."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "( 8 21 + 24 7 − 2 3) × 0,5 = 8 21 + 24 7 − 2 3) = 8+72−14 21 = 66 21 = 22 7 22 7 × 1 2 = 22 14 = 1 8 14",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-tiu-15",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Jika x+y = 8 dan x-y=2 maka berapakah nilai x2 – y2?",
+      "options": [
+        "32",
+        "24",
+        "16",
+        "40",
+        "30"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: x2 – y2 = (x+y) (x-y) x2 – y2 = (8) (2) = 16."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "x2 – y2 = (x+y) (x-y) x2 – y2 = (8) (2) = 16",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-tiu-16",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Kia dapat menyelesaikan pekerjaan selama 6 hari. Sedangkan Dhuha dapat menyelesaikan pekerjaan selama 3 hari. a b Waktu yang dibutuhkan jika Kia dan Dhuha menyelesaikan pekerjaan secara bersama-sama 3 hari",
+      "options": [
+        "a = b",
+        "a < b",
+        "b < a",
+        "a+b = 10",
+        "2a = b-1"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "a = waktu yang dibutuhkan jika Kia dan Dhuha bekerja sama adalah 1 6 + 1 3 = 1+2 6 = 3 6 jadi waktu yang dibutuhkan Kia dan Dhuha adalah 6 3 = 2 hari Sehingga, hubungan dari a dan b adalah a < b",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-tiu-17",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Banyak kursi pada barisan pertama didalam ruangan seminar adalah 40, sedangkan kursi pada baris dibelakangnya adalah 2 buah lebih banyak dari pada barisan pertama. Berapa jumlah kursi pada baris ke-12 ?",
+      "options": [
+        "80",
+        "78",
+        "72",
+        "68",
+        "62"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: U1 = 40 U2 = 42 Un = a + (n – 1)b U12 = 40 + (12-1)2 U12 = 40 + 22 U12 = 62."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "U1 = 40 U2 = 42 Un = a + (n – 1)b U12 = 40 + (12-1)2 U12 = 40 + 22 U12 = 62",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 4
+    },
+    {
+      "id": "gd-to8-tiu-18",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Dalam memproduksi baju, Omas membutuhkan 250 cm kain untuk membuat 12 potongan baju selama 4 hari. Apabila Omas ingin memproduksi 69 potongan baju, maka berapa banyak waktu tambahan yang dibutuhkan Omas?",
+      "options": [
+        "10 hari",
+        "11 hari",
+        "13 hari",
+        "15 hari",
+        "19 hari"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "12 baju 4 hari 69 baju x hari Perbandingan senilai 12 69 = 4 𝑥 = 12x = 276 x = 276:12 x = 23 jadi waktu tambahan yang dibutuhkan Omas adalah 23-4 = 19 hari.",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 4
+    },
+    {
+      "id": "gd-to8-tiu-19",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Farhan mengendarai mobilnya dengan kecepatan 60km/jam dengan jarak 120km. Satu setengah jam kemudian, Andi menyusul Farhan dengan kecepatan 80km/jam x y Waktu Andi menyusul Farhan 4 jam",
+      "options": [
+        "x = y",
+        "x < y",
+        "x = y+0,5",
+        "y = x-2",
+        "x = 2y"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pekerja bertambah → waktu pasti berkurang (kalikan Orang × Hari = Orang baru × Hari baru; jika koma, bulatkan orang ke atas). Susul-menyusul: Jarak duluan ÷ (Kecepatan penyusul − yang disusul). Petunjuk inti: x = t menyusul = (t2−t1).v1 v2−v1 = 1,5 jam .60km/j"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek akal sehat: tambahan pekerja wajib membuat hari LEBIH SINGKAT; waktu berpapasan wajib berada di antara jam berangkat & jam tiba."
+        },
+        {
+          "lens": "logika",
+          "text": "Samakan seluruh satuan terlebih dulu (menit ke jam, km ke meter) dan kurangkan hari yang sudah selesai sebelum menghitung sisa proyek."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pada proyek yang sempat libur/terhenti, kurangi dulu hari yang sudah dikerjakan; pada susul-menyusul, hitung dari jam berangkat orang KEDUA."
+        }
+      ],
+      "explain": "x = t menyusul = (t2−t1).v1 v2−v1 = 1,5 jam .60km/jam (80−60)km/jam = 4,5 jam maka hubungan x dengan y adalah x=y+0,5",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-tiu-20",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Ani mengendarai sepeda motor menuju rumah pamannya dengan kecepatan 60km/jam. Jarak dari rumah Ani ke rumah pamannya adalah 150 km. Ani sampai pada pukul 11:15, pukul berapakah Ani berangkat?’",
+      "options": [
+        "09:05",
+        "08:55",
+        "08:45",
+        "08:30",
+        "08:15"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: v = 60 km/jam s = 150km t = ..?."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "v = 60 km/jam s = 150km t = ..? Waktu (t) = Jarak (s) Kecepatan (v) = 150 km 60 km/jam = 2,5 jam Maka Ani berangkat pada pukul : 11:15 – 02:30 = 08:45",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-tiu-21",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Ayah mengendarai mobil menuju rumah nenek dengan kecepatan 60km/jam, diarah yang berlawanan paman melajukan mobilnya dari rumah nenek menuju rumah ayah dengan kecepatan 65km/jam. Jarak rumah nenek adalah 120km dan mereka sama- sama berangkat pada pukul 08:15. x y Pukul ayah dan paman berpapasan 09:13 Manakah hubungan yang benar antara x dan y?",
+      "options": [
+        "x = y",
+        "x > y",
+        "x = y – setengah jam",
+        "x < y",
+        "jarak antara x dengan y adalah 2 jam"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pekerja bertambah → waktu pasti berkurang (kalikan Orang × Hari = Orang baru × Hari baru; jika koma, bulatkan orang ke atas). Susul-menyusul: Jarak duluan ÷ (Kecepatan penyusul − yang disusul)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek akal sehat: tambahan pekerja wajib membuat hari LEBIH SINGKAT; waktu berpapasan wajib berada di antara jam berangkat & jam tiba."
+        },
+        {
+          "lens": "logika",
+          "text": "Samakan seluruh satuan terlebih dulu (menit ke jam, km ke meter) dan kurangkan hari yang sudah selesai sebelum menghitung sisa proyek."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pada proyek yang sempat libur/terhenti, kurangi dulu hari yang sudah dikerjakan; pada susul-menyusul, hitung dari jam berangkat orang KEDUA."
+        }
+      ],
+      "explain": "x = 𝑡 𝑏𝑒𝑟𝑝𝑎𝑠𝑝𝑎𝑠𝑎𝑛= jarak (s) kecepatan 1 (v1)+kecepatan 2 (v2) t = 120 km 60km/jam +65km/jam = 120 km 125km/jam = 0,96 jam t = 0,96 × 60 = 57,6 menit = 58 menit jadi ayah dan paman akan berpaspasan pada pukul 08:15 + 00:58 = 09:13 ..... (x) Maka hubungan x dengan y adalah x = y",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 0
+    },
+    {
+      "id": "gd-to8-tiu-22",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Kia mengendarai sepeda motor dari rumahnya menuju rumah Adiba dengan kecepatan 50km/jam. Ia berangkat pada pukul 08:15 dan sampai pada pukul 10:30. Dalam perjalanan Kia berhenti istirahat untuk sarapan dan istirahat selama 15 menit. Berapakah jarak antara rumah Kia dengan rumah Adiba?",
+      "options": [
+        "98 km",
+        "100 km",
+        "110 km",
+        "112 km",
+        "115 km"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: Jarak (s) = Kecepatan (v) .."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Jarak (s) = Kecepatan (v) . Waktu (t) Jarak (s) = 50km/jam . (10:30 – 08:15 - 00:15) Jarak (s) = 50km/jam . 2 jam Jarak (s) = 100km",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-tiu-23",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Gisel membeli sebuah barang dengan harga Rp. 255.500, 00 untuk dijual kembali kepada temannya. Akan tetapi, temannya hanya sanggup membeli barang tersebut dengan harga Rp.240.000,00. Apabila Gisel menjual nya, berapa persen kerugian yang diterima oleh Gisel?",
+      "options": [
+        "5%",
+        "5,5%",
+        "6%",
+        "6,5%",
+        "7%"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Untung/Rugi selalu dihitung dari Harga Beli (Modal), bukan Harga Jual. Diskon bertingkat d1% + d2% ≠ jumlah langsung, hitung bertahap. Petunjuk inti: Kerugian = harga jual – harga beli = 240.000 – 255.500 = -15.500 % kerugian = kerugian harga beli × 100% % ker"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Gunakan pembulatan kasar (estimasi puluhan terdekat) untuk membuang opsi yang terlalu jauh secara magnitudo."
+        },
+        {
+          "lens": "logika",
+          "text": "Ubah persen umum ke pecahan istimewa: 12,5% = 1/8, 25% = 1/4, 33,3% = 1/3, 37,5% = 3/8, 66,7% = 2/3 agar hitung kilat."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Diskon 50% + 20% bukan 70%, melainkan 100% → 50% → sisa 40% (total potongan 60%)."
+        }
+      ],
+      "explain": "Kerugian = harga jual – harga beli = 240.000 – 255.500 = -15.500 % kerugian = kerugian harga beli × 100% % kerugian = 15.500 255.500 × 100% = 6,06%",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-tiu-24",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Rahma menabung di sebuah bank konvensional. Uang Rahma berjumlah Rp. 5.200.000 setelah disimpan selama 7 bulan. Apabila jumlah tabungan Rahma adalah Rp4.850.000, maka berapa persen bunga yang diberikan oleh bank tersebut selama 7 bulan?",
+      "options": [
+        "5,2%",
+        "6,2%",
+        "7,2%",
+        "8,2%",
+        "9,2%"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Jumlah bunga = 5.200.000 – 4.850.000 = 350.000 Persentase bunga = a 100 × 4.850.000 = 350.000 485a = 3500 a = 3500 : 485 a = 7,2%"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Jumlah bunga = 5.200.000 – 4.850.000 = 350.000 Persentase bunga = a 100 × 4.850.000 = 350.000 485a = 3500 a = 3500 : 485 a = 7,2%",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-tiu-25",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Bus dari Padang ke Jakarta ada 5 jenis, sedangkan dari Jakarta ke Bogor ada 3 jenis. Apabila Ayah dan Ibu ingin pergi ke Bogor dari Padang melewati Jakarta dengan menggunakan bus. Maka berapa banyak cara yang dapat Ayah Ibu dalam memilih jenis bus?",
+      "options": [
+        "16",
+        "13",
+        "15",
+        "25",
+        "10"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: Padang-Jakarta A Jakarta-Bogor 1 B 2 C 3 D E Banyak cara = A1, A2, A3, B1, B2, B2, C1, C2, C3.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Padang-Jakarta A Jakarta-Bogor 1 B 2 C 3 D E Banyak cara = A1, A2, A3, B1, B2, B2, C1, C2, C3. D1, D2, D3, E1, E2, dan E3 Maka banyak cara yang dapat ayah dan ibu lakukan dalam memilh jenis bus adalah 5×3 = 15 cara",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 2
+    },
+    {
+      "id": "gd-to8-tiu-26",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Dalam pelemparan sebuah mata dadu, berapakah peluang munculnya mata dadu dengan angka ganjil?",
+      "options": [
+        "1",
+        "1 2",
+        "1 5",
+        "1 3",
+        "6"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Mata dadu = 6 angka (1, 2, 3, 4, 5 dan 6) Jumlah angka ganjil = (1, 3, 5) = 3 mata dadu Peluang = n (A) n (S) Peluang munculnya mata dadu ganjil = 3 6 = 1 2",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 1
+    },
+    {
+      "id": "gd-to8-tiu-27",
+      "subtest": "tiu",
+      "topic": "intelegensi umum",
+      "stem": "Dalam seleksi penerimaan pegawai baru, setiap peserta diwajibkan lulus test tertulis dan wawancara. Dari 210 peserta yang melamar terdapat 195 orang tertulis dan 175 orang lulus wawancara. Berapa banyak peserta yang lulus seleksi penerimaan pegawai baru tersebut?",
+      "options": [
+        "120",
+        "140",
+        "175",
+        "195",
+        "160"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal intelegensi umum sebelum membandingkan kelima opsi. Petunjuk inti: = (195 + 175) – 210 = 160 Sehingga banyaknya peserta yang lulus tes tertulis dan wawancara adalah 160 orang."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "= (195 + 175) – 210 = 160 Sehingga banyaknya peserta yang lulus tes tertulis dan wawancara adalah 160 orang.",
+      "targetSec": 60,
+      "source": "Try Out SKD #8 (TIU)",
+      "key": 4
+    },
+    {
+      "id": "gd-to8-tkp-01",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan seorang tenaga kesehatan yang bekerja di sebuah rumah sakit yang memiliki sedikit pasien sehingga saya memutuskan untuk freelance online. Hal tersebut kadang membuat saya agak bingung ketika harus menyelesaikan tugas saya di dua pekerjaan tersebut. Bagaimanakah sikap saya seharusnya?",
+      "options": [
+        "Saya akan menyelesaikan tugas saya di perusahaan terlebih dahulu.",
+        "Saya akan mengerjakan tugas freelance saya di rumah dan fokus di perusahaan.",
+        "Saya akan mencoba mengerjakan freelance ketika tidak ada pasien.",
+        "Saya akan berusaha menyelesaikan tugas dalam satu waktu.",
+        "Saya meminta solusi kepada atasan terkait tugas saya."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Bagian dari aspek ini adalah dalam hal mengutamakan prioritas dan membagi waktu dalam mengerjakan tugas. A. Saya akan menyelesaikan tugas saya di perusahaan terlebih dahulu.(Skor 4) B. Saya akan mengerjakan tugas freelance saya di rumah dan fokus di perusahaan.(Skor 5) C. Saya akan mencoba mengerjakan freelance ketika tidak ada pasien.(Skor 1) D. Saya akan berusaha menyelesaikan tugas dalam satu waktu.(Skor 2) E. Saya meminta solusi kepada atasan terkait tugas saya.(Skor 3)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        3,
+        5,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-02",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Suatu ketika saya masuk kerja pagi hari, saya datang terlambat dan membuat teman saya yang seharusnya lepas jaga terlambat pulang ke rumah. Bagaimanakah sikap saya seharusnya?",
+      "options": [
+        "Saya akan meminta maaf kepada teman.",
+        "Langsung masuk saja ke kantor.",
+        "Saya berjanji kepada teman-teman tidak akan terlambat lagi.",
+        "Saya akan mengkonfirmasi kepada atasan terkait keterlambatan saya.",
+        "Saya tidak berbuat apa-apa."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Bagian penting daripada pelayanan publik adalah disiplin dan manajemen waktu. Sikap yang ditunjukkan pada soal di atas yang lebih tepat adalah bagian A. A. Saya akan meminta maaf kepada teman.(Skor 5) B. Langsung masuk saja ke kantor.(Skor 2) C. Saya berjanji kepada teman-teman tidak akan terlambat lagi.(Skor 4) D. Saya akan mengkonfirmasi kepada atasan terkait keterlambatan saya.(Skor 3) E. Saya tidak berbuat apa-apa.(Skor 1)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        3,
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-04",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan masyarakat awam, suatu ketika saya melihat ada team pengabdian masyarakat dari salah satu kampus di kota saya. Kata tetangga saya, bahwa mereka akan mengedukasi masyarakat mengenai bahaya penggunaan MSG. Bagaimanakah sikap saya seharusnya.?",
+      "options": [
+        "Saya akan mengikuti kegiatan tersebut agar saya mendapatkan ilmu pengetahuan.",
+        "Saya penasaran untuk berpartisipasi.",
+        "Saya lebih memilih untuk mengurusi pekerjaan rumah.",
+        "Saya akan meminta pendapat teman saya, apakah dia ingin ikut atau tidak.",
+        "Saya harus mengetahui terlebih dahulu apakah ada imbalan atau tidak ketika mengikuti kegiatan mereka."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Salah satu bagian dari aspek tersebut adalah adanya sikap partisipasi terhadap kegiatan yang bisa mengembangkan diri. Melalui kegiatan pengabdian masyarakat maka akan ada banyak ilmu pengetahuan yang akan di dapatkan. A. Saya akan mengikuti kegiatan tersebut agar saya mendapatkan ilmu pengetahuan.( skor 5) B. Saya penasaran untuk berpartisipasi. (skor 4) C. Saya lebih memilih untuk mengurusi pekerjaan rumah.(skor 2) D. Saya akan meminta pendapat teman saya, apakah dia ingin ikut atau tidak.(skor 3) E. Saya harus mengetahui terlebih dahulu apakah ada imbalan atau tidak ketika mengikuti kegiatan mereka.(skor 1)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        3,
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-05",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan salah satu nasabah di sebuah Bank. Suatu ketika saya mendapatkan pelayanan yang kurang ramah dari customer service maka sikap saya adalah ….",
+      "options": [
+        "Saya mengikuti alur pelayanannya saja.",
+        "Saya memberikan masukan dan saran agar ke depannya memperbaiki sistem pelayanan kepada CS nya.",
+        "Saya langsung melaporkan kepada pusat pengaduan terkait layanan yang buruk.",
+        "Merasa kecewa terkait pelayanannya.",
+        "Saya tidak akan pergi ke bank tersebut lagi."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Sebagai seseorang yang menggunakan jasa layanan, maka Anda dituntut untuk bisa memberikan arahan untuk perbaikan ke depannya sehingga opsi yang paling tepat adalah B. A. Saya mengikuti alur pelayanannya saja.(Skor 2) B. Saya memberikan masukan dan saran agar ke depannya memperbaiki sistem pelayanan kepada CS nya. (Skor 5) C. Saya langsung melaporkan kepada pusat pengaduan terkait layanan yang buruk.(Skor 4) D. Merasa kecewa terkait pelayanannya. .(Skor 3) E. Saya tidak akan pergi ke bank tersebut lagi. (Skor 1)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        3,
+        5,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-06",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Mika merupakan seorang programmer di sebuah Puskesmas. Suatu ketika terdapat pegawai datang ke ruangan mika dan melakukan protes karena salah satu sistem aplikasi bermasalah. Bagaimanakah sikap Mika seharusnya?",
+      "options": [
+        "Melakukan pemeriksaan aplikasi sistem dengan segera dan meminta maaf kepada pegawai tersebut atas ketidaknyamanannya.",
+        "Tidak memedulikan pegawai tersebut",
+        "Meminta maaf kepada pegawai dan menunda perbaikan",
+        "Segera memperbaiki dengan hati yang tidak ikhlas.",
+        "Meminta kepada pegawai tersebut untuk berusaha sendiri."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Sebagai penyedia layanan jasa, sudah semestinya memberikan pelayanan sesuai dengan apa yang diminta oleh pegawai karena memang sudah menjadi tanggung jawab Anda. A. Melakukan pemeriksaan aplikasi sistem dengan segera dan meminta maaf kepada pegawai tersebut atas ketidaknyamanannya. (Skor 5) B. Tidak memedulikan pegawai tersebut (Skor 3) C. Meminta maaf kepada pegawai dan menunda perbaikan (Skor 4) D. Segera memperbaiki dengan hati yang tidak ikhlas. (Skor 1) E. Meminta kepada pegawai tersebut untuk berusaha sendiri.(Skor 2)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-07",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya memiliki tugas yang akan diamanahkan kepada seorang karyawan yang sifat dan karakternya sudah saya ketahui seperti suka menunda pekerjaan dan sangat lambat. Bagaimanakah sikap saya seharusnya?",
+      "options": [
+        "Saya akan mengingatkan deadline penyelesaian tugas tersebut secara berkala.",
+        "Memberikan pengarahan yang jelas dan penekanan waktu deadline serta motivasi bekerja.",
+        "Meminta karyawan lainnya untuk mendampingi karyawan tersebut dalam penyelesaian tugas.",
+        "Memberikan peringatan akan sanksi jika tugas tersebut tidak selesai.",
+        "Saya akan berpikir dua kali untuk memberikan tugas tersebut kepada orang dengan karakter yang demikian."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah jejaring kerja. Pada bagian jejaring kerja sikap seorang pemimpin adalah kemampuan dalam memberikan instruksi dengan jelas ketika memberikan perintah serta memotivasi untuk pengembangan diri. A. Saya akan mengingatkan deadline penyelesaian tugas tersebut secara berkala. .(Skor 4) B. Memberikan pengarahan yang jelas dan penekanan waktu deadline serta motivasi bekerja.(Skor 5) C. Meminta karyawan lainnya untuk mendampingi karyawan tersebut dalam penyelesaian tugas. (Skor 2) D. Memberikan peringatan akan sanksi jika tugas tersebut tidak selesai. .(Skor 1) E. Saya akan berpikir dua kali untuk memberikan tugas tersebut kepada orang dengan karakter yang demikian. (Skor 3)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        2,
+        5,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-08",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Ketika mengetahui bahwa salah satu anggota saya tidak bisa berkembang layaknya anggota lain, maka sikap saya sebagai ketua adalah ….",
+      "options": [
+        "Memperhatikan anggota tersebut.",
+        "Memberikan motivasi belajar dan berkembang.",
+        "Memberikan sanksi peringatan.",
+        "Berdiskusi empat mata dan memberikan solusi.",
+        "Langsung mengeluarkan anggota yang tidak bisa maju."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah jejaring kerja. Sebagai seorang ketua atau pemimpin ketika menghadapi anggota yang memiliki motivasi yang rendah untuk berkembang maka sudah seharusnya memberikan motivasi untuk meningkatkan kompetensi diri untuk mencapai tujuan bersama. A. Memperhatikan anggota tersebut. (Skor 3) B. Memberikan motivasi belajar dan berkembang. (Skor 5) C. Memberikan sanksi peringatan. (Skor 2) D. Berdiskusi empat mata dan memberikan solusi. (Skor 4) E. Langsung mengeluarkan anggota yang tidak bisa maju. (Skor 1)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        3,
+        5,
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-09",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Suatu ketika salah satu rekan kerja saya berduka dan di saat bersamaan terdapat kegiatan akreditasi perusahaan. Sesama rekan kerja bagaimanakah sikap saya seharusnya?",
+      "options": [
+        "Saya fokus kepada kerjaan saja.",
+        "Memperhatikan rekan kerja saya dari jauh.",
+        "Membiarkan teman saya untuk sendiri dulu.",
+        "Menghampirinya dan memberikan dukungan untuk bisa kembali bersemangat lagi.",
+        "Mengingatkannya untuk bisa profesional."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas jejaring kerja. Pada aspek tersebut terdapat poin untuk bisa meningkatkan kemampuan dalam memberikan dukungan dan dorongan terhadap orang lain yang sedang berduka. Sehingga opsi D merupakan jawaban yang paling tepat. A. Saya fokus kepada kerjaan saja. .(Skor 1) B. Memperhatikan rekan kerja saya dari jauh. .(Skor 2) C. Membiarkan teman saya untuk sendiri dulu.(Skor 3) D. Menghampirinya dan memberikan dukungan untuk bisa kembali bersemangat lagi.(Skor 5) E. Mengingatkannya untuk bisa profesional. .(Skor 4)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        2,
+        3,
+        1,
+        5,
+        4
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-10",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan pimpinan di perusahaan, ketika berada di kantor dan bertemu dengan rekan- rekan kerja saya maka saya akan ….",
+      "options": [
+        "Saya hanya fokus kepada kerjaan saja.",
+        "Mencoba untuk bisa bergaul dengan rekan kerja lainnya.",
+        "Saya akan bersikap dingin dan berwibawa.",
+        "Saya mengalihkan pandangan dengan lurus ketika bertemu dengan rekan kerja.",
+        "Berpura-pura tidak melihat."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah jejaring kerja. Pada aspek tersebut seorang pimpinan atau ketua diminta agar memiliki kemampuan dalam mudah bergaul dan bisa beradaptasi dengan orang lain tanpa mengesampingkan sikap berwibawa terhadap karyawan. A. Saya hanya fokus kepada kerjaan saja. (Skor 4) B. Mencoba untuk bisa bergaul dengan rekan kerja lainnya. (Skor 5) C. Saya akan bersikap dingin dan berwibawa. (Skor 3) D. Saya mengalihkan pandangan dengan lurus ketika bertemu dengan rekan kerja. (Skor 1) E. Berpura-pura tidak melihat. (Skor 2)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        2,
+        5,
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-11",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Suatu ketika saya bergabung dengan tim divisi perusahaan yang baru, ada beberapa hal yang masih asing bagi saya maka saya akan ….",
+      "options": [
+        "Berdiam diri dengan tidak berbuat apa-apa.",
+        "Meminta tolong kepada semua orang untuk membantu.",
+        "Berkomunikasi kepada rekan kerja agar dipahamkan dengan mudah.",
+        "Saya akan belajar seorang diri meskipun sulit.",
+        "Meminta kepada pimpinan untuk tidak memindahkan saya."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah jejaring kerja. Sebagai anggota team yang baru Anda dituntut untuk bisa berkomunikasi secara efektif dengan orang lain utamanya dalam hal urusan pekerjaan. Opsi C adalah yang paling tepat. A. Berdiam diri dengan tidak berbuat apa-apa. (Skor 2) B. Meminta tolong kepada semua orang untuk membantu. (Skor 4) C. Berkomunikasi kepada rekan kerja agar dipahamkan dengan mudah. (Skor 5) D. Saya akan belajar seorang diri meskipun sulit. (Skor 3) E. Meminta kepada pimpinan untuk tidak memindahkan saya. (Skor 1)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        1,
+        4,
+        5,
+        3,
+        2
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-12",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Ketika saya tidak memahami beban kerja yang diberikan maka saya akan ….",
+      "options": [
+        "Sok tahu",
+        "Berterus terang akan kemampuan saya.",
+        "Mencoba belajar sembari menjalankan.",
+        "Memperjelas pekerjaan yang diberikan.",
+        "Meminta waktu revisi apabila dibutuhkan."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah jejaring kerja. Sebagai seorang anggota pada aspek jejaring kerja maka Anda di tuntut untuk selalu bisa berterus terang terhadap kemampuan yang dimiliki sehingga bisa ditemukan solusi dari permasalahan Anda. Opsi B paling tepat. A. Sok tahu. (Skor 1) B. Berterus terang akan kemampuan saya. (Skor 5) C. Mencoba belajar sembari menjalankan. (Skor 3) D. Memperjelas pekerjaan yang diberikan. (Skor 4) E. Meminta waktu revisi apabila dibutuhkan. (Skor 2)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        1,
+        5,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-13",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya mengetahui bahwa salah satu rekan kerja saya memiliki kelemahan di dalam suatu bidang pekerjaan maka sikap saya adalah?",
+      "options": [
+        "Saya akan membantunya hingga bisa.",
+        "Saya membiarkannya bekerja seorang diri.",
+        "Saya memintanya untuk belajar dari senior lain.",
+        "Saya memberikan motivasi saja.",
+        "Saya berpura-pura sibuk dan tidak bisa mengajari."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah jejaring kerja. Pada aspek tersebut Anda diminta untuk memiliki kemampuan dalam menunjukkan kepekaan terhadap kondisi orang lain serta memahami kelemahan dan menunjukkan sikap peduli. Jawaban paling tepat A. A. Saya akan membantunya hingga bisa.(Skor 5) B. Saya membiarkannya bekerja seorang diri. (Skor 2) C. Saya memintanya untuk belajar dari senior lain. (Skor 3) D. Saya memberikan motivasi saja. (Skor 4) E. Saya berpura-pura sibuk dan tidak bisa mengajari. (Skor 1)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        1,
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-14",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya ke kantor menggunakan sepeda motor. Ketika di perjalanan pulang saya melihat rekan kerja saya hanya berjalan kaki. Bagaimanakah sikap saya?",
+      "options": [
+        "Saya menghampiri rekan saya dan menawarkan tumpangan.",
+        "Saya hanya menanyakan di mana rumahnya saja.",
+        "Saya melambaikan tangan ke arah rekan kerja saya tersebut.",
+        "Saya meminta rekan kerja lainnya untuk membantu teman saya tersebut.",
+        "Saya hanya mengucapkan selamat tinggal dan berhati hati."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Sosial budaya erat kaitannya dengan sikap empati kepada sesama rekan kerja. Menawarkan pulang kepada rekan kerja akan membuat kita tampak peduli dan akan membangun keakraban. A. Saya menghampiri rekan saya dan menawarkan tumpangan. (Skor 5) B. Saya hanya menanyakan di mana rumahnya saja. (Skor 1) C. Saya melambaikan tangan ke arah rekan kerja saya tersebut. (Skor 2) D. Saya meminta rekan kerja lainnya untuk membantu teman saya tersebut. (Skor 4) E. Saya hanya mengucapkan selamat tinggal dan berhati hati. (Skor 3)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        1,
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-15",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Untuk menciptakan lingkungan yang kondusif maka harus dimulai dari diri saya sendiri. Apakah yang harus saya lakukan untuk mewujudkan hal tersebut.",
+      "options": [
+        "Berpikir positif",
+        "Merasa insecure.",
+        "Hanya fokus bekerja saja.",
+        "Menyapa orang lain dengan ramah.",
+        "Percaya dengan takdir saja."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Selalu bersikap dan berpikir positif akan menarik hal-hal positif yang baik akan datang juga termasuk di lingkungan kerja. A. Berpikir positif (skor 5) B. Merasa insecure. (skor 1) C. Hanya fokus bekerja saja. (skor 4) D. Menyapa orang lain dengan ramah. (skor 3) E. Percaya dengan takdir saja. (skor 2)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        1,
+        2,
+        4,
+        3
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-16",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Nenek saya buta huruf. Suatu ketika saya dipanggil untuk membacakan sebuah surat kabar karena dia ingin mendengarkan berita tersebut. Pada waktu yang bersamaan saya juga sedang belajar. Bagaimanakah sikap saya seharusnya?",
+      "options": [
+        "Saya akan menghampiri nenek dan membantunya.",
+        "Saya pura-pura tidak mendengar.",
+        "Saya meminta kepada nenek untuk menunggu.",
+        "Saya membantu nenek dulu baru belajar.",
+        "Saya belajar dulu baru membantunya."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Menghargai orang yang lebih tua merupakan kewajiban kita sebagai anak, tetap berperilaku baik dan berakhlak mulia merupakan contoh dari sosial budaya yang harus selalu di pertahankan. A. Saya akan menghampiri nenek dan membantunya.(Skor 5) B. Saya pura-pura tidak mendengar. (Skor 1) C. Saya meminta kepada nenek untuk menunggu. (Skor 2) D. Saya membantu nenek dulu baru belajar. (Skor 4) E. Saya belajar dulu baru membantunya. (Skor 3)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        1,
+        2,
+        4,
+        3
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-17",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan karyawan baru di sebuah perusahaan. Rekan kerja saya mengajak untuk makan siang namun saya merupakan sosok pemalu. Bagaimanakah sikap saya seharusnya?",
+      "options": [
+        "Saya akan menolak ajakan rekan kerja saya.",
+        "Mencari alasan agar tidak ikut bersama rekan kerja",
+        "Saya akan berusaha untuk ikut bergabung",
+        "Saya akan beralasan bahwa saya tidak lapar",
+        "Saya akan menyusul rekan kerja saya."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Soal di atas akan menilai kemampuan Anda dalam membiasakan diri dengan orang yang baru di lingkungan kerja. Opsi C adalah yang paling tepat. A. Saya akan menolak ajakan rekan kerja saya. (Skor 1) B. Mencari alasan agar tidak ikut bersama rekan kerja. (Skor 2) C. Saya akan berusaha untuk ikut bergabung (Skor 5) D. Saya akan beralasan bahwa saya tidak lapar. (Skor 3) E. Saya akan menyusul rekan kerja saya. (Skor 4)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        2,
+        3,
+        5,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-18",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Lingkungan kerja saya terkenal keras dan membutuhkan ekstra time ketika bekerja. Hal ini bertolak belakang dengan kepribadian saya. Maka sikap saya adalah ….",
+      "options": [
+        "Menerima perubahan lingkungan kerja yang saya miliki.",
+        "Tetap berpegang teguh pada budaya kerja lama.",
+        "Berusaha menyesuaikan diri di lingkungan kerja yang baru.",
+        "Meminta kepada atasan untuk menyesuaikan beban kerja yang diberikan dengan kepribadian saya.",
+        "Percaya bahwa waktu akan membuat saya terbiasa."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Aspek ini juga mengukur bagaimana Anda berusaha untuk menyesuaikan diri di tempat atau lingkungan kerja yang baru. Opsi C adalah yang paling tepat. A. Menerima perubahan lingkungan kerja yang saya miliki. (Skor 4) B. Tetap berpegang teguh pada budaya kerja lama. (Skor 3) C. Berusaha menyesuaikan diri di lingkungan kerja yang baru.(Skor 5) D. Meminta kepada atasan untuk menyesuaikan beban kerja yang diberikan dengan kepribadian saya. (Skor 2) E. Percaya bahwa waktu akan membuat saya terbiasa. (Skor 1)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        3,
+        1,
+        5,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-19",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Suatu ketika saya berusaha menyampaikan pendapat saya kepada forum diskusi, untuk permasalahan yang urgent dan harus segera di selesaikan. Namun pendapat saya tidak terlalu di hiraukan. Bagaimana sikap saya seharusnya?",
+      "options": [
+        "Melakukan interupsi dan klarifikasi terkait pendapat saya.",
+        "Menerima jalannya diskusi.",
+        "Merasa kecewa.",
+        "Saya akan langsung keluar dari forum diskusi.",
+        "Meminta konfirmasi alasan penolakan pendapat saya."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Aspek tersebut akan menilai bagaimana sikap Anda ketika berdiskusi dengan rekan kerja dan kebijaksanaan Anda ketika menerima penolakan atas pendapat yang Anda ajukan. A. Melakukan interupsi dan klarifikasi terkait pendapat saya. (Skor 5) B. Menerima jalannya diskusi. (Skor 3) C. Merasa kecewa. (Skor 2) D. Saya akan langsung keluar dari forum diskusi. (Skor 1) E. Meminta konfirmasi alasan penolakan pendapat saya. (Skor 4)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        4,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-20",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan pimpinan di sebuah perusahaan, beberapa waktu yang lalu banyak karyawan yang mengeluhkan jam kerja yang bertepatan dengan waktu salat. Bagaimanakah sikap saya seharusnya?",
+      "options": [
+        "Saya akan membuat kebijakan untuk jam istirahat sebelum memasuki azan.",
+        "Saya hanya mendengarkan tanpa merealisasikan.",
+        "Saya tidak memedulikan karena dapat mengganggu mekanisme kerja.",
+        "Saya hanya memberikan waktu yang untuk istirahat sekaligus salat.",
+        "Saya menyarankan untuk salat secara bergantian saja."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Sebagai seorang pimpinan sangat penting untuk berusaha merealisasikan aspirasi dari karyawan apabila membutuhkan solusi dari permasalahan yang dihadapi A. Saya akan membuat kebijakan untuk jam istirahat sebelum memasuki azan.(Skor 5) B. Saya hanya mendengarkan tanpa merealisasikan. (Skor 2) C. Saya tidak memedulikan karena dapat mengganggu mekanisme kerja. (Skor 1) D. Saya hanya memberikan waktu yang untuk istirahat sekaligus salat. (Skor 3) E. Saya menyarankan untuk salat secara bergantian saja. (Skor 4)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        2,
+        1,
+        4,
+        3
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-21",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Suatu ketika saya melihat karyawan senior melakukan aksi senioritas kepada karyawan junior. Padahal sudah ada himbauan untuk tidak melakukan aksi tersebut. Sebagai sesama karyawan senior maka bagaimanakah sikap saya seharusnya.?",
+      "options": [
+        "Saya akan menegur rekan saya tersebut.",
+        "Mengingatkan himbauan dari pimpinan.",
+        "Melapor kepada pimpinan.",
+        "Bergabung dengan rekan saya agar mendapat keuntungan.",
+        "Tidak berbuat apa apa."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Aksi senioritas merupakan hal yang lumrah di dalam perkantoran. Namun apabila aksi senioritas melanggar etika dan moral maka harus segera dihentikan. Sebagai sesama rekan kerja maka sudah sepantasnya untuk mengingatkan rekan kerja untuk berhenti melakukan hal tersebut. A. Saya akan menegur rekan saya tersebut. (Skor 3) B. Mengingatkan himbauan dari pimpinan. (Skor 5) C. Melapor kepada pimpinan. (Skor 4) D. Bergabung dengan rekan saya agar mendapat keuntungan. (Skor 2) E. Tidak berbuat apa-apa. (Skor 1)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        3,
+        5,
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-22",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Rafi merupakan karyawan baru di RS, suatu ketika senior mengajarinya untuk menggunakan aplikasi system input data namun Rafi merupakan orang yang pelupa sehingga sangat sulit untuk mengingat apa yang telah di ajarkannya. Bagaimanakah sikap Rafi seharusnya?",
+      "options": [
+        "Mencatat informasi yang diberikan oleh senior.",
+        "Hanya mendengarkan saja.",
+        "Kembali bertanya ketika sewaktu-waktu lupa.",
+        "Meminta kepada senior untuk saling berganti-ganti mengajari.",
+        "Membuat sebuah buku catatan kecil untuk menyimpan informasi detail menggunakan penggunaan aplikasi system input data tersebut."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah teknologi informasi dan komunikasi. Soal di atas akan menilai bagaimana Anda bisa beradaptasi dengan teknologi yang akan di hadapi ke depannya oleh karena itu diperlukan sebuah cara yang efektif. Opsi E paling tepat. A. Mencatat informasi yang diberikan oleh senior.(Skor 4) B. Hanya mendengarkan saja .(Skor 1) C. Kembali bertanya ketika sewaktu-waktu lupa.(Skor 3) D. Meminta kepada senior untuk saling berganti-ganti mengajari. .(Skor 2) E. Membuat sebuah buku catatan kecil untuk menyimpan informasi detail menggunakan penggunaan aplikasi system input data tersebut.(Skor 5)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        3,
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-23",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Andina merupakan seorang mahasiswa yang sederhana, suatu ketika dia melihat teman- temannya menggunakan handphone dengan merek keluaran terbaru. Andina mengetahui bahwa teman-temannya banyak meminjam uang dari platform online. Bagaimanakah sikap Andina?",
+      "options": [
+        "Mengikuti langkah teman lainnya yang meminjam uang di platform online.",
+        "Meminta kepada teman lainnya untuk mengajari cara penggunaan platform tersebut.",
+        "Bersikap bijak dengan tidak terpengaruh untuk menggunakan platform online tersebut sesuai dengan kebutuhan.",
+        "Mencari informasi di internet terkait manfaat dan dampak negatif dari penggunaan platform tersebut.",
+        "Mengingatkan untuk tidak tergoda secara berlebihan dalam penggunaan platform tersebut."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah teknologi informasi dan komunikasi. Teknologi memiliki dampak negatif dan dampak positif oleh karena itu dibutuhkan kebijaksanaan dalam penggunaannya sesuai dengan kebutuhan. Opsi C paling tepat. A. Mengikuti langkah teman lainnya yang meminjam uang di platform online.(Skor 1) B. Meminta kepada teman lainnya untuk mengajari cara penggunaan platform tersebut.(Skor 2) C. Bersikap bijak dengan tidak terpengaruh untuk menggunakan platform online tersebut sesuai dengan kebutuhan.(Skor 5) D. Mencari informasi di internet terkait manfaat dan dampak negatif dari penggunaan platform tersebut.(Skor 4) E. Mengingatkan untuk tidak tergoda secara berlebihan dalam penggunaan platform tersebut.(Skor 3)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        2,
+        3,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-24",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "di lingkungan tempat saya kerja orang- orang mengenal saya sebagai pengguna teknologi yang ….",
+      "options": [
+        "Bisa beradaptasi dengan baik terhadap teknologi.",
+        "Sulit memahami penggunaan teknologi.",
+        "Cenderung memanfaatkan metode manual ketika bekerja.",
+        "Mau belajar dan bertanya.",
+        "Mempelajari teknologi secara otodidak."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah teknologi informasi dan komunikasi. Sebagai seorang karyawan, sangat dibutuhkan untuk bisa beradaptasi dengan cepat karena teknologi yang ada selalu berubah-ubah. Opsi A paling tepat. A. Bisa beradaptasi dengan baik terhadap teknologi.(Skor 5) B. Sulit memahami penggunaan teknologi. .(Skor 2) C. Cenderung memanfaatkan metode manual ketika bekerja.(Skor 1) D. Mau belajar dan bertanya. .(Skor 4) E. Mempelajari teknologi secara otodidak. .(Skor 3)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        2,
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-25",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya memiliki bakat dalam bahasa inggris dan suka dalam bidang mengajar, namun saya merupakan karyawan swasta yang tidak memiliki waktu untuk mengajar secara langsung karena keterbatasan ruang dan waktu. Bagaimanakah sikap saya?",
+      "options": [
+        "Memanfaatkan waktu libur untuk membuat kursus bahasa inggris offline.",
+        "Berpikir panjang mengenai cara membagi waktu.",
+        "Mengubur impian saya tersebut.",
+        "Berhenti bekerja dan fokus mengembangkan bakat saya.",
+        "Memanfaatkan waktu luang untuk membuat kursus online."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah teknologi informasi dan komunikasi. Soal di atas akan menilai bagaimana Anda bisa memanfaatkan teknologi dari aspek pendidikan dan kerjaan Anda. Opsi E paling tepat. A. Memanfaatkan waktu libur untuk membuat kursus bahasa inggris offline. (Skor 4) B. Berpikir panjang mengenai cara membagi waktu. (Skor 3) C. Mengubur impian saya tersebut. (Skor 1) D. Berhenti bekerja dan fokus mengembangkan bakat saya. (Skor 2) E. Memanfaatkan waktu luang untuk membuat kursus online. (Skor 5)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        4,
+        2,
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-26",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Perusahaan saya mengalihkan pekerjaan saya yang awalnya seorang customer service di kantor menjadi customer service online hal tersebut dikarenakan situasi pandemi padahal saya tidak berpengalaman sama sekali. Bagaimanakah sikap saya?",
+      "options": [
+        "Berusaha menyesuaikan diri dan belajar mengenai teknologi",
+        "Meminta pertimbangan atasan agar posisi saya tidak di alihkan ke online.",
+        "Memilih untuk memberikan pelayanan secara langsung.",
+        "Meminta kepada teman untuk mengajari cara penggunaan teknologi.",
+        "Menerima keputusan atasan begitu saja."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah teknologi informasi dan komunikasi. Pada soal di atas akan menilai bagaimana Anda bisa menyesuaikan diri terhadap penggunaan teknologi ketika di dunia kerja. Opsi A paling benar. A. Berusaha menyesuaikan diri dan belajar mengenai teknologi (Skor 5) B. Meminta pertimbangan atasan agar posisi saya tidak di alihkan ke online.(skor 2) C. Memilih untuk memberikan pelayanan secara langsung.(Skor 1) D. Meminta kepada teman untuk mengajari cara penggunaan teknologi. (Skor 4) E. Menerima keputusan atasan begitu saja. (Skor 3)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        1,
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-27",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan seorang freelancer yang terbiasa menangani pekerjaan yang berhubungan dengan teknologi. Suatu ketika saya mendapati tawaran untuk meretas akun dari seorang youtuber. Saya diberikan penawaran tersebut dengan imbalan yang tinggi. Bagaimanakah sikap saya?",
+      "options": [
+        "Bertanya lebih detail mengenai deskripsi pekerjaan tersebut.",
+        "Tidak menerima tawaran tersebut karena takut.",
+        "Menolak dengan baik, serta menyampaikan etika dalam menggunakan teknologi.",
+        "Melaporkan orang tersebut kepada pihak youtuber.",
+        "Menasihati agar tidak berbuat jahat."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah teknologi informasi dan komunikasi. Dampak negatif dari teknologi adalah adanya penyalahgunaan teknologi yang dapat merugikan beberapa pihak. Oleh karena itu, pentingnya memahami etika dalam menggunakan teknologi. Opsi C adalah jawaban yang paling tepat. A. Bertanya lebih detail mengenai deskripsi pekerjaan tersebut untuk memastikan. (Skor 4) B. Tidak menerima tawaran tersebut karena takut. (Skor 2) C. Menolak dengan baik, serta menyampaikan etika dalam menggunakan teknologi. (Skor 5) D. Merasa tertarik dengan imbalan yang besar. (Skor 1) E. Menasihati agar tidak berbuat jahat. (Skor 3)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        3,
+        2,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-28",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Anda merupakan karyawan magang yang baru saja bergabung di sebuah perusahaan. Suatu hari rekan kerja yang pandai dalam bidang IT dan selalu membantu Anda tidak masuk kerja, di saat yang bersamaan juga terdapat error dalam sistem aplikasi yang digunakan. Bagaimanakah sikap Anda?",
+      "options": [
+        "Menelepon rekan kerja saya dan mendiskusikan masalah yang saya hadapi.",
+        "Saya hanya diam saja hingga sistem kembali normal bekerja lagi.",
+        "Saya berusaha memperbaikinya seorang diri.",
+        "Saya berfokus untuk mengerjakan tugas lain sembari menunggu aplikasi sistem kembali bekerja normal.",
+        "Saya meminta teman lainnya untuk membantu saya."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah teknologi informasi dan komunikasi. Soal di atas akan menilai bagaimana Anda dalam menyelesaikan permasalahan yang ditemukan dan menjadikan komunikasi sebagai solusinya. Opsi A paling tepat. A. Menelepon rekan kerja saya dan mendiskusikan masalah yang saya hadapi. (skor 5) B. Saya hanya diam saja hingga sistem kembali normal bekerja lagi. (skor 1) C. Saya berusaha memperbaikinya seorang diri.(Skor 4) D. Saya berfokus untuk mengerjakan tugas lain sembari menunggu aplikasi sistem kembali bekerja normal.(skor 3) E. Saya meminta teman lainnya untuk membantu saya. (skor 2)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-29",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Ketika mengetahui bahwa teman saya ada yang kecanduan bermain game hingga lupa menyelesaikan tugas sekolahnya maka sikap saya adalah ….",
+      "options": [
+        "Menasihatinya agar tidak berlebihan dalam penggunaan game.",
+        "Mengabaikannya dan saya berfokus pada sekolah",
+        "Berdiskusi dengan orang tuanya untuk menemukan solusi.",
+        "Mengikuti jejaknya dengan bermain game.",
+        "Mencari informasi terkait game yang sudah dimainkannya."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah teknologi informasi dan komunikasi. Anda akan dinilai terkait cara Anda dalam menghadapi situasi seperti di atas bagaimana Anda dalam menghentikan dampak negatif penggunaan teknologi secara berlebihan. Opsi A paling tepat. A. Menasihatinya agar tidak berlebihan dalam penggunaan game.(Skor 5) B. Mengabaikannya dan saya berfokus pada sekolah. .(Skor 2) C. Berdiskusi dengan orang tuanya untuk menemukan solusi. .(Skor 4) D. Mengikuti jejaknya dengan bermain game .(Skor 1) E. Mencari informasi terkait game yang sudah dimainkannya. .(Skor 3)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        1,
+        4,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-30",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan seorang kepala laboratorium. Suatu ketika lebaran hari raya akan tiba, beberapa karyawan mengajukan cuti lebaran. Saya akan memberikan satu kesempatan kepada karyawan saya untuk bisa cuti. Berdasarkan budaya perizinan, maka karyawan yang sudah lama bekerja akan mendapatkan cuti lebih dahulu, setelah saya memeriksa karyawan yang mengajukan cuti ternyata salah satu kerabat saya ada yang baru 1 bulan bekerja, ada di dalam daftar tersebut. Bagaimanakah sikap saya?",
+      "options": [
+        "Saya mengizinkan kerabat saya untuk mendapatkan izin cuti.",
+        "Memberikan izin cuti kepada karyawan yang sudah mengabdi lama sesuai dengan standar operasional prosedur yang sudah berlaku.",
+        "Mengubah budaya kerja dengan memberikan cara lain untuk seleksi karyawan agar bisa cuti.",
+        "Menambah kuota karyawan yang bisa cuti agar kerabat saya bisa cuti juga.",
+        "Saya tidak memberikan kuota cuti untuk lebaran karena tuntutan kerja yang masih banyak."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Soal di atas akan menilai bagaimana Anda bersikap profesional sebagai seorang atasan, menguji integritas dan bersikap bijak terhadap situasi dan kondisi yang dihadapi. A. Saya mengizinkan kerabat saya untuk mendapatkan izin cuti. (Skor 2) B. Memberikan izin cuti kepada karyawan yang sudah mengabdi lama sesuai dengan standar operasional prosedur yang sudah berlaku. (Skor 5) C. Mengubah budaya kerja dengan memberikan cara lain untuk seleksi karyawan agar bisa cuti. (Skor 4) D. Menambah kuota karyawan yang bisa cuti agar kerabat saya bisa cuti juga. (Skor 3 ) E. Saya tidak memberikan kuota cuti untuk lebaran karena tuntutan kerja yang masih banyak. (Skor 1)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        2,
+        5,
+        4,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-31",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan seorang staf administrasi di sebuah puskesmas, suatu ketika rekan saya memberitahu bahwa terdapat lowongan kerja yang lebih menjanjikan, dari segi gaji tempat saya saat ini terbilang hanya cukup untuk kebutuhan utama saya. Tiba-tiba saya teringat bahwa saya telah berjanji akan berusaha untuk loyal dalam bekerja ketika di terima di puskesmas. Bagaimanakah sikap saya seharusnya.",
+      "options": [
+        "Mengambil tawaran tersebut untuk pekerjaan yang lebih baik.",
+        "Mempertahankan pekerjaan saya yang sekarang sesuai dengan janji saya.",
+        "Saya meminta solusi dari atasan tempat saya bekerja sekarang.",
+        "Saya akan mengikuti seleksi di tempat lain secara sembunyi-sembunyi.",
+        "Langsung memberikan surat resign tempat saya bekerja sekarang."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Soal di atas akan menilai bagaimana Anda bersikap profesional sebagai seorang karyawan yang bekerja dengan integritas yang dimiliki. Seseorang yang berintegritas memiliki ucapan dan tindakan yang sejalan. A. Mengambil tawaran tersebut untuk pekerjaan yang lebih baik. (Skor 2) B. Mempertahankan pekerjaan saya yang sekarang sesuai dengan janji saya. (Skor 5) C. Saya meminta solusi dari atasan tempat saya bekerja sekarang. (Skor 4) D. Saya akan mengikuti seleksi di tempat lain secara sembunyi-sembunyi. (Skor3) E. Langsung memberikan surat resign tempat saya bekerja sekarang. (Skor 1)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        1,
+        5,
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-32",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Ketika saya membuat kesalahan di tempat saya bekerja, maka saya akan ….",
+      "options": [
+        "Belajar dari kesalahan tersebut",
+        "Menyalahkan diri sendiri.",
+        "Memotivasi diri agar menjadi lebih baik.",
+        "Bersedih.",
+        "Belajar dari kesalahan dan memotivasi diri agar menjadi lebih baik."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Soal di atas akan menilai bagaimana Anda bersikap profesional sebagai seorang karyawan yang bekerja dengan integritas yang dimiliki. Menyadari bahwa pekerjaan tidak selamanya mudah dan akan banyak rintangan untuk dihadapi. A. Belajar dari kesalahan tersebut. (Skor 4) B. Menyalahkan diri sendiri. (Skor 1) C. Memotivasi diri agar menjadi lebih baik. (Skor 3) D. Bersedih. (Skor 2) E. Belajar dari kesalahan dan memotivasi diri agar menjadi lebih baik. (Skor 5)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        3,
+        2,
+        4,
+        1,
+        5
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-33",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan seorang rektor di universitas A. Suatu ketika kerabat lama menelepon dan menitipkan anaknya agar diterima di Universitas tanpa melalui tes. Berdasarkan SOP yang telah ditetapkan semua mahasiswa harus melalui tahapan tes sebelum di terima. Bagaimanakah sikap saya seharusnya?",
+      "options": [
+        "Saya memberitahu kerabat saya untuk mematuhi SOP penerimaan mahasiswa.",
+        "Saya menolak keinginan dari kerabat saya tersebut dengan tegas dan mengarahkan untuk mengikuti seleksi penerimaan saja.",
+        "Menerima permintaan kerabat saya untuk menjaga hubungan kami.",
+        "Meminta sejumlah imbalan untuk memudahkan transaksi.",
+        "Saya langsung mematikan telepon karena mengancam integritas saya."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Soal di atas akan menilai bagaimana Anda bersikap profesional sebagai seorang rektor yang bekerja dengan integritas yang dimiliki. Seorang pemimpin yang berintegritas dibuktikan dengan ucapan dan tindakan yang sejalan. A. Saya memberitahu kerabat saya untuk mematuhi SOP penerimaan mahasiswa. (Skor 4) B. Saya menolak keinginan dari kerabat saya tersebut dengan tegas dan mengarahkan untuk mengikuti seleksi penerimaan saja. (Skor 5) C. Menerima permintaan kerabat saya untuk menjaga hubungan kami. (Skor 2) D. Meminta sejumlah imbalan untuk memudahkan transaksi. (Skor 1) E. Saya langsung mematikan telepon karena mengancam integritas saya. (Skor 3)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        4,
+        5,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-34",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan seorang guru, suatu ketika murid saya tidak lulus untuk kenaikan kelas. Beberapa hari kemudian, orang tua siswa tersebut datang menemui saya dan memberikan sejumlah uang sebagai imbalan meluluskan anak mereka. Bagaimana sikap saya?",
+      "options": [
+        "Merasa terhina dengan tindakan orang tua tersebut.",
+        "Saya marah karena harga diri saya dijatuhkan.",
+        "Saya menolak keinginan orang tua siswa tersebut dan menjelaskan bahwa saya tidak akan menerima uang tersebut karena menyalahi aturan.",
+        "Saya melaporkan kejadian ini kepada kepala sekolah.",
+        "Saya memberikan nasihat kepada orang tua siswa untuk tidak melakukan hal tersebut dan fokus pada anak mereka."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Soal di atas akan menilai bagaimana Anda bersikap profesional sebagai seorang guru yang memiliki integritas yang tinggi, tidak mudah tergiur oleh harta dan berusaha untuk memegang prinsip kejujuran. A. Merasa terhina dengan tindakan orang tua tersebut. (Skor 3) B. Saya menerima penawaran tersebut karena saya juga masih butuh. (Skor 1) C. Saya menolak keinginan orang tua siswa tersebut dan menjelaskan bahwa saya tidak akan menerima uang tersebut karena menyalahi aturan. (Skor 5) D. Saya melaporkan kejadian ini kepada kepala sekolah. (Skor 4) E. Saya memberikan nasihat kepada orang tua siswa untuk tidak melakukan hal tersebut dan fokus pada anak mereka. (Skor 2)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        3,
+        1,
+        5,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-35",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Senior meminta saya untuk melakukan sesuatu hal yang sebenarnya tidak saya ketahui cara penyelesaiannya, tapi dia melihat saya sebagai sosok yang serba bisa. Bagaimanakah sikap saya?",
+      "options": [
+        "Saya akan berkata jujur bahwa saya tidak mengetahui cara penyelesaiannya.",
+        "Saya akan meminta instruksi terkait cara penyelesaiannya dan berusaha untuk belajar.",
+        "Saya meminta kepada senior untuk memilih rekan lainnya yang jauh lebih mengerti.",
+        "Saya tetap bersikap sok tahu dan mengambil alih pekerjaan.",
+        "Saya memaksakan diri untuk bisa tanpa memperhatikan hasil akhirnya."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Soal di atas akan menilai bagaimana Anda bersikap profesional sebagai seorang rekan kerja yang memiliki integritas yang tinggi, hal ini dibuktikan dengan bagaimana Anda selalu berusaha untuk bekerja keras. A. Saya akan berkata jujur bahwa saya tidak mengetahui cara penyelesaiannya. (Skor 4) B. Saya akan meminta instruksi terkait cara penyelesaiannya dan berusaha untuk belajar. (Skor 5) C. Saya meminta kepada senior untuk memilih rekan lainnya yang jauh lebih mengerti. (Skor 3) D. Saya tetap bersikap sok tahu dan mengambil alih pekerjaan. (Skor 1) E. Saya memaksakan diri untuk bisa tanpa memperhatikan hasil akhirnya. (Skor 2)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        1,
+        5,
+        4,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-36",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Jarak rumah dan kantor saya sangat jauh, saya menyadari bahwa hal ini bisa menyebabkan saya terlambat untuk datang ke kantor. Bagaimanakah sikap saya seharusnya?",
+      "options": [
+        "Memilih untuk tinggal di kos dekat kantor.",
+        "Berusaha untuk mengatur waktu sebaik mungkin ketika akan datang bekerja.",
+        "Meminta kepada atasan untuk memberikan kompensasi waktu ketika saya terlambat.",
+        "Mencari kantor yang dekat dari rumah saya.",
+        "Ketika terlambat maka saya akan meminta maaf saja."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Soal di atas akan menilai bagaimana Anda bersikap profesional sebagai seorang karyawan, berusaha untuk bisa mengatur waktu sebaik mungkin agar Anda tidak terlambat. A. Memilih untuk tinggal di kos dekat kantor. (Skor 4) B. Berusaha untuk mengatur waktu sebaik mungkin ketika akan datang bekerja. (Skor 5) C. Meminta kepada atasan untuk memberikan kompensasi waktu ketika saya terlambat. (Skor 2) D. Mencari kantor yang dekat dari rumah saya. (Skor 1) E. Ketika terlambat maka saya akan meminta maaf saja. (Skor 3)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        2,
+        5,
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-37",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Ketika saya diberitahukan bahwa saya memiliki tugas berlebih dan akan lembur kerja oleh atasan maka saya akan ….",
+      "options": [
+        "Menerima tugas tersebut sepenuh hati",
+        "Menolak karena alasan ingin istirahat",
+        "Bernegosiasi untuk dikerjakan di rumah",
+        "Bernegosiasi dilanjutkan pada esok hari.",
+        "Menanyakan manfaat lembur untuk saya pribadi."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Soal di atas akan menilai bagaimana Anda bersikap profesional sebagai seorang karyawan, selalu berusaha memberikan yang terbaik bagi perusahaan atau memberikan dengan dedikasi yang tinggi. A. Menerima tugas tersebut sepenuh hati. (Skor 5) B. Menolak karena alasan ingin istirahat. (Skor 1) C. Bernegosiasi untuk dikerjakan di rumah. (Skor 4) D. Bernegosiasi dilanjutkan pada esok hari. (Skor 3) E. Menanyakan manfaat lembur untuk saya pribadi. (Skor 2)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-38",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Suatu ketika teman memberikan masukan kepada saya terkait kinerja yang memang beberapa bulan terakhir ini menurun. Bagaimanakah sikap saya seharusnya?",
+      "options": [
+        "Menerima masukan tersebut.",
+        "Merasa tersinggung dengan perkataannya.",
+        "Hanya mendengarkannya saja.",
+        "Mengucapkan terima kasih atas masukan yang diberikan.",
+        "Bersikap tidak menerima."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah anti radikalisme. Ketika berada pada situasi di atas maka, opsi yang paling tepat adalah D, karena menunjukkan respons terhadap masukan yang diberikan. A. Menerima masukan tersebut. (Skor 4) B. Merasa tersinggung dengan perkataannya. (Skor 2) C. Hanya mendengarkannya saja. (Skor 3) D. Mengucapkan terima kasih atas masukan yang diberikan. (Skor 5) E. Bersikap tidak menerima. (Skor 1)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        2,
+        4,
+        3,
+        5,
+        1
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-39",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Suatu ketika saya tidak sengaja mendengar perbincangan antara 2 orang yang berniat untuk melakukan pengrusakkan secara besar-besaran di pusat kota pada esok hari. Bagaimana sikap saya?",
+      "options": [
+        "Segera melaporkan hal tersebut kepada pihak berwajib.",
+        "Segera pergi dari tempat itu, karena takut.",
+        "Berpura-pura tidak mendengar.",
+        "Merekam percakapan tersebut dan menyerahkannya pada pihak kepolisian.",
+        "Berdiskusi dengan kedua orang tua, terkait apa yang saya dengar."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah anti radikalisme. Anda dituntut untuk memiliki keberanian dalam melaporkan aksi radikalisme yang akan terjadi ke depannya. Opsi A adalah yang paling tepat. A. Segera melaporkan hal tersebut kepada pihak berwajib. (Skor 5) B. Segera pergi dari tempat itu, karena takut. (Skor 2) C. Berpura-pura tidak mendengar. (Skor 1) D. Merekam percakapan tersebut dan menyerahkannya pada pihak kepolisian. (Skor 4) E. Berdiskusi dengan kedua orang tua, terkait apa yang saya dengar. (Skor 3)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        3,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-40",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Ketika sedang membuka sosial media , lalu menemui informasi mengenai skandal dari salah satu pihak pemerintahan yang banyak mengundang amarah netizen maka sikap saya adalah ….",
+      "options": [
+        "Berpartisipasi memberikan komentar negatif.",
+        "Tidak memedulikan berita tersebut dan mencari berita lain.",
+        "Membaca komentar-komentar netizen.",
+        "Berkomentar untuk mengingatkan agar tetap bijak dalam bersosial media.",
+        "Segera menutup sosial media."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah anti radikalisme. Salah satu bagian dari anti radikalisme adalah kemampuan dalam menyaring informasi yang di dapatkan, tidak langsung percaya begitu saja dan menggunakan sosial media dengan bijak. A. Berpartisipasi memberikan komentar negatif. (Skor 1) B. Tidak memedulikan berita tersebut dan mencari berita lain. (Skor 3) C. Membaca komentar-komentar netizen. (Skor 2) D. Berkomentar untuk mengingatkan agar tetap bijak dalam bersosial media. (Skor 5) E. Segera menutup sosial media. (Skor 4)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        3,
+        1,
+        2,
+        5,
+        4
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-41",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan seseorang yang aktif bersosial media. Suatu ketika marak berita terkait aksi terorisme. Bagaimanakah sikap saya seharusnya?",
+      "options": [
+        "Saya akan membuat konten bermanfaat untuk mencegah aksi terorisme.",
+        "Saya mencari banyak informasi terkait terorisme dan mencoba mendalami konteksnya.",
+        "Saya berusaha memperdalam pemahaman agama.",
+        "Saya berusaha melindungi keluarga saya.",
+        "Saya akan membantu pemerintah dalam menyebarkan informasi terkait bahaya radikalisme."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah anti radikalisme. Aspek tersebut meminta kita agar aktif mensosialisasikan berita terkait bahaya sifat radikalisme dan terorisme serta cara pencegahannya. Opsi A adalah yang paling benar. A. Saya akan membuat konten bermanfaat untuk mencegah aksi terorisme. (Skor 5) B. Saya mencari banyak informasi terkait terorisme dan mencoba mendalami konteksnya. (Skor 3) C. Saya berusaha memperdalam pemahaman agama. (Skor 2) D. Saya berusaha melindungi keluarga saya. (Skor 1) E. Saya akan membantu pemerintah dalam menyebarkan informasi terkait bahaya radikalisme. (Skor 4)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        5,
+        3,
+        2,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-42",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan seorang kepala kepegawaian di sebuah perusahaan. Suatu ketika akan dilakukan program pergi ke desa-desa yang merupakan kegiatan tahunan perusahaan. Berdasarkan SOP seluruh pegawai harus bisa berpartisipasi dan diwajibkan. Sebelum keberangkatan tiba-tiba salah satu karyawan mengundurkan diri karena alasan kesehatan. Bagaimanakah sikap saya?",
+      "options": [
+        "Saya tetap berpegang teguh pada SOP perusahaan untuk mewajibkan keberangkatan seluruh pegawai.",
+        "Saya memberikan pemakluman kepada karyawan saya tersebut untuk tidak bergabungkarena sedang sakit.",
+        "Saya mendiskusikan hal tersebut kepada para jajaran direksi sebelum memutuskan.",
+        "Memberikan pertimbangan kepada karyawan tersebut sebelum memutuskan.",
+        "Memberikan pekerjaan yang relevan kepada pegawai tersebut."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah anti radikalisme. Aspek di atas akan mengukur bagaimana sikap Anda sebagai pemimpin dalam menempatkan diri dan tidak memaksakan kehendak terhadap kepentingan perusahaan. A. Saya tetap berpegang teguh pada SOP perusahaan untuk mewajibkan keberangkatan seluruh pegawai. (Skor 1) B. Saya memberikan pemakluman kepada karyawan saya tersebut untuk tidak bergabung karena sedang sakit. (Skor 5) C. Saya mendiskusikan hal tersebut kepada para jajaran direksi sebelum memutuskan. (Skor 4) D. Memberikan pertimbangan kepada karyawan tersebut sebelum memutuskan. (Skor 2) E. Memberikan pekerjaan yang relevan kepada pegawai tersebut. (Skor 3)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        3,
+        5,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-43",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Saya merupakan staf rumah sakit yang baru, suatu ketika saya diamanahkan oleh atasan untuk mengambil shift malam atau jaga malam. Padahal saya merupakan orang yang penakut. Bagaimanakah sikap saya seharusnya?",
+      "options": [
+        "Meminta kepada atasan agar ada rekan kerja yang menemani saya.",
+        "Saya akan tetap berusaha mengambil shift tersebut .",
+        "Melakukan negosiasi agar saya mendapat shift siang atau shift pagi saja.",
+        "Saya meminta waktu untuk berpikir sebelum memutuskan.",
+        "Saya bertekad untuk memberanikan diri mengambil shift malam untuk melatih diri saya bisa terbiasa."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Sebagai seorang tenaga kesehatan yang baru bekerja, maka sangat penting untuk menunjukkan profesionalitas diri kepada atasan dengan berusaha untuk berani mengambil shift malam agar ke depannya Anda sudah terbiasa. Opsi E adalah yang paling tepat. A. Meminta kepada atasan agar ada rekan kerja yang menemani saya. (Skor 2) B. Saya akan tetap berusaha mengambil shift tersebut meskipun takut. (Skor 4) C. Melakukan negosiasi agar saya mendapat shift siang atau shift pagi saja. (Skor 1) D. Saya meminta waktu untuk berpikir sebelum memutuskan. (Skor 3) E. Saya bertekad untuk memberanikan diri mengambil shift malam untuk melatih diri saya bisa terbiasa. (Skor 5)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        3,
+        1,
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-44",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Shifa merupakan karyawan yang memiliki dedikasi yang tinggi. Suatu ketika atasan Shifa memberikan tugas tambahan dikarenakan salah satu rekan kerjanya tidak mengerjakan tugas tersebut dengan baik. Pada saat yang bersamaan, Shifa juga sudah memiliki janji dengan sahabatnya akan menghabiskan waktu bersama sepulang kantor. Bagaimanakah sikap Shifa terhadap atasannya?",
+      "options": [
+        "Menyampaikan penolakan karena Shifa sudah memiliki agenda lain juga.(Skor 1)",
+        "Mengikuti perintah atasan Shifa dengan hati yang tidak ikhlas ( Skor 3)",
+        "Shifa akan berusaha membuat pekerjaannya lebih efektif dengan membantu rekan kerjanya tersebut sembari mengarahkannya.( Skor 5)",
+        "Langsung menyelesaikan perintah atasan dan membatalkan perjanjian bersama teman.( Skor 2)",
+        "Segera menyelesaikan tugas tambahan tersebut lalu pergi bersama rekan kerja. (Skor 4)"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Berusaha memberikan semua yang terbaik bagi perusahaan dan menjaga kepercayaan atasan. Berusaha membantu kesulitan sesama rekan kerja dan meringankan beban kerja teman. Opsi yang paling tepat adalah C. A. Menyampaikan penolakan karena Shifa sudah memiliki agenda lain juga ( skor 1) B. Mengikuti perintah atasan Shifa dengan hati yang tidak ikhlas ( skor 3) C. Shifa akan berusaha membuat pekerjaannya lebih efektif dengan membantu rekan kerjanya tersebut sembari mengarahkannya.(skor 5) D. Langsung menyelesaikan perintah atasan dan membatalkan perjanjian bersama teman.(skor 2) E. Segera menyelesaikan tugas tambahan tersebut lalu pergi bersama rekan kerja.(Skor 4)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        2,
+        1,
+        5,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "gd-to8-tkp-45",
+      "subtest": "tkp",
+      "topic": "karakteristik pribadi",
+      "stem": "Ilmi merupakan karyawan baru di sebuah perusahaan. Ketika jam kerja selesai tiba-tiba karyawan lain menghampiri dan meminta tolong kepada Ilmi untuk menyusun file yang harus segera di serahkan kepada atasan. Bagaimanakah sikap Ilmi seharusnya?",
+      "options": [
+        "Berusaha untuk menolak karena hal itu bukan tanggung jawab utama Ilmi.",
+        "Menjelaskan kepada karyawan tersebut bahwa Ilmi memiliki urusan yang juga sangat penting pada saat itu.",
+        "Menyampaikan kepada karyawan tersebut bahwa Anda sedang tidak bisa.",
+        "Segera beranjak membantu karyawan tersebut dalam menyelesaikan masalahnya.",
+        "Menawarkan diri serta mencari tahu tindakan apa yang bisa Ilmi lakukan agar dapat membantu karyawan tersebut dan segera menyelesaikannya."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Aspek ini sangat penting karena sebagai makhluk sosial kita selalu membutuhkan bantuan orang lain dan sudah semestinya saling tolong menolong. A. Berusaha untuk menolak karena hal itu bukan tanggung jawab utama Ilmi (Skor 1) B. Menjelaskan kepada karyawan tersebut bahwa Ilmi memiliki urusan yang juga sangat penting pada saat itu.( Skor 2) C. Menyampaikan kepada karyawan tersebut bahwa sedang tidak bisa membantu (Skor 3) D. Segera beranjak membantu karyawan tersebut dalam menyelesaikan masalahnya.( Skor 4) E. Menawarkan diri serta mencari tahu tindakan apa yang bisa Ilmi lakukan agar dapat membantu karyawan tersebut dan segera menyelesaikannya.(Skor 5)",
+      "targetSec": 45,
+      "source": "Try Out SKD #8 (TKP)",
+      "weights": [
+        2,
+        3,
+        1,
+        4,
+        5
+      ]
+    }
+  ]
+}

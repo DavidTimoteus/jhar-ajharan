@@ -1,0 +1,4156 @@
+{
+  "id": "cpns-skd-2026-p7",
+  "name": "SKD CPNS 2026 · Paket 7 (TWK · TIU · TKP)",
+  "family": "cpns",
+  "version": 2,
+  "updatedAt": "2026-11-13T00:00:00.000Z",
+  "note": "Simulasi penuh 110 soal SKD CPNS 2026 (30 TWK, 35 TIU, 45 TKP bobot 1–5) sesuai KepmenPANRB No. 321 Tahun 2024.",
+  "source": "Kurasi Try Out SKD CPNS 2026 dengan pembobotan TKP 1–5 dan pembahasan lengkap.",
+  "config": {
+    "durationMin": 100,
+    "subtests": [
+      {
+        "id": "twk",
+        "name": "Tes Wawasan Kebangsaan",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 65
+      },
+      {
+        "id": "tiu",
+        "name": "Tes Intelegensi Umum",
+        "scheme": "binary",
+        "perCorrect": 5,
+        "passMin": 80
+      },
+      {
+        "id": "tkp",
+        "name": "Tes Karakteristik Pribadi",
+        "scheme": "weighted",
+        "passMin": 166
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "cpns26-p7-p7-twk-01",
+      "subtest": "twk",
+      "topic": "pilar negara",
+      "stem": "Yang dimaksud dengan nilai instrumental Pancasila adalah...",
+      "options": [
+        "Nilai dasar yang tidak dapat diubah",
+        "Penjabaran nilai dasar ke dalam peraturan perundang-undangan dan kebijakan",
+        "Nilai yang hidup dalam kebiasaan masyarakat",
+        "Nilai yang hanya berlaku bagi penyelenggara negara",
+        "Nilai yang bersumber dari budaya asing"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Petakan kasus ke nilai inti Sila: 1 (toleransi/iman), 2 (empati/kemanusiaan adil), 3 (persatuan/cinta produk RI), 4 (musyawarah), 5 (adil sosial)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan sikap yang hanya menolong secara individual (Sila 2) jika konteksnya keadilan hak publik/gotong royong (Sila 5)."
+        },
+        {
+          "lens": "logika",
+          "text": "Bedakan pengamalan Sila 2 (martabat manusia universal) vs Sila 3 (nasionalisme/NKRI) vs Sila 5 (keadilan ekonomi & hak bersama)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jebakan klasik: membedakan tanggal pidato Yamin (29 Mei), Soepomo (31 Mei), Sukarno (1 Juni), Piagam Jakarta (22 Juni), & pengesahan PPKI (18 Ags)."
+        }
+      ],
+      "explain": "Nilai Pancasila terbagi menjadi nilai dasar yang tetap, nilai instrumental berupa penjabaran ke dalam peraturan dan kebijakan, serta nilai praksis berupa pengamalan sehari-hari.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-02",
+      "subtest": "twk",
+      "topic": "pilar negara",
+      "stem": "Warga negara dan penduduk Indonesia dibedakan berdasarkan...",
+      "options": [
+        "Tempat tinggal saja",
+        "Status kewarganegaraan, di mana penduduk mencakup warga negara dan orang asing yang bertempat tinggal di Indonesia",
+        "Lama tinggal di Indonesia",
+        "Kepemilikan kartu identitas",
+        "Jenis pekerjaan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal pilar negara sebelum membandingkan kelima opsi. Petunjuk inti: Pasal 26 UUD 1945 menyatakan penduduk ialah warga negara Indonesia dan orang asing yang bertempat tinggal di Indonesia.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Pasal 26 UUD 1945 menyatakan penduduk ialah warga negara Indonesia dan orang asing yang bertempat tinggal di Indonesia. Warga negara memiliki hak dan kewajiban yang lebih luas dibanding penduduk asing.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-03",
+      "subtest": "twk",
+      "topic": "pilar negara",
+      "stem": "Kewenangan Presiden yang termasuk sebagai kepala negara adalah...",
+      "options": [
+        "Mengangkat dan memberhentikan menteri",
+        "Menyatakan perang, membuat perdamaian, dan perjanjian dengan negara lain atas persetujuan DPR",
+        "Menetapkan peraturan pemerintah",
+        "Menyusun rancangan anggaran negara",
+        "Memimpin rapat kabinet"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cocokkan kata kunci kewenangan lembaga negara pasca-Amandemen UUD 1945 (MPR tak lagi lembaga tertinggi; DPD mengurus otonomi daerah)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang mengaitkan fungsi Yudikatif (MA/MK/KY) dengan lembaga Eksekutif/Legislatif."
+        },
+        {
+          "lens": "logika",
+          "text": "Petakan Bab UUD 1945: Kekuasaan Presiden (Bab III), DPR (Bab VII), Pemda (Bab VI), HAM (Bab XA), Kekuasaan Kehakiman (Bab IX)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar wewenang MK (uji UU terhadap UUD, sengketa pemilu) dengan MA (uji peraturan di bawah UU, kasasi)."
+        }
+      ],
+      "explain": "Kewenangan sebagai kepala negara antara lain menyatakan perang, membuat perdamaian dan perjanjian internasional, memberi gelar dan tanda kehormatan, serta grasi dan amnesti. Kewenangan lain pada pilihan merupakan fungsi kepala pemerintahan.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-04",
+      "subtest": "twk",
+      "topic": "pilar negara",
+      "stem": "Prinsip negara hukum menghendaki bahwa...",
+      "options": [
+        "Pejabat negara berada di atas hukum",
+        "Semua orang, termasuk penyelenggara negara, tunduk pada hukum yang sama",
+        "Hukum hanya mengikat rakyat biasa",
+        "Hukum dapat diabaikan demi kepentingan umum",
+        "Peraturan cukup berupa kebiasaan yang berlaku"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal pilar negara sebelum membandingkan kelima opsi. Petunjuk inti: Inti negara hukum adalah persamaan kedudukan di hadapan hukum.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Inti negara hukum adalah persamaan kedudukan di hadapan hukum. Pasal 27 ayat (1) UUD 1945 menegaskan segala warga negara bersamaan kedudukannya di dalam hukum dan pemerintahan.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-05",
+      "subtest": "twk",
+      "topic": "pilar negara",
+      "stem": "Penerapan sila keempat Pancasila dalam pemilihan kepala desa paling tepat berupa...",
+      "options": [
+        "Penunjukan langsung oleh tokoh masyarakat",
+        "Pemilihan yang melibatkan seluruh warga dengan proses yang terbuka dan hasilnya diterima bersama",
+        "Pemilihan yang hanya diikuti kelompok tertentu",
+        "Penentuan berdasarkan garis keturunan",
+        "Pengangkatan oleh pemerintah kabupaten"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Petakan kasus ke nilai inti Sila: 1 (toleransi/iman), 2 (empati/kemanusiaan adil), 3 (persatuan/cinta produk RI), 4 (musyawarah), 5 (adil sosial). Petunjuk inti: Sila keempat menekankan kerakyatan yang dipimpin oleh hikmat kebijaksanaan.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan sikap yang hanya menolong secara individual (Sila 2) jika konteksnya keadilan hak publik/gotong royong (Sila 5)."
+        },
+        {
+          "lens": "logika",
+          "text": "Bedakan pengamalan Sila 2 (martabat manusia universal) vs Sila 3 (nasionalisme/NKRI) vs Sila 5 (keadilan ekonomi & hak bersama)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jebakan klasik: membedakan tanggal pidato Yamin (29 Mei), Soepomo (31 Mei), Sukarno (1 Juni), Piagam Jakarta (22 Juni), & pengesahan PPKI (18 Ags)."
+        }
+      ],
+      "explain": "Sila keempat menekankan kerakyatan yang dipimpin oleh hikmat kebijaksanaan. Proses yang terbuka, melibatkan seluruh warga, dan hasilnya diterima bersama adalah wujudnya di tingkat desa.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-06",
+      "subtest": "twk",
+      "topic": "pilar negara",
+      "stem": "Perekonomian nasional menurut Pasal 33 ayat (4) UUD 1945 diselenggarakan berdasar prinsip...",
+      "options": [
+        "Persaingan bebas tanpa batas",
+        "Demokrasi ekonomi dengan prinsip kebersamaan, efisiensi berkeadilan, berkelanjutan, dan berwawasan lingkungan",
+        "Pemusatan modal pada badan usaha milik negara",
+        "Pengendalian penuh oleh pemerintah pusat",
+        "Penyerahan seluruh sektor kepada swasta"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cocokkan kata kunci kewenangan lembaga negara pasca-Amandemen UUD 1945 (MPR tak lagi lembaga tertinggi; DPD mengurus otonomi daerah)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang mengaitkan fungsi Yudikatif (MA/MK/KY) dengan lembaga Eksekutif/Legislatif."
+        },
+        {
+          "lens": "logika",
+          "text": "Petakan Bab UUD 1945: Kekuasaan Presiden (Bab III), DPR (Bab VII), Pemda (Bab VI), HAM (Bab XA), Kekuasaan Kehakiman (Bab IX)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar wewenang MK (uji UU terhadap UUD, sengketa pemilu) dengan MA (uji peraturan di bawah UU, kasasi)."
+        }
+      ],
+      "explain": "Pasal 33 ayat (4) hasil amandemen menegaskan perekonomian nasional diselenggarakan berdasar atas demokrasi ekonomi dengan prinsip kebersamaan, efisiensi berkeadilan, berkelanjutan, berwawasan lingkungan, kemandirian, serta menjaga keseimbangan kemajuan dan kesatuan ekonomi nasional.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-07",
+      "subtest": "twk",
+      "topic": "pilar negara",
+      "stem": "Hak konstitusional warga negara yang tidak dapat dikurangi dalam keadaan apa pun antara lain...",
+      "options": [
+        "Hak memilih dalam pemilu",
+        "Hak untuk tidak disiksa dan hak untuk tidak dituntut atas dasar hukum yang berlaku surut",
+        "Hak berkumpul di tempat umum",
+        "Hak menyampaikan pendapat di muka umum",
+        "Hak memperoleh subsidi"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cocokkan kata kunci kewenangan lembaga negara pasca-Amandemen UUD 1945 (MPR tak lagi lembaga tertinggi; DPD mengurus otonomi daerah)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi yang mengaitkan fungsi Yudikatif (MA/MK/KY) dengan lembaga Eksekutif/Legislatif."
+        },
+        {
+          "lens": "logika",
+          "text": "Petakan Bab UUD 1945: Kekuasaan Presiden (Bab III), DPR (Bab VII), Pemda (Bab VI), HAM (Bab XA), Kekuasaan Kehakiman (Bab IX)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan tertukar wewenang MK (uji UU terhadap UUD, sengketa pemilu) dengan MA (uji peraturan di bawah UU, kasasi)."
+        }
+      ],
+      "explain": "Pasal 28I ayat (1) UUD 1945 menyebut sejumlah hak yang tidak dapat dikurangi dalam keadaan apa pun, termasuk hak untuk hidup, hak untuk tidak disiksa, dan hak untuk tidak dituntut atas dasar hukum yang berlaku surut.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-08",
+      "subtest": "twk",
+      "topic": "nasionalisme",
+      "stem": "Bentuk nasionalisme yang paling relevan bagi seorang pegawai di bidang pelayanan kesehatan adalah...",
+      "options": [
+        "Memasang atribut kebangsaan di ruang kerja",
+        "Memberikan pelayanan bermutu kepada seluruh pasien tanpa membedakan latar belakang",
+        "Menolak melayani pasien dari luar daerah",
+        "Mengutamakan pasien yang memiliki koneksi",
+        "Menyampaikan pandangan politik kepada pasien"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Nasionalisme paling nyata terwujud dalam mutu pelayanan yang setara bagi semua warga.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Nasionalisme paling nyata terwujud dalam mutu pelayanan yang setara bagi semua warga. Simbol tanpa pelayanan yang baik tidak memiliki makna substantif.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-09",
+      "subtest": "twk",
+      "topic": "nasionalisme",
+      "stem": "Upaya menjaga persatuan bangsa dalam masyarakat digital paling tepat dilakukan dengan...",
+      "options": [
+        "Membatasi akses masyarakat terhadap informasi",
+        "Membiasakan memeriksa kebenaran informasi dan tidak menyebarkan konten yang memicu permusuhan",
+        "Membalas setiap unggahan yang tidak disetujui",
+        "Membentuk kelompok pendukung di media sosial",
+        "Menghindari seluruh diskusi publik"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Persatuan di ruang digital terjaga bila arus informasi tetap sehat.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Persatuan di ruang digital terjaga bila arus informasi tetap sehat. Kebiasaan memverifikasi dan menahan diri menyebarkan konten pemecah belah adalah kontribusi paling langsung.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-10",
+      "subtest": "twk",
+      "topic": "nasionalisme",
+      "stem": "Sikap yang tepat terhadap perbedaan pilihan politik di lingkungan keluarga adalah...",
+      "options": [
+        "Memutus hubungan dengan yang berbeda pilihan",
+        "Menghormati perbedaan dan tetap menjaga hubungan kekeluargaan",
+        "Memaksa anggota keluarga menyamakan pilihan",
+        "Menghindari pembicaraan apa pun dengan mereka",
+        "Menyembunyikan pilihan sendiri karena takut"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Perbedaan pilihan politik adalah hal wajar dalam demokrasi.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Perbedaan pilihan politik adalah hal wajar dalam demokrasi. Kemampuan menjaga hubungan meski berbeda pilihan justru menjadi ukuran kematangan berbangsa.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-11",
+      "subtest": "twk",
+      "topic": "nasionalisme",
+      "stem": "Makna kemerdekaan bagi generasi sekarang paling tepat dipahami sebagai...",
+      "options": [
+        "Kebebasan melakukan apa pun tanpa batas",
+        "Kesempatan mengisi kemerdekaan dengan karya dan tanggung jawab bagi kemajuan bangsa",
+        "Berakhirnya kewajiban terhadap negara",
+        "Hak menuntut tanpa berkontribusi",
+        "Peristiwa sejarah yang cukup diperingati"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Kemerdekaan bukan tujuan akhir melainkan syarat untuk membangun.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Kemerdekaan bukan tujuan akhir melainkan syarat untuk membangun. Mengisinya dengan karya dan tanggung jawab adalah pemaknaan yang paling sesuai dengan cita-cita para pendiri bangsa.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-12",
+      "subtest": "twk",
+      "topic": "nasionalisme",
+      "stem": "Peran bahasa Indonesia sebagai bahasa persatuan terbukti dari kemampuannya...",
+      "options": [
+        "Menggantikan seluruh bahasa daerah",
+        "Menjadi sarana komunikasi bersama antarsuku tanpa menghapus bahasa daerah",
+        "Membatasi penggunaan bahasa asing",
+        "Menyeragamkan budaya seluruh daerah",
+        "Menjadi bahasa resmi di kawasan Asia Tenggara"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Kekuatan bahasa Indonesia terletak pada kemampuannya menjadi bahasa bersama tanpa mematikan bahasa daerah, sehingga persatuan terwujud tanpa mengorbankan keberagaman.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-13",
+      "subtest": "twk",
+      "topic": "bela negara",
+      "stem": "Ketahanan nasional dibangun dari aspek yang saling terkait, yaitu...",
+      "options": [
+        "Militer dan ekonomi saja",
+        "Ideologi, politik, ekonomi, sosial budaya, serta pertahanan dan keamanan",
+        "Politik dan hukum saja",
+        "Pendidikan dan kesehatan saja",
+        "Teknologi dan komunikasi saja"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Ketahanan nasional bersifat menyeluruh dan mencakup aspek ideologi, politik, ekonomi, sosial budaya, serta pertahanan dan keamanan yang saling menopang.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-14",
+      "subtest": "twk",
+      "topic": "bela negara",
+      "stem": "Peran pemuda dalam bela negara pada masa damai paling tepat diwujudkan melalui...",
+      "options": [
+        "Latihan bersenjata secara mandiri",
+        "Peningkatan kompetensi, kepedulian sosial, dan kepeloporan dalam kegiatan masyarakat",
+        "Kegiatan yang bersifat seremonial",
+        "Penolakan terhadap segala bentuk kerja sama internasional",
+        "Pembentukan kelompok berdasarkan asal daerah"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Pada masa damai, bela negara oleh pemuda berbentuk penguatan kapasitas diri dan kontribusi nyata kepada masyarakat, bukan kegiatan bersenjata yang justru melanggar hukum.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-15",
+      "subtest": "twk",
+      "topic": "bela negara",
+      "stem": "Ancaman terhadap ketahanan sosial budaya bangsa yang paling berbahaya adalah...",
+      "options": [
+        "Masuknya kesenian dari negara lain",
+        "Hilangnya nilai kebersamaan dan berkembangnya sikap individualistis yang ekstrem",
+        "Bertambahnya jumlah museum",
+        "Meningkatnya minat belajar bahasa asing",
+        "Berkembangnya pariwisata daerah"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Ancaman sosial budaya paling serius adalah tergerusnya nilai kebersamaan yang menjadi perekat masyarakat.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Ancaman sosial budaya paling serius adalah tergerusnya nilai kebersamaan yang menjadi perekat masyarakat. Masuknya budaya asing sendiri bersifat netral dan bergantung pada daya saring masyarakat.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-16",
+      "subtest": "twk",
+      "topic": "bela negara",
+      "stem": "Wujud bela negara seorang guru di daerah terpencil adalah...",
+      "options": [
+        "Meminta pindah ke daerah yang lebih baik fasilitasnya",
+        "Bertahan mengajar dengan sungguh-sungguh dan mencari cara kreatif mengatasi keterbatasan",
+        "Mengurangi jam mengajar karena keterbatasan sarana",
+        "Menunggu bantuan pemerintah sebelum mengajar maksimal",
+        "Mengajar seadanya karena kondisi tidak mendukung"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Bela negara di bidang pendidikan berwujud pengabdian sesuai profesi.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Bela negara di bidang pendidikan berwujud pengabdian sesuai profesi. Bertahan dan berkreasi di tengah keterbatasan adalah bentuk pengorbanan yang paling berdampak bagi masa depan bangsa.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-17",
+      "subtest": "twk",
+      "topic": "bela negara",
+      "stem": "Yang termasuk ancaman non-militer di bidang ekonomi adalah...",
+      "options": [
+        "Agresi bersenjata",
+        "Ketergantungan berlebihan pada impor untuk kebutuhan pokok",
+        "Pelanggaran wilayah udara",
+        "Sabotase instalasi militer",
+        "Spionase asing"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Ketergantungan impor kebutuhan pokok membuat negara rentan terhadap tekanan pihak luar tanpa melalui kekuatan senjata, sehingga tergolong ancaman non-militer di bidang ekonomi.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-18",
+      "subtest": "twk",
+      "topic": "integritas",
+      "stem": "Seorang pegawai mengetahui pengadaan di unitnya diarahkan pada penyedia tertentu. Langkah yang paling tepat adalah...",
+      "options": [
+        "Membicarakannya dengan rekan-rekan di luar kantor",
+        "Mendokumentasikan fakta yang ia ketahui dan melaporkannya melalui saluran pengaduan resmi",
+        "Menegur panitia pengadaan secara terbuka",
+        "Menunggu sampai proses selesai baru melapor",
+        "Mengabaikan karena bukan bagian dari kepanitiaan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Pelaporan melalui saluran resmi dengan dokumentasi yang memadai memungkinkan penanganan yang sah dan melindun"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Pelaporan melalui saluran resmi dengan dokumentasi yang memadai memungkinkan penanganan yang sah dan melindungi pelapor. Menunggu proses selesai membuat kerugian negara terlanjur terjadi.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-19",
+      "subtest": "twk",
+      "topic": "integritas",
+      "stem": "Asas keterbukaan dalam penyelenggaraan negara berarti...",
+      "options": [
+        "Seluruh dokumen negara wajib dipublikasikan tanpa kecuali",
+        "Membuka diri terhadap hak masyarakat memperoleh informasi yang benar, dengan tetap melindungi informasi yang dikecualikan",
+        "Menyampaikan informasi hanya kepada media",
+        "Menyampaikan informasi setelah ada permintaan resmi saja",
+        "Membuka seluruh rapat kepada umum"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Keterbukaan informasi publik menjamin hak masyarakat atas informasi, namun mengenal informasi yang dikecualikan seperti data pribadi dan hal yang membahayakan negara.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-20",
+      "subtest": "twk",
+      "topic": "integritas",
+      "stem": "Seorang pegawai menggunakan jam kerja untuk mengurus usaha pribadinya. Perbuatan ini melanggar...",
+      "options": [
+        "Kode etik dan disiplin pegawai",
+        "Ketentuan lalu lintas",
+        "Peraturan perpajakan",
+        "Ketentuan kearsipan",
+        "Aturan keprotokolan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Menggunakan jam kerja untuk kepentingan pribadi melanggar kewajiban menaati jam kerja dan mengutamakan kepentingan negara, yang diatur dalam ketentuan disiplin serta kode etik pegawai.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 0
+    },
+    {
+      "id": "cpns26-p7-p7-twk-21",
+      "subtest": "twk",
+      "topic": "integritas",
+      "stem": "Pengendalian gratifikasi di instansi paling efektif bila...",
+      "options": [
+        "Hanya berupa imbauan lisan dari pimpinan",
+        "Tersedia saluran pelaporan yang mudah, tindak lanjut yang jelas, dan keteladanan pimpinan",
+        "Diberlakukan hanya bagi pejabat tinggi",
+        "Diterapkan menjelang pemeriksaan saja",
+        "Diserahkan pada kesadaran masing-masing tanpa mekanisme"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Pengendalian gratifikasi memerlukan mekanisme yang berjalan, bukan sekadar imbauan.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Pengendalian gratifikasi memerlukan mekanisme yang berjalan, bukan sekadar imbauan. Kemudahan melapor, kejelasan tindak lanjut, dan keteladanan pimpinan adalah tiga syarat utamanya.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-22",
+      "subtest": "twk",
+      "topic": "integritas",
+      "stem": "Seorang ASN diminta menjadi saksi dalam perkara yang melibatkan rekan kerjanya. Sikap yang benar adalah...",
+      "options": [
+        "Menolak menjadi saksi demi menjaga hubungan",
+        "Memberikan keterangan yang benar sesuai yang ia ketahui dan alami",
+        "Memberikan keterangan yang meringankan rekannya",
+        "Memberikan keterangan yang samar agar aman",
+        "Meminta rekan lain menjadi saksi"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Kewajiban seorang saksi adalah memberikan keterangan yang benar.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Kewajiban seorang saksi adalah memberikan keterangan yang benar. Memberikan keterangan yang samar atau memihak merupakan pelanggaran hukum sekaligus integritas.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-23",
+      "subtest": "twk",
+      "topic": "sejarah kebangsaan",
+      "stem": "Peristiwa yang menandai berakhirnya kekuasaan Belanda dan dimulainya pendudukan Jepang di Indonesia adalah...",
+      "options": [
+        "Perjanjian Linggarjati",
+        "Kapitulasi Kalijati tahun 1942",
+        "Perjanjian Renville",
+        "Konferensi Meja Bundar",
+        "Dekrit Presiden 1959"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Melalui Kapitulasi Kalijati pada Maret 1942, Belanda menyerah tanpa syarat kepada Jepang, yang menandai dimul"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Melalui Kapitulasi Kalijati pada Maret 1942, Belanda menyerah tanpa syarat kepada Jepang, yang menandai dimulainya masa pendudukan Jepang di Indonesia.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-24",
+      "subtest": "twk",
+      "topic": "sejarah kebangsaan",
+      "stem": "Tokoh yang berperan besar dalam perumusan Piagam Jakarta sebagai anggota Panitia Sembilan antara lain...",
+      "options": [
+        "Soekarno, Hatta, dan Achmad Soebardjo",
+        "Soekarno, Sayuti Melik, dan Sukarni",
+        "Hatta, Sjahrir, dan Tan Malaka",
+        "Soepomo, Radjiman, dan Sayuti Melik",
+        "Sukarni, B.M. Diah, dan Chaerul Saleh"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Petakan kasus ke nilai inti Sila: 1 (toleransi/iman), 2 (empati/kemanusiaan adil), 3 (persatuan/cinta produk RI), 4 (musyawarah), 5 (adil sosial)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan sikap yang hanya menolong secara individual (Sila 2) jika konteksnya keadilan hak publik/gotong royong (Sila 5)."
+        },
+        {
+          "lens": "logika",
+          "text": "Bedakan pengamalan Sila 2 (martabat manusia universal) vs Sila 3 (nasionalisme/NKRI) vs Sila 5 (keadilan ekonomi & hak bersama)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jebakan klasik: membedakan tanggal pidato Yamin (29 Mei), Soepomo (31 Mei), Sukarno (1 Juni), Piagam Jakarta (22 Juni), & pengesahan PPKI (18 Ags)."
+        }
+      ],
+      "explain": "Panitia Sembilan diketuai Soekarno dengan anggota antara lain Mohammad Hatta, Achmad Soebardjo, Muhammad Yamin, dan sejumlah tokoh dari golongan Islam dan kebangsaan.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 0
+    },
+    {
+      "id": "cpns26-p7-p7-twk-25",
+      "subtest": "twk",
+      "topic": "sejarah kebangsaan",
+      "stem": "Pemilihan umum pertama di Indonesia diselenggarakan pada tahun...",
+      "options": [
+        "1945",
+        "1949",
+        "1955",
+        "1959",
+        "1971"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa)."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan opsi yang pasif, permisif terhadap pelanggaran etika, atau bersifat primordial/sektarian."
+        },
+        {
+          "lens": "logika",
+          "text": "Nilai TWK modern menguji penerapan sikap (situational awareness), bukan sekadar hafalan tanggal."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terdengar patriotik tetapi mengabaikan persatuan/aturan hukum tetap keliru."
+        }
+      ],
+      "explain": "Pemilihan umum pertama diselenggarakan pada 1955 untuk memilih anggota DPR dan anggota Konstituante, dan dikenal sebagai pemilu yang berlangsung relatif demokratis.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 2
+    },
+    {
+      "id": "cpns26-p7-p7-twk-26",
+      "subtest": "twk",
+      "topic": "bahasa indonesia",
+      "stem": "Kalimat yang menggunakan kata penghubung dengan tepat adalah...",
+      "options": [
+        "Karena hujan deras, sehingga kegiatan ditunda.",
+        "Karena hujan deras, kegiatan ditunda.",
+        "Walaupun hujan deras, namun kegiatan tetap berjalan.",
+        "Meskipun hujan deras, akan tetapi kegiatan tetap berjalan.",
+        "Sebab hujan deras, maka kegiatan ditunda."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ide pokok selalu merangkum kalimat utama (umumnya di awal/deduktif atau akhir/induktif), bukan kalimat penjelas berisi contoh. Petunjuk inti: Konjungsi karena dan sehingga tidak dipakai bersamaan dalam satu kalimat, demikian pula walaupun dengan namun.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kalimat efektif wajib punya S + P jelas, tidak boros kata ('agar supaya', 'para hadirin sekalian'), dan ejaan baku KBBI."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji keterkaitan: opsi ide pokok harus bisa menaungi seluruh kalimat lain di dalam paragraf."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terlalu sempit (hanya mengutip fakta satu kalimat penjelas) atau terlalu luas melenceng dari teks bukan ide pokok."
+        }
+      ],
+      "explain": "Konjungsi karena dan sehingga tidak dipakai bersamaan dalam satu kalimat, demikian pula walaupun dengan namun. Pilihan B menggunakan satu konjungsi secara tepat.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-27",
+      "subtest": "twk",
+      "topic": "bahasa indonesia",
+      "stem": "Makna kata \"akuntabel\" adalah...",
+      "options": [
+        "Cepat dan tepat waktu",
+        "Dapat dipertanggungjawabkan",
+        "Mudah dipahami",
+        "Bersifat rahasia",
+        "Berbiaya rendah"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal bahasa indonesia sebelum membandingkan kelima opsi. Petunjuk inti: Akuntabel berarti dapat dipertanggungjawabkan, yaitu keputusan dan tindakan disertai dasar serta bukti yang dapat diperiksa."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Akuntabel berarti dapat dipertanggungjawabkan, yaitu keputusan dan tindakan disertai dasar serta bukti yang dapat diperiksa.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-28",
+      "subtest": "twk",
+      "topic": "bahasa indonesia",
+      "stem": "Bacalah paragraf berikut.\n\n\"Banyak pelamar CPNS memilih formasi hanya berdasarkan gengsi instansi. Mereka mengabaikan perbandingan jumlah pelamar dengan kebutuhan formasi. Akibatnya, banyak yang bernilai tinggi tetap gugur karena bersaing di formasi paling padat.\"\n\nSimpulan yang tepat adalah...",
+      "options": [
+        "Nilai tinggi tidak berguna dalam seleksi CPNS",
+        "Pemilihan formasi tanpa memperhitungkan tingkat persaingan dapat menggugurkan pelamar bernilai tinggi",
+        "Instansi bergengsi selalu memiliki formasi terbanyak",
+        "Pelamar sebaiknya memilih formasi yang tidak diminati",
+        "Jumlah pelamar tidak memengaruhi hasil seleksi"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ide pokok selalu merangkum kalimat utama (umumnya di awal/deduktif atau akhir/induktif), bukan kalimat penjelas berisi contoh. Petunjuk inti: Paragraf menghubungkan kebiasaan memilih berdasarkan gengsi dengan akibatnya, yaitu gugurnya pelamar bernilai tinggi.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kalimat efektif wajib punya S + P jelas, tidak boros kata ('agar supaya', 'para hadirin sekalian'), dan ejaan baku KBBI."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji keterkaitan: opsi ide pokok harus bisa menaungi seluruh kalimat lain di dalam paragraf."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terlalu sempit (hanya mengutip fakta satu kalimat penjelas) atau terlalu luas melenceng dari teks bukan ide pokok."
+        }
+      ],
+      "explain": "Paragraf menghubungkan kebiasaan memilih berdasarkan gengsi dengan akibatnya, yaitu gugurnya pelamar bernilai tinggi. Simpulan harus memuat hubungan sebab akibat tersebut secara utuh.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-29",
+      "subtest": "twk",
+      "topic": "bahasa indonesia",
+      "stem": "Penulisan singkatan gelar yang benar adalah...",
+      "options": [
+        "Dr, Budi Santoso, S.H",
+        "Dr. Budi Santoso, S.H.",
+        "DR. Budi Santoso, SH",
+        "Dr Budi Santoso SH.",
+        "dr. Budi Santoso, S,H."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal bahasa indonesia sebelum membandingkan kelima opsi. Petunjuk inti: Singkatan gelar diikuti tanda titik pada setiap unsurnya dan dipisahkan tanda koma dari nama untuk gelar yang mengikuti nama.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Singkatan gelar diikuti tanda titik pada setiap unsurnya dan dipisahkan tanda koma dari nama untuk gelar yang mengikuti nama. Bentuk yang tepat adalah Dr. Budi Santoso, S.H.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-twk-30",
+      "subtest": "twk",
+      "topic": "bahasa indonesia",
+      "stem": "Kalimat yang tidak efektif karena mengandung kata bermakna ganda berlebihan adalah...",
+      "options": [
+        "Peserta wajib membawa dokumen asli.",
+        "Para peserta-peserta wajib naik ke atas panggung.",
+        "Peserta diminta hadir tepat waktu.",
+        "Dokumen dikumpulkan sebelum rapat dimulai.",
+        "Panitia menyediakan konsumsi bagi peserta."
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Ide pokok selalu merangkum kalimat utama (umumnya di awal/deduktif atau akhir/induktif), bukan kalimat penjelas berisi contoh."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Kalimat efektif wajib punya S + P jelas, tidak boros kata ('agar supaya', 'para hadirin sekalian'), dan ejaan baku KBBI."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji keterkaitan: opsi ide pokok harus bisa menaungi seluruh kalimat lain di dalam paragraf."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Opsi yang terlalu sempit (hanya mengutip fakta satu kalimat penjelas) atau terlalu luas melenceng dari teks bukan ide pokok."
+        }
+      ],
+      "explain": "Kata para sudah menyatakan jamak sehingga tidak perlu diulang menjadi peserta-peserta, dan kata naik sudah bermakna ke atas sehingga frasa naik ke atas berlebihan.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-01",
+      "subtest": "tiu",
+      "topic": "analogi",
+      "stem": "PANAS : TERMOMETER = GEMPA : ...",
+      "options": [
+        "Getaran",
+        "Seismograf",
+        "Retakan",
+        "Bencana",
+        "Tsunami"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Hubungannya adalah gejala dengan alat pengukurnya.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Hubungannya adalah gejala dengan alat pengukurnya. Panas diukur termometer, gempa diukur seismograf.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-02",
+      "subtest": "tiu",
+      "topic": "analogi",
+      "stem": "SAMPAH : BAU = LUKA : ...",
+      "options": [
+        "Darah",
+        "Perih",
+        "Perban",
+        "Obat",
+        "Bekas"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Bau adalah akibat yang khas dari sampah, sebagaimana perih adalah akibat yang khas dari luka.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Bau adalah akibat yang khas dari sampah, sebagaimana perih adalah akibat yang khas dari luka. Hubungannya adalah objek dengan sensasi yang ditimbulkannya.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-03",
+      "subtest": "tiu",
+      "topic": "analogi",
+      "stem": "GURU : MURID = DOKTER : ...",
+      "options": [
+        "Perawat",
+        "Pasien",
+        "Rumah sakit",
+        "Obat",
+        "Penyakit"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Hubungannya adalah pemberi layanan dengan penerima layanannya.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Hubungannya adalah pemberi layanan dengan penerima layanannya. Guru melayani murid, dokter melayani pasien.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-04",
+      "subtest": "tiu",
+      "topic": "analogi",
+      "stem": "KAYU : KURSI = KAIN : ...",
+      "options": [
+        "Benang",
+        "Baju",
+        "Penjahit",
+        "Kapas",
+        "Toko"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Kayu adalah bahan pembuat kursi, kain adalah bahan pembuat baju.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Kayu adalah bahan pembuat kursi, kain adalah bahan pembuat baju. Hubungannya adalah bahan dengan produk jadinya.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-05",
+      "subtest": "tiu",
+      "topic": "analogi",
+      "stem": "PADAM : NYALA = ... : ...",
+      "options": [
+        "Terang : Benderang",
+        "Buka : Tutup",
+        "Cepat : Laju",
+        "Besar : Raksasa",
+        "Kecil : Mungil"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Padam dan nyala adalah pasangan berlawanan.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Padam dan nyala adalah pasangan berlawanan. Pasangan yang memiliki hubungan sama adalah buka dan tutup, sedangkan pilihan lain merupakan sinonim atau penguat makna.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-06",
+      "subtest": "tiu",
+      "topic": "silogisme",
+      "stem": "Semua peserta yang membawa kartu ujian diizinkan masuk. Sebagian peserta di ruang tunggu tidak diizinkan masuk.\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "Semua peserta di ruang tunggu membawa kartu ujian",
+        "Sebagian peserta di ruang tunggu tidak membawa kartu ujian",
+        "Semua yang diizinkan masuk membawa kartu ujian",
+        "Tidak ada peserta di ruang tunggu yang membawa kartu",
+        "Sebagian pembawa kartu tidak diizinkan masuk"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Karena semua pembawa kartu diizinkan masuk, maka siapa pun yang tidak diizinkan masuk pasti tidak membawa kartu.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Karena semua pembawa kartu diizinkan masuk, maka siapa pun yang tidak diizinkan masuk pasti tidak membawa kartu. Kondisi itu berlaku pada sebagian peserta di ruang tunggu.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-07",
+      "subtest": "tiu",
+      "topic": "silogisme",
+      "stem": "Jika anggaran cair, maka kegiatan dilaksanakan. Jika kegiatan dilaksanakan, maka peserta hadir. Peserta tidak hadir.\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "Anggaran cair",
+        "Anggaran tidak cair",
+        "Kegiatan dilaksanakan tanpa peserta",
+        "Peserta hadir sebagian",
+        "Tidak dapat disimpulkan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Rangkaian implikasi memberi hasil: jika anggaran cair maka peserta hadir.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Rangkaian implikasi memberi hasil: jika anggaran cair maka peserta hadir. Karena peserta tidak hadir, maka anggaran tidak cair.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-08",
+      "subtest": "tiu",
+      "topic": "silogisme",
+      "stem": "Tidak ada pegawai yang terlambat mendapat tunjangan kehadiran penuh. Sebagian pegawai mendapat tunjangan kehadiran penuh.\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "Semua pegawai terlambat",
+        "Sebagian pegawai tidak terlambat",
+        "Semua pegawai tidak terlambat",
+        "Tidak ada pegawai yang terlambat",
+        "Sebagian pegawai terlambat tetapi tetap mendapat tunjangan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Pegawai yang mendapat tunjangan penuh pasti tidak terlambat.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Pegawai yang mendapat tunjangan penuh pasti tidak terlambat. Karena hal itu berlaku pada sebagian pegawai, kesimpulannya sebagian pegawai tidak terlambat.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-09",
+      "subtest": "tiu",
+      "topic": "silogisme",
+      "stem": "Semua dokumen yang ditandatangani pimpinan bersifat sah. Sebagian dokumen di meja ini bersifat sah.\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "Semua dokumen di meja ini ditandatangani pimpinan",
+        "Mungkin ada dokumen di meja ini yang ditandatangani pimpinan",
+        "Tidak ada dokumen di meja ini yang ditandatangani pimpinan",
+        "Semua dokumen sah pasti ditandatangani pimpinan",
+        "Sebagian dokumen yang ditandatangani pimpinan tidak sah"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Premis hanya menyatakan tanda tangan pimpinan menjamin keabsahan, bukan sebaliknya.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Premis hanya menyatakan tanda tangan pimpinan menjamin keabsahan, bukan sebaliknya. Dokumen sah bisa berasal dari sebab lain, sehingga kesimpulannya hanya bersifat kemungkinan.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-10",
+      "subtest": "tiu",
+      "topic": "silogisme",
+      "stem": "Semua kegiatan yang melibatkan dana negara wajib dilaporkan. Kegiatan seminar tidak wajib dilaporkan.\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "Kegiatan seminar melibatkan dana negara",
+        "Kegiatan seminar tidak melibatkan dana negara",
+        "Kegiatan seminar tidak dilaksanakan",
+        "Semua kegiatan wajib dilaporkan",
+        "Tidak dapat disimpulkan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Karena kegiatan berdana negara pasti wajib dilaporkan, maka kegiatan yang tidak wajib dilaporkan pasti tidak melibatkan dana nega"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Karena kegiatan berdana negara pasti wajib dilaporkan, maka kegiatan yang tidak wajib dilaporkan pasti tidak melibatkan dana negara.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-11",
+      "subtest": "tiu",
+      "topic": "analitis",
+      "stem": "Lima pegawai bertugas jaga pada Senin sampai Jumat, satu orang per hari. Andi tidak jaga Senin. Bima jaga Rabu. Cakra jaga sehari sebelum Dinda. Eka jaga Jumat.\n\nAndi bertugas pada hari...",
+      "options": [
+        "Senin",
+        "Selasa",
+        "Rabu",
+        "Kamis",
+        "Jumat"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pekerja bertambah → waktu pasti berkurang (kalikan Orang × Hari = Orang baru × Hari baru; jika koma, bulatkan orang ke atas). Susul-menyusul: Jarak duluan ÷ (Kecepatan penyusul − yang disusul). Petunjuk inti: Bima mengunci Rabu dan Eka mengunci Jumat, menyisak"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek akal sehat: tambahan pekerja wajib membuat hari LEBIH SINGKAT; waktu berpapasan wajib berada di antara jam berangkat & jam tiba."
+        },
+        {
+          "lens": "logika",
+          "text": "Samakan seluruh satuan terlebih dulu (menit ke jam, km ke meter) dan kurangkan hari yang sudah selesai sebelum menghitung sisa proyek."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pada proyek yang sempat libur/terhenti, kurangi dulu hari yang sudah dikerjakan; pada susul-menyusul, hitung dari jam berangkat orang KEDUA."
+        }
+      ],
+      "explain": "Bima mengunci Rabu dan Eka mengunci Jumat, menyisakan Senin, Selasa, dan Kamis untuk Andi, Cakra, dan Dinda. Pasangan Cakra tepat sebelum Dinda hanya muat di Senin-Selasa, sehingga Andi mendapat Kamis.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 3
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-12",
+      "subtest": "tiu",
+      "topic": "analitis",
+      "stem": "Empat orang memiliki berat badan berbeda. Berat Rani lebih besar daripada Sinta. Berat Tia lebih kecil daripada Sinta. Berat Umi lebih besar daripada Rani.\n\nOrang dengan berat badan terkecil adalah...",
+      "options": [
+        "Rani",
+        "Sinta",
+        "Tia",
+        "Umi",
+        "Tidak dapat ditentukan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal analitis sebelum membandingkan kelima opsi. Petunjuk inti: Urutan dari terbesar: Umi, Rani, Sinta, Tia.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Urutan dari terbesar: Umi, Rani, Sinta, Tia. Tia berada di bawah Sinta yang sudah berada di bawah Rani, sehingga Tia paling ringan.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 2
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-13",
+      "subtest": "tiu",
+      "topic": "analitis",
+      "stem": "Enam kotak disusun bertingkat. Kotak A tepat di atas kotak B. Kotak C paling bawah. Kotak D tepat di atas kotak A. Kotak E paling atas. Kotak F berada di antara C dan B.\n\nUrutan dari bawah ke atas adalah...",
+      "options": [
+        "C, F, B, A, D, E",
+        "C, B, F, A, D, E",
+        "C, F, A, B, D, E",
+        "C, F, B, D, A, E",
+        "C, B, A, F, D, E"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Visualisasikan dengan simbol pertidaksamaan '>' / '<' atau sketsa slot kursi bernomor 1..N agar semua syarat terbaca sekaligus. Petunjuk inti: C mengunci posisi terbawah dan E posisi teratas.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Gunakan syarat paling ketat (posisi ujung / berhadapan / bersebelahan) untuk langsung menggugurkan 2–3 opsi."
+        },
+        {
+          "lens": "logika",
+          "text": "Kunci dahulu pasangan yang wajib berdekatan (blok), baru selipkan syarat relatif sisanya."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Kata 'di antara A dan B' tidak selalu berarti bersebelahan persis kecuali ditulis 'tepat di sebelah'."
+        }
+      ],
+      "explain": "C mengunci posisi terbawah dan E posisi teratas. F berada di antara C dan B, lalu berturut-turut B, A, dan D karena A tepat di atas B dan D tepat di atas A.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 0
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-14",
+      "subtest": "tiu",
+      "topic": "analitis",
+      "stem": "Dalam sebuah seleksi, peserta dinyatakan lolos bila memenuhi minimal dua dari tiga syarat: nilai tulis minimal 80, pengalaman minimal 3 tahun, dan sertifikat keahlian. Rani bernilai 85, pengalaman 2 tahun, tanpa sertifikat. Sinta bernilai 78, pengalaman 5 tahun, memiliki sertifikat.\n\nPeserta yang lolos adalah...",
+      "options": [
+        "Rani saja",
+        "Sinta saja",
+        "Keduanya",
+        "Tidak ada yang lolos",
+        "Tidak dapat ditentukan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Rani hanya memenuhi satu syarat, yaitu nilai tulis.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Rani hanya memenuhi satu syarat, yaitu nilai tulis. Sinta memenuhi dua syarat, yaitu pengalaman dan sertifikat. Maka hanya Sinta yang lolos.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-15",
+      "subtest": "tiu",
+      "topic": "analitis",
+      "stem": "Tiga jenis layanan dibuka pada hari berbeda. Layanan perizinan tidak pada hari Senin. Layanan kependudukan pada hari Rabu. Layanan pajak lebih awal daripada layanan perizinan.\n\nLayanan yang dibuka pada hari Senin adalah...",
+      "options": [
+        "Perizinan",
+        "Kependudukan",
+        "Pajak",
+        "Perizinan atau pajak",
+        "Tidak dapat ditentukan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Pekerja bertambah → waktu pasti berkurang (kalikan Orang × Hari = Orang baru × Hari baru; jika koma, bulatkan orang ke atas). Susul-menyusul: Jarak duluan ÷ (Kecepatan penyusul − yang disusul). Petunjuk inti: Kependudukan mengunci Rabu, sehingga Senin dan Sela"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Cek akal sehat: tambahan pekerja wajib membuat hari LEBIH SINGKAT; waktu berpapasan wajib berada di antara jam berangkat & jam tiba."
+        },
+        {
+          "lens": "logika",
+          "text": "Samakan seluruh satuan terlebih dulu (menit ke jam, km ke meter) dan kurangkan hari yang sudah selesai sebelum menghitung sisa proyek."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pada proyek yang sempat libur/terhenti, kurangi dulu hari yang sudah dikerjakan; pada susul-menyusul, hitung dari jam berangkat orang KEDUA."
+        }
+      ],
+      "explain": "Kependudukan mengunci Rabu, sehingga Senin dan Selasa tersisa untuk pajak dan perizinan. Karena perizinan tidak boleh Senin dan pajak harus lebih awal, pajak jatuh pada Senin.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 2
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-16",
+      "subtest": "tiu",
+      "topic": "deret angka",
+      "stem": "Tentukan bilangan berikutnya: 5, 11, 23, 47, ...",
+      "options": [
+        "71",
+        "83",
+        "91",
+        "95",
+        "99"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: Polanya adalah dikalikan 2 lalu ditambah 1: 5 x 2 + 1 = 11, 11 x 2 + 1 = 23, 23 x 2 + 1 = 47.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Polanya adalah dikalikan 2 lalu ditambah 1: 5 x 2 + 1 = 11, 11 x 2 + 1 = 23, 23 x 2 + 1 = 47. Maka 47 x 2 + 1 = 95.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 3
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-17",
+      "subtest": "tiu",
+      "topic": "deret angka",
+      "stem": "Tentukan bilangan berikutnya: 1, 4, 10, 22, 46, ...",
+      "options": [
+        "82",
+        "90",
+        "94",
+        "98",
+        "102"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: Polanya adalah dikalikan 2 lalu ditambah 2: 1 x 2 + 2 = 4, 4 x 2 + 2 = 10, dan seterusnya.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Polanya adalah dikalikan 2 lalu ditambah 2: 1 x 2 + 2 = 4, 4 x 2 + 2 = 10, dan seterusnya. Maka 46 x 2 + 2 = 94.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 2
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-18",
+      "subtest": "tiu",
+      "topic": "deret angka",
+      "stem": "Tentukan bilangan berikutnya: 100, 96, 88, 76, 60, ...",
+      "options": [
+        "36",
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: Pengurangannya bertambah empat: -4, -8, -12, -16, sehingga berikutnya -20.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pengurangannya bertambah empat: -4, -8, -12, -16, sehingga berikutnya -20. Maka 60 - 20 = 40.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 2
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-19",
+      "subtest": "tiu",
+      "topic": "deret angka",
+      "stem": "Tentukan dua bilangan berikutnya: 2, 6, 5, 15, 14, 42, ...",
+      "options": [
+        "41, 123",
+        "40, 120",
+        "41, 120",
+        "43, 129",
+        "40, 123"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: Pola berselang-seling dikali 3 lalu dikurangi 1: 2 x 3 = 6, 6 - 1 = 5, 5 x 3 = 15, 15 - 1 = 14, 14 x 3 = 42.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Pola berselang-seling dikali 3 lalu dikurangi 1: 2 x 3 = 6, 6 - 1 = 5, 5 x 3 = 15, 15 - 1 = 14, 14 x 3 = 42. Maka berikutnya 42 - 1 = 41 lalu 41 x 3 = 123.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 0
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-20",
+      "subtest": "tiu",
+      "topic": "deret angka",
+      "stem": "Tentukan bilangan yang hilang: 3, 8, 15, 24, ..., 48",
+      "options": [
+        "32",
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: Selisihnya bertambah dua: +5, +7, +9, +11, +13.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Selisihnya bertambah dua: +5, +7, +9, +11, +13. Maka setelah 24 ditambah 11 menjadi 35, lalu ditambah 13 menjadi 48.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 3
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-21",
+      "subtest": "tiu",
+      "topic": "deret angka",
+      "stem": "Tentukan huruf berikutnya: Z, X, U, Q, ...",
+      "options": [
+        "M",
+        "L",
+        "K",
+        "J",
+        "N"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: Loncatan mundur bertambah satu: Z ke X mundur 2, X ke U mundur 3, U ke Q mundur 4, sehingga berikutnya mundur 5 dari Q me"
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Loncatan mundur bertambah satu: Z ke X mundur 2, X ke U mundur 3, U ke Q mundur 4, sehingga berikutnya mundur 5 dari Q menjadi L.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-22",
+      "subtest": "tiu",
+      "topic": "berhitung",
+      "stem": "Nilai dari 35% dari 480 adalah...",
+      "options": [
+        "148",
+        "158",
+        "168",
+        "178",
+        "188"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Untung/Rugi selalu dihitung dari Harga Beli (Modal), bukan Harga Jual. Diskon bertingkat d1% + d2% ≠ jumlah langsung, hitung bertahap. Petunjuk inti: Cara cepat: 10% dari 480 adalah 48, sehingga 30% = 144.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Gunakan pembulatan kasar (estimasi puluhan terdekat) untuk membuang opsi yang terlalu jauh secara magnitudo."
+        },
+        {
+          "lens": "logika",
+          "text": "Ubah persen umum ke pecahan istimewa: 12,5% = 1/8, 25% = 1/4, 33,3% = 1/3, 37,5% = 3/8, 66,7% = 2/3 agar hitung kilat."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Diskon 50% + 20% bukan 70%, melainkan 100% → 50% → sisa 40% (total potongan 60%)."
+        }
+      ],
+      "explain": "Cara cepat: 10% dari 480 adalah 48, sehingga 30% = 144. Lalu 5% = 24, sehingga totalnya 144 + 24 = 168.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 2
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-23",
+      "subtest": "tiu",
+      "topic": "berhitung",
+      "stem": "Hasil dari 2/5 + 3/4 - 1/2 adalah...",
+      "options": [
+        "11/20",
+        "12/20",
+        "13/20",
+        "14/20",
+        "15/20"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal berhitung sebelum membandingkan kelima opsi. Petunjuk inti: Samakan penyebut menjadi 20: 8/20 + 15/20 - 10/20 = 13/20."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Samakan penyebut menjadi 20: 8/20 + 15/20 - 10/20 = 13/20.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 2
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-24",
+      "subtest": "tiu",
+      "topic": "berhitung",
+      "stem": "Jika 4x + 9 = 2x + 27, maka nilai 3x adalah...",
+      "options": [
+        "18",
+        "21",
+        "24",
+        "27",
+        "30"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Dari 4x + 9 = 2x + 27 diperoleh 2x = 18 sehingga x = 9.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Dari 4x + 9 = 2x + 27 diperoleh 2x = 18 sehingga x = 9. Maka 3x = 27.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 3
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-25",
+      "subtest": "tiu",
+      "topic": "berhitung",
+      "stem": "Nilai dari 18 x 15 dibagi 27 adalah...",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal berhitung sebelum membandingkan kelima opsi. Petunjuk inti: 18 x 15 sama dengan 270.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "18 x 15 sama dengan 270. Kemudian 270 dibagi 27 sama dengan 10.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 2
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-26",
+      "subtest": "tiu",
+      "topic": "berhitung",
+      "stem": "Akar kuadrat dari 2.916 adalah...",
+      "options": [
+        "52",
+        "54",
+        "56",
+        "58",
+        "62"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Fokus pada kata kunci inti di soal berhitung sebelum membandingkan kelima opsi. Petunjuk inti: Angka satuannya 6 sehingga akarnya berakhiran 4 atau 6.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Sisihkan opsi yang bertentangan langsung dengan premis atau konteks utama soal."
+        },
+        {
+          "lens": "logika",
+          "text": "Pecah soal menjadi syarat inti dan hubungkan dengan konsep dasar subtes."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
+        }
+      ],
+      "explain": "Angka satuannya 6 sehingga akarnya berakhiran 4 atau 6. Karena 50 kuadrat = 2.500 dan 55 kuadrat = 3.025, jawabannya lebih kecil dari 55, yaitu 54 (54 x 54 = 2.916).",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-27",
+      "subtest": "tiu",
+      "topic": "soal cerita",
+      "stem": "Sebuah kantor memiliki 320 berkas. Sebanyak 45% sudah diverifikasi. Berapa berkas yang belum diverifikasi?",
+      "options": [
+        "144",
+        "156",
+        "166",
+        "176",
+        "186"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Untung/Rugi selalu dihitung dari Harga Beli (Modal), bukan Harga Jual. Diskon bertingkat d1% + d2% ≠ jumlah langsung, hitung bertahap. Petunjuk inti: Berkas yang belum diverifikasi adalah 55% dari 320, yaitu 0,55 x 320 = 176 berkas."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Gunakan pembulatan kasar (estimasi puluhan terdekat) untuk membuang opsi yang terlalu jauh secara magnitudo."
+        },
+        {
+          "lens": "logika",
+          "text": "Ubah persen umum ke pecahan istimewa: 12,5% = 1/8, 25% = 1/4, 33,3% = 1/3, 37,5% = 3/8, 66,7% = 2/3 agar hitung kilat."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Diskon 50% + 20% bukan 70%, melainkan 100% → 50% → sisa 40% (total potongan 60%)."
+        }
+      ],
+      "explain": "Berkas yang belum diverifikasi adalah 55% dari 320, yaitu 0,55 x 320 = 176 berkas.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 3
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-28",
+      "subtest": "tiu",
+      "topic": "soal cerita",
+      "stem": "Seorang pegawai berangkat pukul 07.15 dan tiba pukul 08.45 dengan kecepatan rata-rata 48 km/jam. Berapa jarak yang ditempuh?",
+      "options": [
+        "64 km",
+        "68 km",
+        "72 km",
+        "76 km",
+        "80 km"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: Lama perjalanan 1 jam 30 menit atau 1,5 jam.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang opsi dengan paritas (ganjil/genap) atau tren naik-turun yang menyalahi 2 suku terakhir."
+        },
+        {
+          "lens": "logika",
+          "text": "Tulis selisih tingkat-1 di atas deret. Jika belum konstan, tarik selisih tingkat-2 atau rasio perkalian/pembagian."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
+        }
+      ],
+      "explain": "Lama perjalanan 1 jam 30 menit atau 1,5 jam. Jarak = 48 x 1,5 = 72 km.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 2
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-29",
+      "subtest": "tiu",
+      "topic": "soal cerita",
+      "stem": "Perbandingan anggaran kegiatan A, B, dan C adalah 4 : 5 : 7. Jika total anggaran Rp96.000.000, berapa anggaran kegiatan C?",
+      "options": [
+        "Rp24.000.000",
+        "Rp30.000.000",
+        "Rp36.000.000",
+        "Rp42.000.000",
+        "Rp48.000.000"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Jumlah perbandingan adalah 16 bagian untuk Rp96.000.000, sehingga 1 bagian bernilai Rp6.000.000.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Jumlah perbandingan adalah 16 bagian untuk Rp96.000.000, sehingga 1 bagian bernilai Rp6.000.000. Kegiatan C mendapat 7 bagian yaitu Rp42.000.000.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 3
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-30",
+      "subtest": "tiu",
+      "topic": "soal cerita",
+      "stem": "Sebuah pekerjaan diselesaikan A dalam 12 hari dan oleh B dalam 24 hari. Jika bekerja bersama, berapa hari pekerjaan selesai?",
+      "options": [
+        "6 hari",
+        "7 hari",
+        "8 hari",
+        "9 hari",
+        "10 hari"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Dalam sehari A menyelesaikan 1/12 bagian dan B menyelesaikan 1/24 bagian.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang memakai kata 'Semua' jika salah satu premisnya hanya 'Sebagian/Beberapa'."
+        },
+        {
+          "lens": "logika",
+          "text": "Modelkan 'Jika P → Q' setara dengan kontraposisinya '~Q → ~P' (bukan ~P → ~Q maupun Q → P)."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
+        }
+      ],
+      "explain": "Dalam sehari A menyelesaikan 1/12 bagian dan B menyelesaikan 1/24 bagian. Bersama-sama 1/12 + 1/24 = 2/24 + 1/24 = 3/24 = 1/8 bagian per hari, sehingga selesai dalam 8 hari.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 2
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-31",
+      "subtest": "tiu",
+      "topic": "soal cerita",
+      "stem": "Harga barang naik dari Rp150.000 menjadi Rp186.000. Berapa persen kenaikannya?",
+      "options": [
+        "20%",
+        "22%",
+        "24%",
+        "26%",
+        "28%"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Untung/Rugi selalu dihitung dari Harga Beli (Modal), bukan Harga Jual. Diskon bertingkat d1% + d2% ≠ jumlah langsung, hitung bertahap. Petunjuk inti: Kenaikan harganya Rp36.000.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Gunakan pembulatan kasar (estimasi puluhan terdekat) untuk membuang opsi yang terlalu jauh secara magnitudo."
+        },
+        {
+          "lens": "logika",
+          "text": "Ubah persen umum ke pecahan istimewa: 12,5% = 1/8, 25% = 1/4, 33,3% = 1/3, 37,5% = 3/8, 66,7% = 2/3 agar hitung kilat."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Diskon 50% + 20% bukan 70%, melainkan 100% → 50% → sisa 40% (total potongan 60%)."
+        }
+      ],
+      "explain": "Kenaikan harganya Rp36.000. Persentase kenaikan = 36.000 dibagi 150.000 dikali 100% = 24%.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 2
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-32",
+      "subtest": "tiu",
+      "topic": "figural serial",
+      "stem": "Perhatikan pola berikut, lalu tentukan gambar yang tepat untuk mengisi tanda tanya.",
+      "options": [
+        "↑",
+        "→",
+        "↓",
+        "←",
+        "↗"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Amati satu elemen saja (misal sudut rotasi 45°/90° atau jumlah sisi) dari kiri ke kanan sebelum melihat detail lain. Petunjuk inti: Anak panah berputar searah jarum jam sebesar 90 derajat setiap langkah.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang arah pencerminan atau perubahan warnanya melanggar pola dua langkah pertama."
+        },
+        {
+          "lens": "logika",
+          "text": "Bandingkan perubahan per baris/kolom: pergeseran arah jarum jam, penambahan elemen, atau kategori kata tak sejenis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pola rotasi + pencerminan sering digabung sekaligus—uji masing-masing elemen secara terpisah."
+        }
+      ],
+      "explain": "Anak panah berputar searah jarum jam sebesar 90 derajat setiap langkah. Setelah arah kiri, putaran berikutnya kembali ke arah atas.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 0
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-33",
+      "subtest": "tiu",
+      "topic": "figural serial",
+      "stem": "Perhatikan pola berikut, lalu tentukan gambar berikutnya.",
+      "options": [
+        "Dua segitiga",
+        "Tiga segitiga",
+        "Empat segitiga",
+        "Lima segitiga",
+        "Enam segitiga"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Amati satu elemen saja (misal sudut rotasi 45°/90° atau jumlah sisi) dari kiri ke kanan sebelum melihat detail lain. Petunjuk inti: Jumlah segitiga bertambah satu setiap langkah, dari satu hingga tiga.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang arah pencerminan atau perubahan warnanya melanggar pola dua langkah pertama."
+        },
+        {
+          "lens": "logika",
+          "text": "Bandingkan perubahan per baris/kolom: pergeseran arah jarum jam, penambahan elemen, atau kategori kata tak sejenis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pola rotasi + pencerminan sering digabung sekaligus—uji masing-masing elemen secara terpisah."
+        }
+      ],
+      "explain": "Jumlah segitiga bertambah satu setiap langkah, dari satu hingga tiga. Maka langkah berikutnya berisi empat segitiga.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 2
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-34",
+      "subtest": "tiu",
+      "topic": "figural analogi",
+      "stem": "Lengkapi analogi gambar berikut.",
+      "options": [
+        "◐",
+        "●",
+        "○",
+        "◍",
+        "◌"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Pada pasangan pertama, bangun yang semula kosong berubah menjadi terisi penuh tanpa mengubah bentuknya.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Singkirkan pasangan kata yang arah hubungannya terbalik (kanan-ke-kiri) atau kelas katanya tidak sejajar."
+        },
+        {
+          "lens": "logika",
+          "text": "Uji kesetaraan relasi: fungsi, sebab-akibat, bahan baku, sinonim/antonim, atau bagian-keseluruhan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
+        }
+      ],
+      "explain": "Pada pasangan pertama, bangun yang semula kosong berubah menjadi terisi penuh tanpa mengubah bentuknya. Maka lingkaran kosong berubah menjadi lingkaran terisi.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 1
+    },
+    {
+      "id": "cpns26-p7-p7-tiu-35",
+      "subtest": "tiu",
+      "topic": "figural ketidaksamaan",
+      "stem": "Manakah kelompok gambar yang TIDAK mengikuti pola yang sama dengan kelompok lainnya?",
+      "options": [
+        "■□■□",
+        "●○●○",
+        "▲△▲△",
+        "◆◇◆◇",
+        "★★☆☆"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Amati satu elemen saja (misal sudut rotasi 45°/90° atau jumlah sisi) dari kiri ke kanan sebelum melihat detail lain. Petunjuk inti: Empat pilihan lainnya menyusun bangun terisi dan kosong secara berselang-seling.."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Coret opsi yang arah pencerminan atau perubahan warnanya melanggar pola dua langkah pertama."
+        },
+        {
+          "lens": "logika",
+          "text": "Bandingkan perubahan per baris/kolom: pergeseran arah jarum jam, penambahan elemen, atau kategori kata tak sejenis."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Pola rotasi + pencerminan sering digabung sekaligus—uji masing-masing elemen secara terpisah."
+        }
+      ],
+      "explain": "Empat pilihan lainnya menyusun bangun terisi dan kosong secara berselang-seling. Pilihan E mengelompokkan dua bangun terisi lebih dahulu sehingga polanya berbeda.",
+      "targetSec": 60,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "key": 4
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-01",
+      "subtest": "tkp",
+      "topic": "pelayanan publik",
+      "stem": "Anda mengetahui warga sering harus menunggu lama karena satu tanda tangan pejabat yang jarang di tempat. Sikap Anda...",
+      "options": [
+        "Menyampaikan kepada warga bahwa pejabatnya sedang tidak ada",
+        "Mengusulkan mekanisme pendelegasian tanda tangan atau tanda tangan elektronik agar layanan tidak terhenti",
+        "Mengumpulkan berkas sampai pejabat datang",
+        "Meminta warga datang di hari lain",
+        "Menghubungi pejabat setiap kali ada berkas"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Hambatan yang berulang perlu dijawab dengan perubahan mekanisme, bukan penanganan kasus per kasus. Pendelegasian atau tanda tangan elektronik menyelesaikannya secara permanen.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-02",
+      "subtest": "tkp",
+      "topic": "pelayanan publik",
+      "stem": "Anda menerima berkas yang secara aturan sudah tidak dapat diproses karena melewati batas waktu. Sikap Anda...",
+      "options": [
+        "Menolak dengan menyebutkan bahwa waktunya sudah lewat",
+        "Menjelaskan ketentuannya, menelusuri apakah ada mekanisme perpanjangan, dan menginformasikan jadwal berikutnya",
+        "Memproses saja karena hanya lewat sedikit",
+        "Meminta warga membuat surat permohonan khusus tanpa memastikan dasarnya",
+        "Menyarankan warga menghubungi pejabat yang berwenang"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Menolak tanpa memeriksa kemungkinan mekanisme lain adalah pelayanan yang setengah. Menelusuri opsi resmi sekaligus memberi informasi jadwal berikutnya jauh lebih menolong.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-03",
+      "subtest": "tkp",
+      "topic": "pelayanan publik",
+      "stem": "Warga menyampaikan bahwa petugas sebelumnya memberi informasi yang berbeda dari yang Anda sampaikan. Sikap Anda...",
+      "options": [
+        "Menyatakan bahwa informasi Anda yang benar",
+        "Memeriksa ketentuan resminya bersama warga, menyampaikan yang benar, dan memastikan kekeliruan itu diluruskan di internal",
+        "Menyalahkan petugas sebelumnya",
+        "Mengikuti informasi petugas sebelumnya agar tidak membingungkan",
+        "Meminta warga menanyakan kembali kepada petugas tersebut"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Memeriksa ketentuan bersama warga menyelesaikan kebingungan hari itu, sedangkan meluruskan di internal mencegah warga lain mengalami hal yang sama.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        3,
+        5,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-04",
+      "subtest": "tkp",
+      "topic": "pelayanan publik",
+      "stem": "Anda melihat rekan sering menyuruh warga membeli meterai di koperasi tertentu yang dikelola keluarganya. Sikap Anda...",
+      "options": [
+        "Membiarkan karena warga tetap terlayani",
+        "Mengingatkan rekan mengenai benturan kepentingan dan mengusulkan agar warga bebas memilih tempat pembelian",
+        "Menyarankan warga membeli di tempat lain diam-diam",
+        "Melaporkan langsung tanpa berbicara lebih dulu",
+        "Ikut menyarankan tempat lain yang Anda kenal"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Mengarahkan warga ke usaha milik keluarga adalah benturan kepentingan. Mengingatkan sekaligus mengusulkan kebebasan memilih menyelesaikan masalah tanpa langsung menuduh.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-05",
+      "subtest": "tkp",
+      "topic": "pelayanan publik",
+      "stem": "Anda diminta melayani warga sambil menyelesaikan laporan yang ditunggu pimpinan. Sikap Anda...",
+      "options": [
+        "Mendahulukan laporan karena diminta pimpinan",
+        "Melayani warga terlebih dahulu karena sudah menunggu, lalu menyampaikan kepada pimpinan mengenai penyesuaian waktu laporan",
+        "Mengerjakan keduanya bersamaan",
+        "Meminta rekan melayani warga tanpa memastikan ia paham perkaranya",
+        "Meminta warga menunggu tanpa kepastian waktu"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Warga yang sudah menunggu di depan Anda memiliki hak layanan yang tidak boleh diabaikan. Menyampaikan penyesuaian waktu kepada pimpinan menjaga keduanya tetap tertangani.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        3,
+        5,
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-06",
+      "subtest": "tkp",
+      "topic": "pelayanan publik",
+      "stem": "Anda mendapati banyak warga tidak memahami perbedaan dua jenis layanan yang mirip namanya. Sikap Anda...",
+      "options": [
+        "Menjelaskan satu per satu setiap kali ditanya",
+        "Membuat penjelasan pembanding yang sederhana dan memasangnya di loket serta kanal daring instansi",
+        "Menyarankan warga membaca peraturan terkait",
+        "Mengusulkan salah satu layanan dihapus",
+        "Membiarkan karena warga akhirnya akan paham sendiri"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Kebingungan yang berulang paling efisien dijawab dengan penjelasan tertulis yang mudah diakses, sehingga waktu petugas dapat dipakai untuk hal yang lebih rumit.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        3,
+        5,
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-07",
+      "subtest": "tkp",
+      "topic": "pelayanan publik",
+      "stem": "Seorang warga memuji layanan Anda dan menawarkan uang sebagai tanda terima kasih. Sikap Anda...",
+      "options": [
+        "Menerima karena diberikan dengan tulus",
+        "Menolak dengan sopan dan menjelaskan bahwa layanan tersebut memang hak warga tanpa biaya tambahan",
+        "Menerima lalu memasukkannya ke kas kantor",
+        "Menolak dengan sikap dingin",
+        "Menerima dan membagikannya kepada rekan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Menolak dengan sopan sekaligus menegaskan bahwa layanan adalah hak warga mencegah terbentuknya kebiasaan pemberian yang lama-lama berubah menjadi keharusan.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-08",
+      "subtest": "tkp",
+      "topic": "pelayanan publik",
+      "stem": "Anda ditugaskan mengevaluasi mutu layanan unit Anda sendiri. Sikap Anda...",
+      "options": [
+        "Menyusun evaluasi yang menonjolkan keberhasilan",
+        "Mengumpulkan data keluhan, waktu layanan, dan masukan warga secara apa adanya, lalu menyajikan temuan beserta usulan perbaikan",
+        "Meminta unit lain yang mengevaluasi",
+        "Menyusun evaluasi berdasarkan pendapat rekan sekantor saja",
+        "Menyalin evaluasi tahun sebelumnya"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Evaluasi diri yang jujur adalah alat perbaikan paling murah. Menonjolkan keberhasilan saja membuang kesempatan memperbaiki hal yang benar-benar dikeluhkan warga.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        4,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-09",
+      "subtest": "tkp",
+      "topic": "jejaring kerja",
+      "stem": "Anda diberi rekan kerja baru yang kemampuannya belum memadai untuk pekerjaan yang mendesak. Sikap Anda...",
+      "options": [
+        "Mengerjakan sendiri seluruh pekerjaan",
+        "Membagi pekerjaan sesuai kemampuannya sambil mendampingi pada bagian yang belum dikuasai",
+        "Meminta pergantian rekan",
+        "Menyerahkan bagian yang sulit tanpa pendampingan",
+        "Menunda pekerjaan sampai ia siap"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Membagi sesuai kemampuan sambil mendampingi menyelesaikan pekerjaan sekaligus menumbuhkan rekan. Menyerahkan bagian sulit tanpa pendampingan berisiko merusak hasil dan kepercayaan dirinya.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        4,
+        5,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-10",
+      "subtest": "tkp",
+      "topic": "jejaring kerja",
+      "stem": "Anda mendapati keputusan penting sering diambil di luar forum resmi oleh sekelompok rekan. Sikap Anda...",
+      "options": [
+        "Berusaha masuk ke dalam kelompok tersebut",
+        "Mengusulkan agar keputusan dibahas dan dicatat dalam forum resmi agar semua pihak memiliki informasi yang sama",
+        "Membiarkan karena keputusannya tetap berjalan",
+        "Mengeluhkan hal ini kepada rekan lain",
+        "Menolak menjalankan keputusan tersebut"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Keputusan yang diambil di luar forum resmi menciptakan kesenjangan informasi dan sulit dipertanggungjawabkan. Mendorong pembahasan resmi memperbaiki tata kelolanya.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-11",
+      "subtest": "tkp",
+      "topic": "jejaring kerja",
+      "stem": "Anda dan rekan sama-sama merasa paling berhak memimpin sebuah kegiatan. Sikap Anda...",
+      "options": [
+        "Bersaing terbuka untuk mendapatkan penunjukan",
+        "Mengajaknya membahas pembagian peran berdasarkan kekuatan masing-masing dan menyerahkan keputusan akhir pada pimpinan",
+        "Mengalah tanpa membicarakan apa pun",
+        "Menyampaikan kelemahan rekan kepada pimpinan",
+        "Menarik diri dari kegiatan tersebut"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Membicarakan pembagian peran secara terbuka mengubah persaingan menjadi kerja sama. Menjatuhkan rekan di hadapan pimpinan merusak kepercayaan jangka panjang.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        4,
+        5,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-12",
+      "subtest": "tkp",
+      "topic": "jejaring kerja",
+      "stem": "Rekan dari unit lain meminta bantuan Anda di luar tugas pokok Anda dan tanpa permintaan resmi. Sikap Anda...",
+      "options": [
+        "Menolak karena bukan tugas Anda",
+        "Membantu sebatas yang tidak mengganggu tugas pokok, sambil menyarankan permintaan resmi bila membutuhkan dukungan berkelanjutan",
+        "Membantu sepenuhnya meski tugas Anda terbengkalai",
+        "Meminta ia mengurus sendiri",
+        "Meneruskan permintaan itu kepada rekan lain"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Membantu dalam batas wajar menjaga hubungan antarunit, sedangkan menyarankan jalur resmi memastikan dukungan berkelanjutan tercatat dan terencana.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-13",
+      "subtest": "tkp",
+      "topic": "jejaring kerja",
+      "stem": "Anda memimpin rapat yang selalu molor karena pembahasan melebar. Sikap Anda...",
+      "options": [
+        "Membiarkan agar semua puas berbicara",
+        "Menyusun agenda dan alokasi waktu tiap pokok bahasan, serta mencatat hal di luar agenda untuk dibahas terpisah",
+        "Memotong pembicaraan peserta yang panjang",
+        "Mempersingkat rapat dengan mengurangi pokok bahasan",
+        "Mengadakan rapat lebih sering agar semua terbahas"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Agenda dengan alokasi waktu menjaga fokus tanpa membungkam peserta. Mencatat hal di luar agenda memastikan masukan tetap tertampung untuk pembahasan terpisah.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-14",
+      "subtest": "tkp",
+      "topic": "jejaring kerja",
+      "stem": "Anda mengetahui rekan sedang menghadapi masalah pribadi yang memengaruhi pekerjaannya. Sikap Anda...",
+      "options": [
+        "Menanyakan detail masalahnya kepada rekan lain",
+        "Menyampaikan kesediaan membantu bila dibutuhkan, tanpa memaksa ia bercerita, dan membantu menjaga pekerjaannya tetap berjalan",
+        "Melaporkan penurunan kinerjanya kepada atasan",
+        "Membiarkan karena itu urusan pribadinya",
+        "Menasihatinya agar tidak membawa masalah pribadi ke kantor"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Menawarkan bantuan tanpa memaksa menghormati privasi sekaligus menunjukkan kepedulian. Mencari tahu lewat rekan lain justru melanggar batas privasinya.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-15",
+      "subtest": "tkp",
+      "topic": "jejaring kerja",
+      "stem": "Anda diminta menjadi penghubung antara instansi dan media terkait isu yang sedang ramai. Sikap Anda...",
+      "options": [
+        "Menghindari wartawan sampai isu mereda",
+        "Menyiapkan informasi resmi yang akurat, menyampaikan yang boleh disampaikan, dan menjelaskan alasan bila ada yang belum bisa disampaikan",
+        "Menyampaikan seluruh informasi termasuk yang belum final",
+        "Menyampaikan bahwa Anda tidak berwenang berbicara",
+        "Menjawab hanya melalui pesan tertulis singkat"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Kekosongan informasi resmi diisi oleh spekulasi. Menyampaikan yang boleh disampaikan sekaligus menjelaskan batasnya adalah cara menjaga kepercayaan publik.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-16",
+      "subtest": "tkp",
+      "topic": "sosial budaya",
+      "stem": "Anda mendapati warga di wilayah tugas Anda enggan menggunakan layanan digital karena tidak memiliki telepon pintar. Sikap Anda...",
+      "options": [
+        "Menyatakan bahwa layanan digital adalah keharusan",
+        "Menyediakan jalur layanan luring atau pendampingan di kantor desa bagi warga yang belum bisa mengakses layanan digital",
+        "Menyarankan warga meminjam telepon tetangga",
+        "Mencatat kendala tersebut untuk laporan",
+        "Meminta warga datang ke kantor kabupaten"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Digitalisasi tidak boleh menyingkirkan warga yang belum memiliki akses. Menyediakan jalur alternatif adalah syarat agar layanan tetap adil bagi semua.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-17",
+      "subtest": "tkp",
+      "topic": "sosial budaya",
+      "stem": "Sebuah tradisi setempat mengharuskan tamu resmi mengikuti prosesi panjang yang memakan waktu kerja. Sikap Anda...",
+      "options": [
+        "Menolak mengikuti karena mengganggu jadwal",
+        "Mengikuti bagian pokok prosesi sebagai bentuk penghormatan, sambil menyepakati pengaturan waktu bersama tuan rumah",
+        "Mengikuti seluruh prosesi meski pekerjaan terbengkalai",
+        "Mengirim perwakilan tanpa penjelasan",
+        "Datang terlambat lalu pergi lebih awal"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Menghormati tradisi dan menjaga tugas dapat berjalan bersama melalui kesepakatan waktu dengan tuan rumah, yang umumnya justru menghargai keterusterangan.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        3,
+        5,
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-18",
+      "subtest": "tkp",
+      "topic": "sosial budaya",
+      "stem": "Anda melihat bantuan sosial di wilayah Anda hanya menjangkau warga yang tinggal dekat jalan utama. Sikap Anda...",
+      "options": [
+        "Menganggap wajar karena akses ke pelosok sulit",
+        "Memetakan wilayah yang belum terjangkau dan mengusulkan mekanisme penyaluran yang menjangkau daerah terpencil",
+        "Melaporkan kendala akses tanpa usulan",
+        "Meminta warga pelosok datang ke titik penyaluran",
+        "Menyalurkan sisa bantuan bila masih ada"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Keadilan penyaluran menuntut penyesuaian mekanisme, bukan pembiaran atas hambatan geografis. Pemetaan wilayah yang belum terjangkau adalah langkah pertamanya.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-19",
+      "subtest": "tkp",
+      "topic": "sosial budaya",
+      "stem": "Rekan kerja Anda yang berbeda agama diminta bertugas pada hari besar keagamaannya. Sikap Anda...",
+      "options": [
+        "Menganggap itu risiko pekerjaan",
+        "Mengusulkan pertukaran jadwal dan bersedia menggantikannya bila memungkinkan",
+        "Menyarankan ia mengajukan izin sendiri",
+        "Membiarkan karena bukan urusan Anda",
+        "Menyampaikan hal itu kepada atasan tanpa memberitahunya"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Menawarkan pertukaran jadwal adalah bentuk toleransi paling konkret di tempat kerja, jauh lebih bermakna daripada sekadar menyatakan simpati.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-20",
+      "subtest": "tkp",
+      "topic": "sosial budaya",
+      "stem": "Anda mendapati bahasa yang dipakai dalam formulir instansi sulit dipahami warga desa. Sikap Anda...",
+      "options": [
+        "Membiarkan karena formulir sudah baku",
+        "Mengusulkan penyederhanaan bahasa formulir dan menambahkan panduan pengisian bergambar",
+        "Menjelaskan secara lisan setiap kali ada yang bertanya",
+        "Menyediakan contoh formulir yang sudah terisi",
+        "Meminta perangkat desa yang mengisikan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Menyederhanakan formulir menyelesaikan masalah untuk semua warga sekaligus, sedangkan penjelasan lisan hanya menolong yang kebetulan bertanya.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-21",
+      "subtest": "tkp",
+      "topic": "sosial budaya",
+      "stem": "Anda diminta memimpin kegiatan yang melibatkan warga dari dua kampung yang pernah berkonflik. Sikap Anda...",
+      "options": [
+        "Memisahkan kegiatan keduanya agar aman",
+        "Merancang kegiatan yang menuntut kerja sama kedua pihak dengan peran setara, dan melibatkan tokoh dari kedua kampung sejak awal",
+        "Melaksanakan kegiatan di lokasi netral tanpa pengaturan lain",
+        "Membatasi jumlah peserta dari kedua kampung",
+        "Menunda kegiatan sampai hubungan membaik"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Kerja sama dengan peran setara dan tujuan bersama adalah cara paling efektif memulihkan hubungan antarkelompok. Memisahkan hanya mengawetkan jarak yang ada.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        3,
+        5,
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-22",
+      "subtest": "tkp",
+      "topic": "sosial budaya",
+      "stem": "Anda mendengar warga menyebut instansi Anda hanya melayani orang yang punya kenalan. Sikap Anda...",
+      "options": [
+        "Membantah anggapan tersebut",
+        "Menanyakan pengalaman konkret yang mendasarinya, menelusuri kebenarannya, dan memperbaiki bila memang terbukti",
+        "Mengabaikan karena hanya desas-desus",
+        "Menjelaskan bahwa layanan sudah sesuai prosedur",
+        "Menyampaikan hal itu kepada atasan tanpa penelusuran"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Anggapan semacam ini biasanya lahir dari pengalaman nyata seseorang. Menelusuri pengalaman konkretnya mengubah desas-desus menjadi bahan perbaikan.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-23",
+      "subtest": "tkp",
+      "topic": "teknologi informasi",
+      "stem": "Anda diminta menyusun daftar penerima bantuan dari data yang dikirim beberapa desa dalam format berbeda. Langkah pertama Anda...",
+      "options": [
+        "Menggabungkan seluruh berkas apa adanya",
+        "Menyusun format baku, meminta desa mengirim ulang sesuai format bila perlu, dan memvalidasi dengan pengenal unik",
+        "Mengetik ulang seluruh data secara manual",
+        "Menggunakan data desa yang formatnya paling rapi saja",
+        "Menyerahkan penggabungan kepada bagian teknologi informasi"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Format baku dan validasi dengan pengenal unik mencegah duplikasi serta kesalahan yang sulit ditelusuri setelah data tergabung.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-24",
+      "subtest": "tkp",
+      "topic": "teknologi informasi",
+      "stem": "Sebuah unggahan di media sosial menyebarkan informasi keliru tentang layanan instansi Anda. Sikap Anda...",
+      "options": [
+        "Membalas unggahan tersebut secara pribadi",
+        "Menyiapkan klarifikasi resmi berisi informasi yang benar dan memublikasikannya melalui kanal resmi instansi",
+        "Melaporkan unggahan tersebut saja",
+        "Mengabaikan karena akan hilang dengan sendirinya",
+        "Meminta rekan-rekan ikut membalas unggahan itu"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Informasi keliru dilawan dengan informasi benar dari sumber resmi, bukan dengan perdebatan pribadi yang justru memperbesar jangkauan unggahan tersebut.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        3,
+        5,
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-25",
+      "subtest": "tkp",
+      "topic": "teknologi informasi",
+      "stem": "Anda diminta menyimpan salinan basis data warga di perangkat kerja Anda agar mudah diakses. Sikap Anda...",
+      "options": [
+        "Menyimpan karena mempermudah pekerjaan",
+        "Menolak menyimpan salinan penuh dan mengusulkan akses melalui sistem dengan kendali hak akses",
+        "Menyimpan hanya sebagian data",
+        "Menyimpan dengan memberi kata sandi pada berkasnya",
+        "Menyimpan sementara lalu menghapusnya setiap hari"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Salinan data warga di perangkat perorangan memperbesar risiko kebocoran dan sulit diawasi. Akses melalui sistem dengan kendali hak akses memenuhi kebutuhan tanpa risiko tersebut.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        2,
+        4,
+        3
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-26",
+      "subtest": "tkp",
+      "topic": "teknologi informasi",
+      "stem": "Anda menemukan aplikasi yang dipakai unit Anda sudah lama tidak diperbarui dan rawan gangguan. Sikap Anda...",
+      "options": [
+        "Terus menggunakan karena masih berfungsi",
+        "Melaporkan risikonya disertai contoh gangguan yang pernah terjadi dan mengusulkan pembaruan atau penggantian",
+        "Mencari aplikasi pengganti sendiri",
+        "Mengurangi penggunaan aplikasi tersebut",
+        "Menunggu sampai terjadi gangguan besar"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Usulan pembaruan lebih mudah disetujui bila disertai bukti gangguan yang pernah terjadi. Menunggu gangguan besar berarti membiarkan risiko terwujud lebih dulu.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-27",
+      "subtest": "tkp",
+      "topic": "teknologi informasi",
+      "stem": "Anda diminta membuat paparan berbasis data untuk pimpinan dalam waktu dua jam. Sikap Anda...",
+      "options": [
+        "Menyusun paparan berisi seluruh data yang tersedia",
+        "Menentukan pesan utama, memilih data pendukung yang relevan, dan menyajikannya secara ringkas dengan lampiran rinci",
+        "Menyalin paparan sebelumnya dan mengganti judul",
+        "Meminta perpanjangan waktu",
+        "Menyusun paparan tanpa data karena waktu terbatas"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Dalam waktu terbatas, kejelasan pesan utama lebih menentukan daripada banyaknya data. Lampiran rinci menjaga kelengkapan tanpa mengorbankan keterbacaan.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        3,
+        5,
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-28",
+      "subtest": "tkp",
+      "topic": "teknologi informasi",
+      "stem": "Rekan Anda meminta Anda mengunduh perangkat lunak dari sumber tidak resmi karena versi resminya berbayar. Sikap Anda...",
+      "options": [
+        "Mengunduh karena kebutuhan pekerjaan mendesak",
+        "Menolak dan mencari alternatif berlisensi terbuka atau mengusulkan pengadaan resmi",
+        "Mengunduh dan memasangnya di perangkat pribadi saja",
+        "Meminta rekan mengunduhnya sendiri",
+        "Menunda pekerjaan sampai ada perangkat lunak resmi"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Perangkat lunak dari sumber tidak resmi berisiko membawa perangkat perusak sekaligus melanggar hukum. Alternatif berlisensi terbuka umumnya cukup memadai.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-29",
+      "subtest": "tkp",
+      "topic": "teknologi informasi",
+      "stem": "Anda menyadari kemampuan mengolah data Anda tertinggal dibanding tuntutan pekerjaan sekarang. Sikap Anda...",
+      "options": [
+        "Menghindari pekerjaan yang membutuhkan pengolahan data",
+        "Menetapkan target belajar yang konkret, berlatih pada pekerjaan nyata, dan meminta bimbingan rekan yang menguasai",
+        "Menunggu pelatihan resmi dari instansi",
+        "Meminta rekan mengerjakan bagian pengolahan data",
+        "Mengerjakan secara manual meski jauh lebih lama"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Belajar pada pekerjaan nyata dengan target konkret jauh lebih cepat membentuk kemampuan daripada menunggu pelatihan yang belum tentu tersedia.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-30",
+      "subtest": "tkp",
+      "topic": "profesionalisme",
+      "stem": "Anda menerima dua perintah berbeda dari dua atasan pada waktu bersamaan. Sikap Anda...",
+      "options": [
+        "Mengerjakan perintah atasan yang lebih tinggi jabatannya",
+        "Menyampaikan kepada keduanya mengenai adanya dua perintah dan meminta penetapan prioritas",
+        "Mengerjakan keduanya sekaligus",
+        "Mengerjakan yang datang lebih dulu",
+        "Menunda keduanya sampai ada kejelasan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Perintah ganda diselesaikan dengan komunikasi terbuka kepada kedua pemberi perintah, bukan dengan memilih sendiri berdasarkan jabatan atau urutan kedatangan.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        3,
+        5,
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-31",
+      "subtest": "tkp",
+      "topic": "profesionalisme",
+      "stem": "Anda menyadari pekerjaan Anda selama ini tidak pernah didokumentasikan sehingga sulit diteruskan orang lain. Sikap Anda...",
+      "options": [
+        "Membiarkan karena Anda yang paling paham",
+        "Menyusun dokumentasi alur kerja dan catatan penting agar pekerjaan dapat diteruskan siapa pun",
+        "Menyusun catatan untuk diri sendiri saja",
+        "Menyusun dokumentasi bila akan pindah tugas",
+        "Menjelaskan secara lisan kepada rekan bila diperlukan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Pekerjaan yang hanya dipahami satu orang adalah risiko bagi organisasi. Dokumentasi yang disusun sejak awal jauh lebih baik daripada dibuat terburu-buru saat akan pindah.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-32",
+      "subtest": "tkp",
+      "topic": "profesionalisme",
+      "stem": "Anda diminta mengulang pekerjaan yang menurut Anda sudah benar. Sikap Anda...",
+      "options": [
+        "Menolak karena yakin pekerjaan sudah benar",
+        "Menanyakan bagian mana yang dianggap keliru, memeriksanya bersama, lalu memperbaiki bila memang perlu",
+        "Mengulang tanpa bertanya apa pun",
+        "Mengulang sebagian saja",
+        "Meminta rekan lain yang mengulangnya"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Menanyakan bagian yang dianggap keliru menghemat waktu semua pihak dan mencegah pengulangan yang tidak perlu, sekaligus menunjukkan keterbukaan menerima koreksi.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        3,
+        5,
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-33",
+      "subtest": "tkp",
+      "topic": "profesionalisme",
+      "stem": "Anda mendapati diri Anda mudah terpancing emosi saat menghadapi warga yang menuntut. Sikap Anda...",
+      "options": [
+        "Menghindari melayani warga yang bersikap keras",
+        "Melatih teknik menenangkan diri, menyiapkan kalimat baku untuk situasi sulit, dan meminta masukan rekan yang lebih tenang",
+        "Menganggap hal itu wajar dan tidak perlu diubah",
+        "Meminta pindah ke pekerjaan tanpa tatap muka",
+        "Membalas dengan sikap tegas agar warga berhenti menuntut"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Pengendalian emosi adalah keterampilan yang dapat dilatih. Menyiapkan kalimat baku untuk situasi sulit terbukti efektif menurunkan ketegangan di loket layanan.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        3,
+        5,
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-34",
+      "subtest": "tkp",
+      "topic": "profesionalisme",
+      "stem": "Anda diminta menyusun rencana kerja tahunan unit. Pendekatan terbaik adalah...",
+      "options": [
+        "Menyalin rencana tahun sebelumnya",
+        "Mengevaluasi capaian tahun lalu, menampung masukan pelaksana, dan menetapkan sasaran yang terukur beserta indikatornya",
+        "Menetapkan sasaran setinggi mungkin agar terlihat ambisius",
+        "Menyusun rencana sendiri agar cepat selesai",
+        "Menunggu arahan rinci dari pimpinan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Rencana kerja yang baik berangkat dari evaluasi capaian dan masukan pelaksana, serta memiliki indikator agar kemajuannya dapat diukur sepanjang tahun.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-35",
+      "subtest": "tkp",
+      "topic": "profesionalisme",
+      "stem": "Anda mengetahui rekan Anda memalsukan bukti perjalanan dinas. Sikap Anda...",
+      "options": [
+        "Membiarkan karena bukan urusan Anda",
+        "Mengingatkannya bahwa itu pemalsuan dokumen, dan bila tidak diperbaiki melaporkannya melalui saluran resmi",
+        "Melaporkan langsung tanpa berbicara lebih dulu",
+        "Menceritakannya kepada rekan lain",
+        "Meminta rekan tersebut membagi sebagian dana"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Pemalsuan bukti perjalanan dinas merugikan keuangan negara. Mengingatkan lebih dulu memberi kesempatan memperbaiki, sementara pelaporan resmi tetap menjadi langkah berikutnya bila tidak ada perubahan.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        3,
+        5,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-36",
+      "subtest": "tkp",
+      "topic": "profesionalisme",
+      "stem": "Anda diminta menjadi pelaksana kegiatan yang perencanaannya menurut Anda kurang matang. Sikap Anda...",
+      "options": [
+        "Melaksanakan apa adanya dan menyalahkan perencanaan bila gagal",
+        "Menyampaikan risiko yang Anda lihat beserta usulan perbaikan sebelum pelaksanaan dimulai",
+        "Menolak menjadi pelaksana",
+        "Melaksanakan sambil memperbaiki sendiri tanpa memberi tahu",
+        "Melaksanakan sebagian yang menurut Anda layak saja"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Menyampaikan risiko sebelum pelaksanaan memberi kesempatan memperbaiki ketika masih murah. Menyalahkan perencanaan setelah gagal tidak menolong siapa pun.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        2,
+        4,
+        3
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-37",
+      "subtest": "tkp",
+      "topic": "profesionalisme",
+      "stem": "Anda berhasil menyelesaikan pekerjaan besar, dan atasan menawarkan tugas serupa yang lebih menantang. Sikap Anda...",
+      "options": [
+        "Menolak karena khawatir tidak mampu mengulang keberhasilan",
+        "Menerima dengan menilai kebutuhan dukungan yang diperlukan dan menyampaikannya sejak awal",
+        "Menerima tanpa mempertimbangkan kapasitas",
+        "Meminta imbalan tambahan lebih dahulu",
+        "Menerima lalu mendelegasikan seluruhnya kepada tim"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Menerima tantangan sambil menyampaikan kebutuhan dukungan sejak awal adalah tanda kesiapan sekaligus kejujuran atas kapasitas yang dimiliki.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-38",
+      "subtest": "tkp",
+      "topic": "anti radikalisme",
+      "stem": "Anda mendengar seorang rekan mengatakan bahwa kelompok yang berbeda pandangan tidak layak menjadi ASN. Sikap Anda...",
+      "options": [
+        "Menyetujui agar tidak berselisih",
+        "Menyampaikan bahwa syarat menjadi ASN diatur undang-undang dan tidak menyangkut pandangan pribadi sepanjang setia pada Pancasila dan UUD 1945",
+        "Diam karena tidak ingin berdebat",
+        "Melaporkan ucapannya kepada atasan",
+        "Menceritakan ucapannya kepada rekan lain"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Meluruskan dengan dasar aturan mencegah pandangan diskriminatif menjadi kebiasaan berpikir di lingkungan kerja, sekaligus menghindarkan perdebatan yang tidak berdasar.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        2,
+        4,
+        3
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-39",
+      "subtest": "tkp",
+      "topic": "anti radikalisme",
+      "stem": "Anda diminta menyusun materi bagi pegawai mengenai bahaya paham kekerasan. Pendekatan yang paling efektif adalah...",
+      "options": [
+        "Menampilkan gambar-gambar kekerasan agar menimbulkan efek jera",
+        "Menyajikan kasus nyata, menjelaskan pola perekrutannya, dan melatih cara mengenali serta merespons secara sehat",
+        "Membacakan peraturan yang melarang paham tersebut",
+        "Mengundang aparat untuk memberikan peringatan",
+        "Membagikan bacaan tanpa pertemuan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Mengenali pola perekrutan jauh lebih berguna daripada sekadar mengetahui larangannya. Materi yang melatih respons membuat pegawai mampu bertindak saat menghadapi situasi nyata.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        3,
+        4,
+        1
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-40",
+      "subtest": "tkp",
+      "topic": "anti radikalisme",
+      "stem": "Seorang warga mengeluh bahwa dirinya dicurigai hanya karena penampilan dan asal daerahnya. Sikap Anda...",
+      "options": [
+        "Menyarankan ia mengubah penampilan agar tidak dicurigai",
+        "Meminta maaf atas perlakuan tersebut, memastikan layanan diberikan setara, dan mengangkat masalah ini agar tidak terulang",
+        "Menjelaskan bahwa kecurigaan itu wajar demi keamanan",
+        "Mencatat keluhannya tanpa tindak lanjut",
+        "Menyarankan ia melapor ke unit pengaduan"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Kecurigaan berbasis penampilan atau asal daerah adalah diskriminasi yang justru memupuk rasa terasing. Meminta maaf dan memperbaiki perlakuan adalah tanggung jawab langsung instansi.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-41",
+      "subtest": "tkp",
+      "topic": "anti radikalisme",
+      "stem": "Anda menemukan grup daring pegawai yang sering membahas ketidakpuasan terhadap negara dengan nada makin keras. Sikap Anda...",
+      "options": [
+        "Keluar dari grup tanpa berkata apa pun",
+        "Ikut berdiskusi secara sehat, menyalurkan keluhan ke jalur resmi yang tersedia, dan mengingatkan batas sebagai ASN",
+        "Melaporkan seluruh anggota grup",
+        "Membiarkan karena hanya obrolan",
+        "Menegur anggota grup satu per satu"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Ketidakpuasan yang tidak tersalurkan cenderung mengeras. Menyalurkannya ke jalur resmi sambil mengingatkan batas ASN menangani akar masalah tanpa membubarkan ruang bicaranya.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        3,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-42",
+      "subtest": "tkp",
+      "topic": "anti radikalisme",
+      "stem": "Anda diminta mengizinkan penggunaan lambang instansi pada kegiatan organisasi yang belum jelas latar belakangnya. Sikap Anda...",
+      "options": [
+        "Mengizinkan karena kegiatannya tampak positif",
+        "Menahan izin sampai latar belakang organisasi dan isi kegiatan terverifikasi sesuai ketentuan penggunaan lambang",
+        "Mengizinkan dengan syarat lambang diperkecil",
+        "Menolak seluruh permohonan penggunaan lambang",
+        "Menyerahkan keputusan kepada bagian umum"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Lambang instansi membawa kewibawaan negara. Verifikasi latar belakang sebelum memberi izin melindungi instansi dari dikaitkan dengan kegiatan yang bertentangan dengan nilai kebangsaan.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-43",
+      "subtest": "tkp",
+      "topic": "anti radikalisme",
+      "stem": "Seorang pegawai muda menyatakan bahwa demokrasi hanya menghasilkan kegaduhan dan lebih baik diganti sistem lain. Sikap Anda...",
+      "options": [
+        "Membantah keras pandangannya",
+        "Mengajaknya menelaah kelebihan dan kekurangan sistem yang ada, serta menjelaskan mekanisme perbaikan yang tersedia dalam sistem demokrasi",
+        "Menyetujui sebagian pandangannya",
+        "Melaporkan pandangannya kepada pimpinan",
+        "Menghindari pembicaraan tersebut"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Kekecewaan terhadap demokrasi sering lahir dari ketidaktahuan tentang mekanisme perbaikan yang tersedia. Menelaah bersama jauh lebih efektif daripada membantah atau menghindar.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        2,
+        5,
+        1,
+        4,
+        3
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-44",
+      "subtest": "tkp",
+      "topic": "anti radikalisme",
+      "stem": "Anda mendapati bahan ajar di lingkungan pendidikan yang Anda bina memuat pandangan yang merendahkan kelompok tertentu. Sikap Anda...",
+      "options": [
+        "Membiarkan karena bukan penyusun bahan ajar tersebut",
+        "Menghentikan penggunaannya, melaporkan temuan kepada pihak berwenang, dan mengusulkan bahan pengganti",
+        "Meminta pengajar melewati bagian tersebut",
+        "Memberi catatan tambahan pada bahan ajar",
+        "Menyampaikan keberatan secara lisan kepada pengajar"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Bahan ajar memiliki daya pengaruh besar dan berkelanjutan. Menghentikan penggunaannya sekaligus mengusulkan pengganti adalah tindakan yang tuntas, bukan sekadar menghindari bagian bermasalah.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        1,
+        5,
+        3,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "cpns26-p7-p7-tkp-45",
+      "subtest": "tkp",
+      "topic": "anti radikalisme",
+      "stem": "Anda diminta menilai apakah sebuah kegiatan kemasyarakatan layak difasilitasi instansi. Kriteria utama Anda...",
+      "options": [
+        "Jumlah peserta yang akan hadir",
+        "Kesesuaian tujuan kegiatan dengan nilai kebangsaan, keterbukaan bagi semua kalangan, dan kejelasan penanggung jawabnya",
+        "Kedekatan penyelenggara dengan instansi",
+        "Besarnya perhatian media terhadap kegiatan",
+        "Kesediaan penyelenggara menanggung sebagian biaya"
+      ],
+      "hints": [
+        {
+          "lens": "kilat",
+          "text": "Rumus emas TKP ('Bongkar TKP'): fokus pada judul/submateri soal (Pelayanan, Jejaring, TIK, Anti-Radikalisme, Sosial Budaya, Profesionalisme) → pilih sikap paling proaktif + taat SOP."
+        },
+        {
+          "lens": "eliminasi",
+          "text": "Buang segera respons pasif, menunda pekerjaan, melempar tanggung jawab, atau bertindak emosional."
+        },
+        {
+          "lens": "logika",
+          "text": "Urutan skor 5: berdampak langsung bagi pemecahan masalah + menjaga etika tim/organisasi + tetap taat aturan."
+        },
+        {
+          "lens": "jebakan",
+          "text": "Hati-hati pada opsi yang terdengar heroik/membantu teman tetapi melanggar prosedur rahasia jabatan atau aturan layanan."
+        }
+      ],
+      "explain": "Fasilitasi instansi memberi legitimasi, sehingga kriteria utamanya adalah kesesuaian nilai, keterbukaan, dan kejelasan tanggung jawab, bukan popularitas atau kedekatan.",
+      "targetSec": 45,
+      "source": "SKD CPNS 2026 · Paket 7",
+      "weights": [
+        3,
+        5,
+        1,
+        2,
+        4
+      ]
+    }
+  ]
+}

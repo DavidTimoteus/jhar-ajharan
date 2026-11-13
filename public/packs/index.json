@@ -6,7 +6,14 @@
     "version": 1,
     "updatedAt": "2026-11-07T00:00:00.000Z",
     "file": "cpns-skd-2024.json",
-    "count": 119
+    "count": 119,
+    "durationMin": 100,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Paket simulasi SKD CPNS sesuai kisi resmi BKN/KemenPAN-RB: 30 TWK, 35 TIU, 45 TKP."
   },
   {
     "id": "rbb-bumn-2024",
@@ -15,7 +22,14 @@
     "version": 1,
     "updatedAt": "2026-11-07T00:00:00.000Z",
     "file": "rbb-bumn-2024.json",
-    "count": 40
+    "count": 40,
+    "durationMin": 45,
+    "subtests": [
+      "tkd",
+      "akhlak",
+      "bhs"
+    ],
+    "note": "Paket simulasi Rekrutmen Bersama BUMN: TKD, Core Values AKHLAK, dan Bahasa Inggris."
   },
   {
     "id": "taktis-kilat",
@@ -24,7 +38,14 @@
     "version": 1,
     "updatedAt": "2026-11-07T00:00:00.000Z",
     "file": "taktis-kilat.json",
-    "count": 30
+    "count": 30,
+    "durationMin": 30,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "30 soal HOTS campuran untuk melatih kecepatan di bawah tekanan detik."
   },
   {
     "id": "contoh-soal-cpns",
@@ -33,7 +54,14 @@
     "version": 1,
     "updatedAt": "2026-11-07T00:00:00.000Z",
     "file": "contoh-soal-cpns.json",
-    "count": 12
+    "count": 12,
+    "durationMin": 30,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "12 soal contoh asli dari publikasi latihan soal bimbel/tryout (KitaLulus & tryout.id) dengan kunci jawaban resmi dari sumber. Untuk soal TKP, urutan prioritas sumber diterjemahkan menjadi bobot 1-5."
   },
   {
     "id": "rbb-bumn-2025",
@@ -42,6 +70,409 @@
     "version": 1,
     "updatedAt": "2026-11-07T00:00:00.000Z",
     "file": "rbb-bumn-2025.json",
-    "count": 40
+    "count": 40,
+    "durationMin": 45,
+    "subtests": [
+      "tkd",
+      "bhs"
+    ],
+    "note": "40 soal asli dari publikasi latihan bimbel: TKD BUMN (30 soal: verbal, penalaran) dari SkillAcademy dan Bahasa Inggris (10 soal structure) dari Dealls."
+  },
+  {
+    "id": "cpns-skd-original-2026",
+    "name": "SKD CPNS 2026 · Bank Original Standar KepmenPANRB",
+    "family": "cpns",
+    "version": 1,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-skd-original-2026.json",
+    "count": 35,
+    "durationMin": 40,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "35 soal 100% original terstruktur mengikuti KepmenPANRB No. 321/2024 & 21 submateri terbaru (TWK kasus, TIU Kecukupan Data/Argumen/Pola Tabel/Hitung Teruji, dan 6 Aspek TKP) lengkap dengan cara cepat bahasa awam."
+  },
+  {
+    "id": "rbb-bumn-original-2026",
+    "name": "RBB BUMN 2026 · Bank Original TKD, AKHLAK, B. Inggris & Agility",
+    "family": "bumn",
+    "version": 1,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "rbb-bumn-original-2026.json",
+    "count": 18,
+    "durationMin": 30,
+    "subtests": [
+      "tkd",
+      "akhlak",
+      "twk_bumn",
+      "bhs",
+      "agility"
+    ],
+    "note": "18 soal 100% original berstandar FHCI RBB BUMN Terbaru (Tahap 1: TKD Verbal/Deret/Klasifikasi/Diagram, AKHLAK, TWK BUMN; Tahap 2: Grammar/Error ID/Reading & Learning Agility) dengan pembahasan bahasa awam terverifikasi."
+  },
+  {
+    "id": "cpns-skd-2026-p1",
+    "name": "SKD CPNS 2026 · Paket 1 (TWK · TIU · TKP)",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-skd-2026-p1.json",
+    "count": 110,
+    "durationMin": 100,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi penuh 110 soal SKD CPNS 2026 (30 TWK, 35 TIU, 45 TKP bobot 1–5) sesuai KepmenPANRB No. 321 Tahun 2024."
+  },
+  {
+    "id": "cpns-skd-2026-p2",
+    "name": "SKD CPNS 2026 · Paket 2 (TWK · TIU · TKP)",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-skd-2026-p2.json",
+    "count": 110,
+    "durationMin": 100,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi penuh 110 soal SKD CPNS 2026 (30 TWK, 35 TIU, 45 TKP bobot 1–5) sesuai KepmenPANRB No. 321 Tahun 2024."
+  },
+  {
+    "id": "cpns-skd-2026-p3",
+    "name": "SKD CPNS 2026 · Paket 3 (TWK · TIU · TKP)",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-skd-2026-p3.json",
+    "count": 110,
+    "durationMin": 100,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi penuh 110 soal SKD CPNS 2026 (30 TWK, 35 TIU, 45 TKP bobot 1–5) sesuai KepmenPANRB No. 321 Tahun 2024."
+  },
+  {
+    "id": "cpns-skd-2026-p4",
+    "name": "SKD CPNS 2026 · Paket 4 (TWK · TIU · TKP)",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-skd-2026-p4.json",
+    "count": 110,
+    "durationMin": 100,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi penuh 110 soal SKD CPNS 2026 (30 TWK, 35 TIU, 45 TKP bobot 1–5) sesuai KepmenPANRB No. 321 Tahun 2024."
+  },
+  {
+    "id": "cpns-skd-2026-p5",
+    "name": "SKD CPNS 2026 · Paket 5 (TWK · TIU · TKP)",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-skd-2026-p5.json",
+    "count": 110,
+    "durationMin": 100,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi penuh 110 soal SKD CPNS 2026 (30 TWK, 35 TIU, 45 TKP bobot 1–5) sesuai KepmenPANRB No. 321 Tahun 2024."
+  },
+  {
+    "id": "cpns-skd-2026-p6",
+    "name": "SKD CPNS 2026 · Paket 6 (TWK · TIU · TKP)",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-skd-2026-p6.json",
+    "count": 110,
+    "durationMin": 100,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi penuh 110 soal SKD CPNS 2026 (30 TWK, 35 TIU, 45 TKP bobot 1–5) sesuai KepmenPANRB No. 321 Tahun 2024."
+  },
+  {
+    "id": "cpns-skd-2026-p7",
+    "name": "SKD CPNS 2026 · Paket 7 (TWK · TIU · TKP)",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-skd-2026-p7.json",
+    "count": 110,
+    "durationMin": 100,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi penuh 110 soal SKD CPNS 2026 (30 TWK, 35 TIU, 45 TKP bobot 1–5) sesuai KepmenPANRB No. 321 Tahun 2024."
+  },
+  {
+    "id": "cpns-skd-2026-p8",
+    "name": "SKD CPNS 2026 · Paket 8 (TWK · TIU · TKP)",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-skd-2026-p8.json",
+    "count": 110,
+    "durationMin": 100,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi penuh 110 soal SKD CPNS 2026 (30 TWK, 35 TIU, 45 TKP bobot 1–5) sesuai KepmenPANRB No. 321 Tahun 2024."
+  },
+  {
+    "id": "cpns-skd-2026-p9",
+    "name": "SKD CPNS 2026 · Paket 9 (TWK · TIU · TKP)",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-skd-2026-p9.json",
+    "count": 110,
+    "durationMin": 100,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi penuh 110 soal SKD CPNS 2026 (30 TWK, 35 TIU, 45 TKP bobot 1–5) sesuai KepmenPANRB No. 321 Tahun 2024."
+  },
+  {
+    "id": "cpns-skd-2026-p10",
+    "name": "SKD CPNS 2026 · Paket 10 (TWK · TIU · TKP)",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-skd-2026-p10.json",
+    "count": 110,
+    "durationMin": 100,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi penuh 110 soal SKD CPNS 2026 (30 TWK, 35 TIU, 45 TKP bobot 1–5) sesuai KepmenPANRB No. 321 Tahun 2024."
+  },
+  {
+    "id": "rbb-bumn-2026-tahap1",
+    "name": "RBB BUMN 2026 · Tahap 1 (TKD · AKHLAK · TWK BUMN)",
+    "family": "bumn",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "rbb-bumn-2026-tahap1.json",
+    "count": 140,
+    "durationMin": 90,
+    "subtests": [
+      "tkd",
+      "akhlak",
+      "twk_bumn"
+    ],
+    "note": "Simulasi lengkap Tes Online Tahap 1 Rekrutmen Bersama BUMN: 100 TKD (Verbal, Deret, Klasifikasi, Diagram), 30 AKHLAK SJT, dan 10 TWK BUMN."
+  },
+  {
+    "id": "rbb-bumn-2026-tahap2",
+    "name": "RBB BUMN 2026 · Tahap 2 (Bahasa Inggris · Learning Agility)",
+    "family": "bumn",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "rbb-bumn-2026-tahap2.json",
+    "count": 150,
+    "durationMin": 120,
+    "subtests": [
+      "bhs",
+      "agility"
+    ],
+    "note": "Simulasi Tes Online Tahap 2 Rekrutmen Bersama BUMN: 100 soal Bahasa Inggris kerja & 50 soal Learning Agility."
+  },
+  {
+    "id": "rbb-bumn-english-drill",
+    "name": "BUMN Bahasa Inggris Intensive (Grammar · Error ID · Reading)",
+    "family": "bumn",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "rbb-bumn-english-drill.json",
+    "count": 85,
+    "durationMin": 60,
+    "subtests": [
+      "bhs"
+    ],
+    "note": "85 soal latihan intensif Bahasa Inggris BUMN: Structure/Grammar, Error Identification, dan Reading Comprehension lengkap dengan pembahasan bahasa Indonesia."
+  },
+  {
+    "id": "cpns-gdrive-to1",
+    "name": "Try Out SKD CPNS · Paket TO 1",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-gdrive-to1.json",
+    "count": 99,
+    "durationMin": 95,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi Try Out SKD lengkap (99 soal TWK/TIU/TKP) beserta kunci & pembahasan terstruktur."
+  },
+  {
+    "id": "cpns-gdrive-to2",
+    "name": "Try Out SKD CPNS · Paket TO 2",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-gdrive-to2.json",
+    "count": 98,
+    "durationMin": 95,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi Try Out SKD lengkap (98 soal TWK/TIU/TKP) beserta kunci & pembahasan terstruktur."
+  },
+  {
+    "id": "cpns-gdrive-to3",
+    "name": "Try Out SKD CPNS · Paket TO 3",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-gdrive-to3.json",
+    "count": 99,
+    "durationMin": 95,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi Try Out SKD lengkap (99 soal TWK/TIU/TKP) beserta kunci & pembahasan terstruktur."
+  },
+  {
+    "id": "cpns-gdrive-to4",
+    "name": "Try Out SKD CPNS · Paket TO 4",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-gdrive-to4.json",
+    "count": 103,
+    "durationMin": 95,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi Try Out SKD lengkap (103 soal TWK/TIU/TKP) beserta kunci & pembahasan terstruktur."
+  },
+  {
+    "id": "cpns-gdrive-to5",
+    "name": "Try Out SKD CPNS · Paket TO 5",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-gdrive-to5.json",
+    "count": 98,
+    "durationMin": 95,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi Try Out SKD lengkap (98 soal TWK/TIU/TKP) beserta kunci & pembahasan terstruktur."
+  },
+  {
+    "id": "cpns-gdrive-to6",
+    "name": "Try Out SKD CPNS · Paket TO 6",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-gdrive-to6.json",
+    "count": 99,
+    "durationMin": 95,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi Try Out SKD lengkap (99 soal TWK/TIU/TKP) beserta kunci & pembahasan terstruktur."
+  },
+  {
+    "id": "cpns-gdrive-to7",
+    "name": "Try Out SKD CPNS · Paket TO 7",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-gdrive-to7.json",
+    "count": 100,
+    "durationMin": 95,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi Try Out SKD lengkap (100 soal TWK/TIU/TKP) beserta kunci & pembahasan terstruktur."
+  },
+  {
+    "id": "cpns-gdrive-to8",
+    "name": "Try Out SKD CPNS · Paket TO 8",
+    "family": "cpns",
+    "version": 2,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-gdrive-to8.json",
+    "count": 101,
+    "durationMin": 95,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "Simulasi Try Out SKD lengkap (101 soal TWK/TIU/TKP) beserta kunci & pembahasan terstruktur."
+  },
+  {
+    "id": "cpns-tiu-hots-drill",
+    "name": "Fokus HOTS TIU · Analogi, Silogisme & Analitik",
+    "family": "cpns",
+    "version": 1,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-tiu-hots-drill.json",
+    "count": 43,
+    "durationMin": 45,
+    "subtests": [
+      "tiu"
+    ],
+    "note": "Latihan intensif 43 soal HOTS TIU pilihan (Analogi Verbal, Silogisme Logis, dan Penalaran Analitik) disertai pembahasan langkah demi langkah."
+  },
+  {
+    "id": "cpns-skd-kisi-terbaru",
+    "name": "SKD CPNS Kisi Terbaru · Argumen, Kecukupan Data & 21 Submateri",
+    "family": "cpns",
+    "version": 1,
+    "updatedAt": "2026-11-13T00:00:00.000Z",
+    "file": "cpns-skd-kisi-terbaru.json",
+    "count": 248,
+    "durationMin": 110,
+    "subtests": [
+      "twk",
+      "tiu",
+      "tkp"
+    ],
+    "note": "248 soal terstruktur mengacu 21 subtes kisi-kisi resmi SKD terbaru: termasuk Kecukupan Data, Penguatan/Pelemahan Argumen, Pola Tabel, Cerita Tabel, Pilar Kebangsaan, dan 6 Aspek TKP dengan Cara Mudah & Cara Baku."
   }
 ]
