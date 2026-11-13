@@ -98,112 +98,109 @@ export default function KisiMateriView({
 
   return (
     <div className={`view kisi-page track-${family}`}>
-      {/* Header Kisi Ringkas & Fokus */}
-      <section className="track-banner is-compact">
-        <div className="track-banner-main">
-          <div className="track-banner-top">
+      {/* Header Fokus Ringkas (Bebas Beban Kognitif Berlebih) */}
+      <header className="kisi-topbar">
+        <div className="kisi-topbar-title">
+          <div className="kisi-topbar-eyebrow">
             <span className={`pill pill-${family}`}>
               {family === 'cpns' ? '21 SUBMATERI SKD CPNS' : '8 KOMPETENSI RBB BUMN'}
             </span>
-            <div className="kisi-family-switch">
-              <button
-                type="button"
-                className={`chip-btn ${family === 'cpns' ? 'is-active' : ''}`}
-                onClick={() => {
-                  setFamily('cpns');
-                  setSubFilter('ALL');
-                }}
-              >
-                CPNS (21)
-              </button>
-              <button
-                type="button"
-                className={`chip-btn ${family === 'bumn' ? 'is-active' : ''}`}
-                onClick={() => {
-                  setFamily('bumn');
-                  setSubFilter('ALL');
-                }}
-              >
-                BUMN (8)
-              </button>
+            <span className="kisi-total-chip num">
+              {indexData ? indexData.totalMapped.toLocaleString('id-ID') : '2.857'} soal terpetakan
+            </span>
+          </div>
+          <h1>Kisi-Kisi &amp; Materi Bertahap</h1>
+        </div>
+
+        <div className="kisi-family-segmented" role="group" aria-label="Pilih jalur materi">
+          <button
+            type="button"
+            className={`kisi-seg-btn ${family === 'cpns' ? 'is-active' : ''}`}
+            onClick={() => {
+              setFamily('cpns');
+              setSubFilter('ALL');
+            }}
+          >
+            CPNS · 21
+          </button>
+          <button
+            type="button"
+            className={`kisi-seg-btn ${family === 'bumn' ? 'is-active' : ''}`}
+            onClick={() => {
+              setFamily('bumn');
+              setSubFilter('ALL');
+            }}
+          >
+            BUMN · 8
+          </button>
+        </div>
+      </header>
+
+      {/* Tata Letak Asimetris (Rel Topik Ramping 30% + Kanvas Fokus Materi 70%) */}
+      <div className="kisi-split">
+        <aside className="kisi-rail" aria-label="Navigasi daftar submateri">
+          <div className="kisi-rail-controls">
+            <input
+              type="search"
+              className="kisi-rail-search"
+              value={search}
+              onInput={(e) => setSearch((e.target as HTMLInputElement).value)}
+              placeholder="Cari submateri…"
+              aria-label="Cari submateri"
+            />
+            <div className="kisi-tabs-row">
+              {subtestTabs.map((t) => (
+                <button
+                  key={t.id}
+                  type="button"
+                  className={`chip-btn is-compact ${subFilter === t.id ? 'is-active' : ''}`}
+                  onClick={() => setSubFilter(t.id)}
+                >
+                  {t.label}
+                </button>
+              ))}
             </div>
           </div>
 
-          <h1>Kisi-Kisi &amp; Materi Bertahap</h1>
-          <p className="track-banner-desc">
-            Pilih satu submateri di sebelah kiri, pelajari satu tahap dalam satu waktu, lalu langsung uji dengan latihan soal terfokus.
-          </p>
-        </div>
-
-        <aside className="track-banner-stat">
-          <div className="banner-stat-num num">
-            {indexData ? indexData.totalMapped.toLocaleString('id-ID') : '2.857'}
+          <div className="kisi-rail-list" role="listbox" aria-label="Daftar submateri kisi-kisi">
+            {filtered.length === 0 ? (
+              <div className="kisi-rail-empty">
+                Tidak ada submateri yang cocok dengan kata kunci <strong>“{search}”</strong>.
+              </div>
+            ) : (
+              filtered.map((item, idx) => {
+                const isSel = activeItem?.id === item.id;
+                const cnt = countFor(item.id);
+                return (
+                  <button
+                    key={item.id}
+                    type="button"
+                    role="option"
+                    aria-selected={isSel}
+                    className={`kisi-rail-item ${isSel ? 'is-selected' : ''}`}
+                    onClick={() => setSelectedId(item.id)}
+                  >
+                    <div className="kisi-rail-item-top">
+                      <span className="kisi-rail-num num">
+                        {String(idx + 1).padStart(2, '0')} · {item.subtestLabel}
+                      </span>
+                      <span className="kisi-rail-count num">{cnt} soal</span>
+                    </div>
+                    <strong className="kisi-rail-title">{item.title}</strong>
+                  </button>
+                );
+              })
+            )}
           </div>
-          <div className="banner-stat-label">Soal Terpetakan</div>
         </aside>
-      </section>
-
-      <div className="catalog-toolbar">
-        <div className="kisi-tabs-row">
-          {subtestTabs.map((t) => (
-            <button
-              key={t.id}
-              type="button"
-              className={`chip-btn ${subFilter === t.id ? 'is-active' : ''}`}
-              onClick={() => setSubFilter(t.id)}
-            >
-              {t.label}
-            </button>
-          ))}
-        </div>
-        <div className="toolbar-search">
-          <input
-            type="search"
-            className="search-input"
-            value={search}
-            onInput={(e) => setSearch((e.target as HTMLInputElement).value)}
-            placeholder="Cari submateri…"
-            aria-label="Cari submateri"
-          />
-        </div>
-      </div>
-
-      {/* Master-Detail: Daftar Kiri Ringkas + Stage Fokus Bertahap (1 Tab Aktif Sekali Lihat) */}
-      <div className="arena-split kisi-split">
-        <div className="pack-list" role="listbox" aria-label="Daftar submateri kisi-kisi">
-          {filtered.map((item, idx) => {
-            const isSel = activeItem?.id === item.id;
-            const cnt = countFor(item.id);
-            return (
-              <button
-                key={item.id}
-                type="button"
-                role="option"
-                aria-selected={isSel}
-                className={`pack-row is-calm ${isSel ? 'is-selected' : ''}`}
-                onClick={() => setSelectedId(item.id)}
-              >
-                <div className="pack-row-top">
-                  <span className="pack-row-index num">{String(idx + 1).padStart(2, '0')}</span>
-                  <span className="subtest-chip">{item.subtestLabel}</span>
-                </div>
-                <h3 className="pack-row-title">{item.title}</h3>
-                <div className="pack-row-meta num">
-                  <span>{cnt} soal</span>
-                  {item.diagramId && <span>· Gambar Interaktif</span>}
-                </div>
-              </button>
-            );
-          })}
-        </div>
 
         {activeItem && (
           <article className="pack-stage kisi-stage">
             <div className="kisi-stage-head">
-              <div>
+              <div className="kisi-stage-heading">
                 <span className={`pill pill-${activeItem.family}`}>{activeItem.group}</span>
                 <h2>{activeItem.title}</h2>
-                <p className="muted small">
+                <p className="kisi-stage-goal">
                   <RichText text={activeItem.goal} inline />
                 </p>
               </div>
@@ -214,16 +211,16 @@ export default function KisiMateriView({
                   onClick={() => setScratchOpen((v) => !v)}
                   aria-pressed={scratchOpen}
                 >
-                  ✎ Kertas Coretan
+                  ✎ Coretan Pintar
                 </button>
-                <div className="kisi-count-pill num">
+                <div className="kisi-count-pill num" title="Total soal terpetakan di submateri ini">
                   <strong>{activeCount}</strong>
                   <small>soal</small>
                 </div>
               </div>
             </div>
 
-            {/* Stepper Fokus: Hanya 1 Konteks Visual Ditampilkan Sekali Waktu */}
+            {/* Stepper Progres 3 Tahap: chunking kognitif agar hanya 1 beban fokus tampil per layar */}
             <div className="kisi-stepper-tabs" role="tablist" aria-label="Tahap belajar submateri">
               <button
                 type="button"
@@ -232,7 +229,8 @@ export default function KisiMateriView({
                 className={`kisi-step-tab ${focusTab === 'konsep' ? 'is-active' : ''}`}
                 onClick={() => setFocusTab('konsep')}
               >
-                1. Konsep &amp; Trik Cepat
+                <span className="kisi-step-badge num">1</span>
+                <span>Konsep &amp; Trik Cepat</span>
               </button>
               <button
                 type="button"
@@ -241,7 +239,8 @@ export default function KisiMateriView({
                 className={`kisi-step-tab ${focusTab === 'visual' ? 'is-active' : ''}`}
                 onClick={() => setFocusTab('visual')}
               >
-                2. Gambar Interaktif
+                <span className="kisi-step-badge num">2</span>
+                <span>Gambar Interaktif</span>
               </button>
               <button
                 type="button"
@@ -250,7 +249,8 @@ export default function KisiMateriView({
                 className={`kisi-step-tab ${focusTab === 'uji' ? 'is-active' : ''}`}
                 onClick={() => setFocusTab('uji')}
               >
-                3. Tes Paham (10 dtk)
+                <span className="kisi-step-badge num">3</span>
+                <span>Tes Paham (10 dtk)</span>
               </button>
             </div>
 
@@ -277,6 +277,16 @@ export default function KisiMateriView({
                   <span className="psych-step-num">Waspada Jebakan</span>
                   <p><RichText text={activeItem.commonTrap} /></p>
                 </section>
+
+                <div className="kisi-next-cue">
+                  <button
+                    type="button"
+                    className="kisi-next-link"
+                    onClick={() => setFocusTab('visual')}
+                  >
+                    Lanjut ke Tahap 2: Lihat Gambar Interaktif →
+                  </button>
+                </div>
               </div>
             )}
 
@@ -302,6 +312,15 @@ export default function KisiMateriView({
                   }
                   submateriId={activeItem.id}
                 />
+                <div className="kisi-next-cue">
+                  <button
+                    type="button"
+                    className="kisi-next-link"
+                    onClick={() => setFocusTab('uji')}
+                  >
+                    Lanjut ke Tahap 3: Tes Pemahaman 10 Detik →
+                  </button>
+                </div>
               </div>
             )}
 
