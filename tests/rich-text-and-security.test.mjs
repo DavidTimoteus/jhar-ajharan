@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parseInlineRichText } from '../src/lib/richText.ts';
 import { hasHtmlOrFormulaLeak, safeJsonParse } from '../src/lib/sanitize.ts';
+import { getTrackConfig, partitionTracks } from '../src/lib/tracks.ts';
 
 describe('Keamanan JSON, Format Teks Kaya & Indeks Kisi Submateri', () => {
   it('parseInlineRichText memformat bold, underline, strikethrough, highlight & menjaga isian rumpang', () => {
@@ -49,6 +50,20 @@ describe('Keamanan JSON, Format Teks Kaya & Indeks Kisi Submateri', () => {
   it('Konten psikologi belajar di submateri.ts bersih dari tag HTML mentah', () => {
     const raw = fs.readFileSync(path.resolve('src/lib/submateri.ts'), 'utf-8');
     assert.equal(hasHtmlOrFormulaLeak(raw), false);
+  });
+
+  it('Registri jalur mendukung ekspansi multi-domain (TOEFL, TOEIC, Programming, Data)', () => {
+    const sampleMetas = [
+      { id: 'cpns-1', name: 'CPNS 1', family: 'cpns', version: 1, updatedAt: '', file: '', count: 100 },
+      { id: 'toefl-1', name: 'TOEFL Practice', family: 'toefl', version: 1, updatedAt: '', file: '', count: 50 },
+    ];
+    const { active, upcoming } = partitionTracks(sampleMetas);
+    assert.ok(active.some((t) => t.config.id === 'cpns'));
+    assert.ok(active.some((t) => t.config.id === 'toefl' && t.questionCount === 50));
+    assert.ok(upcoming.some((t) => t.config.id === 'toeic'));
+    assert.ok(upcoming.some((t) => t.config.id === 'programming'));
+    assert.ok(upcoming.some((t) => t.config.id === 'data'));
+    assert.equal(getTrackConfig('custom_ai').shortLabel, 'CUSTOM_AI');
   });
 });
 

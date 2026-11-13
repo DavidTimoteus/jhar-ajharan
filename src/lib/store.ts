@@ -2,9 +2,11 @@
 // punya URL terpisah (#/cpns, #/bumn, #/pengaturan) tanpa dependency router.
 
 import { useState, useEffect, useCallback } from 'preact/hooks';
+import type { TrackId } from './types';
 
 export type Screen =
   | { name: 'home' }
+  | { name: 'track'; family: TrackId }
   | { name: 'cpns' }
   | { name: 'bumn' }
   | { name: 'materi'; family?: 'cpns' | 'bumn'; submateriId?: string }
@@ -27,8 +29,13 @@ export type Nav = {
 function screenFromHash(): Screen {
   if (typeof window === 'undefined') return { name: 'home' };
   const h = window.location.hash.replace(/^#\/?/, '').trim().toLowerCase();
-  if (h === 'cpns') return { name: 'cpns' };
-  if (h === 'bumn') return { name: 'bumn' };
+  if (h === 'cpns' || h === 'bumn' || h === 'toefl' || h === 'toeic' || h === 'programming' || h === 'data') {
+    return { name: 'track', family: h };
+  }
+  if (h.startsWith('jalur/')) {
+    const fam = h.slice('jalur/'.length).trim();
+    if (fam) return { name: 'track', family: fam };
+  }
   if (h === 'materi' || h === 'kisi') return { name: 'materi' };
   if (h === 'pengaturan' || h === 'settings') return { name: 'settings' };
   return { name: 'home' };
@@ -42,6 +49,8 @@ function hashForScreen(s: Screen): string | null {
       return '#/cpns';
     case 'bumn':
       return '#/bumn';
+    case 'track':
+      return `#/${encodeURIComponent(String(s.family))}`;
     case 'materi':
       return '#/materi';
     case 'settings':

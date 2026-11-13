@@ -1,5 +1,8 @@
 // Tipe data inti Jhâr-Ajhârân. Semua aturan ujian hidup di Pack.config, bukan di kode.
 
+export type BuiltinTrackId = 'cpns' | 'bumn' | 'toefl' | 'toeic' | 'programming' | 'data';
+export type TrackId = BuiltinTrackId | (string & {});
+
 export type Scheme = 'binary' | 'weighted';
 export type LensId = 'kilat' | 'eliminasi' | 'logika' | 'jebakan';
 
@@ -33,7 +36,7 @@ export interface SubtestConfig {
 export interface Pack {
   id: string;
   name: string;
-  family: 'cpns' | 'bumn';
+  family: TrackId;
   version: number;
   updatedAt: string; // ISO
   note?: string;
@@ -45,7 +48,7 @@ export interface Pack {
 export interface PackMeta {
   id: string;
   name: string;
-  family: 'cpns' | 'bumn';
+  family: TrackId;
   version: number;
   updatedAt: string;
   file: string;
