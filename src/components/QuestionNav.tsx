@@ -1,5 +1,4 @@
 import type { AnswerRec } from '../lib/types';
-import { LETTERS } from '../lib/engine';
 
 interface Props {
   order: string[];
@@ -9,9 +8,17 @@ interface Props {
 }
 
 export default function QuestionNav({ order, answers, cursor, onJump }: Props) {
+  const answeredCount = order.filter((id) => answers[id]?.choice != null).length;
+  const doubtCount = order.filter((id) => answers[id]?.doubt).length;
+
   return (
     <div className="question-nav">
-      <h3>Peta Nomor</h3>
+      <div className="qnav-head">
+        <h3>Peta Nomor</h3>
+        <span className="mono small muted num">
+          {answeredCount}/{order.length}
+        </span>
+      </div>
       <div className="qnav-grid">
         {order.map((id, i) => {
           const a = answers[id];
@@ -22,6 +29,7 @@ export default function QuestionNav({ order, answers, cursor, onJump }: Props) {
           return (
             <button
               key={id}
+              type="button"
               className={cls}
               onClick={() => onJump(i)}
               aria-label={`Lompat ke soal ${i + 1}`}
@@ -33,16 +41,20 @@ export default function QuestionNav({ order, answers, cursor, onJump }: Props) {
       </div>
       <div className="qnav-legend">
         <span className="legend-item">
-          <i className="dot dot-answered" /> Dijawab
+          <i className="dot dot-answered" /> Dijawab ({answeredCount})
         </span>
         <span className="legend-item">
-          <i className="dot dot-doubt" /> Ragu
+          <i className="dot dot-doubt" /> Ragu ({doubtCount})
         </span>
         <span className="legend-item">
-          <i className="dot dot-current" /> Sedang
+          <i className="dot dot-current" /> Aktif
         </span>
       </div>
-      <p className="qnav-hint">Pintasan: 1-5 / A-E pilih, H hint, R ragu, panah kiri-kanan pindah.</p>
+      <p className="qnav-hint">
+        Pintasan: <kbd className="mono">1-5</kbd> / <kbd className="mono">A-E</kbd> pilih,{' '}
+        <kbd className="mono">H</kbd> taktik, <kbd className="mono">R</kbd> ragu,{' '}
+        <kbd className="mono">←</kbd> <kbd className="mono">→</kbd> pindah.
+      </p>
     </div>
   );
 }

@@ -5,23 +5,52 @@ import { saveAttempt } from '../lib/db';
 import { buildOrder, newAttempt, remainingMs, fmtClock, LETTERS } from '../lib/engine';
 import { useNow } from '../lib/store';
 import type { Screen } from '../lib/store';
+import type { ThemePref } from '../lib/theme';
+import { cleanDisplayText } from '../lib/sanitize';
+import { getActiveSessionId } from '../lib/session';
 import HintDeck from '../components/HintDeck';
 import QuestionNav from '../components/QuestionNav';
+import TipsDrawer from '../components/TipsDrawer';
+import RichText from '../components/RichText';
 
 interface Props {
   packId: string;
   mode: Mode;
   subtest?: string;
+  questionIds?: string[];
+  limit?: number;
   go: (s: Screen) => void;
+  theme: ThemePref;
+  onTheme: (t: ThemePref) => void;
 }
 
-export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
+const SUBTEST_LABELS: Record<string, string> = {
+  twk: 'TWK',
+  tiu: 'TIU',
+  tkp: 'TKP',
+  tkd: 'TKD',
+  akhlak: 'AKHLAK',
+  twk_bumn: 'TWK BUMN',
+  bhs: 'B. Inggris',
+  agility: 'Learning Agility',
+};
+
+export default function WorkbenchView({
+  packId,
+  mode,
+  subtest,
+  questionIds,
+  limit,
+  go,
+  theme,
+  onTheme,
+}: Props) {
   const [pack, setPack] = useState<Pack | null>(null);
   const [attempt, setAttempt] = useState<Attempt | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [openHints, setOpenHints] = useState<string[]>([]);
   const [showFeedback, setShowFeedback] = useState(false);
   const [submitting, setSubmitting] = useState(false);
+  const [tipsOpen, setTipsOpen] = useState(false);
 
   const startMsRef = useRef(0);
   const qStartRef = useRef(0);
@@ -33,10 +62,14 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
     loadPack(packId)
       .then((p) => {
         if (!alive) return;
-        const order = subtest ? buildOrder(p, subtest) : buildOrder(p);
-        const att = newAttempt(p, mode, order);
+        const order = buildOrder(p, subtest, limit, questionIds);
+        if (order.length === 0) {
+          throw new Error('Tidak ada soal yang sesuai filter subtes/remidi.');
+        }
+        const att = newAttempt(p, mode, order, getActiveSessionId());
         setPack(p);
         setAttempt(att);
+        setShowFeedback(false);
         startMsRef.current = att.startedAt;
         qStartRef.current = Date.now();
         if (mode === 'latihan') savedTimerRef.current = 0;
@@ -45,7 +78,7 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
     return () => {
       alive = false;
     };
-  }, [packId, mode, subtest]);
+  }, [packId, mode, subtest, questionIds, limit]);
 
   const qIndex = attempt?.cursor ?? 0;
   const question: Question | null = useMemo(() => {
@@ -59,8 +92,13 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
       <div className="view">
         <div className="empty-state">
           <p>Gagal memuat paket: {error}</p>
-          <button className="btn btn-primary" onClick={() => go({ name: 'home' })}>
-            Kembali
+          <button
+            type="button"
+            className="btn btn-primary"
+            style={{ marginTop: 12 }}
+            onClick={() => go({ name: 'home' })}
+          >
+            Kembali ke Beranda
           </button>
         </div>
       </div>
@@ -68,7 +106,7 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
   }
 
   if (!pack || !attempt || !question) {
-    return <div className="view loading">Memuat soal…</div>;
+    return <div className="view loading">Menyiapkan ruang ujian…</div>;
   }
 
   const rec = attempt.answers[question.id];
@@ -80,7 +118,6 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
   };
 
   const updateRec = (patch: Partial<AnswerRec>) => {
-    if (!attempt || !question) return;
     const base: AnswerRec = {
       choice: answer.choice,
       doubt: answer.doubt,
@@ -97,45 +134,31 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
 
   const toggleDoubt = () => updateRec({ doubt: !answer.doubt });
 
-  const revealHint = (lens: string) => {
-    if (mode === 'simulasi') return; // hint terkunci di simulasi
-    if (openHints.includes(lens)) {
-      setOpenHints(openHints.filter((l) => l !== lens));
-      return;
-    }
-    setOpenHints([...openHints, lens]);
-    updateRec({ hints: answer.hints + 1 });
-  };
-
   const choose = (choice: number) => {
-    if (!attempt || !question) return;
-    const ms = mode === 'simulasi' ? Date.now() - qStartRef.current : savedTimerRef.current;
-    updateRec({ choice, ms });
+    if (choice < 0 || choice >= question.options.length) return;
+    const ms =
+      mode === 'simulasi' ? Date.now() - qStartRef.current : savedTimerRef.current;
+    updateRec({ choice, ms: Math.max(answer.ms, ms) });
     if (mode === 'latihan') setShowFeedback(true);
   };
 
   const goTo = (idx: number) => {
-    if (!attempt) return;
-    // simpan waktu tersisa di soal sebelumnya
+    const clamped = Math.max(0, Math.min(idx, attempt.order.length - 1));
+    if (clamped === qIndex) return;
     const ms = Date.now() - qStartRef.current;
-    if (mode === 'latihan' && rec) {
-      const next = {
-        ...attempt,
-        answers: { ...attempt.answers, [question.id]: { ...rec, ms: rec.ms + ms } },
-        cursor: Math.max(0, Math.min(idx, attempt.order.length - 1)),
-      };
-      commit(next);
-      savedTimerRef.current = 0;
-    } else {
-      const next = { ...attempt, cursor: Math.max(0, Math.min(idx, attempt.order.length - 1)) };
-      commit(next);
-    }
+    const curRec = attempt.answers[question.id];
+    const nextAnswers = curRec
+      ? { ...attempt.answers, [question.id]: { ...curRec, ms: curRec.ms + ms } }
+      : attempt.answers;
+
+    commit({ ...attempt, answers: nextAnswers, cursor: clamped });
+    savedTimerRef.current = 0;
     qStartRef.current = Date.now();
-    setShowFeedback(false);
+    setShowFeedback(mode === 'latihan' && attempt.answers[attempt.order[clamped]]?.choice != null);
   };
 
   const finish = async () => {
-    if (!attempt) return;
+    if (submitting) return;
     setSubmitting(true);
     const finished = { ...attempt, finishedAt: Date.now() };
     try {
@@ -149,29 +172,38 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
 
   // Auto-finish saat waktu simulasi habis.
   useEffect(() => {
-    if (mode === 'simulasi' && attempt && attempt.endAt && now >= attempt.endAt) {
+    if (mode === 'simulasi' && attempt.endAt && now >= attempt.endAt) {
       finish();
     }
   }, [now, mode, attempt]);
 
-  // Keyboard: 1-5 / A-E pilih, H hint, R ragu, ←/→ navigasi.
+  // Keyboard: 1-5 / A-E pilih, T buka rumus, R ragu, ←/→ navigasi.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLSelectElement)
+      if (
+        e.target instanceof HTMLInputElement ||
+        e.target instanceof HTMLSelectElement ||
+        e.target instanceof HTMLTextAreaElement
+      )
         return;
       const k = e.key.toLowerCase();
       if (k >= '1' && k <= '5') choose(Number(k) - 1);
       else if (k >= 'a' && k <= 'e') choose(k.charCodeAt(0) - 97);
-      else if (k === 'h') revealHint('kilat');
       else if (k === 'r') toggleDoubt();
+      else if (k === 't' && mode === 'latihan') setTipsOpen((v) => !v);
       else if (k === 'arrowleft') goTo(qIndex - 1);
       else if (k === 'arrowright') goTo(qIndex + 1);
-      else if (k === 'enter' && mode === 'simulasi' && qIndex === attempt.order.length - 1)
+      else if (
+        k === 'enter' &&
+        mode === 'simulasi' &&
+        qIndex === attempt.order.length - 1
+      ) {
         finish();
+      }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [question, answer, attempt, qIndex, mode, openHints]);
+  }, [question, answer, attempt, qIndex, mode]);
 
   const remaining = remainingMs(attempt, now);
   const elapsed = now - attempt.startedAt;
@@ -183,86 +215,155 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
         Math.max(...(question.weights ?? [0]))
       : question.key === answer.choice;
 
+  const answeredCount = Object.keys(attempt.answers).length;
+  const progressPct =
+    attempt.order.length > 0
+      ? Math.round((answeredCount / attempt.order.length) * 100)
+      : 0;
+  const hasAsciiDiagram = /[┌┐└┘│─┬┴┼●○▲△■□]/.test(question.stem);
+  const subLabel = SUBTEST_LABELS[question.subtest] ?? question.subtest.toUpperCase();
+
+  const nextTheme = (): ThemePref => {
+    if (theme === 'system') return 'light';
+    if (theme === 'light') return 'dark';
+    return 'system';
+  };
+
   return (
-    <div className="view view-workbench">
-      <div className="wb-progress">
-        <div className="progress-track">
-          <div
-            className="progress-fill"
-            style={{
-              width: `${attempt.order.length > 0 ? Math.round((Object.keys(attempt.answers).length / attempt.order.length) * 100) : 0}%`,
-            }}
-          />
-        </div>
-        <span className="wb-progress-label num">
-          {Object.keys(attempt.answers).length}/{attempt.order.length} dijawab
-        </span>
-      </div>
+    <div className={`exam-shell track-${pack.family}`}>
+      {/* IELTS / TOEFL-inspired distraction-free top bar */}
+      <header className="exam-topbar">
+        <div className="exam-topbar-inner">
+          <div className="exam-top-left">
+            <button
+              type="button"
+              className="btn-exit-exam"
+              onClick={() => go({ name: pack.family })}
+            >
+              ← Keluar
+            </button>
+            <div className="exam-session-info">
+              <div className="exam-badges">
+                <span className={`pill pill-${pack.family}`}>
+                  {mode === 'simulasi' ? 'Simulasi CAT' : 'Mode Latihan'}
+                </span>
+                {questionIds && <span className="pill pill-warn">Remidi</span>}
+                <span className="exam-q-counter num">
+                  Soal {qIndex + 1} dari {attempt.order.length}
+                </span>
+              </div>
+              <span className="exam-pack-title">{pack.name}</span>
+            </div>
+          </div>
 
-      <div className="workbench-top">
-        <div className="wb-info">
-          <span className="pack-badge">{mode === 'simulasi' ? 'Simulasi' : 'Latihan'}</span>
-          <span className="wb-pack-name">{pack.name}</span>
-          <span className="wb-question-count">
-            {qIndex + 1} / {attempt.order.length}
-          </span>
-        </div>
-        <div className="wb-timer">
-          {mode === 'simulasi' ? (
-            <>
-              <span className="timer-label">Waktu tersisa</span>
-              <span className={`timer num ${remaining < 60_000 ? 'danger' : ''}`}>
-                {fmtClock(remaining)}
+          <div className="exam-top-right">
+            {mode === 'latihan' && (
+              <button
+                type="button"
+                className="btn btn-tips-guide btn-sm"
+                onClick={() => setTipsOpen(true)}
+              >
+                ✦ Rumus &amp; Tips Cepat
+              </button>
+            )}
+
+            <div className="exam-timer-box">
+              <span className="exam-timer-label">
+                {mode === 'simulasi' ? 'Sisa Waktu' : 'Durasi'}
               </span>
-            </>
-          ) : (
-            <>
-              <span className="timer-label">Waktu berjalan</span>
-              <span className="timer num">{fmtClock(elapsed)}</span>
-            </>
-          )}
-        </div>
-      </div>
+              <span
+                className={`exam-timer-val num mono ${
+                  mode === 'simulasi' && remaining < 300_000 ? 'danger' : ''
+                }`}
+              >
+                {mode === 'simulasi' ? fmtClock(remaining) : fmtClock(elapsed)}
+              </span>
+            </div>
 
-      <div className="workbench-grid">
-        <section key={qIndex} className="question-sheet">
-          <div className="question-meta">
-            <span className="q-subtest">{question.subtest.toUpperCase()}</span>
-            <span className="q-topic">{question.topic}</span>
-            {timeSink && mode === 'latihan' && (
-              <span className="badge badge-warning">Lubang waktu</span>
+            <button
+              type="button"
+              className="btn-icon-quiet"
+              onClick={() => onTheme(nextTheme())}
+              title="Ganti tema terang/gelap"
+              aria-label="Ganti tema tampilan"
+            >
+              {theme === 'light' ? '☀' : theme === 'dark' ? '◐' : '◑'}
+            </button>
+
+            {answeredCount > 0 && (
+              <button
+                type="button"
+                className="btn btn-primary btn-sm"
+                onClick={finish}
+                disabled={submitting}
+              >
+                {mode === 'simulasi' ? 'Kumpulkan' : 'Selesai & Nilai'}
+              </button>
             )}
           </div>
-          <p className="question-stem">{question.stem}</p>
+        </div>
 
-          <div className="option-list">
+        <div className="exam-progress-bar">
+          <div className="exam-progress-fill" style={{ width: `${progressPct}%` }} />
+        </div>
+      </header>
+
+      {/* Main Split Assessment Stage */}
+      <div className="exam-grid">
+        <section key={question.id} className="exam-paper">
+          <div className="exam-paper-head">
+            <div className="exam-meta-tags">
+              <span className="subtest-tag">{subLabel}</span>
+              <span className="topic-tag">{question.topic}</span>
+              <span className="pace-tag num">Target {question.targetSec} dtk</span>
+              {timeSink && mode === 'latihan' && (
+                <span className="pace-warn">Melebihi target waktu</span>
+              )}
+            </div>
+
+            <button
+              type="button"
+              className={`flag-btn ${answer.doubt ? 'is-flagged' : ''}`}
+              onClick={toggleDoubt}
+            >
+              <span aria-hidden="true">{answer.doubt ? '⚑' : '⚐'}</span>
+              <span>{answer.doubt ? 'Ditandai Ragu' : 'Tandai Ragu'}</span>
+            </button>
+          </div>
+
+          <div className={`exam-stem ${hasAsciiDiagram ? 'is-diagram' : ''}`}>
+            {cleanDisplayText(question.stem)}
+          </div>
+
+          <div className="exam-options" role="radiogroup" aria-label="Pilihan jawaban">
             {question.options.map((opt, i) => {
               const chosen = answer.choice === i;
-              const reveal = showFeedback || (mode === 'simulasi' && attempt.finishedAt != null);
-              let cls = 'option-row';
-              if (chosen) cls += ' chosen';
+              const reveal =
+                mode === 'latihan' && showFeedback && answer.choice != null;
+              let cls = 'exam-option';
+              if (chosen) cls += ' is-chosen';
               if (reveal) {
                 const isRight =
                   st?.scheme === 'weighted'
-                    ? (question.weights?.[i] ?? 0) === Math.max(...(question.weights ?? [0]))
+                    ? (question.weights?.[i] ?? 0) ===
+                      Math.max(...(question.weights ?? [0]))
                     : question.key === i;
-                if (isRight) cls += ' right';
-                else if (chosen) cls += ' wrong';
+                if (isRight) cls += ' is-right';
+                else if (chosen) cls += ' is-wrong';
               }
               return (
                 <button
                   key={i}
+                  type="button"
+                  role="radio"
+                  aria-checked={chosen}
                   className={cls}
-                  onClick={() => {
-                    if (mode === 'latihan' && !answer.choice) choose(i);
-                    else if (mode === 'latihan' && answer.choice !== i) choose(i);
-                  }}
-                  disabled={mode === 'simulasi'}
+                  onClick={() => choose(i)}
                 >
-                  <span className="option-letter">{LETTERS[i]}</span>
-                  <span className="option-text">{opt}</span>
+                  <span className="option-badge">{LETTERS[i]}</span>
+                  <span className="option-label">{cleanDisplayText(opt)}</span>
                   {reveal && st?.scheme === 'weighted' && (
-                    <span className="option-weight tabular-nums">
+                    <span className="option-points num">
                       {question.weights?.[i] ?? 0} poin
                     </span>
                   )}
@@ -271,52 +372,64 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
             })}
           </div>
 
-          {mode === 'latihan' && showFeedback && (
-            <div className={`feedback ${answer.choice != null && isCorrectNow ? 'correct' : 'incorrect'}`}>
-              <strong>
-                {answer.choice != null && isCorrectNow ? 'Benar.' : 'Kurang tepat.'}
-              </strong>
-              <p>{question.explain}</p>
+          {mode === 'latihan' && showFeedback && answer.choice != null && (
+            <div className={`exam-feedback ${isCorrectNow ? 'is-correct' : 'is-incorrect'}`}>
+              <div className="feedback-head">
+                <strong>
+                  {isCorrectNow
+                    ? '✓ Jawaban Tepat!'
+                    : '✕ Belum tepat — simak pembahasannya'}
+                </strong>
+              </div>
+              <p><RichText text={question.explain} /></p>
             </div>
           )}
 
-          <div className="workbench-actions">
-            <button className="btn btn-secondary" onClick={() => goTo(qIndex - 1)} disabled={qIndex === 0}>
-              Sebelumnya
+          <div className="exam-footer-nav">
+            <button
+              type="button"
+              className="btn btn-secondary"
+              onClick={() => goTo(qIndex - 1)}
+              disabled={qIndex === 0}
+            >
+              ← Sebelumnya
             </button>
-            {mode === 'latihan' && (
-              <button
-                className={`btn ${answer.doubt ? 'btn-warning' : 'btn-secondary'}`}
-                onClick={toggleDoubt}
-              >
-                {answer.doubt ? 'Tandai ragu (aktif)' : 'Tandai ragu'}
-              </button>
-            )}
+
+            <span className="exam-footer-status muted small num">
+              {answeredCount}/{attempt.order.length} terjawab
+            </span>
+
             {qIndex < attempt.order.length - 1 ? (
-              <button className="btn btn-primary" onClick={() => goTo(qIndex + 1)}>
-                Berikutnya
+              <button
+                type="button"
+                className="btn btn-primary"
+                onClick={() => goTo(qIndex + 1)}
+              >
+                Berikutnya →
               </button>
             ) : (
-              <button className="btn btn-primary" onClick={finish} disabled={submitting}>
-                {mode === 'simulasi' ? 'Selesaikan Ujian' : 'Selesai & Lihat Skor'}
+              <button
+                type="button"
+                className="btn btn-primary"
+                onClick={finish}
+                disabled={submitting}
+              >
+                Selesai &amp; Lihat Skor →
               </button>
             )}
           </div>
         </section>
 
-        <aside className="workbench-side">
-          {mode === 'latihan' ? (
+        <aside className="exam-companion">
+          {mode === 'latihan' && (
             <HintDeck
               question={question}
-              openHints={openHints}
-              onToggle={revealHint}
+              subtestLabel={subLabel}
+              onOpenGuide={() => setTipsOpen(true)}
+              onPeekTip={() => updateRec({ hints: answer.hints + 1 })}
             />
-          ) : (
-            <div className="hint-locked">
-              <p>Hint terkunci dalam mode simulasi.</p>
-              <p className="muted">Selesaikan ujian untuk membuka taktik & pembahasan.</p>
-            </div>
           )}
+
           <QuestionNav
             order={attempt.order}
             answers={attempt.answers}
@@ -325,6 +438,13 @@ export default function WorkbenchView({ packId, mode, subtest, go }: Props) {
           />
         </aside>
       </div>
+
+      <TipsDrawer
+        open={tipsOpen}
+        family={pack.family}
+        initialSubtest={subLabel}
+        onClose={() => setTipsOpen(false)}
+      />
     </div>
   );
 }
