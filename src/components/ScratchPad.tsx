@@ -1,8 +1,15 @@
 import { useCallback, useEffect, useRef, useState } from 'preact/hooks';
 import {
+  applyBatchStrokes,
+  beautifyFreehandPoints,
   buildSmoothSegments,
+  buildTemplateStrokes,
+  canRedoScratch,
+  canUndoScratch,
   clampPoint,
+  detectAndCorrectShape,
   EMPTY_SCRATCH,
+  eraseHitStrokes,
   loadScratchScope,
   PEN_COLORS,
   PEN_SIZES,
@@ -10,12 +17,14 @@ import {
   redoStroke,
   resolveStrokeHex,
   saveScratchScope,
+  tidyStrokesBatch,
   undoStroke,
   type GridStyle,
   type PenColorId,
   type PenTool,
   type ScratchDockMode,
   type ScratchState,
+  type ScratchTemplateId,
   type Stroke,
 } from '../lib/scratchpad';
 
@@ -38,6 +47,8 @@ const HEIGHT_PX: Record<HeightPreset, number> = {
   tall: 450,
 };
 
+const HOLD_SNAP_DELAY_MS = 350;
+
 function isDarkTheme(): boolean {
   if (typeof document === 'undefined') return false;
   return document.documentElement.getAttribute('data-theme') === 'dark';
@@ -46,10 +57,15 @@ function isDarkTheme(): boolean {
 function paintStroke(ctx: CanvasRenderingContext2D, stroke: Stroke, dark: boolean) {
   if (stroke.points.length === 0) return;
   const isEraser = stroke.tool === 'eraser';
-  const strokeWidth = isEraser ? Math.max(14, stroke.width * 4.2) : stroke.width;
+  const isHighlighter = stroke.tool === 'highlighter';
+  const strokeWidth = isEraser
+    ? Math.max(14, stroke.width * 4.2)
+    : isHighlighter
+      ? Math.max(12, stroke.width * 3.8)
+      : stroke.width;
 
   ctx.save();
-  ctx.lineCap = 'round';
+  ctx.lineCap = isHighlighter ? 'butt' : 'round';
   ctx.lineJoin = 'round';
   ctx.lineWidth = strokeWidth;
 
@@ -59,9 +75,22 @@ function paintStroke(ctx: CanvasRenderingContext2D, stroke: Stroke, dark: boolea
     ctx.fillStyle = 'rgba(0,0,0,1)';
   } else {
     ctx.globalCompositeOperation = 'source-over';
+    ctx.globalAlpha = isHighlighter ? 0.34 : 1;
     const hex = resolveStrokeHex(stroke.color, dark);
     ctx.strokeStyle = hex;
     ctx.fillStyle = hex;
+  }
+
+  // Untuk bentuk bersudut tajam (persegi, segitiga, panah, garis lurus), gunakan lineTo langsung agar sudut tidak tumpul.
+  if (stroke.sharp && stroke.points.length >= 2) {
+    ctx.beginPath();
+    ctx.moveTo(stroke.points[0].x, stroke.points[0].y);
+    for (let i = 1; i < stroke.points.length; i++) {
+      ctx.lineTo(stroke.points[i].x, stroke.points[i].y);
+    }
+    ctx.stroke();
+    ctx.restore();
+    return;
   }
 
   const segs = buildSmoothSegments(stroke.points);
@@ -106,6 +135,9 @@ export default function ScratchPad({
   const [sizeIdx, setSizeIdx] = useState(1);
   const [grid, setGrid] = useState<GridStyle>('grid');
   const [heightPreset, setHeightPreset] = useState<HeightPreset>('normal');
+  const [autoTidy, setAutoTidy] = useState(true);
+  const [templateMenuOpen, setTemplateMenuOpen] = useState(false);
+  const [shapeBadge, setShapeBadge] = useState<{ label: string; revertable: boolean } | null>(null);
   const [confirmClear, setConfirmClear] = useState(false);
   const [dark, setDark] = useState<boolean>(() => isDarkTheme());
   const [floatOffset, setFloatOffset] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
@@ -114,7 +146,11 @@ export default function ScratchPad({
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const activePointerIdRef = useRef<number | null>(null);
   const activeStrokeRef = useRef<Stroke | null>(null);
+  const eraserBatchRef = useRef<Stroke[] | null>(null);
+  const eraserChangedRef = useRef(false);
+  const holdTimerRef = useRef<number | null>(null);
   const clearTimerRef = useRef<number | null>(null);
+  const badgeTimerRef = useRef<number | null>(null);
   const dragStateRef = useRef<{
     pointerId: number;
     startX: number;
@@ -123,17 +159,26 @@ export default function ScratchPad({
     origY: number;
   } | null>(null);
 
+  const showShapeNotice = useCallback((label: string, revertable: boolean) => {
+    setShapeBadge({ label, revertable });
+    if (badgeTimerRef.current) window.clearTimeout(badgeTimerRef.current);
+    badgeTimerRef.current = window.setTimeout(() => setShapeBadge(null), 4200);
+  }, []);
+
   // Muat coretan tersimpan setiap kali berpindah soal / submateri.
   useEffect(() => {
     const loaded = loadScratchScope(scopeKey);
     setScratch(loaded);
     activeStrokeRef.current = null;
     activePointerIdRef.current = null;
+    eraserBatchRef.current = null;
+    eraserChangedRef.current = false;
     setConfirmClear(false);
+    setShapeBadge(null);
+    setTemplateMenuOpen(false);
     onStrokeCountChange?.(loaded.strokes.length);
   }, [scopeKey]);
 
-  // Simpan coretan sesi & kabari induk saat jumlah stroke berubah.
   const commitScratch = useCallback(
     (next: ScratchState) => {
       setScratch(next);
@@ -152,7 +197,7 @@ export default function ScratchPad({
     return () => obs.disconnect();
   }, []);
 
-  // Fungsi render ulang seluruh kanvas beresolusi tinggi (High-DPI).
+  // Render ulang kanvas beresolusi tinggi (High-DPI).
   const redrawCanvas = useCallback(
     (strokesToDraw: Stroke[], liveStroke: Stroke | null) => {
       const canvas = canvasRef.current;
@@ -223,6 +268,8 @@ export default function ScratchPad({
   useEffect(() => {
     return () => {
       if (clearTimerRef.current) window.clearTimeout(clearTimerRef.current);
+      if (holdTimerRef.current) window.clearTimeout(holdTimerRef.current);
+      if (badgeTimerRef.current) window.clearTimeout(badgeTimerRef.current);
     };
   }, []);
 
@@ -235,8 +282,32 @@ export default function ScratchPad({
     return clampPoint(clientX - rect.left, clientY - rect.top, rect.width, rect.height);
   };
 
+  const cancelHoldSnapTimer = () => {
+    if (holdTimerRef.current) {
+      window.clearTimeout(holdTimerRef.current);
+      holdTimerRef.current = null;
+    }
+  };
+
+  // Apple QuickShape Hold-to-Snap: tahan jari/mouse 350ms di akhir goresan untuk koreksi bentuk seketika.
+  const scheduleHoldSnap = () => {
+    cancelHoldSnapTimer();
+    holdTimerRef.current = window.setTimeout(() => {
+      const cur = activeStrokeRef.current;
+      if (!cur || (cur.tool !== 'pen' && cur.tool !== 'highlighter') || cur.shapeKind) return;
+      const shape = detectAndCorrectShape(cur.points, { allowSmall: true });
+      if (shape) {
+        cur.rawPoints = cur.points.slice();
+        cur.points = shape.points;
+        cur.sharp = shape.sharp;
+        cur.shapeKind = shape.kind;
+        redrawCanvas(scratch.strokes, cur);
+        showShapeNotice(`✦ ${shape.label}`, true);
+      }
+    }, HOLD_SNAP_DELAY_MS);
+  };
+
   const handlePointerDown = (e: PointerEvent) => {
-    // Hanya terima tombol utama mouse atau sentuhan tunggal aktif.
     if (e.pointerType === 'mouse' && e.button !== 0) return;
     if (activePointerIdRef.current !== null) return;
 
@@ -248,19 +319,29 @@ export default function ScratchPad({
     canvas?.setPointerCapture?.(e.pointerId);
     activePointerIdRef.current = e.pointerId;
     setConfirmClear(false);
+    setTemplateMenuOpen(false);
+
+    if (tool === 'stroke_eraser') {
+      const res = eraseHitStrokes(scratch.strokes, pt, 13);
+      eraserBatchRef.current = res.nextStrokes;
+      eraserChangedRef.current = res.removed > 0;
+      redrawCanvas(res.nextStrokes, null);
+      return;
+    }
 
     const newStroke: Stroke = {
       tool,
-      color,
+      color: tool === 'highlighter' && color === 'ink' ? 'amber' : color,
       width: PEN_SIZES[sizeIdx].width,
       points: [pt],
     };
     activeStrokeRef.current = newStroke;
     redrawCanvas(scratch.strokes, newStroke);
+    scheduleHoldSnap();
   };
 
   const handlePointerMove = (e: PointerEvent) => {
-    if (activePointerIdRef.current !== e.pointerId || !activeStrokeRef.current) return;
+    if (activePointerIdRef.current !== e.pointerId) return;
     e.preventDefault();
 
     const nativeEvt = e as unknown as { getCoalescedEvents?: () => PointerEvent[] };
@@ -268,32 +349,165 @@ export default function ScratchPad({
       typeof nativeEvt.getCoalescedEvents === 'function'
         ? nativeEvt.getCoalescedEvents()
         : [e];
-
     const list = samples.length > 0 ? samples : [e];
+
+    if (tool === 'stroke_eraser' && eraserBatchRef.current) {
+      let curStrokes = eraserBatchRef.current;
+      let anyHit = false;
+      for (const ev of list) {
+        const pt = getLocalPoint(ev.clientX, ev.clientY);
+        if (!pt) continue;
+        const res = eraseHitStrokes(curStrokes, pt, 13);
+        if (res.removed > 0) {
+          curStrokes = res.nextStrokes;
+          eraserChangedRef.current = true;
+          anyHit = true;
+        }
+      }
+      if (anyHit) {
+        eraserBatchRef.current = curStrokes;
+        redrawCanvas(curStrokes, null);
+      }
+      return;
+    }
+
+    const active = activeStrokeRef.current;
+    if (!active) return;
+
+    // Jika bentuk sudah ter-snap saat user tahan, bergerak lagi jauh > 16px berarti user mau ubah arah ujung garis lurus
+    let movedFar = false;
     for (const ev of list) {
       const pt = getLocalPoint(ev.clientX, ev.clientY);
       if (!pt) continue;
-      const pts = activeStrokeRef.current.points;
+      if (active.shapeKind === 'line' && active.points.length === 2) {
+        active.points = [active.points[0], pt];
+        movedFar = true;
+        continue;
+      }
+      const pts = active.points;
       const last = pts[pts.length - 1];
       if (!last || Math.hypot(pt.x - last.x, pt.y - last.y) >= 1.2) {
         pts.push(pt);
+        movedFar = true;
       }
     }
-    redrawCanvas(scratch.strokes, activeStrokeRef.current);
+
+    if (movedFar && !active.shapeKind) {
+      scheduleHoldSnap();
+    }
+    redrawCanvas(scratch.strokes, active);
   };
 
   const finishActiveStroke = (e: PointerEvent) => {
     if (activePointerIdRef.current !== e.pointerId) return;
+    cancelHoldSnapTimer();
+
     const canvas = canvasRef.current;
     if (canvas?.hasPointerCapture?.(e.pointerId)) {
       canvas.releasePointerCapture(e.pointerId);
     }
     activePointerIdRef.current = null;
+
+    if (tool === 'stroke_eraser') {
+      const nextList = eraserBatchRef.current;
+      const didChange = eraserChangedRef.current;
+      eraserBatchRef.current = null;
+      eraserChangedRef.current = false;
+      if (didChange && nextList) {
+        commitScratch(applyBatchStrokes(scratch, nextList));
+      }
+      return;
+    }
+
     const finished = activeStrokeRef.current;
     activeStrokeRef.current = null;
-    if (finished && finished.points.length > 0) {
-      commitScratch(pushStroke(scratch, finished));
+    if (!finished || finished.points.length === 0) return;
+
+    let finalStroke = finished;
+    if (!finished.shapeKind && autoTidy && (finished.tool === 'pen' || finished.tool === 'highlighter')) {
+      const shape = detectAndCorrectShape(finished.points);
+      if (shape && (finished.tool === 'pen' || shape.kind === 'line')) {
+        finalStroke = {
+          ...finished,
+          rawPoints: finished.points.slice(),
+          points: shape.points,
+          sharp: shape.sharp,
+          shapeKind: shape.kind,
+        };
+        showShapeNotice(`✦ ${shape.label}`, true);
+      } else if (finished.points.length >= 4) {
+        finalStroke = {
+          ...finished,
+          rawPoints: finished.points.slice(),
+          points: beautifyFreehandPoints(finished.points),
+        };
+      }
+    } else if (finished.shapeKind) {
+      showShapeNotice(
+        `✦ ${finished.shapeKind === 'line' ? 'Garis Lurus' : finished.shapeKind === 'circle' ? 'Lingkaran' : finished.shapeKind === 'triangle' ? 'Segitiga' : finished.shapeKind === 'rect' ? 'Persegi' : finished.shapeKind === 'arrow' ? 'Panah' : 'Elips'}`,
+        true,
+      );
     }
+
+    commitScratch(pushStroke(scratch, finalStroke));
+  };
+
+  const revertLastAutoShape = () => {
+    if (scratch.strokes.length === 0) return;
+    const lastIdx = scratch.strokes.length - 1;
+    const last = scratch.strokes[lastIdx];
+    if (!last.rawPoints || last.rawPoints.length === 0) return;
+    const restored: Stroke = {
+      tool: last.tool,
+      color: last.color,
+      width: last.width,
+      points: last.rawPoints,
+    };
+    const nextList = [...scratch.strokes.slice(0, lastIdx), restored];
+    commitScratch(applyBatchStrokes(scratch, nextList));
+    setShapeBadge(null);
+  };
+
+  const handleTidyAll = () => {
+    const res = tidyStrokesBatch(scratch.strokes);
+    if (res.improved > 0) {
+      commitScratch(applyBatchStrokes(scratch, res.nextStrokes));
+      showShapeNotice(`✦ ${res.improved} coretan dirapikan`, false);
+    } else {
+      showShapeNotice('Coretan sudah rapi', false);
+    }
+  };
+
+  const insertTemplate = (tplId: ScratchTemplateId) => {
+    const stage = stageRef.current;
+    const w = stage?.clientWidth || 380;
+    const h = stage?.clientHeight || HEIGHT_PX[heightPreset];
+    const tplColor: PenColorId = color === 'amber' ? 'blue' : color;
+    const added = buildTemplateStrokes(tplId, w, h, tplColor);
+    commitScratch(applyBatchStrokes(scratch, [...scratch.strokes, ...added]));
+    setTemplateMenuOpen(false);
+    setTool('pen');
+    showShapeNotice(
+      tplId === 'jokowi' ? '△ Segitiga JoKoWi siap' : tplId === 'venn' ? '◯ Diagram Venn siap' : '→ Garis Bilangan siap',
+      false,
+    );
+  };
+
+  const handleDownloadPng = () => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const exportCanvas = document.createElement('canvas');
+    exportCanvas.width = canvas.width;
+    exportCanvas.height = canvas.height;
+    const ctx = exportCanvas.getContext('2d');
+    if (!ctx) return;
+    ctx.fillStyle = dark ? '#0f1722' : '#ffffff';
+    ctx.fillRect(0, 0, exportCanvas.width, exportCanvas.height);
+    ctx.drawImage(canvas, 0, 0);
+    const link = document.createElement('a');
+    link.download = `coretan-${scopeKey.replace(/[^a-z0-9-_]/gi, '-')}.png`;
+    link.href = exportCanvas.toDataURL('image/png');
+    link.click();
   };
 
   const handleClearClick = () => {
@@ -306,6 +520,7 @@ export default function ScratchPad({
     }
     if (clearTimerRef.current) window.clearTimeout(clearTimerRef.current);
     setConfirmClear(false);
+    setShapeBadge(null);
     commitScratch(EMPTY_SCRATCH);
   };
 
@@ -319,7 +534,6 @@ export default function ScratchPad({
     setGrid((prev) => (prev === 'grid' ? 'lined' : prev === 'lined' ? 'blank' : 'grid'));
   };
 
-  // Geser jendela mengambang dengan mouse/sentuhan di header.
   const startDragHeader = (e: PointerEvent) => {
     if (dockMode !== 'floating') return;
     if ((e.target as HTMLElement).closest('button')) return;
@@ -372,7 +586,7 @@ export default function ScratchPad({
         onPointerCancel={endDragHeader}
       >
         <div className="scratch-title-wrap">
-          <strong>✎ Kertas Coret-Coretan</strong>
+          <strong>✎ Kertas Coret-Coretan Pintar</strong>
           {subtitle && <small className="muted">{subtitle}</small>}
         </div>
 
@@ -417,14 +631,25 @@ export default function ScratchPad({
             className={`scratch-tool-btn ${tool === 'pen' ? 'is-active' : ''}`}
             onClick={() => setTool('pen')}
             aria-pressed={tool === 'pen'}
+            title="Pena tulis & koreksi bentuk otomatis"
           >
             ✎ Pena
           </button>
           <button
             type="button"
-            className={`scratch-tool-btn ${tool === 'eraser' ? 'is-active' : ''}`}
-            onClick={() => setTool('eraser')}
-            aria-pressed={tool === 'eraser'}
+            className={`scratch-tool-btn ${tool === 'highlighter' ? 'is-active' : ''}`}
+            onClick={() => setTool('highlighter')}
+            aria-pressed={tool === 'highlighter'}
+            title="Stabilo transparan untuk menandai angka penting"
+          >
+            🖍 Stabilo
+          </button>
+          <button
+            type="button"
+            className={`scratch-tool-btn ${tool === 'stroke_eraser' ? 'is-active' : ''}`}
+            onClick={() => setTool('stroke_eraser')}
+            aria-pressed={tool === 'stroke_eraser'}
+            title="Sentuh coretan untuk menghapus satu goresan penuh"
           >
             ⌫ Hapus
           </button>
@@ -437,15 +662,17 @@ export default function ScratchPad({
               <button
                 key={c.id}
                 type="button"
-                className={`scratch-color-dot ${tool === 'pen' && color === c.id ? 'is-active' : ''}`}
+                className={`scratch-color-dot ${
+                  tool !== 'stroke_eraser' && color === c.id ? 'is-active' : ''
+                }`}
                 style={{ '--dot-color': swatch }}
                 onClick={() => {
                   setColor(c.id);
-                  setTool('pen');
+                  if (tool === 'stroke_eraser') setTool('pen');
                 }}
                 title={c.label}
                 aria-label={c.label}
-                aria-pressed={tool === 'pen' && color === c.id}
+                aria-pressed={tool !== 'stroke_eraser' && color === c.id}
               />
             );
           })}
@@ -473,6 +700,49 @@ export default function ScratchPad({
         <div className="scratch-tool-group is-right">
           <button
             type="button"
+            className={`scratch-tool-btn ${autoTidy ? 'is-magic' : ''}`}
+            onClick={() => setAutoTidy((v) => !v)}
+            aria-pressed={autoTidy}
+            title="Rapikan tulisan & bentuk (garis/panah/lingkaran/segitiga/persegi) otomatis, atau tahan sejenak di akhir goresan"
+          >
+            ✦ Auto-Rapi
+          </button>
+          <div className="scratch-tpl-wrap">
+            <button
+              type="button"
+              className={`scratch-tool-btn ${templateMenuOpen ? 'is-active' : ''}`}
+              onClick={() => setTemplateMenuOpen((v) => !v)}
+              title="Sisipkan templat cepat (Segitiga JoKoWi, Diagram Venn, Garis Bilangan)"
+            >
+              ⊞ Templat
+            </button>
+            {templateMenuOpen && (
+              <div className="scratch-tpl-menu" role="menu">
+                <button type="button" role="menuitem" onClick={() => insertTemplate('jokowi')}>
+                  △ Segitiga JoKoWi (J = K × W)
+                </button>
+                <button type="button" role="menuitem" onClick={() => insertTemplate('venn')}>
+                  ◯ Diagram Venn (2 Himpunan)
+                </button>
+                <button type="button" role="menuitem" onClick={() => insertTemplate('axes')}>
+                  → Garis Bilangan
+                </button>
+                <button
+                  type="button"
+                  role="menuitem"
+                  disabled={scratch.strokes.length === 0}
+                  onClick={() => {
+                    setTemplateMenuOpen(false);
+                    handleTidyAll();
+                  }}
+                >
+                  ✦ Rapikan Coretan Lama
+                </button>
+              </div>
+            )}
+          </div>
+          <button
+            type="button"
             className="scratch-tool-btn"
             onClick={cycleGrid}
             title="Ubah latar kertas (Petak / Garis / Polos)"
@@ -483,7 +753,7 @@ export default function ScratchPad({
             type="button"
             className="scratch-tool-btn"
             onClick={() => commitScratch(undoStroke(scratch))}
-            disabled={scratch.strokes.length === 0}
+            disabled={!canUndoScratch(scratch)}
             title="Urungkan (Ctrl+Z)"
             aria-label="Urungkan coretan terakhir"
           >
@@ -493,11 +763,21 @@ export default function ScratchPad({
             type="button"
             className="scratch-tool-btn"
             onClick={() => commitScratch(redoStroke(scratch))}
-            disabled={scratch.redoStack.length === 0}
+            disabled={!canRedoScratch(scratch)}
             title="Ulangi (Ctrl+Y)"
             aria-label="Ulangi coretan"
           >
             ↷
+          </button>
+          <button
+            type="button"
+            className="scratch-tool-btn"
+            onClick={handleDownloadPng}
+            disabled={scratch.strokes.length === 0}
+            title="Simpan coretan sebagai gambar PNG"
+            aria-label="Simpan gambar coretan"
+          >
+            ⬇
           </button>
           <button
             type="button"
@@ -506,7 +786,7 @@ export default function ScratchPad({
             disabled={scratch.strokes.length === 0}
             title="Bersihkan seluruh kertas"
           >
-            {confirmClear ? 'Yakin Bersihkan?' : 'Bersihkan'}
+            {confirmClear ? 'Yakin?' : 'Hapus Semua'}
           </button>
         </div>
       </div>
@@ -518,12 +798,24 @@ export default function ScratchPad({
       >
         {scratch.strokes.length === 0 && (
           <div className="scratch-empty-hint" aria-hidden="true">
-            Tulis hitungan di sini dengan mouse (PC/Web) atau usapan jari (Mobile). Coretan tersimpan per soal.
+            Tulis hitungan dengan mouse atau jari. <strong>Auto-Rapi</strong> menghaluskan tulisan &amp;
+            meluruskan bentuk—atau <strong>tahan ujung goresan 0,35 detik</strong> untuk snap garis,
+            panah, segitiga, lingkaran, atau persegi.
+          </div>
+        )}
+        {shapeBadge && (
+          <div className="scratch-shape-toast" role="status" aria-live="polite">
+            <span>{shapeBadge.label}</span>
+            {shapeBadge.revertable && (
+              <button type="button" onClick={revertLastAutoShape}>
+                Kembalikan Asli
+              </button>
+            )}
           </div>
         )}
         <canvas
           ref={canvasRef}
-          className={`scratch-canvas ${tool === 'eraser' ? 'is-eraser' : ''}`}
+          className={`scratch-canvas ${tool === 'stroke_eraser' ? 'is-eraser' : ''}`}
           onPointerDown={handlePointerDown}
           onPointerMove={handlePointerMove}
           onPointerUp={finishActiveStroke}
@@ -533,4 +825,3 @@ export default function ScratchPad({
     </section>
   );
 }
-
