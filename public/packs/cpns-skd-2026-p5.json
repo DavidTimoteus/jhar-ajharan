@@ -117,7 +117,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Cocokkan kata kunci kewenangan lembaga negara pasca-Amandemen UUD 1945 (MPR tak lagi lembaga tertinggi; DPD mengurus otonomi daerah). Petunjuk inti: Pasal 37 ayat (5) UUD 1945 menegaskan bahwa khusus mengenai bentuk Negara Kesatuan Republik Indonesia tidak dap"
+          "text": "Cocokkan kata kunci kewenangan lembaga negara pasca-Amandemen UUD 1945 (MPR tak lagi lembaga tertinggi; DPD mengurus otonomi daerah). Petunjuk inti: Pasal 37 ayat (5) UUD 1945 menegaskan bahwa khusus mengenai bentuk Negara Kesatuan Republik Indonesia tidak dap."
         },
         {
           "lens": "eliminasi",
@@ -712,7 +712,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Ketika ragu, konsultasi kepada unit yang berwenang memberi kepastian sekaligus meninggalkan jejak yang melind"
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Ketika ragu, konsultasi kepada unit yang berwenang memberi kepastian sekaligus meninggalkan jejak yang melind."
         },
         {
           "lens": "eliminasi",
@@ -922,7 +922,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Ide pokok selalu merangkum kalimat utama (umumnya di awal/deduktif atau akhir/induktif), bukan kalimat penjelas berisi contoh. Petunjuk inti: Kata dasar pengaruh berawalan huruf p sehingga luluh menjadi m ketika mendapat awalan me-, menghasilkan bentuk baku me"
+          "text": "Ide pokok selalu merangkum kalimat utama (umumnya di awal/deduktif atau akhir/induktif), bukan kalimat penjelas berisi contoh. Petunjuk inti: Kata dasar pengaruh berawalan huruf p sehingga luluh menjadi m ketika mendapat awalan me-, menghasilkan bentuk baku me."
         },
         {
           "lens": "eliminasi",
@@ -946,7 +946,7 @@
       "id": "cpns26-p5-p5-twk-27",
       "subtest": "twk",
       "topic": "bahasa indonesia",
-      "stem": "Bacalah kalimat berikut.\n\n\"Meskipun anggaran terbatas, tetapi program tetap berjalan sesuai rencana.\"\n\nPerbaikan yang tepat adalah...",
+      "stem": "Bacalah kalimat berikut.\n\"Meskipun anggaran terbatas, tetapi program tetap berjalan sesuai rencana.\"\nPerbaikan yang tepat adalah...",
       "options": [
         "Menghilangkan kata meskipun",
         "Menghilangkan kata tetapi",
@@ -957,7 +957,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Ide pokok selalu merangkum kalimat utama (umumnya di awal/deduktif atau akhir/induktif), bukan kalimat penjelas berisi contoh. Petunjuk inti: Konjungsi meskipun dan tetapi tidak boleh dipakai bersamaan dalam satu kalimat karena keduanya menyatakan pertentangan"
+          "text": "Ide pokok selalu merangkum kalimat utama (umumnya di awal/deduktif atau akhir/induktif), bukan kalimat penjelas berisi contoh. Petunjuk inti: Konjungsi meskipun dan tetapi tidak boleh dipakai bersamaan dalam satu kalimat karena keduanya menyatakan pertentangan."
         },
         {
           "lens": "eliminasi",
@@ -1412,7 +1412,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Pada pasangan pertama, segitiga siku-siku dicerminkan secara mendatar sehingga sudut sikunya berpindah dari "
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Pada pasangan pertama, segitiga siku-siku dicerminkan secara mendatar sehingga sudut sikunya berpindah dari."
         },
         {
           "lens": "eliminasi",
@@ -1541,7 +1541,7 @@
       "id": "cpns26-p5-p5-tiu-14",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Enam peserta (A, B, C, D, E, F) mengikuti wawancara berurutan. C diwawancarai pertama. F diwawancarai terakhir. B tepat sebelum D. A diwawancarai setelah E.\n\nJika E diwawancarai pada urutan kedua, maka urutan keempat adalah...",
+      "stem": "Enam peserta (A, B, C, D, E, F) mengikuti wawancara berurutan. C diwawancarai pertama. F diwawancarai terakhir. B tepat sebelum D. A diwawancarai setelah E.\nJika E diwawancarai pada urutan kedua, maka urutan keempat adalah...",
       "options": [
         "A",
         "B",
@@ -1576,7 +1576,7 @@
       "id": "cpns26-p5-p5-tiu-15",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Lima kotak arsip berwarna berbeda disusun berjajar. Kotak merah tidak di ujung. Kotak biru tepat di sebelah kanan kotak merah. Kotak hijau di ujung kiri. Kotak kuning tepat di sebelah kanan kotak biru.\n\nKotak yang berada di ujung kanan adalah...",
+      "stem": "Lima kotak arsip berwarna berbeda disusun berjajar. Kotak merah tidak di ujung. Kotak biru tepat di sebelah kanan kotak merah. Kotak hijau di ujung kiri. Kotak kuning tepat di sebelah kanan kotak biru.\nKotak yang berada di ujung kanan adalah...",
       "options": [
         "Merah",
         "Biru",
@@ -1611,7 +1611,7 @@
       "id": "cpns26-p5-p5-tiu-16",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Empat orang memiliki tinggi berbeda. Andi lebih tinggi daripada Bayu. Cakra lebih pendek daripada Bayu. Dodi lebih tinggi daripada Andi.\n\nUrutan dari yang terpendek adalah...",
+      "stem": "Empat orang memiliki tinggi berbeda. Andi lebih tinggi daripada Bayu. Cakra lebih pendek daripada Bayu. Dodi lebih tinggi daripada Andi.\nUrutan dari yang terpendek adalah...",
       "options": [
         "Cakra, Bayu, Andi, Dodi",
         "Bayu, Cakra, Andi, Dodi",
@@ -1622,7 +1622,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Visualisasikan dengan simbol pertidaksamaan '>' / '<' atau sketsa slot kursi bernomor 1..N agar semua syarat terbaca sekaligus. Petunjuk inti: Dari premis diperoleh Dodi lebih tinggi daripada Andi, Andi lebih tinggi daripada Bayu, dan Bayu lebih tinggi daripad"
+          "text": "Visualisasikan dengan simbol pertidaksamaan '>' / '<' atau sketsa slot kursi bernomor 1..N agar semua syarat terbaca sekaligus. Petunjuk inti: Dari premis diperoleh Dodi lebih tinggi daripada Andi, Andi lebih tinggi daripada Bayu, dan Bayu lebih tinggi daripad."
         },
         {
           "lens": "eliminasi",
@@ -1646,7 +1646,7 @@
       "id": "cpns26-p5-p5-tiu-17",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Tiga instansi mengirim peserta pelatihan pada tiga hari berbeda. Instansi X tidak pada hari pertama. Instansi Y pada hari ketiga.\n\nMaka instansi yang mengirim peserta pada hari pertama adalah...",
+      "stem": "Tiga instansi mengirim peserta pelatihan pada tiga hari berbeda. Instansi X tidak pada hari pertama. Instansi Y pada hari ketiga.\nMaka instansi yang mengirim peserta pada hari pertama adalah...",
       "options": [
         "X",
         "Y",
@@ -1681,7 +1681,7 @@
       "id": "cpns26-p5-p5-tiu-18",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Lima berkas ditumpuk. Berkas Merah tepat di bawah berkas Putih. Berkas Hitam paling bawah. Berkas Biru tepat di atas berkas Putih. Berkas Kuning berada di antara Hitam dan Merah.\n\nBerkas yang berada paling atas adalah...",
+      "stem": "Lima berkas ditumpuk. Berkas Merah tepat di bawah berkas Putih. Berkas Hitam paling bawah. Berkas Biru tepat di atas berkas Putih. Berkas Kuning berada di antara Hitam dan Merah.\nBerkas yang berada paling atas adalah...",
       "options": [
         "Merah",
         "Putih",
@@ -1716,7 +1716,7 @@
       "id": "cpns26-p5-p5-tiu-19",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Enam pegawai menempati enam meja berjajar bernomor 1 sampai 6. Rina menempati meja 3. Sinta tidak boleh bersebelahan dengan Rina.\n\nMeja yang tidak mungkin ditempati Sinta adalah...",
+      "stem": "Enam pegawai menempati enam meja berjajar bernomor 1 sampai 6. Rina menempati meja 3. Sinta tidak boleh bersebelahan dengan Rina.\nMeja yang tidak mungkin ditempati Sinta adalah...",
       "options": [
         "Meja 2 dan 4",
         "Meja 5 dan 6",
@@ -1751,7 +1751,7 @@
       "id": "cpns26-p5-p5-tiu-20",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Empat kegiatan dijadwalkan pada pukul 08.00, 10.00, 13.00, dan 15.00. Rapat tidak pada jadwal pertama maupun terakhir. Pelatihan pada pukul 15.00. Sosialisasi lebih awal daripada Rapat.\n\nKegiatan pada pukul 08.00 adalah...",
+      "stem": "Empat kegiatan dijadwalkan pada pukul 08.00, 10.00, 13.00, dan 15.00. Rapat tidak pada jadwal pertama maupun terakhir. Pelatihan pada pukul 15.00. Sosialisasi lebih awal daripada Rapat.\nKegiatan pada pukul 08.00 adalah...",
       "options": [
         "Rapat",
         "Pelatihan",
@@ -1762,7 +1762,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pekerja bertambah → waktu pasti berkurang (kalikan Orang × Hari = Orang baru × Hari baru; jika koma, bulatkan orang ke atas). Susul-menyusul: Jarak duluan ÷ (Kecepatan penyusul − yang disusul). Petunjuk inti: Pelatihan mengunci pukul 15.00, dan Rapat hanya bol"
+          "text": "Pekerja bertambah → waktu pasti berkurang (kalikan Orang × Hari = Orang baru × Hari baru; jika koma, bulatkan orang ke atas). Susul-menyusul: Jarak duluan ÷ (Kecepatan penyusul − yang disusul). Petunjuk inti: Pelatihan mengunci pukul 15.00, dan Rapat hanya bol."
         },
         {
           "lens": "eliminasi",
@@ -1786,7 +1786,7 @@
       "id": "cpns26-p5-p5-tiu-21",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Dalam sebuah seleksi, peserta yang lulus wajib memenuhi dua syarat sekaligus: nilai minimal 80 dan pengalaman minimal 2 tahun. Rudi bernilai 85 dengan pengalaman 1 tahun. Sari bernilai 78 dengan pengalaman 5 tahun. Tono bernilai 82 dengan pengalaman 3 tahun.\n\nPeserta yang lulus adalah...",
+      "stem": "Dalam sebuah seleksi, peserta yang lulus wajib memenuhi dua syarat sekaligus: nilai minimal 80 dan pengalaman minimal 2 tahun. Rudi bernilai 85 dengan pengalaman 1 tahun. Sari bernilai 78 dengan pengalaman 5 tahun. Tono bernilai 82 dengan pengalaman 3 tahun.\nPeserta yang lulus adalah...",
       "options": [
         "Rudi saja",
         "Sari saja",
@@ -1821,7 +1821,7 @@
       "id": "cpns26-p5-p5-tiu-22",
       "subtest": "tiu",
       "topic": "silogisme",
-      "stem": "Semua laporan yang terlambat dikenai catatan kinerja. Sebagian laporan unit ini tidak dikenai catatan kinerja.\n\nKesimpulan yang tepat adalah...",
+      "stem": "Semua laporan yang terlambat dikenai catatan kinerja. Sebagian laporan unit ini tidak dikenai catatan kinerja.\nKesimpulan yang tepat adalah...",
       "options": [
         "Semua laporan unit ini terlambat",
         "Sebagian laporan unit ini tidak terlambat",
@@ -1856,7 +1856,7 @@
       "id": "cpns26-p5-p5-tiu-23",
       "subtest": "tiu",
       "topic": "silogisme",
-      "stem": "Jika pelatihan diadakan, maka peserta bertambah. Peserta tidak bertambah.\n\nKesimpulan yang tepat adalah...",
+      "stem": "Jika pelatihan diadakan, maka peserta bertambah. Peserta tidak bertambah.\nKesimpulan yang tepat adalah...",
       "options": [
         "Pelatihan diadakan",
         "Pelatihan tidak diadakan",
@@ -1891,7 +1891,7 @@
       "id": "cpns26-p5-p5-tiu-24",
       "subtest": "tiu",
       "topic": "silogisme",
-      "stem": "Semua pengemudi wajib memiliki surat izin mengemudi. Sebagian pegawai kantor ini adalah pengemudi.\n\nKesimpulan yang tepat adalah...",
+      "stem": "Semua pengemudi wajib memiliki surat izin mengemudi. Sebagian pegawai kantor ini adalah pengemudi.\nKesimpulan yang tepat adalah...",
       "options": [
         "Semua pegawai kantor ini wajib memiliki surat izin mengemudi",
         "Sebagian pegawai kantor ini wajib memiliki surat izin mengemudi",
@@ -1926,7 +1926,7 @@
       "id": "cpns26-p5-p5-tiu-25",
       "subtest": "tiu",
       "topic": "silogisme",
-      "stem": "Tidak ada berkas bermeterai yang ditolak. Berkas Vina ditolak.\n\nKesimpulan yang tepat adalah...",
+      "stem": "Tidak ada berkas bermeterai yang ditolak. Berkas Vina ditolak.\nKesimpulan yang tepat adalah...",
       "options": [
         "Berkas Vina bermeterai",
         "Berkas Vina tidak bermeterai",
@@ -2007,7 +2007,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Skala Richter dipakai untuk mengukur kekuatan gempa, sedangkan skala Beaufort dipakai untuk menyatakan kekua"
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Skala Richter dipakai untuk mengukur kekuatan gempa, sedangkan skala Beaufort dipakai untuk menyatakan kekua."
         },
         {
           "lens": "eliminasi",

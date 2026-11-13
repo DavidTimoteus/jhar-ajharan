@@ -7,6 +7,8 @@ Bank Soal RBB BUMN — TKD (20), AKHLAK (10), Bahasa Inggris (10)
 - Bahasa Inggris: pemahaman dasar — binary 5/0
 """
 
+from text_polish import build_explain_binary, build_explain_weighted
+
 def q_tkd(pid, topic, stem, options, key, kilat, elim, logika, jebakan, explain, ts=45):
     return {
         "id": f"tkd-{pid:03d}",
@@ -26,7 +28,7 @@ def q_tkd(pid, topic, stem, options, key, kilat, elim, logika, jebakan, explain,
     }
 
 
-def q_akhlak(pid, topic, stem, options, weights, kilat, elim, logika, jebakan, explain):
+def q_akhlak(pid, topic, stem, options, weights, kilat, elim, logika, jebakan, explain, ts=40):
     return {
         "id": f"akhlak-{pid:03d}",
         "subtest": "akhlak",
@@ -41,7 +43,7 @@ def q_akhlak(pid, topic, stem, options, weights, kilat, elim, logika, jebakan, e
             {"lens": "jebakan", "text": jebakan},
         ],
         "explain": explain,
-        "targetSec": 40,
+        "targetSec": ts,
     }
 
 
@@ -188,9 +190,14 @@ def bank_bumn_tkd():
          "Nilai = modal × (1+r)^n = 10jt × 1,05² = 11.025.000.",
          "Jangan pilih 11.000.000 - itu bunga sederhana 5% × 2 tahun.", 55),
     ]
-    for i, (topic, stem, options, key, kilat, elim, logika, jebakan, explain, *rest) in enumerate(d, 1):
-        ts = rest[0] if rest else 45
-        out.append(q_tkd(i, topic, stem, options, key, kilat, elim, logika, jebakan, explain, ts))
+    for i, (topic, stem, options, key, kilat, elim, logika, jebakan, ts_or_exp, *rest) in enumerate(d, 1):
+        if isinstance(ts_or_exp, int):
+            ts = ts_or_exp
+            exp = build_explain_binary(options, key, kilat, logika)
+        else:
+            ts = rest[0] if rest else 45
+            exp = ts_or_exp
+        out.append(q_tkd(i, topic, stem, options, key, kilat, elim, logika, jebakan, exp, ts))
     return out
 
 
@@ -278,8 +285,10 @@ def bank_bumn_akhlak():
          "Nilai Loyal: dedikasi jangka panjang, komunikasi terbuka soal karier.",
          "Jangan pilih 'mengancam pindah untuk menaikkan gaji' - itu pemerasan.", 45),
     ]
-    for i, (topic, stem, options, weights, kilat, elim, logika, jebakan, explain) in enumerate(d, 1):
-        out.append(q_akhlak(i, topic, stem, options, weights, kilat, elim, logika, jebakan, explain))
+    for i, (topic, stem, options, weights, kilat, elim, logika, jebakan, ts_or_exp) in enumerate(d, 1):
+        ts = ts_or_exp if isinstance(ts_or_exp, int) else 40
+        exp = build_explain_weighted(options, weights, kilat, logika) if isinstance(ts_or_exp, int) else ts_or_exp
+        out.append(q_akhlak(i, topic, stem, options, weights, kilat, elim, logika, jebakan, exp, ts))
     return out
 
 
@@ -349,7 +358,12 @@ def bank_bumn_bhs():
          "Scan untuk kata kerja 'submit' dan waktu 'before Friday'.",
          "Jangan pilih 'after Friday' - kebalikan instruksi.", 40),
     ]
-    for i, (topic, stem, options, key, kilat, elim, logika, jebakan, explain, *rest) in enumerate(d, 1):
-        ts = rest[0] if rest else 45
-        out.append(q_bhs(i, topic, stem, options, key, kilat, elim, logika, jebakan, explain, ts))
+    for i, (topic, stem, options, key, kilat, elim, logika, jebakan, ts_or_exp, *rest) in enumerate(d, 1):
+        if isinstance(ts_or_exp, int):
+            ts = ts_or_exp
+            exp = build_explain_binary(options, key, kilat, logika)
+        else:
+            ts = rest[0] if rest else 45
+            exp = ts_or_exp
+        out.append(q_bhs(i, topic, stem, options, key, kilat, elim, logika, jebakan, exp, ts))
     return out

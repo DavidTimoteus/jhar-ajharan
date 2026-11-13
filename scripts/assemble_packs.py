@@ -19,6 +19,7 @@ from bank_bumn import bank_bumn_tkd, bank_bumn_akhlak, bank_bumn_bhs
 from bank_sumber import bank_cpns_kitalulus, bank_tkd_skillacademy, bank_bhs_dealls
 from bank_original_2026 import bank_cpns_original_2026, bank_bumn_original_2026
 from build_submateri_index import build_submateri_index
+from text_polish import polish_question_text
 
 
 def pack(id_str, name, family, version, note, source, duration_min, subtests, questions):
@@ -144,6 +145,20 @@ def build():
         packs.extend(ext_packs)
 
     for p in packs:
+        for q in p.get("questions", []):
+            is_diag = any(ch in (q.get("stem") or "") for ch in "┌┐└┘│─┬┴┼●○▲△■□")
+            q["stem"] = polish_question_text(q.get("stem", ""), is_diagram=is_diag)
+            if isinstance(q.get("options"), list):
+                q["options"] = [
+                    polish_question_text(opt, is_diagram=False) for opt in q["options"]
+                ]
+            if isinstance(q.get("hints"), list):
+                for h in q["hints"]:
+                    if isinstance(h, dict) and isinstance(h.get("text"), str):
+                        h["text"] = polish_question_text(h["text"], is_explain=True)
+            if isinstance(q.get("explain"), str):
+                q["explain"] = polish_question_text(q["explain"], is_explain=True)
+
         out = PACKS_DIR / f"{p['id']}.json"
         out.write_text(json.dumps(p, ensure_ascii=False, indent=2), encoding="utf-8")
 

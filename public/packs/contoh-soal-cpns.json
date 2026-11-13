@@ -415,7 +415,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "x + y = 50 dan x - 10 = 20 → x = 30."
+          "text": "X + y = 50 dan x - 10 = 20 → x = 30."
         },
         {
           "lens": "eliminasi",
@@ -430,7 +430,7 @@
           "text": "Baca semua opsi sebelum memutuskan."
         }
       ],
-      "explain": "x + y = 50; x - 10 = 20 → x = 30. Substitusi: 30 + y = 50 → y = 20. Angka yang dicari adalah 30. Jawaban A.",
+      "explain": "X + y = 50; x - 10 = 20 → x = 30. Substitusi: 30 + y = 50 → y = 20. Angka yang dicari adalah 30. Jawaban A.",
       "targetSec": 40,
       "source": "tryout.id — Latihan Soal CPNS Terbaru 2025 (tryout.id/berita)",
       "key": 0

@@ -541,7 +541,7 @@
       "id": "orig-bumn26-bhs-04",
       "subtest": "bhs",
       "topic": "reading comprehension",
-      "stem": "Bacaan:\n\"While digital payment adoption in Indonesian tier-1 cities has exceeded initial projections, rural micro-merchants still cite unstable mobile connectivity and complex onboarding forms as major barriers. In response, state banking consortiums are testing lightweight offline-capable QR settlement apps paired with assisted local agent onboarding.\"\n\nBased on the passage, why are banking consortiums piloting lightweight offline-capable apps?",
+      "stem": "Bacaan:\n\"While digital payment adoption in Indonesian tier-1 cities has exceeded initial projections, rural micro-merchants still cite unstable mobile connectivity and complex onboarding forms as major barriers. In response, state banking consortiums are testing lightweight offline-capable QR settlement apps paired with assisted local agent onboarding.\"\nBased on the passage, why are banking consortiums piloting lightweight offline-capable apps?",
       "options": [
         "Because digital payment adoption in major tier-1 cities has dropped sharply.",
         "To completely replace all human bank branches in large metropolitan areas.",

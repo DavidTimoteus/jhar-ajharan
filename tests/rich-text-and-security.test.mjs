@@ -8,19 +8,20 @@ import { SUBMATERI_LIST } from '../src/lib/submateri.ts';
 import { getTrackConfig, partitionTracks } from '../src/lib/tracks.ts';
 
 describe('Keamanan JSON, Format Teks Kaya & Indeks Kisi Submateri', () => {
-  it('parseInlineRichText memformat bold, underline, strikethrough, highlight & menjaga isian rumpang', () => {
+  it('parseInlineRichText memformat bold, italic, underline, strikethrough, highlight & menjaga isian/perkalian', () => {
     const tokens = parseInlineRichText(
-      '**Kunci**: __wajib bulatkan__ bukan ~~bulatkan ke bawah~~, pakai ==O₁ × W₁== atau `a² - b²`.',
+      '**Kunci**: *Learning Agility* __wajib bulatkan__ bukan ~~bulatkan ke bawah~~, pakai ==O₁ × W₁== atau `a² - b²`.',
     );
     const kinds = tokens.map((t) => t.kind);
     assert.ok(kinds.includes('bold'));
+    assert.ok(kinds.includes('italic'));
     assert.ok(kinds.includes('underline'));
     assert.ok(kinds.includes('strike'));
     assert.ok(kinds.includes('highlight'));
     assert.ok(kinds.includes('code'));
 
-    // Isian grammar _____ & snake_case twk_bumn tidak boleh salah dideteksi sebagai underline!
-    const blankTokens = parseInlineRichText('She _____ to the office at twk_bumn.');
+    // Isian grammar _____, snake_case twk_bumn, & perkalian 3 * 4 * 5 tidak boleh salah dideteksi!
+    const blankTokens = parseInlineRichText('She _____ to the office at twk_bumn dengan skor 3 * 4 * 5.');
     assert.equal(blankTokens.every((t) => t.kind === 'text'), true);
   });
 
@@ -96,6 +97,29 @@ describe('Keamanan JSON, Format Teks Kaya & Indeks Kisi Submateri', () => {
     assert.equal(byId['cpns-twk-pilar-negara'].diagramId, 'pilar-lembaga');
     assert.equal(byId['cpns-twk-bahasa'].diagramId, 'kalimat-efektif-xray');
     assert.equal(byId['bumn-bhs-grammar'].diagramId, 'bumn-english-xray');
+  });
+
+  it('Seluruh 30 paket soal memiliki pembahasan string lengkap tanpa pecahan rusak atau math-italic liar', () => {
+    const index = JSON.parse(fs.readFileSync(path.resolve('public/packs/index.json'), 'utf-8'));
+    for (const meta of index) {
+      const pack = JSON.parse(fs.readFileSync(path.resolve('public/packs', meta.file), 'utf-8'));
+      for (const q of pack.questions) {
+        assert.equal(
+          typeof q.explain === 'string' && q.explain.trim().length > 0,
+          true,
+          `Pembahasan kosong pada ${meta.id}#${q.id}`,
+        );
+        for (const fld of [q.stem, q.explain, ...(q.options || [])]) {
+          if (typeof fld !== 'string') continue;
+          assert.equal(fld.includes('= ='), false, `Rumus terpotong pada ${meta.id}#${q.id}`);
+          assert.equal(
+            /[\u{1D400}-\u{1D7FF}]/u.test(fld),
+            false,
+            `Karakter math-alphanumeric liar pada ${meta.id}#${q.id}`,
+          );
+        }
+      }
+    }
   });
 });
 

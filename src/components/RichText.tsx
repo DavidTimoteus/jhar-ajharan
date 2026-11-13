@@ -25,6 +25,12 @@ function renderTokens(tokens: RichToken[], keyPrefix = 'rt'): ComponentChildren 
             {inner}
           </strong>
         );
+      case 'italic':
+        return (
+          <em key={key} className="rt-italic">
+            {inner}
+          </em>
+        );
       case 'underline':
         return (
           <u key={key} className="rt-underline">
