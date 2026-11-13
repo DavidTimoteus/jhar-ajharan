@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks';
+import { useEffect, useState } from 'preact/hooks';
 import {
   calcBerpapasanSama,
   calcPekerjaTambahanTerhenti,
@@ -10,9 +10,10 @@ import RichText from './RichText';
 
 interface Props {
   diagramId: DiagramId;
+  submateriId?: string;
 }
 
-export default function InteractiveDiagram({ diagramId }: Props) {
+export default function InteractiveDiagram({ diagramId, submateriId }: Props) {
   switch (diagramId) {
     case 'berbalik-nilai':
       return <BerbalikNilaiVisual />;
@@ -25,7 +26,27 @@ export default function InteractiveDiagram({ diagramId }: Props) {
     case 'deret-scanner':
       return <DeretScannerVisual />;
     case 'tkp-akhlak-radar':
-      return <TkpAkhlakRadarVisual />;
+      return <TkpAkhlakRadarVisual submateriId={submateriId} />;
+    case 'integritas-detektor':
+      return <IntegritasDetektorVisual />;
+    case 'pilar-lembaga':
+      return <PilarLembagaVisual />;
+    case 'kebangsaan-timeline':
+      return <KebangsaanTimelineVisual submateriId={submateriId} />;
+    case 'kalimat-efektif-xray':
+      return <KalimatEfektifXrayVisual />;
+    case 'analogi-jembatan':
+      return <AnalogiJembatanVisual />;
+    case 'analitis-slot':
+      return <AnalitisSlotVisual />;
+    case 'kuantitatif-uji3':
+      return <KuantitatifUji3Visual />;
+    case 'figural-transform':
+      return <FiguralTransformVisual submateriId={submateriId} />;
+    case 'tkd-verbal-filter':
+      return <TkdVerbalFilterVisual />;
+    case 'bumn-english-xray':
+      return <BumnEnglishXrayVisual submateriId={submateriId} />;
     default:
       return null;
   }
@@ -436,49 +457,95 @@ function DeretScannerVisual() {
   );
 }
 
-/* 6. VISUAL FILTER POIN 5 vs JEBAKAN (TKP & AKHLAK) */
-const BEHAVIOR_SCENARIOS = [
+/* 6. VISUAL FILTER POIN 5 vs JEBAKAN (TKP, AKHLAK & AGILITY) */
+interface BehaviorScenario {
+  id: string;
+  pillar: string;
+  cue: string;
+  good: string;
+  bad: string;
+}
+
+const BEHAVIOR_SCENARIOS: BehaviorScenario[] = [
   {
+    id: 'cpns-tkp-pelayanan',
     pillar: 'Pelayanan Publik / Amanah',
-    cue: 'Antrean membludak & ada lansia kebingungan aplikasi',
+    cue: 'Antrean membludak & ada lansia kebingungan aplikasi layanan',
     good: '==Menenangkan antrean, memandu langsung pengisian, atau mengarahkan ke meja bantu tanpa melompati giliran==',
-    bad: '~~"Ibu baca saja petunjuk di dinding ya"~~ atau ~~mendahulukan kenalan supaya cepat~~',
+    bad: '~~"Ibu baca saja petunjuk di dinding ya"~~ atau ~~mendahulukan kenalan supaya antrean cepat~~',
   },
   {
-    pillar: 'TIK / Adaptif',
-    cue: 'Kantor menerapkan aplikasi baru & rekan senior gagap teknologi',
-    good: '==Mempelajari sistem lebih dulu, membuat panduan ringkas, lalu mendampingi rekan belajar bersama==',
-    bad: '~~Mengusulkan kembali ke cara manual kertas~~ atau ~~mengerjakan akun teman dengan password pribadinya~~',
-  },
-  {
-    pillar: 'Jejaring / Kolaboratif',
-    cue: 'Dua divisi saling menyalahkan saat target laporan meleset',
+    id: 'cpns-tkp-jejaring',
+    pillar: 'Jejaring Kerja / Kolaboratif',
+    cue: 'Dua divisi saling menyalahkan saat target laporan lintas unit meleset',
     good: '==Memfasilitasi rapat evaluasi objektif tanpa menyalahkan, membagi ulang tugas sesuai keahlian==',
     bad: '~~Diam menghindar karena bukan tanggung jawab unit saya~~ atau ~~mengerjakan semuanya sendirian diam-diam~~',
   },
   {
+    id: 'cpns-tkp-sosbud',
+    pillar: 'Sosial Budaya',
+    cue: 'Ditempatkan di daerah dengan bahasa dan adat kerja yang berbeda dari asal Anda',
+    good: '==Aktif mengenal adat setempat, berbaur santun, tetap memegang etika kerja profesional dan netral==',
+    bad: '~~Menutup diri di mess dan hanya mau bekerja dengan rekan sesama daerah~~',
+  },
+  {
+    id: 'cpns-tkp-tik',
+    pillar: 'TIK / Adaptif',
+    cue: 'Kantor menerapkan aplikasi baru & rekan senior gagap teknologi',
+    good: '==Mempelajari sistem lebih dulu, membuat panduan ringkas, lalu mendampingi rekan belajar bersama==',
+    bad: '~~Mengusulkan kembali ke cara manual kertas~~ atau ~~meminta password akun pribadi teman untuk mengerjakannya~~',
+  },
+  {
+    id: 'cpns-tkp-profesionalisme',
+    pillar: 'Profesionalisme / Kompeten',
+    cue: 'Diberi tugas mendadak di luar rutinitas saat jam kerja hampir berakhir',
+    good: '==Memetakan prioritas, menyanggupi secara terukur sesuai SOP, dan menyelesaikannya tepat mutu==',
+    bad: '~~Menolak mentah-mentah tanpa alasan~~ atau ~~mengerjakan asal jadi lalu menyalahkan waktu mepet~~',
+  },
+  {
+    id: 'cpns-tkp-antiradikalisme',
     pillar: 'Anti-Radikalisme / Harmonis',
     cue: 'Beredar pesan grup berisi ujaran intoleran dan hoaks provokatif',
     good: '==Meluruskan fakta dengan santun, menolak penyebaran hoaks, dan melapor lewat saluran resmi bila berlanjut==',
-    bad: '~~Ikut memaki di grup~~ atau ~~acuh tak acuh demi menghindari keributan~~',
+    bad: '~~Ikut memaki di grup~~ atau ~~diam masa bodoh demi menghindari keributan~~',
+  },
+  {
+    id: 'bumn-akhlak',
+    pillar: 'AKHLAK BUMN (Loyal & Harmonis)',
+    cue: 'Atasan meminta percepatan proyek padahal Anda melihat celah potensi pelanggaran kepatuhan',
+    good: '==Menyampaikan risiko secara data-driven dan santun kepada atasan sambil mengusulkan opsi solusi yang patuh aturan==',
+    bad: '~~Langsung menyetujui demi loyalitas buta~~ atau ~~membocorkan konflik internal ke media sosial~~',
+  },
+  {
+    id: 'bumn-agility',
+    pillar: 'Learning Agility',
+    cue: 'Metode lama tidak lagi efektif mengejar target digital perusahaan',
+    good: '==Menganalisis penyebab kegagalan, menguji pendekatan baru skala kecil, mengukur hasil, lalu membagikan pelajaran ke tim==',
+    bad: '~~Nekat mengganti seluruh sistem sekaligus tanpa uji coba~~ atau ~~menunggu perintah tertulis baru mau berubah~~',
   },
 ];
 
-function TkpAkhlakRadarVisual() {
-  const [idx, setIdx] = useState(0);
+function TkpAkhlakRadarVisual({ submateriId }: { submateriId?: string }) {
+  const matchedIdx = BEHAVIOR_SCENARIOS.findIndex((b) => b.id === submateriId);
+  const [idx, setIdx] = useState(matchedIdx >= 0 ? matchedIdx : 0);
+
+  useEffect(() => {
+    if (matchedIdx >= 0) setIdx(matchedIdx);
+  }, [matchedIdx]);
+
   const item = BEHAVIOR_SCENARIOS[idx];
 
   return (
     <div className="visual-lab-card">
       <div className="visual-lab-head">
         <span className="pill pill-cpns">Visual Interaktif · Filter Poin 5</span>
-        <h4>Kompas Penentu Opsi Poin 5 (TKP &amp; AKHLAK)</h4>
+        <h4>Kompas Penentu Opsi Poin 5 (TKP, AKHLAK &amp; Agility)</h4>
       </div>
 
       <div className="lab-preset-pills">
         {BEHAVIOR_SCENARIOS.map((b, i) => (
           <button
-            key={b.pillar}
+            key={b.id}
             type="button"
             className={`chip-btn ${i === idx ? 'is-active' : ''}`}
             onClick={() => setIdx(i)}
@@ -495,14 +562,805 @@ function TkpAkhlakRadarVisual() {
         <div className="lab-radar-cols">
           <div className="lab-radar-box is-good">
             <span className="badge badge-pass">Poin 5 · Pilih Pola Ini</span>
-            <p><RichText text={item.good} /></p>
+            <div className="lab-rich-line"><RichText text={item.good} /></div>
           </div>
           <div className="lab-radar-box is-bad">
             <span className="badge badge-fail">Poin 1–3 · Coret Ini</span>
-            <p><RichText text={item.bad} /></p>
+            <div className="lab-rich-line"><RichText text={item.bad} /></div>
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+/* 7. TWK INTEGRITAS & ANTIKORUPSI: DETEKTOR 4 DELIK + SKEMA WAKTU LAPOR GRATIFIKASI */
+interface DelikCase {
+  id: string;
+  label: string;
+  tag: string;
+  scenario: string;
+  initiator: string;
+  element: string;
+  verdict: string;
+  ruleNote: string;
+}
+
+const INTEGRITAS_CASES: DelikCase[] = [
+  {
+    id: 'suap',
+    label: 'Suap-Menyuap',
+    tag: 'Kedua Pihak Kena Pidana',
+    scenario: 'Kontraktor memberi amplop agar panitia tender meloloskan perusahaannya meski syarat kurang.',
+    initiator: 'Ada **kesepakatan timbal balik** (*meeting of minds*) antara pemberi dan penerima.',
+    element: 'Ada syarat menguntungkan pemberi yang melawan kewajiban jabatan.',
+    verdict: '==Suap-Menyuap (Pasal 5 & 11 UU Tipikor)==',
+    ruleNote: 'Sama-sama pidana seketika saat janji atau pemberian disepakati, meski nilai kecil.',
+  },
+  {
+    id: 'gratifikasi',
+    label: 'Gratifikasi (Lapor KPK)',
+    tag: 'Batas 30 Hari Kerja',
+    scenario: 'Vendor mengirimkan parsel lebaran bernilai mewah ke rumah pejabat setelah proyek selesai.',
+    initiator: 'Berasal dari **pihak lain terkait jabatan**, tanpa kesepakatan syarat di depan.',
+    element: 'Wajib ==lapor ke KPK maksimal 30 hari kerja== agar pidana penerima gugur.',
+    verdict: '==Gratifikasi (Pasal 12B UU Tipikor)==',
+    ruleNote: 'Jangan ditolak diam-diam saja jika terlanjur diterima lewat kurir—segera lapor UPG/KPK sebelum 30 hari kerja.',
+  },
+  {
+    id: 'pemerasan',
+    label: 'Pemerasan Jabatan',
+    tag: 'Pejabat Memaksa',
+    scenario: 'Oknum petugas menahan berkas izin usaha warga dan meminta uang "pelicin" agar berkas diproses.',
+    initiator: '==Pejabat yang aktif meminta/memaksa== menyalahgunakan kekuasaan.',
+    element: 'Warga memberi karena terpaksa takut haknya dipersulit.',
+    verdict: '==Pemerasan dalam Jabatan (Pasal 12 huruf e)==',
+    ruleNote: 'Posisi pemberi di sini adalah korban paksaan pejabat, berbeda dengan suap yang sama-sama mau.',
+  },
+  {
+    id: 'benturan',
+    label: 'Benturan Kepentingan',
+    tag: 'Integritas & Netralitas',
+    scenario: 'Anggota tim penguji mendapati adik kandungnya ikut seleksi jabatan di unit yang ia nilai.',
+    initiator: 'Tidak harus ada uang berpindah—cukup adanya **hubungan pribadi vs tugas resmi**.',
+    element: 'Wajib ==mengungkapkan (declare) & mengundurkan diri== dari posisi penilai.',
+    verdict: '==Conflict of Interest (Wajib Mundur / Lapor Atasan)==',
+    ruleNote: 'Klaim "saya akan menilai objektif" tetap salah dalam soal TWK Integritas—prosedurnya harus mundur dari tim penilai.',
+  },
+];
+
+function IntegritasDetektorVisual() {
+  const [idx, setIdx] = useState(0);
+  const [laporHari, setLaporHari] = useState(14);
+  const item = INTEGRITAS_CASES[idx];
+  const onTime = laporHari <= 30;
+
+  return (
+    <div className="visual-lab-card">
+      <div className="visual-lab-head">
+        <span className="pill pill-cpns">Visual Interaktif · TWK Integritas</span>
+        <h4>Detektor 4 Kasus Integritas &amp; Batas Lapor Gratifikasi</h4>
+      </div>
+
+      <div className="lab-preset-pills">
+        {INTEGRITAS_CASES.map((c, i) => (
+          <button
+            key={c.id}
+            type="button"
+            className={`chip-btn ${i === idx ? 'is-active' : ''}`}
+            onClick={() => setIdx(i)}
+          >
+            {c.label}
+          </button>
+        ))}
+      </div>
+
+      <div className="lab-radar-cue">
+        <span>Kasus:</span> <strong>{item.scenario}</strong>
+      </div>
+
+      <div className="lab-formula-strip">
+        <div className="lab-step-box">
+          <span className="muted">Ciri Pemicu</span>
+          <RichText text={item.initiator} />
+        </div>
+        <div className="lab-step-box">
+          <span className="muted">Pola Kunci</span>
+          <RichText text={item.element} />
+        </div>
+        <div className="lab-step-box is-accent">
+          <span className="muted">Klasifikasi Tepat</span>
+          <RichText text={item.verdict} />
+        </div>
+      </div>
+
+      <div className="lab-sliders-grid">
+        <label className="lab-slider">
+          <span>
+            Simulasi Lapor Gratifikasi ke KPK: <strong>Hari kerja ke-{laporHari}</strong> (batas 30 hari kerja)
+          </span>
+          <input
+            type="range"
+            min={1}
+            max={45}
+            value={laporHari}
+            onInput={(e) => setLaporHari(Number((e.target as HTMLInputElement).value))}
+          />
+        </label>
+        <div className="lab-step-box">
+          <span className="muted">Status Hukum Penerima</span>
+          {onTime ? (
+            <strong className="badge badge-pass">Aman — Pidana Gugur (≤ 30 Hari Kerja)</strong>
+          ) : (
+            <strong className="badge badge-fail">Terlambat (&gt; 30 Hari) — Masuk Delik Suap/Gratifikasi</strong>
+          )}
+        </div>
+      </div>
+
+      <div className="lab-takeaway">
+        <RichText text={item.ruleNote} />
+      </div>
+    </div>
+  );
+}
+
+/* 8. TWK PILAR NEGARA: KOMPAS 5 SILA & WEWENANG LEMBAGA UUD 1945 */
+const SILA_CUES = [
+  { sila: 'Sila 1 · Ketuhanan', cue: 'Toleransi antarumat beragama, menghormati hari raya & kebebasan ibadah tanpa memaksa.' },
+  { sila: 'Sila 2 · Kemanusiaan', cue: 'Empati ke individu/korban bencana, anti-perundungan, memanusiakan sesama secara setara.' },
+  { sila: 'Sila 3 · Persatuan', cue: 'Cinta produk lokal, Bhinneka Tunggal Ika, mendahulukan kepentingan bangsa di atas golongan.' },
+  { sila: 'Sila 4 · Kerakyatan', cue: 'Musyawarah mufakat, legawa menerima keputusan rapat, ikut pemilu, tidak memaksakan kehendak.' },
+  { sila: 'Sila 5 · Keadilan Sosial', cue: 'Antre tertib, menjaga fasilitas umum, tidak bergaya hidup mewah, keseimbangan hak & kewajiban.' },
+];
+
+const LEMBAGA_ROWS = [
+  { id: 'mk', name: 'MK (Mahkamah Konstitusi)', tugas: 'Uji **UU terhadap UUD 1945**, sengketa pemilu, pembubaran parpol, memutus pemakzulan Presiden.' },
+  { id: 'ma', name: 'MA (Mahkamah Agung)', tugas: 'Kasasi pengadilan & uji **peraturan di bawah UU** (PP, Perpres, Perda) terhadap UU.' },
+  { id: 'ky', name: 'KY (Komisi Yudisial)', tugas: 'Mengusulkan calon hakim agung & menjaga kode etik/perilaku hakim (bukan memutus perkara).' },
+  { id: 'bpk', name: 'BPK (Badan Pemeriksa Keuangan)', tugas: 'Memeriksa pengelolaan & tanggung jawab keuangan negara, hasilnya diserahkan ke DPR/DPD/DPRD.' },
+];
+
+function PilarLembagaVisual() {
+  const [silaIdx, setSilaIdx] = useState(1);
+  const [lembagaIdx, setLembagaIdx] = useState(0);
+
+  return (
+    <div className="visual-lab-card">
+      <div className="visual-lab-head">
+        <span className="pill pill-cpns">Visual Interaktif · TWK Pilar Negara</span>
+        <h4>Peta Cepat Sila 1–5 &amp; Wewenang Lembaga Tinggi</h4>
+      </div>
+
+      <div className="lab-preset-pills">
+        {SILA_CUES.map((s, i) => (
+          <button
+            key={s.sila}
+            type="button"
+            className={`chip-btn ${i === silaIdx ? 'is-active' : ''}`}
+            onClick={() => setSilaIdx(i)}
+          >
+            {s.sila}
+          </button>
+        ))}
+      </div>
+
+      <div className="lab-radar-cue">
+        <span>Kata Kunci Soal:</span> <strong>{SILA_CUES[silaIdx].cue}</strong>
+      </div>
+
+      <div className="lab-preset-pills">
+        {LEMBAGA_ROWS.map((l, i) => (
+          <button
+            key={l.id}
+            type="button"
+            className={`chip-btn ${i === lembagaIdx ? 'is-active' : ''}`}
+            onClick={() => setLembagaIdx(i)}
+          >
+            {l.name}
+          </button>
+        ))}
+      </div>
+
+      <div className="lab-takeaway">
+        <RichText text={`**${LEMBAGA_ROWS[lembagaIdx].name}:** ${LEMBAGA_ROWS[lembagaIdx].tugas}`} />
+      </div>
+    </div>
+  );
+}
+
+/* 9. TWK NASIONALISME, BELA NEGARA & TWK BUMN: PETA KONSEP KONTEKSTUAL */
+const KEBANGSAAN_MODES = [
+  {
+    id: 'nasionalisme',
+    title: 'Nasionalisme (1908–1945 & Wawasan Nusantara)',
+    cards: [
+      { k: '1908 · Budi Utomo', v: 'Tonggak ==Kebangkitan Nasional== pertama berbentuk organisasi modern (Soetomo & Wahidin).' },
+      { k: '1928 · Sumpah Pemuda', v: 'Mengubah perjuangan kedaerahan menjadi **satu nusa, satu bangsa, satu bahasa**.' },
+      { k: 'Batas Sehat', v: '**Patriotisme ≠ Chauvinisme**. Cinta tanah air tidak boleh merendahkan bangsa/suku lain.' },
+    ],
+    tip: 'Jika ada 2 opsi sama-sama cinta tanah air, pilih yang **terbuka merangkul keberagaman & bebas fanatisme sempit**.',
+  },
+  {
+    id: 'bela-negara',
+    title: 'Bela Negara (UU No. 23/2019 PSDN)',
+    cards: [
+      { k: 'Komponen Utama', v: '**TNI** siap menghadapi ancaman militer secara langsung.' },
+      { k: 'Komponen Cadangan', v: '**Komcad** — warga sipil/ASN/mahasiswa sukarela yang dilatih militer untuk memperbesar TNI saat darurat.' },
+      { k: 'Komponen Pendukung', v: '**Polri, ASN, profesi sipil, linmas, & infrastruktur nasional** lewat pengabdian sesuai profesi.' },
+    ],
+    tip: 'Mayoritas soal Bela Negara menguji aksi sipil modern: ==membayar pajak patuh, menyaring hoaks, dan melestarikan budaya==.',
+  },
+  {
+    id: 'bumn-pasal33',
+    title: 'TWK BUMN (Pasal 33 UUD 1945 & Agen Pembangunan)',
+    cards: [
+      { k: 'Ayat (2) & (3)', v: 'Cabang produksi penting & kekayaan alam **dikuasai negara** untuk ==sebesar-besar kemakmuran rakyat==.' },
+      { k: 'Fungsi Ganda BUMN', v: '**Pencari Laba (Dividen/Pajak)** + **Agen Pembangunan (PSO/Pemerataan 3T)** — keduanya wajib seimbang.' },
+      { k: 'Hilirisasi', v: 'Mengolah bahan mentah di dalam negeri agar **nilai tambah & lapangan kerja** tinggal di Indonesia.' },
+    ],
+    tip: 'Dalam soal studi kasus BUMN, tolak opsi yang ~~hanya mengejar profit sambil mematikan layanan publik terpencil~~.',
+  },
+];
+
+function KebangsaanTimelineVisual({ submateriId }: { submateriId?: string }) {
+  const initialMode =
+    submateriId === 'cpns-twk-bela-negara' ? 1 : submateriId === 'bumn-twk' ? 2 : 0;
+  const [mode, setMode] = useState(initialMode);
+
+  useEffect(() => {
+    setMode(initialMode);
+  }, [initialMode]);
+
+  const current = KEBANGSAAN_MODES[mode];
+
+  return (
+    <div className="visual-lab-card">
+      <div className="visual-lab-head">
+        <span className="pill pill-cpns">Visual Interaktif · Wawasan Kebangsaan</span>
+        <h4>{current.title}</h4>
+      </div>
+
+      <div className="lab-preset-pills">
+        <button type="button" className={`chip-btn ${mode === 0 ? 'is-active' : ''}`} onClick={() => setMode(0)}>
+          Nasionalisme 1908–1928
+        </button>
+        <button type="button" className={`chip-btn ${mode === 1 ? 'is-active' : ''}`} onClick={() => setMode(1)}>
+          3 Komponen Bela Negara
+        </button>
+        <button type="button" className={`chip-btn ${mode === 2 ? 'is-active' : ''}`} onClick={() => setMode(2)}>
+          Pasal 33 &amp; Peran BUMN
+        </button>
+      </div>
+
+      <div className="lab-formula-strip">
+        {current.cards.map((c) => (
+          <div key={c.k} className="lab-step-box">
+            <strong>{c.k}</strong>
+            <RichText text={c.v} />
+          </div>
+        ))}
+      </div>
+
+      <div className="lab-takeaway">
+        <RichText text={current.tip} />
+      </div>
+    </div>
+  );
+}
+
+/* 10. TWK BAHASA INDONESIA: X-RAY KALIMAT EFEKTIF & EYD */
+const KALIMAT_SAMPLES = [
+  {
+    title: 'Jebakan Preposisi di Awal Subjek',
+    tokens: [
+      { word: 'Bagi', role: 'redundant', note: 'Hapus! Preposisi di depan subjek membuat kalimat kehilangan Subjek.' },
+      { word: 'seluruh peserta', role: 'keep', note: 'Berfungsi sebagai Subjek inti.' },
+      { word: 'harap', role: 'keep', note: 'Predikat ajakan.' },
+      { word: 'membawa', role: 'keep', note: 'Predikat tindakan.' },
+      { word: 'kartu ujian.', role: 'keep', note: 'Objek.' },
+    ],
+    fixed: '==Seluruh peserta== harap membawa kartu ujian.',
+  },
+  {
+    title: 'Jebakan Pleonasme (Kata Mubazir)',
+    tokens: [
+      { word: 'Para', role: 'redundant', note: 'Jamak pertama — bentrok dengan pengulangan kata di sebelahnya.' },
+      { word: 'hadirin-hadirin', role: 'redundant', note: '"Hadirin" sudah berarti jamak! Cukup "Hadirin" saja.' },
+      { word: 'sekalian', role: 'redundant', note: 'Mubazir jika "para" atau ulang sudah dipakai.' },
+      { word: 'dimohon berdiri', role: 'keep', note: 'Predikat utama yang efektif.' },
+      { word: 'sejenak.', role: 'keep', note: 'Keterangan.' },
+    ],
+    fixed: '==Hadirin== dimohon berdiri sejenak.',
+  },
+];
+
+function KalimatEfektifXrayVisual() {
+  const [sampleIdx, setSampleIdx] = useState(0);
+  const [xrayOn, setXrayOn] = useState(true);
+  const sample = KALIMAT_SAMPLES[sampleIdx];
+
+  return (
+    <div className="visual-lab-card">
+      <div className="visual-lab-head">
+        <span className="pill pill-cpns">Visual Interaktif · X-Ray PUEBI / EYD V</span>
+        <h4>{sample.title}</h4>
+      </div>
+
+      <div className="lab-preset-pills">
+        {KALIMAT_SAMPLES.map((s, i) => (
+          <button
+            key={s.title}
+            type="button"
+            className={`chip-btn ${i === sampleIdx ? 'is-active' : ''}`}
+            onClick={() => setSampleIdx(i)}
+          >
+            Contoh {i + 1}
+          </button>
+        ))}
+        <button
+          type="button"
+          className={`chip-btn ${xrayOn ? 'is-active' : ''}`}
+          onClick={() => setXrayOn((v) => !v)}
+        >
+          {xrayOn ? 'Mode X-Ray: Coret Mubazir ON' : 'Tampilkan Kalimat Mentah'}
+        </button>
+      </div>
+
+      <div className="lab-xray-line">
+        {sample.tokens.map((t, idx) => {
+          const isCut = xrayOn && t.role === 'redundant';
+          return (
+            <span
+              key={idx}
+              className={`lab-xray-token ${isCut ? 'is-cut' : 'is-ok'}`}
+              title={t.note}
+            >
+              {t.word}
+            </span>
+          );
+        })}
+      </div>
+
+      <div className="lab-takeaway">
+        <RichText text={`**Hasil Kalimat Efektif:** ${sample.fixed} (Aturan baku KBBI: \`analisis\`, \`risiko\`, \`izin\`, \`kualitas\`, \`praktik\`).`} />
+      </div>
+    </div>
+  );
+}
+
+/* 11. TIU ANALOGI: PENYUSUN JEMBATAN KATA 1 ARAH */
+const ANALOGI_PAIRS = [
+  {
+    a: 'Kompas',
+    b: 'Arah',
+    bridge: 'digunakan untuk menentukan',
+    good: 'Termometer : Suhu',
+    reversedTrap: 'Waktu : Jam (terbalik arah!)',
+    topicTrap: 'Utara : Selatan (satu tema, bukan hubungan alat → objek)',
+  },
+  {
+    a: 'Koki',
+    b: 'Restoran',
+    bridge: 'bekerja secara utama di',
+    good: 'Hakim : Pengadilan',
+    reversedTrap: 'Rumah Sakit : Perawat (terbalik tempat → profesi!)',
+    topicTrap: 'Sendok : Garpu (topik dapur tapi bukan hubungan profesi → tempat)',
+  },
+  {
+    a: 'Haus',
+    b: 'Minum',
+    bridge: 'diatasi atau dipenuhi dengan',
+    good: 'Gelap : Lampu',
+    reversedTrap: 'Tidur : Mengantuk (terbalik solusi → kondisi!)',
+    topicTrap: 'Lapar : Kenyang (hubungan antonim, bukan butuh solusi)',
+  },
+];
+
+function AnalogiJembatanVisual() {
+  const [idx, setIdx] = useState(0);
+  const [reverseTest, setReverseTest] = useState(false);
+  const p = ANALOGI_PAIRS[idx];
+
+  const leftWord = reverseTest ? p.b : p.a;
+  const rightWord = reverseTest ? p.a : p.b;
+
+  return (
+    <div className="visual-lab-card">
+      <div className="visual-lab-head">
+        <span className="pill pill-cpns">Visual Interaktif · TIU Analogi</span>
+        <h4>Uji Kalimat Jembatan 1 Arah (Anti-Terbalik)</h4>
+      </div>
+
+      <div className="lab-preset-pills">
+        {ANALOGI_PAIRS.map((item, i) => (
+          <button
+            key={item.a}
+            type="button"
+            className={`chip-btn ${i === idx ? 'is-active' : ''}`}
+            onClick={() => {
+              setIdx(i);
+              setReverseTest(false);
+            }}
+          >
+            {item.a} : {item.b}
+          </button>
+        ))}
+        <button
+          type="button"
+          className={`chip-btn ${reverseTest ? 'is-active' : ''}`}
+          onClick={() => setReverseTest((r) => !r)}
+        >
+          {reverseTest ? 'Arah Dibalik (B → A)' : 'Balik Arah untuk Tes Jebakan'}
+        </button>
+      </div>
+
+      <div className="lab-radar-cue">
+        <strong>[{leftWord}]</strong> <span>{p.bridge}</span> <strong>[{rightWord}]</strong>{' '}
+        {reverseTest ? (
+          <span className="badge badge-fail">SALAH ARAH — Makna Jadi Aneh!</span>
+        ) : (
+          <span className="badge badge-pass">ARAH BENAR (Kiri → Kanan)</span>
+        )}
+      </div>
+
+      <div className="lab-radar-cols">
+        <div className="lab-radar-box is-good">
+          <span className="badge badge-pass">Padanan Sah</span>
+          <div><RichText text={`==${p.good}== (arah kiri → kanan persis sama)`} /></div>
+        </div>
+        <div className="lab-radar-box is-bad">
+          <span className="badge badge-fail">2 Jebakan Umum</span>
+          <div><RichText text={`1) ~~${p.reversedTrap}~~ · 2) ~~${p.topicTrap}~~`} /></div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* 12. TIU ANALITIS: SIMULATOR SLOT KURSI BERURUTAN */
+const SLOT_STEPS = [
+  {
+    rule: 'Kondisi Awal (Baca Syarat Paling Kaku Dulu)',
+    slots: ['_', '_', '_', '_', '_'],
+    note: 'Tersedia 5 kursi rapat (1..5) untuk **Andi, Budi, Cici, Dodi, Eka**.',
+  },
+  {
+    rule: 'Kunci #1: "Andi duduk di ujung paling kiri (Kursi 1)"',
+    slots: ['Andi', '_', '_', '_', '_'],
+    note: 'Langsung kunci ==Andi → Kursi 1== sebagai jangkar mati.',
+  },
+  {
+    rule: 'Kunci #2: "Dodi selalu tepat di sebelah kanan Budi, di Kursi 4"',
+    slots: ['Andi', '_', 'Budi', 'Dodi', '_'],
+    note: 'Jika Dodi = 4 dan tepat kanan Budi, otomatis ==Budi = 3== dan ==Dodi = 4==!',
+  },
+  {
+    rule: 'Kunci #3: "Cici tidak boleh di sebelah Andi"',
+    slots: ['Andi', 'Eka', 'Budi', 'Dodi', 'Cici'],
+    note: 'Kursi sisa tinggal 2 & 5. Karena Kursi 2 menempel Andi, ==Cici wajib ke 5== dan ==Eka masuk Kursi 2==!',
+  },
+];
+
+function AnalitisSlotVisual() {
+  const [step, setStep] = useState(0);
+  const cur = SLOT_STEPS[step];
+
+  return (
+    <div className="visual-lab-card">
+      <div className="visual-lab-head">
+        <span className="pill pill-cpns">Visual Interaktif · Penalaran Analitis</span>
+        <h4>Papan Slot Kursi 1–5 (Kunci Syarat Paling Pasti)</h4>
+      </div>
+
+      <div className="lab-preset-pills">
+        {SLOT_STEPS.map((s, i) => (
+          <button
+            key={s.rule}
+            type="button"
+            className={`chip-btn ${i === step ? 'is-active' : ''}`}
+            onClick={() => setStep(i)}
+          >
+            Tahap {i}
+          </button>
+        ))}
+      </div>
+
+      <div className="lab-slot-row">
+        {cur.slots.map((name, idx) => (
+          <div key={idx} className={`lab-slot-seat ${name === '_' ? 'is-empty' : 'is-filled'}`}>
+            <small>Kursi {idx + 1}</small>
+            <strong>{name}</strong>
+          </div>
+        ))}
+      </div>
+
+      <div className="lab-takeaway">
+        <RichText text={`**${cur.rule}:** ${cur.note}`} />
+      </div>
+    </div>
+  );
+}
+
+/* 13. TIU KUANTITATIF P vs Q: TESTER 3 WILAYAH BILANGAN */
+function KuantitatifUji3Visual() {
+  const [xVal, setXVal] = useState<number>(0.5);
+  const presets = [-2, -0.5, 0, 0.5, 2];
+
+  // Contoh klasik: Diketahui x < 2 (tanpa syarat x > 0), bandingkan P = x^2 vs Q = x
+  const pVal = Number((xVal * xVal).toFixed(2));
+  const qVal = Number(xVal.toFixed(2));
+  const cmp = pVal > qVal ? 'P > Q' : pVal < qVal ? 'P < Q' : 'P = Q';
+
+  return (
+    <div className="visual-lab-card">
+      <div className="visual-lab-head">
+        <span className="pill pill-cpns">Visual Interaktif · TIU Kuantitatif (P vs Q)</span>
+        <h4>Uji 3 Wilayah Bilangan: Negatif · Pecahan · Positif</h4>
+      </div>
+
+      <div className="lab-radar-cue">
+        <span>Soal Klasik:</span>{' '}
+        <strong>
+          <RichText text="Diketahui `x` bilangan real. Bandingkan `P = x²` vs `Q = x`." inline />
+        </strong>
+      </div>
+
+      <div className="lab-preset-pills">
+        {presets.map((v) => (
+          <button
+            key={v}
+            type="button"
+            className={`chip-btn ${xVal === v ? 'is-active' : ''}`}
+            onClick={() => setXVal(v)}
+          >
+            Uji x = {v}
+          </button>
+        ))}
+      </div>
+
+      <div className="lab-formula-strip">
+        <div className="lab-step-box">
+          <span className="muted"><RichText text="Nilai `P = x²`" inline /></span>
+          <strong className="num">{pVal}</strong>
+        </div>
+        <div className="lab-step-box">
+          <span className="muted"><RichText text="Nilai `Q = x`" inline /></span>
+          <strong className="num">{qVal}</strong>
+        </div>
+        <div className="lab-step-box is-accent">
+          <span className="muted">Hasil Uji di x = {xVal}</span>
+          <strong className="num">{cmp}</strong>
+        </div>
+      </div>
+
+      <div className="lab-takeaway">
+        <RichText text="Saat `x = 2`, **P > Q** (4 > 2). Tapi begitu dicoba pecahan `x = 0.5`, hasilnya berbalik menjadi **P < Q** (0.25 < 0.5)! Karena hasil berubah-ubah, jawaban yang benar adalah ==Tidak dapat ditentukan (E / D)==." />
+      </div>
+    </div>
+  );
+}
+
+/* 14. TIU FIGURAL & BUMN DIAGRAM: SIMULATOR ROTASI + INVERT WARNA + CERMIN */
+function FiguralTransformVisual({ submateriId }: { submateriId?: string }) {
+  const [rotDeg, setRotDeg] = useState<number>(submateriId === 'cpns-tiu-figural-seri' ? 90 : 0);
+  const [flipX, setFlipX] = useState<boolean>(submateriId === 'cpns-tiu-figural-beda');
+  const [invertColor, setInvertColor] = useState<boolean>(submateriId === 'bumn-tkd-diagram');
+
+  useEffect(() => {
+    setRotDeg(submateriId === 'cpns-tiu-figural-seri' ? 90 : 0);
+    setFlipX(submateriId === 'cpns-tiu-figural-beda');
+    setInvertColor(submateriId === 'bumn-tkd-diagram');
+  }, [submateriId]);
+
+  const shapeTransform = `translate(50 50) scale(${flipX ? -1 : 1}, 1) rotate(${rotDeg}) translate(-50 -50)`;
+  const mainFill = invertColor ? '#f1f5f9' : '#1b2a3d';
+  const dotFill = invertColor ? '#1b2a3d' : '#f59e0b';
+
+  return (
+    <div className="visual-lab-card">
+      <div className="visual-lab-head">
+        <span className="pill pill-cpns">Visual Interaktif · Figural &amp; Diagram BUMN</span>
+        <h4>Lab Transformasi Bentuk (Rotasi · Cermin · Tukar Warna)</h4>
+      </div>
+
+      <div className="lab-preset-pills">
+        <button type="button" className="chip-btn" onClick={() => setRotDeg((d) => (d + 90) % 360)}>
+          Putar +90° Searah Jarum Jam ({rotDeg}°)
+        </button>
+        <button
+          type="button"
+          className={`chip-btn ${flipX ? 'is-active' : ''}`}
+          onClick={() => setFlipX((f) => !f)}
+        >
+          {flipX ? 'Cermin Horizontal (ON — Berbeda Kiri-Kanan)' : 'Cermin Horizontal (OFF)'}
+        </button>
+        <button
+          type="button"
+          className={`chip-btn ${invertColor ? 'is-active' : ''}`}
+          onClick={() => setInvertColor((v) => !v)}
+        >
+          {invertColor ? 'Tukar Warna (Invert ON)' : 'Tukar Warna (OFF)'}
+        </button>
+        <button
+          type="button"
+          className="chip-btn"
+          onClick={() => {
+            setRotDeg(0);
+            setFlipX(false);
+            setInvertColor(false);
+          }}
+        >
+          Reset Awal
+        </button>
+      </div>
+
+      <div className="lab-figural-stage">
+        <div className="lab-figural-box">
+          <small className="muted">Bentuk Asal</small>
+          <svg viewBox="0 0 100 100" className="lab-figural-svg">
+            <rect x="6" y="6" width="88" height="88" rx="14" fill="none" stroke="currentColor" strokeOpacity="0.2" />
+            <path d="M26 22 H44 V62 H74 V78 H26 Z" fill="#1b2a3d" />
+            <circle cx="68" cy="30" r="9" fill="#f59e0b" />
+          </svg>
+        </div>
+        <div className="lab-figural-arrow">→</div>
+        <div className="lab-figural-box">
+          <small className="muted">Hasil Operator</small>
+          <svg viewBox="0 0 100 100" className="lab-figural-svg">
+            <rect x="6" y="6" width="88" height="88" rx="14" fill="none" stroke="currentColor" strokeOpacity="0.2" />
+            <g transform={shapeTransform}>
+              <path d="M26 22 H44 V62 H74 V78 H26 Z" fill={mainFill} stroke="#1b2a3d" strokeWidth="2.5" />
+              <circle cx="68" cy="30" r="9" fill={dotFill} stroke="#1b2a3d" strokeWidth="2" />
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div className="lab-takeaway">
+        <RichText text="Putaran 90°/180° tetap mempertahankan arah tangan kiri-kanan gambar (masih identik untuk **Ketidaksamaan**). Begitu tombol **Cermin** aktif, arah huruf L berbalik permanen—tidak mungkin sama meski diputar bagaimanapun!" />
+      </div>
+    </div>
+  );
+}
+
+/* 15. BUMN TKD VERBAL & WORD CLASSIFICATION: FILTER TRUE / FALSE / CANNOT SAY */
+const TKD_STATEMENTS = [
+  {
+    text: 'PT X mewajibkan seluruh pegawai divisi operasional mengenakan helm pengaman di area gudang.',
+    verdict: 'Benar (True)',
+    badge: 'badge-pass',
+    reason: 'Tertulis eksplisit di paragraf bahwa pegawai divisi operasional wajib berhelm di area gudang.',
+  },
+  {
+    text: 'Pegawai divisi keuangan juga diwajibkan memakai helm setiap jam istirahat.',
+    verdict: 'Tidak Dapat Disimpulkan (Cannot Say)',
+    badge: 'badge-fail',
+    reason: 'Premis **tidak menyinggung** divisi keuangan maupun aturan saat jam istirahat—jangan menebak dengan akal sehat!',
+  },
+  {
+    text: 'Tamu gudang dilarang masuk tanpa izin kepala logistik.',
+    verdict: 'Salah / Kontradiksi jika teks menyebut bebas masuk, atau Cannot Say jika tak dibahas.',
+    badge: 'badge-fail',
+    reason: 'Kunci BUMN TKD Verbal: cocokkan kata per kata hanya pada **teks yang tertera**.',
+  },
+];
+
+function TkdVerbalFilterVisual() {
+  const [idx, setIdx] = useState(0);
+  const item = TKD_STATEMENTS[idx];
+
+  return (
+    <div className="visual-lab-card">
+      <div className="visual-lab-head">
+        <span className="pill pill-bumn">Visual Interaktif · TKD Verbal BUMN</span>
+        <h4>Uji Bukti Teks: True · False · Cannot Say</h4>
+      </div>
+
+      <div className="lab-radar-cue">
+        <span>Premis Teks:</span>{' '}
+        <strong>
+          "Di area gudang logistik, seluruh pegawai divisi operasional wajib mengenakan helm pengaman selama jam kerja."
+        </strong>
+      </div>
+
+      <div className="lab-preset-pills">
+        {TKD_STATEMENTS.map((s, i) => (
+          <button
+            key={i}
+            type="button"
+            className={`chip-btn ${i === idx ? 'is-active' : ''}`}
+            onClick={() => setIdx(i)}
+          >
+            Pernyataan #{i + 1}
+          </button>
+        ))}
+      </div>
+
+      <div className="lab-step-box">
+        <strong>"{item.text}"</strong>
+        <span className={`badge ${item.badge}`}>{item.verdict}</span>
+        <RichText text={item.reason} />
+      </div>
+    </div>
+  );
+}
+
+/* 16. BUMN ENGLISH GRAMMAR & READING: X-RAY SUBJEK SEBENARNYA & SCANNER IDE POKOK */
+function BumnEnglishXrayVisual({ submateriId }: { submateriId?: string }) {
+  const [mode, setMode] = useState<'grammar' | 'reading'>(
+    submateriId === 'bumn-bhs-reading' ? 'reading' : 'grammar',
+  );
+  const [hidePreposition, setHidePreposition] = useState(true);
+
+  useEffect(() => {
+    setMode(submateriId === 'bumn-bhs-reading' ? 'reading' : 'grammar');
+  }, [submateriId]);
+
+  return (
+    <div className="visual-lab-card">
+      <div className="visual-lab-head">
+        <span className="pill pill-bumn">Visual Interaktif · RBB English</span>
+        <h4>X-Ray Subject–Verb &amp; Main Idea Scanner</h4>
+      </div>
+
+      <div className="lab-preset-pills">
+        <button
+          type="button"
+          className={`chip-btn ${mode === 'grammar' ? 'is-active' : ''}`}
+          onClick={() => setMode('grammar')}
+        >
+          Grammar: Coret Frasa Preposisi
+        </button>
+        <button
+          type="button"
+          className={`chip-btn ${mode === 'reading' ? 'is-active' : ''}`}
+          onClick={() => setMode('reading')}
+        >
+          Reading: Filter Main Idea vs Detail
+        </button>
+      </div>
+
+      {mode === 'grammar' ? (
+        <div className="lab-radar-compare">
+          <div className="lab-preset-pills">
+            <button
+              type="button"
+              className={`chip-btn ${hidePreposition ? 'is-active' : ''}`}
+              onClick={() => setHidePreposition((v) => !v)}
+            >
+              {hidePreposition ? 'Preposisi Dicoret (ON)' : 'Tampilkan Kalimat Utuh'}
+            </button>
+          </div>
+          <div className="lab-xray-line">
+            <span className="lab-xray-token is-ok">The quality</span>
+            <span className={`lab-xray-token ${hidePreposition ? 'is-cut' : ''}`}>
+              of the quarterly financial reports
+            </span>
+            <span className="lab-xray-token is-ok">
+              <RichText text="==is== (bukan are)" inline />
+            </span>
+            <span className="lab-xray-token is-ok">improving.</span>
+          </div>
+          <div className="lab-takeaway">
+            <RichText text="Jangan tertipu kata jamak **reports** di tengah! Setelah frasa `of ...` dicoret, subjek aslinya adalah **The quality** (tunggal) → wajib **is**." />
+          </div>
+        </div>
+      ) : (
+        <div className="lab-radar-cols">
+          <div className="lab-radar-box is-good">
+            <span className="badge badge-pass">Main Idea (Umum &amp; Mencakup Semua Paragraf)</span>
+            <div>
+              <RichText text="==Kalimat payung yang merangkum topik + kesimpulan utama di Paragraf 1 &amp; penutup==." />
+            </div>
+          </div>
+          <div className="lab-radar-box is-bad">
+            <span className="badge badge-fail">Jebakan Detail Sempit</span>
+            <div>
+              <RichText text="~~Angka statistik khusus atau contoh kasus yang hanya muncul di 1 kalimat Paragraf ke-3~~." />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
