@@ -7,4 +7,5 @@ snapshots/
 *.log
 .DS_Store
 scripts/__pycache__/
+scripts/_cache_raw/
 .sentrux/

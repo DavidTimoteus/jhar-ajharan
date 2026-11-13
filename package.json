@@ -9,7 +9,8 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host 127.0.0.1 --port 4174",
     "packs": "python scripts/assemble_packs.py",
-    "verify": "node scripts/verify-packs.mjs"
+    "verify": "node scripts/verify-packs.mjs",
+    "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
     "preact": "^10.24.0"
