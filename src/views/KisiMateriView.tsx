@@ -9,6 +9,7 @@ import {
 } from '../lib/submateri';
 import InteractiveDiagram from '../components/InteractiveDiagrams';
 import RichText from '../components/RichText';
+import ScratchPad from '../components/ScratchPad';
 
 interface Props {
   initialFamily?: 'cpns' | 'bumn';
@@ -38,6 +39,7 @@ export default function KisiMateriView({
   const [focusTab, setFocusTab] = useState<FocusTab>('konsep');
   const [pickedOption, setPickedOption] = useState<number | null>(null);
   const [activeDiagram, setActiveDiagram] = useState<DiagramId>('berbalik-nilai');
+  const [scratchOpen, setScratchOpen] = useState(false);
 
   useEffect(() => {
     loadSubmateriIndex()
@@ -205,9 +207,19 @@ export default function KisiMateriView({
                   <RichText text={activeItem.goal} inline />
                 </p>
               </div>
-              <div className="kisi-count-pill num">
-                <strong>{activeCount}</strong>
-                <small>soal</small>
+              <div className="kisi-head-actions">
+                <button
+                  type="button"
+                  className={`btn btn-sm ${scratchOpen ? 'btn-primary' : 'btn-secondary'}`}
+                  onClick={() => setScratchOpen((v) => !v)}
+                  aria-pressed={scratchOpen}
+                >
+                  ✎ Kertas Coretan
+                </button>
+                <div className="kisi-count-pill num">
+                  <strong>{activeCount}</strong>
+                  <small>soal</small>
+                </div>
               </div>
             </div>
 
@@ -372,6 +384,17 @@ export default function KisiMateriView({
           </article>
         )}
       </div>
+
+      {activeItem && (
+        <ScratchPad
+          open={scratchOpen}
+          scopeKey={`materi:${activeItem.id}`}
+          subtitle={activeItem.title}
+          dockMode="floating"
+          canToggleDock={false}
+          onClose={() => setScratchOpen(false)}
+        />
+      )}
     </div>
   );
 }
