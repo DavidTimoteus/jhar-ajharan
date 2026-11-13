@@ -10,8 +10,10 @@ import { cleanDisplayText } from '../lib/sanitize';
 import { getActiveSessionId } from '../lib/session';
 import HintDeck from '../components/HintDeck';
 import QuestionNav from '../components/QuestionNav';
+import ScratchPad from '../components/ScratchPad';
 import TipsDrawer from '../components/TipsDrawer';
 import RichText from '../components/RichText';
+import { loadScratchScope, type ScratchDockMode } from '../lib/scratchpad';
 
 interface Props {
   packId: string;
@@ -52,6 +54,9 @@ export default function WorkbenchView({
   const [submitting, setSubmitting] = useState(false);
   const [tipsOpen, setTipsOpen] = useState(false);
   const [focusMode, setFocusMode] = useState(mode === 'simulasi');
+  const [scratchOpen, setScratchOpen] = useState(false);
+  const [scratchDock, setScratchDock] = useState<ScratchDockMode>('panel');
+  const [scratchCount, setScratchCount] = useState(0);
 
   const startMsRef = useRef(0);
   const qStartRef = useRef(0);
@@ -188,9 +193,11 @@ export default function WorkbenchView({
       )
         return;
       const k = e.key.toLowerCase();
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
       if (k >= '1' && k <= '5') choose(Number(k) - 1);
       else if (k >= 'a' && k <= 'e') choose(k.charCodeAt(0) - 97);
       else if (k === 'r') toggleDoubt();
+      else if (k === 'c') setScratchOpen((v) => !v);
       else if (k === 't' && mode === 'latihan') setTipsOpen((v) => !v);
       else if (k === 'arrowleft') goTo(qIndex - 1);
       else if (k === 'arrowright') goTo(qIndex + 1);
@@ -230,8 +237,20 @@ export default function WorkbenchView({
     return 'system';
   };
 
+  const scratchScopeKey = `exam:${attempt.id}:${question.id}`;
+
+  useEffect(() => {
+    setScratchCount(loadScratchScope(scratchScopeKey).strokes.length);
+  }, [scratchScopeKey]);
+
+  const showSideCompanion = !focusMode || (scratchOpen && scratchDock === 'panel');
+
   return (
-    <div className={`exam-shell track-${pack.family === 'bumn' ? 'bumn' : 'cpns'} ${focusMode ? 'is-focus' : ''}`}>
+    <div
+      className={`exam-shell track-${pack.family === 'bumn' ? 'bumn' : 'cpns'} ${
+        focusMode ? 'is-focus' : ''
+      } ${showSideCompanion ? 'with-side-companion' : ''}`}
+    >
       {/* IELTS / TOEFL-inspired distraction-free top bar */}
       <header className="exam-topbar">
         <div className="exam-topbar-inner">
@@ -258,6 +277,15 @@ export default function WorkbenchView({
           </div>
 
           <div className="exam-top-right">
+            <button
+              type="button"
+              className={`btn btn-sm ${scratchOpen ? 'btn-primary' : 'btn-secondary'} btn-scratch-toggle`}
+              onClick={() => setScratchOpen((v) => !v)}
+              aria-pressed={scratchOpen}
+              title="Buka atau tutup kertas coret-coretan hitung (pintasan: C)"
+            >
+              ✎ Coretan{scratchCount > 0 ? ` (${scratchCount})` : ''}
+            </button>
             <button
               type="button"
               className={`btn btn-sm ${focusMode ? 'btn-primary' : 'btn-secondary'}`}
@@ -429,9 +457,21 @@ export default function WorkbenchView({
           </div>
         </section>
 
-        {!focusMode && (
+        {showSideCompanion && (
           <aside className="exam-companion">
-            {mode === 'latihan' && (
+            {scratchOpen && scratchDock === 'panel' && (
+              <ScratchPad
+                open={scratchOpen}
+                scopeKey={scratchScopeKey}
+                subtitle={`Soal #${qIndex + 1} · ${subLabel}`}
+                dockMode="panel"
+                onDockModeChange={setScratchDock}
+                onClose={() => setScratchOpen(false)}
+                onStrokeCountChange={setScratchCount}
+              />
+            )}
+
+            {!focusMode && mode === 'latihan' && (
               <HintDeck
                 question={question}
                 subtestLabel={subLabel}
@@ -440,15 +480,29 @@ export default function WorkbenchView({
               />
             )}
 
-            <QuestionNav
-              order={attempt.order}
-              answers={attempt.answers}
-              cursor={qIndex}
-              onJump={goTo}
-            />
+            {!focusMode && (
+              <QuestionNav
+                order={attempt.order}
+                answers={attempt.answers}
+                cursor={qIndex}
+                onJump={goTo}
+              />
+            )}
           </aside>
         )}
       </div>
+
+      {scratchOpen && scratchDock === 'floating' && (
+        <ScratchPad
+          open={scratchOpen}
+          scopeKey={scratchScopeKey}
+          subtitle={`Soal #${qIndex + 1} · ${subLabel}`}
+          dockMode="floating"
+          onDockModeChange={setScratchDock}
+          onClose={() => setScratchOpen(false)}
+          onStrokeCountChange={setScratchCount}
+        />
+      )}
 
       <TipsDrawer
         open={tipsOpen}
