@@ -1,5 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
-  <circle cx="12" cy="12" r="9.5" stroke="#1d5fbf" stroke-width="2"/>
-  <path d="M7.5 8.5H16.5M12 8.5V16.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-  <circle cx="15.2" cy="14.5" r="1.6" fill="#1d5fbf"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="ja-bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2b3f57" />
+      <stop offset="100%" stop-color="#172331" />
+    </linearGradient>
+    <linearGradient id="ja-accent" x1="28" y1="18" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38e0b0" />
+      <stop offset="100%" stop-color="#149674" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#ja-bg)" />
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="15.25" stroke="rgba(255,255,255,0.14)" stroke-width="1.5" />
+  <path
+    d="M27 20V38.5C27 43.2 23.4 46.5 18.8 46.5C15.8 46.5 13.7 45.1 12.6 42.8"
+    stroke="#c7ddf3"
+    stroke-width="4.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M31.5 46L39.5 20.5L49 46"
+    stroke="url(#ja-accent)"
+    stroke-width="4.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M34.8 38.5H45.8"
+    stroke="url(#ja-accent)"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+  <path
+    d="M32 10.5L33.7 14.5L37.7 16.2L33.7 17.9L32 21.9L30.3 17.9L26.3 16.2L30.3 14.5Z"
+    fill="#f59e0b"
+  />
 </svg>
