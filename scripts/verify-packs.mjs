@@ -70,6 +70,25 @@ for (const meta of index) {
       }
     }
 
+    if (typeof q.explain !== 'string' || !q.explain.trim()) {
+      console.error(`   ❌ Pembahasan (explain) kosong atau bukan string: ${q.id}`);
+      errors++;
+    }
+
+    for (const fld of [q.stem, q.explain, ...(q.options || [])]) {
+      if (typeof fld === 'string' && fld.includes('= =')) {
+        console.error(`   ❌ Rumus pecahan/persamaan terpotong ("= ="): ${q.id}`);
+        errors++;
+      }
+    }
+
+    for (const plainFld of [q.stem, ...(q.options || [])]) {
+      if (typeof plainFld === 'string' && /(?<!\*)\*[A-Za-zÀ-ÿ][^*\n]*\*(?!\*)/.test(plainFld)) {
+        console.error(`   ❌ Sisa markdown *italic* pada teks polos (stem/opsi): ${q.id}`);
+        errors++;
+      }
+    }
+
     // Periksa bahwa teks hint tidak membocorkan huruf jawaban (A-E) secara eksplisit
     for (const h of q.hints || []) {
       if (/kunci\s*:\s*[A-E]\b/i.test(h.text) || /jawaban\s*(adalah|nya)\s*[A-E]\b/i.test(h.text)) {
