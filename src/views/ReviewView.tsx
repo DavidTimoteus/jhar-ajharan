@@ -300,9 +300,9 @@ export default function ReviewView({ attemptId, go }: Props) {
         <button
           type="button"
           className="btn btn-secondary"
-          onClick={() => go({ name: pack.family })}
+          onClick={() => go({ name: 'track', family: pack.family })}
         >
-          ← Menu {pack.family.toUpperCase()}
+          ← Menu {String(pack.family).toUpperCase()}
         </button>
         <button
           type="button"

@@ -34,6 +34,8 @@ export default function App() {
         return <TrackView family="cpns" go={nav.go} />;
       case 'bumn':
         return <TrackView family="bumn" go={nav.go} />;
+      case 'track':
+        return <TrackView family={s.family} go={nav.go} />;
       case 'materi':
         return (
           <KisiMateriView
@@ -65,10 +67,16 @@ export default function App() {
   };
 
   const isWorkbench = nav.screen.name === 'workbench';
+  const activeTrack =
+    nav.screen.name === 'track'
+      ? nav.screen.family
+      : nav.screen.name === 'cpns' || nav.screen.name === 'bumn'
+        ? nav.screen.name
+        : null;
   const routeMood =
-    nav.screen.name === 'cpns'
+    activeTrack === 'cpns'
       ? 'mood-cpns'
-      : nav.screen.name === 'bumn'
+      : activeTrack === 'bumn'
         ? 'mood-bumn'
         : 'mood-dual';
 

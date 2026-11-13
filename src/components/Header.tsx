@@ -41,17 +41,27 @@ export default function Header({ screen, theme, onTheme, go }: Props) {
   }, []);
 
   const activeKey: NavKey | null =
-    screen.name === 'home' ||
-    screen.name === 'cpns' ||
-    screen.name === 'bumn' ||
-    screen.name === 'materi' ||
-    screen.name === 'settings'
-      ? screen.name
-      : null;
+    screen.name === 'track'
+      ? screen.family === 'cpns'
+        ? 'cpns'
+        : screen.family === 'bumn'
+          ? 'bumn'
+          : null
+      : screen.name === 'home' ||
+          screen.name === 'cpns' ||
+          screen.name === 'bumn' ||
+          screen.name === 'materi' ||
+          screen.name === 'settings'
+        ? screen.name
+        : null;
 
   const navigate = (key: NavKey) => {
     setMobileOpen(false);
-    go({ name: key });
+    if (key === 'cpns' || key === 'bumn') {
+      go({ name: 'track', family: key });
+    } else {
+      go({ name: key });
+    }
   };
 
   const nextTheme = (): ThemePref => {
@@ -80,7 +90,7 @@ export default function Header({ screen, theme, onTheme, go }: Props) {
           </span>
           <span className="brand-text">
             <span className="brand-name">Jhâr-Ajhârân</span>
-            <span className="brand-sub">CAT Academy</span>
+            <span className="brand-sub">Learning Studio</span>
           </span>
         </button>
 

@@ -19,7 +19,8 @@ import {
   PACK_TEMPLATE_JSON,
   removeCustomPack,
 } from '../lib/packs';
-import type { PackMeta } from '../lib/types';
+import type { PackMeta, TrackId } from '../lib/types';
+import { TRACK_REGISTRY } from '../lib/tracks';
 import type { Screen } from '../lib/store';
 
 interface Props {
@@ -33,7 +34,7 @@ export default function SettingsView({ go }: Props) {
   const [checking, setChecking] = useState(false);
   const [newProfileName, setNewProfileName] = useState('');
   const [renameText, setRenameText] = useState(active.name);
-  const [familyChoice, setFamilyChoice] = useState<'auto' | 'cpns' | 'bumn'>('auto');
+  const [familyChoice, setFamilyChoice] = useState<'auto' | TrackId>('auto');
   const [customPacks, setCustomPacks] = useState<PackMeta[]>([]);
 
   useEffect(() => {
@@ -287,12 +288,15 @@ export default function SettingsView({ go }: Props) {
             <select
               value={familyChoice}
               onChange={(e) =>
-                setFamilyChoice((e.target as HTMLSelectElement).value as 'auto' | 'cpns' | 'bumn')
+                setFamilyChoice((e.target as HTMLSelectElement).value as 'auto' | TrackId)
               }
             >
               <option value="auto">Otomatis dari properti "family" JSON</option>
-              <option value="cpns">Masukkan ke Menu Tes CPNS</option>
-              <option value="bumn">Masukkan ke Menu Tes BUMN</option>
+              {TRACK_REGISTRY.map((t) => (
+                <option key={t.id} value={t.id}>
+                  Masukkan ke Jalur {t.shortLabel}
+                </option>
+              ))}
             </select>
           </label>
 

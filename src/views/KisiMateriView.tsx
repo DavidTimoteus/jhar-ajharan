@@ -16,6 +16,8 @@ interface Props {
   go: (s: Screen) => void;
 }
 
+type FocusTab = 'konsep' | 'visual' | 'uji';
+
 const DIAGRAM_LABELS: { id: DiagramId; label: string }[] = [
   { id: 'berbalik-nilai', label: 'Pekerja & Libur' },
   { id: 'gerak-temu', label: 'Susul & Papasan' },
@@ -37,6 +39,7 @@ export default function KisiMateriView({
   const [selectedId, setSelectedId] = useState<string>(
     initialSubmateriId ?? 'cpns-tiu-silogisme',
   );
+  const [focusTab, setFocusTab] = useState<FocusTab>('konsep');
   const [pickedOption, setPickedOption] = useState<number | null>(null);
   const [activeDiagram, setActiveDiagram] = useState<DiagramId>('berbalik-nilai');
 
@@ -59,7 +62,7 @@ export default function KisiMateriView({
   const subtestTabs = useMemo(() => {
     const ids = Array.from(new Set(familyItems.map((s) => s.subtestId)));
     return [
-      { id: 'ALL', label: 'Semua Submateri' },
+      { id: 'ALL', label: 'Semua' },
       ...ids.map((id) => ({ id, label: id === 'twk_bumn' ? 'TWK BUMN' : id.toUpperCase() })),
     ];
   }, [familyItems]);
@@ -69,9 +72,7 @@ export default function KisiMateriView({
     return familyItems.filter((item) => {
       if (subFilter !== 'ALL' && item.subtestId !== subFilter) return false;
       if (q) {
-        return `${item.title} ${item.group} ${item.goal} ${item.analogy}`
-          .toLowerCase()
-          .includes(q);
+        return `${item.title} ${item.group} ${item.goal}`.toLowerCase().includes(q);
       }
       return true;
     });
@@ -88,6 +89,7 @@ export default function KisiMateriView({
 
   useEffect(() => {
     setPickedOption(null);
+    setFocusTab('konsep');
     if (activeItem?.diagramId) {
       setActiveDiagram(activeItem.diagramId);
     }
@@ -98,12 +100,12 @@ export default function KisiMateriView({
 
   return (
     <div className={`view kisi-page track-${family}`}>
-      {/* Banner Psikologi Belajar & Navigasi Kisi-Kisi */}
-      <section className="track-banner kisi-banner">
+      {/* Header Kisi Ringkas & Fokus */}
+      <section className="track-banner is-compact">
         <div className="track-banner-main">
           <div className="track-banner-top">
             <span className={`pill pill-${family}`}>
-              {family === 'cpns' ? 'KISI-KISI 21 SUBMATERI SKD CPNS' : 'KISI-KISI KOMPETENSI RBB BUMN'}
+              {family === 'cpns' ? '21 SUBMATERI SKD CPNS' : '8 KOMPETENSI RBB BUMN'}
             </span>
             <div className="kisi-family-switch">
               <button
@@ -114,7 +116,7 @@ export default function KisiMateriView({
                   setSubFilter('ALL');
                 }}
               >
-                Jalur CPNS (21 Submateri)
+                CPNS (21)
               </button>
               <button
                 type="button"
@@ -124,43 +126,25 @@ export default function KisiMateriView({
                   setSubFilter('ALL');
                 }}
               >
-                Jalur BUMN (8 Kompetensi)
+                BUMN (8)
               </button>
             </div>
           </div>
 
-          <h1>Pusat Kisi-Kisi, Materi Psikologis &amp; Lab Visual</h1>
+          <h1>Kisi-Kisi &amp; Materi Bertahap</h1>
           <p className="track-banner-desc">
-            Dirancang memakai metode <strong>Dual Coding (Visual + Bahasa Sehari-hari)</strong> dan{' '}
-            <strong>Chunking 3 Detik</strong> agar konsep sulit bisa dipahami siapa saja, lalu langsung diuji lewat latihan terfokus per submateri.
+            Pilih satu submateri di sebelah kiri, pelajari satu tahap dalam satu waktu, lalu langsung uji dengan latihan soal terfokus.
           </p>
-
-          <div className="psych-legend-strip">
-            <span className="psych-key">
-              <strong className="rt-bold">Tebal</strong> = Konsep Inti
-            </span>
-            <span className="psych-key">
-              <u className="rt-underline">Garis Bawah</u> = Syarat Wajib / Pembalik
-            </span>
-            <span className="psych-key">
-              <del className="rt-strike">Coret</del> = Jebakan / Cara Keliru
-            </span>
-            <span className="psych-key">
-              <mark className="rt-highlight">Sorotan</mark> = Rumus Kunci / Poin 5
-            </span>
-          </div>
         </div>
 
         <aside className="track-banner-stat">
           <div className="banner-stat-num num">
             {indexData ? indexData.totalMapped.toLocaleString('id-ID') : '2.857'}
           </div>
-          <div className="banner-stat-label">Soal Terindeks per Submateri</div>
-          <div className="banner-stat-sub">Akses instan lintas seluruh paket</div>
+          <div className="banner-stat-label">Soal Terpetakan</div>
         </aside>
       </section>
 
-      {/* Filter Subtes & Pencarian Kisi-Kisi */}
       <div className="catalog-toolbar">
         <div className="kisi-tabs-row">
           {subtestTabs.map((t) => (
@@ -180,13 +164,13 @@ export default function KisiMateriView({
             className="search-input"
             value={search}
             onInput={(e) => setSearch((e.target as HTMLInputElement).value)}
-            placeholder="Cari submateri (mis. Silogisme, UUD, TIK, Deret)…"
-            aria-label="Cari submateri kisi-kisi"
+            placeholder="Cari submateri…"
+            aria-label="Cari submateri"
           />
         </div>
       </div>
 
-      {/* Master-Detail: Daftar Kisi-Kisi Kiri + Studio Materi Psikologi Kanan */}
+      {/* Master-Detail: Daftar Kiri Ringkas + Stage Fokus Bertahap (1 Tab Aktif Sekali Lihat) */}
       <div className="arena-split kisi-split">
         <div className="pack-list" role="listbox" aria-label="Daftar submateri kisi-kisi">
           {filtered.map((item, idx) => {
@@ -198,21 +182,17 @@ export default function KisiMateriView({
                 type="button"
                 role="option"
                 aria-selected={isSel}
-                className={`pack-row kisi-row ${isSel ? 'is-selected' : ''}`}
+                className={`pack-row is-calm ${isSel ? 'is-selected' : ''}`}
                 onClick={() => setSelectedId(item.id)}
               >
                 <div className="pack-row-top">
                   <span className="pack-row-index num">{String(idx + 1).padStart(2, '0')}</span>
-                  <div className="pack-row-badges">
-                    <span className="subtest-chip">{item.subtestLabel}</span>
-                    {item.diagramId && <span className="subtest-chip is-visual">✦ Lab Visual</span>}
-                  </div>
+                  <span className="subtest-chip">{item.subtestLabel}</span>
                 </div>
                 <h3 className="pack-row-title">{item.title}</h3>
                 <div className="pack-row-meta num">
-                  <span>{cnt} soal siap latih</span>
-                  <span>·</span>
-                  <span>{item.psychTechnique}</span>
+                  <span>{cnt} soal</span>
+                  {item.diagramId && <span>· Gambar Interaktif</span>}
                 </div>
               </button>
             );
@@ -225,125 +205,147 @@ export default function KisiMateriView({
               <div>
                 <span className={`pill pill-${activeItem.family}`}>{activeItem.group}</span>
                 <h2>{activeItem.title}</h2>
-                <span className="psych-pill">🧠 Teknik Otak: {activeItem.psychTechnique}</span>
+                <p className="muted small">
+                  <RichText text={activeItem.goal} inline />
+                </p>
               </div>
               <div className="kisi-count-pill num">
                 <strong>{activeCount}</strong>
-                <small>soal tersedia</small>
+                <small>soal</small>
               </div>
             </div>
 
-            {/* Tahap 1: Apa yang Diuji */}
-            <section className="psych-card is-goal">
-              <span className="psych-step-num">1 · Gambaran Besar</span>
-              <p><RichText text={activeItem.goal} /></p>
-            </section>
+            {/* Stepper Fokus: Hanya 1 Konteks Visual Ditampilkan Sekali Waktu */}
+            <div className="kisi-stepper-tabs" role="tablist" aria-label="Tahap belajar submateri">
+              <button
+                type="button"
+                role="tab"
+                aria-selected={focusTab === 'konsep'}
+                className={`kisi-step-tab ${focusTab === 'konsep' ? 'is-active' : ''}`}
+                onClick={() => setFocusTab('konsep')}
+              >
+                1. Konsep &amp; Trik Cepat
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={focusTab === 'visual'}
+                className={`kisi-step-tab ${focusTab === 'visual' ? 'is-active' : ''}`}
+                onClick={() => setFocusTab('visual')}
+              >
+                2. Gambar Interaktif
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={focusTab === 'uji'}
+                className={`kisi-step-tab ${focusTab === 'uji' ? 'is-active' : ''}`}
+                onClick={() => setFocusTab('uji')}
+              >
+                3. Tes Paham (10 dtk)
+              </button>
+            </div>
 
-            {/* Tahap 2: Analogi Kehidupan Nyata (Concrete Anchoring / Feynman) */}
-            <section className="psych-card is-analogy">
-              <span className="psych-step-num">2 · Analogi Sederhana (Orang Awam Pasti Paham)</span>
-              <p><RichText text={activeItem.analogy} /></p>
-            </section>
+            {focusTab === 'konsep' && (
+              <div className="kisi-focus-pane">
+                <section className="psych-card is-analogy">
+                  <span className="psych-step-num">Analogi Sederhana</span>
+                  <p><RichText text={activeItem.analogy} /></p>
+                </section>
 
-            {/* Tahap 3: Lab Visual Interaktif */}
-            <section className="psych-visual-slot">
-              {activeItem.id === 'cpns-tiu-cerita' ? (
-                <div className="visual-switcher-row">
-                  <span className="small muted">Pilih Lab Visual Soal Cerita:</span>
-                  <button
-                    type="button"
-                    className={`chip-btn ${activeDiagram === 'berbalik-nilai' ? 'is-active' : ''}`}
-                    onClick={() => setActiveDiagram('berbalik-nilai')}
-                  >
-                    Pekerja &amp; Libur
-                  </button>
-                  <button
-                    type="button"
-                    className={`chip-btn ${activeDiagram === 'gerak-temu' ? 'is-active' : ''}`}
-                    onClick={() => setActiveDiagram('gerak-temu')}
-                  >
-                    Susul &amp; Papasan
-                  </button>
-                </div>
-              ) : !activeItem.diagramId ? (
-                <div className="visual-switcher-row">
-                  <span className="small muted">Jelajahi Lab Visual Interaktif:</span>
-                  {DIAGRAM_LABELS.map((dl) => (
-                    <button
-                      key={dl.id}
-                      type="button"
-                      className={`chip-btn ${activeDiagram === dl.id ? 'is-active' : ''}`}
-                      onClick={() => setActiveDiagram(dl.id)}
-                    >
-                      {dl.label}
-                    </button>
-                  ))}
-                </div>
-              ) : null}
-              <InteractiveDiagram diagramId={activeItem.diagramId ? (activeItem.id === 'cpns-tiu-cerita' ? activeDiagram : activeItem.diagramId) : activeDiagram} />
-            </section>
+                <section className="psych-card is-core">
+                  <span className="psych-step-num">Rumus Inti &amp; 3 Langkah Eksekusi</span>
+                  <p><RichText text={activeItem.coreRule} /></p>
+                  <ol className="psych-steps-list">
+                    {activeItem.fastSteps.map((st, i) => (
+                      <li key={i}>
+                        <RichText text={st} inline />
+                      </li>
+                    ))}
+                  </ol>
+                </section>
 
-            {/* Tahap 4: Rumus / Aturan Kunci & Langkah 3 Detik (Chunking) */}
-            <section className="psych-card is-core">
-              <span className="psych-step-num">3 · Aturan Emas &amp; Langkah 3 Detik</span>
-              <p><RichText text={activeItem.coreRule} /></p>
-              <ol className="psych-steps-list">
-                {activeItem.fastSteps.map((st, i) => (
-                  <li key={i}>
-                    <RichText text={st} inline />
-                  </li>
-                ))}
-              </ol>
-            </section>
-
-            {/* Tahap 5: Alarm Anti-Jebakan */}
-            <section className="psych-card is-trap">
-              <span className="psych-step-num">4 · Alarm Jebakan (Coret Kebiasaan Salah Ini!)</span>
-              <p><RichText text={activeItem.commonTrap} /></p>
-            </section>
-
-            {/* Tahap 6: Active Recall 10 Detik */}
-            <section className="psych-card is-recall">
-              <span className="psych-step-num">5 · Tes Paham 10 Detik (Active Recall)</span>
-              <p className="recall-prompt">
-                <RichText text={activeItem.microCheck.prompt} />
-              </p>
-              <div className="recall-options">
-                {activeItem.microCheck.options.map((opt, idx) => {
-                  const answered = pickedOption !== null;
-                  const isRight = idx === activeItem.microCheck.answerIndex;
-                  const isMine = idx === pickedOption;
-                  return (
-                    <button
-                      key={idx}
-                      type="button"
-                      className={`recall-opt-btn ${
-                        answered && isRight
-                          ? 'is-correct'
-                          : answered && isMine && !isRight
-                            ? 'is-wrong'
-                            : ''
-                      }`}
-                      onClick={() => setPickedOption(idx)}
-                    >
-                      <span className="recall-letter">{String.fromCharCode(65 + idx)}</span>
-                      <span>{opt}</span>
-                    </button>
-                  );
-                })}
+                <section className="psych-card is-trap">
+                  <span className="psych-step-num">Waspada Jebakan</span>
+                  <p><RichText text={activeItem.commonTrap} /></p>
+                </section>
               </div>
-              {pickedOption !== null && (
-                <div
-                  className={`recall-feedback ${
-                    pickedOption === activeItem.microCheck.answerIndex ? 'is-ok' : 'is-retry'
-                  }`}
-                >
-                  <RichText text={activeItem.microCheck.feedback} />
-                </div>
-              )}
-            </section>
+            )}
 
-            {/* Tombol Latihan Terfokus Submateri */}
+            {focusTab === 'visual' && (
+              <div className="kisi-focus-pane">
+                {(activeItem.id === 'cpns-tiu-cerita' || !activeItem.diagramId) && (
+                  <div className="visual-switcher-row">
+                    {(activeItem.id === 'cpns-tiu-cerita'
+                      ? DIAGRAM_LABELS.slice(0, 2)
+                      : DIAGRAM_LABELS
+                    ).map((dl) => (
+                      <button
+                        key={dl.id}
+                        type="button"
+                        className={`chip-btn ${activeDiagram === dl.id ? 'is-active' : ''}`}
+                        onClick={() => setActiveDiagram(dl.id)}
+                      >
+                        {dl.label}
+                      </button>
+                    ))}
+                  </div>
+                )}
+                <InteractiveDiagram
+                  diagramId={
+                    activeItem.diagramId && activeItem.id !== 'cpns-tiu-cerita'
+                      ? activeItem.diagramId
+                      : activeDiagram
+                  }
+                />
+              </div>
+            )}
+
+            {focusTab === 'uji' && (
+              <div className="kisi-focus-pane">
+                <section className="psych-card is-recall">
+                  <span className="psych-step-num">Uji Pemahaman Singkat</span>
+                  <p className="recall-prompt">
+                    <RichText text={activeItem.microCheck.prompt} />
+                  </p>
+                  <div className="recall-options">
+                    {activeItem.microCheck.options.map((opt, idx) => {
+                      const answered = pickedOption !== null;
+                      const isRight = idx === activeItem.microCheck.answerIndex;
+                      const isMine = idx === pickedOption;
+                      return (
+                        <button
+                          key={idx}
+                          type="button"
+                          className={`recall-opt-btn ${
+                            answered && isRight
+                              ? 'is-correct'
+                              : answered && isMine && !isRight
+                                ? 'is-wrong'
+                                : ''
+                          }`}
+                          onClick={() => setPickedOption(idx)}
+                        >
+                          <span className="recall-letter">{String.fromCharCode(65 + idx)}</span>
+                          <span>{opt}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                  {pickedOption !== null && (
+                    <div
+                      className={`recall-feedback ${
+                        pickedOption === activeItem.microCheck.answerIndex ? 'is-ok' : 'is-retry'
+                      }`}
+                    >
+                      <RichText text={activeItem.microCheck.feedback} />
+                    </div>
+                  )}
+                </section>
+              </div>
+            )}
+
+            {/* Satu Baris Aksi Utama */}
             <div className="stage-primary-actions">
               <button
                 type="button"
@@ -358,7 +360,7 @@ export default function KisiMateriView({
                   })
                 }
               >
-                Latih 15 Soal Submateri Ini + Tips →
+                Latih 15 Soal Submateri Ini →
               </button>
               <button
                 type="button"
@@ -372,7 +374,7 @@ export default function KisiMateriView({
                   })
                 }
               >
-                Buka Semua ({activeCount} Soal)
+                Semua ({activeCount} Soal)
               </button>
             </div>
           </article>
@@ -381,4 +383,3 @@ export default function KisiMateriView({
     </div>
   );
 }
-

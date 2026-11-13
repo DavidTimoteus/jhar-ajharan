@@ -3,7 +3,7 @@
 import { deletePack, listStoredPacks, savePack } from './db';
 import { cleanDisplayText, safeJsonParse } from './sanitize';
 import { loadSubmateriIndex, SUBMATERI_LIST } from './submateri';
-import type { Pack, PackMeta, Question, SubtestConfig } from './types';
+import type { Pack, PackMeta, Question, SubtestConfig, TrackId } from './types';
 
 // Sumber pembaruan: repo publik. Kalau offline, gagal diam-diam dan paket lokal tetap dipakai.
 export const REMOTE_INDEX =
@@ -148,7 +148,7 @@ export async function removeCustomPack(id: string): Promise<void> {
 /** Validasi & impor bank soal JSON dari pengguna ke IndexedDB. */
 export async function importCustomPack(
   jsonText: string,
-  familyChoice: 'auto' | 'cpns' | 'bumn' = 'auto',
+  familyChoice: 'auto' | TrackId = 'auto',
 ): Promise<Pack> {
   let raw: unknown;
   try {
@@ -166,12 +166,14 @@ export async function importCustomPack(
     throw new Error('Properti "questions" wajib berisi minimal 1 soal.');
   }
 
-  const family: 'cpns' | 'bumn' =
+  const rawFamily =
     familyChoice !== 'auto'
-      ? familyChoice
-      : obj.family === 'bumn'
-        ? 'bumn'
+      ? String(familyChoice)
+      : typeof obj.family === 'string' && obj.family.trim()
+        ? obj.family
         : 'cpns';
+  const family: TrackId =
+    rawFamily.trim().toLowerCase().replace(/[^a-z0-9_-]/g, '-') || 'cpns';
 
   const id =
     typeof obj.id === 'string' && obj.id.trim()
@@ -196,7 +198,9 @@ export async function importCustomPack(
         ? q.subtest.trim().toLowerCase()
         : family === 'cpns'
           ? 'twk'
-          : 'tkd';
+          : family === 'bumn'
+            ? 'tkd'
+            : 'materi';
 
     const hasWeights = Array.isArray(q.weights) && q.weights.length === q.options.length;
     const hasKey =
