@@ -6,7 +6,9 @@ menurun; setiap soal menonjolkan satu nilai pelayanan publik (SPM, jejaring,
 sosial budaya, teknologi informasi, profesionalisme, anti radikalisme).
 """
 
-def q(pid, topic, stem, options, weights, kilat, elim, logika, jebakan, explain):
+from text_polish import build_explain_weighted
+
+def q(pid, topic, stem, options, weights, kilat, elim, logika, jebakan, explain, target_sec=45):
     return {
         "id": f"tkp-{pid:03d}",
         "subtest": "tkp",
@@ -21,7 +23,7 @@ def q(pid, topic, stem, options, weights, kilat, elim, logika, jebakan, explain)
             {"lens": "jebakan", "text": jebakan},
         ],
         "explain": explain,
-        "targetSec": 45,
+        "targetSec": target_sec,
     }
 
 
@@ -405,6 +407,8 @@ def bank_tkp():
          "Upskilling: pilih pelatihan sesuai kebutuhan kerja, komitmen hadir.",
          "Jangan pilih 'menyuruh rekan mencatatkan materi' - belajar tidak bisa diwakilkan.", 45),
     ]
-    for i, (topic, stem, options, weights, kilat, elim, logika, jebakan, explain) in enumerate(d, 1):
-        out.append(q(i, topic, stem, options, weights, kilat, elim, logika, jebakan, explain))
+    for i, (topic, stem, options, weights, kilat, elim, logika, jebakan, ts_or_exp) in enumerate(d, 1):
+        ts = ts_or_exp if isinstance(ts_or_exp, int) else 45
+        exp = build_explain_weighted(options, weights, kilat, logika) if isinstance(ts_or_exp, int) else ts_or_exp
+        out.append(q(i, topic, stem, options, weights, kilat, elim, logika, jebakan, exp, ts))
     return out

@@ -642,7 +642,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Pelaporan melalui saluran resmi dengan dokumentasi yang memadai memungkinkan penanganan yang sah dan melindun"
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Pelaporan melalui saluran resmi dengan dokumentasi yang memadai memungkinkan penanganan yang sah dan melindun."
         },
         {
           "lens": "eliminasi",
@@ -817,7 +817,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Melalui Kapitulasi Kalijati pada Maret 1942, Belanda menyerah tanpa syarat kepada Jepang, yang menandai dimul"
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Melalui Kapitulasi Kalijati pada Maret 1942, Belanda menyerah tanpa syarat kepada Jepang, yang menandai dimul."
         },
         {
           "lens": "eliminasi",
@@ -981,7 +981,7 @@
       "id": "cpns26-p7-p7-twk-28",
       "subtest": "twk",
       "topic": "bahasa indonesia",
-      "stem": "Bacalah paragraf berikut.\n\n\"Banyak pelamar CPNS memilih formasi hanya berdasarkan gengsi instansi. Mereka mengabaikan perbandingan jumlah pelamar dengan kebutuhan formasi. Akibatnya, banyak yang bernilai tinggi tetap gugur karena bersaing di formasi paling padat.\"\n\nSimpulan yang tepat adalah...",
+      "stem": "Bacalah paragraf berikut.\n\"Banyak pelamar CPNS memilih formasi hanya berdasarkan gengsi instansi. Mereka mengabaikan perbandingan jumlah pelamar dengan kebutuhan formasi. Akibatnya, banyak yang bernilai tinggi tetap gugur karena bersaing di formasi paling padat.\"\nSimpulan yang tepat adalah...",
       "options": [
         "Nilai tinggi tidak berguna dalam seleksi CPNS",
         "Pemilihan formasi tanpa memperhitungkan tingkat persaingan dapat menggugurkan pelamar bernilai tinggi",
@@ -1261,7 +1261,7 @@
       "id": "cpns26-p7-p7-tiu-06",
       "subtest": "tiu",
       "topic": "silogisme",
-      "stem": "Semua peserta yang membawa kartu ujian diizinkan masuk. Sebagian peserta di ruang tunggu tidak diizinkan masuk.\n\nKesimpulan yang tepat adalah...",
+      "stem": "Semua peserta yang membawa kartu ujian diizinkan masuk. Sebagian peserta di ruang tunggu tidak diizinkan masuk.\nKesimpulan yang tepat adalah...",
       "options": [
         "Semua peserta di ruang tunggu membawa kartu ujian",
         "Sebagian peserta di ruang tunggu tidak membawa kartu ujian",
@@ -1296,7 +1296,7 @@
       "id": "cpns26-p7-p7-tiu-07",
       "subtest": "tiu",
       "topic": "silogisme",
-      "stem": "Jika anggaran cair, maka kegiatan dilaksanakan. Jika kegiatan dilaksanakan, maka peserta hadir. Peserta tidak hadir.\n\nKesimpulan yang tepat adalah...",
+      "stem": "Jika anggaran cair, maka kegiatan dilaksanakan. Jika kegiatan dilaksanakan, maka peserta hadir. Peserta tidak hadir.\nKesimpulan yang tepat adalah...",
       "options": [
         "Anggaran cair",
         "Anggaran tidak cair",
@@ -1331,7 +1331,7 @@
       "id": "cpns26-p7-p7-tiu-08",
       "subtest": "tiu",
       "topic": "silogisme",
-      "stem": "Tidak ada pegawai yang terlambat mendapat tunjangan kehadiran penuh. Sebagian pegawai mendapat tunjangan kehadiran penuh.\n\nKesimpulan yang tepat adalah...",
+      "stem": "Tidak ada pegawai yang terlambat mendapat tunjangan kehadiran penuh. Sebagian pegawai mendapat tunjangan kehadiran penuh.\nKesimpulan yang tepat adalah...",
       "options": [
         "Semua pegawai terlambat",
         "Sebagian pegawai tidak terlambat",
@@ -1366,7 +1366,7 @@
       "id": "cpns26-p7-p7-tiu-09",
       "subtest": "tiu",
       "topic": "silogisme",
-      "stem": "Semua dokumen yang ditandatangani pimpinan bersifat sah. Sebagian dokumen di meja ini bersifat sah.\n\nKesimpulan yang tepat adalah...",
+      "stem": "Semua dokumen yang ditandatangani pimpinan bersifat sah. Sebagian dokumen di meja ini bersifat sah.\nKesimpulan yang tepat adalah...",
       "options": [
         "Semua dokumen di meja ini ditandatangani pimpinan",
         "Mungkin ada dokumen di meja ini yang ditandatangani pimpinan",
@@ -1401,7 +1401,7 @@
       "id": "cpns26-p7-p7-tiu-10",
       "subtest": "tiu",
       "topic": "silogisme",
-      "stem": "Semua kegiatan yang melibatkan dana negara wajib dilaporkan. Kegiatan seminar tidak wajib dilaporkan.\n\nKesimpulan yang tepat adalah...",
+      "stem": "Semua kegiatan yang melibatkan dana negara wajib dilaporkan. Kegiatan seminar tidak wajib dilaporkan.\nKesimpulan yang tepat adalah...",
       "options": [
         "Kegiatan seminar melibatkan dana negara",
         "Kegiatan seminar tidak melibatkan dana negara",
@@ -1412,7 +1412,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Karena kegiatan berdana negara pasti wajib dilaporkan, maka kegiatan yang tidak wajib dilaporkan pasti tidak melibatkan dana nega"
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Karena kegiatan berdana negara pasti wajib dilaporkan, maka kegiatan yang tidak wajib dilaporkan pasti tidak melibatkan dana nega."
         },
         {
           "lens": "eliminasi",
@@ -1436,7 +1436,7 @@
       "id": "cpns26-p7-p7-tiu-11",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Lima pegawai bertugas jaga pada Senin sampai Jumat, satu orang per hari. Andi tidak jaga Senin. Bima jaga Rabu. Cakra jaga sehari sebelum Dinda. Eka jaga Jumat.\n\nAndi bertugas pada hari...",
+      "stem": "Lima pegawai bertugas jaga pada Senin sampai Jumat, satu orang per hari. Andi tidak jaga Senin. Bima jaga Rabu. Cakra jaga sehari sebelum Dinda. Eka jaga Jumat.\nAndi bertugas pada hari...",
       "options": [
         "Senin",
         "Selasa",
@@ -1447,7 +1447,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pekerja bertambah → waktu pasti berkurang (kalikan Orang × Hari = Orang baru × Hari baru; jika koma, bulatkan orang ke atas). Susul-menyusul: Jarak duluan ÷ (Kecepatan penyusul − yang disusul). Petunjuk inti: Bima mengunci Rabu dan Eka mengunci Jumat, menyisak"
+          "text": "Pekerja bertambah → waktu pasti berkurang (kalikan Orang × Hari = Orang baru × Hari baru; jika koma, bulatkan orang ke atas). Susul-menyusul: Jarak duluan ÷ (Kecepatan penyusul − yang disusul). Petunjuk inti: Bima mengunci Rabu dan Eka mengunci Jumat, menyisak."
         },
         {
           "lens": "eliminasi",
@@ -1471,7 +1471,7 @@
       "id": "cpns26-p7-p7-tiu-12",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Empat orang memiliki berat badan berbeda. Berat Rani lebih besar daripada Sinta. Berat Tia lebih kecil daripada Sinta. Berat Umi lebih besar daripada Rani.\n\nOrang dengan berat badan terkecil adalah...",
+      "stem": "Empat orang memiliki berat badan berbeda. Berat Rani lebih besar daripada Sinta. Berat Tia lebih kecil daripada Sinta. Berat Umi lebih besar daripada Rani.\nOrang dengan berat badan terkecil adalah...",
       "options": [
         "Rani",
         "Sinta",
@@ -1506,7 +1506,7 @@
       "id": "cpns26-p7-p7-tiu-13",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Enam kotak disusun bertingkat. Kotak A tepat di atas kotak B. Kotak C paling bawah. Kotak D tepat di atas kotak A. Kotak E paling atas. Kotak F berada di antara C dan B.\n\nUrutan dari bawah ke atas adalah...",
+      "stem": "Enam kotak disusun bertingkat. Kotak A tepat di atas kotak B. Kotak C paling bawah. Kotak D tepat di atas kotak A. Kotak E paling atas. Kotak F berada di antara C dan B.\nUrutan dari bawah ke atas adalah...",
       "options": [
         "C, F, B, A, D, E",
         "C, B, F, A, D, E",
@@ -1541,7 +1541,7 @@
       "id": "cpns26-p7-p7-tiu-14",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Dalam sebuah seleksi, peserta dinyatakan lolos bila memenuhi minimal dua dari tiga syarat: nilai tulis minimal 80, pengalaman minimal 3 tahun, dan sertifikat keahlian. Rani bernilai 85, pengalaman 2 tahun, tanpa sertifikat. Sinta bernilai 78, pengalaman 5 tahun, memiliki sertifikat.\n\nPeserta yang lolos adalah...",
+      "stem": "Dalam sebuah seleksi, peserta dinyatakan lolos bila memenuhi minimal dua dari tiga syarat: nilai tulis minimal 80, pengalaman minimal 3 tahun, dan sertifikat keahlian. Rani bernilai 85, pengalaman 2 tahun, tanpa sertifikat. Sinta bernilai 78, pengalaman 5 tahun, memiliki sertifikat.\nPeserta yang lolos adalah...",
       "options": [
         "Rani saja",
         "Sinta saja",
@@ -1576,7 +1576,7 @@
       "id": "cpns26-p7-p7-tiu-15",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Tiga jenis layanan dibuka pada hari berbeda. Layanan perizinan tidak pada hari Senin. Layanan kependudukan pada hari Rabu. Layanan pajak lebih awal daripada layanan perizinan.\n\nLayanan yang dibuka pada hari Senin adalah...",
+      "stem": "Tiga jenis layanan dibuka pada hari berbeda. Layanan perizinan tidak pada hari Senin. Layanan kependudukan pada hari Rabu. Layanan pajak lebih awal daripada layanan perizinan.\nLayanan yang dibuka pada hari Senin adalah...",
       "options": [
         "Perizinan",
         "Kependudukan",
@@ -1587,7 +1587,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pekerja bertambah → waktu pasti berkurang (kalikan Orang × Hari = Orang baru × Hari baru; jika koma, bulatkan orang ke atas). Susul-menyusul: Jarak duluan ÷ (Kecepatan penyusul − yang disusul). Petunjuk inti: Kependudukan mengunci Rabu, sehingga Senin dan Sela"
+          "text": "Pekerja bertambah → waktu pasti berkurang (kalikan Orang × Hari = Orang baru × Hari baru; jika koma, bulatkan orang ke atas). Susul-menyusul: Jarak duluan ÷ (Kecepatan penyusul − yang disusul). Petunjuk inti: Kependudukan mengunci Rabu, sehingga Senin dan Sela."
         },
         {
           "lens": "eliminasi",
@@ -1797,7 +1797,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: Loncatan mundur bertambah satu: Z ke X mundur 2, X ke U mundur 3, U ke Q mundur 4, sehingga berikutnya mundur 5 dari Q me"
+          "text": "Cek selisih berdekatan dulu; jika melonjak acak, langsung uji pola selang-seling (lompat 1 atau 2 suku) atau kuadrat/prima. Petunjuk inti: Loncatan mundur bertambah satu: Z ke X mundur 2, X ke U mundur 3, U ke Q mundur 4, sehingga berikutnya mundur 5 dari Q me."
         },
         {
           "lens": "eliminasi",

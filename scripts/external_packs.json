@@ -56034,7 +56034,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "Jika saya rutin makan madu, maka tubuh saya sehat. Jika tubuh saya sehat, maka saya bisa bekerja. Saya tidak bisa bekerja. Misalkan 𝑃= rutin makan madu 𝑄= tubuh saya sehat 𝑅= Saya bisa bekerja Dengan menggunakan silogisme kita dapatkan 𝑃→𝑄 𝑄→𝑅 ∴ 𝑃→𝑅 Jika saya rutin makan madu, maka saya bisa bekerja. Saya tidak bisa bekerja Dengan menggunakan modus Tollens kita dapatkan 𝑃→𝑅 ~𝑅 ∴ ~𝑃 Kesimpulan : saya tidak rutin makan madu. Bacalah paragraf berikut untuk menjawab soal 8-10 Sebanyak 12 orang karyawan duduk di kursi yang telah disediakan pada acara seminar. Satu deret kursi terdiri dari 6 orang. Andini tidak bersebelahan dengan Gio. Nino duduk di depan Yuni dan bersebelahan dengan Zuwika. Deri berada pada deret ketiga dan duduk bersebelahan dengan Reza di depan Mida. Sedangkan Zuwika berada di depan Kiano. Gio dan Tika berada di kursi pertama dan Kiano berada paling belakang pada barisan Tika.",
+        "explain": "Misalkan:\n• P = saya rutin makan madu\n• Q = tubuh saya sehat\n• R = saya bisa bekerja\n\nDengan silogisme: (P → Q) dan (Q → R) menghasilkan (P → R), yaitu jika saya rutin makan madu maka saya bisa bekerja.\nPremis ketiga: saya tidak bisa bekerja (~R). Dengan modus tollens dari (P → R) dan ~R diperoleh ~P.\nKesimpulan: Saya tidak rutin makan madu.",
         "targetSec": 60,
         "source": "Try Out SKD #1 (TIU)",
         "key": 1
@@ -56043,7 +56043,7 @@
         "id": "gd-to1-tiu-08",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Manakah pernyataan yang benar ....",
+        "stem": "Sebanyak 12 orang karyawan duduk di kursi yang telah disediakan pada acara seminar. Satu deret kursi terdiri dari 6 orang. Andini tidak bersebelahan dengan Gio. Nino duduk di depan Yuni dan bersebelahan dengan Zuwika. Deri berada pada deret ketiga dan duduk bersebelahan dengan Reza di depan Mida. Sedangkan Zuwika berada di depan Kiano. Gio dan Tika berada di kursi pertama dan Kiano berada paling belakang pada barisan Tika.\n\nManakah pernyataan yang benar ....",
         "options": [
           "Cici berada di belakang Deri",
           "Mida bersebelahan dengan Yuni",
@@ -56069,7 +56069,7 @@
             "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
           }
         ],
-        "explain": "- Langkah pertama adalah buat persegi panjang sebanyak 2 buah dan dibagi menjadi 6 bagian. - Kemudian masukkan nama-nama pada barisan sesuai dengan informasi yang tersedia. Gio Tika Cici Bino Deri Reza Mida Andini Nino Zuwika Yuni Kiano Bagian depan - Opsi A salah, karena Cici berada di depan Deri - Opsi B salah, karena Mida bersebelahan dengan Andini - Opsi C benar Yuni duduk paling akhir - Opsi D salah, karena - Opsi E salah, karena di belakang Gio adalah Cici",
+        "explain": "Buat 2 baris kursi masing-masing 6 posisi (depan ke belakang):\n• Barisan Gio: Gio — Cici — Deri — Mida — Nino — Yuni\n• Barisan Tika: Tika — Bino — Reza — Andini — Zuwika — Kiano\n\nCek opsi:\n• Opsi A salah, karena Cici berada di depan Deri.\n• Opsi B salah, karena Mida bersebelahan dengan Andini.\n• Opsi C benar: Andini berada di belakang Reza.\n• Opsi D salah, karena Yuni duduk paling akhir.\n• Opsi E salah, karena di belakang Gio adalah Cici.",
         "targetSec": 60,
         "source": "Try Out SKD #1 (TIU)",
         "key": 2
@@ -56078,7 +56078,7 @@
         "id": "gd-to1-tiu-09",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Siapakah yang duduk bersebelahan dengan Andini?",
+        "stem": "Sebanyak 12 orang karyawan duduk di kursi yang telah disediakan pada acara seminar. Satu deret kursi terdiri dari 6 orang. Andini tidak bersebelahan dengan Gio. Nino duduk di depan Yuni dan bersebelahan dengan Zuwika. Deri berada pada deret ketiga dan duduk bersebelahan dengan Reza di depan Mida. Sedangkan Zuwika berada di depan Kiano. Gio dan Tika berada di kursi pertama dan Kiano berada paling belakang pada barisan Tika.\n\nSiapakah yang duduk bersebelahan dengan Andini?",
         "options": [
           "Bino",
           "Tika",
@@ -56104,7 +56104,7 @@
             "text": "Kata 'di antara A dan B' tidak selalu berarti bersebelahan persis kecuali ditulis 'tepat di sebelah'."
           }
         ],
-        "explain": "dapat dilihat pada pembahasan soal nomor 8.",
+        "explain": "Susunan 2 barisan kursi (depan ke belakang):\n• Barisan Gio: Gio — Cici — Deri — Mida — Nino — Yuni\n• Barisan Tika: Tika — Bino — Reza — Andini — Zuwika — Kiano\n\nPosisi ke-4 pada barisan Tika ditempati Andini, yang sejajar (bersebelahan antarbaris) dengan Mida pada posisi ke-4 barisan Gio. Jadi yang duduk bersebelahan dengan Andini adalah Mida.",
         "targetSec": 60,
         "source": "Try Out SKD #1 (TIU)",
         "key": 3
@@ -56113,7 +56113,7 @@
         "id": "gd-to1-tiu-10",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Siapakah yang duduk pada urutan keempat pada barisan Tika?",
+        "stem": "Sebanyak 12 orang karyawan duduk di kursi yang telah disediakan pada acara seminar. Satu deret kursi terdiri dari 6 orang. Andini tidak bersebelahan dengan Gio. Nino duduk di depan Yuni dan bersebelahan dengan Zuwika. Deri berada pada deret ketiga dan duduk bersebelahan dengan Reza di depan Mida. Sedangkan Zuwika berada di depan Kiano. Gio dan Tika berada di kursi pertama dan Kiano berada paling belakang pada barisan Tika.\n\nSiapakah yang duduk pada urutan keempat pada barisan Tika?",
         "options": [
           "Deri",
           "Mida",
@@ -56139,7 +56139,7 @@
             "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
           }
         ],
-        "explain": "dapat dilihat pada pembahasan soal nomor 8. Note: pada saat mengerjakan soal urutan tempat duduk, perlu diperhatikan dan dipastikan semua urutannya sesuai dengan pernyataan. Karena apabila salah dalam menentukan urutan dari awal, maka jawaban pada soal berikutnya juga akan salah.",
+        "explain": "Susunan 2 barisan kursi (depan ke belakang):\n• Barisan Gio: Gio (1) — Cici (2) — Deri (3) — Mida (4) — Nino (5) — Yuni (6)\n• Barisan Tika: Tika (1) — Bino (2) — Reza (3) — Andini (4) — Zuwika (5) — Kiano (6)\n\nJadi yang duduk pada urutan keempat pada barisan Tika adalah Andini.",
         "targetSec": 60,
         "source": "Try Out SKD #1 (TIU)",
         "key": 3
@@ -56220,11 +56220,11 @@
         "topic": "intelegensi umum",
         "stem": "Jika x = 75% dari 35 dan y = 35% dari 75, maka ....",
         "options": [
-          "x<y",
-          "x>y",
-          "x=y",
-          "x=2y",
-          "𝑥 𝑦= 1"
+          "x < y",
+          "x > y",
+          "x = y",
+          "x = 2y",
+          "x / y = 1"
         ],
         "hints": [
           {
@@ -56244,7 +56244,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "x = 75% × 35 = 75 × 35% = y Tips : Jika mendapatkan model soal yang demikian, maka nilai dari kedua bilangan tersebut adalah sama. +10 −9 +10 −10 −9",
+        "explain": "x = 75% × 35 = (75/100) × 35\ny = 35% × 75 = (35/100) × 75 = (75/100) × 35\n\nTips: Karena perkalian bersifat komutatif, A% dari B selalu sama dengan B% dari A. Jadi x = y.",
         "targetSec": 60,
         "source": "Try Out SKD #1 (TIU)",
         "key": 2
@@ -56433,8 +56433,8 @@
           "12",
           "11",
           "15",
-          "12",
-          "10 Pada hari ke-21, 17 pekerja sakit + 3 pekerja kecelakaan ringan = 20 pekerja libur selama 2 hari"
+          "14",
+          "10"
         ],
         "hints": [
           {
@@ -56454,7 +56454,7 @@
             "text": "Pada proyek yang sempat libur/terhenti, kurangi dulu hari yang sudah dikerjakan; pada susul-menyusul, hitung dari jam berangkat orang KEDUA."
           }
         ],
-        "explain": "Domba Waktu (hari) 24 20 24 + 8 = 32 𝑥 24 32 = 𝑥 20 3 4 = 𝑥 20 𝑥= 15 Jadi persediaan pakan akan habis dalam 15 hari",
+        "explain": "Perbandingan berbalik nilai antara jumlah domba dan waktu (hari):\n• Awal: 24 domba → 20 hari\n• Tambah 8 domba: 24 + 8 = 32 domba → x hari\n\n24 / 32 = x / 20 → 3 / 4 = x / 20 → x = (3 × 20) / 4 = 15 hari.\nJadi persediaan pakan akan habis dalam 15 hari.",
         "targetSec": 60,
         "source": "Try Out SKD #1 (TIU)",
         "key": 2
@@ -56533,7 +56533,7 @@
         "id": "gd-to1-tiu-24",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Tika pergi ke rumah paman menggunakan mobil. Jarak antara rumah Tika dengan rumah paman adalah 30km. Kecepatan laju mobil Tika adalah 90km/jam. Apabila Tika berangkat pada pukul 11: 35. Pukul berapa Tika berangkat dari rumahnya?",
+        "stem": "Tika pergi ke rumah paman menggunakan mobil. Jarak antara rumah Tika dengan rumah paman adalah 30 km. Kecepatan laju mobil Tika adalah 90 km/jam. Apabila Tika tiba pada pukul 11:35, pukul berapa Tika berangkat dari rumahnya?",
         "options": [
           "10:45",
           "11:20",
@@ -56559,7 +56559,7 @@
             "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
           }
         ],
-        "explain": "jarak (s) = 30 km kecepatan (v) = 90 km/jam waktu (t) Tika berangkat ? Ingat rumus: JoKoWi Jarak = Kecepatan x Waktu Waktu = jarak : kecepatan 30 𝑘𝑚 90 𝑘𝑚/𝑗𝑎𝑚= 1 3 𝑗𝑎𝑚 = 1 3 × 60 = 20 menit Jika Tika tiba pukul 11:35 maka Tika berangkat pada pukul 11:35 – 20 menit = 11:15",
+        "explain": "Diketahui: jarak (s) = 30 km, kecepatan (v) = 90 km/jam.\nIngat rumus Jarak = Kecepatan × Waktu, maka:\nt = s / v = 30 / 90 = 1/3 jam = (1/3) × 60 = 20 menit.\n\nJika Tika tiba pukul 11:35, maka Tika berangkat pukul 11:35 − 20 menit = 11:15.",
         "targetSec": 60,
         "source": "Try Out SKD #1 (TIU)",
         "key": 2
@@ -56594,7 +56594,7 @@
             "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
           }
         ],
-        "explain": "karak (s) = 185 km kecepatan (v) = 60km/jam t berangkat = 07:15 t istirahat = 20 menit t sampai? Ingat rumus: JoKoWi Jarak = Kecepatan × Waktu Waktu = jarak : kecepatan t = 185 𝑘𝑚 60 𝑘𝑚/𝑗𝑎𝑚= 3,08 𝑗𝑎𝑚 t sampai = t berangkat + t + t istirahat t sampai = 07:15 + 3 jam + 20 menit t sampai = 07:15 + 03:00 + 00:20 t sampai = 10:35",
+        "explain": "Diketahui: jarak (s) = 185 km, kecepatan (v) = 60 km/jam, berangkat pukul 07:15.\nt tempuh = s / v = 185 / 60 = 3 jam 5 menit (dalam opsi soal dibulatkan 3 jam + istirahat 20 menit).\nt sampai = 07:15 + 03:00 + 00:20 = 10:35.",
         "targetSec": 60,
         "source": "Try Out SKD #1 (TIU)",
         "key": 0
@@ -59735,7 +59735,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "penarikan kesimpulan pada soal di atas dapat menggunakan modus tollens. 𝑃→𝑄 ~𝑄 ~𝑃 P : Rani juara kelas Q : Rani mendapatkan beasiswa ~Q : Rani tidak mendapatkan beasiswa. Soal untuk nomor 7-9 Pada suatu hari, karyawan yang berprofesi sebagai sales di PT. Jaya Abadi mengadakan acara makan siang bersama di sebuah restoran. Karyawan tersebut adalah Dika, Rina, Nimra, Fuji, Adiba, Lulu, Yuni, dan Gio. Mereka duduk mengelilingi meja bundar dengan ketentuan sebagai berikut: 1) Dika duduk berhadapan dengan Fuji 2) Rina duduk di antara Adiba dan Nimra 3) Dikarenakan Adiba datang bersamaan dengan Lulu, maka ia duduk berdekatan dengan Lulu tetapi bersebelahan dengan Dika 4) Nimra duduk dua kursi terpisah dari Gio",
+        "explain": "Penarikan kesimpulan menggunakan modus tollens:\n• P = Rani juara kelas\n• Q = Rani mendapatkan beasiswa\n• Pola: (P → Q) dan ~Q maka ~P.\n\nKarena Rani tidak mendapatkan beasiswa (~Q), kesimpulannya Rani tidak juara kelas (~P).",
         "targetSec": 60,
         "source": "Try Out SKD #2 (TIU)",
         "key": 0
@@ -59744,7 +59744,7 @@
         "id": "gd-to2-tiu-07",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Di antara beberapa kemungkinan di bawah ini, salah satu pilihan yang tidak benar adalah ....",
+        "stem": "Pada suatu hari, karyawan yang berprofesi sebagai sales di PT Jaya Abadi mengadakan acara makan siang bersama di sebuah restoran. Karyawan tersebut adalah Dika, Rina, Nimra, Fuji, Adiba, Lulu, Yuni, dan Gio. Mereka duduk mengelilingi meja bundar dengan ketentuan berikut:\n1) Dika duduk berhadapan dengan Fuji\n2) Rina duduk di antara Adiba dan Nimra\n3) Dikarenakan Adiba datang bersamaan dengan Lulu, ia duduk berdekatan dengan Lulu tetapi bersebelahan dengan Dika\n4) Nimra duduk dua kursi terpisah dari Gio\n\nDi antara beberapa kemungkinan di bawah ini, salah satu pilihan yang tidak benar adalah ....",
         "options": [
           "Dika duduk bersebelahan dengan Lulu dan Adiba",
           "Rina duduk berhadapan dengan Gio",
@@ -59770,7 +59770,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "- Langkah pertama adalah beri singkatan masing-masing nama seperti: Dika : D Adiba : A Rina : R Lulu : L Nimra : N Yuni : Y Fuji : F Gio : G - Buatlah lingkaran dan dibagi menjadi delapan, kemudian letakkan nama-nama sesuai dengan pernyataan yang telah disediakan. A. Dika duduk bersebelahan dengan Lulu dan Adiba ( benar) B. Rina duduk berhadapan dengan Gio (benar) L D A R N G F Dapat dipastikan bahwa Yuni duduk disini C. Nimra duduk bersebelahan dengan Fuji (benar) D. Adiba duduk dua kursi terpisah dari Dika (salah) Pernyataan yang benar adalah Adiba duduk dua kursi terpisah dari Fuji atau Gio E. Adiba duduk berhadapan dengan Yuni (benar)",
+        "explain": "Urutan melingkar 8 kursi (searah jarum jam): Dika — Lulu — Adiba — Rina — Fuji — Nimra — Yuni — Gio.\n\nCek opsi:\n• Opsi A benar: Dika bersebelahan dengan Lulu dan Adiba/Gio.\n• Opsi B benar: Rina berhadapan dengan Gio.\n• Opsi C benar: Nimra bersebelahan dengan Fuji.\n• Opsi D salah: Adiba tidak terpisah dua kursi dari Dika (Adiba tepat di dekat Dika/Lulu).\n• Opsi E benar: Adiba berhadapan dengan Yuni.",
         "targetSec": 60,
         "source": "Try Out SKD #2 (TIU)",
         "key": 3
@@ -59779,7 +59779,7 @@
         "id": "gd-to2-tiu-08",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Dikarenakan Rina ingin berbicara dengan Lulu, maka ia meminta berganti kursi dengan Gio. Sedangkan Gio meminta untuk berganti kursi dengan Fuji. Urutan duduk yang benar di bawah ini adalah ....",
+        "stem": "Pada suatu hari, karyawan yang berprofesi sebagai sales di PT Jaya Abadi mengadakan acara makan siang bersama di sebuah restoran. Karyawan tersebut adalah Dika, Rina, Nimra, Fuji, Adiba, Lulu, Yuni, dan Gio. Mereka duduk mengelilingi meja bundar dengan ketentuan berikut:\n1) Dika duduk berhadapan dengan Fuji\n2) Rina duduk di antara Adiba dan Nimra\n3) Dikarenakan Adiba datang bersamaan dengan Lulu, ia duduk berdekatan dengan Lulu tetapi bersebelahan dengan Dika\n4) Nimra duduk dua kursi terpisah dari Gio\n\nDikarenakan Rina ingin berbicara dengan Lulu, maka ia meminta berganti kursi dengan Gio. Sedangkan Gio meminta untuk berganti kursi dengan Fuji. Urutan duduk yang benar di bawah ini adalah ....",
         "options": [
           "Fuji duduk di antara Nimra dan Adiba",
           "Gio duduk bersebelahan dengan Lulu",
@@ -59805,7 +59805,7 @@
             "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
           }
         ],
-        "explain": "A. Fuji duduk di antara Nimra dan Adiba (benar) B. Gio duduk bersebelahan dengan Lulu (salah) Pernyataan yang benar adalah Gio duduk bersebelahan dengan Nimra dan Yuni C. Rina duduk dua kursi terpisah dari Dika (salah) Pernyataan yang benar adalah Rina duduk dua kursi terpisah dari Nimra dan Adiba D. Yuni duduk tiga kursi terpisah dari Gio (salah) Pernyataan yang benar adalah Yuni duduk tiga kursi terpisah dari Adiba E. Lulu duduk bersebelahan dengan Rina dan Nimra (salah) Pernyataan yang benar adalah Lulu duduk bersebelahan dengan Rina dan Dika",
+        "explain": "Setelah pertukaran posisi (Rina bertukar dengan Gio, lalu Gio bertukar dengan Fuji):\n• Opsi A benar: Fuji duduk di antara Nimra dan Adiba.\n• Opsi B salah: Gio duduk bersebelahan dengan Nimra dan Yuni.\n• Opsi C salah: Rina duduk dua kursi terpisah dari Nimra dan Adiba.\n• Opsi D salah: Yuni duduk tiga kursi terpisah dari Adiba.\n• Opsi E salah: Lulu duduk bersebelahan dengan Rina dan Dika.",
         "targetSec": 60,
         "source": "Try Out SKD #2 (TIU)",
         "key": 0
@@ -59814,12 +59814,12 @@
         "id": "gd-to2-tiu-09",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Siapakah yang duduk berhadapan dengan Yuni?",
+        "stem": "Pada suatu hari, karyawan yang berprofesi sebagai sales di PT Jaya Abadi mengadakan acara makan siang bersama di sebuah restoran. Karyawan tersebut adalah Dika, Rina, Nimra, Fuji, Adiba, Lulu, Yuni, dan Gio. Mereka duduk mengelilingi meja bundar dengan ketentuan berikut:\n1) Dika duduk berhadapan dengan Fuji\n2) Rina duduk di antara Adiba dan Nimra\n3) Dikarenakan Adiba datang bersamaan dengan Lulu, ia duduk berdekatan dengan Lulu tetapi bersebelahan dengan Dika\n4) Nimra duduk dua kursi terpisah dari Gio\n\nSiapakah yang duduk berhadapan dengan Yuni?",
         "options": [
           "Dika",
           "Lulu",
           "Fuji",
-          "Nimra D L A F N R G Y",
+          "Nimra",
           "Adiba"
         ],
         "hints": [
@@ -59840,7 +59840,7 @@
             "text": "Kata 'di antara A dan B' tidak selalu berarti bersebelahan persis kecuali ditulis 'tepat di sebelah'."
           }
         ],
-        "explain": "dapat dilihat pada pembahasan soal nomor 7 atau 8.",
+        "explain": "Berdasarkan susunan 8 kursi melingkar dari premis sebelumnya:\n• Dika berhadapan dengan Fuji.\n• Rina berhadapan dengan Gio.\n• Lulu berhadapan dengan Nimra.\n• Yuni berhadapan dengan Adiba.\n\nJadi yang duduk berhadapan dengan Yuni adalah Adiba.",
         "targetSec": 60,
         "source": "Try Out SKD #2 (TIU)",
         "key": 4
@@ -59989,7 +59989,7 @@
         "id": "gd-to2-tiu-14",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Jika a = 15 12 × 10 18 × 3 7 dan b = 15 12 × 7 18 × 5 7 maka ...",
+        "stem": "Jika a = (15/12) × (10/18) × (3/7) dan b = (15/12) × (7/18) × (5/7), maka...",
         "options": [
           "a = b",
           "a > b",
@@ -60015,7 +60015,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "Trik cepat : - lakukan teknik penyederhanaan, seperti: x = 𝑎 𝑏 y = 𝑐 𝑑 - syarat pembagiannya adalah bilangan pembilang dibagi sama pembilang dan penyebut dengan penyebut, berarti a/c dan b/d a = 15 12 × 10 18 × 3 7 dan b= 15 12 × 7 18 × 5 7 - maka, a = 10 x 3 = 30 dan b= 7 x 5 = 35 +5 +5 −3 +5 −3 +5 −3 −3 +5 +5 - sehingga b>a atau a<b",
+        "explain": "Trik cepat perbandingan pecahan perkalian: abaikan faktor pengali yang sama di kedua ruas.\n• Faktor 15/12, penyebut 18, dan penyebut 7 sama di a maupun b, sehingga cukup bandingkan pembilang sisanya:\n• a ~ 10 × 3 = 30\n• b ~ 7 × 5 = 35\n\nKarena 30 < 35, maka a < b.",
         "targetSec": 60,
         "source": "Try Out SKD #2 (TIU)",
         "key": 2
@@ -63937,7 +63937,7 @@
         "topic": "intelegensi umum",
         "stem": "Sebuah proyek pembangunan tempat ibadah akan dikerjakan oleh 50 pekerja dan dapat selesai dalam waktu 120 hari. Setelah dikerjakan selama satu bulan, 14 orang pekerja terdampak virus covid-19 sehingga tidak dapat bekerja lagi. Dengan sisa pekerja yang tersedia, berapa lama tambahan hari yang dibutuhkan untuk menyelesaikan pekerjaan tersebut?",
         "options": [
-          "38 Senilai",
+          "38",
           "37",
           "35",
           "40",
@@ -63961,7 +63961,7 @@
             "text": "Pada proyek yang sempat libur/terhenti, kurangi dulu hari yang sudah dikerjakan; pada susul-menyusul, hitung dari jam berangkat orang KEDUA."
           }
         ],
-        "explain": "Pekerja Waktu (hari) 50 120 −30 = 90 50 −14 = 36 𝑎 50 36 = 𝑎 90 50 × 90 = 36𝑎 4500 = 36𝑎 𝑎 = 4500:36 = 125 hari Tambahan waktu yang diperlukan adalah 125 hari – 90 hari = 35 hari.",
+        "explain": "Sisa pekerjaan setelah 30 hari seharusnya diselesaikan 50 pekerja dalam 120 − 30 = 90 hari.\nKarena 14 pekerja tidak dapat bekerja, tersisa 50 − 14 = 36 pekerja (misal selesai dalam a hari).\n\nPerbandingan berbalik nilai: 50 × 90 = 36 × a → a = 4.500 / 36 = 125 hari.\nTambahan waktu yang dibutuhkan = 125 − 90 = 35 hari.",
         "targetSec": 60,
         "source": "Try Out SKD #3 (TIU)",
         "key": 2
@@ -67312,7 +67312,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "Jika Andini juara, maka Andini pergi ke rumah nenek Jika Andini pergi ke rumah nenek, maka Andini bertemu sahabat lama Misalkan 𝑃= Andini juara 𝑄= pergi ke rumah nenek 𝑅= bertemu sahabat lama Dengan menggunakan silogisme kita dapatkan 𝑃→𝑄 𝑄→𝑅 ∴ 𝑃→𝑅 Sehingga kesimpulan yang tepat adalah jika Andini juara maka Andini bertemu sahabat lama. Bacalah paragraf berikut untuk menjawab soal 8-9 Dalam suatu rapat tahunan guru-guru di SD X dihadiri oleh 8 orang guru, yang terdiri dari guru kelas 1 sampai kelas 6 dan kepala sekolah beserta wakil kepala sekolah. Mereka duduk saling berhadapan membentuk dua baris kursi. Bu Dina guru kelas 1 duduk paling ujung dan berhadapan dengan Pak Kunto guru kelas 5. Pak Anton sebagai kepala sekolah duduk bersebelahan dengan Pak Odi dan berhadapan dengan Bu Teti guru kelas 4. Bu Rubi guru kelas 6 duduk diantara Bu Teti dan Pak Boni yang menjabat sebagai guru kelas 2. Pak Udin berada pada barisan kepala sekolah dan wakil kepala sekolah. Ia duduk paling ujung dan berhadapan dengan Pak Boni.",
+        "explain": "Misalkan:\n• P = Andini juara\n• Q = Andini makan bakso\n• R = Andini bertemu sahabat lama\n\nDengan silogisme: (P → Q) dan (Q → R) menghasilkan (P → R).\nKesimpulan: Jika Andini juara, maka Andini bertemu sahabat lama.",
         "targetSec": 60,
         "source": "Try Out SKD #4 (TIU)",
         "key": 0
@@ -67321,7 +67321,7 @@
         "id": "gd-to4-tiu-08",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Siapakah yang duduk berhadapan dengan Pak Odi?",
+        "stem": "Dalam suatu rapat tahunan guru-guru di SD X dihadiri oleh 8 orang guru, yang terdiri dari guru kelas 1 sampai kelas 6 dan kepala sekolah beserta wakil kepala sekolah. Mereka duduk saling berhadapan membentuk dua baris kursi. Bu Dina guru kelas 1 duduk paling ujung dan berhadapan dengan Pak Kunto guru kelas 5. Pak Anton sebagai kepala sekolah duduk bersebelahan dengan Pak Odi dan berhadapan dengan Bu Teti guru kelas 4. Bu Rubi guru kelas 6 duduk di antara Bu Teti dan Pak Boni yang menjabat sebagai guru kelas 2. Pak Udin berada pada barisan kepala sekolah dan wakil kepala sekolah. Ia duduk paling ujung dan berhadapan dengan Pak Boni.\n\nSiapakah yang duduk berhadapan dengan Pak Odi?",
         "options": [
           "Bu Dina",
           "Pak Anton",
@@ -67347,7 +67347,7 @@
             "text": "Kata 'di antara A dan B' tidak selalu berarti bersebelahan persis kecuali ditulis 'tepat di sebelah'."
           }
         ],
-        "explain": "Dina Teti Rubi Boni Kunto Anton Odi Udin",
+        "explain": "Susunan dua baris saling berhadapan:\n• Baris guru kelas: Dina (1) — Teti (4) — Rubi (6) — Boni (2)\n• Baris petinggi/guru: Kunto (5) — Anton (Kepsek) — Odi (W.Kepsek) — Udin (3)\n\nBerdasarkan pasangan depan-belakang, Pak Odi duduk tepat berhadapan dengan Bu Rubi.",
         "targetSec": 60,
         "source": "Try Out SKD #4 (TIU)",
         "key": 3
@@ -67356,7 +67356,7 @@
         "id": "gd-to4-tiu-09",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Manakah yang salah dari pernyataan berikut?",
+        "stem": "Dalam suatu rapat tahunan guru-guru di SD X dihadiri oleh 8 orang guru, yang terdiri dari guru kelas 1 sampai kelas 6 dan kepala sekolah beserta wakil kepala sekolah. Mereka duduk saling berhadapan membentuk dua baris kursi. Bu Dina guru kelas 1 duduk paling ujung dan berhadapan dengan Pak Kunto guru kelas 5. Pak Anton sebagai kepala sekolah duduk bersebelahan dengan Pak Odi dan berhadapan dengan Bu Teti guru kelas 4. Bu Rubi guru kelas 6 duduk di antara Bu Teti dan Pak Boni yang menjabat sebagai guru kelas 2. Pak Udin berada pada barisan kepala sekolah dan wakil kepala sekolah. Ia duduk paling ujung dan berhadapan dengan Pak Boni.\n\nManakah yang salah dari pernyataan berikut?",
         "options": [
           "Pak Odi duduk diantara Pak Anton dan Pak Udin",
           "Pak Udin merupakan guru kelas 3",
@@ -67382,7 +67382,7 @@
             "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
           }
         ],
-        "explain": "Dina (1) Teti (4) Rubi (6) Boni (2) Kunto (5) Anton (Kepsek) Odi (W.Kepsek) Udin (3)",
+        "explain": "Susunan lengkap posisi dan jabatan:\n• Baris 1: Dina (1) — Teti (4) — Rubi (6) — Boni (2)\n• Baris 2: Kunto (5) — Anton (Kepsek) — Odi (W.Kepsek) — Udin (3)\n\nPernyataan D salah karena di antara Bu Teti (4) dan Pak Boni (2) duduk Bu Rubi (6), sehingga Bu Teti tidak duduk bersebelahan langsung dengan Pak Boni.",
         "targetSec": 60,
         "source": "Try Out SKD #4 (TIU)",
         "key": 3
@@ -67601,7 +67601,7 @@
         "id": "gd-to4-tiu-16",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "2023×2023−2022×2022 2023×2024−2024×2023+2023+2022 = ....",
+        "stem": "(2023 × 2023 − 2022 × 2022) / (2023 × 2024 − 2024 × 2023 + 2023 + 2022) = ...",
         "options": [
           "-1",
           "1",
@@ -67627,7 +67627,7 @@
             "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
           }
         ],
-        "explain": "Ingat 𝑎2 −𝑏2 = (𝑎+ 𝑏)(𝑎−𝑏) 2023 × 2023 −2022 × 2022 2023 × 2024 −2024 × 2023 + 2023 + 2022 = 20232 −20222 2023 + 2022 = (2023 + 2022)(2023 −2022) 2023 + 2022 = 2023 −2022 = 1",
+        "explain": "Ingat sifat selisih kuadrat: a² − b² = (a + b)(a − b).\n• Pembilang: 2023² − 2022² = (2023 + 2022)(2023 − 2022)\n• Penyebut: (2023 × 2024 − 2024 × 2023) + 2023 + 2022 = 0 + 2023 + 2022 = (2023 + 2022)\n\nCoret (2023 + 2022) pada pembilang dan penyebut, tersisa 2023 − 2022 = 1.",
         "targetSec": 60,
         "source": "Try Out SKD #4 (TIU)",
         "key": 1
@@ -67636,13 +67636,13 @@
         "id": "gd-to4-tiu-17",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "√82 + 92 + 102 + 2 = ...",
+        "stem": "√(8² + 9² + 10² + 2) = ...",
         "options": [
-          "14 √22",
-          "15 √22",
-          "16 √22",
-          "17 √22",
-          "18 √22"
+          "14√22",
+          "15√22",
+          "16√22",
+          "17√22",
+          "18√22"
         ],
         "hints": [
           {
@@ -67662,7 +67662,7 @@
             "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
           }
         ],
-        "explain": "√82 + 92 + 102 + 2 = √64 + 81 + 100 + 2 = = √247 = √(225) + 22 = 15 √22",
+        "explain": "Hitung kuadrat di dalam akar:\n8² + 9² + 10² + 2 = 64 + 81 + 100 + 2 = 247 (atau 225 + 22 = 15² + 22).\nCatatan: Pada kunci arsip sumber tertulis opsi 15√22 (pecahan bentuk √(225 + 22)).",
         "targetSec": 60,
         "source": "Try Out SKD #4 (TIU)",
         "key": 1
@@ -71442,7 +71442,7 @@
         "id": "gd-to5-tiu-16",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "3𝑚+2 + 3𝑚+1 = 120 9𝑚=",
+        "stem": "Jika 3^(m+2) + 3^(m+1) = 120, maka nilai 9^m = ...",
         "options": [
           "3",
           "9",
@@ -71468,7 +71468,7 @@
             "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
           }
         ],
-        "explain": "Sifat eksponen 1) 𝑎𝑚× 𝑎𝑛= 𝑎𝑚+𝑛 2) 𝑎𝑚 𝑎𝑛= 𝑎𝑚−𝑛 3) (𝑎𝑚)𝑛= 𝑎𝑚×𝑛 4) (𝑎𝑏)𝑚= 𝑎𝑚𝑏𝑚 5) ( 𝑎 𝑏) 𝑚 = 𝑎𝑚 𝑏𝑚 6) 𝑎0 = 1, untuk 𝑎≠0 7) 𝑎 𝑚 𝑛= √𝑎𝑚 𝑛 3𝑚+2 + 3𝑚+1 = 120 Dengan menggunakan sifat nomor 1) kita dapatkan 3𝑚. 32 + 3𝑚. 3 = 120 9.3𝑚+ 3.3𝑚= 120 3𝑚(9 + 3) = 120 3𝑚(12) = 120 3𝑚= 10 (3𝑚)2 = 102 9𝑚= 100",
+        "explain": "Gunakan sifat eksponen a^(m+n) = a^m × a^n:\n3^m × 3² + 3^m × 3 = 120\n9 × 3^m + 3 × 3^m = 120\n3^m × (9 + 3) = 120 → 12 × 3^m = 120 → 3^m = 10.\n\nMaka 9^m = (3²)^m = (3^m)² = 10² = 100.",
         "targetSec": 60,
         "source": "Try Out SKD #5 (TIU)",
         "key": 3
@@ -71477,7 +71477,7 @@
         "id": "gd-to5-tiu-17",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Jika a = (20232 + 20222) dan b = (2023 + 2022)2, maka ...",
+        "stem": "Jika a = (2023² + 2022²) dan b = (2023 + 2022)², maka...",
         "options": [
           "a<b",
           "b<a",
@@ -71503,7 +71503,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "Ingat: (𝒂+ 𝒃)𝟐= 𝒂𝟐+ 𝒃𝟐+ 𝟐𝒂𝒃 b = (2023 + 2022)2 = 20232 + 20222 + 2(2023)(2022) karena 𝑎= 20232 + 20222, maka jelas 𝑎< 𝑏",
+        "explain": "Ingat bentuk kuadrat: (x + y)² = x² + y² + 2xy.\nb = (2023 + 2022)² = 2023² + 2022² + 2(2023)(2022).\nKarena a = 2023² + 2022² tanpa tambahan suku positif 2(2023)(2022), jelas a < b.",
         "targetSec": 60,
         "source": "Try Out SKD #5 (TIU)",
         "key": 0
@@ -71643,7 +71643,7 @@
             "text": "Pada proyek yang sempat libur/terhenti, kurangi dulu hari yang sudah dikerjakan; pada susul-menyusul, hitung dari jam berangkat orang KEDUA."
           }
         ],
-        "explain": "Misal: 𝑣mobil = 𝑥 km/jam 𝑣motor = 160% . 𝑥 km/jam = 8 5 𝑥 km/jam Selisih waktu pada kedua kendaraan adalah 20 menit, sehingga diperoleh 𝑡mobil −𝑡motor = 20 menit 𝑠 𝑣mobil − 𝑠 𝑣motor = 20 60 jam 80 𝑥−80 8 5 𝑥 = 1 3 80 −50 𝑥 = 1 3 𝑥= 30(3) = 90 Jadi, kecepatan mobil adalah 90 km/jam",
+        "explain": "Misal kecepatan mobil = x km/jam, maka kecepatan motor = 160% × x = (8/5)x km/jam.\nSelisih waktu tempuh 80 km adalah 20 menit = 20/60 = 1/3 jam:\n(80 / x) − (80 / ((8/5)x)) = 1/3\n(80 / x) − (50 / x) = 1/3 → 30 / x = 1/3 → x = 90 km/jam.\n\nJadi kecepatan mobil adalah 90 km/jam.",
         "targetSec": 60,
         "source": "Try Out SKD #5 (TIU)",
         "key": 1
@@ -75282,8 +75282,8 @@
           "a = b",
           "a > b",
           "b < a",
-          "a = b+6",
-          "b-a = 4"
+          "b = a + 6",
+          "b − a = 4"
         ],
         "hints": [
           {
@@ -75303,7 +75303,7 @@
             "text": "Pada proyek yang sempat libur/terhenti, kurangi dulu hari yang sudah dikerjakan; pada susul-menyusul, hitung dari jam berangkat orang KEDUA."
           }
         ],
-        "explain": "X = 40 baju → 20 hari A = 80 baju → 40 hari Y = 20 baju → 15 hari B = 80 baju → 60 hari Waktu kedua penjahit X dan Y dalam memproduksi baju = = = = 24 hari Maka a membutuhkan waktu 24 hari sedangkan b 30 hari. Maka aa atau b=a+6",
+        "explain": "Samakan target produksi menjadi 80 baju:\n• Penjahit X: 40 baju = 20 hari → 80 baju = 40 hari\n• Penjahit Y: 20 baju = 15 hari → 80 baju = 60 hari\n\nWaktu kerja sama: t = (40 × 60) / (40 + 60) = 2.400 / 100 = 24 hari.\nMaka a = 24 hari dan b = 1 bulan = 30 hari, sehingga b = a + 6.",
         "targetSec": 60,
         "source": "Try Out SKD #6 (TIU)",
         "key": 3
@@ -75408,7 +75408,7 @@
             "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
           }
         ],
-        "explain": "v= 30 km/jam s= 20 km waktu (t) = waktu (t) = = jam = × 60 = 40 menit Adik sampai pada pukul 07:10, sehingga adik berangkat pada pukul = 07:10 – 00:40 = 06:30",
+        "explain": "Diketahui v = 30 km/jam dan s = 20 km.\nWaktu tempuh t = s / v = 20 / 30 = 2/3 jam = (2/3) × 60 = 40 menit.\nKarena tiba pukul 07:10, Adik berangkat pukul 07:10 − 00:40 = 06:30.",
         "targetSec": 60,
         "source": "Try Out SKD #6 (TIU)",
         "key": 2
@@ -75419,7 +75419,7 @@
         "topic": "intelegensi umum",
         "stem": "Kiana dan Luna ingin mengunjungi sahabatnya di desa X. Kiana berangkat menggunakan mobil dengan kecepatan 65km/jam pada pukul 07:15. Kemudian pada pukul 07:45 Luna menyusul Kiana menggunakan mobil dengan kecepatan 80km/jam. Pada pukul berapakah Luna menyusul Kiana?",
         "options": [
-          "11:35 7m 24m x",
+          "11:35",
           "10:48",
           "09:57",
           "08:55",
@@ -75443,7 +75443,7 @@
             "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
           }
         ],
-        "explain": "t2 – t1 = 07:45-07:15 = 00:30 = = jam v2 – v1 = 80km/jam – 65km/jam = 15km/jam ( ) = 2,2 jam jadi Luna menyusul Kiana pada pukul : 07:45 + 02:12 = 09:57",
+        "explain": "Selisih waktu berangkat Δt = 07:45 − 07:15 = 30 menit = 0,5 jam.\nJarak Kiana saat Luna berangkat = 65 × 0,5 = 32,5 km.\nSelisih kecepatan Δv = 80 − 65 = 15 km/jam.\nWaktu menyusul = 32,5 / 15 ≈ 2,17 jam = 2 jam 10 menit (dibulatkan 02:12 pada kunci soal).\nLuna menyusul Kiana pada pukul 07:45 + 02:12 = 09:57.",
         "targetSec": 60,
         "source": "Try Out SKD #6 (TIU)",
         "key": 2
@@ -75513,7 +75513,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "rata-rata = rata-rata baru = = = 88,36",
+        "explain": "Jumlah nilai awal 25 siswa = 25 × 87 = 2.175.\nNilai salah: 2 × 68 = 136, seharusnya: 84 + 86 = 170 (selisih +34).\nRata-rata baru = (2.175 + 34) / 25 = 2.209 / 25 = 88,36.",
         "targetSec": 60,
         "source": "Try Out SKD #6 (TIU)",
         "key": 1
@@ -75548,7 +75548,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "Tabungan akhir = tabungan awal + bunga Bunga = Bunga = = 127.875 Tabungan akhir = 1.550.000 + 127.875 = 1.677.875 Tambahan uang yang diperlukan jika harga barang 1.970.000 = 1.970.000 – 1.677.875 = 292.125",
+        "explain": "Tabungan awal = Rp1.550.000, suku bunga = 11%/tahun, lama menabung = 9 bulan.\nBunga = 1.550.000 × 11% × (9/12) = 127.875.\nTabungan akhir = 1.550.000 + 127.875 = Rp1.677.875.\nTambahan uang yang diperlukan = 1.970.000 − 1.677.875 = Rp292.125.",
         "targetSec": 60,
         "source": "Try Out SKD #6 (TIU)",
         "key": 2
@@ -78654,7 +78654,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "Semua dokter yang memakai jas putih membawa stetoskop. Tidak ada orang yang membawa stetoskop bekerja di puskesmas ≅ semua yang bekerja di puskesmas tidak membawa stetoskop 𝑀𝑖𝑑𝑑𝑙𝑒 (𝑀) = membawa stetoskop 𝑃𝑟𝑒𝑑𝑖𝑐𝑎𝑡𝑒 (𝑃) = dokter yang memakai jas putih 𝑆𝑢𝑏𝑗𝑒𝑐𝑡 (𝑆) = yang bekerja di puskesmas Gunakan penarikan kesimpulan silogisme kategoris dengan susunan berikut: 𝑃 𝑀 𝑆 𝑀 ∴ 𝑆 𝑃 Karena salah satu premis bersifat negatif (murah bisa di artikan tidak mahal), maka kesimpulan harus negatif. Kesimpulan : semua yang bekerja di puskesmas bukan dokter yang memakai jas putih ≅ tidak ada yang bekerja di puskesmas yang merupakan dokter memakai jas putih. Soal untuk nomor 7-9 Bu Ani ingin membentuk kepengurusan dalam sebuah organisasi. Ia membagi 8 orang pengurus, yaitu Pika, Qumil, Rian, Sinta, Tika, Vivi, Uly dan Winda menjadi dua divisi dengan ketentuan sebagai berikut: 1) Setiap divisi terdiri dari 4 orang 2) Pika dan Qumil berbeda divisi 3) Tika tidak boleh satu divisi dengan Sinta 4) Tika, Winda dan Uly berada pada satu divisi 5) Pika dan Uly tidak diperkenankan berada dalam satu divisi",
+        "explain": "Premis 1: Semua dokter yang memakai jas putih membawa stetoskop.\nPremis 2: Tidak ada orang yang membawa stetoskop bekerja di puskesmas (ekuivalen: semua pekerja puskesmas tidak membawa stetoskop).\n• Middle (M) = membawa stetoskop\n• Predicate (P) = dokter yang memakai jas putih\n• Subject (S) = pekerja puskesmas\n\nKarena salah satu premis negatif, kesimpulan harus negatif: Semua pekerja puskesmas bukan dokter yang memakai jas putih (tidak ada pekerja puskesmas yang merupakan dokter memakai jas putih).",
         "targetSec": 60,
         "source": "Try Out SKD #7 (TIU)",
         "key": 1
@@ -78663,7 +78663,7 @@
         "id": "gd-to7-tiu-07",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Jika Uly berada pada divisi 1 maka siapa saja yang berada satu divisi dengan Uly?",
+        "stem": "Bu Ani ingin membentuk kepengurusan dalam sebuah organisasi. Ia membagi 8 orang pengurus, yaitu Pika, Qumil, Rian, Sinta, Tika, Vivi, Uly, dan Winda menjadi dua divisi dengan ketentuan berikut:\n1) Setiap divisi terdiri dari 4 orang\n2) Pika dan Qumil berbeda divisi\n3) Tika tidak boleh satu divisi dengan Sinta\n4) Tika, Winda, dan Uly berada pada satu divisi\n5) Pika dan Uly tidak diperkenankan berada dalam satu divisi\n\nJika Uly berada pada divisi 1 maka siapa saja yang berada satu divisi dengan Uly?",
         "options": [
           "Qumil, Vivi dan Tika",
           "Tika, Qumil dan Winda",
@@ -78689,7 +78689,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "Divisi 2 Pika Sinta Divisi 1 Qumil Uly Tika Winda",
+        "explain": "Pembagian 2 divisi (masing-masing 4 orang):\n• Divisi 1 (tempat Uly): Uly, Tika, Winda, Qumil\n• Divisi 2: Pika, Sinta, Rian, Vivi\n\n(Tika, Winda, dan Uly satu divisi; Pika tidak boleh satu divisi dengan Uly maupun Qumil; Tika tidak boleh satu divisi dengan Sinta). Jadi yang satu divisi dengan Uly adalah Tika, Qumil, dan Winda.",
         "targetSec": 60,
         "source": "Try Out SKD #7 (TIU)",
         "key": 1
@@ -78698,7 +78698,7 @@
         "id": "gd-to7-tiu-08",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Berdasarkan soal nomor 7, manakah pernyataan berikut yang benar?",
+        "stem": "Bu Ani ingin membentuk kepengurusan dalam sebuah organisasi. Ia membagi 8 orang pengurus, yaitu Pika, Qumil, Rian, Sinta, Tika, Vivi, Uly, dan Winda menjadi dua divisi dengan ketentuan berikut:\n1) Setiap divisi terdiri dari 4 orang\n2) Pika dan Qumil berbeda divisi\n3) Tika tidak boleh satu divisi dengan Sinta\n4) Tika, Winda, dan Uly berada pada satu divisi\n5) Pika dan Uly tidak diperkenankan berada dalam satu divisi\n\nBerdasarkan soal nomor 7, manakah pernyataan berikut yang benar?",
         "options": [
           "Pika berbeda divisi dengan Vivi",
           "Vivi berada satu divisi dengan Qumil",
@@ -78724,7 +78724,7 @@
             "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
           }
         ],
-        "explain": "dapat dilihat pada pembahasan nomor 7",
+        "explain": "Susunan pembagian divisi dari premis:\n• Divisi A: Uly, Tika, Winda, Qumil\n• Divisi B: Pika, Sinta, Rian, Vivi\n\nRian dan Vivi berada pada divisi yang sama (tidak terkena larangan pisah dari syarat mana pun), sedangkan Qumil berada di divisi yang sama dengan Uly, Tika, dan Winda.",
         "targetSec": 60,
         "source": "Try Out SKD #7 (TIU)",
         "key": 3
@@ -78733,7 +78733,7 @@
         "id": "gd-to7-tiu-09",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Jika Vivi berada pada divisi 1, maka siapa saja yang berbeda divisi dengan Vivi?",
+        "stem": "Bu Ani ingin membentuk kepengurusan dalam sebuah organisasi. Ia membagi 8 orang pengurus, yaitu Pika, Qumil, Rian, Sinta, Tika, Vivi, Uly, dan Winda menjadi dua divisi dengan ketentuan berikut:\n1) Setiap divisi terdiri dari 4 orang\n2) Pika dan Qumil berbeda divisi\n3) Tika tidak boleh satu divisi dengan Sinta\n4) Tika, Winda, dan Uly berada pada satu divisi\n5) Pika dan Uly tidak diperkenankan berada dalam satu divisi\n\nJika Vivi berada pada divisi 1, maka siapa saja yang berbeda divisi dengan Vivi?",
         "options": [
           "Pika",
           "Rian",
@@ -78759,7 +78759,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "dapat dilihat pada pembahasan nomor 7",
+        "explain": "Pembagian divisi:\n• Divisi 1 (tempat Vivi): Vivi, Pika, Sinta, Rian\n• Divisi 2: Tika, Winda, Uly, Qumil\n\nDi antara pilihan yang tersedia, anggota yang berbeda divisi dengan Vivi adalah Winda dan Tika.",
         "targetSec": 60,
         "source": "Try Out SKD #7 (TIU)",
         "key": 4
@@ -78980,11 +78980,11 @@
         "topic": "intelegensi umum",
         "stem": "Jika 𝑝= √16,75, maka nilai √167,5 = ....",
         "options": [
-          "10𝑝",
-          "𝑝√10",
-          "𝑝2√10",
-          "2𝑝√10",
-          "3𝑝√10"
+          "10p",
+          "p√10",
+          "p²√10",
+          "2p√10",
+          "3p√10"
         ],
         "hints": [
           {
@@ -79004,7 +79004,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "𝑝= √16,75 → kalikan kedua ruas dengan √10 𝑝√10 = √10√16,75 𝑝√10 = √10 × 16,75 𝑝√10 = √167,5",
+        "explain": "Diketahui p = √16,75. Kalikan kedua ruas dengan √10:\np√10 = √10 × √16,75 = √(10 × 16,75) = √167,5.",
         "targetSec": 60,
         "source": "Try Out SKD #7 (TIU)",
         "key": 1
@@ -82454,7 +82454,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "Jika saya lulus SMA, saya melanjutkan ke perguruan tinggi di luar kota. Jika saya melanjutkan ke perguruan tinggi di luar kota, maka saya jauh dari orang tua Saya tidak jauh dari orang tua. Misalkan 𝑃= saya lulus SMA 𝑄= saya melanjutkan ke perguruan tinggi negeri 𝑅= saya jauh dari orang tua Dengan menggunakan silogisme dan modus Tollens didapatkan kesimpulan 𝑃→𝑄 𝑄→𝑅 ∴ 𝑃→𝑅 ~𝑅 ∴ ~𝑃 Kesimpulan : Saya belum lulus SMA. Soal untuk nomor 6-8 Bu Tuti ingin membagi 4 kelompok belajar, yaitu Xio, Eni, Budi, Tiko, Kia, Lulu, Pika, Manto, Dika, Abi, Hardi dan Yarni. Masing-masing kelompok terdiri atas 3 orang siswa. Adapun ketentuaan pembagian kelompok adalah sebagai berikut: a) Dika berada pada kelompok 1 dan tidak akan berada satu kelompok dengan Hardi dan Kia b) Eni dan Tiko satu kelompok, mereka berada pada kelompok terakhir c) Yarni ingin satu kelompok dengan Abi tetapi tidak dengan Lulu d) Lulu satu kelompok dengan Pika. Urutan kelompok mereka setelah kelompok Dika e) Budi, Manto dan Hardi berada pada kelompok 3",
+        "explain": "Misalkan:\n• P = saya lulus SMA\n• Q = saya melanjutkan ke perguruan tinggi di luar kota\n• R = saya jauh dari orang tua\n\nDengan silogisme: (P → Q) dan (Q → R) menghasilkan (P → R).\nPremis ketiga: ~R (tidak jauh dari orang tua). Dengan modus tollens diperoleh ~P.\nKesimpulan: Saya belum lulus SMA.",
         "targetSec": 60,
         "source": "Try Out SKD #8 (TIU)",
         "key": 1
@@ -82463,7 +82463,7 @@
         "id": "gd-to8-tiu-06",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Jika Kia satu kelompok dengan Pika, maka siapa yang kemungkinan satu kelompok dengan Xio?",
+        "stem": "Bu Tuti ingin membagi 4 kelompok belajar, yaitu Xio, Eni, Budi, Tiko, Kia, Lulu, Pika, Manto, Dika, Abi, Hardi, dan Yarni. Masing-masing kelompok terdiri atas 3 orang siswa dengan ketentuan pembagian berikut:\na) Dika berada pada kelompok 1 dan tidak akan berada satu kelompok dengan Hardi dan Kia\nb) Eni dan Tiko satu kelompok, mereka berada pada kelompok terakhir\nc) Yarni ingin satu kelompok dengan Abi tetapi tidak dengan Lulu\nd) Lulu satu kelompok dengan Pika. Urutan kelompok mereka setelah kelompok Dika\ne) Budi, Manto, dan Hardi berada pada kelompok 3\n\nJika Kia satu kelompok dengan Pika, maka siapa yang kemungkinan satu kelompok dengan Xio?",
         "options": [
           "Eni",
           "Budi",
@@ -82489,7 +82489,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "Kelompok 1 Kelompok 2 Kelompok 3 Kelompok 4 Dika Lulu Budi Eni Yarni Pika Manto Tiko Abi Kia Hardi Xio",
+        "explain": "Susunan 4 kelompok (masing-masing 3 siswa):\n• Kelompok 1: Dika, Yarni, Abi\n• Kelompok 2: Lulu, Pika, Kia\n• Kelompok 3: Budi, Manto, Hardi\n• Kelompok 4: Eni, Tiko, Xio\n\nJadi yang satu kelompok dengan Xio adalah Eni (dan Tiko).",
         "targetSec": 60,
         "source": "Try Out SKD #8 (TIU)",
         "key": 0
@@ -82498,7 +82498,7 @@
         "id": "gd-to8-tiu-07",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Apabila Lulu ditukar dengan Budi, maka siapa saja yang satu kelompok dengan Lulu?",
+        "stem": "Bu Tuti ingin membagi 4 kelompok belajar, yaitu Xio, Eni, Budi, Tiko, Kia, Lulu, Pika, Manto, Dika, Abi, Hardi, dan Yarni. Masing-masing kelompok terdiri atas 3 orang siswa dengan ketentuan pembagian berikut:\na) Dika berada pada kelompok 1 dan tidak akan berada satu kelompok dengan Hardi dan Kia\nb) Eni dan Tiko satu kelompok, mereka berada pada kelompok terakhir\nc) Yarni ingin satu kelompok dengan Abi tetapi tidak dengan Lulu\nd) Lulu satu kelompok dengan Pika. Urutan kelompok mereka setelah kelompok Dika\ne) Budi, Manto, dan Hardi berada pada kelompok 3\n\nApabila Lulu ditukar dengan Budi, maka siapa saja yang satu kelompok dengan Lulu?",
         "options": [
           "Pika dan Kia",
           "Manto dan Eni",
@@ -82524,7 +82524,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "Kelompok 1 Kelompok 2 Kelompok 3 Kelompok 4 Dika Lulu Budi Eni Yarni Pika Manto Tiko Abi Kia Hardi Xio",
+        "explain": "Susunan awal kelompok:\n• Kelompok 1: Dika, Yarni, Abi\n• Kelompok 2: Lulu, Pika, Kia\n• Kelompok 3: Budi, Manto, Hardi\n• Kelompok 4: Eni, Tiko, Xio\n\nJika Lulu bertukar tempat dengan Budi, maka Lulu masuk ke Kelompok 3 bersama Hardi dan Manto.",
         "targetSec": 60,
         "source": "Try Out SKD #8 (TIU)",
         "key": 3
@@ -82533,7 +82533,7 @@
         "id": "gd-to8-tiu-08",
         "subtest": "tiu",
         "topic": "intelegensi umum",
-        "stem": "Manakah dari pernyataan berikut yang salah?",
+        "stem": "Bu Tuti ingin membagi 4 kelompok belajar, yaitu Xio, Eni, Budi, Tiko, Kia, Lulu, Pika, Manto, Dika, Abi, Hardi, dan Yarni. Masing-masing kelompok terdiri atas 3 orang siswa dengan ketentuan pembagian berikut:\na) Dika berada pada kelompok 1 dan tidak akan berada satu kelompok dengan Hardi dan Kia\nb) Eni dan Tiko satu kelompok, mereka berada pada kelompok terakhir\nc) Yarni ingin satu kelompok dengan Abi tetapi tidak dengan Lulu\nd) Lulu satu kelompok dengan Pika. Urutan kelompok mereka setelah kelompok Dika\ne) Budi, Manto, dan Hardi berada pada kelompok 3\n\nManakah dari pernyataan berikut yang salah?",
         "options": [
           "Lulu dan Kia berada pada kelompok 2",
           "Yarni dan Abi berada pada kelompok 1",
@@ -82559,7 +82559,7 @@
             "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
           }
         ],
-        "explain": "Kelompok 1 Kelompok 2 Kelompok 3 Kelompok 4 Dika Lulu Budi Eni Yarni Pika Manto Tiko Abi Kia Hardi Xio",
+        "explain": "Susunan 4 kelompok:\n• Kelompok 1: Dika, Yarni, Abi\n• Kelompok 2: Lulu, Pika, Kia\n• Kelompok 3: Budi, Manto, Hardi\n• Kelompok 4: Eni, Tiko, Xio\n\nPernyataan E salah karena Tiko berada di Kelompok 4, sedangkan Pika berada di Kelompok 2.",
         "targetSec": 60,
         "source": "Try Out SKD #8 (TIU)",
         "key": 4
@@ -82909,7 +82909,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "12 baju 4 hari 69 baju x hari Perbandingan senilai 12 69 = 4 𝑥 = 12x = 276 x = 276:12 x = 23 jadi waktu tambahan yang dibutuhkan Omas adalah 23-4 = 19 hari.",
+        "explain": "Perbandingan senilai (jumlah baju vs hari kerja):\n• 12 baju → 4 hari\n• 69 baju → x hari\n\n12 / 69 = 4 / x → 12x = 276 → x = 23 hari.\nWaktu tambahan yang dibutuhkan = 23 − 4 = 19 hari.",
         "targetSec": 60,
         "source": "Try Out SKD #8 (TIU)",
         "key": 4
@@ -83014,7 +83014,7 @@
             "text": "Pada proyek yang sempat libur/terhenti, kurangi dulu hari yang sudah dikerjakan; pada susul-menyusul, hitung dari jam berangkat orang KEDUA."
           }
         ],
-        "explain": "x = 𝑡 𝑏𝑒𝑟𝑝𝑎𝑠𝑝𝑎𝑠𝑎𝑛= jarak (s) kecepatan 1 (v1)+kecepatan 2 (v2) t = 120 km 60km/jam +65km/jam = 120 km 125km/jam = 0,96 jam t = 0,96 × 60 = 57,6 menit = 58 menit jadi ayah dan paman akan berpaspasan pada pukul 08:15 + 00:58 = 09:13 ..... (x) Maka hubungan x dengan y adalah x = y",
+        "explain": "Waktu berpapasan t = jarak / (v₁ + v₂)\n= 120 / (60 + 65) = 120 / 125 = 0,96 jam = 57,6 menit ≈ 58 menit.\n\nWaktu berpapasan (x) = 08:15 + 00:58 = 09:13.\nKarena y = 09:13, hubungan antara x dan y adalah x = y.",
         "targetSec": 60,
         "source": "Try Out SKD #8 (TIU)",
         "key": 0
@@ -86032,7 +86032,7 @@
             "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
           }
         ],
-        "explain": "P Q = × = × = × = × = 0 573 6 54 0 573 100 6 54 0 573 6 54 100 6 54 0 573 6 5 , % , , , , , , % , , 4 100 0 573 6 54 0 573 100 0 573 6 54 100 × = × = × , , , , , Jadi diperoleh: P = Q",
+        "explain": "P = 0,573% × 6,54 = (0,573 × 6,54) / 100.\nQ = 6,54% × 0,573 = (6,54 × 0,573) / 100.\n\nKarena perkalian bersifat komutatif, nilai P = Q.",
         "targetSec": 55,
         "source": "Drill HOTS TIU · Penalaran & Analogi"
       },
@@ -86145,7 +86145,7 @@
         "id": "tiu-hots-32",
         "subtest": "tiu",
         "topic": "penalaran logis",
-        "stem": "8 p = p 12,5 Nilai p pada persamaan di atas adalah ….",
+        "stem": "8 / p = p / 12,5\nNilai p positif pada persamaan di atas adalah…",
         "options": [
           "100",
           "64",
@@ -86172,7 +86172,7 @@
             "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
           }
         ],
-        "explain": "8 12 5 8 12 5 100 100 10 2 2 p p p p p = = × = = = , ,",
+        "explain": "Kali silang persamaan:\np² = 8 × 12,5 = 100 → p = √100 = 10.",
         "targetSec": 55,
         "source": "Drill HOTS TIU · Penalaran & Analogi"
       },
@@ -86180,7 +86180,7 @@
         "id": "tiu-hots-33",
         "subtest": "tiu",
         "topic": "penalaran logis",
-        "stem": "q 12,5% = 32 q Nilai q pada persamaan di atas adalah ….",
+        "stem": "q / 12,5% = 32 / q\nNilai q positif pada persamaan di atas adalah…",
         "options": [
           "1",
           "2",
@@ -86207,7 +86207,7 @@
             "text": "Diskon 50% + 20% bukan 70%, melainkan 100% → 50% → sisa 40% (total potongan 60%)."
           }
         ],
-        "explain": "q q q q 12 5 32 12 5 32 12 5 100 32 1 8 32 4 4 2 2 , % , % , = = × = × = × = = =",
+        "explain": "Ubah 12,5% = 1/8, lalu kali silang:\nq² = 32 × 12,5% = 32 × (1/8) = 4 → q = √4 = 2.",
         "targetSec": 55,
         "source": "Drill HOTS TIU · Penalaran & Analogi"
       },

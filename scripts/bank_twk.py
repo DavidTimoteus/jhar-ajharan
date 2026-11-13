@@ -14,6 +14,7 @@ AKHLAK BUMN.
 import json
 import hashlib
 from pathlib import Path
+from text_polish import build_explain_binary
 
 PACKS_DIR = Path(__file__).resolve().parent.parent / "public" / "packs"
 PACKS_DIR.mkdir(parents=True, exist_ok=True)
@@ -276,7 +277,9 @@ def bank_twk():
          "Keberagaman yang ditampilkan berdampingan = persatuan dalam kebhinekaan.",
          "Jangan pilih 'menyaingi tempat wisata' - motif ekonomi bukan makna utama TMII.", 25),
     ]
-    for i, (topic, stem, options, key, kilat, elim, logika, jebakan, explain) in enumerate(twk_data, 1):
+    for i, (topic, stem, options, key, kilat, elim, logika, jebakan, ts_or_exp) in enumerate(twk_data, 1):
+        ts = ts_or_exp if isinstance(ts_or_exp, int) else 40
+        exp = build_explain_binary(options, key, kilat, logika) if isinstance(ts_or_exp, int) else ts_or_exp
         out.append(make(i, "twk", topic, stem, options, key, None,
-                        hint4(kilat, elim, logika, jebakan), explain, 40))
+                        hint4(kilat, elim, logika, jebakan), exp, ts))
     return out

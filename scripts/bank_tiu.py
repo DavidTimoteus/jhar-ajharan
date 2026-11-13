@@ -6,6 +6,8 @@ aljabar, perbandingan), Figural (analogi gambar, ketidaksamaan, serial).
 Kunci jawaban indeks 0-4 (A-E).
 """
 
+from text_polish import build_explain_binary
+
 def q(pid, topic, stem, options, key, kilat, elim, logika, jebakan, explain, target_sec=50):
     return {
         "id": f"tiu-{pid:03d}",
@@ -277,7 +279,12 @@ def bank_tiu():
          "Isolasi variabel dengan operasi balik.",
          "Jangan pilih 5 - itu hasil 20÷(5-... ) kesalahan urutan.", 40),
     ]
-    for i, (topic, stem, options, key, kilat, elim, logika, jebakan, explain, *rest) in enumerate(d, 1):
-        ts = rest[0] if rest else 50
-        out.append(q(i, topic, stem, options, key, kilat, elim, logika, jebakan, explain, ts))
+    for i, (topic, stem, options, key, kilat, elim, logika, jebakan, ts_or_exp, *rest) in enumerate(d, 1):
+        if isinstance(ts_or_exp, int):
+            ts = ts_or_exp
+            exp = build_explain_binary(options, key, kilat, logika)
+        else:
+            ts = rest[0] if rest else 50
+            exp = ts_or_exp
+        out.append(q(i, topic, stem, options, key, kilat, elim, logika, jebakan, exp, ts))
     return out

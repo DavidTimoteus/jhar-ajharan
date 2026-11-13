@@ -84,7 +84,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pola 'Tidak ada A = B' + 'X adalah A' → 'X bukan B'. Langsung subtitusi subjek ke premis universal"
+          "text": "Pola 'Tidak ada A = B' + 'X adalah A' → 'X bukan B'. Langsung subtitusi subjek ke premis universal."
         },
         {
           "lens": "eliminasi",
@@ -119,7 +119,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Hafalkan 2 pola logika: Modus Ponens (P→Q, P, maka Q) dan Modus Tollens (P→Q, ~Q, maka ~P). Ini selalu muncul"
+          "text": "Hafalkan 2 pola logika: Modus Ponens (P→Q, P, maka Q) dan Modus Tollens (P→Q, ~Q, maka ~P). Ini selalu muncul."
         },
         {
           "lens": "eliminasi",
@@ -224,7 +224,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Silogisme berantai: P→Q, Q→R, P terjadi → R terjadi. Ikuti alurnya satu per satu"
+          "text": "Silogisme berantai: P→Q, Q→R, P terjadi → R terjadi. Ikuti alurnya satu per satu."
         },
         {
           "lens": "eliminasi",
@@ -259,7 +259,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Soal 'TIDAK MUNGKIN' = cari pilihan yang BERTENTANGAN langsung dengan salah satu premis"
+          "text": "Soal 'TIDAK MUNGKIN' = cari pilihan yang BERTENTANGAN langsung dengan salah satu premis."
         },
         {
           "lens": "eliminasi",
@@ -329,7 +329,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Kontradiktoris dari 'Beberapa A tidak B' adalah 'Semua A adalah B'. Gunakan persegi oposisi logika"
+          "text": "Kontradiktoris dari 'Beberapa A tidak B' adalah 'Semua A adalah B'. Gunakan persegi oposisi logika."
         },
         {
           "lens": "eliminasi",
@@ -364,7 +364,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Jangan terbalik arah logika! A→B tidak berarti B→A. Pastikan arah implikasi sebelum menyimpulkan"
+          "text": "Jangan terbalik arah logika! A→B tidak berarti B→A. Pastikan arah implikasi sebelum menyimpulkan."
         },
         {
           "lens": "eliminasi",
@@ -399,7 +399,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Ketika premisnya pakai negasi (tidak ada), balikkan: 'tidak ada korupsi'=P, 'merata'=Q. Lalu terapkan Tollens normal"
+          "text": "Ketika premisnya pakai negasi (tidak ada), balikkan: 'tidak ada korupsi'=P, 'merata'=Q. Lalu terapkan Tollens normal."
         },
         {
           "lens": "eliminasi",
@@ -434,7 +434,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Identifikasi kelompok irisan terlebih dahulu: (Teknisi ∩ SMK) → subset dari teknisi → semua dalam irisan ini pasti kuasai coding"
+          "text": "Identifikasi kelompok irisan terlebih dahulu: (Teknisi ∩ SMK) → subset dari teknisi → semua dalam irisan ini pasti kuasai coding."
         },
         {
           "lens": "eliminasi",
@@ -539,7 +539,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Soal pengurutan posisi: mulai dari yang pasti dulu (A=1, B=4). Lalu isi sisanya berdasarkan relasi"
+          "text": "Soal pengurutan posisi: mulai dari yang pasti dulu (A=1, B=4). Lalu isi sisanya berdasarkan relasi."
         },
         {
           "lens": "eliminasi",
@@ -574,7 +574,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Soal kontekstual tetap gunakan logika dasar: cek apakah tindakan sesuai atau melanggar premis universal yang ada"
+          "text": "Soal kontekstual tetap gunakan logika dasar: cek apakah tindakan sesuai atau melanggar premis universal yang ada."
         },
         {
           "lens": "eliminasi",
@@ -644,7 +644,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Soal yang memberi konteks tambahan — gunakan pengetahuan umum yang wajar sebagai premis implisit, lalu tarik kesimpulan logis"
+          "text": "Soal yang memberi konteks tambahan — gunakan pengetahuan umum yang wajar sebagai premis implisit, lalu tarik kesimpulan logis."
         },
         {
           "lens": "eliminasi",
@@ -679,7 +679,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Soal dua kelompok: ikuti alur masing-masing secara paralel, lalu gabungkan di kesimpulan"
+          "text": "Soal dua kelompok: ikuti alur masing-masing secara paralel, lalu gabungkan di kesimpulan."
         },
         {
           "lens": "eliminasi",
@@ -749,7 +749,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Jika tidak ada informasi pengecualian statusnya, asumsikan subjek TERMASUK dalam kelompok premis. Maka terapkan kewajiban"
+          "text": "Jika tidak ada informasi pengecualian statusnya, asumsikan subjek TERMASUK dalam kelompok premis. Maka terapkan kewajiban."
         },
         {
           "lens": "eliminasi",
@@ -784,7 +784,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Buat urutan linear. Relasi '=' berarti keduanya setara di posisi tertinggi/terendah"
+          "text": "Buat urutan linear. Relasi '=' berarti keduanya setara di posisi tertinggi/terendah."
         },
         {
           "lens": "eliminasi",
@@ -819,7 +819,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Soal silogisme dasar: Semua A=B, X adalah A → X adalah B. Substitusi langsung, tidak perlu analisis lebih"
+          "text": "Soal silogisme dasar: Semua A=B, X adalah A → X adalah B. Substitusi langsung, tidak perlu analisis lebih."
         },
         {
           "lens": "eliminasi",
@@ -854,7 +854,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Dari 'beberapa' tidak bisa tarik 'semua'. Dari 'semua' bisa tarik 'beberapa'. Arah generalisasi hanya dari besar ke kecil"
+          "text": "Dari 'beberapa' tidak bisa tarik 'semua'. Dari 'semua' bisa tarik 'beberapa'. Arah generalisasi hanya dari besar ke kecil."
         },
         {
           "lens": "eliminasi",
@@ -889,7 +889,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Lihat kata kunci 'tidak' di premis kedua — ini sinyal Modus Tollens. Langsung negasi anteseden"
+          "text": "Lihat kata kunci 'tidak' di premis kedua — ini sinyal Modus Tollens. Langsung negasi anteseden."
         },
         {
           "lens": "eliminasi",
@@ -924,7 +924,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Saat selisih antar suku membesar, coba ×2 atau ×2+/−n. Cek konsistensinya"
+          "text": "Saat selisih antar suku membesar, coba ×2 atau ×2+/−n. Cek konsistensinya."
         },
         {
           "lens": "eliminasi",
@@ -959,7 +959,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Selisih ganda (selalu 2x lipat) → pola geometri ×2"
+          "text": "Selisih ganda (selalu 2x lipat) → pola geometri ×2."
         },
         {
           "lens": "eliminasi",
@@ -994,7 +994,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Selisih: +3, +5, +7, +9 → selisih dari selisih = +2 → pola kuadrat"
+          "text": "Selisih: +3, +5, +7, +9 → selisih dari selisih = +2 → pola kuadrat."
         },
         {
           "lens": "eliminasi",
@@ -1029,7 +1029,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Jika selisih antarsuku = suku sebelumnya, itu Fibonacci. Selalu cek penjumlahan dua suku sebelumnya"
+          "text": "Jika selisih antarsuku = suku sebelumnya, itu Fibonacci. Selalu cek penjumlahan dua suku sebelumnya."
         },
         {
           "lens": "eliminasi",
@@ -1064,7 +1064,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Selisih yang berubah teratur = deret aritmetika bertingkat. Hitung selisih dari selisih"
+          "text": "Selisih yang berubah teratur = deret aritmetika bertingkat. Hitung selisih dari selisih."
         },
         {
           "lens": "eliminasi",
@@ -1099,7 +1099,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Jika setiap suku = suku sebelumnya × bilangan yang terus membesar (×2, ×3, ×4, ...) → pola faktorial"
+          "text": "Jika setiap suku = suku sebelumnya × bilangan yang terus membesar (×2, ×3, ×4, ...) → pola faktorial."
         },
         {
           "lens": "eliminasi",
@@ -1134,7 +1134,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Rasio antar suku konstan → deret geometri. Hitung rasio: 14/7=2, 28/14=2, dst"
+          "text": "Rasio antar suku konstan → deret geometri. Hitung rasio: 14/7=2, 28/14=2, dst."
         },
         {
           "lens": "eliminasi",
@@ -1204,7 +1204,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Semua suku adalah pangkat dari basis yang sama → deret geometri. Hitung rasio"
+          "text": "Semua suku adalah pangkat dari basis yang sama → deret geometri. Hitung rasio."
         },
         {
           "lens": "eliminasi",
@@ -1239,7 +1239,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Selisih: +3,+5,+7,+9,+11 → selisih ke-2 konstan (+2) → pola kuadrat+konstanta"
+          "text": "Selisih: +3,+5,+7,+9,+11 → selisih ke-2 konstan (+2) → pola kuadrat+konstanta."
         },
         {
           "lens": "eliminasi",
@@ -1274,7 +1274,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Urutan Fibonacci klasik. Hafalkan: 1,1,2,3,5,8,13,21,34,55"
+          "text": "Urutan Fibonacci klasik. Hafalkan: 1,1,2,3,5,8,13,21,34,55."
         },
         {
           "lens": "eliminasi",
@@ -1309,7 +1309,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Deret geometri menurun: rasio = 1/2. Suku ke-n = 64×(1/2)^(n-1)"
+          "text": "Deret geometri menurun: rasio = 1/2. Suku ke-n = 64×(1/2)ⁿ⁻¹."
         },
         {
           "lens": "eliminasi",
@@ -1379,7 +1379,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pola selisih +1,+2,+3,... adalah barisan bilangan segitiga. T(n)=n(n+1)/2"
+          "text": "Pola selisih +1,+2,+3,... adalah barisan bilangan segitiga. T(n)=n(n+1)/2."
         },
         {
           "lens": "eliminasi",
@@ -1449,7 +1449,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Selisih ganjil berurutan (+3,+5,+7) → pola kuadrat. n²+3: 1+3=4, 4+3=7, 9+3=12"
+          "text": "Selisih ganjil berurutan (+3,+5,+7) → pola kuadrat. n²+3: 1+3=4, 4+3=7, 9+3=12."
         },
         {
           "lens": "eliminasi",
@@ -1484,7 +1484,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Rasio antar suku tidak konstan tapi membesar → coba pola kubik. Cek: 8/1≠27/8"
+          "text": "Rasio antar suku tidak konstan tapi membesar → coba pola kubik. Cek: 8/1≠27/8."
         },
         {
           "lens": "eliminasi",
@@ -1519,7 +1519,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Rasio berubah: ×1,×2,×3,×4 → ini pola 'faktorial tambahan'. Hitung rasio antar suku secara berurutan"
+          "text": "Rasio berubah: ×1,×2,×3,×4 → ini pola 'faktorial tambahan'. Hitung rasio antar suku secara berurutan."
         },
         {
           "lens": "eliminasi",
@@ -1554,7 +1554,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Rasio tiap suku bertambah 1 → pola multiplikatif berurutan"
+          "text": "Rasio tiap suku bertambah 1 → pola multiplikatif berurutan."
         },
         {
           "lens": "eliminasi",
@@ -1589,7 +1589,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Deret geometri turun: rasio=1/3. Suku ke-n = 729×(1/3)^(n-1)"
+          "text": "Deret geometri turun: rasio=1/3. Suku ke-n = 729×(1/3)ⁿ⁻¹."
         },
         {
           "lens": "eliminasi",
@@ -1624,7 +1624,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Jika tidak ada pola selisih/rasio yang jelas, coba bilangan prima! Ini sering muncul"
+          "text": "Jika tidak ada pola selisih/rasio yang jelas, coba bilangan prima! Ini sering muncul."
         },
         {
           "lens": "eliminasi",
@@ -1659,7 +1659,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Jika selisih antar suku = suku 2 tingkat sebelumnya → varian Fibonacci. Cek penjumlahan"
+          "text": "Jika selisih antar suku = suku 2 tingkat sebelumnya → varian Fibonacci. Cek penjumlahan."
         },
         {
           "lens": "eliminasi",
@@ -1694,7 +1694,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Selisih naik 1 setiap langkah → pola segitiga. Suku ke-n = n(n-1)/2 + 1"
+          "text": "Selisih naik 1 setiap langkah → pola segitiga. Suku ke-n = n(n-1)/2 + 1."
         },
         {
           "lens": "eliminasi",
@@ -1729,7 +1729,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Mirip soal di atas. Selisih bertambah 1 secara konsisten adalah trick paling sering"
+          "text": "Mirip soal di atas. Selisih bertambah 1 secara konsisten adalah trick paling sering."
         },
         {
           "lens": "eliminasi",
@@ -1764,7 +1764,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Semua suku adalah pangkat 2: 2^8, 2^7, 2^6, 2^5, 2^4=16"
+          "text": "Semua suku adalah pangkat 2: 2⁸, 2⁷, 2⁶, 2⁵, 2⁴=16."
         },
         {
           "lens": "eliminasi",
@@ -1787,7 +1787,7 @@
       "id": "bumn26-t1-s3-001",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah kata yang TIDAK SEKELOMPOK dengan kata lainnya?\nA) Mawar  B) Melati  C) Dahlia  D) Flamboyan  E) Kamboja",
+      "stem": "Manakah kata yang TIDAK SEKELOMPOK dengan kata lainnya?\nA) Mawar · B) Melati · C) Dahlia · D) Flamboyan · E) Kamboja",
       "options": [
         "Mawar",
         "Melati",
@@ -1799,7 +1799,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Cari unsur yang berbeda KATEGORI, bukan sekadar berbeda nama. Identifikasi kategori mayoritas terlebih dahulu"
+          "text": "Cari unsur yang berbeda KATEGORI, bukan sekadar berbeda nama. Identifikasi kategori mayoritas terlebih dahulu."
         },
         {
           "lens": "eliminasi",
@@ -1822,7 +1822,7 @@
       "id": "bumn26-t1-s3-002",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah kata yang TIDAK SEKELOMPOK?\nA) Harimau  B) Singa  C) Cheetah  D) Macan Tutul  E) Beruang",
+      "stem": "Manakah kata yang TIDAK SEKELOMPOK?\nA) Harimau · B) Singa · C) Cheetah · D) Macan Tutul · E) Beruang",
       "options": [
         "Harimau",
         "Singa",
@@ -1857,7 +1857,7 @@
       "id": "bumn26-t1-s3-003",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah kata yang TIDAK SEKELOMPOK?\nA) Jupiter  B) Mars  C) Venus  D) Pluto  E) Saturnus",
+      "stem": "Manakah kata yang TIDAK SEKELOMPOK?\nA) Jupiter · B) Mars · C) Venus · D) Pluto · E) Saturnus",
       "options": [
         "Jupiter",
         "Mars",
@@ -1869,7 +1869,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pluto adalah jawaban klasik! Fakta sains populer sering muncul di soal klasifikasi"
+          "text": "Pluto adalah jawaban klasik! Fakta sains populer sering muncul di soal klasifikasi."
         },
         {
           "lens": "eliminasi",
@@ -1927,7 +1927,7 @@
       "id": "bumn26-t1-s3-005",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah kata yang TIDAK SEKELOMPOK?\nA) Rupiah  B) Yen  C) Euro  D) Peso  E) Franc",
+      "stem": "Manakah kata yang TIDAK SEKELOMPOK?\nA) Rupiah · B) Yen · C) Euro · D) Peso · E) Franc",
       "options": [
         "Rupiah",
         "Yen",
@@ -1939,7 +1939,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Bedakan mata uang nasional vs supranasional. Euro tidak dimiliki satu negara saja"
+          "text": "Bedakan mata uang nasional vs supranasional. Euro tidak dimiliki satu negara saja."
         },
         {
           "lens": "eliminasi",
@@ -1962,7 +1962,7 @@
       "id": "bumn26-t1-s3-006",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang TIDAK termasuk alat musik gesek?\nA) Biola  B) Cello  C) Mandolin  D) Contra Bass  E) Viola",
+      "stem": "Manakah yang TIDAK termasuk alat musik gesek?\nA) Biola · B) Cello · C) Mandolin · D) Contra Bass · E) Viola",
       "options": [
         "Biola",
         "Cello",
@@ -1974,7 +1974,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Klasifikasikan cara bermain: gesek, petik, tiup, pukul. Mandolin = petik"
+          "text": "Klasifikasikan cara bermain: gesek, petik, tiup, pukul. Mandolin = petik."
         },
         {
           "lens": "eliminasi",
@@ -1997,7 +1997,7 @@
       "id": "bumn26-t1-s3-007",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang TIDAK termasuk provinsi di Pulau Jawa?\nA) Banten  B) DKI Jakarta  C) DIY  D) Bali  E) Jawa Tengah",
+      "stem": "Manakah yang TIDAK termasuk provinsi di Pulau Jawa?\nA) Banten · B) DKI Jakarta · C) DIY · D) Bali · E) Jawa Tengah",
       "options": [
         "Banten",
         "DKI Jakarta",
@@ -2009,7 +2009,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Ketahui posisi geografis provinsi. Bali sering dikira bagian Jawa tapi merupakan pulau terpisah"
+          "text": "Ketahui posisi geografis provinsi. Bali sering dikira bagian Jawa tapi merupakan pulau terpisah."
         },
         {
           "lens": "eliminasi",
@@ -2032,7 +2032,7 @@
       "id": "bumn26-t1-s3-008",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang TIDAK termasuk jenis laporan keuangan?\nA) Neraca  B) Laba Rugi  C) Arus Kas  D) Faktur  E) Catatan atas Laporan Keuangan",
+      "stem": "Manakah yang TIDAK termasuk jenis laporan keuangan?\nA) Neraca · B) Laba Rugi · C) Arus Kas · D) Faktur · E) Catatan atas Laporan Keuangan",
       "options": [
         "Neraca",
         "Laba Rugi",
@@ -2067,7 +2067,7 @@
       "id": "bumn26-t1-s3-009",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang BERBEDA dari kelompoknya?\nA) CPU  B) RAM  C) Motherboard  D) Monitor  E) Hard Disk",
+      "stem": "Manakah yang BERBEDA dari kelompoknya?\nA) CPU · B) RAM · C) Motherboard · D) Monitor · E) Hard Disk",
       "options": [
         "CPU",
         "RAM",
@@ -2079,7 +2079,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Kelompokkan: internal hardware vs peripheral. Monitor jelas peripheral/output device"
+          "text": "Kelompokkan: internal hardware vs peripheral. Monitor jelas peripheral/output device."
         },
         {
           "lens": "eliminasi",
@@ -2102,7 +2102,7 @@
       "id": "bumn26-t1-s3-010",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang TIDAK termasuk makronutrien tanaman?\nA) Nitrogen  B) Fosfor  C) Kalium  D) Besi  E) Kalsium",
+      "stem": "Manakah yang TIDAK termasuk makronutrien tanaman?\nA) Nitrogen · B) Fosfor · C) Kalium · D) Besi · E) Kalsium",
       "options": [
         "Nitrogen",
         "Fosfor",
@@ -2114,7 +2114,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Hafalkan NPK = trio makronutrien utama. Besi, Mangan, Seng = mikronutrien"
+          "text": "Hafalkan NPK = trio makronutrien utama. Besi, Mangan, Seng = mikronutrien."
         },
         {
           "lens": "eliminasi",
@@ -2149,7 +2149,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Cari alat yang paling IDENTIK dan SPESIFIK untuk profesi. Bukan alat umum atau output kerja"
+          "text": "Cari alat yang paling IDENTIK dan SPESIFIK untuk profesi. Bukan alat umum atau output kerja."
         },
         {
           "lens": "eliminasi",
@@ -2172,7 +2172,7 @@
       "id": "bumn26-t1-s3-012",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang TIDAK termasuk indra manusia?\nA) Penglihatan  B) Pendengaran  C) Penciuman  D) Keseimbangan  E) Peraba",
+      "stem": "Manakah yang TIDAK termasuk indra manusia?\nA) Penglihatan · B) Pendengaran · C) Penciuman · D) Keseimbangan · E) Peraba",
       "options": [
         "Penglihatan",
         "Pendengaran",
@@ -2184,7 +2184,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Indra = 5 pancaindra klasik. Keseimbangan (dan propiosepsi) adalah indera tambahan di luar 5 utama"
+          "text": "Indra = 5 pancaindra klasik. Keseimbangan (dan propiosepsi) adalah indera tambahan di luar 5 utama."
         },
         {
           "lens": "eliminasi",
@@ -2207,7 +2207,7 @@
       "id": "bumn26-t1-s3-013",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang TIDAK termasuk gas rumah kaca?\nA) CO₂  B) Metana  C) Nitrogen  D) Uap Air  E) Ozon",
+      "stem": "Manakah yang TIDAK termasuk gas rumah kaca?\nA) CO₂ · B) Metana · C) Nitrogen · D) Uap Air · E) Ozon",
       "options": [
         "CO₂",
         "Metana",
@@ -2219,7 +2219,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "N₂ dan O₂ menyusun 99% atmosfer tapi keduanya bukan GRK. Gas GRK = yang menyerap inframerah"
+          "text": "N₂ dan O₂ menyusun 99% atmosfer tapi keduanya bukan GRK. Gas GRK = yang menyerap inframerah."
         },
         {
           "lens": "eliminasi",
@@ -2242,7 +2242,7 @@
       "id": "bumn26-t1-s3-014",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah pasangan yang TIDAK tepat?\nA) Bandung – Jawa Barat  B) Surabaya – Jawa Timur  C) Medan – Sumatera Utara  D) Makassar – Sulawesi Selatan  E) Pekanbaru – Sumatera Barat",
+      "stem": "Manakah pasangan yang TIDAK tepat?\nA) Bandung – Jawa Barat · B) Surabaya – Jawa Timur · C) Medan – Sumatera Utara · D) Makassar – Sulawesi Selatan · E) Pekanbaru – Sumatera Barat",
       "options": [
         "Bandung – Jawa Barat",
         "Surabaya – Jawa Timur",
@@ -2254,7 +2254,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Hafalkan ibu kota provinsi yang sering tertukar: Pekanbaru=Riau, Padang=Sumbar, Jambi=Provinsi Jambi"
+          "text": "Hafalkan ibu kota provinsi yang sering tertukar: Pekanbaru=Riau, Padang=Sumbar, Jambi=Provinsi Jambi."
         },
         {
           "lens": "eliminasi",
@@ -2277,7 +2277,7 @@
       "id": "bumn26-t1-s3-015",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang BUKAN merupakan organ ekskresi manusia?\nA) Ginjal  B) Paru-paru  C) Hati  D) Kulit  E) Jantung",
+      "stem": "Manakah yang BUKAN merupakan organ ekskresi manusia?\nA) Ginjal · B) Paru-paru · C) Hati · D) Kulit · E) Jantung",
       "options": [
         "Ginjal",
         "Paru-paru",
@@ -2312,7 +2312,7 @@
       "id": "bumn26-t1-s3-016",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang BUKAN termasuk jenis pasar modal?\nA) Pasar Perdana  B) Pasar Sekunder  C) Pasar Valas  D) Pasar Paralel  E) Bursa Efek",
+      "stem": "Manakah yang BUKAN termasuk jenis pasar modal?\nA) Pasar Perdana · B) Pasar Sekunder · C) Pasar Valas · D) Pasar Paralel · E) Bursa Efek",
       "options": [
         "Pasar Perdana",
         "Pasar Sekunder",
@@ -2347,7 +2347,7 @@
       "id": "bumn26-t1-s3-017",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang BERBEDA dari kelompoknya?\nA) Pantun  B) Syair  C: Gurindam  D) Soneta  E) Talibun",
+      "stem": "Manakah yang BERBEDA dari kelompoknya?\nA) Pantun · B) Syair C: Gurindam · D) Soneta · E) Talibun",
       "options": [
         "Pantun",
         "Syair",
@@ -2359,7 +2359,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Bedakan puisi lokal vs asing. Soneta = asing (Italia), lainnya = puisi Melayu tradisional"
+          "text": "Bedakan puisi lokal vs asing. Soneta = asing (Italia), lainnya = puisi Melayu tradisional."
         },
         {
           "lens": "eliminasi",
@@ -2382,7 +2382,7 @@
       "id": "bumn26-t1-s3-018",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang BUKAN termasuk data primer dalam penelitian?\nA) Wawancara  B) Kuesioner  C) Observasi  D) Jurnal Ilmiah  E) Eksperimen",
+      "stem": "Manakah yang BUKAN termasuk data primer dalam penelitian?\nA) Wawancara · B) Kuesioner · C) Observasi · D) Jurnal Ilmiah · E) Eksperimen",
       "options": [
         "Wawancara",
         "Kuesioner",
@@ -2394,7 +2394,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Data primer = dikumpulkan sendiri langsung dari sumber. Data sekunder = sudah tersedia dari sumber lain"
+          "text": "Data primer = dikumpulkan sendiri langsung dari sumber. Data sekunder = sudah tersedia dari sumber lain."
         },
         {
           "lens": "eliminasi",
@@ -2417,7 +2417,7 @@
       "id": "bumn26-t1-s3-019",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang BUKAN amandemen UUD 1945?\nA) Amandemen I (1999)  B) Amandemen II (2000)  C) Amandemen III (2001)  D) Amandemen IV (2002)  E) Amandemen V (2005)",
+      "stem": "Manakah yang BUKAN amandemen UUD 1945?\nA) Amandemen I (1999) · B) Amandemen II (2000) · C) Amandemen III (2001) · D) Amandemen IV (2002) · E) Amandemen V (2005)",
       "options": [
         "Amandemen I (1999)",
         "Amandemen II (2000)",
@@ -2452,7 +2452,7 @@
       "id": "bumn26-t1-s3-020",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang BUKAN termasuk unsur-unsur negara?\nA) Rakyat  B) Wilayah  C) Pemerintah berdaulat  D) Pengakuan negara lain  E) Ideologi negara",
+      "stem": "Manakah yang BUKAN termasuk unsur-unsur negara?\nA) Rakyat · B) Wilayah · C) Pemerintah berdaulat · D) Pengakuan negara lain · E) Ideologi negara",
       "options": [
         "Rakyat",
         "Wilayah",
@@ -2464,7 +2464,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "3 unsur konstitutif + 1 deklaratif. Ideologi tidak termasuk dalam definisi formal negara"
+          "text": "3 unsur konstitutif + 1 deklaratif. Ideologi tidak termasuk dalam definisi formal negara."
         },
         {
           "lens": "eliminasi",
@@ -2487,7 +2487,7 @@
       "id": "bumn26-t1-s3-021",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang BERBEDA dari kelompoknya?\nA) Tsunami  B) Gempa Bumi  C) Gunung Meletus  D) Tornado  E) Tanah Longsor",
+      "stem": "Manakah yang BERBEDA dari kelompoknya?\nA) Tsunami · B) Gempa Bumi · C) Gunung Meletus · D) Tornado · E) Tanah Longsor",
       "options": [
         "Tsunami",
         "Gempa Bumi",
@@ -2499,7 +2499,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Kelompokkan bencana alam: Geologis (seismic, volcanic) vs Meteorologis (angin, hujan). Tornado = meteorologis"
+          "text": "Kelompokkan bencana alam: Geologis (seismic, volcanic) vs Meteorologis (angin, hujan). Tornado = meteorologis."
         },
         {
           "lens": "eliminasi",
@@ -2522,7 +2522,7 @@
       "id": "bumn26-t1-s3-022",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang BUKAN hak asasi manusia generasi pertama?\nA) Hak hidup  B) Hak kebebasan berpendapat  C) Hak atas lingkungan bersih  D) Hak memilih  E) Hak atas keadilan",
+      "stem": "Manakah yang BUKAN hak asasi manusia generasi pertama?\nA) Hak hidup · B) Hak kebebasan berpendapat · C) Hak atas lingkungan bersih · D) Hak memilih · E) Hak atas keadilan",
       "options": [
         "Hak hidup",
         "Hak kebebasan berpendapat",
@@ -2569,7 +2569,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Soal hubungan: hewan endemik → habitat asalnya. Komodo = Pulau Komodo (NTT). Ini sering muncul"
+          "text": "Soal hubungan: hewan endemik → habitat asalnya. Komodo = Pulau Komodo (NTT). Ini sering muncul."
         },
         {
           "lens": "eliminasi",
@@ -2592,7 +2592,7 @@
       "id": "bumn26-t1-s3-024",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah yang BUKAN termasuk cabang ilmu ekonomi?\nA) Ekonomi Mikro  B) Ekonomi Makro  C) Ekonometrika  D) Kriminologi  E) Ekonomi Pembangunan",
+      "stem": "Manakah yang BUKAN termasuk cabang ilmu ekonomi?\nA) Ekonomi Mikro · B) Ekonomi Makro · C) Ekonometrika · D) Kriminologi · E) Ekonomi Pembangunan",
       "options": [
         "Ekonomi Mikro",
         "Ekonomi Makro",
@@ -2604,7 +2604,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Identifikasi akar kata: 'krimin' = kejahatan, bukan ekonomi. Semua pilihan lain jelas berbasis ekonomi"
+          "text": "Identifikasi akar kata: 'krimin' = kejahatan, bukan ekonomi. Semua pilihan lain jelas berbasis ekonomi."
         },
         {
           "lens": "eliminasi",
@@ -2627,7 +2627,7 @@
       "id": "bumn26-t1-s3-025",
       "subtest": "tkd",
       "topic": "word classification",
-      "stem": "Manakah kelompok yang BENAR untuk jenis segitiga berdasarkan sudut?\nA) Lancip, Tumpul, Siku-siku  B) Sama kaki, Sama sisi, Sembarang  C) Lancip, Sama sisi, Siku-siku  D) Tumpul, Sama kaki, Lancip  E) Isosceles, Scalene, Equilateral",
+      "stem": "Manakah kelompok yang BENAR untuk jenis segitiga berdasarkan sudut?\nA) Lancip, Tumpul, Siku-siku · B) Sama kaki, Sama sisi, Sembarang · C) Lancip, Sama sisi, Siku-siku · D) Tumpul, Sama kaki, Lancip · E) Isosceles, Scalene, Equilateral",
       "options": [
         "Lancip, Tumpul, Siku-siku",
         "Sama kaki, Sama sisi, Sembarang",
@@ -2639,7 +2639,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "2 cara mengklasifikasi segitiga: berdasarkan SUDUT atau berdasarkan SISI. Jangan campur keduanya dalam satu kelompok"
+          "text": "2 cara mengklasifikasi segitiga: berdasarkan SUDUT atau berdasarkan SISI. Jangan campur keduanya dalam satu kelompok."
         },
         {
           "lens": "eliminasi",
@@ -2674,7 +2674,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Baca pola: diagonal utama, baris, kolom. Cek apakah pola berulang setiap 2 atau 3 elemen"
+          "text": "Baca pola: diagonal utama, baris, kolom. Cek apakah pola berulang setiap 2 atau 3 elemen."
         },
         {
           "lens": "eliminasi",
@@ -2689,7 +2689,7 @@
           "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
         }
       ],
-      "explain": "Pola diagonal dan selang-seling: posisi (1,1), (2,2), (3,3) selalu ●. Posisi baris ganjil kolom ganjil = ●. Maka ? = ●.",
+      "explain": "Pola diagonal dan selang-seling: posisi (1,1), (2,2), (3,3) selalu ●. Posisi baris ganjil kolom ganjil = ●. Maka? = ●.",
       "targetSec": 45,
       "source": "RBB BUMN 2026 · Subtes 4"
     },
@@ -2709,7 +2709,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Cek pola per baris DAN per kolom. Di sini baris 3: 4×4=16, 16×4=64"
+          "text": "Cek pola per baris DAN per kolom. Di sini baris 3: 4×4=16, 16×4=64."
         },
         {
           "lens": "eliminasi",
@@ -2732,7 +2732,7 @@
       "id": "bumn26-t1-s4-003",
       "subtest": "tkd",
       "topic": "diagram reasoning",
-      "stem": "Perhatikan pola berikut:\n[Kotak] → [Lingkaran] → [Segitiga]\n[Besar] → [Sedang] → [Kecil]\n[Hitam] → [Abu-abu] → [Putih]\n\nGambar ke-7 dalam urutan ini adalah...",
+      "stem": "Perhatikan pola berikut:\n[Kotak] → [Lingkaran] → [Segitiga]\n[Besar] → [Sedang] → [Kecil]\n[Hitam] → [Abu-abu] → [Putih]\nGambar ke-7 dalam urutan ini adalah...",
       "options": [
         "Kotak Besar Hitam",
         "Lingkaran Sedang Abu-abu",
@@ -2744,7 +2744,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pola siklus: gunakan modulo. Posisi ke-n, sisa = n mod 3 (atau panjang siklus). Sisa 1 = elemen pertama"
+          "text": "Pola siklus: gunakan modulo. Posisi ke-n, sisa = n mod 3 (atau panjang siklus). Sisa 1 = elemen pertama."
         },
         {
           "lens": "eliminasi",
@@ -2767,7 +2767,7 @@
       "id": "bumn26-t1-s4-004",
       "subtest": "tkd",
       "topic": "diagram reasoning",
-      "stem": "Perhatikan pola angka:\nBaris 1: 1\nBaris 2: 2  3\nBaris 3: 4  5  6\nBaris 4: 7  8  9  10\n\nBaris 5 diawali dengan angka...",
+      "stem": "Perhatikan pola angka:\nBaris 1: 1\nBaris 2: 2 3\nBaris 3: 4 5 6\nBaris 4: 7 8 9 10\nBaris 5 diawali dengan angka...",
       "options": [
         "10",
         "11",
@@ -2779,7 +2779,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Hitung total elemen sebelumnya: 1+2+3+4=10. Baris berikutnya mulai dari 10+1=11"
+          "text": "Hitung total elemen sebelumnya: 1+2+3+4=10. Baris berikutnya mulai dari 10+1=11."
         },
         {
           "lens": "eliminasi",
@@ -2814,7 +2814,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pola rotasi 4 posisi: modulo 4. Posisi 5 mod 4 = 1 → posisi pertama = ↑"
+          "text": "Pola rotasi 4 posisi: modulo 4. Posisi 5 mod 4 = 1 → posisi pertama = ↑."
         },
         {
           "lens": "eliminasi",
@@ -2849,7 +2849,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Baca pola per baris. Kenaikan +2 menghasilkan huruf berselang satu. G→I→K"
+          "text": "Baca pola per baris. Kenaikan +2 menghasilkan huruf berselang satu. G→I→K."
         },
         {
           "lens": "eliminasi",
@@ -2884,7 +2884,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Hafalkan aturan dadu: pasangan (1-6),(2-5),(3-4). Dengan posisi 1 atas dan 2 depan, gunakan aturan tangan kanan untuk kanan=3"
+          "text": "Hafalkan aturan dadu: pasangan (1-6),(2-5),(3-4). Dengan posisi 1 atas dan 2 depan, gunakan aturan tangan kanan untuk kanan=3."
         },
         {
           "lens": "eliminasi",
@@ -2919,7 +2919,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Soal pola segitiga Pascal: gunakan rumus T(n) = n(n+1)/2. Untuk n=6: 6×7/2 = 21"
+          "text": "Soal pola segitiga Pascal: gunakan rumus T(n) = n(n+1)/2. Untuk n=6: 6×7/2 = 21."
         },
         {
           "lens": "eliminasi",
@@ -2954,7 +2954,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Siklus N: posisi k → k mod N. Jika sisa=0 → elemen terakhir. 13 mod 3 = 1 → elemen ke-1 = Merah"
+          "text": "Siklus N: posisi k → k mod N. Jika sisa=0 → elemen terakhir. 13 mod 3 = 1 → elemen ke-1 = Merah."
         },
         {
           "lens": "eliminasi",
@@ -2989,7 +2989,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Refleksi horizontal membalik kiri-kanan. Refleksi vertikal membalik atas bawah. Tentukan jenis cermin dulu"
+          "text": "Refleksi horizontal membalik kiri-kanan. Refleksi vertikal membalik atas bawah. Tentukan jenis cermin dulu."
         },
         {
           "lens": "eliminasi",
@@ -3024,7 +3024,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Hitung total baris: jumlah aritmetika berurutan. Baris 3 = 7+8+9 = 24"
+          "text": "Hitung total baris: jumlah aritmetika berurutan. Baris 3 = 7+8+9 = 24."
         },
         {
           "lens": "eliminasi",
@@ -3047,7 +3047,7 @@
       "id": "bumn26-t1-s4-012",
       "subtest": "tkd",
       "topic": "diagram reasoning",
-      "stem": "Bujur sangkar dengan angka di tepi:\n   8\n5 [?] 3\n   6\nAngka tengah = rata-rata dari empat sisi. Nilai ? adalah...",
+      "stem": "Bujur sangkar dengan angka di tepi:\n8\n5 [?] 3\n6\nAngka tengah = rata-rata dari empat sisi. Nilai? adalah...",
       "options": [
         "4",
         "5",
@@ -3059,7 +3059,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Soal matriks tengah: biasanya rata-rata, jumlah, atau selisih dari sisi/pojok. Coba operasi dasar dulu"
+          "text": "Soal matriks tengah: biasanya rata-rata, jumlah, atau selisih dari sisi/pojok. Coba operasi dasar dulu."
         },
         {
           "lens": "eliminasi",
@@ -3094,7 +3094,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pola pangkat 2 klasik. n lipatan = 2^n bagian. Hafalkan: 2^6=64, 2^7=128, 2^8=256"
+          "text": "Pola pangkat 2 klasik. n lipatan = 2ⁿ bagian. Hafalkan: 2⁶=64, 2⁷=128, 2⁸=256."
         },
         {
           "lens": "eliminasi",
@@ -3109,7 +3109,7 @@
           "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
         }
       ],
-      "explain": "Setiap lipatan menggandakan bagian: 2^n. Lipat 6 kali = 2^6 = 64.",
+      "explain": "Setiap lipatan menggandakan bagian: 2ⁿ. Lipat 6 kali = 2⁶ = 64.",
       "targetSec": 45,
       "source": "RBB BUMN 2026 · Subtes 4"
     },
@@ -3129,7 +3129,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Temukan rumus pola: selisih antar baris = +2 (konstan). Bentuk: a+(n-1)×d = 3+(n-1)×2 = 2n+1"
+          "text": "Temukan rumus pola: selisih antar baris = +2 (konstan). Bentuk: a+(n-1)×d = 3+(n-1)×2 = 2n+1."
         },
         {
           "lens": "eliminasi",
@@ -3164,7 +3164,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Hafalkan nama bentuk geometri: Tri=3, Quad=4, Penta=5, Hexa=6, Hepta=7, Octa=8, Nona=9, Deca=10"
+          "text": "Hafalkan nama bentuk geometri: Tri=3, Quad=4, Penta=5, Hexa=6, Hepta=7, Octa=8, Nona=9, Deca=10."
         },
         {
           "lens": "eliminasi",
@@ -3187,7 +3187,7 @@
       "id": "bumn26-t1-s4-016",
       "subtest": "tkd",
       "topic": "diagram reasoning",
-      "stem": "Diagram Venn: \n- Kelompok A (gemar baca) = 20 orang\n- Kelompok B (gemar olahraga) = 15 orang\n- Keduanya (A∩B) = 8 orang\nBerapa total orang yang gemar setidaknya satu aktivitas?",
+      "stem": "Diagram Venn:\n- Kelompok A (gemar baca) = 20 orang\n- Kelompok B (gemar olahraga) = 15 orang\n- Keduanya (A∩B) = 8 orang\nBerapa total orang yang gemar setidaknya satu aktivitas?",
       "options": [
         "27",
         "28",
@@ -3199,7 +3199,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Rumus Venn 2 kelompok: A∪B = A+B-A∩B. Selalu kurangi irisan agar tidak dihitung dua kali"
+          "text": "Rumus Venn 2 kelompok: A∪B = A+B-A∩B. Selalu kurangi irisan agar tidak dihitung dua kali."
         },
         {
           "lens": "eliminasi",
@@ -3234,7 +3234,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Soal siklus melingkar: gunakan modulo. k mod N memberikan posisi dalam siklus"
+          "text": "Soal siklus melingkar: gunakan modulo. k mod N memberikan posisi dalam siklus."
         },
         {
           "lens": "eliminasi",
@@ -3269,7 +3269,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Baca langsung dari pola. Baris 2: ○●○●○. Kolom 4 dari baris 2 = ●"
+          "text": "Baca langsung dari pola. Baris 2: ○●○●○. Kolom 4 dari baris 2 = ●."
         },
         {
           "lens": "eliminasi",
@@ -3292,7 +3292,7 @@
       "id": "bumn26-t1-s4-019",
       "subtest": "tkd",
       "topic": "diagram reasoning",
-      "stem": "Analogi gambar:\nBujur sangkar dengan 4 sudut → memiliki diagonal 2\nPentagon dengan 5 sudut → memiliki diagonal 5\nHeksagon dengan 6 sudut → memiliki diagonal ?",
+      "stem": "Analogi gambar:\nBujur sangkar dengan 4 sudut → memiliki diagonal 2\nPentagon dengan 5 sudut → memiliki diagonal 5\nHeksagon dengan 6 sudut → memiliki diagonal?",
       "options": [
         "6",
         "7",
@@ -3304,7 +3304,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Diagonal poligon = n(n-3)/2. Square(4)=2, Pentagon(5)=5, Hexagon(6)=9, Heptagon(7)=14"
+          "text": "Diagonal poligon = n(n-3)/2. Square(4)=2, Pentagon(5)=5, Hexagon(6)=9, Heptagon(7)=14."
         },
         {
           "lens": "eliminasi",
@@ -3339,7 +3339,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Jarum menit berputar penuh tiap 60 menit. 13:00 = 12:00 + 60 menit = posisi yang sama"
+          "text": "Jarum menit berputar penuh tiap 60 menit. 13:00 = 12:00 + 60 menit = posisi yang sama."
         },
         {
           "lens": "eliminasi",
@@ -3362,7 +3362,7 @@
       "id": "bumn26-t1-s4-021",
       "subtest": "tkd",
       "topic": "diagram reasoning",
-      "stem": "Pola angka dalam bentuk X:\n   2\n 4   6\n   8\n 10  12\n   14\nAngka ke-9 dalam urutan baca kiri ke kanan, atas ke bawah adalah...",
+      "stem": "Pola angka dalam bentuk X:\n2\n4 6\n8\n10 12\n14\nAngka ke-9 dalam urutan baca kiri ke kanan, atas ke bawah adalah...",
       "options": [
         "14",
         "16",
@@ -3374,7 +3374,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pola deret genap: 2,4,6,8,... Angka ke-n = 2n. Angka ke-9 = 2×9 = 18"
+          "text": "Pola deret genap: 2,4,6,8,... Angka ke-n = 2n. Angka ke-9 = 2×9 = 18."
         },
         {
           "lens": "eliminasi",
@@ -3409,7 +3409,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Cermin vertikal (sumbu-y): balik tanda x. Cermin horizontal (sumbu-x): balik tanda y"
+          "text": "Cermin vertikal (sumbu-y): balik tanda x. Cermin horizontal (sumbu-x): balik tanda y."
         },
         {
           "lens": "eliminasi",
@@ -3444,7 +3444,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Temukan pola dengan uji operasi sederhana: ×2, ÷2, +n, -n, ×n+/-k. Verifikasi dengan baris yang diketahui"
+          "text": "Temukan pola dengan uji operasi sederhana: ×2, ÷2, +n, -n, ×n+/-k. Verifikasi dengan baris yang diketahui."
         },
         {
           "lens": "eliminasi",
@@ -3479,7 +3479,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Modulo adalah kunci. 17÷3 = 5 sisa 2 → elemen ke-2 dalam siklus = ■"
+          "text": "Modulo adalah kunci. 17÷3 = 5 sisa 2 → elemen ke-2 dalam siklus = ■."
         },
         {
           "lens": "eliminasi",
@@ -3514,7 +3514,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Baca matriks baris demi baris dari kiri ke kanan, atas ke bawah. Cari polanya secara linear"
+          "text": "Baca matriks baris demi baris dari kiri ke kanan, atas ke bawah. Cari polanya secara linear."
         },
         {
           "lens": "eliminasi",
@@ -3529,7 +3529,7 @@
           "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
         }
       ],
-      "explain": "Pola: bilangan ganjil berurutan 1,3,5,7,9,11,13,15,17. Nilai ? = 17.",
+      "explain": "Pola: bilangan ganjil berurutan 1,3,5,7,9,11,13,15,17. Nilai? = 17.",
       "targetSec": 45,
       "source": "RBB BUMN 2026 · Subtes 4"
     },
@@ -3549,7 +3549,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pilih opsi yang menunjukkan EMPATI, KOMUNIKASI yang baik, dan SOLUTIF. Hindari konfrontasi publik atau sikap lepas tangan"
+          "text": "Pilih opsi yang menunjukkan EMPATI, KOMUNIKASI yang baik, dan SOLUTIF. Hindari konfrontasi publik atau sikap lepas tangan."
         },
         {
           "lens": "eliminasi",
@@ -3584,7 +3584,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pilih opsi yang menunjukkan ADAPTASI, INISIATIF BELAJAR, dan PROAKTIF menghadapi perubahan"
+          "text": "Pilih opsi yang menunjukkan ADAPTASI, INISIATIF BELAJAR, dan PROAKTIF menghadapi perubahan."
         },
         {
           "lens": "eliminasi",
@@ -3619,7 +3619,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pilih opsi INTEGRITAS (menjaga aturan) yang dilakukan melalui KOMUNIKASI ASERTIF namun tetap menjaga hubungan baik"
+          "text": "Pilih opsi INTEGRITAS (menjaga aturan) yang dilakukan melalui KOMUNIKASI ASERTIF namun tetap menjaga hubungan baik."
         },
         {
           "lens": "eliminasi",
@@ -3654,7 +3654,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pilih tindakan yang JUJUR, BERTANGGUNG JAWAB (tidak menyalahkan orang lain), dan SOLUTIF"
+          "text": "Pilih tindakan yang JUJUR, BERTANGGUNG JAWAB (tidak menyalahkan orang lain), dan SOLUTIF."
         },
         {
           "lens": "eliminasi",
@@ -3689,7 +3689,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pilih opsi TOLERANSI, MENGHARGAI KEBERAGAMAN, dan MENGUTAMAKAN TUJUAN BERSAMA"
+          "text": "Pilih opsi TOLERANSI, MENGHARGAI KEBERAGAMAN, dan MENGUTAMAKAN TUJUAN BERSAMA."
         },
         {
           "lens": "eliminasi",
@@ -3794,7 +3794,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pilih sikap MERANGKUL, TIDAK PENDENDAM, dan MEMBANGUN LINGKUNGAN KERJA KONDUSIF"
+          "text": "Pilih sikap MERANGKUL, TIDAK PENDENDAM, dan MEMBANGUN LINGKUNGAN KERJA KONDUSIF."
         },
         {
           "lens": "eliminasi",
@@ -3829,7 +3829,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pilih TAHAN BANTING (Resilience), MENYESUAIKAN DIRI CEPAT, dan MEMBERI INOVASI"
+          "text": "Pilih TAHAN BANTING (Resilience), MENYESUAIKAN DIRI CEPAT, dan MEMBERI INOVASI."
         },
         {
           "lens": "eliminasi",
@@ -3925,7 +3925,7 @@
       "stem": "Anda mengetahui bahwa rekan kerja satu kubikel Anda sedang mengalami masalah keluarga yang berat sehingga akhir-akhir ini sering melakukan kesalahan fatal dalam dokumen. Tindakan Anda?",
       "options": [
         "Melaporkan kesalahan-kesalahannya ke atasan karena berakibat fatal.",
-        "Berempati kepadanya namun tetap mendiskusikan dampaknya ke pekerjaan, serta menawarkan bantuan *back-up* sementara jika diperlukan.",
+        "Berempati kepadanya namun tetap mendiskusikan dampaknya ke pekerjaan, serta menawarkan bantuan back-up sementara jika diperlukan.",
         "Memperbaiki seluruh kesalahannya secara diam-diam agar ia tidak dipecat.",
         "Menghindarinya karena tidak ingin tertular energi negatif dari masalah pribadinya.",
         "Menyuruhnya untuk mengambil cuti tanpa dibayar sampai masalahnya selesai."
@@ -3934,7 +3934,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Ada masalah pribadi rekan = EMPATI + BANTU BACK-UP SEMENTARA + TETAP JAGA STANDAR"
+          "text": "Ada masalah pribadi rekan = EMPATI + BANTU BACK-UP SEMENTARA + TETAP JAGA STANDAR."
         },
         {
           "lens": "eliminasi",
@@ -3957,19 +3957,19 @@
       "id": "bumn26-t1-s5-013",
       "subtest": "akhlak",
       "topic": "core values akhlak (sjt)",
-      "stem": "Atasan menugaskan Anda sebuah pekerjaan yang sebenarnya adalah di luar *job description* Anda dan Anda kurang menguasai bidang tersebut. Tanggapan Anda sebaiknya...",
+      "stem": "Atasan menugaskan Anda sebuah pekerjaan yang sebenarnya adalah di luar job description Anda dan Anda kurang menguasai bidang tersebut. Tanggapan Anda sebaiknya...",
       "options": [
         "Menerima tugas tersebut sebagai kesempatan belajar dan meminta bimbingan jika menemui kesulitan.",
         "Menerima tugas tersebut tapi beralasan teknis jika hasilnya nanti tidak memuaskan.",
-        "Menolak secara halus dengan menunjukkan *job description* resmi yang ditandatangani.",
+        "Menolak secara halus dengan menunjukkan job description resmi yang ditandatangani.",
         "Mendelegasikannya kepada rekan yang kebetulan ahli di bidang tersebut.",
-        "Mengerjakannya sembarangan agar ke depan tidak diberi tugas di luar *jobdesc* lagi."
+        "Mengerjakannya sembarangan agar ke depan tidak diberi tugas di luar jobdesc lagi."
       ],
       "key": 0,
       "hints": [
         {
           "lens": "kilat",
-          "text": "Tugas luar jobdesc = KESEMPATAN BELAJAR + GROWTH MINDSET. Jangan langsung ditolak pakai tameng SOP"
+          "text": "Tugas luar jobdesc = KESEMPATAN BELAJAR + GROWTH MINDSET. Jangan langsung ditolak pakai tameng SOP."
         },
         {
           "lens": "eliminasi",
@@ -3992,19 +3992,19 @@
       "id": "bumn26-t1-s5-014",
       "subtest": "akhlak",
       "topic": "core values akhlak (sjt)",
-      "stem": "Kantor Anda sedang mewajibkan program efisiensi anggaran ketat. Anda terbiasa melakukan perjalanan dinas dengan penerbangan *Business Class*. Peraturan baru mengharuskan level manajer turun kelas ke *Economy Class*. Reaksi Anda?",
+      "stem": "Kantor Anda sedang mewajibkan program efisiensi anggaran ketat. Anda terbiasa melakukan perjalanan dinas dengan penerbangan Business Class. Peraturan baru mengharuskan level manajer turun kelas ke Economy Class. Reaksi Anda?",
       "options": [
         "Membayar selisihnya menggunakan uang pribadi agar tetap terbang di kelas bisnis.",
         "Tunduk pada peraturan baru dengan ikhlas demi mendukung program efisiensi perusahaan.",
         "Protes ke direksi karena level Anda sudah sepantasnya di kelas bisnis.",
         "Mengurangi jadwal dinas luar kota karena standar fasilitas yang menurun.",
-        "Mengakali laporan keuangan agar *business class* dimasukkan ke dalam pos anggaran lain."
+        "Mengakali laporan keuangan agar business class dimasukkan ke dalam pos anggaran lain."
       ],
       "key": 1,
       "hints": [
         {
           "lens": "kilat",
-          "text": "Efisiensi perusahaan = PATUH TANPA SYARAT UNTUK KEPENTINGAN BERSAMA"
+          "text": "Efisiensi perusahaan = PATUH TANPA SYARAT UNTUK KEPENTINGAN BERSAMA."
         },
         {
           "lens": "eliminasi",
@@ -4103,7 +4103,7 @@
         "Mengucapkan terima kasih sambil secara publik memuji dan mendedikasikan keberhasilan itu pada kontribusi luar biasa dari para anggota tim Anda.",
         "Menegur atasan Anda secara tertutup karena melupakan anggota tim Anda.",
         "Mengirimi tim Anda pesan singkat berisi ucapan terima kasih secara privat sesudahnya.",
-        "Merasa bahwa wajar *leader* mendapatkan seluruh kredit karena risikonya juga di *leader*."
+        "Merasa bahwa wajar leader mendapatkan seluruh kredit karena risikonya juga di leader."
       ],
       "key": 1,
       "hints": [
@@ -4135,7 +4135,7 @@
       "stem": "Anda ditunjuk memimpin proyek digitalisasi, sementara setengah dari staf yang harus melakukan transisi adalah pegawai senior yang gagap teknologi dan enggan berubah. Apa strategi Anda?",
       "options": [
         "Merekomendasikan manajemen untuk memberhentikan pegawai yang tidak mau berubah.",
-        "Melakukan persuasi personal, menunjukkan manfaat praktis sistem baru, serta memberikan pendampingan *hands-on* secara bertahap.",
+        "Melakukan persuasi personal, menunjukkan manfaat praktis sistem baru, serta memberikan pendampingan hands-on secara bertahap.",
         "Bekerja sama hanya dengan pegawai-pegawai muda yang lebih mudah diarahkan.",
         "Memaksakan sanksi berupa potongan gaji bagi siapa saja yang terlambat adopt.",
         "Mengerjakan tugas pegawai senior tersebut secara diam-diam agar proyek tetap jalan."
@@ -4172,7 +4172,7 @@
         "Segera mencari tahu siapa rekan yang menjelek-jelekkan Anda di belakang.",
         "Marah dan mengancam akan mencari pekerjaan lain jika penilaiannya tidak direvisi.",
         "Merasa terpukul dan demotivasi selama berbulan-bulan.",
-        "Meminta penjelasan rinci untuk perbaikan diri lalu membuat *action plan* secara objektif.",
+        "Meminta penjelasan rinci untuk perbaikan diri lalu membuat action plan secara objektif.",
         "Menolak menandatangani dokumen evaluasi tersebut sebagai bentuk protes keras."
       ],
       "key": 3,
@@ -4202,7 +4202,7 @@
       "id": "bumn26-t1-s5-020",
       "subtest": "akhlak",
       "topic": "core values akhlak (sjt)",
-      "stem": "Anda diminta oleh kerabat dekat untuk membocorkan kriteria spesifik tes rekrutmen perusahaan agar anaknya bisa lolos. Padahal data tersebut diklasifikasikan *Rahasia Perusahaan*. Sikap Anda:",
+      "stem": "Anda diminta oleh kerabat dekat untuk membocorkan kriteria spesifik tes rekrutmen perusahaan agar anaknya bisa lolos. Padahal data tersebut diklasifikasikan Rahasia Perusahaan. Sikap Anda:",
       "options": [
         "Menolak tegas karena melanggar pakta integritas dan memberikan nasehat agar anaknya belajar wajar.",
         "Memberi kisi-kisi umum saja yang sebenarnya sudah ada di internet agar ia tidak tersinggung.",
@@ -4214,7 +4214,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Konflik kepentingan (Keluarga vs Aturan) = TETAP IKUT ATURAN DENGAN PENOLAKAN ETIS"
+          "text": "Konflik kepentingan (Keluarga vs Aturan) = TETAP IKUT ATURAN DENGAN PENOLAKAN ETIS."
         },
         {
           "lens": "eliminasi",
@@ -4272,9 +4272,9 @@
       "id": "bumn26-t1-s5-022",
       "subtest": "akhlak",
       "topic": "core values akhlak (sjt)",
-      "stem": "Anda merupakan karyawan Gen Z yang dinamis. Namun atasan Anda (Boomers) sering meminta *print out* fisik tebal dan revisi berulang secara manual, sangat berbeda dari kebiasaan Anda yang serba *paperless*. Reaksi Anda:",
+      "stem": "Anda merupakan karyawan Gen Z yang dinamis. Namun atasan Anda (Boomers) sering meminta print out fisik tebal dan revisi berulang secara manual, sangat berbeda dari kebiasaan Anda yang serba paperless. Reaksi Anda:",
       "options": [
-        "Memposting *ranting* tentang kebijakan kuno atasan Anda ke media sosial 'Close Friends'.",
+        "Memposting ranting tentang kebijakan kuno atasan Anda ke media sosial 'Close Friends'.",
         "Memenuhi permintaannya sambil perlahan mengedukasi dan menawarkan opsi efisiensi digital sistematis kepadanya.",
         "Menolak keras mencetak laporan karena berdalih Go-Green dan tidak efisien.",
         "Melakukan pencetakan setengah hati sambil menunda-nunda pengerjaannya.",
@@ -4284,7 +4284,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Beda gaya generasi = HORMATI CARANYA + EDUKASI BERTAHAP"
+          "text": "Beda gaya generasi = HORMATI CARANYA + EDUKASI BERTAHAP."
         },
         {
           "lens": "eliminasi",
@@ -4311,7 +4311,7 @@
       "options": [
         "Mogok kerja karena itu hak yang telah dijanjikan sebelumnya.",
         "Memahami keputusan krusial tersebut sebagai bentuk keberpihakan pada kelangsungan hidup para pegawai, dan tetap bekerja produktif.",
-        "Pura-pura kerja sambil mendirikan *side hustle* (bisnis sampingan) menggunakan fasilitas kantor.",
+        "Pura-pura kerja sambil mendirikan side hustle (bisnis sampingan) menggunakan fasilitas kantor.",
         "Menyebarkan gosip bahwa perusahaan akan bangkrut di grup-grup tak resmi.",
         "Mencari kambing hitam terhadap kinerja salah satu divisi yang menyebabkan krisis."
       ],
@@ -4345,7 +4345,7 @@
       "stem": "Anda dipercaya merangkap jabatan selama posisi fungsional sedang kosong, namun tidak ada tambahan kompensasi (hanya tambahan beban kerja). Tanggapan pertama Anda adalah...",
       "options": [
         "Menolak karena tidak ada uang insentif tambahan (No pay, no gain).",
-        "Menerima jabatan rangkap itu secara sementara dan melihatnya sebagai ajang pamer unjuk kemampuan (*show-case*) agar dilirik direktur.",
+        "Menerima jabatan rangkap itu secara sementara dan melihatnya sebagai ajang pamer unjuk kemampuan (show-case) agar dilirik direktur.",
         "Mengambil tanggung jawab tersebut karena komitmen kepada tim, dan berfokus pada target organisasi agar tetap berjalan baik.",
         "Mengerjakan tugas rangkap tersebut namun dengan performa asal-asalan.",
         "Melakukan protes resmi melalui Serikat Pekerja."
@@ -4354,7 +4354,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Rangkap jabatan sementara = AMBIL SEBAGAI KOMITMEN DAN BENTUK LOYALITAS KEPADA TIM"
+          "text": "Rangkap jabatan sementara = AMBIL SEBAGAI KOMITMEN DAN BENTUK LOYALITAS KEPADA TIM."
         },
         {
           "lens": "eliminasi",
@@ -4412,7 +4412,7 @@
       "id": "bumn26-t1-s5-026",
       "subtest": "akhlak",
       "topic": "core values akhlak (sjt)",
-      "stem": "Dalam implementasi kebijakan *Work From Anywhere* (WFA), produktivitas tim Anda malah menurun drastis karena banyak yang terlena. Sebagai supervisor, tindakan Anda adalah...",
+      "stem": "Dalam implementasi kebijakan Work From Anywhere (WFA), produktivitas tim Anda malah menurun drastis karena banyak yang terlena. Sebagai supervisor, tindakan Anda adalah...",
       "options": [
         "Langsung mencabut kebijakan WFA sepihak hari itu juga dan mewajibkan masuk kantor.",
         "Membiarkan karena Anda juga menikmati kelonggaran dari WFA.",
@@ -4424,7 +4424,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Sistem baru (WFA) gagal = EVALUASI + RESET SISTEM KONTROL GABUNGAN"
+          "text": "Sistem baru (WFA) gagal = EVALUASI + RESET SISTEM KONTROL GABUNGAN."
         },
         {
           "lens": "eliminasi",
@@ -4447,11 +4447,11 @@
       "id": "bumn26-t1-s5-027",
       "subtest": "akhlak",
       "topic": "core values akhlak (sjt)",
-      "stem": "Saat bertugas di *front desk*, Anda menghadapi komplain pelanggan luar negeri yang sama sekali tidak bisa bahasa Inggris atau bahasa Indonesia (misal: berbahasa Jepang). Sementara Anda hanya bisa Inggris. Sikap Anda:",
+      "stem": "Saat bertugas di front desk, Anda menghadapi komplain pelanggan luar negeri yang sama sekali tidak bisa bahasa Inggris atau bahasa Indonesia (misal: berbahasa Jepang). Sementara Anda hanya bisa Inggris. Sikap Anda:",
       "options": [
         "Mengabaikannya dan beralih ke pelanggan lain yang lebih mudah dilayani.",
-        "Menunjukkan gestur bingung, menolak membantunya dan menyuruh *Security* menangani.",
-        "Tetap tenang, mencoba menggunakan aplikasi penerjemah (*translator*) di ponsel untuk berkomunikasi dan memberikan layanan.",
+        "Menunjukkan gestur bingung, menolak membantunya dan menyuruh Security menangani.",
+        "Tetap tenang, mencoba menggunakan aplikasi penerjemah (translator) di ponsel untuk berkomunikasi dan memberikan layanan.",
         "Mencari-cari staf lain yang bisa bahasa Jepang sampai klien menunggu puluhan menit.",
         "Berbahasa Indonesia dengan suara keras agar dia perlahan paham."
       ],
@@ -4517,10 +4517,10 @@
       "id": "bumn26-t1-s5-029",
       "subtest": "akhlak",
       "topic": "core values akhlak (sjt)",
-      "stem": "Sebuah program *software* yang divisimu beli dengan anggaran mahal terbukti tidak berguna sama sekali dan *user-unfriendly*. Anda ditunjuk melaporkan *progress* adopsinya ke *Board of Directors*. Posisi Anda adalah...",
+      "stem": "Sebuah program software yang divisimu beli dengan anggaran mahal terbukti tidak berguna sama sekali dan user-unfriendly. Anda ditunjuk melaporkan progress adopsinya ke Board of Directors. Posisi Anda adalah...",
       "options": [
-        "Melaporkan kemajuan fiktif agar tidak ada divisi yang dimarahi karena buang-buang *budget*.",
-        "Melaporkan kondisi asli, menjelaskan analisa *barrier* ketidakbergunaannya secara objektif, dan mengajukan evaluasi opsi penghentian sistem tersebut.",
+        "Melaporkan kemajuan fiktif agar tidak ada divisi yang dimarahi karena buang-buang budget.",
+        "Melaporkan kondisi asli, menjelaskan analisa barrier ketidakbergunaannya secara objektif, dan mengajukan evaluasi opsi penghentian sistem tersebut.",
         "Menyalahkan vendor seutuhnya di depan direktur agar divisi Anda lepas tangan.",
         "Protes kenapa bukan atasan Anda saja yang presentasi fakta pahit tersebut.",
         "Meminta tim untuk memaksakan pemakaian biarpun proyek sering gagal hanya demi membuat presentasi terlihat hijau (Sukses)."
@@ -4552,10 +4552,10 @@
       "id": "bumn26-t1-s5-030",
       "subtest": "akhlak",
       "topic": "core values akhlak (sjt)",
-      "stem": "Anda merupakan karyawan unggulan dengan ritme cepat. Diberikan mitra tandem *fresh-graduate* yang ritme belajarnya sangat lamban karena gugup. Anda akan...",
+      "stem": "Anda merupakan karyawan unggulan dengan ritme cepat. Diberikan mitra tandem fresh-graduate yang ritme belajarnya sangat lamban karena gugup. Anda akan...",
       "options": [
-        "Membiarkan dia mengerjakan tugas administratif saja, sementara core *project* Anda tuntaskan sendiri.",
-        "Terus memarahinya agar terbangun *sense of urgency* khas *corporate*.",
+        "Membiarkan dia mengerjakan tugas administratif saja, sementara core project Anda tuntaskan sendiri.",
+        "Terus memarahinya agar terbangun sense of urgency khas corporate.",
         "Melakukan komplain ke HRD menuntut pergantian mitra, karena beban divisi terlampau berat.",
         "Menurunkan kecepatan Anda sesaat untuk membedah instruksi yang rumit dan melatihnya percaya diri sampai ia bisa lari bersama Anda.",
         "Menghindarinya selama jam kerja."
@@ -4599,7 +4599,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Perhatikan kata 'disahkan sebagai dasar negara'. Lahir: 1 Juni, Piagam Jakarta: 22 Juni, Disahkan: 18 Agustus"
+          "text": "Perhatikan kata 'disahkan sebagai dasar negara'. Lahir: 1 Juni, Piagam Jakarta: 22 Juni, Disahkan: 18 Agustus."
         },
         {
           "lens": "eliminasi",
@@ -4634,7 +4634,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Nasionalisme, rela berkorban, cinta tanah air, persatuan = Sila ke-3"
+          "text": "Nasionalisme, rela berkorban, cinta tanah air, persatuan = Sila ke-3."
         },
         {
           "lens": "eliminasi",
@@ -4739,7 +4739,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Tanggung jawab ke parlemen = Parlementer. Tanggung jawab ke Presiden = Presidensial"
+          "text": "Tanggung jawab ke parlemen = Parlementer. Tanggung jawab ke Presiden = Presidensial."
         },
         {
           "lens": "eliminasi",
@@ -4774,7 +4774,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Hafalan pasal vital: 18=Pemda, 27=HAM Warga, 29=Agama, 33=Ekonomi"
+          "text": "Hafalan pasal vital: 18=Pemda, 27=HAM Warga, 29=Agama, 33=Ekonomi."
         },
         {
           "lens": "eliminasi",
@@ -4809,7 +4809,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Alinea 4 memuat: Tujuan (melindungi segenap, dll), Pancasila, dan bentuk negara Republik"
+          "text": "Alinea 4 memuat: Tujuan (melindungi segenap, dll), Pancasila, dan bentuk negara Republik."
         },
         {
           "lens": "eliminasi",
@@ -4844,7 +4844,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Cinta berlebihan/merendahkan bangsa lain = Chauvinisme"
+          "text": "Cinta berlebihan/merendahkan bangsa lain = Chauvinisme."
         },
         {
           "lens": "eliminasi",
@@ -4879,7 +4879,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Sutasoma = Tantular. Negarakertagama = Prapanca"
+          "text": "Sutasoma = Tantular. Negarakertagama = Prapanca."
         },
         {
           "lens": "eliminasi",
@@ -4914,7 +4914,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Review UU vs UUD = MK. Review Peraturan di Bawah UU vs UU = MA"
+          "text": "Review UU vs UUD = MK. Review Peraturan di Bawah UU vs UU = MA."
         },
         {
           "lens": "eliminasi",

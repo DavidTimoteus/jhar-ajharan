@@ -63,8 +63,8 @@
           "text": "Jangan pilih 'nyata' - itu kebalikannya."
         }
       ],
-      "explain": 40,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **B. Rekayasa**==\n**Pembahasan:** 'Fiktif' = tidak nyata / karangan → sinonim 'rekayasa'.\n**Konsep inti:** Fiktif identik dengan khayalan, imajinasi, karangan.",
+      "targetSec": 40
     },
     {
       "id": "tkd-002",
@@ -97,8 +97,8 @@
           "text": "Jangan pilih 'sah' - itu sinonim."
         }
       ],
-      "explain": 35,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **B. Ilegal**==\n**Pembahasan:** 'Legal' = sah → lawannya 'ilegal'.\n**Konsep inti:** Legal ↔ ilegal, sah ↔ tidak sah.",
+      "targetSec": 35
     },
     {
       "id": "tkd-003",
@@ -131,7 +131,7 @@
           "text": "Jangan pilih 40 - itu hasil menambah 10 (pola beda salah)."
         }
       ],
-      "explain": 45,
+      "explain": "==Jawaban benar: **B. 42**==\n**Pembahasan:** Pola: beda bertambah 2: +4, +6, +8, +10 → berikutnya +12 = 42.\n**Konsep inti:** Deret persegi panjang: n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6 → 6×7=42.",
       "targetSec": 45
     },
     {
@@ -165,8 +165,8 @@
           "text": "Jangan pilih 96.000 - itu hasil salah mengurangi 20% dari harga jual."
         }
       ],
-      "explain": 50,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **A. Rp100.000**==\n**Pembahasan:** Harga jual = modal × 1,2 → modal = 120.000 ÷ 1,2 = 100.000.\n**Konsep inti:** Modal = harga jual / (1 + persen untung).",
+      "targetSec": 50
     },
     {
       "id": "tkd-005",
@@ -199,8 +199,8 @@
           "text": "Jangan pilih 'penyaluran' - mirip bunyi tapi makna berbeda."
         }
       ],
-      "explain": 40,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **A. Penyimpangan**==\n**Pembahasan:** 'Distorsi' = penyimpangan/perubahan dari keadaan seharusnya.\n**Konsep inti:** Distorsi = pengubahan, pemutarbalikan, penyimpangan.",
+      "targetSec": 40
     },
     {
       "id": "tkd-006",
@@ -233,8 +233,8 @@
           "text": "Jangan pilih 'jelas' - sinonim, bukan antonim."
         }
       ],
-      "explain": 35,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **B. Tertutup**==\n**Pembahasan:** 'Transparan' = terbuka/jelas → lawannya 'tertutup'.\n**Konsep inti:** Transparan ↔ tertutup, jelas ↔ samar.",
+      "targetSec": 35
     },
     {
       "id": "tkd-007",
@@ -267,7 +267,7 @@
           "text": "Jangan pilih 121 - itu 11² (kuadrat, bukan kubik)."
         }
       ],
-      "explain": 45,
+      "explain": "==Jawaban benar: **C. 125**==\n**Pembahasan:** Deret kubik: 1³, 2³, 3³, 4³ → 5³ = 125.\n**Konsep inti:** Deret kubik: n³. 5³ = 125.",
       "targetSec": 45
     },
     {
@@ -301,8 +301,8 @@
           "text": "Jangan pilih 10 - itu jumlah yang SUKA, bukan yang tidak suka."
         }
       ],
-      "explain": 40,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **A. 30**==\n**Pembahasan:** Suka matematika = 25% × 40 = 10 → tidak suka = 40 - 10 = 30.\n**Konsep inti:** Cara cepat: tidak suka = 75% × 40 = 30.",
+      "targetSec": 40
     },
     {
       "id": "tkd-009",
@@ -335,8 +335,8 @@
           "text": "Jangan pilih 'penghargaan' - benar, ini jawaban yang tepat."
         }
       ],
-      "explain": 35,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **A. Penghargaan**==\n**Pembahasan:** 'Apresiasi' = penghargaan/pengakuan atas nilai sesuatu.\n**Konsep inti:** Apresiasi = respek, penghormatan, penghargaan.",
+      "targetSec": 35
     },
     {
       "id": "tkd-010",
@@ -369,8 +369,8 @@
           "text": "Jangan pilih 'diam' - sinonim, bukan antonim."
         }
       ],
-      "explain": 35,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **B. Dinamis**==\n**Pembahasan:** 'Statis' = tetap/diam → lawannya 'dinamis' = bergerak/berubah.\n**Konsep inti:** Statis ↔ dinamis, tetap ↔ berubah.",
+      "targetSec": 35
     },
     {
       "id": "tkd-011",
@@ -403,8 +403,8 @@
           "text": "Jangan pilih 63 - itu hasil 33+30 (pola beda salah)."
         }
       ],
-      "explain": 50,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **D. 65**==\n**Pembahasan:** Pola: ×2 - 1 setiap suku: 3→5(×2-1), 5→9(×2-1), 9→17, 17→33 → 33×2-1 = 65.\n**Konsep inti:** Pola majemuk: kalikan dua lalu kurangi satu.",
+      "targetSec": 50
     },
     {
       "id": "tkd-012",
@@ -437,7 +437,7 @@
           "text": "Jangan pilih 11 - itu hasil asumsi tanpa eliminasi."
         }
       ],
-      "explain": 45,
+      "explain": "==Jawaban benar: **C. 10**==\n**Pembahasan:** Jumlahkan: 2x = 20 → x = 10.\n**Konsep inti:** Sistem linear: tambahkan persamaan untuk menghilangkan y.",
       "targetSec": 45
     },
     {
@@ -471,8 +471,8 @@
           "text": "Jangan pilih 'keuntungan' - itu hasil, bukan sumbangan."
         }
       ],
-      "explain": 35,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **A. Sumbangan**==\n**Pembahasan:** 'Kontribusi' = sumbangan/peran serta dalam suatu usaha.\n**Konsep inti:** Kontribusi = andil, peran, sumbangan.",
+      "targetSec": 35
     },
     {
       "id": "tkd-014",
@@ -505,8 +505,8 @@
           "text": "Jangan pilih 'kebanyakan' - sinonim."
         }
       ],
-      "explain": 30,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **A. Minoritas**==\n**Pembahasan:** 'Mayoritas' = jumlah terbanyak → lawannya 'minoritas'.\n**Konsep inti:** Mayoritas ↔ minoritas.",
+      "targetSec": 30
     },
     {
       "id": "tkd-015",
@@ -539,8 +539,8 @@
           "text": "Jangan pilih 270 - itu hasil menambah 135 (pola salah)."
         }
       ],
-      "explain": 40,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **B. 405**==\n**Pembahasan:** Pola: kali 3 setiap suku. 135 × 3 = 405.\n**Konsep inti:** Deret geometri rasio 3.",
+      "targetSec": 40
     },
     {
       "id": "tkd-016",
@@ -573,7 +573,7 @@
           "text": "Jangan pilih 85 - itu hasil rata-rata dua siswa."
         }
       ],
-      "explain": 45,
+      "explain": "==Jawaban benar: **C. 80**==\n**Pembahasan:** Total = 3 × 80 = 240. Dua siswa = 160. Ketiga = 240 - 160 = 80.\n**Konsep inti:** Nilai hilang = (rata × n) - jumlah yang ada.",
       "targetSec": 45
     },
     {
@@ -607,8 +607,8 @@
           "text": "Jangan pilih 'hemat' - bukan pilihan, 'tepat guna' adalah sinonim baku."
         }
       ],
-      "explain": 35,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **B. Tepat guna**==\n**Pembahasan:** 'Efisien' = tepat guna / tidak membuang sumber daya.\n**Konsep inti:** Efisien = hemat, cermat, berdaya guna.",
+      "targetSec": 35
     },
     {
       "id": "tkd-018",
@@ -641,8 +641,8 @@
           "text": "Jangan pilih 'jelas' - sinonim."
         }
       ],
-      "explain": 35,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **A. Implisit**==\n**Pembahasan:** 'Eksplisit' = dinyatakan jelas/terang-terangan → lawannya 'implisit' = tersirat.\n**Konsep inti:** Eksplisit ↔ implisit, terang-terangan ↔ tersirat.",
+      "targetSec": 35
     },
     {
       "id": "tkd-019",
@@ -675,8 +675,8 @@
           "text": "Jangan pilih 78 - itu hasil 47+31 (pola salah)."
         }
       ],
-      "explain": 55,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **A. 76**==\n**Pembahasan:** Pola: beda 4, 7, 11, 18 (Fibonacci) → beda berikutnya 29 → 47+29 = 76.\n**Konsep inti:** Deret beda Fibonacci: beda mengikuti pola 4,7,11,18,29.",
+      "targetSec": 55
     },
     {
       "id": "tkd-020",
@@ -702,15 +702,15 @@
         },
         {
           "lens": "logika",
-          "text": "Nilai = modal × (1+r)^n = 10jt × 1,05² = 11.025.000."
+          "text": "Nilai = modal × (1+r)ⁿ = 10jt × 1,05² = 11.025.000."
         },
         {
           "lens": "jebakan",
           "text": "Jangan pilih 11.000.000 - itu bunga sederhana 5% × 2 tahun."
         }
       ],
-      "explain": 55,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **A. Rp11.025.000**==\n**Pembahasan:** Tahun 1: 10.000.000 × 1,05 = 10.500.000. Tahun 2: × 1,05 = 11.025.000.\n**Konsep inti:** Nilai = modal × (1+r)ⁿ = 10jt × 1,05² = 11.025.000.",
+      "targetSec": 55
     },
     {
       "id": "akhlak-001",
@@ -749,8 +749,8 @@
           "text": "Jangan pilih 'menunjukkan karena rekan' - kerahasiaan tidak tergantung kedekatan."
         }
       ],
-      "explain": 45,
-      "targetSec": 40
+      "explain": "==Opsi terbaik (Poin 5): **B. Menolak dengan sopan karena data itu belum boleh dibuka sesuai ketentuan**==\n**Alasan:** Amanah = menjaga kerahasiaan sesuai ketentuan. Menolak sopan = 5.\n**Prinsip:** Nilai Amanah: memegang teguh kepercayaan, menjaga data, tidak menyalahgunakan informasi.",
+      "targetSec": 45
     },
     {
       "id": "akhlak-002",
@@ -789,8 +789,8 @@
           "text": "Jangan pilih 'menunggu pelatihan wajib' - pasif, kompetensi dibangun proaktif."
         }
       ],
-      "explain": 45,
-      "targetSec": 40
+      "explain": "==Opsi terbaik (Poin 5): **B. Belajar mandiri dan bertanya pada yang lebih paham agar cepat menguasai**==\n**Alasan:** Kompeten = terus belajar dan meningkatkan kapabilitas. Proaktif belajar = 5.\n**Prinsip:** Nilai Kompeten: meningkatkan kemampuan diri, adaptif terhadap teknologi baru.",
+      "targetSec": 45
     },
     {
       "id": "akhlak-003",
@@ -829,8 +829,8 @@
           "text": "Jangan pilih 'memutuskan sendiri' - otoriter, bukan harmonis."
         }
       ],
-      "explain": 45,
-      "targetSec": 40
+      "explain": "==Opsi terbaik (Poin 5): **B. Menjadi penengah dengan mendengarkan kedua sisi dan mencari solusi bersama**==\n**Alasan:** Harmonis = peduli sesama, membangun lingkungan kerja positif. Menengahi = 5.\n**Prinsip:** Nilai Harmonis: menghargai perbedaan, menjadi penengah yang sehat.",
+      "targetSec": 45
     },
     {
       "id": "akhlak-004",
@@ -869,8 +869,8 @@
           "text": "Jangan pilih 'menuntut penjelasan ke semua orang' - itu memperluas isu."
         }
       ],
-      "explain": 45,
-      "targetSec": 40
+      "explain": "==Opsi terbaik (Poin 5): **B. Menjaga citra perusahaan dengan tidak ikut menyebar isu dan tetap bekerja profesional**==\n**Alasan:** Loyal = membela kepentingan perusahaan. Jaga citra + tetap kerja = 5.\n**Prinsip:** Nilai Loyal: berdedikasi, menjaga nama baik perusahaan.",
+      "targetSec": 45
     },
     {
       "id": "akhlak-005",
@@ -909,8 +909,8 @@
           "text": "Jangan pilih 'menolak perubahan' - anti-adaptasi."
         }
       ],
-      "explain": 45,
-      "targetSec": 40
+      "explain": "==Opsi terbaik (Poin 5): **B. Menerima perubahan dan menyesuaikan diri dengan peran baru**==\n**Alasan:** Adaptif = inovatif dan proaktif menghadapi perubahan. Terima + sesuaikan = 5.\n**Prinsip:** Nilai Adaptif: cepat menyesuaikan diri, terus berinovasi.",
+      "targetSec": 45
     },
     {
       "id": "akhlak-006",
@@ -949,8 +949,8 @@
           "text": "Jangan pilih 'melaporkan tanpa komunikasi' - eskalasi prematur."
         }
       ],
-      "explain": 45,
-      "targetSec": 40
+      "explain": "==Opsi terbaik (Poin 5): **B. Menghubungi divisi terkait, menawarkan bantuan, dan mencari solusi bersama**==\n**Alasan:** Kolaboratif = terbuka bekerja sama, membangun sinergi. Hubungi + bantu = 5.\n**Prinsip:** Nilai Kolaboratif: membangun kerja sama, saling membantu.",
+      "targetSec": 45
     },
     {
       "id": "akhlak-007",
@@ -989,8 +989,8 @@
           "text": "Jangan pilih 'membagikan ke tim' - itu tindakan koruptif."
         }
       ],
-      "explain": 45,
-      "targetSec": 40
+      "explain": "==Opsi terbaik (Poin 5): **B. Melaporkan ke atasan dan mengembalikan sesuai prosedur**==\n**Alasan:** Amanah = dapat dipercaya dalam pengelolaan sumber daya. Laporkan + kembalikan = 5.\n**Prinsip:** Nilai Amanah: tanggung jawab penuh atas sumber daya perusahaan.",
+      "targetSec": 45
     },
     {
       "id": "akhlak-008",
@@ -1029,8 +1029,8 @@
           "text": "Jangan pilih 'mengaku sudah bisa' - itu bohong profesional."
         }
       ],
-      "explain": 45,
-      "targetSec": 40
+      "explain": "==Opsi terbaik (Poin 5): **B. Menerima, mempelajari teknologi itu, dan mencari mentor yang berpengalaman**==\n**Alasan:** Kompeten = berani menerima tantangan sambil meningkatkan kemampuan. Terima + belajar = 5.\n**Prinsip:** Nilai Kompeten: terus belajar, berani tantangan.",
+      "targetSec": 45
     },
     {
       "id": "akhlak-009",
@@ -1069,8 +1069,8 @@
           "text": "Jangan pilih 'membicarakan ke rekan lain' - itu gosip."
         }
       ],
-      "explain": 45,
-      "targetSec": 40
+      "explain": "==Opsi terbaik (Poin 5): **B. Menawarkan bantuan dan memberi ruang tanpa menghakimi**==\n**Alasan:** Harmonis = peduli dan saling membantu. Tawarkan bantuan = 5.\n**Prinsip:** Nilai Harmonis: kepedulian pada rekan, lingkungan kerja suportif.",
+      "targetSec": 45
     },
     {
       "id": "akhlak-010",
@@ -1109,8 +1109,8 @@
           "text": "Jangan pilih 'mengancam pindah untuk menaikkan gaji' - itu pemerasan."
         }
       ],
-      "explain": 45,
-      "targetSec": 40
+      "explain": "==Opsi terbaik (Poin 5): **B. Mempertimbangkan dengan matang dan mendiskusikan rencana karier dengan atasan**==\n**Alasan:** Loyal = berdedikasi tapi juga profesional dalam karier. Diskusikan = 5.\n**Prinsip:** Nilai Loyal: dedikasi jangka panjang, komunikasi terbuka soal karier.",
+      "targetSec": 45
     },
     {
       "id": "bhs-001",
@@ -1143,8 +1143,8 @@
           "text": "Jangan pilih 'go' - subjek she butuh akhiran -es."
         }
       ],
-      "explain": 40,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **B. goes**==\n**Pembahasan:** Subjek tunggal (She) + kebiasaan (every day) → Simple Present 'goes'.\n**Konsep inti:** Rumus Simple Present: S + V1(s/es) untuk he/she/it.",
+      "targetSec": 40
     },
     {
       "id": "bhs-002",
@@ -1177,8 +1177,8 @@
           "text": "Jangan pilih 'rise' - sinonim."
         }
       ],
-      "explain": 35,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **B. decrease**==\n**Pembahasan:** 'Increase' = naik/bertambah → lawannya 'decrease' = turun/berkurang.\n**Konsep inti:** Increase ↔ decrease, naik ↔ turun.",
+      "targetSec": 35
     },
     {
       "id": "bhs-003",
@@ -1211,8 +1211,8 @@
           "text": "Jangan pilih 'He doesn't likes' - verb setelah does harus V1 tanpa s."
         }
       ],
-      "explain": 40,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **C. He doesn't like coffee**==\n**Pembahasan:** Simple Present negatif untuk he/she/it: does + not + V1 → 'He doesn't like coffee'.\n**Konsep inti:** Rumus negatif: S + does not + V1.",
+      "targetSec": 40
     },
     {
       "id": "bhs-004",
@@ -1245,7 +1245,7 @@
           "text": "Jangan pilih 'higher salary' - tidak ada dalam teks."
         }
       ],
-      "explain": 45,
+      "explain": "==Jawaban benar: **B. Flexible working hours**==\n**Pembahasan:** Kalimat menyebut 'flexible working hours' sebagai fasilitas yang membantu keseimbangan kerja-hidup.\n**Konsep inti:** Scan kalimat untuk kata kunci 'allows employees to balance'.",
       "targetSec": 45
     },
     {
@@ -1279,8 +1279,8 @@
           "text": "Jangan pilih 'finish' - antonim."
         }
       ],
-      "explain": 35,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **B. start**==\n**Pembahasan:** 'Commence' = memulai → sinonim 'start'.\n**Konsep inti:** Commence = begin, start, initiate.",
+      "targetSec": 35
     },
     {
       "id": "bhs-006",
@@ -1313,8 +1313,8 @@
           "text": "Jangan pilih 'holds' - subjek we butuh will + V1."
         }
       ],
-      "explain": 40,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **A. will hold**==\n**Pembahasan:** Conditional type 1: If + Simple Present, will + V1 → 'will hold'.\n**Konsep inti:** Rumus: If + V1, will + V1.",
+      "targetSec": 40
     },
     {
       "id": "bhs-007",
@@ -1347,8 +1347,8 @@
           "text": "Jangan pilih 'cause and effect' - 'despite' bukan penanda sebab-akibat."
         }
       ],
-      "explain": 40,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **B. Contrast**==\n**Pembahasan:** 'Despite' = meskipun → menunjukkan hubungan kontras (contrast).\n**Konsep inti:** Kata kontras: despite, although, however, but.",
+      "targetSec": 40
     },
     {
       "id": "bhs-008",
@@ -1381,8 +1381,8 @@
           "text": "Jangan pilih 'impossible' - kebalikannya."
         }
       ],
-      "explain": 35,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **B. Possible and practical**==\n**Pembahasan:** 'Feasible' = dapat dilaksanakan/mungkin secara praktis.\n**Konsep inti:** Feasible = workable, achievable, viable.",
+      "targetSec": 35
     },
     {
       "id": "bhs-009",
@@ -1415,7 +1415,7 @@
           "text": "Jangan pilih 'The manager was approved by the budget' - subjek objek tertukar."
         }
       ],
-      "explain": 45,
+      "explain": "==Jawaban benar: **A. The budget was approved by the manager**==\n**Pembahasan:** Passive past: was/were + V3 → 'The budget was approved by the manager'.\n**Konsep inti:** Rumus passive: be + V3 (+ by pelaku).",
       "targetSec": 45
     },
     {
@@ -1449,8 +1449,8 @@
           "text": "Jangan pilih 'after Friday' - kebalikan instruksi."
         }
       ],
-      "explain": 40,
-      "targetSec": 45
+      "explain": "==Jawaban benar: **A. Submit suggestions before Friday**==\n**Pembahasan:** Kalimat meminta saran dikumpulkan sebelum Jumat.\n**Konsep inti:** Scan untuk kata kerja 'submit' dan waktu 'before Friday'.",
+      "targetSec": 40
     }
   ]
 }

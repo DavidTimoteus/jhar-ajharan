@@ -47,7 +47,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Petakan kasus ke nilai inti Sila: 1 (toleransi/iman), 2 (empati/kemanusiaan adil), 3 (persatuan/cinta produk RI), 4 (musyawarah), 5 (adil sosial). Petunjuk inti: Ideologi terbuka berarti nilai dasarnya bersifat tetap, sementara nilai instrumental dan praksisny"
+          "text": "Petakan kasus ke nilai inti Sila: 1 (toleransi/iman), 2 (empati/kemanusiaan adil), 3 (persatuan/cinta produk RI), 4 (musyawarah), 5 (adil sosial). Petunjuk inti: Ideologi terbuka berarti nilai dasarnya bersifat tetap, sementara nilai instrumental dan praksisny."
         },
         {
           "lens": "eliminasi",
@@ -572,7 +572,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Rela berkorban berarti mendahulukan kepentingan bangsa dengan tetap bertanggung jawab, termasuk menjaga kesel"
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Rela berkorban berarti mendahulukan kepentingan bangsa dengan tetap bertanggung jawab, termasuk menjaga kesel."
         },
         {
           "lens": "eliminasi",
@@ -677,7 +677,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Hubungan keluarga dalam proses pengadaan wajib diungkapkan dan pegawai yang bersangkutan harus mundur dari pr"
+          "text": "Cari perilaku nyata sesuai nilai Integritas (jujur, mandiri, tanggung jawab) atau unsur Bela Negara (cinta tanah air, sadar berbangsa). Petunjuk inti: Hubungan keluarga dalam proses pengadaan wajib diungkapkan dan pegawai yang bersangkutan harus mundur dari pr."
         },
         {
           "lens": "eliminasi",
@@ -1016,7 +1016,7 @@
       "id": "cpns26-p3-p3-twk-29",
       "subtest": "twk",
       "topic": "bahasa indonesia",
-      "stem": "Bacalah paragraf berikut.\n\n\"Pemerintah daerah menambah jumlah armada bus perintis di wilayah terpencil. Kebijakan ini menekan biaya transportasi warga hingga separuh. Anak-anak yang sebelumnya berjalan kaki berjam-jam kini dapat bersekolah tepat waktu.\"\n\nSimpulan yang tepat untuk paragraf tersebut adalah...",
+      "stem": "Bacalah paragraf berikut.\n\"Pemerintah daerah menambah jumlah armada bus perintis di wilayah terpencil. Kebijakan ini menekan biaya transportasi warga hingga separuh. Anak-anak yang sebelumnya berjalan kaki berjam-jam kini dapat bersekolah tepat waktu.\"\nSimpulan yang tepat untuk paragraf tersebut adalah...",
       "options": [
         "Armada bus perintis merupakan program termahal pemerintah daerah",
         "Penambahan armada bus perintis memberi dampak positif pada biaya transportasi dan akses pendidikan",
@@ -1552,7 +1552,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Pembagian pecahan diubah menjadi perkalian dengan kebalikannya: 3/4 dikali 16/9 sama dengan 48/36 yang dised"
+          "text": "Buat kalimat penghubung spesifik dari kiri ke kanan (mis. 'X bekerja di Y' atau 'X bagian dari Y'), lalu terapkan pola persis yang sama. Petunjuk inti: Pembagian pecahan diubah menjadi perkalian dengan kebalikannya: 3/4 dikali 16/9 sama dengan 48/36 yang dised."
         },
         {
           "lens": "eliminasi",
@@ -1637,7 +1637,7 @@
           "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
         }
       ],
-      "explain": "x + y = 0,7 dan y - x = 0,3. Maka 0,7 dibagi 0,3 sama dengan 7/3 atau kira-kira 2,33.",
+      "explain": "X + y = 0,7 dan y - x = 0,3. Maka 0,7 dibagi 0,3 sama dengan 7/3 atau kira-kira 2,33.",
       "targetSec": 60,
       "source": "SKD CPNS 2026 · Paket 3",
       "key": 2
@@ -2206,7 +2206,7 @@
       "id": "cpns26-p3-p3-tiu-33",
       "subtest": "tiu",
       "topic": "silogisme",
-      "stem": "Semua data yang diverifikasi dapat dipublikasikan. Sebagian data di server ini belum diverifikasi.\n\nKesimpulan yang tepat adalah...",
+      "stem": "Semua data yang diverifikasi dapat dipublikasikan. Sebagian data di server ini belum diverifikasi.\nKesimpulan yang tepat adalah...",
       "options": [
         "Semua data di server ini dapat dipublikasikan",
         "Sebagian data di server ini belum tentu dapat dipublikasikan",
@@ -2241,7 +2241,7 @@
       "id": "cpns26-p3-p3-tiu-34",
       "subtest": "tiu",
       "topic": "analitis",
-      "stem": "Lima laporan diselesaikan berurutan. Laporan Keuangan selesai sebelum Laporan Aset. Laporan Kinerja selesai paling akhir. Laporan Kepegawaian selesai pertama. Laporan Aset selesai sebelum Laporan Pengadaan.\n\nUrutan penyelesaian yang benar adalah...",
+      "stem": "Lima laporan diselesaikan berurutan. Laporan Keuangan selesai sebelum Laporan Aset. Laporan Kinerja selesai paling akhir. Laporan Kepegawaian selesai pertama. Laporan Aset selesai sebelum Laporan Pengadaan.\nUrutan penyelesaian yang benar adalah...",
       "options": [
         "Kepegawaian, Keuangan, Aset, Pengadaan, Kinerja",
         "Kepegawaian, Aset, Keuangan, Pengadaan, Kinerja",
@@ -2252,7 +2252,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Pekerja bertambah → waktu pasti berkurang (kalikan Orang × Hari = Orang baru × Hari baru; jika koma, bulatkan orang ke atas). Susul-menyusul: Jarak duluan ÷ (Kecepatan penyusul − yang disusul). Petunjuk inti: Kepegawaian mengunci posisi pertama dan Kinerja pos"
+          "text": "Pekerja bertambah → waktu pasti berkurang (kalikan Orang × Hari = Orang baru × Hari baru; jika koma, bulatkan orang ke atas). Susul-menyusul: Jarak duluan ÷ (Kecepatan penyusul − yang disusul). Petunjuk inti: Kepegawaian mengunci posisi pertama dan Kinerja pos."
         },
         {
           "lens": "eliminasi",

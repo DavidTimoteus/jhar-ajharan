@@ -400,7 +400,7 @@
           "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
         }
       ],
-      "explain": "Semua mesin mempunyai katup. Sebagian mesin berukuran kecil. → Sebagian mesin berukuran tidak kecil Jadi, kesimpulannya Sebagian mesin berukuran tidak kecil dan memiliki katup",
+      "explain": "Semua mesin mempunyai katup. Sebagian mesin berukuran kecil. → Sebagian mesin berukuran tidak kecil Jadi, kesimpulannya Sebagian mesin berukuran tidak kecil dan memiliki katup.",
       "targetSec": 55,
       "source": "Drill HOTS TIU · Penalaran & Analogi"
     },
@@ -820,7 +820,7 @@
           "text": "Sering kali dua suku berurutan bukan satu deret, melainkan gabungan 2 deret berselang-seling."
         }
       ],
-      "explain": "Metode penanganan kanker semakin modern. Sejak pertama diketahui mengidap kanker, • pada tahun 1960-an, 60% penderita kanker hidup selama 5 tahun, • pada tahun 1980-an, 65% penderita kanker hidup selama 8 tahun. 17 Jadi, kesimpulannya adalah Tahun 1980-an lebih banyak penderita kanker yang ditangani lebih baik daripada penderita kanker pada tahun 1960-an.",
+      "explain": "Metode penanganan kanker semakin modern. Sejak pertama diketahui mengidap kanker,\n• pada tahun 1960-an, 60% penderita kanker hidup selama 5 tahun,\n• pada tahun 1980-an, 65% penderita kanker hidup selama 8 tahun. 17 Jadi, kesimpulannya adalah Tahun 1980-an lebih banyak penderita kanker yang ditangani lebih baik daripada penderita kanker pada tahun 1960-an.",
       "targetSec": 55,
       "source": "Drill HOTS TIU · Penalaran & Analogi"
     },
@@ -875,7 +875,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Jadi, kesimpulan yang tepat tentang bola lampu 20 watt adalah Tidak lebih tahan lama dan tidak lebih mahal daripada lampu neon 20"
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: Jadi, kesimpulan yang tepat tentang bola lampu 20 watt adalah Tidak lebih tahan lama dan tidak lebih mahal daripada lampu neon 20."
         },
         {
           "lens": "eliminasi",
@@ -925,7 +925,7 @@
           "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
         }
       ],
-      "explain": "2 4 8 14 22 32 +2 +4 +6 +8 +10",
+      "explain": "2 4 8 14 22 32 +2 +4 +6 +8 +10.",
       "targetSec": 55,
       "source": "Drill HOTS TIU · Penalaran & Analogi"
     },
@@ -995,7 +995,7 @@
           "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
         }
       ],
-      "explain": "P Q = × = × = × = × = 0 573 6 54 0 573 100 6 54 0 573 6 54 100 6 54 0 573 6 5 , % , , , , , , % , , 4 100 0 573 6 54 0 573 100 0 573 6 54 100 × = × = × , , , , , Jadi diperoleh: P = Q",
+      "explain": "P = 0,573% × 6,54 = (0,573 × 6,54) / 100.\nQ = 6,54% × 0,573 = (6,54 × 0,573) / 100.\nKarena perkalian bersifat komutatif, nilai P = Q.",
       "targetSec": 55,
       "source": "Drill HOTS TIU · Penalaran & Analogi"
     },
@@ -1015,7 +1015,7 @@
       "hints": [
         {
           "lens": "kilat",
-          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: A B = × = × = × = × = × 331 3 18 100 3 18 100 300 18 1 3 18 1 3 19 % % 18 Karena 18 < 19 maka 1 3 18 1 3 19 × < × Akibatnya, A < "
+          "text": "Hafal jurus silogisme: 'Semua' + 'Sebagian' selalu menghasilkan 'Sebagian'; jangan menyimpulkan hal di luar premis. Petunjuk inti: A B = × = × = × = × = × 331 3 18 100 3 18 100 300 18 1 3 18 1 3 19 % % 18 Karena 18 < 19 maka 1 3 18 1 3 19 × < × Akibatnya, A <."
         },
         {
           "lens": "eliminasi",
@@ -1030,7 +1030,7 @@
           "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
         }
       ],
-      "explain": "A B = × = × = × = × = × 331 3 18 100 3 18 100 300 18 1 3 18 1 3 19 % % 18 Karena 18 < 19 maka 1 3 18 1 3 19 × < × Akibatnya, A < B",
+      "explain": "A B = × = × = × = × = × 331 3 18 100 3 18 100 300 18 1 3 18 1 3 19 % % 18 Karena 18 < 19 maka 1 3 18 1 3 19 × < × Akibatnya, A < B.",
       "targetSec": 55,
       "source": "Drill HOTS TIU · Penalaran & Analogi"
     },
@@ -1065,7 +1065,7 @@
           "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
         }
       ],
-      "explain": "6M5 × 7 = 4445 4445 : 7 = 635 Jadi, M = 3",
+      "explain": "6M5 × 7 = 4445 4445 : 7 = 635 Jadi, M = 3.",
       "targetSec": 55,
       "source": "Drill HOTS TIU · Penalaran & Analogi"
     },
@@ -1100,7 +1100,7 @@
           "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
         }
       ],
-      "explain": "62N × N = 3.125 Untuk nilai N × N yang hasil perkalian mempunyai nilai satuan 5, hanya dipenuhi jika N = 5. Jadi, N = 5. Bukti: 625 × 5 = 3125",
+      "explain": "62N × N = 3.125 Untuk nilai N × N yang hasil perkalian mempunyai nilai satuan 5, hanya dipenuhi jika N = 5. Jadi, N = 5. Bukti: 625 × 5 = 3125.",
       "targetSec": 55,
       "source": "Drill HOTS TIU · Penalaran & Analogi"
     },
@@ -1108,7 +1108,7 @@
       "id": "tiu-hots-32",
       "subtest": "tiu",
       "topic": "penalaran logis",
-      "stem": "8 p = p 12,5 Nilai p pada persamaan di atas adalah ….",
+      "stem": "8 / p = p / 12,5\nNilai p positif pada persamaan di atas adalah…",
       "options": [
         "100",
         "64",
@@ -1135,7 +1135,7 @@
           "text": "Baca ulang kalimat pertanyaan terakhir (termasuk kata 'kecuali' atau satuan) sebelum mengunci pilihan."
         }
       ],
-      "explain": "8 12 5 8 12 5 100 100 10 2 2 p p p p p = = × = = = , ,",
+      "explain": "Kali silang persamaan:\np² = 8 × 12,5 = 100 → p = √100 = 10.",
       "targetSec": 55,
       "source": "Drill HOTS TIU · Penalaran & Analogi"
     },
@@ -1143,7 +1143,7 @@
       "id": "tiu-hots-33",
       "subtest": "tiu",
       "topic": "penalaran logis",
-      "stem": "q 12,5% = 32 q Nilai q pada persamaan di atas adalah ….",
+      "stem": "q / 12,5% = 32 / q\nNilai q positif pada persamaan di atas adalah…",
       "options": [
         "1",
         "2",
@@ -1170,7 +1170,7 @@
           "text": "Diskon 50% + 20% bukan 70%, melainkan 100% → 50% → sisa 40% (total potongan 60%)."
         }
       ],
-      "explain": "q q q q 12 5 32 12 5 32 12 5 100 32 1 8 32 4 4 2 2 , % , % , = = × = × = × = = =",
+      "explain": "Ubah 12,5% = 1/8, lalu kali silang:\nq² = 32 × 12,5% = 32 × (1/8) = 4 → q = √4 = 2.",
       "targetSec": 55,
       "source": "Drill HOTS TIU · Penalaran & Analogi"
     },
@@ -1240,7 +1240,7 @@
           "text": "Jangan terkecoh oleh kata yang berasal dari bidang tema sama tetapi relasi fungsionalnya berbeda."
         }
       ],
-      "explain": "Ingat: 1 jam = 60 menit 1 menit = 60 detik Data: 3 jam, 35 menit, 25 detik. 4 jam, 45 menit, 35 detik. + 7 jam, 80 menit, 60 detik ⇔7 jam, 81 menit, 0 detik ⇔8 jam, 21 menit, 0 detik",
+      "explain": "Ingat: 1 jam = 60 menit 1 menit = 60 detik Data: 3 jam, 35 menit, 25 detik. 4 jam, 45 menit, 35 detik. + 7 jam, 80 menit, 60 detik ⇔7 jam, 81 menit, 0 detik ⇔8 jam, 21 menit, 0 detik.",
       "targetSec": 55,
       "source": "Drill HOTS TIU · Penalaran & Analogi"
     },
@@ -1248,7 +1248,7 @@
       "id": "tiu-hots-47",
       "subtest": "tiu",
       "topic": "penalaran analitik",
-      "stem": "Teks: Tina adalah karyawan yang wajib memakai baju seragam dengan warna biru, putih, merah, kuning, dan hijau; selama lima hari kerja, yaitu Senin sampai Jumat. 1. Baju merah dipakai setelah baju kuning 2. Baju hijau boleh dipakai sebelum baju biru yang dipakai pada hari Jumat 3. Baju kuning harus dipakai pada hari Selasa\n\nUrutan warna baju dipakai Tina di hari Senin, Rabu, dan Jumat adalah ….",
+      "stem": "Teks: Tina adalah karyawan yang wajib memakai baju seragam dengan warna biru, putih, merah, kuning, dan hijau; selama lima hari kerja, yaitu Senin sampai Jumat. 1. Baju merah dipakai setelah baju kuning 2. Baju hijau boleh dipakai sebelum baju biru yang dipakai pada hari Jumat 3. Baju kuning harus dipakai pada hari Selasa\nUrutan warna baju dipakai Tina di hari Senin, Rabu, dan Jumat adalah ….",
       "options": [
         "Putih, merah, biru",
         "Biru, kuning, hijau",
@@ -1275,7 +1275,7 @@
           "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
         }
       ],
-      "explain": "Dari pembahasan nomor 46, diperoleh: Senin: putih Rabu: merah Jumat: biru",
+      "explain": "Dari pembahasan nomor 46, diperoleh: Senin: putih Rabu: merah Jumat: biru.",
       "targetSec": 75,
       "source": "Drill HOTS TIU · Penalaran & Analogi"
     },
@@ -1283,7 +1283,7 @@
       "id": "tiu-hots-48",
       "subtest": "tiu",
       "topic": "penalaran analitik",
-      "stem": "Teks: Tina adalah karyawan yang wajib memakai baju seragam dengan warna biru, putih, merah, kuning, dan hijau; selama lima hari kerja, yaitu Senin sampai Jumat. 1. Baju merah dipakai setelah baju kuning 2. Baju hijau boleh dipakai sebelum baju biru yang dipakai pada hari Jumat 3. Baju kuning harus dipakai pada hari Selasa\n\nUrutan warna baju dipakai oleh Tina mulai hari Rabu, Kamis, dan Jumat adalah ….",
+      "stem": "Teks: Tina adalah karyawan yang wajib memakai baju seragam dengan warna biru, putih, merah, kuning, dan hijau; selama lima hari kerja, yaitu Senin sampai Jumat. 1. Baju merah dipakai setelah baju kuning 2. Baju hijau boleh dipakai sebelum baju biru yang dipakai pada hari Jumat 3. Baju kuning harus dipakai pada hari Selasa\nUrutan warna baju dipakai oleh Tina mulai hari Rabu, Kamis, dan Jumat adalah ….",
       "options": [
         "Biru, kuning, hijau",
         "Kuning, biru, putih",
@@ -1310,7 +1310,7 @@
           "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
         }
       ],
-      "explain": "Dari pembahasan nomor 46, diperoleh: Rabu: merah Kamis: hijau Jumat: Biru",
+      "explain": "Dari pembahasan nomor 46, diperoleh: Rabu: merah Kamis: hijau Jumat: Biru.",
       "targetSec": 75,
       "source": "Drill HOTS TIU · Penalaran & Analogi"
     },
@@ -1318,7 +1318,7 @@
       "id": "tiu-hots-49",
       "subtest": "tiu",
       "topic": "penalaran analitik",
-      "stem": "Teks: Pada suatu jamuan makan malam, 8 orang eksekutif muda (Aga, Didi, Lala, Laura, Gael, Michael, Rani, dan Togi) duduk mengelilingi satu meja bundar. 1) Gael duduk berseberangan dengan Aga. 2) Michael duduk di antara Togi dan Lala. 3) Laura dan Lala duduk tepat berhadapan. 4) Togi duduk 2 kursi terpisah dari Aga. 5) Didi duduk tepat di sebelah Aga.\n\nPernyataan di bawah ini yang benar adalah ….",
+      "stem": "Teks: Pada suatu jamuan makan malam, 8 orang eksekutif muda (Aga, Didi, Lala, Laura, Gael, Michael, Rani, dan Togi) duduk mengelilingi satu meja bundar. 1) Gael duduk berseberangan dengan Aga. 2) Michael duduk di antara Togi dan Lala. 3) Laura dan Lala duduk tepat berhadapan. 4) Togi duduk 2 kursi terpisah dari Aga. 5) Didi duduk tepat di sebelah Aga.\nPernyataan di bawah ini yang benar adalah ….",
       "options": [
         "Didi duduk di antara Gael dan Togi.",
         "Rani duduk dipisahkan 2 kursi dengan Togi.",
@@ -1353,7 +1353,7 @@
       "id": "tiu-hots-50",
       "subtest": "tiu",
       "topic": "penalaran analitik",
-      "stem": "Teks: Pada suatu jamuan makan malam, 8 orang eksekutif muda (Aga, Didi, Lala, Laura, Gael, Michael, Rani, dan Togi) duduk mengelilingi satu meja bundar. 1) Gael duduk berseberangan dengan Aga. 2) Michael duduk di antara Togi dan Lala. 3) Laura dan Lala duduk tepat berhadapan. 4) Togi duduk 2 kursi terpisah dari Aga. 5) Didi duduk tepat di sebelah Aga.\n\nBila Michael dipisahkan oleh 2 kursi dengan Didi, pernyataan di bawah ini yang benar adalah ….",
+      "stem": "Teks: Pada suatu jamuan makan malam, 8 orang eksekutif muda (Aga, Didi, Lala, Laura, Gael, Michael, Rani, dan Togi) duduk mengelilingi satu meja bundar. 1) Gael duduk berseberangan dengan Aga. 2) Michael duduk di antara Togi dan Lala. 3) Laura dan Lala duduk tepat berhadapan. 4) Togi duduk 2 kursi terpisah dari Aga. 5) Didi duduk tepat di sebelah Aga.\nBila Michael dipisahkan oleh 2 kursi dengan Didi, pernyataan di bawah ini yang benar adalah ….",
       "options": [
         "Michael dan Rani dipisahkan oleh 2 kursi.",
         "Michael dan Aga duduk berseberangan.",
@@ -1388,7 +1388,7 @@
       "id": "tiu-hots-51",
       "subtest": "tiu",
       "topic": "penalaran analitik",
-      "stem": "Teks: Pada suatu jamuan makan malam, 8 orang eksekutif muda (Aga, Didi, Lala, Laura, Gael, Michael, Rani, dan Togi) duduk mengelilingi satu meja bundar. 1) Gael duduk berseberangan dengan Aga. 2) Michael duduk di antara Togi dan Lala. 3) Laura dan Lala duduk tepat berhadapan. 4) Togi duduk 2 kursi terpisah dari Aga. 5) Didi duduk tepat di sebelah Aga.\n\nBila Michael dan Rani duduk berseberangan, pernyataan di bawah ini yang benar adalah ….",
+      "stem": "Teks: Pada suatu jamuan makan malam, 8 orang eksekutif muda (Aga, Didi, Lala, Laura, Gael, Michael, Rani, dan Togi) duduk mengelilingi satu meja bundar. 1) Gael duduk berseberangan dengan Aga. 2) Michael duduk di antara Togi dan Lala. 3) Laura dan Lala duduk tepat berhadapan. 4) Togi duduk 2 kursi terpisah dari Aga. 5) Didi duduk tepat di sebelah Aga.\nBila Michael dan Rani duduk berseberangan, pernyataan di bawah ini yang benar adalah ….",
       "options": [
         "Gael duduk berhadapan dengan Didi.",
         "Gael duduk di sebelah Michael.",
@@ -1423,7 +1423,7 @@
       "id": "tiu-hots-52",
       "subtest": "tiu",
       "topic": "penalaran analitik",
-      "stem": "Teks: Pada suatu jamuan makan malam, 8 orang eksekutif muda (Aga, Didi, Lala, Laura, Gael, Michael, Rani, dan Togi) duduk mengelilingi satu meja bundar. 1) Gael duduk berseberangan dengan Aga. 2) Michael duduk di antara Togi dan Lala. 3) Laura dan Lala duduk tepat berhadapan. 4) Togi duduk 2 kursi terpisah dari Aga. 5) Didi duduk tepat di sebelah Aga.\n\nBeberapa kemungkinan di bawah ini yang tidak benar adalah",
+      "stem": "Teks: Pada suatu jamuan makan malam, 8 orang eksekutif muda (Aga, Didi, Lala, Laura, Gael, Michael, Rani, dan Togi) duduk mengelilingi satu meja bundar. 1) Gael duduk berseberangan dengan Aga. 2) Michael duduk di antara Togi dan Lala. 3) Laura dan Lala duduk tepat berhadapan. 4) Togi duduk 2 kursi terpisah dari Aga. 5) Didi duduk tepat di sebelah Aga.\nBeberapa kemungkinan di bawah ini yang tidak benar adalah",
       "options": [
         "Laura duduk di antara Rani dan Gael.",
         "Lala dan Didi dipisahkan oleh Aga.",
@@ -1458,7 +1458,7 @@
       "id": "tiu-hots-53",
       "subtest": "tiu",
       "topic": "penalaran analitik",
-      "stem": "Teks: Popy, Qiqi, Ria, Sinta, dan Toton mengikuti sebuah tes hasil belajar dengan hasil sebagai berikut. 1. Nilai Ria lebih tinggi daripada nilai Popy, dua kali nilai Qiqi 2. Jika nilai Popy dan Qiqi ditambahkan, hasilnya sama dengan nilai Sinta 3. Nilai Popy lebih besar daripada nilai Toton, namun hanya sepertiga nilai Sinta\n\nHubungan antara nilai Popy, Ria, dan Toton yang benar adalah ….",
+      "stem": "Teks: Popy, Qiqi, Ria, Sinta, dan Toton mengikuti sebuah tes hasil belajar dengan hasil sebagai berikut. 1. Nilai Ria lebih tinggi daripada nilai Popy, dua kali nilai Qiqi 2. Jika nilai Popy dan Qiqi ditambahkan, hasilnya sama dengan nilai Sinta 3. Nilai Popy lebih besar daripada nilai Toton, namun hanya sepertiga nilai Sinta\nHubungan antara nilai Popy, Ria, dan Toton yang benar adalah ….",
       "options": [
         "Nilai Toton lebih rendah daripada nilai Ria, sedangkan nilai Ria lebih rendah daripada nilai Popy",
         "Nilai Ria lebih rendah daripada nilai Popy, sedangkan nilai Popy lebih rendah daripada nilai Toton",
@@ -1485,7 +1485,7 @@
           "text": "Waspadai pembalikan sebab-akibat ('Semua A adalah B' TIDAK berarti 'Semua B adalah A')."
         }
       ],
-      "explain": "Cukup menggunakan syarat 1 dan 2, maka hubungan antara nilai Popy, Ria, dan Toton yang benar adalah: Ria > Popy > Toton Jadi, Nilai Toton lebih rendah daripada nilai Popy, sedangkan nilai Popy lebih rendah daripada nilai Ria",
+      "explain": "Cukup menggunakan syarat 1 dan 2, maka hubungan antara nilai Popy, Ria, dan Toton yang benar adalah: Ria > Popy > Toton Jadi, Nilai Toton lebih rendah daripada nilai Popy, sedangkan nilai Popy lebih rendah daripada nilai Ria.",
       "targetSec": 75,
       "source": "Drill HOTS TIU · Penalaran & Analogi"
     },
@@ -1493,7 +1493,7 @@
       "id": "tiu-hots-54",
       "subtest": "tiu",
       "topic": "penalaran analitik",
-      "stem": "Teks: Popy, Qiqi, Ria, Sinta, dan Toton mengikuti sebuah tes hasil belajar dengan hasil sebagai berikut. 1. Nilai Ria lebih tinggi daripada nilai Popy, dua kali nilai Qiqi 2. Jika nilai Popy dan Qiqi ditambahkan, hasilnya sama dengan nilai Sinta 3. Nilai Popy lebih besar daripada nilai Toton, namun hanya sepertiga nilai Sinta\n\nJika semua nilai berupa bilangan bulat, siswa yang pasti bernilai genap adalah ….",
+      "stem": "Teks: Popy, Qiqi, Ria, Sinta, dan Toton mengikuti sebuah tes hasil belajar dengan hasil sebagai berikut. 1. Nilai Ria lebih tinggi daripada nilai Popy, dua kali nilai Qiqi 2. Jika nilai Popy dan Qiqi ditambahkan, hasilnya sama dengan nilai Sinta 3. Nilai Popy lebih besar daripada nilai Toton, namun hanya sepertiga nilai Sinta\nJika semua nilai berupa bilangan bulat, siswa yang pasti bernilai genap adalah ….",
       "options": [
         "Popy",
         "Qiqi",
