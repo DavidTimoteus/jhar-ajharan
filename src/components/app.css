@@ -3427,9 +3427,14 @@
 /* =====================================================================
  *  HIERARKI TENANG, MODE FOKUS & JALUR EKSPANSI MULTI-DOMAIN
  * ===================================================================== */
-.exam-shell.is-focus .exam-layout {
+.exam-shell.is-focus:not(.with-side-companion) .exam-grid {
   grid-template-columns: minmax(0, 780px);
   justify-content: center;
+}
+
+.exam-shell.with-scratchpad .exam-companion {
+  display: grid;
+  gap: 16px;
 }
 
 .track-banner.is-compact {
@@ -3626,6 +3631,266 @@
   font-size: 1.4rem;
   font-weight: 800;
   color: var(--text-muted);
+}
+
+.kisi-head-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* =====================================================================
+ *  KERTAS CORET-CORETAN DIGITAL (TOUCH MOBILE + MOUSE DESKTOP)
+ * ===================================================================== */
+.scratch-card {
+  background: var(--bg);
+  border: 1px solid var(--neu-edge);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--neu-raised);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.scratch-card.is-panel {
+  width: 100%;
+}
+
+.scratch-card.is-floating {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  width: min(460px, calc(100vw - 32px));
+  z-index: 60;
+  box-shadow: 0 22px 48px rgba(15, 23, 42, 0.28), var(--neu-raised);
+  transform: translate(var(--scratch-drag-x, 0px), var(--scratch-drag-y, 0px));
+}
+
+.scratch-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--surface-sunk);
+  border-bottom: 1px solid var(--border);
+  user-select: none;
+}
+
+.scratch-head.is-draggable {
+  cursor: grab;
+  touch-action: none;
+}
+
+.scratch-head.is-draggable:active {
+  cursor: grabbing;
+}
+
+.scratch-title-wrap {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  min-width: 0;
+}
+
+.scratch-title-wrap strong {
+  font-size: 0.88rem;
+}
+
+.scratch-title-wrap small {
+  font-size: 0.72rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scratch-head-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.scratch-mini-btn,
+.scratch-close-btn {
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  border-radius: 9px;
+  padding: 5px 9px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.scratch-close-btn {
+  padding: 5px 10px;
+}
+
+.scratch-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.scratch-tool-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.scratch-tool-group.is-right {
+  margin-left: auto;
+}
+
+.scratch-tool-btn {
+  min-height: 34px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: var(--bg);
+  box-shadow: var(--neu-raised-sm);
+  color: var(--text);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 140ms ease;
+}
+
+.scratch-tool-btn:disabled {
+  opacity: 0.42;
+  cursor: not-allowed;
+}
+
+.scratch-tool-btn.is-active {
+  background: var(--navy);
+  color: #fff;
+  box-shadow: var(--neu-navy-raised);
+}
+
+.scratch-tool-btn.is-danger {
+  background: var(--fail);
+  color: #fff;
+}
+
+.scratch-color-dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid var(--bg);
+  background: var(--dot-color, #1b2838);
+  box-shadow: 0 0 0 1px var(--border-strong);
+  cursor: pointer;
+  transition: transform 130ms ease;
+}
+
+.scratch-color-dot.is-active {
+  transform: scale(1.16);
+  box-shadow: 0 0 0 2px var(--navy);
+}
+
+.scratch-size-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  border: 1px solid transparent;
+  background: var(--bg);
+  box-shadow: var(--neu-raised-sm);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.scratch-size-btn.is-active {
+  box-shadow: var(--neu-inset-sm);
+  border-color: var(--navy);
+}
+
+.scratch-size-pip {
+  display: block;
+  border-radius: 50%;
+  background: var(--text);
+}
+
+.scratch-stage {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  background-color: #ffffff;
+  overflow: hidden;
+  transition: height 180ms ease;
+}
+
+[data-theme='dark'] .scratch-stage {
+  background-color: #0f1722;
+}
+
+.scratch-stage.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(30, 43, 58, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 43, 58, 0.08) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+[data-theme='dark'] .scratch-stage.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(226, 232, 240, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(226, 232, 240, 0.08) 1px, transparent 1px);
+}
+
+.scratch-stage.bg-lined {
+  background-image: linear-gradient(to bottom, rgba(30, 43, 58, 0.09) 1px, transparent 1px);
+  background-size: 100% 28px;
+}
+
+[data-theme='dark'] .scratch-stage.bg-lined {
+  background-image: linear-gradient(to bottom, rgba(226, 232, 240, 0.09) 1px, transparent 1px);
+}
+
+.scratch-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: crosshair;
+}
+
+.scratch-canvas.is-eraser {
+  cursor: cell;
+}
+
+.scratch-empty-hint {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+@media (max-width: 780px) {
+  .scratch-card.is-floating {
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    width: auto;
+    transform: none;
+    border-radius: 20px;
+  }
+
+  .scratch-tool-group.is-right {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 640px) {
